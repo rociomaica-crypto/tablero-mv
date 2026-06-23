@@ -168,16 +168,9 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;backgrou
 var ghRepo="", ghToken="";
 
 function init(){
-  ghRepo=localStorage.getItem("mv_jefes_repo")||"";
-  ghToken=localStorage.getItem("mv_jefes_token")||"";
-  if(ghRepo&&ghToken){
-    document.getElementById("config-section").style.display="none";
-    loadData();
-  } else {
-    document.getElementById("cfg-repo").value=ghRepo;
-    document.getElementById("cfg-token").value=ghToken;
-    document.getElementById("config-section").style.display="block";
-  }
+  // Public repo - no token needed, load directly
+  document.getElementById("config-section").style.display="none";
+  loadData();
 }
 function toggleConfig(){
   var s=document.getElementById("config-section");
@@ -216,27 +209,26 @@ function showStatus(msg,type){
 }
 
 function loadData(){
-  if(!ghRepo||!ghToken){return;}
   var btn=document.getElementById("refresh-btn");
   btn.classList.add("loading");
-  document.getElementById("refresh-icon").outerHTML="<span class=\"spinner\" id=\"refresh-icon\"></span>";
-  var url="https://api.github.com/repos/"+ghRepo+"/contents/checker-data/estado.json";
-  fetch(url,{headers:{"Authorization":"token "+ghToken,"Accept":"application/vnd.github.v3+json","Cache-Control":"no-cache"}})
+  btn.innerHTML="<span class=\"spinner\"></span> Actualizando...";
+  // Read directly from raw GitHub - no token needed for public repos
+  var url="https://raw.githubusercontent.com/rociomaica-crypto/tablero-mv/main/checker-data/estado.json?t="+Date.now();
+  fetch(url)
     .then(function(r){
       if(!r.ok)throw new Error("HTTP "+r.status);
       return r.json();
     })
-    .then(function(file){
-      var raw=decodeURIComponent(escape(atob(file.content.replace(/\n/g,""))));
-      var data=JSON.parse(raw);
+    .then(function(data){
       renderDashboard(data);
-      document.getElementById("refresh-btn").classList.remove("loading");
-      document.getElementById("refresh-btn").innerHTML="&#8635; Actualizar";
+      btn.classList.remove("loading");
+      btn.innerHTML="&#8635; Actualizar";
+      document.getElementById("config-section").style.display="none";
     })
     .catch(function(err){
-      showStatus("No se pudo cargar: "+err.message+". Puede que aun no se haya sincronizado ninguna actualizacion.","err");
-      document.getElementById("refresh-btn").classList.remove("loading");
-      document.getElementById("refresh-btn").innerHTML="&#8635; Actualizar";
+      showStatus("No se pudo cargar: "+err.message,"err");
+      btn.classList.remove("loading");
+      btn.innerHTML="&#8635; Actualizar";
     });
 }
 
