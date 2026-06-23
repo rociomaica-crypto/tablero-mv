@@ -1,0 +1,73 @@
+{
+  "updatedAt": "2026-06-23T11:33:00.151Z",
+  "updatedBy": "Rocio Maica",
+  "checks": {},
+  "otMeta": {
+    "24930": {
+      "ot": "24930",
+      "obra": "NAVE 5 AMPLIACION FABRICA CHACOMER",
+      "cliente": "Chacomer S.A.E.",
+      "fecha": "23/6/2026",
+      "avances": {
+        "arm": 79,
+        "pint": 27,
+        "env": 1,
+        "mont": 0
+      },
+      "totales": {
+        "cant": 2521,
+        "arm_lib": 2000,
+        "arm_pend": 505,
+        "pint_ok": 669,
+        "pint_pend": 1852,
+        "env_ok": 22,
+        "env_pend": 2499,
+        "items": 217
+      }
+    },
+    "25527": {
+      "ot": "25527",
+      "obra": "Galpón Dos Beta_ESTRUCTURAS",
+      "cliente": "BENITEZ BITTAR CONSTRUCTORA S.A",
+      "fecha": "23/6/2026",
+      "avances": {
+        "arm": 62,
+        "pint": 45,
+        "env": 44,
+        "mont": 0
+      },
+      "totales": {
+        "cant": 12129,
+        "arm_lib": 7505,
+        "arm_pend": 4612,
+        "pint_ok": 5501,
+        "pint_pend": 6626,
+        "env_ok": 5308,
+        "env_pend": 6820,
+        "items": 754
+      }
+    },
+    "25676": {
+      "ot": "25676",
+      "obra": "Fabricación de estructura metálica para Silo Ovetr",
+      "cliente": "Santa Rita Constructora S.A",
+      "fecha": "23/6/2026",
+      "avances": {
+        "arm": 0,
+        "pint": 0,
+        "env": 0,
+        "mont": 0
+      },
+      "totales": {
+        "cant": 2427,
+        "arm_lib": 0,
+        "arm_pend": 2427,
+        "pint_ok": 0,
+        "pint_pend": 2427,
+        "env_ok": 0,
+        "env_pend": 2427,
+        "items": 249
+      }
+    }
+  }
+}
