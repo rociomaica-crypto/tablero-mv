@@ -105,6 +105,41 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;backgrou
 .status-info{background:#EFF6FF;border:1.5px solid #93C5FD;color:#1E40AF;display:block}
 
 @media(max-width:700px){.config-form{grid-template-columns:1fr}.header-right{flex-direction:column;align-items:flex-end}.ot-grid{grid-template-columns:1fr}}
+
+/* MODAL */
+.modal-overlay{position:fixed;inset:0;background:rgba(13,30,50,0.7);z-index:500;display:flex;align-items:center;justify-content:center;padding:20px;backdrop-filter:blur(3px)}
+.modal-box{background:#fff;border-radius:16px;width:100%;max-width:820px;max-height:88vh;display:flex;flex-direction:column;box-shadow:0 20px 60px rgba(0,0,0,0.35);overflow:hidden}
+.modal-header{background:linear-gradient(135deg,#0D3B66,#1A5C8A);padding:18px 22px;display:flex;align-items:center;justify-content:space-between;flex-shrink:0}
+.modal-header h3{font-size:15px;font-weight:800;color:#fff}
+.modal-header p{font-size:11px;color:#7DD3FC;margin-top:3px}
+.modal-close{background:rgba(255,255,255,0.15);border:1px solid rgba(255,255,255,0.3);border-radius:8px;color:#fff;font-size:18px;width:32px;height:32px;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.modal-close:hover{background:rgba(255,255,255,0.25)}
+.modal-tabs{display:flex;border-bottom:1px solid #E8F4FD;background:#F8FBFE;flex-shrink:0}
+.modal-tab{font-size:12px;font-weight:700;padding:12px 20px;cursor:pointer;color:#4A7FA5;border-bottom:3px solid transparent;transition:all 0.15s}
+.modal-tab:hover{color:#0D3B66;background:#EEF4F8}
+.modal-tab.active{color:#0D3B66;border-bottom-color:#0D3B66;background:#fff}
+.modal-tab .cnt{display:inline-block;font-size:10px;padding:2px 7px;border-radius:20px;margin-left:6px;font-weight:700}
+.modal-tab.active .cnt-arm{background:#FEE2E2;color:#991B1B}
+.modal-tab .cnt-arm{background:#F5F5F4;color:#78716C}
+.modal-tab.active .cnt-pint{background:#FEF3C7;color:#92400E}
+.modal-tab .cnt-pint{background:#F5F5F4;color:#78716C}
+.modal-body{overflow-y:auto;flex:1;padding:0}
+.modal-search{padding:12px 18px;border-bottom:1px solid #E8F4FD;background:#fff;position:sticky;top:0;z-index:1}
+.modal-search input{width:100%;font-size:12px;padding:8px 12px;border:1.5px solid #C8DDF0;border-radius:8px}
+.modal-search input:focus{outline:none;border-color:#1A5C8A}
+.pend-table{width:100%;border-collapse:collapse;font-size:12px}
+.pend-table th{background:#F0F7FF;padding:9px 16px;text-align:left;font-size:10px;font-weight:700;color:#1A5C8A;text-transform:uppercase;letter-spacing:0.06em;border-bottom:1px solid #C8DDF0;position:sticky;top:0}
+.pend-table td{padding:9px 16px;border-bottom:1px solid #F0F7FF;vertical-align:middle}
+.pend-table tr:hover td{background:#F8FBFE}
+.pend-table tr:last-child td{border-bottom:none}
+.pend-badge{display:inline-block;font-size:11px;font-weight:700;padding:3px 10px;border-radius:20px}
+.pend-arm{background:#FEE2E2;color:#991B1B;border:1px solid #FCA5A5}
+.pend-pint{background:#FEF3C7;color:#92400E;border:1px solid #FCD34D}
+.modal-footer{padding:12px 18px;border-top:1px solid #E8F4FD;background:#F8FBFE;font-size:11px;color:#4A7FA5;display:flex;justify-content:space-between;align-items:center;flex-shrink:0}
+.btn-export-modal{font-size:11px;padding:5px 14px;background:#0D3B66;border:none;border-radius:6px;color:#fff;cursor:pointer;font-weight:600}
+.btn-export-modal:hover{background:#1A5C8A}
+.pend-link{color:#1A5C8A;font-weight:700;cursor:pointer;text-decoration:underline;text-underline-offset:2px}
+.pend-link:hover{color:#0D3B66}
 </style>
 </head>
 <body>
@@ -362,6 +397,130 @@ function renderDashboard(data){
 }
 
 init();
+
+// ============ MODAL PENDIENTES ============
+var modalData = {arm:[], pint:[], ot:"", obra:""};
+var modalTab = "arm";
+
+function openModal(otKey, tab){
+  var o = currentData.otMeta[otKey];
+  if(!o) return;
+  modalData.arm = o.arm_pend_items || [];
+  modalData.pint = o.pint_pend_items || [];
+  modalData.ot = o.ot;
+  modalData.obra = o.obra;
+  document.getElementById("modal-title").textContent = "Pendientes — OT " + o.ot;
+  document.getElementById("modal-subtitle").textContent = o.obra + (o.cliente ? " · " + o.cliente : "");
+  document.getElementById("cnt-arm").textContent = modalData.arm.length;
+  document.getElementById("cnt-pint").textContent = modalData.pint.length;
+  document.getElementById("modal-search").value = "";
+  modalTab = tab;
+  switchTab(tab);
+  document.getElementById("modal-overlay").style.display = "flex";
+  document.body.style.overflow = "hidden";
+}
+
+function closeModal(){
+  document.getElementById("modal-overlay").style.display = "none";
+  document.body.style.overflow = "";
+}
+
+function closeModalOutside(ev){
+  if(ev.target === document.getElementById("modal-overlay")) closeModal();
+}
+
+function switchTab(tab){
+  modalTab = tab;
+  document.getElementById("tab-arm").classList.toggle("active", tab==="arm");
+  document.getElementById("tab-pint").classList.toggle("active", tab==="pint");
+  document.getElementById("modal-search").value = "";
+  renderModalTable("");
+}
+
+function filterModal(){
+  renderModalTable(document.getElementById("modal-search").value.toLowerCase());
+}
+
+function renderModalTable(filter){
+  var items = modalTab==="arm" ? modalData.arm : modalData.pint;
+  var badgeClass = modalTab==="arm" ? "pend-arm" : "pend-pint";
+  if(filter){
+    items = items.filter(function(r){
+      return r.cod.toLowerCase().indexOf(filter)>=0 || r.prod.toLowerCase().indexOf(filter)>=0;
+    });
+  }
+  var html = "";
+  items.forEach(function(r){
+    html += "<tr>" +
+      "<td style=\"font-family:monospace;font-size:11px;color:#1A5C8A;font-weight:600\">" + r.cod + "</td>" +
+      "<td>" + r.prod + "</td>" +
+      "<td style=\"text-align:right;color:#4A7FA5\">" + r.cant + "</td>" +
+      "<td style=\"text-align:right\"><span class=\"pend-badge " + badgeClass + "\">" + r.pend + " pend.</span></td>" +
+      "</tr>";
+  });
+  if(!html) html = "<tr><td colspan=\"4\" style=\"text-align:center;padding:30px;color:#7BA7C4\">Sin resultados</td></tr>";
+  document.getElementById("modal-tbody").innerHTML = html;
+  document.getElementById("modal-count").textContent = items.length.toLocaleString("es") + " items pendientes";
+}
+
+function exportModalCSV(){
+  var items = modalTab==="arm" ? modalData.arm : modalData.pint;
+  var proc = modalTab==="arm" ? "Armado" : "Pintura";
+  var csv = "\ufeffCodigo Tekla;Producto;Cantidad Total;Pendiente " + proc + "\n";
+  items.forEach(function(r){
+    csv += r.cod + ";" + r.prod + ";" + r.cant + ";" + r.pend + "\n";
+  });
+  var blob = new Blob([csv], {type:"text/csv;charset=utf-8"});
+  var a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "Pendientes_" + proc + "_OT" + modalData.ot + ".csv";
+  a.click();
+}
+
+// Store current data globally for modal access
+var currentData = {};
+
 </script>
+
+<!-- MODAL PENDIENTES -->
+<div class="modal-overlay" id="modal-overlay" style="display:none" onclick="closeModalOutside(event)">
+  <div class="modal-box">
+    <div class="modal-header">
+      <div>
+        <h3 id="modal-title">Pendientes</h3>
+        <p id="modal-subtitle"></p>
+      </div>
+      <button class="modal-close" onclick="closeModal()">&#10005;</button>
+    </div>
+    <div class="modal-tabs">
+      <div class="modal-tab active" id="tab-arm" onclick="switchTab('arm')">
+        Armado <span class="cnt cnt-arm" id="cnt-arm">0</span>
+      </div>
+      <div class="modal-tab" id="tab-pint" onclick="switchTab('pint')">
+        Pintura <span class="cnt cnt-pint" id="cnt-pint">0</span>
+      </div>
+    </div>
+    <div class="modal-search">
+      <input type="text" id="modal-search" placeholder="Buscar por codigo o producto..." oninput="filterModal()">
+    </div>
+    <div class="modal-body">
+      <table class="pend-table">
+        <thead>
+          <tr>
+            <th style="width:140px">Codigo Tekla</th>
+            <th>Producto</th>
+            <th style="text-align:right;width:80px">Total</th>
+            <th style="text-align:right;width:100px">Pendiente</th>
+          </tr>
+        </thead>
+        <tbody id="modal-tbody"></tbody>
+      </table>
+    </div>
+    <div class="modal-footer">
+      <span id="modal-count"></span>
+      <button class="btn-export-modal" onclick="exportModalCSV()">Exportar CSV</button>
+    </div>
+  </div>
+</div>
 </body>
 </html>
