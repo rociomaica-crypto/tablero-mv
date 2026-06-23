@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T11:45:58.836Z",
+  "updatedAt": "2026-06-23T12:52:54.408Z",
   "updatedBy": "Rocio Maica",
   "checks": {},
   "otMeta": {
@@ -67,6 +67,28 @@
         "env_ok": 0,
         "env_pend": 2427,
         "items": 249
+      }
+    },
+    "25694": {
+      "ot": "25694",
+      "obra": "Fabricacion de Prototipo de Box - BRAS PINE",
+      "cliente": "SACEEM SA",
+      "fecha": "23/6/2026",
+      "avances": {
+        "arm": 0,
+        "pint": 0,
+        "env": 0,
+        "mont": 0
+      },
+      "totales": {
+        "cant": 7,
+        "arm_lib": 0,
+        "arm_pend": 7,
+        "pint_ok": 0,
+        "pint_pend": 7,
+        "env_ok": 0,
+        "env_pend": 7,
+        "items": 6
       }
     }
   }
