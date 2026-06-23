@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T12:55:50.850Z",
+  "updatedAt": "2026-06-23T13:01:51.005Z",
   "updatedBy": "Rocio Maica",
   "checks": {},
   "otMeta": {
@@ -45,6 +45,28 @@
         "env_ok": 5308,
         "env_pend": 6820,
         "items": 754
+      }
+    },
+    "25572": {
+      "ot": "25572",
+      "obra": "Provision y fabricación,  Las Residentas F1",
+      "cliente": "Metarq  S.A",
+      "fecha": "23/6/2026",
+      "avances": {
+        "arm": 0,
+        "pint": 0,
+        "env": 0,
+        "mont": 0
+      },
+      "totales": {
+        "cant": 2063,
+        "arm_lib": 0,
+        "arm_pend": 2063,
+        "pint_ok": 0,
+        "pint_pend": 2063,
+        "env_ok": 0,
+        "env_pend": 2063,
+        "items": 486
       }
     },
     "25676": {
