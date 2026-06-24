@@ -1,13 +1,3448 @@
 {
-  "updatedAt": "2026-06-24T11:09:07.413Z",
+  "updatedAt": "2026-06-24T14:13:58.818Z",
   "updatedBy": "Angel Villa",
   "checks": {
     "25257_1": {
       "arm_state_state": "soldado",
       "pint_state_state": "galvamax"
+    },
+    "25603_1": {
+      "arm_state_state": "soldado",
+      "pint_state_state": "pintado"
+    },
+    "25107_212": {
+      "arm_state_state": "armado",
+      "pint_state_state": "en_pintura"
+    },
+    "25107_213": {
+      "arm_state_state": "soldado"
+    },
+    "25107_214": {
+      "arm_state_state": "armado"
+    },
+    "25107_215": {
+      "arm_state_state": "soldado"
+    },
+    "25107_131": {
+      "arm_state_state": ""
+    },
+    "25630_14": {
+      "arm_state_state": "soldado",
+      "pint_state_state": "galvamax"
+    },
+    "25630_15": {
+      "arm_state_state": "soldado",
+      "pint_state_state": "galvamax"
     }
   },
   "otMeta": {
+    "25107": {
+      "ot": "25107",
+      "obra": "Centro Comercial Luque Opc 2",
+      "cliente": "CHUTZPAH SOCIEDAD ANONIMA (CHUZA S.A.)",
+      "fecha": "24/6/2026",
+      "avances": {
+        "arm": 6,
+        "pint": 0,
+        "env": 5,
+        "mont": 0
+      },
+      "totales": {
+        "cant": 2698,
+        "arm_lib": 165,
+        "arm_pend": 2533,
+        "pint_ok": 0,
+        "pint_pend": 2698,
+        "env_ok": 134,
+        "env_pend": 2564,
+        "items": 248
+      },
+      "arm_pend_items": [
+        {
+          "cod": "BJF-CH-1",
+          "prod": "Cruz Horizontal",
+          "long": 10370,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-CH-2",
+          "prod": "Cruz Horizontal",
+          "long": 9132,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BJF-CH-3",
+          "prod": "Cruz Horizontal",
+          "long": 10448,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-CH-4",
+          "prod": "Cruz Horizontal",
+          "long": 9124,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BJF-CH-5",
+          "prod": "Cruz Horizontal",
+          "long": 10375,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-CH-6",
+          "prod": "Cruz Horizontal",
+          "long": 10333,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-CH-7",
+          "prod": "Cruz Horizontal",
+          "long": 9120,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-CH-8",
+          "prod": "Cruz Horizontal",
+          "long": 9138,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BJF-CH-9",
+          "prod": "Cruz Horizontal",
+          "long": 8829,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-CH-10",
+          "prod": "Cruz Horizontal",
+          "long": 10326,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-CH-11",
+          "prod": "Cruz Horizontal",
+          "long": 9295,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-CH-12",
+          "prod": "Cruz Horizontal",
+          "long": 8821,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-CH-13",
+          "prod": "Cruz Horizontal",
+          "long": 10340,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-CH-14",
+          "prod": "Cruz Horizontal",
+          "long": 10338,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-CH-15",
+          "prod": "Cruz Horizontal",
+          "long": 9970,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-CH-16",
+          "prod": "Cruz Horizontal",
+          "long": 9287,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-CH-17",
+          "prod": "Cruz Horizontal",
+          "long": 8835,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-CH-18",
+          "prod": "Cruz Horizontal",
+          "long": 9650,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BJF-CH-19",
+          "prod": "Cruz Horizontal",
+          "long": 9963,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-CH-20",
+          "prod": "Cruz Horizontal",
+          "long": 9300,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-CH-21",
+          "prod": "Cruz Horizontal",
+          "long": 9522,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-CH-22",
+          "prod": "Cruz Horizontal",
+          "long": 9640,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-CH-23",
+          "prod": "Cruz Horizontal",
+          "long": 9973,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-CH-24",
+          "prod": "Cruz Horizontal",
+          "long": 9975,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-CH-25",
+          "prod": "Cruz Horizontal",
+          "long": 9041,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BJF-CH-26",
+          "prod": "Cruz Horizontal",
+          "long": 9514,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-CH-27",
+          "prod": "Cruz Horizontal",
+          "long": 9653,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-CH-28",
+          "prod": "Cruz Horizontal",
+          "long": 9034,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-CH-29",
+          "prod": "Cruz Horizontal",
+          "long": 9058,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-CH-30",
+          "prod": "Cruz Horizontal",
+          "long": 10731,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-CH-31",
+          "prod": "Cruz Horizontal",
+          "long": 10363,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-CR-1",
+          "prod": "Correa Techo",
+          "long": 5705,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-CR-2",
+          "prod": "Correa Techo",
+          "long": 7934,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "BJF-CR-3",
+          "prod": "Correa Techo",
+          "long": 7930,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BJF-CR-4",
+          "prod": "Correa Techo",
+          "long": 7925,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-CR-5",
+          "prod": "Correa Techo",
+          "long": 7944,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BJF-CR-6",
+          "prod": "Correa Techo",
+          "long": 7938,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-CR-7",
+          "prod": "Correa Techo",
+          "long": 5948,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-CR-8",
+          "prod": "Correa Techo",
+          "long": 6352,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-CR-9",
+          "prod": "Correa Techo",
+          "long": 8442,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-CR-10",
+          "prod": "Correa Techo",
+          "long": 8453,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-DI-1",
+          "prod": "Diagonal",
+          "long": 3062,
+          "cant": 8,
+          "pend": 8
+        },
+        {
+          "cod": "BJF-DI-2",
+          "prod": "Diagonal",
+          "long": 3028,
+          "cant": 72,
+          "pend": 72
+        },
+        {
+          "cod": "BJF-DI-3",
+          "prod": "Diagonal",
+          "long": 3166,
+          "cant": 8,
+          "pend": 8
+        },
+        {
+          "cod": "BJF-MF-1",
+          "prod": "Mano Francesa",
+          "long": 763,
+          "cant": 16,
+          "pend": 16
+        },
+        {
+          "cod": "BJF-MF-2",
+          "prod": "Mano Francesa",
+          "long": 997,
+          "cant": 70,
+          "pend": 70
+        },
+        {
+          "cod": "BJF-MF-3",
+          "prod": "Mano Francesa",
+          "long": 997,
+          "cant": 70,
+          "pend": 70
+        },
+        {
+          "cod": "BJF-MF-4",
+          "prod": "Mano Francesa",
+          "long": 855,
+          "cant": 10,
+          "pend": 5
+        },
+        {
+          "cod": "BJF-MF-5",
+          "prod": "Mano Francesa",
+          "long": 1347,
+          "cant": 10,
+          "pend": 5
+        },
+        {
+          "cod": "BJF-MF-6",
+          "prod": "Mano Francesa",
+          "long": 953,
+          "cant": 10,
+          "pend": 10
+        },
+        {
+          "cod": "BJF-MF-7",
+          "prod": "Mano Francesa",
+          "long": 953,
+          "cant": 10,
+          "pend": 10
+        },
+        {
+          "cod": "BJF-MF-8",
+          "prod": "Mano Francesa",
+          "long": 763,
+          "cant": 18,
+          "pend": 18
+        },
+        {
+          "cod": "BJF-MF-9",
+          "prod": "Mano Francesa",
+          "long": 878,
+          "cant": 10,
+          "pend": 10
+        },
+        {
+          "cod": "BJF-MF-10",
+          "prod": "Mano Francesa",
+          "long": 878,
+          "cant": 10,
+          "pend": 10
+        },
+        {
+          "cod": "BJF-MF-11",
+          "prod": "Mano Francesa",
+          "long": 803,
+          "cant": 10,
+          "pend": 10
+        },
+        {
+          "cod": "BJF-MF-12",
+          "prod": "Mano Francesa",
+          "long": 803,
+          "cant": 10,
+          "pend": 10
+        },
+        {
+          "cod": "BJF-MF-13",
+          "prod": "Mano Francesa",
+          "long": 872,
+          "cant": 10,
+          "pend": 10
+        },
+        {
+          "cod": "BJF-MF-14",
+          "prod": "Mano Francesa",
+          "long": 872,
+          "cant": 10,
+          "pend": 10
+        },
+        {
+          "cod": "BJF-MF-15",
+          "prod": "Mano Francesa",
+          "long": 1720,
+          "cant": 10,
+          "pend": 5
+        },
+        {
+          "cod": "BJF-MF-16",
+          "prod": "Mano Francesa",
+          "long": 926,
+          "cant": 10,
+          "pend": 5
+        },
+        {
+          "cod": "BJF-MF-17",
+          "prod": "Mano Francesa",
+          "long": 1255,
+          "cant": 67,
+          "pend": 67
+        },
+        {
+          "cod": "BJF-MF-18",
+          "prod": "Mano Francesa",
+          "long": 1255,
+          "cant": 67,
+          "pend": 67
+        },
+        {
+          "cod": "BJF-PCR-1",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5705,
+          "cant": 12,
+          "pend": 12
+        },
+        {
+          "cod": "BJF-PCR-2",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7934,
+          "cant": 36,
+          "pend": 36
+        },
+        {
+          "cod": "BJF-PCR-3",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7930,
+          "cant": 12,
+          "pend": 12
+        },
+        {
+          "cod": "BJF-PCR-4",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7927,
+          "cant": 24,
+          "pend": 24
+        },
+        {
+          "cod": "BJF-PCR-5",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7944,
+          "cant": 12,
+          "pend": 12
+        },
+        {
+          "cod": "BJF-PCR-6",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7941,
+          "cant": 24,
+          "pend": 24
+        },
+        {
+          "cod": "BJF-PCR-7",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5705,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "BJF-PCR-8",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5705,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PCR-9",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7934,
+          "cant": 18,
+          "pend": 18
+        },
+        {
+          "cod": "BJF-PCR-10",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5948,
+          "cant": 12,
+          "pend": 12
+        },
+        {
+          "cod": "BJF-PCR-11",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7934,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BJF-PCR-12",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5705,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PCR-13",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7934,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BJF-PCR-14",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7930,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "BJF-PCR-15",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5705,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PCR-16",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7930,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PCR-17",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7934,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BJF-PCR-18",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7927,
+          "cant": 12,
+          "pend": 12
+        },
+        {
+          "cod": "BJF-PCR-19",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5705,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PCR-20",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7927,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-PCR-21",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7944,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "BJF-PCR-22",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7930,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PCR-23",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7934,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BJF-PCR-24",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7944,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PCR-25",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7941,
+          "cant": 12,
+          "pend": 12
+        },
+        {
+          "cod": "BJF-PCR-26",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7927,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-PCR-27",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7941,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-PCR-28",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7930,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PCR-29",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5705,
+          "cant": 14,
+          "pend": 14
+        },
+        {
+          "cod": "BJF-PCR-30",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7944,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PCR-31",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7927,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-PCR-32",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7934,
+          "cant": 42,
+          "pend": 42
+        },
+        {
+          "cod": "BJF-PCR-33",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7941,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-PCR-34",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7930,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PCR-35",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5948,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "BJF-PCR-36",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7944,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PCR-37",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7927,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-PCR-38",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5948,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PCR-39",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7941,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-PCR-40",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7944,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PCR-41",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7930,
+          "cant": 14,
+          "pend": 14
+        },
+        {
+          "cod": "BJF-PCR-42",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5948,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PCR-43",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7941,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-PCR-44",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7927,
+          "cant": 18,
+          "pend": 18
+        },
+        {
+          "cod": "BJF-PCR-45",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5948,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PCR-46",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7944,
+          "cant": 8,
+          "pend": 8
+        },
+        {
+          "cod": "BJF-PCR-47",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7925,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "BJF-PCR-48",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7941,
+          "cant": 23,
+          "pend": 23
+        },
+        {
+          "cod": "BJF-PCR-49",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5948,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PCR-50",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7944,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "BJF-PCR-51",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5948,
+          "cant": 10,
+          "pend": 10
+        },
+        {
+          "cod": "BJF-PCR-52",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7927,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PCR-53",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7941,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PCR-54",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 10001,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PCR-55",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 13537,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PCR-56",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 9087,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PCR-57",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 4650,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PIS-1",
+          "prod": "Pilar Alma Llena",
+          "long": 185,
+          "cant": 9,
+          "pend": 9
+        },
+        {
+          "cod": "BJF-PIS-2",
+          "prod": "Pilar Alma Llena",
+          "long": 855,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PIS-3",
+          "prod": "Pilar Alma Llena",
+          "long": 185,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PIS-4",
+          "prod": "Pilar Alma Llena",
+          "long": 1538,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-PIS-5",
+          "prod": "Pilar Alma Llena",
+          "long": 2038,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PIS-6",
+          "prod": "Pilar Alma Llena",
+          "long": 9005,
+          "cant": 5,
+          "pend": 5
+        },
+        {
+          "cod": "BJF-PIS-7",
+          "prod": "Pilar Alma Llena",
+          "long": 2738,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-PIS-8",
+          "prod": "Pilar Alma Llena",
+          "long": 1038,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PIS-9",
+          "prod": "Pilar Alma Llena",
+          "long": 3155,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PIS-10",
+          "prod": "Pilar Alma Llena",
+          "long": 2648,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PIS-11",
+          "prod": "Pilar Alma Llena",
+          "long": 9380,
+          "cant": 5,
+          "pend": 5
+        },
+        {
+          "cod": "BJF-PIS-12",
+          "prod": "Pilar Alma Llena",
+          "long": 2038,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PIS-13",
+          "prod": "Pilar Alma Llena",
+          "long": 1998,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-PIS-14",
+          "prod": "Pilar Alma Llena",
+          "long": 1400,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-PIS-15",
+          "prod": "Pilar Alma Llena",
+          "long": 3155,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PIS-16",
+          "prod": "Pilar Alma Llena",
+          "long": 823,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PIS-17",
+          "prod": "Pilar Alma Llena",
+          "long": 2648,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PIS-18",
+          "prod": "Pilar Alma Llena",
+          "long": 333,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PIS-19",
+          "prod": "Pilar Alma Llena",
+          "long": 1105,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PIS-20",
+          "prod": "Pilar Alma Llena",
+          "long": 543,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PIS-21",
+          "prod": "Pilar Alma Llena",
+          "long": 366,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PL-2",
+          "prod": "Placa",
+          "long": 445,
+          "cant": 28,
+          "pend": 28
+        },
+        {
+          "cod": "BJF-PL-3",
+          "prod": "Placa",
+          "long": 445,
+          "cant": 14,
+          "pend": 14
+        },
+        {
+          "cod": "BJF-PL-4",
+          "prod": "Placa",
+          "long": 315,
+          "cant": 14,
+          "pend": 14
+        },
+        {
+          "cod": "BJF-PL-5",
+          "prod": "Placa",
+          "long": 445,
+          "cant": 80,
+          "pend": 80
+        },
+        {
+          "cod": "BJF-PL-6",
+          "prod": "Placa",
+          "long": 445,
+          "cant": 40,
+          "pend": 40
+        },
+        {
+          "cod": "BJF-PL-7",
+          "prod": "Placa",
+          "long": 315,
+          "cant": 60,
+          "pend": 60
+        },
+        {
+          "cod": "BJF-PL-8",
+          "prod": "Placa",
+          "long": 445,
+          "cant": 20,
+          "pend": 20
+        },
+        {
+          "cod": "BJF-PL-9",
+          "prod": "Placa",
+          "long": 445,
+          "cant": 10,
+          "pend": 10
+        },
+        {
+          "cod": "BJF-PL-10",
+          "prod": "Placa",
+          "long": 445,
+          "cant": 20,
+          "pend": 20
+        },
+        {
+          "cod": "BJF-PL-11",
+          "prod": "Placa",
+          "long": 445,
+          "cant": 10,
+          "pend": 10
+        },
+        {
+          "cod": "BJF-PL-12",
+          "prod": "Placa",
+          "long": 445,
+          "cant": 40,
+          "pend": 40
+        },
+        {
+          "cod": "BJF-PL-13",
+          "prod": "Placa",
+          "long": 445,
+          "cant": 20,
+          "pend": 20
+        },
+        {
+          "cod": "BJF-PL-14",
+          "prod": "Placa",
+          "long": 315,
+          "cant": 20,
+          "pend": 20
+        },
+        {
+          "cod": "BJF-SC-1",
+          "prod": "Soporte Cruz",
+          "long": 130,
+          "cant": 58,
+          "pend": 58
+        },
+        {
+          "cod": "BJF-SC-2",
+          "prod": "Soporte Cruz",
+          "long": 130,
+          "cant": 58,
+          "pend": 58
+        },
+        {
+          "cod": "BJF-SD-1",
+          "prod": "Soporte Diagonal",
+          "long": 50,
+          "cant": 176,
+          "pend": 176
+        },
+        {
+          "cod": "BJF-TC-1",
+          "prod": "Tilla de compresion",
+          "long": 1598,
+          "cant": 80,
+          "pend": 80
+        },
+        {
+          "cod": "BJF-TI-1",
+          "prod": "Tilla de Traccion",
+          "long": 1686,
+          "cant": 590,
+          "pend": 590
+        },
+        {
+          "cod": "BJF-VAT-1",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 7864,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BJF-VAT-2",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 5325,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BJF-VAT-3",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 7860,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VAT-4",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 7864,
+          "cant": 10,
+          "pend": 10
+        },
+        {
+          "cod": "BJF-VAT-5",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 7855,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VAT-6",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 7874,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VAT-7",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 7868,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VAT-8",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 7857,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "BJF-VAT-9",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 7857,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VAT-10",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 7855,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BJF-VAT-11",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 7871,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VAT-12",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 7871,
+          "cant": 7,
+          "pend": 7
+        },
+        {
+          "cod": "BJF-VAT-13",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 7868,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BJF-VAT-14",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 5568,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BJF-VAT-15",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 5300,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BJF-VAT-16",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 7814,
+          "cant": 9,
+          "pend": 9
+        },
+        {
+          "cod": "BJF-VAT-17",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 7810,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BJF-VAT-18",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 7805,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "BJF-VAT-19",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 7824,
+          "cant": 8,
+          "pend": 8
+        },
+        {
+          "cod": "BJF-VAT-20",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 5482,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VAT-21",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 7868,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BJF-VAT-22",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 5543,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-VAT-23",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 7864,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VAT-24",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 7859,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VAT-25",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 7878,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VAT-26",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 7872,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VOI-1",
+          "prod": "Contraviga IS/W",
+          "long": 11013,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VOI-2",
+          "prod": "Contraviga IS/W",
+          "long": 12051,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VOI-3",
+          "prod": "Contraviga IS/W",
+          "long": 12051,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VOI-4",
+          "prod": "Contraviga IS/W",
+          "long": 12051,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VOI-5",
+          "prod": "Contraviga IS/W",
+          "long": 12051,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VOI-6",
+          "prod": "Contraviga IS/W",
+          "long": 12051,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VOI-7",
+          "prod": "Contraviga IS/W",
+          "long": 11013,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VOI-8",
+          "prod": "Contraviga IS/W",
+          "long": 11013,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VOI-9",
+          "prod": "Contraviga IS/W",
+          "long": 12051,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VOI-10",
+          "prod": "Contraviga IS/W",
+          "long": 12051,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VOI-11",
+          "prod": "Contraviga IS/W",
+          "long": 12051,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VOI-12",
+          "prod": "Contraviga IS/W",
+          "long": 12051,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VOI-13",
+          "prod": "Contraviga IS/W",
+          "long": 12051,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VOI-14",
+          "prod": "Contraviga IS/W",
+          "long": 11013,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VTI-1",
+          "prod": "Viga Techo IS",
+          "long": 11833,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VTI-2",
+          "prod": "Viga Techo IS",
+          "long": 11945,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VTI-3",
+          "prod": "Viga Techo IS",
+          "long": 11945,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VTI-4",
+          "prod": "Viga Techo IS",
+          "long": 11945,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BJF-VTI-5",
+          "prod": "Viga Techo IS",
+          "long": 11945,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-VTI-6",
+          "prod": "Viga Techo IS",
+          "long": 7000,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BJF-VTI-7",
+          "prod": "Viga Techo IS",
+          "long": 11945,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VTI-8",
+          "prod": "Viga Techo IS",
+          "long": 11900,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VTI-9",
+          "prod": "Viga Techo IS",
+          "long": 7000,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-VTI-10",
+          "prod": "Viga Techo IS",
+          "long": 7000,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BJF-VTI-11",
+          "prod": "Viga Techo IS",
+          "long": 13677,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BJF-VTI-12",
+          "prod": "Viga Techo IS",
+          "long": 11945,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VTI-13",
+          "prod": "Viga Techo IS",
+          "long": 7000,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VTI-14",
+          "prod": "Viga Techo IS",
+          "long": 11833,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VTI-15",
+          "prod": "Viga Techo IS",
+          "long": 13677,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BJF-VTI-16",
+          "prod": "Viga Techo IS",
+          "long": 13677,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BJF-VTI-17",
+          "prod": "Viga Techo IS",
+          "long": 11900,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VTI-18",
+          "prod": "Viga Techo IS",
+          "long": 12500,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VTI-19",
+          "prod": "Viga Techo IS",
+          "long": 13331,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BJF-VTI-20",
+          "prod": "Viga Techo IS",
+          "long": 13331,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BJF-VTI-21",
+          "prod": "Viga Techo IS",
+          "long": 13331,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BJF-VTI-22",
+          "prod": "Viga Techo IS",
+          "long": 11937,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VTI-23",
+          "prod": "Viga Techo IS",
+          "long": 11967,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-VTI-24",
+          "prod": "Viga Techo IS",
+          "long": 11967,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-VTI-25",
+          "prod": "Viga Techo IS",
+          "long": 13331,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VTI-26",
+          "prod": "Viga Techo IS",
+          "long": 11967,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BJF-VTI-27",
+          "prod": "Viga Techo IS",
+          "long": 11894,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VTI-28",
+          "prod": "Viga Techo IS",
+          "long": 11967,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VTI-29",
+          "prod": "Viga Techo IS",
+          "long": 9397,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VTI-30",
+          "prod": "Viga Techo IS",
+          "long": 6546,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VTI-31",
+          "prod": "Viga Techo IS",
+          "long": 14337,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VTI-32",
+          "prod": "Viga Techo IS",
+          "long": 11945,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VTI-33",
+          "prod": "Viga Techo IS",
+          "long": 9691,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "33068-IN-200",
+          "prod": "Inserto Metalico",
+          "long": 360,
+          "cant": 21,
+          "pend": 21
+        },
+        {
+          "cod": "33069-IN-300",
+          "prod": "Inserto Metalico",
+          "long": 650,
+          "cant": 5,
+          "pend": 5
+        },
+        {
+          "cod": "33070-IN-301",
+          "prod": "Inserto Metalico",
+          "long": 650,
+          "cant": 5,
+          "pend": 5
+        },
+        {
+          "cod": "33071-IN-310",
+          "prod": "Inserto Metalico",
+          "long": 300,
+          "cant": 1,
+          "pend": 1
+        }
+      ],
+      "pint_pend_items": [
+        {
+          "cod": "33916-AN-4",
+          "prod": "Anclaje",
+          "long": 600,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "25107-IN-2",
+          "prod": "Inserto Metalico",
+          "long": 400,
+          "cant": 10,
+          "pend": 10
+        },
+        {
+          "cod": "33058-IN-01",
+          "prod": "Inserto Metalico",
+          "long": 400,
+          "cant": 10,
+          "pend": 10
+        },
+        {
+          "cod": "33059-IN-02",
+          "prod": "Inserto Metalico",
+          "long": 400,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "33060-IN-03",
+          "prod": "Inserto Metalico",
+          "long": 400,
+          "cant": 62,
+          "pend": 62
+        },
+        {
+          "cod": "33061-IN-04",
+          "prod": "Inserto Metalico",
+          "long": 650,
+          "cant": 25,
+          "pend": 25
+        },
+        {
+          "cod": "33062-IN-05",
+          "prod": "Inserto Metalico",
+          "long": 650,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "33064-IN-07",
+          "prod": "Inserto Metalico",
+          "long": 650,
+          "cant": 10,
+          "pend": 10
+        },
+        {
+          "cod": "33065-IN-08",
+          "prod": "Inserto Metalico",
+          "long": 650,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "33066-IN-09",
+          "prod": "Inserto Metalico",
+          "long": 270,
+          "cant": 8,
+          "pend": 8
+        },
+        {
+          "cod": "33067-IN-100",
+          "prod": "Inserto Metalico",
+          "long": 650,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "BJF-CH-1",
+          "prod": "Cruz Horizontal",
+          "long": 10370,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-CH-2",
+          "prod": "Cruz Horizontal",
+          "long": 9132,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BJF-CH-3",
+          "prod": "Cruz Horizontal",
+          "long": 10448,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-CH-4",
+          "prod": "Cruz Horizontal",
+          "long": 9124,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BJF-CH-5",
+          "prod": "Cruz Horizontal",
+          "long": 10375,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-CH-6",
+          "prod": "Cruz Horizontal",
+          "long": 10333,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-CH-7",
+          "prod": "Cruz Horizontal",
+          "long": 9120,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-CH-8",
+          "prod": "Cruz Horizontal",
+          "long": 9138,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BJF-CH-9",
+          "prod": "Cruz Horizontal",
+          "long": 8829,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-CH-10",
+          "prod": "Cruz Horizontal",
+          "long": 10326,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-CH-11",
+          "prod": "Cruz Horizontal",
+          "long": 9295,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-CH-12",
+          "prod": "Cruz Horizontal",
+          "long": 8821,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-CH-13",
+          "prod": "Cruz Horizontal",
+          "long": 10340,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-CH-14",
+          "prod": "Cruz Horizontal",
+          "long": 10338,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-CH-15",
+          "prod": "Cruz Horizontal",
+          "long": 9970,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-CH-16",
+          "prod": "Cruz Horizontal",
+          "long": 9287,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-CH-17",
+          "prod": "Cruz Horizontal",
+          "long": 8835,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-CH-18",
+          "prod": "Cruz Horizontal",
+          "long": 9650,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BJF-CH-19",
+          "prod": "Cruz Horizontal",
+          "long": 9963,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-CH-20",
+          "prod": "Cruz Horizontal",
+          "long": 9300,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-CH-21",
+          "prod": "Cruz Horizontal",
+          "long": 9522,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-CH-22",
+          "prod": "Cruz Horizontal",
+          "long": 9640,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-CH-23",
+          "prod": "Cruz Horizontal",
+          "long": 9973,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-CH-24",
+          "prod": "Cruz Horizontal",
+          "long": 9975,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-CH-25",
+          "prod": "Cruz Horizontal",
+          "long": 9041,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BJF-CH-26",
+          "prod": "Cruz Horizontal",
+          "long": 9514,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-CH-27",
+          "prod": "Cruz Horizontal",
+          "long": 9653,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-CH-28",
+          "prod": "Cruz Horizontal",
+          "long": 9034,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-CH-29",
+          "prod": "Cruz Horizontal",
+          "long": 9058,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-CH-30",
+          "prod": "Cruz Horizontal",
+          "long": 10731,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-CH-31",
+          "prod": "Cruz Horizontal",
+          "long": 10363,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-CR-1",
+          "prod": "Correa Techo",
+          "long": 5705,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-CR-2",
+          "prod": "Correa Techo",
+          "long": 7934,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "BJF-CR-3",
+          "prod": "Correa Techo",
+          "long": 7930,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BJF-CR-4",
+          "prod": "Correa Techo",
+          "long": 7925,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-CR-5",
+          "prod": "Correa Techo",
+          "long": 7944,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BJF-CR-6",
+          "prod": "Correa Techo",
+          "long": 7938,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-CR-7",
+          "prod": "Correa Techo",
+          "long": 5948,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-CR-8",
+          "prod": "Correa Techo",
+          "long": 6352,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-CR-9",
+          "prod": "Correa Techo",
+          "long": 8442,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-CR-10",
+          "prod": "Correa Techo",
+          "long": 8453,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-DI-1",
+          "prod": "Diagonal",
+          "long": 3062,
+          "cant": 8,
+          "pend": 8
+        },
+        {
+          "cod": "BJF-DI-2",
+          "prod": "Diagonal",
+          "long": 3028,
+          "cant": 72,
+          "pend": 72
+        },
+        {
+          "cod": "BJF-DI-3",
+          "prod": "Diagonal",
+          "long": 3166,
+          "cant": 8,
+          "pend": 8
+        },
+        {
+          "cod": "BJF-MF-1",
+          "prod": "Mano Francesa",
+          "long": 763,
+          "cant": 16,
+          "pend": 16
+        },
+        {
+          "cod": "BJF-MF-2",
+          "prod": "Mano Francesa",
+          "long": 997,
+          "cant": 70,
+          "pend": 70
+        },
+        {
+          "cod": "BJF-MF-3",
+          "prod": "Mano Francesa",
+          "long": 997,
+          "cant": 70,
+          "pend": 70
+        },
+        {
+          "cod": "BJF-MF-4",
+          "prod": "Mano Francesa",
+          "long": 855,
+          "cant": 10,
+          "pend": 10
+        },
+        {
+          "cod": "BJF-MF-5",
+          "prod": "Mano Francesa",
+          "long": 1347,
+          "cant": 10,
+          "pend": 10
+        },
+        {
+          "cod": "BJF-MF-6",
+          "prod": "Mano Francesa",
+          "long": 953,
+          "cant": 10,
+          "pend": 10
+        },
+        {
+          "cod": "BJF-MF-7",
+          "prod": "Mano Francesa",
+          "long": 953,
+          "cant": 10,
+          "pend": 10
+        },
+        {
+          "cod": "BJF-MF-8",
+          "prod": "Mano Francesa",
+          "long": 763,
+          "cant": 18,
+          "pend": 18
+        },
+        {
+          "cod": "BJF-MF-9",
+          "prod": "Mano Francesa",
+          "long": 878,
+          "cant": 10,
+          "pend": 10
+        },
+        {
+          "cod": "BJF-MF-10",
+          "prod": "Mano Francesa",
+          "long": 878,
+          "cant": 10,
+          "pend": 10
+        },
+        {
+          "cod": "BJF-MF-11",
+          "prod": "Mano Francesa",
+          "long": 803,
+          "cant": 10,
+          "pend": 10
+        },
+        {
+          "cod": "BJF-MF-12",
+          "prod": "Mano Francesa",
+          "long": 803,
+          "cant": 10,
+          "pend": 10
+        },
+        {
+          "cod": "BJF-MF-13",
+          "prod": "Mano Francesa",
+          "long": 872,
+          "cant": 10,
+          "pend": 10
+        },
+        {
+          "cod": "BJF-MF-14",
+          "prod": "Mano Francesa",
+          "long": 872,
+          "cant": 10,
+          "pend": 10
+        },
+        {
+          "cod": "BJF-MF-15",
+          "prod": "Mano Francesa",
+          "long": 1720,
+          "cant": 10,
+          "pend": 10
+        },
+        {
+          "cod": "BJF-MF-16",
+          "prod": "Mano Francesa",
+          "long": 926,
+          "cant": 10,
+          "pend": 10
+        },
+        {
+          "cod": "BJF-MF-17",
+          "prod": "Mano Francesa",
+          "long": 1255,
+          "cant": 67,
+          "pend": 67
+        },
+        {
+          "cod": "BJF-MF-18",
+          "prod": "Mano Francesa",
+          "long": 1255,
+          "cant": 67,
+          "pend": 67
+        },
+        {
+          "cod": "BJF-PCR-1",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5705,
+          "cant": 12,
+          "pend": 12
+        },
+        {
+          "cod": "BJF-PCR-2",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7934,
+          "cant": 36,
+          "pend": 36
+        },
+        {
+          "cod": "BJF-PCR-3",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7930,
+          "cant": 12,
+          "pend": 12
+        },
+        {
+          "cod": "BJF-PCR-4",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7927,
+          "cant": 24,
+          "pend": 24
+        },
+        {
+          "cod": "BJF-PCR-5",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7944,
+          "cant": 12,
+          "pend": 12
+        },
+        {
+          "cod": "BJF-PCR-6",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7941,
+          "cant": 24,
+          "pend": 24
+        },
+        {
+          "cod": "BJF-PCR-7",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5705,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "BJF-PCR-8",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5705,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PCR-9",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7934,
+          "cant": 18,
+          "pend": 18
+        },
+        {
+          "cod": "BJF-PCR-10",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5948,
+          "cant": 12,
+          "pend": 12
+        },
+        {
+          "cod": "BJF-PCR-11",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7934,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BJF-PCR-12",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5705,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PCR-13",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7934,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BJF-PCR-14",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7930,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "BJF-PCR-15",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5705,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PCR-16",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7930,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PCR-17",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7934,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BJF-PCR-18",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7927,
+          "cant": 12,
+          "pend": 12
+        },
+        {
+          "cod": "BJF-PCR-19",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5705,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PCR-20",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7927,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-PCR-21",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7944,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "BJF-PCR-22",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7930,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PCR-23",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7934,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BJF-PCR-24",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7944,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PCR-25",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7941,
+          "cant": 12,
+          "pend": 12
+        },
+        {
+          "cod": "BJF-PCR-26",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7927,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-PCR-27",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7941,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-PCR-28",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7930,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PCR-29",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5705,
+          "cant": 14,
+          "pend": 14
+        },
+        {
+          "cod": "BJF-PCR-30",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7944,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PCR-31",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7927,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-PCR-32",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7934,
+          "cant": 42,
+          "pend": 42
+        },
+        {
+          "cod": "BJF-PCR-33",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7941,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-PCR-34",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7930,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PCR-35",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5948,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "BJF-PCR-36",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7944,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PCR-37",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7927,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-PCR-38",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5948,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PCR-39",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7941,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-PCR-40",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7944,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PCR-41",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7930,
+          "cant": 14,
+          "pend": 14
+        },
+        {
+          "cod": "BJF-PCR-42",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5948,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PCR-43",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7941,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-PCR-44",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7927,
+          "cant": 18,
+          "pend": 18
+        },
+        {
+          "cod": "BJF-PCR-45",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5948,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PCR-46",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7944,
+          "cant": 8,
+          "pend": 8
+        },
+        {
+          "cod": "BJF-PCR-47",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7925,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "BJF-PCR-48",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7941,
+          "cant": 23,
+          "pend": 23
+        },
+        {
+          "cod": "BJF-PCR-49",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5948,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PCR-50",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7944,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "BJF-PCR-51",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5948,
+          "cant": 10,
+          "pend": 10
+        },
+        {
+          "cod": "BJF-PCR-52",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7927,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PCR-53",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7941,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PCR-54",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 10001,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PCR-55",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 13537,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PCR-56",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 9087,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PCR-57",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 4650,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PIS-1",
+          "prod": "Pilar Alma Llena",
+          "long": 185,
+          "cant": 9,
+          "pend": 9
+        },
+        {
+          "cod": "BJF-PIS-2",
+          "prod": "Pilar Alma Llena",
+          "long": 855,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PIS-3",
+          "prod": "Pilar Alma Llena",
+          "long": 185,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PIS-4",
+          "prod": "Pilar Alma Llena",
+          "long": 1538,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-PIS-5",
+          "prod": "Pilar Alma Llena",
+          "long": 2038,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PIS-6",
+          "prod": "Pilar Alma Llena",
+          "long": 9005,
+          "cant": 5,
+          "pend": 5
+        },
+        {
+          "cod": "BJF-PIS-7",
+          "prod": "Pilar Alma Llena",
+          "long": 2738,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-PIS-8",
+          "prod": "Pilar Alma Llena",
+          "long": 1038,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PIS-9",
+          "prod": "Pilar Alma Llena",
+          "long": 3155,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PIS-10",
+          "prod": "Pilar Alma Llena",
+          "long": 2648,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PIS-11",
+          "prod": "Pilar Alma Llena",
+          "long": 9380,
+          "cant": 5,
+          "pend": 5
+        },
+        {
+          "cod": "BJF-PIS-12",
+          "prod": "Pilar Alma Llena",
+          "long": 2038,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PIS-13",
+          "prod": "Pilar Alma Llena",
+          "long": 1998,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-PIS-14",
+          "prod": "Pilar Alma Llena",
+          "long": 1400,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-PIS-15",
+          "prod": "Pilar Alma Llena",
+          "long": 3155,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PIS-16",
+          "prod": "Pilar Alma Llena",
+          "long": 823,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PIS-17",
+          "prod": "Pilar Alma Llena",
+          "long": 2648,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PIS-18",
+          "prod": "Pilar Alma Llena",
+          "long": 333,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PIS-19",
+          "prod": "Pilar Alma Llena",
+          "long": 1105,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PIS-20",
+          "prod": "Pilar Alma Llena",
+          "long": 543,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PIS-21",
+          "prod": "Pilar Alma Llena",
+          "long": 366,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PL-1",
+          "prod": "Placa",
+          "long": 440,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-PL-2",
+          "prod": "Placa",
+          "long": 445,
+          "cant": 28,
+          "pend": 28
+        },
+        {
+          "cod": "BJF-PL-3",
+          "prod": "Placa",
+          "long": 445,
+          "cant": 14,
+          "pend": 14
+        },
+        {
+          "cod": "BJF-PL-4",
+          "prod": "Placa",
+          "long": 315,
+          "cant": 14,
+          "pend": 14
+        },
+        {
+          "cod": "BJF-PL-5",
+          "prod": "Placa",
+          "long": 445,
+          "cant": 80,
+          "pend": 80
+        },
+        {
+          "cod": "BJF-PL-6",
+          "prod": "Placa",
+          "long": 445,
+          "cant": 40,
+          "pend": 40
+        },
+        {
+          "cod": "BJF-PL-7",
+          "prod": "Placa",
+          "long": 315,
+          "cant": 60,
+          "pend": 60
+        },
+        {
+          "cod": "BJF-PL-8",
+          "prod": "Placa",
+          "long": 445,
+          "cant": 20,
+          "pend": 20
+        },
+        {
+          "cod": "BJF-PL-9",
+          "prod": "Placa",
+          "long": 445,
+          "cant": 10,
+          "pend": 10
+        },
+        {
+          "cod": "BJF-PL-10",
+          "prod": "Placa",
+          "long": 445,
+          "cant": 20,
+          "pend": 20
+        },
+        {
+          "cod": "BJF-PL-11",
+          "prod": "Placa",
+          "long": 445,
+          "cant": 10,
+          "pend": 10
+        },
+        {
+          "cod": "BJF-PL-12",
+          "prod": "Placa",
+          "long": 445,
+          "cant": 40,
+          "pend": 40
+        },
+        {
+          "cod": "BJF-PL-13",
+          "prod": "Placa",
+          "long": 445,
+          "cant": 20,
+          "pend": 20
+        },
+        {
+          "cod": "BJF-PL-14",
+          "prod": "Placa",
+          "long": 315,
+          "cant": 20,
+          "pend": 20
+        },
+        {
+          "cod": "BJF-PL-15",
+          "prod": "Placa",
+          "long": 330,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-SC-1",
+          "prod": "Soporte Cruz",
+          "long": 130,
+          "cant": 58,
+          "pend": 58
+        },
+        {
+          "cod": "BJF-SC-2",
+          "prod": "Soporte Cruz",
+          "long": 130,
+          "cant": 58,
+          "pend": 58
+        },
+        {
+          "cod": "BJF-SD-1",
+          "prod": "Soporte Diagonal",
+          "long": 50,
+          "cant": 176,
+          "pend": 176
+        },
+        {
+          "cod": "BJF-TC-1",
+          "prod": "Tilla de compresion",
+          "long": 1598,
+          "cant": 80,
+          "pend": 80
+        },
+        {
+          "cod": "BJF-TI-1",
+          "prod": "Tilla de Traccion",
+          "long": 1686,
+          "cant": 590,
+          "pend": 590
+        },
+        {
+          "cod": "BJF-VAT-1",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 7864,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BJF-VAT-2",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 5325,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BJF-VAT-3",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 7860,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VAT-4",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 7864,
+          "cant": 10,
+          "pend": 10
+        },
+        {
+          "cod": "BJF-VAT-5",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 7855,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VAT-6",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 7874,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VAT-7",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 7868,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VAT-8",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 7857,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "BJF-VAT-9",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 7857,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VAT-10",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 7855,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BJF-VAT-11",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 7871,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VAT-12",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 7871,
+          "cant": 7,
+          "pend": 7
+        },
+        {
+          "cod": "BJF-VAT-13",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 7868,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BJF-VAT-14",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 5568,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BJF-VAT-15",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 5300,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BJF-VAT-16",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 7814,
+          "cant": 9,
+          "pend": 9
+        },
+        {
+          "cod": "BJF-VAT-17",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 7810,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BJF-VAT-18",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 7805,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "BJF-VAT-19",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 7824,
+          "cant": 8,
+          "pend": 8
+        },
+        {
+          "cod": "BJF-VAT-20",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 5482,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VAT-21",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 7868,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BJF-VAT-22",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 5543,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-VAT-23",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 7864,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VAT-24",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 7859,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VAT-25",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 7878,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VAT-26",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 7872,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VOI-1",
+          "prod": "Contraviga IS/W",
+          "long": 11013,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VOI-2",
+          "prod": "Contraviga IS/W",
+          "long": 12051,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VOI-3",
+          "prod": "Contraviga IS/W",
+          "long": 12051,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VOI-4",
+          "prod": "Contraviga IS/W",
+          "long": 12051,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VOI-5",
+          "prod": "Contraviga IS/W",
+          "long": 12051,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VOI-6",
+          "prod": "Contraviga IS/W",
+          "long": 12051,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VOI-7",
+          "prod": "Contraviga IS/W",
+          "long": 11013,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VOI-8",
+          "prod": "Contraviga IS/W",
+          "long": 11013,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VOI-9",
+          "prod": "Contraviga IS/W",
+          "long": 12051,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VOI-10",
+          "prod": "Contraviga IS/W",
+          "long": 12051,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VOI-11",
+          "prod": "Contraviga IS/W",
+          "long": 12051,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VOI-12",
+          "prod": "Contraviga IS/W",
+          "long": 12051,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VOI-13",
+          "prod": "Contraviga IS/W",
+          "long": 12051,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VOI-14",
+          "prod": "Contraviga IS/W",
+          "long": 11013,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VTI-1",
+          "prod": "Viga Techo IS",
+          "long": 11833,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VTI-2",
+          "prod": "Viga Techo IS",
+          "long": 11945,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VTI-3",
+          "prod": "Viga Techo IS",
+          "long": 11945,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VTI-4",
+          "prod": "Viga Techo IS",
+          "long": 11945,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BJF-VTI-5",
+          "prod": "Viga Techo IS",
+          "long": 11945,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-VTI-6",
+          "prod": "Viga Techo IS",
+          "long": 7000,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BJF-VTI-7",
+          "prod": "Viga Techo IS",
+          "long": 11945,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VTI-8",
+          "prod": "Viga Techo IS",
+          "long": 11900,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VTI-9",
+          "prod": "Viga Techo IS",
+          "long": 7000,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-VTI-10",
+          "prod": "Viga Techo IS",
+          "long": 7000,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BJF-VTI-11",
+          "prod": "Viga Techo IS",
+          "long": 13677,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BJF-VTI-12",
+          "prod": "Viga Techo IS",
+          "long": 11945,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VTI-13",
+          "prod": "Viga Techo IS",
+          "long": 7000,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VTI-14",
+          "prod": "Viga Techo IS",
+          "long": 11833,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VTI-15",
+          "prod": "Viga Techo IS",
+          "long": 13677,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BJF-VTI-16",
+          "prod": "Viga Techo IS",
+          "long": 13677,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BJF-VTI-17",
+          "prod": "Viga Techo IS",
+          "long": 11900,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VTI-18",
+          "prod": "Viga Techo IS",
+          "long": 12500,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VTI-19",
+          "prod": "Viga Techo IS",
+          "long": 13331,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BJF-VTI-20",
+          "prod": "Viga Techo IS",
+          "long": 13331,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BJF-VTI-21",
+          "prod": "Viga Techo IS",
+          "long": 13331,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BJF-VTI-22",
+          "prod": "Viga Techo IS",
+          "long": 11937,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VTI-23",
+          "prod": "Viga Techo IS",
+          "long": 11967,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-VTI-24",
+          "prod": "Viga Techo IS",
+          "long": 11967,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJF-VTI-25",
+          "prod": "Viga Techo IS",
+          "long": 13331,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VTI-26",
+          "prod": "Viga Techo IS",
+          "long": 11967,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BJF-VTI-27",
+          "prod": "Viga Techo IS",
+          "long": 11894,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VTI-28",
+          "prod": "Viga Techo IS",
+          "long": 11967,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VTI-29",
+          "prod": "Viga Techo IS",
+          "long": 9397,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VTI-30",
+          "prod": "Viga Techo IS",
+          "long": 6546,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VTI-31",
+          "prod": "Viga Techo IS",
+          "long": 14337,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VTI-32",
+          "prod": "Viga Techo IS",
+          "long": 11945,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJF-VTI-33",
+          "prod": "Viga Techo IS",
+          "long": 9691,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "33068-IN-200",
+          "prod": "Inserto Metalico",
+          "long": 360,
+          "cant": 21,
+          "pend": 21
+        },
+        {
+          "cod": "33069-IN-300",
+          "prod": "Inserto Metalico",
+          "long": 650,
+          "cant": 5,
+          "pend": 5
+        },
+        {
+          "cod": "33070-IN-301",
+          "prod": "Inserto Metalico",
+          "long": 650,
+          "cant": 5,
+          "pend": 5
+        },
+        {
+          "cod": "33071-IN-310",
+          "prod": "Inserto Metalico",
+          "long": 300,
+          "cant": 1,
+          "pend": 1
+        }
+      ]
+    },
     "25257": {
       "ot": "25257",
       "obra": "Adicional Techo Visera - Naves Industriales MRA",
