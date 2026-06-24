@@ -1,116 +1,62 @@
 {
-  "updatedAt": "2026-06-23T19:03:21.404Z",
-  "updatedBy": "Rocio Maica",
-  "checks": {},
+  "updatedAt": "2026-06-24T09:41:06.588Z",
+  "updatedBy": "Bernardo Vera",
+  "checks": {
+    "25257_60": {
+      "arm": 1,
+      "pint": 1
+    },
+    "25257_61": {
+      "arm": 3
+    },
+    "25257_1": {
+      "arm": 0,
+      "pint": 0
+    }
+  },
   "otMeta": {
-    "24930": {
-      "ot": "24930",
-      "obra": "NAVE 5 AMPLIACION FABRICA CHACOMER",
-      "cliente": "Chacomer S.A.E.",
+    "25257": {
+      "ot": "25257",
+      "obra": "Adicional Techo Visera - Naves Industriales MRA",
+      "cliente": "KPN SAFETY PARAGUAY S.A",
       "fecha": "23/6/2026",
       "avances": {
-        "arm": 79,
-        "pint": 27,
-        "env": 1,
-        "mont": 0
-      },
-      "totales": {
-        "cant": 2521,
-        "arm_lib": 2000,
-        "arm_pend": 505,
-        "pint_ok": 669,
-        "pint_pend": 1852,
-        "env_ok": 22,
-        "env_pend": 2499,
-        "items": 217
-      }
-    },
-    "25527": {
-      "ot": "25527",
-      "obra": "Galpón Dos Beta_ESTRUCTURAS",
-      "cliente": "BENITEZ BITTAR CONSTRUCTORA S.A",
-      "fecha": "23/6/2026",
-      "avances": {
-        "arm": 62,
-        "pint": 45,
-        "env": 44,
-        "mont": 0
-      },
-      "totales": {
-        "cant": 12129,
-        "arm_lib": 7505,
-        "arm_pend": 4612,
-        "pint_ok": 5501,
-        "pint_pend": 6626,
-        "env_ok": 5308,
-        "env_pend": 6820,
-        "items": 754
-      }
-    },
-    "25572": {
-      "ot": "25572",
-      "obra": "Provision y fabricación,  Las Residentas F1",
-      "cliente": "Metarq  S.A",
-      "fecha": "23/6/2026",
-      "avances": {
-        "arm": 0,
+        "arm": 1,
         "pint": 0,
         "env": 0,
         "mont": 0
       },
       "totales": {
-        "cant": 2063,
-        "arm_lib": 0,
-        "arm_pend": 2063,
+        "cant": 687,
+        "arm_lib": 6,
+        "arm_pend": 681,
         "pint_ok": 0,
-        "pint_pend": 2063,
+        "pint_pend": 687,
         "env_ok": 0,
-        "env_pend": 2063,
-        "items": 486
+        "env_pend": 687,
+        "items": 68
       }
     },
-    "25676": {
-      "ot": "25676",
-      "obra": "Fabricación de estructura metálica para Silo Ovetr",
-      "cliente": "Santa Rita Constructora S.A",
+    "25436": {
+      "ot": "25436",
+      "obra": "Puerto de Asunción Galpón G",
+      "cliente": "Codas Vuyk S.A.",
       "fecha": "23/6/2026",
       "avances": {
-        "arm": 0,
-        "pint": 0,
-        "env": 0,
+        "arm": 51,
+        "pint": 39,
+        "env": 56,
         "mont": 0
       },
       "totales": {
-        "cant": 2427,
-        "arm_lib": 0,
-        "arm_pend": 2427,
-        "pint_ok": 0,
-        "pint_pend": 2427,
-        "env_ok": 0,
-        "env_pend": 2427,
-        "items": 249
-      }
-    },
-    "25694": {
-      "ot": "25694",
-      "obra": "Fabricacion de Prototipo de Box - BRAS PINE",
-      "cliente": "SACEEM SA",
-      "fecha": "23/6/2026",
-      "avances": {
-        "arm": 0,
-        "pint": 0,
-        "env": 0,
-        "mont": 0
-      },
-      "totales": {
-        "cant": 7,
-        "arm_lib": 0,
-        "arm_pend": 7,
-        "pint_ok": 0,
-        "pint_pend": 7,
-        "env_ok": 0,
-        "env_pend": 7,
-        "items": 6
+        "cant": 2528,
+        "arm_lib": 1289,
+        "arm_pend": 1238,
+        "pint_ok": 996,
+        "pint_pend": 1532,
+        "env_ok": 1405,
+        "env_pend": 1123,
+        "items": 105
       }
     }
   }
