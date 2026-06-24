@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>Avance de Obra - MV</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#EEF4F8;color:#0D1F2D;font-size:14px;min-height:100vh}
+.header{background:linear-gradient(135deg,#0D3B66,#1A5C8A);padding:20px;text-align:center}
+.header-logo{font-size:28px;margin-bottom:8px}
+.header h1{font-size:17px;font-weight:800;color:#fff;letter-spacing:0.3px}
+.header p{font-size:12px;color:#7DD3FC;margin-top:4px}
+.container{max-width:480px;margin:0 auto;padding:16px}
+.ot-card{background:#fff;border-radius:14px;padding:18px;margin-bottom:14px;box-shadow:0 2px 10px rgba(13,59,102,0.1);border:1px solid #C8DDF0}
+.ot-num{font-size:22px;font-weight:900;color:#0D3B66}
+.ot-obra{font-size:14px;font-weight:600;color:#1A5C8A;margin-top:2px}
+.ot-meta{font-size:12px;color:#4A7FA5;margin-top:6px;display:flex;gap:12px;flex-wrap:wrap}
+.total-badge{display:inline-block;background:#DBEFFE;color:#1D4ED8;border:1px solid #93C5FD;border-radius:20px;font-size:12px;font-weight:700;padding:4px 14px;margin-top:10px}
+.section-title{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:#78716C;margin:16px 0 10px}
+.sector-row{background:#fff;border-radius:10px;padding:12px 14px;margin-bottom:8px;border:1px solid #E8F4FD;box-shadow:0 1px 4px rgba(13,59,102,0.05)}
+.sector-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.sector-name{font-size:13px;font-weight:700;color:#0D3B66;display:flex;align-items:center;gap:6px}
+.sector-pct{font-size:16px;font-weight:900}
+.bar-bg{height:12px;background:#E8F4FD;border-radius:6px;overflow:hidden;border:1px solid #C8DDF0}
+.bar-fill{height:100%;border-radius:6px;transition:width 1s}
+.sector-detail{display:flex;justify-content:space-between;margin-top:6px;font-size:11px;color:#4A7FA5}
+.sector-piezas{font-weight:700;color:#0D3B66}
+.update-box{background:#F0F8FF;border:1px solid #C8DDF0;border-radius:10px;padding:12px 14px;margin-top:14px;text-align:center}
+.update-lbl{font-size:10px;color:#4A7FA5;text-transform:uppercase;letter-spacing:0.06em}
+.update-val{font-size:13px;font-weight:700;color:#0D3B66;margin-top:3px}
+.update-by{font-size:11px;color:#7BA7C4;margin-top:2px}
+.mv-footer{text-align:center;padding:20px;font-size:11px;color:#7BA7C4}
+.mv-footer strong{color:#1A5C8A}
+.error-box{background:#fff;border-radius:14px;padding:40px 20px;text-align:center;margin:20px 0}
+.error-box .icon{font-size:48px;margin-bottom:12px}
+.error-box h3{font-size:16px;font-weight:700;color:#1A5C8A;margin-bottom:8px}
+.error-box p{font-size:12px;color:#7BA7C4}
+.loading{text-align:center;padding:60px 20px}
+.loading .spinner{display:inline-block;width:32px;height:32px;border:3px solid #C8DDF0;border-top-color:#1A5C8A;border-radius:50%;animation:spin 0.8s linear infinite;margin-bottom:12px}
+@keyframes spin{to{transform:rotate(360deg)}}
+.loading p{font-size:13px;color:#4A7FA5}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-logo">🏗️</div>
+  <h1>Metalurgica Vera SRL</h1>
+  <p>Seguimiento de Obras en Produccion</p>
+</div>
+
+<div class="container">
+  <div id="loading" class="loading">
+    <div class="spinner"></div>
+    <p>Cargando estado de la obra...</p>
+  </div>
+  <div id="content" style="display:none"></div>
+</div>
+
+<div class="mv-footer">Powered by <strong>MV Checker</strong> &mdash; Metalurgica Vera SRL</div>
+
+<script>
+function fmt(n){return(n||0).toLocaleString("es");}
+function pctC(p){return p>=80?"#059669":p>=60?"#D97706":"#DC2626";}
+function barC(p){return p>=80?"#10B981":p>=60?"#F97316":"#EF4444";}
+
+// Get OT from URL param
+var params=new URLSearchParams(window.location.search);
+var otNum=params.get("ot")||"";
+var GH_REPO="rociomaica-crypto/tablero-mv";
+var CHECKER_FILES=["Bernardo_Vera","Angel_Villa","Cristhian_Piatti","Sandro_Monzon","David_Gimenez","Adriana_Perez","Rocio_Maica"];
+
+function loadOT(){
+  if(!otNum){showError("OT no especificada","Escanea el QR correcto o solicita el link actualizado.");return;}
+  var base="https://raw.githubusercontent.com/"+GH_REPO+"/main/checker-data/";
+  // Load all checker files and find this OT
+  var promises=CHECKER_FILES.map(function(name){
+    return fetch(base+name+".json?t="+Date.now())
+      .then(function(r){return r.ok?r.json():null;})
+      .catch(function(){return null;});
+  });
+  Promise.all(promises).then(function(results){
+    var otData=null, updatedAt="", updatedBy="", allChecks={};
+    results.forEach(function(data){
+      if(!data)return;
+      if(data.otMeta&&data.otMeta[otNum]){
+        otData=data.otMeta[otNum];
+        updatedAt=data.updatedAt;
+        updatedBy=data.updatedBy;
+      }
+      if(data.checks){Object.assign(allChecks,data.checks);}
+    });
+    if(!otData){showError("OT "+otNum+" no encontrada","Esta obra aun no tiene datos sincronizados. Consulte con el equipo de produccion.");return;}
+    renderOT(otData, updatedAt, updatedBy, allChecks);
+  });
+}
+
+function renderOT(o, updatedAt, updatedBy, checks){
+  var t=o.totales;
+  var tot=t.cant||1;
+
+  // Calculate checker states from checks
+  var armado=0, soldado=0, enPintura=0, pintado=0, galvamax=0;
+  // Count by state from checks
+  Object.keys(checks).forEach(function(key){
+    if(key.indexOf(otNum+"_")!==0)return;
+    var c=checks[key];
+    if(c.arm_state==="armado")armado++;
+    if(c.arm_state==="soldado")soldado++;
+    if(c.pint_state==="en_pintura")enPintura++;
+    if(c.pint_state==="pintado")pintado++;
+    if(c.pint_state==="galvamax")galvamax++;
+  });
+  // Items with no state = pending (use LPT arm_pend as base)
+  var pendiente=t.arm_pend-(armado+soldado);
+  if(pendiente<0)pendiente=0;
+
+  // Percentages
+  var soldadoPct=Math.round(soldado/tot*100);
+  var armadoPct=Math.round(armado/tot*100);
+  var pintadoPct=Math.round(pintado/tot*100);
+  var galvamaxPct=Math.round(galvamax/tot*100);
+  var enPintPct=Math.round(enPintura/tot*100);
+  var lptArmPct=o.avances.arm;
+  var lptPintPct=o.avances.pint;
+  var lptEnvPct=o.avances.env;
+
+  var dt=updatedAt?new Date(updatedAt):null;
+  var dtStr=dt?(dt.toLocaleDateString("es-PY")+" "+dt.toLocaleTimeString("es-PY",{hour:"2-digit",minute:"2-digit"})):"—";
+
+  var html=
+    "<div class=\"ot-card\">"+
+      "<div class=\"ot-num\">OT "+o.ot+"</div>"+
+      "<div class=\"ot-obra\">"+o.obra+"</div>"+
+      "<div class=\"ot-meta\">"+
+        (o.cliente?"<span>&#128100; "+o.cliente+"</span>":"")+
+        "<span>&#128197; "+o.fecha+"</span>"+
+      "</div>"+
+      "<div class=\"total-badge\">&#128230; "+fmt(t.cant)+" piezas totales &middot; "+t.items+" items</div>"+
+    "</div>"+
+
+    "<div class=\"section-title\">Estado del proceso — por el LPT</div>"+
+
+    makeSector("&#9874;","Armado",lptArmPct,t.arm_lib,t.arm_pend,"#10B981","Liberadas","Pendientes")+
+    makeSector("&#127912;","Pintura",lptPintPct,t.pint_ok,t.pint_pend,"#F97316","Pintadas","Pendientes")+
+    makeSector("&#128666;","Envio",lptEnvPct,t.env_ok,t.env_pend,"#0EA5E9","Enviadas","Pendientes")+
+
+    "<div class=\"section-title\">Seguimiento checker — avance detallado</div>";
+
+  // Checker detail sectors
+  if(soldado>0||armado>0||enPintura>0||pintado>0||galvamax>0){
+    html+=makeCheckerSector("&#9874;","Soldado (libera a pintura)",soldadoPct,soldado,tot,"#059669")+
+      makeCheckerSector("&#128295;","En proceso de armado",armadoPct,armado,tot,"#3B82F6")+
+      makeCheckerSector("&#127912;","En pintura",enPintPct,enPintura,tot,"#F59E0B")+
+      makeCheckerSector("&#10003;","Pintado",pintadoPct,pintado,tot,"#10B981")+
+      makeCheckerSector("&#9881;","Galvamax",galvamaxPct,galvamax,tot,"#8B5CF6");
+  }else{
+    html+="<div style=\"background:#fff;border-radius:10px;padding:14px;text-align:center;color:#7BA7C4;font-size:12px;border:1px solid #E8F4FD\">El checker aun no ha registrado avance detallado</div>";
+  }
+
+  html+=
+    "<div class=\"update-box\">"+
+      "<div class=\"update-lbl\">Ultima actualizacion</div>"+
+      "<div class=\"update-val\">"+dtStr+"</div>"+
+      "<div class=\"update-by\">por "+updatedBy+"</div>"+
+    "</div>";
+
+  document.getElementById("loading").style.display="none";
+  document.getElementById("content").style.display="block";
+  document.getElementById("content").innerHTML=html;
+}
+
+function makeSector(icon,name,pct,ok,pend,color,okLabel,pendLabel){
+  return "<div class=\"sector-row\">"+
+    "<div class=\"sector-head\">"+
+      "<span class=\"sector-name\">"+icon+" "+name+"</span>"+
+      "<span class=\"sector-pct\" style=\"color:"+pctC(pct)+"\">" +pct+ "%</span>"+
+    "</div>"+
+    "<div class=\"bar-bg\"><div class=\"bar-fill\" style=\"width:"+pct+"%;background:"+barC(pct)+"\" ></div></div>"+
+    "<div class=\"sector-detail\">"+
+      "<span>"+okLabel+": <span class=\"sector-piezas\">"+fmt(ok)+"</span></span>"+
+      "<span style=\"color:#DC2626\">"+pendLabel+": <span class=\"sector-piezas\" style=\"color:#DC2626\">"+fmt(pend)+"</span></span>"+
+    "</div></div>";
+}
+
+function makeCheckerSector(icon,name,pct,cant,tot,color){
+  if(cant===0)return "";
+  return "<div class=\"sector-row\" style=\"border-left:3px solid "+color+"\">"+
+    "<div class=\"sector-head\">"+
+      "<span class=\"sector-name\" style=\"color:"+color+"\">"+icon+" "+name+"</span>"+
+      "<span class=\"sector-pct\" style=\"color:"+color+"\">" +pct+ "%</span>"+
+    "</div>"+
+    "<div class=\"bar-bg\"><div class=\"bar-fill\" style=\"width:"+pct+"%;background:"+color+"\" ></div></div>"+
+    "<div class=\"sector-detail\">"+
+      "<span><span class=\"sector-piezas\">"+fmt(cant)+"</span> piezas de "+fmt(tot)+"</span>"+
+    "</div></div>";
+}
+
+function showError(title,msg){
+  document.getElementById("loading").style.display="none";
+  document.getElementById("content").style.display="block";
+  document.getElementById("content").innerHTML=
+    "<div class=\"error-box\">"+
+      "<div class=\"icon\">&#128269;</div>"+
+      "<h3>"+title+"</h3>"+
+      "<p>"+msg+"</p>"+
+    "</div>";
+}
+
+loadOT();
+</script>
+</body>
+</html>
