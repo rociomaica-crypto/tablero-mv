@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T11:15:09.859Z",
+  "updatedAt": "2026-06-25T17:13:10.698Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "25527_1": {
@@ -18,8 +18,8 @@
       "arm_state_state": "soldado"
     },
     "24930_1": {
-      "arm_state_state": "soldado",
-      "pint_state_state": "pintado"
+      "arm_state_state": "armado",
+      "pint_state_state": "galvamax"
     },
     "25676_1": {
       "arm_state_state": "liberado",
@@ -75,6 +75,3168 @@
     }
   },
   "otMeta": {
+    "24283": {
+      "ot": "24283",
+      "obra": "Nave de Producción PARGLASS Opc 2",
+      "cliente": "PARGLASS SOCIEDAD ANÓNIMA",
+      "fecha": "25/6/2026",
+      "avances": {
+        "arm": 94,
+        "pint": 31,
+        "env": 100,
+        "mont": 0
+      },
+      "totales": {
+        "cant": 60182,
+        "arm_lib": 56679,
+        "arm_pend": 3503,
+        "pint_ok": 18614,
+        "pint_pend": 41568,
+        "env_ok": 59983,
+        "env_pend": 199,
+        "items": 1878
+      },
+      "arm_pend_items": [
+        {
+          "cod": "AWU-PCL-1",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 11000,
+          "cant": 8,
+          "pend": 8
+        },
+        {
+          "cod": "AWU-PCL-2",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 11000,
+          "cant": 8,
+          "pend": 8
+        },
+        {
+          "cod": "AWU-PCL-3",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 11000,
+          "cant": 8,
+          "pend": 8
+        },
+        {
+          "cod": "AWU-PCL-4",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 6610,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWU-PCL-5",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 6610,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWU-PCL-6",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 6610,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWU-PCL-7",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 7965,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWU-PCL-8",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 7965,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWU-PCL-9",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 7965,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWU-PCL-10",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 10860,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWU-PCL-11",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 10860,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWU-PCL-12",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 10860,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWU-PCL-13",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 11000,
+          "cant": 7,
+          "pend": 7
+        },
+        {
+          "cod": "AWU-PCL-14",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 11000,
+          "cant": 7,
+          "pend": 7
+        },
+        {
+          "cod": "AWU-PCL-15",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 11000,
+          "cant": 7,
+          "pend": 7
+        },
+        {
+          "cod": "AWU-PCL-16",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 10900,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWU-PCL-17",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 10900,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWU-PCL-18",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 10900,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWU-PCL-19",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 6825,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "AWU-PCL-20",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 6825,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "AWU-PCL-21",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 5895,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "AWU-PCL-22",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 5895,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "AWU-PCL-23",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 11610,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWU-PCL-24",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 10900,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWU-PCL-25",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 11610,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWU-PCL-26",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 11610,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWU-PCL-27",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 10900,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWU-PCL-28",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 10900,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWU-PCL-29",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 6610,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWU-PCL-30",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 11303,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWU-PCL-31",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 11300,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWU-PCL-32",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 11300,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWU-PCL-33",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 6610,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWU-PCL-34",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 6610,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWU-PCR-1",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 10860,
+          "cant": 19,
+          "pend": 19
+        },
+        {
+          "cod": "AWU-PCR-2",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11000,
+          "cant": 131,
+          "pend": 131
+        },
+        {
+          "cod": "AWU-PCR-3",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 10900,
+          "cant": 20,
+          "pend": 20
+        },
+        {
+          "cod": "AWU-PCR-4",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 14105,
+          "cant": 19,
+          "pend": 19
+        },
+        {
+          "cod": "AWU-PCR-5",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 8680,
+          "cant": 19,
+          "pend": 19
+        },
+        {
+          "cod": "AWU-PCR-6",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11000,
+          "cant": 152,
+          "pend": 152
+        },
+        {
+          "cod": "AWU-PCR-7",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 6610,
+          "cant": 20,
+          "pend": 20
+        },
+        {
+          "cod": "AWU-PCR-8",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 10860,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWU-PCR-9",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11000,
+          "cant": 7,
+          "pend": 7
+        },
+        {
+          "cod": "AWU-PCR-10",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 10900,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWU-PCR-11",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 14105,
+          "cant": 8,
+          "pend": 8
+        },
+        {
+          "cod": "AWU-PCR-12",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 8680,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWU-PCR-13",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11000,
+          "cant": 8,
+          "pend": 8
+        },
+        {
+          "cod": "AWU-PCR-14",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 6610,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWU-PCR-15",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 10860,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "AWU-PCR-16",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11000,
+          "cant": 41,
+          "pend": 41
+        },
+        {
+          "cod": "AWU-PCR-17",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 10900,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "AWU-PCR-18",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 8680,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "AWU-PCR-19",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11000,
+          "cant": 48,
+          "pend": 48
+        },
+        {
+          "cod": "AWU-PCR-20",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 6610,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "AWU-PCR-21",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 10860,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWU-PCR-22",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11000,
+          "cant": 7,
+          "pend": 7
+        },
+        {
+          "cod": "AWU-PCR-23",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 10900,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWU-PCR-24",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 8680,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWU-PCR-25",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11000,
+          "cant": 8,
+          "pend": 8
+        },
+        {
+          "cod": "AWU-PCR-26",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 6610,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWU-PCR-27",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 8680,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWU-PCR-28",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 6610,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "AWU-PCR-29",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 14105,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWU-PCR-30",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 10860,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWU-PCR-31",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 10900,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "AWU-PCR-32",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 8680,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "AWU-PCR-33",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 6610,
+          "cant": 18,
+          "pend": 18
+        },
+        {
+          "cod": "AWU-PCR-34",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 14105,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "AWU-PCR-35",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 10860,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "AWU-PCR-36",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 10900,
+          "cant": 18,
+          "pend": 18
+        },
+        {
+          "cod": "AWU-PCR-37",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11337,
+          "cant": 5,
+          "pend": 5
+        },
+        {
+          "cod": "AWU-PCR-38",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11610,
+          "cant": 5,
+          "pend": 5
+        },
+        {
+          "cod": "AWU-PCR-39",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11300,
+          "cant": 16,
+          "pend": 16
+        },
+        {
+          "cod": "AWU-PCR-40",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11610,
+          "cant": 16,
+          "pend": 16
+        },
+        {
+          "cod": "AWU-PCR-41",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11300,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWU-PCR-42",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 6610,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWU-PCR-43",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11610,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWU-PCR-44",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 10900,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWU-PCR-45",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11300,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWU-PCR-46",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 6610,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWU-PCR-47",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11610,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWU-PCR-48",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 10900,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWU-PCR-49",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11610,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWU-PCR-50",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11300,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWU-PCT-1",
+          "prod": "Correa de tímpano/ Perfilado",
+          "long": 6480,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "AWU-PCT-2",
+          "prod": "Correa de tímpano/ Perfilado",
+          "long": 6480,
+          "cant": 5,
+          "pend": 5
+        },
+        {
+          "cod": "AWU-PCT-3",
+          "prod": "Correa de tímpano/ Perfilado",
+          "long": 6482,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "AWU-PCT-4",
+          "prod": "Correa de tímpano/ Perfilado",
+          "long": 6433,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWU-PCT-5",
+          "prod": "Correa de tímpano/ Perfilado",
+          "long": 6433,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "AWU-PCT-6",
+          "prod": "Correa de tímpano/ Perfilado",
+          "long": 5650,
+          "cant": 5,
+          "pend": 5
+        },
+        {
+          "cod": "AWU-PCT-7",
+          "prod": "Correa de tímpano/ Perfilado",
+          "long": 5990,
+          "cant": 44,
+          "pend": 44
+        },
+        {
+          "cod": "AWU-PCT-8",
+          "prod": "Correa de tímpano/ Perfilado",
+          "long": 5990,
+          "cant": 43,
+          "pend": 43
+        },
+        {
+          "cod": "AWU-PCT-9",
+          "prod": "Correa de tímpano/ Perfilado",
+          "long": 5990,
+          "cant": 10,
+          "pend": 10
+        },
+        {
+          "cod": "AWU-PCT-10",
+          "prod": "Correa de tímpano/ Perfilado",
+          "long": 7550,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "AWU-PCT-11",
+          "prod": "Correa de tímpano/ Perfilado",
+          "long": 7550,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWU-PCT-12",
+          "prod": "Correa de tímpano/ Perfilado",
+          "long": 6300,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "AWU-PCT-13",
+          "prod": "Correa de tímpano/ Perfilado",
+          "long": 5810,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "AWU-PCT-14",
+          "prod": "Correa de tímpano/ Perfilado",
+          "long": 7500,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "AWU-PCT-15",
+          "prod": "Correa de tímpano/ Perfilado",
+          "long": 7500,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "AWU-PCT-16",
+          "prod": "Correa de tímpano/ Perfilado",
+          "long": 5990,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "AWU-PCT-17",
+          "prod": "Correa de tímpano/ Perfilado",
+          "long": 5990,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "AWU-PCT-18",
+          "prod": "Correa de tímpano/ Perfilado",
+          "long": 6300,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWU-PCT-19",
+          "prod": "Correa de tímpano/ Perfilado",
+          "long": 6482,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWZ-PCL-1",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 11300,
+          "cant": 7,
+          "pend": 7
+        },
+        {
+          "cod": "AWZ-PCL-2",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 11000,
+          "cant": 19,
+          "pend": 19
+        },
+        {
+          "cod": "AWZ-PCL-3",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 5700,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "AWZ-PCL-4",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 11000,
+          "cant": 22,
+          "pend": 22
+        },
+        {
+          "cod": "AWZ-PCL-5",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 6300,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "AWZ-PCL-6",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 11765,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "AWZ-PCL-7",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 11455,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "AWZ-PCL-8",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 11610,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "AWZ-PCL-9",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 5562,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "AWZ-PCR-1",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11430,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "AWZ-PCR-2",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11000,
+          "cant": 169,
+          "pend": 169
+        },
+        {
+          "cod": "AWZ-PCR-3",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 12190,
+          "cant": 11,
+          "pend": 11
+        },
+        {
+          "cod": "AWZ-PCR-4",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11610,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "AWZ-PCR-5",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11000,
+          "cant": 174,
+          "pend": 174
+        },
+        {
+          "cod": "AWZ-PCR-6",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11365,
+          "cant": 12,
+          "pend": 12
+        },
+        {
+          "cod": "AWZ-PCR-7",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11000,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "AWZ-PCR-8",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11365,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWZ-PCR-10",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11000,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "AWZ-PCR-11",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 12190,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWZ-PCR-13",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11365,
+          "cant": 11,
+          "pend": 11
+        },
+        {
+          "cod": "AWZ-PCR-15",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 12190,
+          "cant": 10,
+          "pend": 10
+        },
+        {
+          "cod": "AWZ-PCR-17",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11000,
+          "cant": 32,
+          "pend": 32
+        },
+        {
+          "cod": "AWZ-PCR-18",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11365,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "AWZ-PCR-20",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 12190,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "AWZ-PCR-21",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11000,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "AWZ-PCR-23",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11365,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWZ-PCR-25",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11000,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "AWZ-PCR-26",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11000,
+          "cant": 32,
+          "pend": 32
+        },
+        {
+          "cod": "AWZ-PCR-27",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 12190,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWZ-PCR-29",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11000,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "AWZ-PCR-30",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11423,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWZ-PCR-32",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11000,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "AWZ-PCR-33",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 12190,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWZ-PCR-36",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11000,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "AWZ-PCR-37",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 12190,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWZ-PCR-39",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11000,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "AWZ-PCR-40",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11365,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWZ-PCR-42",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11000,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "AWZ-PCR-43",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 12190,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWZ-PCR-45",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11000,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "AWZ-PCR-46",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11365,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWZ-PCR-47",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11430,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWZ-PCR-48",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11000,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "AWZ-PCR-49",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 12190,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWZ-PCR-50",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11610,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWZ-PCR-51",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11000,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "AWZ-PCR-52",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11380,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWZ-PCR-53",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11430,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWZ-PCR-54",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11000,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "AWZ-PCR-55",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 12190,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWZ-PCR-56",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11610,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWZ-PCR-57",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11000,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "AWZ-PCR-58",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11430,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWZ-PCR-59",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11479,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWZ-PCR-60",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11000,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "AWZ-PCR-61",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 12190,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWZ-PCR-62",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11610,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWZ-PCR-63",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11000,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "AWZ-PCR-64",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11479,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWZ-PCR-65",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11000,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWZ-PCR-66",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11300,
+          "cant": 16,
+          "pend": 16
+        },
+        {
+          "cod": "AWZ-PCR-67",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11610,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWZ-PCR-68",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11000,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWZ-PCR-69",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 12190,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWZ-PCR-70",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11300,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWZ-PCR-71",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 6300,
+          "cant": 22,
+          "pend": 22
+        },
+        {
+          "cod": "AWZ-PCR-72",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11765,
+          "cant": 12,
+          "pend": 12
+        },
+        {
+          "cod": "AWZ-PCR-73",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11610,
+          "cant": 15,
+          "pend": 15
+        },
+        {
+          "cod": "AWZ-PCR-74",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5700,
+          "cant": 22,
+          "pend": 22
+        },
+        {
+          "cod": "AWZ-PCR-75",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11300,
+          "cant": 10,
+          "pend": 10
+        },
+        {
+          "cod": "AWZ-PCR-76",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11000,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWZ-PCR-77",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11610,
+          "cant": 10,
+          "pend": 10
+        },
+        {
+          "cod": "AWZ-PCR-78",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11000,
+          "cant": 10,
+          "pend": 10
+        },
+        {
+          "cod": "AWZ-PCR-79",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11000,
+          "cant": 10,
+          "pend": 10
+        },
+        {
+          "cod": "AWZ-PCR-80",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11765,
+          "cant": 10,
+          "pend": 10
+        },
+        {
+          "cod": "AWZ-PCR-81",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11000,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWZ-PCR-82",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11300,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "AWZ-PCR-83",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11000,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "AWZ-PCR-84",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5700,
+          "cant": 8,
+          "pend": 8
+        },
+        {
+          "cod": "AWZ-PCR-85",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11000,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "AWZ-PCR-86",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11610,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "AWZ-PCR-87",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11000,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "AWZ-PCR-88",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11000,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "AWZ-PCR-89",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 6300,
+          "cant": 8,
+          "pend": 8
+        },
+        {
+          "cod": "AWZ-PCR-90",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11765,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "AWZ-PCR-91",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11000,
+          "cant": 8,
+          "pend": 8
+        },
+        {
+          "cod": "AWZ-PCR-92",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11765,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "AWZ-PCR-93",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11610,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "AWZ-PCR-94",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11300,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "AWZ-PCR-95",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5562,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "AWZ-PCR-96",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11090,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWZ-PCR-97",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11090,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWZ-PCR-98",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11610,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWZ-PCR-99",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11345,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWZ-PCR-100",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5607,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWZ-PCR-101",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 11090,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWZ-PCT-1",
+          "prod": "Correa de tímpano/ Perfilado",
+          "long": 5990,
+          "cant": 52,
+          "pend": 52
+        },
+        {
+          "cod": "AWZ-PCT-2",
+          "prod": "Correa de tímpano/ Perfilado",
+          "long": 6100,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "AWZ-PCT-3",
+          "prod": "Correa de tímpano/ Perfilado",
+          "long": 6415,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "AWZ-PCT-4",
+          "prod": "Correa de tímpano/ Perfilado",
+          "long": 5928,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "AWZ-PCT-5",
+          "prod": "Correa de tímpano/ Perfilado",
+          "long": 5990,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AWZ-TC-10",
+          "prod": "Tilla de compresion",
+          "long": 1498,
+          "cant": 51,
+          "pend": 51
+        },
+        {
+          "cod": "AWZ-TC-11",
+          "prod": "Tilla de compresion",
+          "long": 1178,
+          "cant": 35,
+          "pend": 35
+        },
+        {
+          "cod": "AYF-PCR-1",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 6065,
+          "cant": 5,
+          "pend": 5
+        },
+        {
+          "cod": "AYF-PCR-2",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5990,
+          "cant": 13,
+          "pend": 13
+        },
+        {
+          "cod": "AYF-PCR-3",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 6307,
+          "cant": 13,
+          "pend": 13
+        },
+        {
+          "cod": "AYF-PCR-4",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 6230,
+          "cant": 8,
+          "pend": 8
+        },
+        {
+          "cod": "AYF-PCR-5",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5990,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "AYF-PCR-6",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 6307,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "AYF-PCR-7",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 6230,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYF-PCR-8",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 6065,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYF-PCT-1",
+          "prod": "Correa de tímpano/ Perfilado",
+          "long": 5990,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "AYF-PCT-2",
+          "prod": "Correa de tímpano/ Perfilado",
+          "long": 6895,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYF-PCT-3",
+          "prod": "Correa de tímpano/ Perfilado",
+          "long": 5355,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYF-PCT-4",
+          "prod": "Correa de tímpano/ Perfilado",
+          "long": 5690,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYF-PCT-5",
+          "prod": "Correa de tímpano/ Perfilado",
+          "long": 7400,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYF-PCT-6",
+          "prod": "Correa de tímpano/ Perfilado",
+          "long": 7295,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "AYD-PCL-1",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 6070,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "AYD-PCL-2",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 5990,
+          "cant": 16,
+          "pend": 16
+        },
+        {
+          "cod": "AYD-PCL-3",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 6130,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "AYD-PCR-1",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 6090,
+          "cant": 23,
+          "pend": 23
+        },
+        {
+          "cod": "AYD-PCR-2",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5990,
+          "cant": 164,
+          "pend": 164
+        },
+        {
+          "cod": "AYD-PCR-3",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 6307,
+          "cant": 18,
+          "pend": 18
+        },
+        {
+          "cod": "AYD-PCR-4",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 6090,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYD-PCR-5",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5990,
+          "cant": 8,
+          "pend": 8
+        },
+        {
+          "cod": "AYD-PCR-6",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 6307,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYD-PCR-7",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 6090,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "AYD-PCR-8",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5990,
+          "cant": 30,
+          "pend": 30
+        },
+        {
+          "cod": "AYD-PCR-9",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 6307,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "AYD-PCR-10",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5990,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "AYD-PCR-11",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5990,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "AYD-PCR-12",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5990,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYD-PCR-13",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 6090,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYD-PCR-14",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5990,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYD-PCR-15",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5990,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYD-PCR-16",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 6307,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYD-PCR-17",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5990,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "AYD-PCR-18",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5990,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYD-PCR-19",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 6090,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYD-PCR-20",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 6070,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "AYD-PCR-21",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5990,
+          "cant": 5,
+          "pend": 5
+        },
+        {
+          "cod": "AYD-PCR-22",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5884,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYD-PCR-23",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 6090,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYD-PCR-24",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 6085,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "AYD-PCR-25",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5990,
+          "cant": 5,
+          "pend": 5
+        },
+        {
+          "cod": "AYD-PCR-26",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 6085,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYD-PCR-27",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 6090,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYD-PCR-28",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5990,
+          "cant": 5,
+          "pend": 5
+        },
+        {
+          "cod": "AYD-PCR-29",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 6085,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYD-PCR-30",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 6090,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYD-PCT-1",
+          "prod": "Correa de tímpano/ Perfilado",
+          "long": 6350,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "AYD-PCT-2",
+          "prod": "Correa de tímpano/ Perfilado",
+          "long": 5990,
+          "cant": 9,
+          "pend": 9
+        },
+        {
+          "cod": "AYD-PCT-3",
+          "prod": "Correa de tímpano/ Perfilado",
+          "long": 4190,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYD-PCT-4",
+          "prod": "Correa de tímpano/ Perfilado",
+          "long": 2195,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYD-PCT-6",
+          "prod": "Correa de tímpano/ Perfilado",
+          "long": 6150,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYD-PCT-7",
+          "prod": "Correa de tímpano/ Perfilado",
+          "long": 7150,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYE-PCL-1",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 6070,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYE-PCL-2",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 6070,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYE-PCL-3",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 5982,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYE-PCL-4",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 5990,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "AYE-PCL-5",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 5990,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYE-PCL-6",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 5985,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "AYE-PCL-7",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 5985,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYE-PCL-8",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 5665,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYE-PCL-9",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 5665,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYE-PCL-10",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 5660,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYE-PCL-11",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 7210,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "AYE-PCL-12",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 7210,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYE-PCL-13",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 7210,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYE-PCL-14",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 7340,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYE-PCL-15",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 5490,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "AYE-PCL-16",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 5490,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYE-PCL-17",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 5990,
+          "cant": 9,
+          "pend": 9
+        },
+        {
+          "cod": "AYE-PCL-18",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 5990,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "AYE-PCL-19",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 6612,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYE-PCL-20",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 6482,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "AYE-PCL-21",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 6482,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYE-PCL-22",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 6482,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYE-PCL-23",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 6600,
+          "cant": 5,
+          "pend": 5
+        },
+        {
+          "cod": "AYE-PCL-24",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 6865,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "AYE-PCL-25",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 6600,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYE-PCL-26",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 6015,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYE-PCL-27",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 6600,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "AYE-PCL-28",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 6290,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "AYE-PCL-29",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 6015,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYE-PCR-1",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 6600,
+          "cant": 22,
+          "pend": 22
+        },
+        {
+          "cod": "AYE-PCR-2",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5825,
+          "cant": 12,
+          "pend": 12
+        },
+        {
+          "cod": "AYE-PCR-3",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 6865,
+          "cant": 12,
+          "pend": 12
+        },
+        {
+          "cod": "AYE-PCR-4",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 6600,
+          "cant": 22,
+          "pend": 22
+        },
+        {
+          "cod": "AYE-PCR-5",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 6865,
+          "cant": 10,
+          "pend": 10
+        },
+        {
+          "cod": "AYE-PCR-6",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5825,
+          "cant": 10,
+          "pend": 10
+        },
+        {
+          "cod": "AYE-PCR-7",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 6170,
+          "cant": 5,
+          "pend": 5
+        },
+        {
+          "cod": "AYE-PCR-8",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 6710,
+          "cant": 10,
+          "pend": 10
+        },
+        {
+          "cod": "AYE-PCR-9",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 6710,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "AYE-PCR-10",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 6865,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "AYE-PCR-11",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 6600,
+          "cant": 8,
+          "pend": 8
+        },
+        {
+          "cod": "AYE-PCR-12",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 6600,
+          "cant": 8,
+          "pend": 8
+        }
+      ],
+      "pint_pend_items": [
+        {
+          "cod": "24283-AN-01",
+          "prod": "Anclaje",
+          "long": 1000,
+          "cant": 30,
+          "pend": 30
+        },
+        {
+          "cod": "24283-AN-02",
+          "prod": "Anclaje",
+          "long": 750,
+          "cant": 44,
+          "pend": 44
+        },
+        {
+          "cod": "24283-AN-03",
+          "prod": "Anclaje",
+          "long": 650,
+          "cant": 13,
+          "pend": 13
+        },
+        {
+          "cod": "24283-AN-04",
+          "prod": "Anclaje",
+          "long": 650,
+          "cant": 11,
+          "pend": 11
+        },
+        {
+          "cod": "24283-AN-05",
+          "prod": "Anclaje",
+          "long": 855,
+          "cant": 19,
+          "pend": 19
+        },
+        {
+          "cod": "24283-AN-06",
+          "prod": "Anclaje",
+          "long": 750,
+          "cant": 14,
+          "pend": 14
+        },
+        {
+          "cod": "24283-AN-07",
+          "prod": "Anclaje",
+          "long": 900,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "24283-AN-08",
+          "prod": "Anclaje",
+          "long": 950,
+          "cant": 16,
+          "pend": 16
+        },
+        {
+          "cod": "24283-AN-09",
+          "prod": "Anclaje",
+          "long": 1000,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "24283-AN-10",
+          "prod": "Anclaje",
+          "long": 900,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "AWU-PCR-28",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 6610,
+          "cant": 6,
+          "pend": 1
+        },
+        {
+          "cod": "24283-AN-11",
+          "prod": "Anclaje",
+          "long": 650,
+          "cant": 7,
+          "pend": 7
+        },
+        {
+          "cod": "24283-AN-12",
+          "prod": "Anclaje",
+          "long": 750,
+          "cant": 18,
+          "pend": 18
+        },
+        {
+          "cod": "24283-AN-13",
+          "prod": "Anclaje",
+          "long": 855,
+          "cant": 17,
+          "pend": 17
+        },
+        {
+          "cod": "24283-AN-14",
+          "prod": "Anclaje",
+          "long": 750,
+          "cant": 10,
+          "pend": 10
+        },
+        {
+          "cod": "24283-AN-15",
+          "prod": "Anclaje",
+          "long": 900,
+          "cant": 21,
+          "pend": 21
+        },
+        {
+          "cod": "AWZ-TC-10",
+          "prod": "Tilla de compresion",
+          "long": 1498,
+          "cant": 51,
+          "pend": 2
+        },
+        {
+          "cod": "AWZ-TC-11",
+          "prod": "Tilla de compresion",
+          "long": 1178,
+          "cant": 35,
+          "pend": 17
+        },
+        {
+          "cod": "R24283-AN-12",
+          "prod": "Anclaje",
+          "long": 900,
+          "cant": 18,
+          "pend": 18
+        },
+        {
+          "cod": ".R.24283-AN-15",
+          "prod": "Anclaje",
+          "long": 900,
+          "cant": 21,
+          "pend": 21
+        },
+        {
+          "cod": "24283-AN-16",
+          "prod": "Anclaje",
+          "long": 850,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "32018-BB-1",
+          "prod": "Babeta metálica - Ml",
+          "long": 126000,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "32018-BB-2",
+          "prod": "Babeta metálica - Ml",
+          "long": 126000,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "31545-PZ-1",
+          "prod": "Pieza Especial",
+          "long": 0,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "31545-PL-1",
+          "prod": "Placa",
+          "long": 0,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYE-PL-1",
+          "prod": "Placa",
+          "long": 199,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYE-PL-2",
+          "prod": "Placa",
+          "long": 200,
+          "cant": 26,
+          "pend": 26
+        },
+        {
+          "cod": "AYE-PL-3",
+          "prod": "Placa",
+          "long": 80,
+          "cant": 104,
+          "pend": 104
+        },
+        {
+          "cod": "AYE-PL-4",
+          "prod": "Placa",
+          "long": 360,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "AYE-PL-5",
+          "prod": "Placa",
+          "long": 360,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "AYE-PL-6",
+          "prod": "Placa",
+          "long": 460,
+          "cant": 18,
+          "pend": 18
+        },
+        {
+          "cod": "AYE-PL-7",
+          "prod": "Placa",
+          "long": 177,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "AYE-PL-8",
+          "prod": "Placa",
+          "long": 105,
+          "cant": 8,
+          "pend": 8
+        },
+        {
+          "cod": "AYE-PL-9",
+          "prod": "Placa",
+          "long": 105,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "AYE-PL-10",
+          "prod": "Placa",
+          "long": 460,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "AYE-PL-11",
+          "prod": "Placa",
+          "long": 250,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYE-PL-12",
+          "prod": "Placa",
+          "long": 250,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "AYE-PL-13",
+          "prod": "Placa",
+          "long": 185,
+          "cant": 12,
+          "pend": 12
+        },
+        {
+          "cod": "AYE-PL-14",
+          "prod": "Placa",
+          "long": 240,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "AYE-PL-15",
+          "prod": "Placa",
+          "long": 105,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BAZ-CL-55",
+          "prod": "Correas Laterales",
+          "long": 2280,
+          "cant": 5,
+          "pend": 4
+        },
+        {
+          "cod": "BAZ-CNP-8",
+          "prod": "Caño Pintado",
+          "long": 138,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "32424-TCN-9",
+          "prod": "Tapa de Canaleta",
+          "long": 840,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BAZ-PCR-6",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 0,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "32653-AN-15",
+          "prod": "Anclaje",
+          "long": 900,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "32036-CPF2-1",
+          "prod": "Clip fijo-Maq Nueva",
+          "long": 100,
+          "cant": 18000,
+          "pend": 18000
+        },
+        {
+          "cod": "32036-CPM2-2",
+          "prod": "Clip móvil-Maq Nueva",
+          "long": 100,
+          "cant": 2500,
+          "pend": 2500
+        },
+        {
+          "cod": "32036-ZC-3",
+          "prod": "Zocalo para chapa zipada",
+          "long": 300,
+          "cant": 512,
+          "pend": 512
+        },
+        {
+          "cod": "32780-CN-4A",
+          "prod": "Canaleta x Kg.",
+          "long": 10120,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "32780-CN-6A",
+          "prod": "Canaleta x Kg.",
+          "long": 10120,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYH-CH-8",
+          "prod": "Cruz Horizontal",
+          "long": 7566,
+          "cant": 18,
+          "pend": 18
+        },
+        {
+          "cod": "32798-BB-1",
+          "prod": "Babeta metálica - Ml",
+          "long": 133500,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "32798-BB-2",
+          "prod": "Babeta metálica - Ml",
+          "long": 133500,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "32799-CPF2-1",
+          "prod": "Clip fijo-Maq Nueva",
+          "long": 100,
+          "cant": 12000,
+          "pend": 12000
+        },
+        {
+          "cod": "32799-CPM2-2",
+          "prod": "Clip móvil-Maq Nueva",
+          "long": 100,
+          "cant": 1600,
+          "pend": 1600
+        },
+        {
+          "cod": "32799-ZC-3",
+          "prod": "Zocalo para chapa zipada",
+          "long": 300,
+          "cant": 542,
+          "pend": 542
+        },
+        {
+          "cod": "32952-CN-4",
+          "prod": "Canaleta x Kg.",
+          "long": 20240,
+          "cant": 5,
+          "pend": 5
+        },
+        {
+          "cod": "32952-CN-6",
+          "prod": "Canaleta x Kg.",
+          "long": 10400,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "32952-CN-8",
+          "prod": "Canaleta x Kg.",
+          "long": 10120,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "32952-TCN-9",
+          "prod": "Tapa de Canaleta",
+          "long": 840,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "32956-TCN-5",
+          "prod": "Tapa de Canaleta",
+          "long": 903,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "31050-PL-1",
+          "prod": "Placa",
+          "long": 848,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "32984-CPF2-1",
+          "prod": "Clip fijo-Maq Nueva",
+          "long": 100,
+          "cant": 3800,
+          "pend": 3800
+        },
+        {
+          "cod": "32984-CPM2-2",
+          "prod": "Clip móvil-Maq Nueva",
+          "long": 100,
+          "cant": 500,
+          "pend": 500
+        },
+        {
+          "cod": "32984-ZC-3",
+          "prod": "Zocalo para chapa zipada",
+          "long": 300,
+          "cant": 280,
+          "pend": 280
+        },
+        {
+          "cod": "33183-PS-1",
+          "prod": "Pieza Suelta",
+          "long": 0,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "32991-CN-1",
+          "prod": "Canaleta x Kg.",
+          "long": 3000,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "32991-CN-2",
+          "prod": "Canaleta x Kg.",
+          "long": 6010,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "32991-CN-3",
+          "prod": "Canaleta x Kg.",
+          "long": 10020,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "32991-TCN-4",
+          "prod": "Tapa de Canaleta",
+          "long": 682,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "32993-BB-1",
+          "prod": "Babeta metálica - Ml",
+          "long": 133500,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "32993-BB-2",
+          "prod": "Babeta metálica - Ml",
+          "long": 133500,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "33254-PCT-1",
+          "prod": "Correa de tímpano/ Perfilado",
+          "long": 5990,
+          "cant": 7,
+          "pend": 7
+        },
+        {
+          "cod": "32994-BB-1",
+          "prod": "Babeta metálica - Ml",
+          "long": 67000,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "32994-BB-2",
+          "prod": "Babeta metálica - Ml",
+          "long": 67000,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "33195-AN-1",
+          "prod": "Anclaje",
+          "long": 0,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "32996-CN-1",
+          "prod": "Canaleta x Kg.",
+          "long": 1500,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "32996-CN-2",
+          "prod": "Canaleta x Kg.",
+          "long": 34300,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "32996-CN-3",
+          "prod": "Canaleta x Kg.",
+          "long": 1500,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "32996-TCN-4",
+          "prod": "Tapa de Canaleta",
+          "long": 495,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "32997-SCN-1",
+          "prod": "Soporte para canaleta",
+          "long": 1175,
+          "cant": 23,
+          "pend": 23
+        },
+        {
+          "cod": "32997-PS-2",
+          "prod": "Pieza Suelta",
+          "long": 600,
+          "cant": 46,
+          "pend": 46
+        },
+        {
+          "cod": "33016-PZ-1",
+          "prod": "Pieza Especial",
+          "long": 0,
+          "cant": 17,
+          "pend": 17
+        },
+        {
+          "cod": "33016-PZ-2",
+          "prod": "Pieza Especial",
+          "long": 0,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "33016-PZ-3",
+          "prod": "Pieza Especial",
+          "long": 0,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "33016-PZ-4",
+          "prod": "Pieza Especial",
+          "long": 0,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "33016-PZ-5",
+          "prod": "Pieza Especial",
+          "long": 0,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "33016-PZ-6",
+          "prod": "Pieza Especial",
+          "long": 0,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "33016-CNP-1",
+          "prod": "Caño Pintado",
+          "long": 0,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "33016-CNP-2",
+          "prod": "Caño Pintado",
+          "long": 0,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "33016-CNP-3",
+          "prod": "Caño Pintado",
+          "long": 0,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "33016-SP-1",
+          "prod": "SOPORTE",
+          "long": 0,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "33016-SP-2",
+          "prod": "SOPORTE",
+          "long": 0,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "33255-PL-1",
+          "prod": "Placa",
+          "long": 0,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "33407-PS-1",
+          "prod": "Pieza Suelta",
+          "long": 150,
+          "cant": 25,
+          "pend": 25
+        },
+        {
+          "cod": "33407-PS-2",
+          "prod": "Pieza Suelta",
+          "long": 230,
+          "cant": 50,
+          "pend": 50
+        },
+        {
+          "cod": "33235-PS-1",
+          "prod": "Pieza Suelta",
+          "long": 0,
+          "cant": 60,
+          "pend": 60
+        },
+        {
+          "cod": "33414-SCN-1",
+          "prod": "Soporte para canaleta",
+          "long": 1175,
+          "cant": 26,
+          "pend": 26
+        },
+        {
+          "cod": "33414-PS-2",
+          "prod": "Pieza Suelta",
+          "long": 600,
+          "cant": 52,
+          "pend": 52
+        },
+        {
+          "cod": "33414-PS-6",
+          "prod": "Pieza Suelta",
+          "long": 150,
+          "cant": 26,
+          "pend": 26
+        },
+        {
+          "cod": "33414-PS-7",
+          "prod": "Pieza Suelta",
+          "long": 230,
+          "cant": 52,
+          "pend": 52
+        },
+        {
+          "cod": "31292-AN-01",
+          "prod": "Anclaje",
+          "long": 0,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "33435-CN-1",
+          "prod": "Canaleta x Kg.",
+          "long": 116000,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "33435-TCN-2",
+          "prod": "Tapa de Canaleta",
+          "long": 450,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "33435-SCN-3",
+          "prod": "Soporte para canaleta",
+          "long": 1630,
+          "cant": 46,
+          "pend": 46
+        },
+        {
+          "cod": "33435-PS-4",
+          "prod": "Pieza Suelta",
+          "long": 290,
+          "cant": 46,
+          "pend": 46
+        },
+        {
+          "cod": "33438-CN-1",
+          "prod": "Canaleta x Kg.",
+          "long": 99000,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "33438-TCN-2",
+          "prod": "Tapa de Canaleta",
+          "long": 450,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "33438-SCN-3",
+          "prod": "Soporte para canaleta",
+          "long": 1630,
+          "cant": 62,
+          "pend": 62
+        },
+        {
+          "cod": "33438-PS-4",
+          "prod": "Pieza Suelta",
+          "long": 290,
+          "cant": 62,
+          "pend": 62
+        },
+        {
+          "cod": "33440-CN-1",
+          "prod": "Canaleta x Kg.",
+          "long": 4700,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "33440-CN-2",
+          "prod": "Canaleta x Kg.",
+          "long": 9400,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "33440-CN-3",
+          "prod": "Canaleta x Kg.",
+          "long": 4700,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "33440-TCN-4",
+          "prod": "Tapa de Canaleta",
+          "long": 541,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "33441-CN-1",
+          "prod": "Canaleta x Kg.",
+          "long": 10500,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "33441-CN-2",
+          "prod": "Canaleta x Kg.",
+          "long": 21200,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "33441-CN-3",
+          "prod": "Canaleta x Kg.",
+          "long": 10500,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "33441-TCN-4",
+          "prod": "Tapa de Canaleta",
+          "long": 524,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "33444-BB-1",
+          "prod": "Babeta metálica - Ml",
+          "long": 66600,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "33444-BB-2",
+          "prod": "Babeta metálica - Ml",
+          "long": 66600,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "24283-RT-1",
+          "prod": "Retazos varios - Kg",
+          "long": 6000,
+          "cant": 8,
+          "pend": 8
+        },
+        {
+          "cod": "32497-PZ-01",
+          "prod": "Pieza Especial",
+          "long": 150,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "24283-ZC-01",
+          "prod": "Zocalo para chapa zipada",
+          "long": 0,
+          "cant": 200,
+          "pend": 200
+        },
+        {
+          "cod": "24283-ZC-02",
+          "prod": "Zocalo para chapa zipada",
+          "long": 50,
+          "cant": 260,
+          "pend": 260
+        },
+        {
+          "cod": "24283-GH-1",
+          "prod": "Gancho",
+          "long": 0,
+          "cant": 5,
+          "pend": 5
+        },
+        {
+          "cod": "33893-BB-1",
+          "prod": "Babeta metálica - Ml",
+          "long": 3000,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "34014-CN-1",
+          "prod": "Canaleta x Kg.",
+          "long": 63000,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "34014-TCN-2",
+          "prod": "Tapa de Canaleta",
+          "long": 450,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "34014-SCN-3",
+          "prod": "Soporte para canaleta",
+          "long": 1630,
+          "cant": 31,
+          "pend": 31
+        },
+        {
+          "cod": "34014-PS-4",
+          "prod": "Pieza Suelta",
+          "long": 290,
+          "cant": 31,
+          "pend": 31
+        },
+        {
+          "cod": "34012-CN-1",
+          "prod": "Canaleta x Kg.",
+          "long": 57000,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "34012-TCN-2",
+          "prod": "Tapa de Canaleta",
+          "long": 375,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "34012-SCN-3",
+          "prod": "Soporte para canaleta",
+          "long": 655,
+          "cant": 28,
+          "pend": 28
+        },
+        {
+          "cod": "34012-PS-4",
+          "prod": "Pieza Suelta",
+          "long": 235,
+          "cant": 28,
+          "pend": 28
+        },
+        {
+          "cod": "34063-BB-1",
+          "prod": "Babeta metálica - Ml",
+          "long": 10000,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "34063-BB-2",
+          "prod": "Babeta metálica - Ml",
+          "long": 10000,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "34063-BB-3",
+          "prod": "Babeta metálica - Ml",
+          "long": 3000,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "AWZ-DI-6",
+          "prod": "Diagonal",
+          "long": 2897,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "AYF-PIS-1",
+          "prod": "Pilar Alma Llena",
+          "long": 1818,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYF-VTI-2",
+          "prod": "Viga Techo IS",
+          "long": 11742,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYF-VTI-3",
+          "prod": "Viga Techo IS",
+          "long": 11879,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYF-VTI-4",
+          "prod": "Viga Techo IS",
+          "long": 12197,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYF-VTI-5",
+          "prod": "Viga Techo IS",
+          "long": 6119,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYF-VTI-8",
+          "prod": "Viga Techo IS",
+          "long": 5855,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYG-DI-27",
+          "prod": "Diagonal",
+          "long": 2561,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYG-DI-51",
+          "prod": "Diagonal",
+          "long": 2487,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYG-DI-52",
+          "prod": "Diagonal",
+          "long": 10,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "AYG-DI-53",
+          "prod": "Diagonal",
+          "long": 3,
+          "cant": 1,
+          "pend": 1
+        }
+      ]
+    },
     "24930": {
       "ot": "24930",
       "obra": "NAVE 5 AMPLIACION FABRICA CHACOMER",
