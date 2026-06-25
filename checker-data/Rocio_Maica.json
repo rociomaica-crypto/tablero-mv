@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T09:38:10.998Z",
+  "updatedAt": "2026-06-25T11:11:39.888Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "25527_1": {
@@ -42,6 +42,34 @@
       "arm_state_state": ""
     },
     "25257_1": {
+      "arm_state_state": "soldado",
+      "pint_state_state": "galvamax"
+    },
+    "25630_14": {
+      "arm_state_state": "soldado",
+      "pint_state_state": "galvamax"
+    },
+    "25630_15": {
+      "arm_state_state": "soldado",
+      "pint_state_state": "galvamax"
+    },
+    "24930_2": {
+      "arm_state_state": "armado",
+      "pint_state_state": "en_pintura"
+    },
+    "24930_3": {
+      "arm_state_state": "soldado",
+      "pint_state_state": "pintado"
+    },
+    "24930_4": {
+      "arm_state_state": "calibrado",
+      "pint_state_state": ""
+    },
+    "24930_5": {
+      "arm_state_state": "soldado",
+      "pint_state_state": "galvamax"
+    },
+    "24930_6": {
       "arm_state_state": "soldado",
       "pint_state_state": "galvamax"
     }
