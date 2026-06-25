@@ -1,16 +1,60 @@
 {
-  "updatedAt": "2026-06-24T10:39:06.221Z",
+  "updatedAt": "2026-06-25T09:38:10.998Z",
   "updatedBy": "Rocio Maica",
-  "checks": {},
+  "checks": {
+    "25527_1": {
+      "arm_state_state": "soldado",
+      "pint_state_state": "galvamax"
+    },
+    "25527_117": {
+      "arm_state_state": "soldado",
+      "pint_state_state": "en_pintura"
+    },
+    "25676_2": {
+      "arm_state_state": "soldado",
+      "pint_state_state": "galvamax"
+    },
+    "25676_3": {
+      "arm_state_state": "soldado"
+    },
+    "24930_1": {
+      "arm_state_state": "liberado",
+      "pint_state_state": ""
+    },
+    "25676_1": {
+      "arm_state_state": "liberado",
+      "pint_state_state": "galvamax"
+    },
+    "25107_212": {
+      "arm_state_state": "armado",
+      "pint_state_state": "en_pintura"
+    },
+    "25107_213": {
+      "arm_state_state": "soldado"
+    },
+    "25107_214": {
+      "arm_state_state": "armado"
+    },
+    "25107_215": {
+      "arm_state_state": "soldado"
+    },
+    "25107_131": {
+      "arm_state_state": ""
+    },
+    "25257_1": {
+      "arm_state_state": "soldado",
+      "pint_state_state": "galvamax"
+    }
+  },
   "otMeta": {
     "24930": {
       "ot": "24930",
       "obra": "NAVE 5 AMPLIACION FABRICA CHACOMER",
       "cliente": "Chacomer S.A.E.",
-      "fecha": "24/6/2026",
+      "fecha": "25/6/2026",
       "avances": {
         "arm": 79,
-        "pint": 27,
+        "pint": 33,
         "env": 1,
         "mont": 0
       },
@@ -18,8 +62,8 @@
         "cant": 2521,
         "arm_lib": 2000,
         "arm_pend": 505,
-        "pint_ok": 669,
-        "pint_pend": 1852,
+        "pint_ok": 844,
+        "pint_pend": 1677,
         "env_ok": 22,
         "env_pend": 2499,
         "items": 217
@@ -399,23 +443,9 @@
           "pend": 2
         },
         {
-          "cod": "BHA-CL-1",
-          "prod": "Correas Laterales",
-          "long": 3971,
-          "cant": 18,
-          "pend": 18
-        },
-        {
           "cod": "BHA-CL-2",
           "prod": "Correas Laterales",
           "long": 2043,
-          "cant": 60,
-          "pend": 60
-        },
-        {
-          "cod": "BHA-CL-3",
-          "prod": "Correas Laterales",
-          "long": 1844,
           "cant": 60,
           "pend": 60
         },
@@ -427,79 +457,16 @@
           "pend": 32
         },
         {
-          "cod": "BHA-CL-6",
-          "prod": "Correas Laterales",
-          "long": 5651,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BHA-CL-7",
-          "prod": "Correas Laterales",
-          "long": 5450,
-          "cant": 24,
-          "pend": 4
-        },
-        {
           "cod": "BHA-CL-8",
           "prod": "Correas Laterales",
           "long": 5440,
           "cant": 24,
-          "pend": 12
-        },
-        {
-          "cod": "BHA-CL-9",
-          "prod": "Correas Laterales",
-          "long": 5522,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BHA-CL-10",
-          "prod": "Correas Laterales",
-          "long": 5513,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BHA-CL-12",
-          "prod": "Correas Laterales",
-          "long": 3200,
-          "cant": 26,
-          "pend": 14
-        },
-        {
-          "cod": "BHA-CL-14",
-          "prod": "Correas Laterales",
-          "long": 1999,
-          "cant": 30,
-          "pend": 30
-        },
-        {
-          "cod": "BHA-CL-15",
-          "prod": "Correas Laterales",
-          "long": 5854,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BHA-CL-16",
-          "prod": "Correas Laterales",
-          "long": 5844,
-          "cant": 2,
-          "pend": 1
+          "pend": 7
         },
         {
           "cod": "BHA-CL-19",
           "prod": "Correas Laterales",
           "long": 1986,
-          "cant": 18,
-          "pend": 18
-        },
-        {
-          "cod": "BHA-CL-20",
-          "prod": "Correas Laterales",
-          "long": 1840,
           "cant": 18,
           "pend": 18
         },
@@ -539,30 +506,9 @@
           "pend": 1
         },
         {
-          "cod": "BHA-CNP-2",
-          "prod": "Caño Pintado",
-          "long": 5800,
-          "cant": 11,
-          "pend": 11
-        },
-        {
           "cod": "BHA-CNP-3",
           "prod": "Caño Pintado",
           "long": 5850,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BHA-CNP-4",
-          "prod": "Caño Pintado",
-          "long": 6000,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BHA-CNP-5",
-          "prod": "Caño Pintado",
-          "long": 6450,
           "cant": 1,
           "pend": 1
         },
@@ -858,7 +804,7 @@
           "prod": "Viga  Arriostre de tubos o caños",
           "long": 5577,
           "cant": 40,
-          "pend": 4
+          "pend": 1
         },
         {
           "cod": "BHA-VSI-3",
