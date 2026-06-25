@@ -1,0 +1,31 @@
+{
+  "updatedAt": "2026-06-25T17:16:58.510Z",
+  "updatedBy": "Adriana Perez",
+  "checks": {
+    "24930_1": {
+      "arm_state_state": "soldado",
+      "pint_state_state": "pintado"
+    },
+    "24930_2": {
+      "arm_state_state": "armado",
+      "pint_state_state": "en_pintura"
+    },
+    "24930_3": {
+      "arm_state_state": "calibrado",
+      "pint_state_state": ""
+    },
+    "24930_4": {
+      "arm_state_state": "soldado",
+      "pint_state_state": "galvamax"
+    },
+    "24930_5": {
+      "arm_state_state": "soldado",
+      "pint_state_state": "galvamax"
+    },
+    "24930_6": {
+      "arm_state_state": "soldado",
+      "pint_state_state": "galvamax"
+    }
+  },
+  "otMeta": {}
+}
