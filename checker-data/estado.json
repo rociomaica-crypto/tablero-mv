@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T11:33:04.719Z",
+  "updatedAt": "2026-06-26T11:37:31.563Z",
   "updatedBy": "Bernardo Vera",
   "checks": {
     "25257_60": {
@@ -248,25 +248,32 @@
       "arm": 4
     },
     "25565_16": {
-      "arm": 6
+      "arm": 6,
+      "pint": 6
     },
     "25565_17": {
-      "arm": 4
+      "arm": 4,
+      "pint": 4
     },
     "25565_18": {
-      "arm": 12
+      "arm": 12,
+      "pint": 12
     },
     "25565_19": {
-      "arm": 4
+      "arm": 4,
+      "pint": 4
     },
     "25565_20": {
-      "arm": 12
+      "arm": 12,
+      "pint": 12
     },
     "25565_21": {
-      "arm": 12
+      "arm": 12,
+      "pint": 12
     },
     "25565_22": {
-      "arm": 6
+      "arm": 6,
+      "pint": 6
     },
     "25565_25": {
       "arm": 16
@@ -491,9 +498,34 @@
     },
     "25510_1": {
       "arm": 26
+    },
+    "25565_5": {
+      "arm": 4
     }
   },
   "otMeta": {
+    "24930": {
+      "ot": "24930",
+      "obra": "NAVE 5 AMPLIACION FABRICA CHACOMER",
+      "cliente": "Chacomer S.A.E.",
+      "fecha": "26/6/2026",
+      "avances": {
+        "arm": 79,
+        "pint": 34,
+        "env": 1,
+        "mont": 0
+      },
+      "totales": {
+        "cant": 2521,
+        "arm_lib": 2000,
+        "arm_pend": 505,
+        "pint_ok": 851,
+        "pint_pend": 1670,
+        "env_ok": 22,
+        "env_pend": 2499,
+        "items": 217
+      }
+    },
     "25257": {
       "ot": "25257",
       "obra": "Adicional Techo Visera - Naves Industriales MRA",
