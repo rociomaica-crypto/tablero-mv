@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tablero Jefes - MV Produccion</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#EEF4F8;color:#0D1F2D;font-size:13px}
+.header{background:linear-gradient(135deg,#0D3B66 0%,#1A5C8A 100%);padding:20px 28px;box-shadow:0 2px 16px rgba(13,59,102,0.4)}
+.header-top{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
+.header-brand{display:flex;align-items:center;gap:14px}
+.header-logo{width:44px;height:44px;background:rgba(255,255,255,0.15);border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:22px}
+.header-title h1{font-size:18px;font-weight:800;color:#fff;letter-spacing:0.3px}
+.header-title p{font-size:12px;color:#7DD3FC;margin-top:2px}
+.header-right{display:flex;align-items:center;gap:12px}
+.update-info{text-align:right}
+.update-info .lbl{font-size:10px;color:rgba(255,255,255,0.5);text-transform:uppercase;letter-spacing:0.06em}
+.update-info .val{font-size:12px;color:#fff;font-weight:600;margin-top:2px}
+.update-info .checker{font-size:11px;color:#7DD3FC;margin-top:1px}
+.refresh-btn{display:flex;align-items:center;gap:8px;padding:10px 20px;background:rgba(255,255,255,0.15);border:1.5px solid rgba(255,255,255,0.3);border-radius:10px;color:#fff;cursor:pointer;font-size:12px;font-weight:700;transition:all 0.2s}
+.refresh-btn:hover{background:rgba(255,255,255,0.25);box-shadow:0 4px 12px rgba(0,0,0,0.2)}
+.refresh-btn.loading{opacity:0.7;cursor:default}
+.spinner{display:inline-block;width:14px;height:14px;border:2px solid rgba(255,255,255,0.3);border-top-color:#fff;border-radius:50%;animation:spin 0.7s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.container{max-width:1400px;margin:0 auto;padding:22px}
+
+/* CONFIG */
+.config-card{background:#fff;border:1.5px solid #FCD34D;border-radius:12px;padding:20px 24px;margin-bottom:20px;box-shadow:0 2px 8px rgba(251,191,36,0.15)}
+.config-card h3{font-size:14px;font-weight:700;color:#92400E;margin-bottom:12px}
+.config-form{display:grid;grid-template-columns:1fr 1fr auto;gap:10px;align-items:end}
+.config-form label{font-size:11px;font-weight:700;color:#1A5C8A;display:block;margin-bottom:4px;text-transform:uppercase}
+.config-form input{font-size:12px;padding:9px 12px;border:1.5px solid #C8DDF0;border-radius:8px;width:100%}
+.config-form input:focus{outline:none;border-color:#1A5C8A}
+.btn-primary{font-size:12px;padding:10px 20px;background:linear-gradient(135deg,#1A5C8A,#0D3B66);border:none;border-radius:8px;color:#fff;cursor:pointer;font-weight:700;white-space:nowrap}
+.btn-primary:hover{opacity:0.9}
+
+/* SUMMARY ROW */
+.summary-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin-bottom:20px}
+.sum-card{background:#fff;border:1px solid #C8DDF0;border-radius:12px;padding:14px 18px;box-shadow:0 1px 4px rgba(13,59,102,0.06);border-top:3px solid #1A5C8A;text-align:center}
+.sum-lbl{font-size:11px;color:#4A7FA5;font-weight:500;margin-bottom:4px}
+.sum-val{font-size:28px;font-weight:800;color:#0D3B66}
+.sum-sub{font-size:11px;color:#7BA7C4;margin-top:3px}
+.sum-card.red{border-top-color:#EF4444}.sum-card.red .sum-val{color:#DC2626}
+.sum-card.amber{border-top-color:#F97316}.sum-card.amber .sum-val{color:#EA6C00}
+.sum-card.green{border-top-color:#10B981}.sum-card.green .sum-val{color:#059669}
+.sum-card.blue{border-top-color:#0EA5E9}.sum-card.blue .sum-val{color:#0284C7}
+
+/* OT CARDS GRID */
+.ot-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:16px}
+.ot-card{background:#fff;border:1.5px solid #C8DDF0;border-radius:14px;overflow:hidden;box-shadow:0 2px 8px rgba(13,59,102,0.08);transition:all 0.2s}
+.ot-card:hover{box-shadow:0 6px 20px rgba(13,59,102,0.15);transform:translateY(-2px)}
+.ot-card-header{background:linear-gradient(135deg,#0D3B66,#1A5C8A);padding:14px 18px;display:flex;justify-content:space-between;align-items:center}
+.ot-card-header h3{font-size:15px;font-weight:800;color:#fff}
+.ot-card-header p{font-size:11px;color:#7DD3FC;margin-top:2px}
+.ot-badge-header{font-size:10px;font-weight:700;padding:4px 10px;border-radius:20px;background:rgba(255,255,255,0.2);color:#fff;border:1px solid rgba(255,255,255,0.3)}
+.ot-card-body{padding:16px 18px}
+.ot-meta{font-size:11px;color:#4A7FA5;margin-bottom:12px;display:flex;gap:12px;flex-wrap:wrap}
+.ot-meta span{display:flex;align-items:center;gap:4px}
+
+/* PROGRESS BARS */
+.proc-row{margin-bottom:10px}
+.proc-label{display:flex;justify-content:space-between;align-items:center;margin-bottom:4px}
+.proc-name{font-size:11px;font-weight:700;color:#0D3B66}
+.proc-pct{font-size:13px;font-weight:800}
+.bar-bg{height:14px;background:#E8F4FD;border-radius:7px;overflow:hidden;border:1px solid #C8DDF0}
+.bar-fill{height:100%;border-radius:7px;transition:width 1s cubic-bezier(.4,0,.2,1);position:relative}
+.bar-fill::after{content:attr(data-ok)" ok";position:absolute;right:6px;top:50%;transform:translateY(-50%);font-size:9px;font-weight:700;color:rgba(255,255,255,0.9);white-space:nowrap}
+.proc-detail{display:flex;justify-content:space-between;font-size:10px;color:#7BA7C4;margin-top:3px}
+
+/* CHECKER ACTIVITY */
+.checker-row{display:flex;align-items:center;justify-content:space-between;padding:8px 12px;background:#F8FBFE;border-radius:8px;margin-top:10px;border:1px solid #E8F4FD}
+.checker-name{font-size:12px;font-weight:700;color:#1A5C8A}
+.checker-time{font-size:10px;color:#7BA7C4}
+.checker-stats{font-size:11px;color:#0D3B66;font-weight:600}
+
+/* ALERT SECTION */
+.alert-section{background:linear-gradient(135deg,#FFF8F0,#FFF3E8);border:1.5px solid #FCD34D;border-radius:10px;padding:12px 16px;margin-top:12px}
+.alert-section-title{font-size:10px;font-weight:700;color:#92400E;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:8px}
+.alert-item{display:flex;justify-content:space-between;align-items:center;padding:4px 0;border-bottom:1px solid rgba(251,191,36,0.2)}
+.alert-item:last-child{border-bottom:none}
+.alert-item-name{font-size:11px;color:#78350F;font-weight:500;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.alert-item-cnt{font-size:11px;font-weight:700}
+.alert-arm{color:#DC2626}
+.alert-pint{color:#EA6C00}
+
+/* REBAJA PROGRESS SECTION */
+.rebaja-section{background:linear-gradient(135deg,#F0F8FF,#EEF4F8);border:1.5px solid #C8DDF0;border-radius:10px;padding:12px 16px;margin-top:10px}
+.rebaja-title{font-size:10px;font-weight:700;color:#1A5C8A;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:8px;display:flex;justify-content:space-between}
+.reb-row{display:flex;justify-content:space-between;align-items:center;padding:3px 0}
+.reb-label{font-size:11px;color:#4A7FA5;font-weight:500}
+.reb-val{font-size:12px;font-weight:700;color:#0D3B66}
+.reb-bar-wrap{flex:1;margin:0 10px}
+.reb-bar-bg{height:6px;background:#D1E8F5;border-radius:3px;overflow:hidden}
+.reb-bar-fill{height:100%;border-radius:3px;background:linear-gradient(90deg,#1A5C8A,#0EA5E9)}
+
+/* EMPTY/ERROR STATES */
+.empty-state{text-align:center;padding:60px 20px;color:#4A7FA5}
+.empty-state .icon{font-size:48px;margin-bottom:16px}
+.empty-state h3{font-size:16px;font-weight:700;color:#1A5C8A;margin-bottom:8px}
+.empty-state p{font-size:13px;color:#7BA7C4}
+.status-bar{padding:10px 16px;border-radius:8px;font-size:12px;margin-bottom:16px;font-weight:500;display:none}
+.status-ok{background:#F0FDF4;border:1.5px solid #6EE7B7;color:#065F46;display:block}
+.status-err{background:#FEF2F2;border:1.5px solid #FCA5A5;color:#991B1B;display:block}
+.status-info{background:#EFF6FF;border:1.5px solid #93C5FD;color:#1E40AF;display:block}
+
+@media(max-width:700px){.config-form{grid-template-columns:1fr}.header-right{flex-direction:column;align-items:flex-end}.ot-grid{grid-template-columns:1fr}}
+
+/* MODAL */
+.modal-overlay{position:fixed;inset:0;background:rgba(13,30,50,0.7);z-index:500;display:flex;align-items:center;justify-content:center;padding:20px;backdrop-filter:blur(3px)}
+.modal-box{background:#fff;border-radius:16px;width:100%;max-width:820px;max-height:88vh;display:flex;flex-direction:column;box-shadow:0 20px 60px rgba(0,0,0,0.35);overflow:hidden}
+.modal-header{background:linear-gradient(135deg,#0D3B66,#1A5C8A);padding:18px 22px;display:flex;align-items:center;justify-content:space-between;flex-shrink:0}
+.modal-header h3{font-size:15px;font-weight:800;color:#fff}
+.modal-header p{font-size:11px;color:#7DD3FC;margin-top:3px}
+.modal-close{background:rgba(255,255,255,0.15);border:1px solid rgba(255,255,255,0.3);border-radius:8px;color:#fff;font-size:18px;width:32px;height:32px;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.modal-close:hover{background:rgba(255,255,255,0.25)}
+.modal-tabs{display:flex;border-bottom:1px solid #E8F4FD;background:#F8FBFE;flex-shrink:0}
+.modal-tab{font-size:12px;font-weight:700;padding:12px 20px;cursor:pointer;color:#4A7FA5;border-bottom:3px solid transparent;transition:all 0.15s}
+.modal-tab:hover{color:#0D3B66;background:#EEF4F8}
+.modal-tab.active{color:#0D3B66;border-bottom-color:#0D3B66;background:#fff}
+.modal-tab .cnt{display:inline-block;font-size:10px;padding:2px 7px;border-radius:20px;margin-left:6px;font-weight:700}
+.modal-tab.active .cnt-arm{background:#FEE2E2;color:#991B1B}
+.modal-tab .cnt-arm{background:#F5F5F4;color:#78716C}
+.modal-tab.active .cnt-pint{background:#FEF3C7;color:#92400E}
+.modal-tab .cnt-pint{background:#F5F5F4;color:#78716C}
+.modal-body{overflow-y:auto;flex:1;padding:0}
+.modal-search{padding:12px 18px;border-bottom:1px solid #E8F4FD;background:#fff;position:sticky;top:0;z-index:1}
+.modal-search input{width:100%;font-size:12px;padding:8px 12px;border:1.5px solid #C8DDF0;border-radius:8px}
+.modal-search input:focus{outline:none;border-color:#1A5C8A}
+.pend-table{width:100%;border-collapse:collapse;font-size:12px}
+.pend-table th{background:#F0F7FF;padding:9px 16px;text-align:left;font-size:10px;font-weight:700;color:#1A5C8A;text-transform:uppercase;letter-spacing:0.06em;border-bottom:1px solid #C8DDF0;position:sticky;top:0}
+.pend-table td{padding:9px 16px;border-bottom:1px solid #F0F7FF;vertical-align:middle}
+.pend-table tr:hover td{background:#F8FBFE}
+.pend-table tr:last-child td{border-bottom:none}
+.pend-badge{display:inline-block;font-size:11px;font-weight:700;padding:3px 10px;border-radius:20px}
+.pend-arm{background:#FEE2E2;color:#991B1B;border:1px solid #FCA5A5}
+.pend-pint{background:#FEF3C7;color:#92400E;border:1px solid #FCD34D}
+.modal-footer{padding:12px 18px;border-top:1px solid #E8F4FD;background:#F8FBFE;font-size:11px;color:#4A7FA5;display:flex;justify-content:space-between;align-items:center;flex-shrink:0}
+.btn-export-modal{font-size:11px;padding:5px 14px;background:#0D3B66;border:none;border-radius:6px;color:#fff;cursor:pointer;font-weight:600}
+.btn-export-modal:hover{background:#1A5C8A}
+.pend-link{color:#1A5C8A;font-weight:700;cursor:pointer;text-decoration:underline;text-underline-offset:2px}
+.pend-link:hover{color:#0D3B66}
+
+/* PRIORITY MODAL */
+.prio-modal-overlay{position:fixed;inset:0;background:rgba(13,30,50,0.7);z-index:500;display:flex;align-items:center;justify-content:center;padding:20px;backdrop-filter:blur(3px)}
+.prio-modal-box{background:#fff;border-radius:16px;width:100%;max-width:900px;max-height:90vh;display:flex;flex-direction:column;box-shadow:0 20px 60px rgba(0,0,0,0.35);overflow:hidden}
+.prio-modal-header{background:linear-gradient(135deg,#0D3B66,#1A5C8A);padding:16px 22px;display:flex;align-items:center;justify-content:space-between;flex-shrink:0}
+.prio-modal-header h3{font-size:15px;font-weight:800;color:#fff}
+.prio-modal-header p{font-size:11px;color:#7DD3FC;margin-top:3px}
+.prio-close{background:rgba(255,255,255,0.15);border:1px solid rgba(255,255,255,0.3);border-radius:8px;color:#fff;font-size:18px;width:32px;height:32px;cursor:pointer;display:flex;align-items:center;justify-content:center}
+.prio-modal-body{overflow-y:auto;flex:1;padding:16px 20px}
+.prio-select{font-size:11px;padding:4px 8px;border:1.5px solid #C8DDF0;border-radius:6px;background:#fff;cursor:pointer}
+.prio-select.alta{background:#FEF08A;border-color:#EAB308;font-weight:700;color:#713F12}
+.prio-select.media{background:#FED7AA;border-color:#F97316;font-weight:700;color:#9A3412}
+.prio-select.baja{background:#FDE68A;border-color:#F59E0B;font-weight:700;color:#78350F}
+.prio-select.none{background:#fff;color:#78716C}
+.prio-table{width:100%;border-collapse:collapse;font-size:12px}
+.prio-table th{background:#F0F7FF;padding:8px 12px;text-align:left;font-size:10px;font-weight:700;color:#1A5C8A;text-transform:uppercase;border-bottom:1px solid #C8DDF0;position:sticky;top:0}
+.prio-table td{padding:8px 12px;border-bottom:1px solid #F0F7FF;vertical-align:middle}
+.prio-table tr:hover td{background:#F8FBFE}
+.prio-badge{display:inline-block;font-size:10px;font-weight:800;padding:2px 8px;border-radius:20px}
+.prio-alta{background:#FEF08A;color:#713F12;border:2px solid #EAB308}
+.prio-media{background:#FED7AA;color:#9A3412;border:2px solid #F97316}
+.prio-baja{background:#FDE68A;color:#78350F;border:2px solid #F59E0B}
+.save-prio-btn{font-size:12px;padding:8px 20px;background:linear-gradient(135deg,#1A5C8A,#0D3B66);border:none;border-radius:8px;color:#fff;cursor:pointer;font-weight:700}
+.pend-link-jefe{color:#1A5C8A;font-weight:700;cursor:pointer;text-decoration:underline;text-underline-offset:2px}
+
+.qr-modal-overlay{position:fixed;inset:0;background:rgba(13,30,50,0.7);z-index:600;display:flex;align-items:center;justify-content:center;padding:20px;backdrop-filter:blur(3px)}
+.qr-modal-box{background:#fff;border-radius:16px;width:340px;box-shadow:0 20px 60px rgba(0,0,0,0.35);overflow:hidden;text-align:center}
+.qr-modal-header{background:linear-gradient(135deg,#0D3B66,#1A5C8A);padding:16px 20px;display:flex;align-items:center;justify-content:space-between}
+.qr-modal-header h3{font-size:14px;font-weight:800;color:#fff}
+.qr-close{background:rgba(255,255,255,0.15);border:1px solid rgba(255,255,255,0.3);border-radius:8px;color:#fff;font-size:16px;width:28px;height:28px;cursor:pointer;display:flex;align-items:center;justify-content:center}
+.qr-body{padding:24px 20px}
+.qr-obra{font-size:13px;font-weight:700;color:#0D3B66;margin-bottom:4px}
+.qr-cliente{font-size:11px;color:#4A7FA5;margin-bottom:16px}
+#qr-canvas-wrap{display:flex;justify-content:center;margin-bottom:16px}
+.qr-url{font-size:10px;color:#7BA7C4;word-break:break-all;background:#F0F8FF;border-radius:8px;padding:8px;margin-bottom:14px;border:1px solid #C8DDF0}
+.qr-btns{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.qr-btn{font-size:12px;padding:8px 16px;border-radius:8px;cursor:pointer;font-weight:700;border:none}
+.qr-btn-primary{background:linear-gradient(135deg,#1A5C8A,#0D3B66);color:#fff}
+.qr-btn-secondary{background:#EEF4F8;color:#1A5C8A;border:1.5px solid #C8DDF0!important;border:none}
+</style>
+<script>
+// ============ QR MODAL ============
+var qrCurrentUrl = "";
+
+function openQRModal(otKey, obra, cliente){
+  var baseUrl = "https://rociomaica-crypto.github.io/tablero-mv/obra.html";
+  var url = baseUrl + "?ot=" + otKey;
+  qrCurrentUrl = url;
+  document.getElementById("qr-modal-ot").textContent = "QR — OT " + otKey;
+  document.getElementById("qr-obra-name").textContent = obra;
+  document.getElementById("qr-cliente-name").textContent = cliente || "";
+  document.getElementById("qr-url-text").textContent = url;
+  var wrap = document.getElementById("qr-canvas-wrap");
+  wrap.innerHTML = "";
+  var canvas = document.createElement("canvas");
+  canvas.id = "qr-canvas";
+  wrap.appendChild(canvas);
+  drawQR(canvas, url, 200);
+  document.getElementById("qr-modal-overlay").style.display = "flex";
+  document.body.style.overflow = "hidden";
+}
+
+// Minimal QR Code generator (alphanumeric/byte mode, version 3, ECC M)
+// Generates a scannable QR for URLs up to ~100 chars
+function drawQR(canvas, text, size){
+  // Use a reliable 3rd party that works offline: qrcodejs via data URL approach
+  // Instead, use the simplest approach: encode as SVG QR using known patterns
+  // For reliability, use fetch to qr-server which works without cors issues
+  var apiUrl = "https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=" + encodeURIComponent(text);
+  var ctx = canvas.getContext("2d");
+  canvas.width = size;
+  canvas.height = size;
+  ctx.fillStyle = "#f0f8ff";
+  ctx.fillRect(0, 0, size, size);
+  ctx.fillStyle = "#1A5C8A";
+  ctx.font = "11px sans-serif";
+  ctx.textAlign = "center";
+  ctx.fillText("Cargando QR...", size/2, size/2);
+  var img = new Image();
+  img.crossOrigin = "anonymous";
+  img.onload = function(){
+    ctx.clearRect(0, 0, size, size);
+    ctx.drawImage(img, 0, 0, size, size);
+  };
+  img.onerror = function(){
+    // Fallback: show URL as text with instructions
+    ctx.clearRect(0, 0, size, size);
+    ctx.fillStyle = "#EEF4F8";
+    ctx.fillRect(0,0,size,size);
+    ctx.fillStyle = "#0D3B66";
+    ctx.font = "bold 13px sans-serif";
+    ctx.textAlign = "center";
+    ctx.fillText("Link directo:", size/2, 40);
+    ctx.font = "10px monospace";
+    ctx.fillStyle = "#1A5C8A";
+    var words = text.split("?");
+    ctx.fillText(words[0], size/2, 60);
+    if(words[1]) ctx.fillText("?"+words[1], size/2, 75);
+    ctx.fillStyle = "#4A7FA5";
+    ctx.font = "11px sans-serif";
+    ctx.fillText("Usa el boton", size/2, 110);
+    ctx.fillText("'Copiar link'", size/2, 125);
+    ctx.fillText("y comparte por", size/2, 140);
+    ctx.fillText("WhatsApp", size/2, 155);
+  };
+  img.src = apiUrl;
+}
+
+function closeQRModal(){
+  document.getElementById("qr-modal-overlay").style.display = "none";
+  document.body.style.overflow = "";
+}
+function closeQROutside(ev){
+  if(ev.target === document.getElementById("qr-modal-overlay")) closeQRModal();
+}
+
+function downloadQR(){
+  var otKey = document.getElementById("qr-modal-ot").textContent.replace("QR — OT ","");
+  var canvas = document.getElementById("qr-canvas");
+  if(canvas){
+    var link = document.createElement("a");
+    link.download = "QR_OT" + otKey + ".png";
+    link.href = canvas.toDataURL("image/png");
+    link.click();
+  }
+}
+
+function copyQRUrl(){
+  navigator.clipboard.writeText(qrCurrentUrl).then(function(){
+    var btn = event.target;
+    btn.textContent = "&#10003; Copiado!";
+    setTimeout(function(){btn.innerHTML="&#128203; Copiar link";}, 2000);
+  });
+}
+
+</script>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-top">
+    <div class="header-brand">
+      <div class="header-logo">🏗️</div>
+      <div class="header-title">
+        <h1>Tablero de Produccion — MV</h1>
+        <p>Estado de obras en tiempo real &mdash; Solo lectura</p>
+      </div>
+    </div>
+    <div class="header-right">
+      <div class="update-info">
+        <div class="lbl">Ultima actualizacion</div>
+        <div class="val" id="last-update">—</div>
+        <div class="checker" id="last-checker">—</div>
+      </div>
+      <button class="refresh-btn" id="refresh-btn" onclick="loadData()">
+        <span id="refresh-icon">&#8635;</span> Actualizar
+      </button>
+      <button class="refresh-btn" onclick="toggleConfig()" title="Configurar GitHub" style="padding:10px 14px">&#9881;</button>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+
+  <div id="config-section" class="config-card">
+    <h3>⚙️ Configurar fuente de datos (solo una vez)</h3>
+    <div class="config-form">
+      <div>
+        <label>Usuario / Repositorio GitHub</label>
+        <input type="text" id="cfg-repo" value="rociomaica-crypto/tablero-mv" readonly style="background:#EEF4F8;color:#4A7FA5;cursor:default">
+      </div>
+      <div>
+        <label>Token de GitHub (lectura)</label>
+        <input type="password" id="cfg-token" placeholder="ghp_xxxxxxxxxxxx">
+      </div>
+      <button class="btn-primary" onclick="saveConfig()">Guardar y conectar</button>
+    </div>
+    <div id="cfg-status" class="status-bar" style="margin-top:10px;display:none"></div>
+  </div>
+
+  <div id="status-bar" class="status-bar"></div>
+
+  <div class="summary-grid" id="summary-grid" style="display:none"></div>
+
+  <div id="ot-grid" class="ot-grid">
+    <div class="empty-state">
+      <div class="icon">📊</div>
+      <h3>Conecta con GitHub para ver el estado</h3>
+      <p>Configura el repositorio arriba y presiona Actualizar</p>
+    </div>
+  </div>
+
+</div>
+
+<script>
+var GH_REPO = "rociomaica-crypto/tablero-mv";
+var currentData = {};
+var ghRepo="", ghToken="";
+
+function init(){
+  // Public repo - no token needed, load directly
+  document.getElementById("config-section").style.display="none";
+  loadData();
+}
+function toggleConfig(){
+  var s=document.getElementById("config-section");
+  s.style.display=s.style.display==="none"?"block":"none";
+  if(s.style.display==="block"){
+    document.getElementById("cfg-repo").value=GH_REPO;
+    document.getElementById("cfg-token").value=ghToken;
+  }
+}
+
+function saveConfig(){
+  var repo=document.getElementById("cfg-repo").value.trim();
+  var token=document.getElementById("cfg-token").value.trim();
+  if(!repo||!token){showStatus("Completa ambos campos.","err");return;}
+  showStatus("<span style=\"display:inline-block;width:12px;height:12px;border:2px solid #93C5FD;border-top-color:#1E40AF;border-radius:50%;animation:spin 0.7s linear infinite;vertical-align:-2px;margin-right:6px\"></span>Verificando...","info");
+  fetch("https://api.github.com/repos/"+repo,{headers:{"Authorization":"token "+token,"Accept":"application/vnd.github.v3+json"}})
+    .then(function(r){return r.json();})
+    .then(function(d){
+      if(d.id){
+        ghRepo=GH_REPO;ghToken=token;
+        localStorage.setItem("mv_jefes_repo",GH_REPO);
+        localStorage.setItem("mv_jefes_token",token);
+        document.getElementById("config-section").style.display="none";
+        loadData();
+      } else {
+        showStatus("No se pudo verificar el repositorio. Revisa los datos.","err");
+      }
+    })
+    .catch(function(){showStatus("Error de conexion.","err");});
+}
+
+function showStatus(msg,type){
+  var el=document.getElementById("status-bar");
+  el.className="status-bar status-"+type;
+  el.innerHTML=msg;
+}
+
+var CHECKER_FILES=["Bernardo_Vera","Angel_Villa","Cristhian_Piatti","Sandro_Monzon","David_Gimenez","Adriana_Perez","Rocio_Maica"];
+
+function loadData(){
+  var btn=document.getElementById("refresh-btn");
+  btn.classList.add("loading");
+  btn.innerHTML="<span class=\"spinner\"></span> Actualizando...";
+
+  var base="https://raw.githubusercontent.com/"+GH_REPO+"/principal/verificadores/";
+  var promises=CHECKER_FILES.map(function(name){
+    return fetch(base+name+".json?t="+Date.now())
+      .then(function(r){return r.ok?r.json():null;})
+      .catch(function(){return null;});
+  });
+
+  Promise.all(promises).then(function(results){
+    // Merge all checker files into one unified data object
+    var merged={updatedAt:"",updatedBy:"",checks:{},otMeta:{}};
+    var latestTime=0;
+
+    results.forEach(function(data){
+      if(!data) return;
+      // Track latest update
+      var t=new Date(data.updatedAt).getTime();
+      if(t>latestTime){
+        latestTime=t;
+        merged.updatedAt=data.updatedAt;
+        merged.updatedBy=data.updatedBy;
+      }
+      // Merge checks (each checker owns their own keys)
+      if(data.checks){
+        Object.keys(data.checks).forEach(function(k){
+          merged.checks[k]=data.checks[k];
+        });
+      }
+      // Merge OT metadata (last writer wins per OT, but we keep all OTs)
+      if(data.otMeta){
+        Object.keys(data.otMeta).forEach(function(k){
+          // Keep the more recent version of each OT
+          if(!merged.otMeta[k]){
+            merged.otMeta[k]=data.otMeta[k];
+          } else {
+            // Compare dates and keep most recent
+            var existingDate=new Date(merged.otMeta[k].fecha||0).getTime();
+            var newDate=new Date(data.otMeta[k].fecha||0).getTime();
+            if(newDate>=existingDate){
+              // Keep pending items from new version
+              merged.otMeta[k]=data.otMeta[k];
+            }
+          }
+          // Always track who updated this OT
+          merged.otMeta[k].updatedBy=data.updatedBy;
+          merged.otMeta[k].updatedAt=data.updatedAt;
+        });
+      }
+    });
+
+    var totalOTs=Object.keys(merged.otMeta).length;
+    if(totalOTs===0){
+      showStatus("No se encontraron datos. Los checkers aun no han sincronizado.","err");
+      btn.classList.remove("loading");
+      btn.innerHTML="&#8635; Actualizar";
+      return;
+    }
+
+    renderDashboard(merged);
+    btn.classList.remove("loading");
+    btn.innerHTML="&#8635; Actualizar";
+    document.getElementById("config-section").style.display="none";
+  });
+}
+
+function pctC(p){return p>=80?"#059669":p>=60?"#D97706":"#DC2626";}
+function barC(p){return p>=80?"#10B981":p>=60?"#F97316":"#EF4444";}
+function fmt(n){return(n||0).toLocaleString("es",{maximumFractionDigits:1});}
+
+function renderDashboard(data){
+  currentData = data;
+  // Header update info
+  var dt=new Date(data.updatedAt);
+  document.getElementById("last-update").textContent=dt.toLocaleDateString("es-PY")+" "+dt.toLocaleTimeString("es-PY",{hour:"2-digit",minute:"2-digit"});
+  document.getElementById("last-checker").textContent="por "+data.updatedBy;
+
+  var otKeys=Object.keys(data.otMeta||{});
+  if(!otKeys.length){
+    document.getElementById("ot-grid").innerHTML="<div class=\"empty-state\"><div class=\"icon\">📭</div><h3>Sin OTs registradas</h3><p>El checker aun no cargó ningún LPT</p></div>";
+    return;
+  }
+
+  // Summary totals
+  var totPiezas=0,totArmPend=0,totPintPend=0,totEnvPend=0;
+  otKeys.forEach(function(k){
+    var t=data.otMeta[k].totales;
+    totPiezas+=t.cant;totArmPend+=t.arm_pend;totPintPend+=t.pint_pend;totEnvPend+=t.env_pend;
+  });
+
+  // Checker rebaja stats
+  var checks=data.checks||{};
+  var totalChecks=Object.keys(checks).length;
+
+  var sg=document.getElementById("summary-grid");
+  sg.style.display="grid";
+  sg.innerHTML=
+    "<div class=\"sum-card blue\"><div class=\"sum-lbl\">OTs activas</div><div class=\"sum-val\">"+otKeys.length+"</div><div class=\"sum-sub\">en seguimiento</div></div>"+
+    "<div class=\"sum-card\"><div class=\"sum-lbl\">Total piezas</div><div class=\"sum-val\">"+fmt(totPiezas)+"</div><div class=\"sum-sub\">todas las obras</div></div>"+
+    "<div class=\"sum-card red\"><div class=\"sum-lbl\">Pend. Armado</div><div class=\"sum-val\">"+fmt(totArmPend)+"</div><div class=\"sum-sub\">sin liberar</div></div>"+
+    "<div class=\"sum-card amber\"><div class=\"sum-lbl\">Pend. Pintura</div><div class=\"sum-val\">"+fmt(totPintPend)+"</div><div class=\"sum-sub\">sin pintar</div></div>"+
+    "<div class=\"sum-card green\"><div class=\"sum-lbl\">Rebaja checker</div><div class=\"sum-val\">"+totalChecks+"</div><div class=\"sum-sub\">items tildados</div></div>";
+
+  // OT cards
+  var html="";
+  otKeys.forEach(function(k){
+    var o=data.otMeta[k];
+    var t=o.totales;
+    var a=o.avances;
+    var tot=t.cant||1;
+
+    // Checker progress for this OT
+    var armVer=0,pintVer=0,armTotal=0,pintTotal=0;
+    Object.keys(checks).forEach(function(ck){
+      if(ck.startsWith(k+"_")){
+        armTotal++;pintTotal++;
+        if(checks[ck].arm&&checks[ck].arm>=1)armVer++;
+        if(checks[ck].pint&&checks[ck].pint>=1)pintVer++;
+      }
+    });
+
+    // Top pending products
+    // We only have totals here, not per-product - show global stats
+    var armPct=Math.round(t.arm_lib/tot*100);
+    var pintPct=Math.round(t.pint_ok/tot*100);
+    var envPct=Math.round(t.env_ok/tot*100);
+
+    var alertClass=t.arm_pend>500||t.pint_pend>500?"border:2px solid #FCA5A5":"";
+
+    html+="<div class=\"ot-card\" style=\""+alertClass+"\">";
+    html+="<div class=\"ot-card-header\">";
+    html+="<div><h3>OT "+o.ot+"</h3><p>"+o.obra+"</p></div>";
+    html+="<div style=\"display:flex;gap:8px;align-items:center\">";
+    html+="<span class=\"ot-badge-header\">"+t.items+" items</span>";
+    if(o.arm_pend_items&&o.arm_pend_items.length>0){
+      html+="<button onclick=\"openPrioModal('"+k+"')\" style=\"font-size:10px;padding:3px 10px;background:rgba(255,255,255,0.2);border:1px solid rgba(255,255,255,0.4);border-radius:20px;color:#fff;cursor:pointer;font-weight:700\">&#9733; Prioridades</button>";
+    }
+    html+="<button onclick=\"openQRModal('"+k+"','"+o.obra.replace(/'/g,"\\'")+"','"+((o.cliente||"").replace(/'/g,"\\'"))+"')\" style=\"font-size:10px;padding:3px 10px;background:rgba(255,255,255,0.2);border:1px solid rgba(255,255,255,0.4);border-radius:20px;color:#fff;cursor:pointer;font-weight:700\">&#9641; QR</button>";
+    html+="</div></div>";
+    html+="<div class=\"ot-card-body\">";
+
+    // Meta
+    html+="<div class=\"ot-meta\">";
+    if(o.cliente)html+="<span>👤 "+o.cliente+"</span>";
+    html+="<span>📅 "+o.fecha+"</span>";
+    html+="<span>📦 "+fmt(t.cant)+" piezas</span>";
+    html+="</div>";
+
+    // Progress bars
+    var hasArmPend=t.arm_pend>0&&o.arm_pend_items&&o.arm_pend_items.length>0;
+    var hasPintPend=t.pint_pend>0&&o.pint_pend_items&&o.pint_pend_items.length>0;
+    html+="<div class=\"proc-row\">";
+    html+="<div class=\"proc-label\"><span class=\"proc-name\">Armado</span><span class=\"proc-pct\" style=\"color:"+pctC(armPct)+"\">"+armPct+"%</span></div>";
+    html+="<div class=\"bar-bg\"><div class=\"bar-fill\" style=\"width:"+armPct+"%;background:"+barC(armPct)+"\" data-ok=\""+fmt(t.arm_lib)+"\"></div></div>";
+    html+="<div class=\"proc-detail\"><span>"+fmt(t.arm_lib)+" liberadas</span>";
+    if(hasArmPend){html+="<span class=\"pend-link\" onclick=\"openModal('"+k+"','arm')\">"+fmt(t.arm_pend)+" pendientes &rarr;</span>";}
+    else{html+="<span style=\"color:#DC2626;font-weight:700\">"+fmt(t.arm_pend)+" pendientes</span>";}
+    html+="</div></div>";
+
+    html+="<div class=\"proc-row\">";
+    html+="<div class=\"proc-label\"><span class=\"proc-name\">Pintura</span><span class=\"proc-pct\" style=\"color:"+pctC(pintPct)+"\">"+pintPct+"%</span></div>";
+    html+="<div class=\"bar-bg\"><div class=\"bar-fill\" style=\"width:"+pintPct+"%;background:"+barC(pintPct)+"\" data-ok=\""+fmt(t.pint_ok)+"\"></div></div>";
+    html+="<div class=\"proc-detail\"><span>"+fmt(t.pint_ok)+" pintadas</span>";
+    if(hasPintPend){html+="<span class=\"pend-link\" onclick=\"openModal('"+k+"','pint')\">"+fmt(t.pint_pend)+" pendientes &rarr;</span>";}
+    else{html+="<span style=\"color:#EA6C00;font-weight:700\">"+fmt(t.pint_pend)+" pendientes</span>";}
+    html+="</div></div>";
+
+    html+="<div class=\"proc-row\">";
+    html+="<div class=\"proc-label\"><span class=\"proc-name\">Envio</span><span class=\"proc-pct\" style=\"color:"+pctC(envPct)+"\">"+envPct+"%</span></div>";
+    html+="<div class=\"bar-bg\"><div class=\"bar-fill\" style=\"width:"+envPct+"%;background:"+barC(envPct)+"\" data-ok=\""+fmt(t.env_ok)+"\"></div></div>";
+    html+="<div class=\"proc-detail\"><span>"+fmt(t.env_ok)+" enviadas</span><span style=\"color:#7BA7C4;font-weight:600\">"+fmt(t.env_pend)+" pendientes</span></div>";
+    html+="</div>";
+
+    // Rebaja checker progress
+    if(armTotal>0){
+      html+="<div class=\"rebaja-section\">";
+      html+="<div class=\"rebaja-title\"><span>Rebaja Checker</span><span style=\"color:#4A7FA5;font-weight:400;text-transform:none\">"+armTotal+" items tildados</span></div>";
+      var armRebPct=Math.round(armVer/armTotal*100);
+      var pintRebPct=Math.round(pintVer/armTotal*100);
+      html+="<div class=\"reb-row\">";
+      html+="<span class=\"reb-label\">Armado verificado</span>";
+      html+="<div class=\"reb-bar-wrap\"><div class=\"reb-bar-bg\"><div class=\"reb-bar-fill\" style=\"width:"+armRebPct+"%\"></div></div></div>";
+      html+="<span class=\"reb-val\">"+armVer+"/"+armTotal+" ("+armRebPct+"%)</span>";
+      html+="</div>";
+      html+="<div class=\"reb-row\" style=\"margin-top:6px\">";
+      html+="<span class=\"reb-label\">Pintura verificada</span>";
+      html+="<div class=\"reb-bar-wrap\"><div class=\"reb-bar-bg\"><div class=\"reb-bar-fill\" style=\"width:"+pintRebPct+"%\"></div></div></div>";
+      html+="<span class=\"reb-val\">"+pintVer+"/"+armTotal+" ("+pintRebPct+"%)</span>";
+      html+="</div>";
+      html+="</div>";
+    }
+
+    // Checker info - show who updated THIS specific OT
+    var otUpdatedBy=o.updatedBy||data.updatedBy;
+    var otUpdatedAt=o.updatedAt||data.updatedAt;
+    html+="<div class=\"checker-row\">";
+    html+="<div><div class=\"checker-name\">"+otUpdatedBy+"</div><div class=\"checker-time\">"+new Date(otUpdatedAt).toLocaleDateString("es-PY")+" "+new Date(otUpdatedAt).toLocaleTimeString("es-PY",{hour:"2-digit",minute:"2-digit"})+"</div></div>";
+    html+="<div class=\"checker-stats\">Ultima sincronizacion</div>";
+    html+="</div>";
+
+    html+="</div></div>"; // body + card
+  });
+
+  document.getElementById("ot-grid").innerHTML=html;
+  showStatus("","ok");
+  showStatus("","info");
+  document.getElementById("status-bar").style.display="none";
+}
+
+init();
+
+// ============ MODAL PENDIENTES ============
+var modalData = {arm:[], pint:[], ot:"", obra:""};
+var modalTab = "arm";
+
+function openModal(otKey, tab){
+  var o = currentData.otMeta[otKey];
+  if(!o) return;
+  modalData.arm = o.arm_pend_items || [];
+  modalData.pint = o.pint_pend_items || [];
+  modalData.ot = o.ot;
+  modalData.obra = o.obra;
+  document.getElementById("modal-title").textContent = "Pendientes — OT " + o.ot;
+  document.getElementById("modal-subtitle").textContent = o.obra + (o.cliente ? " · " + o.cliente : "");
+  document.getElementById("cnt-arm").textContent = modalData.arm.length;
+  document.getElementById("cnt-pint").textContent = modalData.pint.length;
+  document.getElementById("modal-search").value = "";
+  modalTab = tab;
+  switchTab(tab);
+  document.getElementById("modal-overlay").style.display = "flex";
+  document.body.style.overflow = "hidden";
+}
+
+function closeModal(){
+  document.getElementById("modal-overlay").style.display = "none";
+  document.body.style.overflow = "";
+}
+
+function closeModalOutside(ev){
+  if(ev.target === document.getElementById("modal-overlay")) closeModal();
+}
+
+function switchTab(tab){
+  modalTab = tab;
+  document.getElementById("tab-arm").classList.toggle("active", tab==="arm");
+  document.getElementById("tab-pint").classList.toggle("active", tab==="pint");
+  document.getElementById("modal-search").value = "";
+  renderModalTable("");
+}
+
+function filterModal(){
+  renderModalTable(document.getElementById("modal-search").value.toLowerCase());
+}
+
+function renderModalTable(filter){
+  var items = modalTab==="arm" ? modalData.arm : modalData.pint;
+  var badgeClass = modalTab==="arm" ? "pend-arm" : "pend-pint";
+  if(filter){
+    items = items.filter(function(r){
+      return r.cod.toLowerCase().indexOf(filter)>=0 || r.prod.toLowerCase().indexOf(filter)>=0;
+    });
+  }
+  var html = "";
+  items.forEach(function(r){
+    html += "<tr>" +
+      "<td style=\"font-family:monospace;font-size:11px;color:#1A5C8A;font-weight:600\">" + r.cod + "</td>" +
+      "<td>" + r.prod + "</td>" +
+      "<td style=\"text-align:right;color:#4A7FA5\">" + r.cant + "</td>" +
+      "<td style=\"text-align:right\"><span class=\"pend-badge " + badgeClass + "\">" + r.pend + " pend.</span></td>" +
+      "</tr>";
+  });
+  if(!html) html = "<tr><td colspan=\"4\" style=\"text-align:center;padding:30px;color:#7BA7C4\">Sin resultados</td></tr>";
+  document.getElementById("modal-tbody").innerHTML = html;
+  document.getElementById("modal-count").textContent = items.length.toLocaleString("es") + " items pendientes";
+}
+
+function exportModalCSV(){
+  var items = modalTab==="arm" ? modalData.arm : modalData.pint;
+  var proc = modalTab==="arm" ? "Armado" : "Pintura";
+  var csv = "\ufeffCodigo Tekla;Producto;Cantidad Total;Pendiente " + proc + "\n";
+  items.forEach(function(r){
+    csv += r.cod + ";" + r.prod + ";" + r.cant + ";" + r.pend + "\n";
+  });
+  var blob = new Blob([csv], {type:"text/csv;charset=utf-8"});
+  var a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "Pendientes_" + proc + "_OT" + modalData.ot + ".csv";
+  a.click();
+}
+
+
+
+// ============ PRIORITIES ============
+var prioModalData = {otKey:"", obra:"", items:[]};
+var localPriorities = {};  // {otKey_itemId: "alta"|"media"|"baja"|""}
+var allPrioItems = [];
+
+function openPrioModal(otKey){
+  var o = currentData.otMeta[otKey];
+  if(!o) return;
+  // Load existing priorities from GitHub
+  loadCurrentPriorities(otKey, o);
+}
+
+function loadCurrentPriorities(otKey, o){
+  var url = "https://raw.githubusercontent.com/"+GH_REPO+"/principal/verificadores/prioridades.json?t="+Date.now();
+  fetch(url)
+    .then(function(r){return r.ok?r.json():{}; })
+    .then(function(existing){
+      localPriorities = existing || {};
+      prioModalData.otKey = otKey;
+      prioModalData.obra = o.obra;
+      prioModalData.items = (o.arm_pend_items||[]).concat(
+        (o.pint_pend_items||[]).filter(function(pi){
+          return !(o.arm_pend_items||[]).some(function(ai){return ai.cod===pi.cod;});
+        })
+      );
+      allPrioItems = prioModalData.items;
+      document.getElementById("prio-modal-title").textContent = "Prioridades — OT "+otKey;
+      document.getElementById("prio-modal-subtitle").textContent = o.obra + (o.cliente?" · "+o.cliente:"");
+      document.getElementById("prio-search").value = "";
+      document.getElementById("prio-filter").value = "";
+      renderPrioModal(allPrioItems);
+      document.getElementById("prio-modal-overlay").style.display = "flex";
+      document.body.style.overflow = "hidden";
+    })
+    .catch(function(){
+      localPriorities = {};
+      prioModalData.otKey = otKey;
+      prioModalData.obra = o.obra;
+      prioModalData.items = (o.arm_pend_items||[]).concat(
+        (o.pint_pend_items||[]).filter(function(pi){
+          return !(o.arm_pend_items||[]).some(function(ai){return ai.cod===pi.cod;});
+        })
+      );
+      allPrioItems = prioModalData.items;
+      document.getElementById("prio-modal-title").textContent = "Prioridades — OT "+otKey;
+      document.getElementById("prio-modal-subtitle").textContent = o.obra;
+      document.getElementById("prio-search").value = "";
+      renderPrioModal(allPrioItems);
+      document.getElementById("prio-modal-overlay").style.display = "flex";
+      document.body.style.overflow = "hidden";
+    });
+}
+
+function renderPrioModal(items){
+  var otKey = prioModalData.otKey;
+  var tbody = document.getElementById("prio-modal-tbody");
+  tbody.innerHTML = "";
+  document.getElementById("prio-modal-count").textContent = items.length + " items pendientes";
+  items.forEach(function(r){
+    var prioKey = otKey+"_"+r.cod;
+    var currentPrio = localPriorities[prioKey] || "";
+    var tr = document.createElement("tr");
+    tr.innerHTML =
+      "<td>"+
+        "<select class=\"prio-select "+currentPrio+(currentPrio?"":" none")+"\" data-key=\""+prioKey+"\" onchange=\"updatePrioSelect(this)\">"+
+          "<option value=\"\""+(currentPrio===""?" selected":"")+">Sin prioridad</option>"+
+          "<option value=\"alta\""+(currentPrio==="alta"?" selected":"")+">ALTA</option>"+
+          "<option value=\"media\""+(currentPrio==="media"?" selected":"")+">MEDIA</option>"+
+          "<option value=\"baja\""+(currentPrio==="baja"?" selected":"")+">BAJA</option>"+
+        "</select>"+
+      "</td>"+
+      "<td style=\"color:#4A7FA5;font-size:11px\">"+(r.item||"-")+"</td>"+
+      "<td style=\"font-family:monospace;font-size:11px;color:#1A5C8A;font-weight:600\">"+r.cod+"</td>"+
+      "<td>"+r.prod+"</td>"+
+      "<td style=\"text-align:right;color:#78716C\">"+(r.long||"-")+"</td>"+
+      "<td style=\"text-align:right;font-weight:700\">"+r.cant+"</td>"+
+      "<td><span class=\"tag tag-pend\">&cross; "+r.pend+" pend.</span></td>";
+    tbody.appendChild(tr);
+  });
+}
+
+function updatePrioSelect(sel){
+  var key = sel.dataset.key;
+  var val = sel.value;
+  localPriorities[key] = val || undefined;
+  if(!val) delete localPriorities[key];
+  sel.className = "prio-select " + (val||"none");
+}
+
+function filterPrioModal(){
+  var txt = document.getElementById("prio-search").value.toLowerCase();
+  var nivel = document.getElementById("prio-filter").value;
+  var filtered = allPrioItems.filter(function(r){
+    if(txt && r.cod.toLowerCase().indexOf(txt)<0 && r.prod.toLowerCase().indexOf(txt)<0) return false;
+    if(nivel){
+      var prioKey = prioModalData.otKey+"_"+r.cod;
+      var p = localPriorities[prioKey]||"";
+      if(nivel==="none") return !p;
+      return p === nivel;
+    }
+    return true;
+  });
+  renderPrioModal(filtered);
+}
+
+function savePriorities(){
+  var statusEl = document.getElementById("prio-save-status");
+  statusEl.textContent = "Guardando...";
+  statusEl.style.color = "#1E40AF";
+  if(!ghToken){showStatus("Configura tu token de GitHub primero (boton engranaje).","err");return;}
+  var token = ghToken;
+  var content = btoa(unescape(encodeURIComponent(JSON.stringify(localPriorities, null, 2))));
+  var apiUrl = "https://api.github.com/repos/"+GH_REPO+"/contents/verificadores/prioridades.json";
+  fetch(apiUrl, {headers:{"Authorization":"token "+token,"Accept":"application/vnd.github.v3+json"}})
+    .then(function(r){return r.json();})
+    .then(function(existing){
+      var body = {message:"Prioridades actualizadas - "+new Date().toLocaleString("es-PY"), content:content};
+      if(existing.sha) body.sha = existing.sha;
+      return fetch(apiUrl, {method:"PUT",
+        headers:{"Authorization":"token "+token,"Accept":"application/vnd.github.v3+json","Content-Type":"application/json"},
+        body:JSON.stringify(body)});
+    })
+    .then(function(r){return r.json();})
+    .then(function(d){
+      if(d.content||d.commit){
+        statusEl.textContent = "&#10003; Guardado correctamente";
+        statusEl.style.color = "#065F46";
+        setTimeout(function(){closePrioModal();},1500);
+      } else {
+        statusEl.textContent = "Error al guardar";
+        statusEl.style.color = "#DC2626";
+        console.error(d);
+      }
+    }).catch(function(){statusEl.textContent="Error de conexion.";statusEl.style.color="#DC2626";});
+}
+
+function closePrioModal(){
+  document.getElementById("prio-modal-overlay").style.display = "none";
+  document.body.style.overflow = "";
+  loadData(); // Refresh to show updated priorities
+}
+function closePrioModalOutside(ev){if(ev.target===document.getElementById("prio-modal-overlay"))closePrioModal();}
+
+</script>
+
+<!-- MODAL PENDIENTES -->
+<div class="modal-overlay" id="modal-overlay" style="display:none" onclick="closeModalOutside(event)">
+  <div class="modal-box">
+    <div class="modal-header">
+      <div>
+        <h3 id="modal-title">Pendientes</h3>
+        <p id="modal-subtitle"></p>
+      </div>
+      <button class="modal-close" onclick="closeModal()">&#10005;</button>
+    </div>
+    <div class="modal-tabs">
+      <div class="modal-tab active" id="tab-arm" onclick="switchTab('arm')">
+        Armado <span class="cnt cnt-arm" id="cnt-arm">0</span>
+      </div>
+      <div class="modal-tab" id="tab-pint" onclick="switchTab('pint')">
+        Pintura <span class="cnt cnt-pint" id="cnt-pint">0</span>
+      </div>
+    </div>
+    <div class="modal-search">
+      <input type="text" id="modal-search" placeholder="Buscar por codigo o producto..." oninput="filterModal()">
+    </div>
+    <div class="modal-body">
+      <table class="pend-table">
+        <thead>
+          <tr>
+            <th style="width:140px">Codigo Tekla</th>
+            <th>Producto</th>
+            <th style="text-align:right;width:80px">Total</th>
+            <th style="text-align:right;width:100px">Pendiente</th>
+          </tr>
+        </thead>
+        <tbody id="modal-tbody"></tbody>
+      </table>
+    </div>
+    <div class="modal-footer">
+      <span id="modal-count"></span>
+      <button class="btn-export-modal" onclick="exportModalCSV()">Exportar CSV</button>
+    </div>
+  </div>
+</div>
+
+<!-- PRIORITY MODAL -->
+<div class="prio-modal-overlay" id="prio-modal-overlay" style="display:none" onclick="closePrioModalOutside(event)">
+  <div class="prio-modal-box">
+    <div class="prio-modal-header">
+      <div>
+        <h3 id="prio-modal-title">Gestionar Prioridades</h3>
+        <p id="prio-modal-subtitle"></p>
+      </div>
+      <div style="display:flex;gap:8px;align-items:center">
+        <button class="save-prio-btn" onclick="savePriorities()">&#128190; Guardar prioridades</button>
+        <button class="prio-close" onclick="closePrioModal()">&#10005;</button>
+      </div>
+    </div>
+    <div style="padding:12px 20px;border-bottom:1px solid #E8F4FD;display:flex;gap:8px;flex-wrap:wrap;background:#F8FBFE;flex-shrink:0">
+      <input type="text" id="prio-search" placeholder="Buscar codigo o producto..." oninput="filterPrioModal()" style="width:200px;font-size:12px;padding:6px 10px;border:1.5px solid #C8DDF0;border-radius:8px">
+      <select id="prio-filter" onchange="filterPrioModal()" style="font-size:12px;padding:6px 10px;border:1.5px solid #C8DDF0;border-radius:8px">
+        <option value="">Todos</option>
+        <option value="alta">Alta</option>
+        <option value="media">Media</option>
+        <option value="baja">Baja</option>
+        <option value="none">Sin prioridad</option>
+      </select>
+      <span id="prio-modal-count" style="font-size:11px;color:#4A7FA5;margin-left:auto;align-self:center"></span>
+    </div>
+    <div class="prio-modal-body">
+      <table class="prio-table">
+        <thead><tr>
+          <th style="width:110px">Prioridad</th>
+          <th>#</th><th>Codigo Tekla</th><th>Producto</th>
+          <th style="text-align:right">Long.mm</th>
+          <th style="text-align:right">Cant.</th>
+          <th>Estado LPT</th>
+        </tr></thead>
+        <tbody id="prio-modal-tbody"></tbody>
+      </table>
+    </div>
+    <div style="padding:10px 20px;border-top:1px solid #E8F4FD;background:#F8FBFE;font-size:11px;color:#4A7FA5;display:flex;justify-content:space-between;align-items:center;flex-shrink:0">
+      <span>Los cambios se guardan en GitHub y los checkers los ven en tiempo real</span>
+      <div id="prio-save-status" style="font-size:12px;font-weight:600"></div>
+    </div>
+  </div>
+</div>
+
+<!-- QR MODAL -->
+<div class="qr-modal-overlay" id="qr-modal-overlay" style="display:none" onclick="closeQROutside(event)">
+  <div class="qr-modal-box">
+    <div class="qr-modal-header">
+      <h3 id="qr-modal-ot">QR de Obra</h3>
+      <button class="qr-close" onclick="closeQRModal()">&#10005;</button>
+    </div>
+    <div class="qr-body">
+      <div class="qr-obra" id="qr-obra-name"></div>
+      <div class="qr-cliente" id="qr-cliente-name"></div>
+      <div id="qr-canvas-wrap"><canvas id="qr-canvas"></canvas></div>
+      <div class="qr-url" id="qr-url-text"></div>
+      <div class="qr-btns">
+        <button class="qr-btn qr-btn-primary" onclick="downloadQR()">&#11015; Descargar QR</button>
+        <button class="qr-btn qr-btn-secondary" onclick="copyQRUrl()">&#128203; Copiar link</button>
+      </div>
+      <p style="font-size:10px;color:#7BA7C4;margin-top:12px">El cliente escanea y ve el avance en tiempo real</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
