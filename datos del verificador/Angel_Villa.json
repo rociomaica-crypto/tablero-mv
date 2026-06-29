@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T09:39:16.032Z",
+  "updatedAt": "2026-06-29T09:49:57.370Z",
   "updatedBy": "Angel Villa",
   "checks": {
     "25257_1": {
@@ -33,6 +33,18 @@
     "25630_15": {
       "arm_state_state": "soldado",
       "pint_state_state": "galvamax"
+    },
+    "25510_6": {
+      "pint_state_state": "galvamax",
+      "arm_state_state": "soldado",
+      "qty_lib": 0
+    },
+    "25510_4": {
+      "arm_state_state": "soldado",
+      "pint_state_state": ""
+    },
+    "25510_7": {
+      "qty_lib": 1
     }
   },
   "otMeta": {
