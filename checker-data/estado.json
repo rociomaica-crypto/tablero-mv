@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T09:20:34.648Z",
+  "updatedAt": "2026-06-29T09:21:27.756Z",
   "updatedBy": "Bernardo Vera",
   "checks": {
     "25257_60": {
@@ -1406,19 +1406,19 @@
       "ot": "25676",
       "obra": "Fabricación de estructura metálica para Silo Ovetr",
       "cliente": "Santa Rita Constructora S.A",
-      "fecha": "24/6/2026",
+      "fecha": "29/6/2026",
       "avances": {
-        "arm": 0,
-        "pint": 0,
+        "arm": 1,
+        "pint": 1,
         "env": 0,
         "mont": 0
       },
       "totales": {
         "cant": 2427,
-        "arm_lib": 8,
-        "arm_pend": 2417,
-        "pint_ok": 0,
-        "pint_pend": 2427,
+        "arm_lib": 20,
+        "arm_pend": 2403,
+        "pint_ok": 20,
+        "pint_pend": 2407,
         "env_ok": 0,
         "env_pend": 2427,
         "items": 249
