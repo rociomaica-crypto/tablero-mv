@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T17:37:34.120Z",
+  "updatedAt": "2026-06-29T18:56:36.471Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "25527_1": {
@@ -79,7 +79,7 @@
       "pint_state_state": ""
     },
     "25257_2": {
-      "qty_lib": 2
+      "qty_lib": 0
     },
     "25505_1": {
       "arm_state": "armado",
@@ -331,6 +331,14 @@
     },
     "25565_2": {
       "qty_lib": 4,
+      "arm_state_state": "soldado",
+      "pint_state_state": "pintado"
+    },
+    "25694_1": {
+      "arm_state_state": "soldado",
+      "pint_state_state": "pintado"
+    },
+    "25694_2": {
       "arm_state_state": "soldado",
       "pint_state_state": "pintado"
     }
