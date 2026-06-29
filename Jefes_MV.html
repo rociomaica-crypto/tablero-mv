@@ -387,7 +387,7 @@ function loadData(){
   btn.classList.add("loading");
   btn.innerHTML="<span class=\"spinner\"></span> Actualizando...";
 
-  var base="https://raw.githubusercontent.com/"+GH_REPO+"/principal/"+encodeURIComponent("datos del verificador")+"/";
+  var base="https://raw.githubusercontent.com/"+GH_REPO+"/principal/verificadores/";
   var promises=CHECKER_FILES.map(function(name){
     return fetch(base+name+".json?t="+Date.now())
       .then(function(r){return r.ok?r.json():null;})
@@ -690,7 +690,7 @@ function openPrioModal(otKey){
 }
 
 function loadCurrentPriorities(otKey, o){
-  var url = "https://raw.githubusercontent.com/"+GH_REPO+"/principal/"+encodeURIComponent("datos del verificador")+"/prioridades.json?t="+Date.now();
+  var url = "https://raw.githubusercontent.com/"+GH_REPO+"/principal/verificadores/prioridades.json?t="+Date.now();
   fetch(url)
     .then(function(r){return r.ok?r.json():{}; })
     .then(function(existing){
@@ -786,10 +786,10 @@ function savePriorities(){
   var statusEl = document.getElementById("prio-save-status");
   statusEl.textContent = "Guardando...";
   statusEl.style.color = "#1E40AF";
-  if(!ghToken){showStatus("Configura tu token de GitHub primero (botón ⚙️).","err");return;}
+  if(!ghToken){showStatus("Configura tu token de GitHub primero (boton engranaje).","err");return;}
   var token = ghToken;
   var content = btoa(unescape(encodeURIComponent(JSON.stringify(localPriorities, null, 2))));
-  var apiUrl = "https://api.github.com/repos/"+GH_REPO+"/contents/"+encodeURIComponent("datos del verificador")+"/prioridades.json";
+  var apiUrl = "https://api.github.com/repos/"+GH_REPO+"/contents/verificadores/prioridades.json";
   fetch(apiUrl, {headers:{"Authorization":"token "+token,"Accept":"application/vnd.github.v3+json"}})
     .then(function(r){return r.json();})
     .then(function(existing){
