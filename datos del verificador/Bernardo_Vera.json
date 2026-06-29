@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T09:40:31.799Z",
+  "updatedAt": "2026-06-29T09:48:34.617Z",
   "updatedBy": "Bernardo Vera",
   "checks": {
     "25694_1": {
@@ -175,6 +175,240 @@
     "25565_27": {
       "arm_state": "armado",
       "qty_lib": 64
+    },
+    "25510_1": {
+      "arm_state": "armado"
+    },
+    "25510_2": {
+      "arm_state": "armado"
+    },
+    "25510_3": {
+      "arm_state": "armado",
+      "pint_state": "pintado"
+    },
+    "25510_4": {
+      "arm_state": "armado",
+      "pint_state": "pintado"
+    },
+    "25510_5": {
+      "arm_state": "armado"
+    },
+    "25510_6": {
+      "arm_state": "armado"
+    },
+    "25510_7": {
+      "arm_state": "armado"
+    },
+    "25510_8": {
+      "arm_state": "armado"
+    },
+    "25510_9": {
+      "arm_state": "armado"
+    },
+    "25510_10": {
+      "arm_state": "armado",
+      "pint_state": "pintado"
+    },
+    "25510_11": {
+      "arm_state": "armado",
+      "pint_state": "pintado"
+    },
+    "25510_12": {
+      "arm_state": "armado",
+      "pint_state": "pintado"
+    },
+    "25510_13": {
+      "arm_state": "armado",
+      "pint_state": "pintado"
+    },
+    "25510_14": {
+      "arm_state": "armado",
+      "pint_state": "pintado"
+    },
+    "25510_15": {
+      "arm_state": "armado",
+      "pint_state": "pintado"
+    },
+    "25510_16": {
+      "arm_state": "armado",
+      "pint_state": "pintado"
+    },
+    "25510_17": {
+      "arm_state": "armado",
+      "pint_state": "pintado"
+    },
+    "25510_18": {
+      "arm_state": "armado"
+    },
+    "25510_19": {
+      "arm_state": "armado"
+    },
+    "25510_20": {
+      "arm_state": "armado",
+      "pint_state": "pintado"
+    },
+    "25510_21": {
+      "arm_state": "armado",
+      "pint_state": "pintado"
+    },
+    "25510_22": {
+      "arm_state": "armado"
+    },
+    "25510_23": {
+      "arm_state": "armado"
+    },
+    "25510_24": {
+      "arm_state": "armado"
+    },
+    "25510_25": {
+      "arm_state": "armado"
+    },
+    "25510_26": {
+      "arm_state": "armado"
+    },
+    "25510_27": {
+      "arm_state": "armado"
+    },
+    "25510_28": {
+      "arm_state": "armado"
+    },
+    "25510_29": {
+      "arm_state": "armado"
+    },
+    "25510_30": {
+      "arm_state": "armado",
+      "pint_state": "pintado"
+    },
+    "25510_31": {
+      "arm_state": "armado",
+      "pint_state": "pintado"
+    },
+    "25510_32": {
+      "arm_state": "armado",
+      "pint_state": "pintado"
+    },
+    "25510_33": {
+      "arm_state": "armado",
+      "pint_state": "pintado"
+    },
+    "25510_34": {
+      "arm_state": "armado",
+      "pint_state": "pintado"
+    },
+    "25510_35": {
+      "arm_state": "armado",
+      "pint_state": "pintado"
+    },
+    "25510_36": {
+      "arm_state": "armado",
+      "pint_state": "pintado"
+    },
+    "25510_37": {
+      "arm_state": "armado",
+      "pint_state": "pintado"
+    },
+    "25510_38": {
+      "arm_state": "armado",
+      "pint_state": "pintado"
+    },
+    "25510_39": {
+      "arm_state": "armado",
+      "pint_state": "pintado"
+    },
+    "25510_40": {
+      "arm_state": "armado",
+      "pint_state": "pintado"
+    },
+    "25510_41": {
+      "arm_state": "armado",
+      "pint_state": "pintado"
+    },
+    "25510_42": {
+      "arm_state": "armado",
+      "pint_state": "pintado"
+    },
+    "25510_43": {
+      "arm_state": "armado",
+      "pint_state": "pintado"
+    },
+    "25510_44": {
+      "arm_state": "armado",
+      "pint_state": "pintado"
+    },
+    "25510_45": {
+      "arm_state": "armado",
+      "pint_state": "pintado"
+    },
+    "25510_46": {
+      "arm_state": "armado",
+      "pint_state": "pintado"
+    },
+    "25510_47": {
+      "arm_state": "armado",
+      "pint_state": "pintado"
+    },
+    "25510_48": {
+      "arm_state": "armado",
+      "pint_state": "pintado"
+    },
+    "25510_49": {
+      "arm_state": "armado",
+      "pint_state": "pintado"
+    },
+    "25510_50": {
+      "arm_state": "armado",
+      "pint_state": "pintado"
+    },
+    "25505_1": {
+      "arm_state": "armado",
+      "pint_state": "pintado"
+    },
+    "25505_2": {
+      "arm_state": "armado",
+      "pint_state": "pintado"
+    },
+    "25505_7": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25505_8": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25505_20": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25505_23": {
+      "arm_state": "armado",
+      "pint_state": "pintado"
+    },
+    "25505_24": {
+      "arm_state": "armado",
+      "pint_state": "pintado"
+    },
+    "25505_25": {
+      "arm_state": "armado",
+      "pint_state": "pintado"
+    },
+    "25505_21": {
+      "arm_state": "armado"
+    },
+    "25505_22": {
+      "arm_state": "armado"
+    },
+    "25505_5": {
+      "arm_state": "armado",
+      "pint_state": "pintado"
+    },
+    "25505_6": {
+      "arm_state": "liberado"
+    },
+    "25505_9": {
+      "arm_state": "armado"
+    },
+    "25505_10": {
+      "arm_state": "armado"
     }
   },
   "otMeta": {
