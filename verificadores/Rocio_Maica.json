@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T17:27:16.509Z",
+  "updatedAt": "2026-06-29T17:37:34.120Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "25527_1": {
@@ -321,6 +321,16 @@
       "pint_state": "pintado"
     },
     "25603_1": {
+      "arm_state_state": "soldado",
+      "pint_state_state": "pintado"
+    },
+    "25565_1": {
+      "qty_lib": 6,
+      "arm_state_state": "soldado",
+      "pint_state_state": "pintado"
+    },
+    "25565_2": {
+      "qty_lib": 4,
       "arm_state_state": "soldado",
       "pint_state_state": "pintado"
     }
