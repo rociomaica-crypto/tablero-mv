@@ -309,7 +309,7 @@ function copyQRUrl(){
     <div class="config-form">
       <div>
         <label>Usuario / Repositorio GitHub</label>
-        <input type="text" id="cfg-repo" placeholder="ej: metalurgica-vera/dashboard">
+        <input type="text" id="cfg-repo" value="rociomaica-crypto/tablero-mv" readonly style="background:#EEF4F8;color:#4A7FA5;cursor:default">
       </div>
       <div>
         <label>Token de GitHub (lectura)</label>
@@ -335,6 +335,7 @@ function copyQRUrl(){
 </div>
 
 <script>
+var GH_REPO = "rociomaica-crypto/tablero-mv";
 var currentData = {};
 var ghRepo="", ghToken="";
 
@@ -347,7 +348,7 @@ function toggleConfig(){
   var s=document.getElementById("config-section");
   s.style.display=s.style.display==="none"?"block":"none";
   if(s.style.display==="block"){
-    document.getElementById("cfg-repo").value=ghRepo;
+    document.getElementById("cfg-repo").value=GH_REPO;
     document.getElementById("cfg-token").value=ghToken;
   }
 }
@@ -361,8 +362,8 @@ function saveConfig(){
     .then(function(r){return r.json();})
     .then(function(d){
       if(d.id){
-        ghRepo=repo;ghToken=token;
-        localStorage.setItem("mv_jefes_repo",repo);
+        ghRepo=GH_REPO;ghToken=token;
+        localStorage.setItem("mv_jefes_repo",GH_REPO);
         localStorage.setItem("mv_jefes_token",token);
         document.getElementById("config-section").style.display="none";
         loadData();
@@ -386,7 +387,7 @@ function loadData(){
   btn.classList.add("loading");
   btn.innerHTML="<span class=\"spinner\"></span> Actualizando...";
 
-  var base="https://raw.githubusercontent.com/rociomaica-crypto/tablero-mv/main/checker-data/";
+  var base="https://raw.githubusercontent.com/"+GH_REPO+"/principal/"+encodeURIComponent("datos del verificador")+"/";
   var promises=CHECKER_FILES.map(function(name){
     return fetch(base+name+".json?t="+Date.now())
       .then(function(r){return r.ok?r.json():null;})
@@ -689,7 +690,7 @@ function openPrioModal(otKey){
 }
 
 function loadCurrentPriorities(otKey, o){
-  var url = "https://raw.githubusercontent.com/rociomaica-crypto/tablero-mv/main/checker-data/prioridades.json?t="+Date.now();
+  var url = "https://raw.githubusercontent.com/"+GH_REPO+"/principal/"+encodeURIComponent("datos del verificador")+"/prioridades.json?t="+Date.now();
   fetch(url)
     .then(function(r){return r.ok?r.json():{}; })
     .then(function(existing){
@@ -785,15 +786,10 @@ function savePriorities(){
   var statusEl = document.getElementById("prio-save-status");
   statusEl.textContent = "Guardando...";
   statusEl.style.color = "#1E40AF";
-  var repo = "rociomaica-crypto/tablero-mv";
-  var token = localStorage.getItem("mv_jefes_token")||"";
-  if(!token){
-    token = prompt("Ingresa tu token de GitHub para guardar prioridades:");
-    if(!token){statusEl.textContent="Cancelado.";return;}
-    localStorage.setItem("mv_jefes_token", token);
-  }
+  if(!ghToken){showStatus("Configura tu token de GitHub primero (botón ⚙️).","err");return;}
+  var token = ghToken;
   var content = btoa(unescape(encodeURIComponent(JSON.stringify(localPriorities, null, 2))));
-  var apiUrl = "https://api.github.com/repos/"+repo+"/contents/checker-data/prioridades.json";
+  var apiUrl = "https://api.github.com/repos/"+GH_REPO+"/contents/"+encodeURIComponent("datos del verificador")+"/prioridades.json";
   fetch(apiUrl, {headers:{"Authorization":"token "+token,"Accept":"application/vnd.github.v3+json"}})
     .then(function(r){return r.json();})
     .then(function(existing){
