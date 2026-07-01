@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T14:59:55.284Z",
+  "updatedAt": "2026-07-01T16:16:09.393Z",
   "updatedBy": "Angel Villa",
   "checks": {
     "25257_1": {
@@ -559,6 +559,69 @@
     },
     "25630_53": {
       "arm_state_state": "liberado"
+    },
+    "25510_39": {
+      "arm_state_state": ""
+    },
+    "25510_41": {
+      "arm_state_state": "liberado"
+    },
+    "25510_42": {
+      "arm_state_state": "liberado"
+    },
+    "25510_43": {
+      "arm_state_state": "liberado"
+    },
+    "25510_44": {
+      "arm_state_state": "liberado"
+    },
+    "25510_45": {
+      "arm_state_state": "liberado"
+    },
+    "25510_46": {
+      "arm_state_state": "liberado"
+    },
+    "25510_47": {
+      "arm_state_state": "liberado"
+    },
+    "25510_48": {
+      "arm_state_state": "liberado"
+    },
+    "25510_49": {
+      "arm_state_state": "liberado"
+    },
+    "25510_50": {
+      "arm_state_state": "liberado"
+    },
+    "25510_51": {
+      "arm_state_state": "liberado"
+    },
+    "25510_52": {
+      "arm_state_state": "liberado"
+    },
+    "25510_53": {
+      "arm_state_state": "liberado"
+    },
+    "25510_54": {
+      "arm_state_state": "liberado"
+    },
+    "25510_55": {
+      "arm_state_state": "liberado"
+    },
+    "25510_56": {
+      "arm_state_state": "liberado"
+    },
+    "25510_57": {
+      "arm_state_state": ""
+    },
+    "25510_58": {
+      "arm_state_state": ""
+    },
+    "25510_59": {
+      "arm_state_state": ""
+    },
+    "25510_60": {
+      "arm_state_state": ""
     }
   },
   "otMeta": {
