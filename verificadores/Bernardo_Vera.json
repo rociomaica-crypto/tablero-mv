@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T20:46:32.942Z",
+  "updatedAt": "2026-07-06T20:47:04.158Z",
   "updatedBy": "Bernardo Vera",
   "checks": {
     "25694_1": {
@@ -510,33 +510,23 @@
     },
     "24930_2": {
       "arm_state_state": "calibrado",
-      "pint_state_state": "galvamax",
-      "arm_state": "liberado",
-      "pint_state": "pintado"
+      "pint_state_state": "galvamax"
     },
     "24930_3": {
       "arm_state_state": "calibrado",
-      "pint_state_state": "",
-      "arm_state": "liberado",
-      "pint_state": "pintado"
+      "pint_state_state": ""
     },
     "24930_4": {
       "arm_state_state": "soldado",
-      "pint_state_state": "galvamax",
-      "arm_state": "liberado",
-      "pint_state": "pintado"
+      "pint_state_state": "galvamax"
     },
     "24930_5": {
       "arm_state_state": "soldado",
-      "pint_state_state": "galvamax",
-      "arm_state": "liberado",
-      "pint_state": "pintado"
+      "pint_state_state": "galvamax"
     },
     "24930_6": {
       "arm_state_state": "soldado",
-      "pint_state_state": "galvamax",
-      "arm_state": "liberado",
-      "pint_state": "pintado"
+      "pint_state_state": "galvamax"
     },
     "25527_1": {
       "arm_state_state": "soldado",
