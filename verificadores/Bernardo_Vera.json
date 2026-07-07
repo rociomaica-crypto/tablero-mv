@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T18:49:58.145Z",
+  "updatedAt": "2026-07-07T18:50:36.495Z",
   "updatedBy": "Bernardo Vera",
   "checks": {
     "25694_1": {
@@ -2302,6 +2302,10 @@
     },
     "25584_185": {
       "qty_lib": 0
+    },
+    "25107_170": {
+      "arm_state_state": "liberado",
+      "pint_state_state": ""
     }
   },
   "otMeta": {
