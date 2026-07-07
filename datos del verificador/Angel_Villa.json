@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T10:32:19.190Z",
+  "updatedAt": "2026-07-07T10:33:44.196Z",
   "updatedBy": "Angel Villa",
   "checks": {
     "25257_1": {
@@ -963,6 +963,26 @@
     },
     "25572_435": {
       "qty_lib": 2,
+      "arm_state_state": "liberado",
+      "pint_state_state": "galvamax"
+    },
+    "25572_436": {
+      "qty_lib": 1,
+      "arm_state_state": "liberado",
+      "pint_state_state": "galvamax"
+    },
+    "25572_437": {
+      "qty_lib": 1,
+      "arm_state_state": "liberado",
+      "pint_state_state": "galvamax"
+    },
+    "25572_438": {
+      "qty_lib": 1,
+      "arm_state_state": "liberado",
+      "pint_state_state": "galvamax"
+    },
+    "25572_439": {
+      "qty_lib": 1,
       "arm_state_state": "liberado",
       "pint_state_state": "galvamax"
     }
