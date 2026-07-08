@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-08T10:25:38.958Z",
+  "updatedAt": "2026-07-08T10:25:47.252Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "25527_1": {
@@ -101995,6 +101995,266 @@
           "long": 3470,
           "cant": 1,
           "pend": 1
+        }
+      ]
+    },
+    "25732": {
+      "ot": "25732",
+      "obra": "Escalera 2, Barandas y puerta, Suc. Aratiri",
+      "cliente": "Metarq  S.A",
+      "fecha": "8/7/2026",
+      "avances": {
+        "arm": 91,
+        "pint": 0,
+        "env": 0,
+        "mont": 0
+      },
+      "totales": {
+        "cant": 11,
+        "arm_lib": 10,
+        "arm_pend": 1,
+        "pint_ok": 0,
+        "pint_pend": 11,
+        "env_ok": 0,
+        "env_pend": 11,
+        "items": 9
+      },
+      "items": [
+        {
+          "item": 1,
+          "cod": "BKB-BR-1",
+          "prod": "Baranda - Unid.",
+          "long": 1116,
+          "cant": 1,
+          "peso": 8.07,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 8.07,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 0,
+          "literal": "BKB"
+        },
+        {
+          "item": 2,
+          "cod": "BKB-BR-2",
+          "prod": "Baranda - Unid.",
+          "long": 1116,
+          "cant": 1,
+          "peso": 8.25,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 8.25,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 0,
+          "literal": "BKB"
+        },
+        {
+          "item": 3,
+          "cod": "BKB-BR-3",
+          "prod": "Baranda - Unid.",
+          "long": 4788,
+          "cant": 1,
+          "peso": 33.25,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 33.25,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 0,
+          "literal": "BKB"
+        },
+        {
+          "item": 4,
+          "cod": "BKB-ES-1",
+          "prod": "Escalera Metalica",
+          "long": 7324,
+          "cant": 1,
+          "peso": 308.59,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 0,
+          "literal": "BKB"
+        },
+        {
+          "item": 5,
+          "cod": "BKB-PTC-1",
+          "prod": "Pilar Tubo Caño",
+          "long": 3805,
+          "cant": 1,
+          "peso": 35.62,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 35.62,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 0,
+          "literal": "BKB"
+        },
+        {
+          "item": 6,
+          "cod": "BKB-SP-1",
+          "prod": "SOPORTE",
+          "long": 90,
+          "cant": 1,
+          "peso": 0.35,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0.35,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 0,
+          "literal": "BKB"
+        },
+        {
+          "item": 7,
+          "cod": "BKB-SP-2",
+          "prod": "SOPORTE",
+          "long": 100,
+          "cant": 2,
+          "peso": 2.2,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 2.2,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 0,
+          "literal": "BKB"
+        },
+        {
+          "item": 8,
+          "cod": "BKB-SP-3",
+          "prod": "SOPORTE",
+          "long": 160,
+          "cant": 1,
+          "peso": 3.55,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 3.55,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 0,
+          "literal": "BKB"
+        },
+        {
+          "item": 9,
+          "cod": "BKB-SP-4",
+          "prod": "SOPORTE",
+          "long": 75,
+          "cant": 2,
+          "peso": 2.54,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 2.54,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 0,
+          "literal": "BKB"
+        }
+      ],
+      "arm_pend_items": [
+        {
+          "cod": "BKB-ES-1",
+          "prod": "Escalera Metalica",
+          "long": 7324,
+          "cant": 1,
+          "pend": 1
+        }
+      ],
+      "pint_pend_items": [
+        {
+          "cod": "BKB-BR-1",
+          "prod": "Baranda - Unid.",
+          "long": 1116,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKB-BR-2",
+          "prod": "Baranda - Unid.",
+          "long": 1116,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKB-BR-3",
+          "prod": "Baranda - Unid.",
+          "long": 4788,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKB-ES-1",
+          "prod": "Escalera Metalica",
+          "long": 7324,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKB-PTC-1",
+          "prod": "Pilar Tubo Caño",
+          "long": 3805,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKB-SP-1",
+          "prod": "SOPORTE",
+          "long": 90,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKB-SP-2",
+          "prod": "SOPORTE",
+          "long": 100,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BKB-SP-3",
+          "prod": "SOPORTE",
+          "long": 160,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKB-SP-4",
+          "prod": "SOPORTE",
+          "long": 75,
+          "cant": 2,
+          "pend": 2
         }
       ]
     }
