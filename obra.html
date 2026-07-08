@@ -73,7 +73,7 @@ var CHECKER_FILES=["Bernardo_Vera","Angel_Villa","Cristhian_Piatti","Sandro_Monz
 
 function loadOT(){
   if(!otNum){showError("OT no especificada","Escanea el QR correcto o solicita el link actualizado.");return;}
-  var base="https://raw.githubusercontent.com/"+GH_REPO+"/main/checker-data/";
+  var base="https://raw.githubusercontent.com/"+GH_REPO+"/main/verificadores/";
   // Load all checker files and find this OT
   var promises=CHECKER_FILES.map(function(name){
     return fetch(base+name+".json?t="+Date.now())
@@ -124,6 +124,9 @@ function renderOT(o, updatedAt, updatedBy, checks){
   var enPintPct=Math.round(enPintura/tot*100);
   var lptArmPct=o.avances.arm;
   var lptPintPct=o.avances.pint;
+  var ptot=t.peso_total||0;
+  var armKgPct=ptot>0?Math.round((ptot-(t.arm_pend_peso||0))/ptot*100):lptArmPct;
+  var pintKgPct=ptot>0?Math.round((ptot-(t.pint_pend_peso||0))/ptot*100):lptPintPct;
   var lptEnvPct=o.avances.env;
 
   var dt=updatedAt?new Date(updatedAt):null;
@@ -142,8 +145,8 @@ function renderOT(o, updatedAt, updatedBy, checks){
 
     "<div class=\"section-title\">Estado del proceso — por el LPT</div>"+
 
-    makeSector("&#9874;","Armado",lptArmPct,t.arm_lib,t.arm_pend,"#10B981","Liberadas","Pendientes")+
-    makeSector("&#127912;","Pintura",lptPintPct,t.pint_ok,t.pint_pend,"#F97316","Pintadas","Pendientes")+
+    makeSector("&#9874;","Armado",lptArmPct,t.arm_lib,t.arm_pend,"#10B981","Liberadas","Pendientes",armKgPct)+
+    makeSector("&#127912;","Pintura",lptPintPct,t.pint_ok,t.pint_pend,"#F97316","Pintadas","Pendientes",pintKgPct)+
     makeSector("&#128666;","Envio",lptEnvPct,t.env_ok,t.env_pend,"#0EA5E9","Enviadas","Pendientes")+
 
     "<div class=\"section-title\">Seguimiento checker — avance detallado</div>";
@@ -171,11 +174,12 @@ function renderOT(o, updatedAt, updatedBy, checks){
   document.getElementById("content").innerHTML=html;
 }
 
-function makeSector(icon,name,pct,ok,pend,color,okLabel,pendLabel){
+function makeSector(icon,name,pct,ok,pend,color,okLabel,pendLabel,kgPct){
+  var kgBadge=(kgPct!==undefined&&kgPct!==pct)?"&nbsp;<small style='color:#6B8FA8;font-weight:600'>"+kgPct+"% kg</small>":"";
   return "<div class=\"sector-row\">"+
     "<div class=\"sector-head\">"+
       "<span class=\"sector-name\">"+icon+" "+name+"</span>"+
-      "<span class=\"sector-pct\" style=\"color:"+pctC(pct)+"\">" +pct+ "%</span>"+
+      "<span class=\"sector-pct\" style=\"color:"+pctC(pct)+"\">" +pct+ "% pzas"+kgBadge+"</span>"+
     "</div>"+
     "<div class=\"bar-bg\"><div class=\"bar-fill\" style=\"width:"+pct+"%;background:"+barC(pct)+"\" ></div></div>"+
     "<div class=\"sector-detail\">"+
