@@ -460,10 +460,11 @@ function renderDashboard(data){
   }
 
   // Summary totals
-  var totPiezas=0,totArmPend=0,totPintPend=0,totEnvPend=0;
+  var totPiezas=0,totArmPend=0,totPintPend=0,totEnvPend=0,totPesoTotal=0,totArmPendKg=0,totPintPendKg=0;
   otKeys.forEach(function(k){
     var t=data.otMeta[k].totales;
     totPiezas+=t.cant;totArmPend+=t.arm_pend;totPintPend+=t.pint_pend;totEnvPend+=t.env_pend;
+    totPesoTotal+=(t.peso_total||0);totArmPendKg+=(t.arm_pend_peso||0);totPintPendKg+=(t.pint_pend_peso||0);
   });
 
   // Checker rebaja stats
@@ -475,8 +476,8 @@ function renderDashboard(data){
   sg.innerHTML=
     "<div class=\"sum-card blue\"><div class=\"sum-lbl\">OTs activas</div><div class=\"sum-val\">"+otKeys.length+"</div><div class=\"sum-sub\">en seguimiento</div></div>"+
     "<div class=\"sum-card\"><div class=\"sum-lbl\">Total piezas</div><div class=\"sum-val\">"+fmt(totPiezas)+"</div><div class=\"sum-sub\">todas las obras</div></div>"+
-    "<div class=\"sum-card red\"><div class=\"sum-lbl\">Pend. Armado</div><div class=\"sum-val\">"+fmt(totArmPend)+"</div><div class=\"sum-sub\">sin liberar</div></div>"+
-    "<div class=\"sum-card amber\"><div class=\"sum-lbl\">Pend. Pintura</div><div class=\"sum-val\">"+fmt(totPintPend)+"</div><div class=\"sum-sub\">sin pintar</div></div>"+
+    "<div class=\"sum-card red\"><div class=\"sum-lbl\">Pend. Armado</div><div class=\"sum-val\">"+fmt(totArmPend)+"</div><div class=\"sum-sub\">sin liberar · "+(totArmPendKg/1000).toFixed(1)+"t</div></div>"+
+    "<div class=\"sum-card amber\"><div class=\"sum-lbl\">Pend. Pintura</div><div class=\"sum-val\">"+fmt(totPintPend)+"</div><div class=\"sum-sub\">sin pintar · "+(totPintPendKg/1000).toFixed(1)+"t</div></div>"+
     "<div class=\"sum-card green\"><div class=\"sum-lbl\">Rebaja checker</div><div class=\"sum-val\">"+totalChecks+"</div><div class=\"sum-sub\">items tildados</div></div>";
 
   // OT cards
@@ -527,20 +528,23 @@ function renderDashboard(data){
     // Progress bars
     var hasArmPend=t.arm_pend>0&&o.arm_pend_items&&o.arm_pend_items.length>0;
     var hasPintPend=t.pint_pend>0&&o.pint_pend_items&&o.pint_pend_items.length>0;
+    var ptot=t.peso_total||0;
+    var armKgPct=ptot>0?Math.round((ptot-(t.arm_pend_peso||0))/ptot*100):armPct;
+    var pintKgPct=ptot>0?Math.round((ptot-(t.pint_pend_peso||0))/ptot*100):pintPct;
     html+="<div class=\"proc-row\">";
-    html+="<div class=\"proc-label\"><span class=\"proc-name\">Armado</span><span class=\"proc-pct\" style=\"color:"+pctC(armPct)+"\">"+armPct+"%</span></div>";
+    html+="<div class=\"proc-label\"><span class=\"proc-name\">Armado</span><span class=\"proc-pct\" style=\"color:"+pctC(armPct)+"\">"+armPct+"% pzas"+(ptot>0&&armKgPct!==armPct?"&nbsp;<small style='color:#6B8FA8;font-weight:500'>"+armKgPct+"% kg</small>":"")+"</span></div>";
     html+="<div class=\"bar-bg\"><div class=\"bar-fill\" style=\"width:"+armPct+"%;background:"+barC(armPct)+"\" data-ok=\""+fmt(t.arm_lib)+"\"></div></div>";
     html+="<div class=\"proc-detail\"><span>"+fmt(t.arm_lib)+" liberadas</span>";
-    if(hasArmPend){html+="<span class=\"pend-link\" onclick=\"openModal('"+k+"','arm')\">"+fmt(t.arm_pend)+" pendientes &rarr;</span>";}
-    else{html+="<span style=\"color:#DC2626;font-weight:700\">"+fmt(t.arm_pend)+" pendientes</span>";}
+    if(hasArmPend){html+="<span class=\"pend-link\" onclick=\"openModal('"+k+"','arm')\">"+fmt(t.arm_pend)+" pendientes &rarr; "+(ptot>0?"<small style='color:#888'>&middot;"+armKgPct+"% kg ("+((t.arm_pend_peso||0)/1000).toFixed(1)+"t)</small>":"")+"</span>";}
+    else{html+="<span style=\"color:#DC2626;font-weight:700\">"+fmt(t.arm_pend)+" pendientes"+(ptot>0?" <small style='color:#888'>&middot;"+armKgPct+"% kg ("+((t.arm_pend_peso||0)/1000).toFixed(1)+"t)</small>":"")+"</span>";}
     html+="</div></div>";
 
     html+="<div class=\"proc-row\">";
-    html+="<div class=\"proc-label\"><span class=\"proc-name\">Pintura</span><span class=\"proc-pct\" style=\"color:"+pctC(pintPct)+"\">"+pintPct+"%</span></div>";
+    html+="<div class=\"proc-label\"><span class=\"proc-name\">Pintura</span><span class=\"proc-pct\" style=\"color:"+pctC(pintPct)+"\">"+pintPct+"% pzas"+(ptot>0&&pintKgPct!==pintPct?"&nbsp;<small style='color:#6B8FA8;font-weight:500'>"+pintKgPct+"% kg</small>":"")+"</span></div>";
     html+="<div class=\"bar-bg\"><div class=\"bar-fill\" style=\"width:"+pintPct+"%;background:"+barC(pintPct)+"\" data-ok=\""+fmt(t.pint_ok)+"\"></div></div>";
     html+="<div class=\"proc-detail\"><span>"+fmt(t.pint_ok)+" pintadas</span>";
-    if(hasPintPend){html+="<span class=\"pend-link\" onclick=\"openModal('"+k+"','pint')\">"+fmt(t.pint_pend)+" pendientes &rarr;</span>";}
-    else{html+="<span style=\"color:#EA6C00;font-weight:700\">"+fmt(t.pint_pend)+" pendientes</span>";}
+    if(hasPintPend){html+="<span class=\"pend-link\" onclick=\"openModal('"+k+"','pint')\">"+fmt(t.pint_pend)+" pendientes &rarr; "+(ptot>0?"<small style='color:#888'>&middot;"+pintKgPct+"% kg ("+((t.pint_pend_peso||0)/1000).toFixed(1)+"t)</small>":"")+"</span>";}
+    else{html+="<span style=\"color:#EA6C00;font-weight:700\">"+fmt(t.pint_pend)+" pendientes"+(ptot>0?" <small style='color:#888'>&middot;"+pintKgPct+"% kg ("+((t.pint_pend_peso||0)/1000).toFixed(1)+"t)</small>":"")+"</span>";}
     html+="</div></div>";
 
     html+="<div class=\"proc-row\">";
