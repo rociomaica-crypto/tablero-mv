@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-08T10:25:28.343Z",
+  "updatedAt": "2026-07-08T10:25:38.958Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "25527_1": {
@@ -101860,6 +101860,141 @@
           "long": 2810,
           "cant": 6,
           "pend": 6
+        }
+      ]
+    },
+    "25722": {
+      "ot": "25722",
+      "obra": "Adic. 05_Pórtico para Toten El Corral",
+      "cliente": "Gomez Abente S.A.",
+      "fecha": "8/7/2026",
+      "avances": {
+        "arm": 80,
+        "pint": 0,
+        "env": 40,
+        "mont": 0
+      },
+      "totales": {
+        "cant": 5,
+        "arm_lib": 4,
+        "arm_pend": 1,
+        "pint_ok": 0,
+        "pint_pend": 5,
+        "env_ok": 2,
+        "env_pend": 3,
+        "items": 4
+      },
+      "items": [
+        {
+          "item": 1,
+          "cod": "33389-AN-1",
+          "prod": "Anclaje",
+          "long": 0,
+          "cant": 2,
+          "peso": 34,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 34,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 0,
+          "env_ok": 2,
+          "env_pend": 0,
+          "env_pend_peso": 34,
+          "literal": "AN"
+        },
+        {
+          "item": 2,
+          "cod": "BKC-PS-1",
+          "prod": "Pieza Suelta",
+          "long": 544,
+          "cant": 1,
+          "peso": 11.9,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 11.9,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 0,
+          "literal": "BKC"
+        },
+        {
+          "item": 3,
+          "cod": "BKC-PZ-1",
+          "prod": "Pieza Especial",
+          "long": 8445,
+          "cant": 1,
+          "peso": 1078.83,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 1078.83,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 0,
+          "literal": "BKC"
+        },
+        {
+          "item": 4,
+          "cod": "BKC-RG-1",
+          "prod": "Regla para Ubicacion",
+          "long": 3470,
+          "cant": 1,
+          "peso": 30.99,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 0,
+          "literal": "BKC"
+        }
+      ],
+      "arm_pend_items": [
+        {
+          "cod": "BKC-RG-1",
+          "prod": "Regla para Ubicacion",
+          "long": 3470,
+          "cant": 1,
+          "pend": 1
+        }
+      ],
+      "pint_pend_items": [
+        {
+          "cod": "33389-AN-1",
+          "prod": "Anclaje",
+          "long": 0,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BKC-PS-1",
+          "prod": "Pieza Suelta",
+          "long": 544,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKC-PZ-1",
+          "prod": "Pieza Especial",
+          "long": 8445,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKC-RG-1",
+          "prod": "Regla para Ubicacion",
+          "long": 3470,
+          "cant": 1,
+          "pend": 1
         }
       ]
     }
