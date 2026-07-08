@@ -340,7 +340,9 @@ var currentData = {};
 var ghRepo="", ghToken="";
 
 function init(){
-  // Public repo - no token needed, load directly
+  // Cargar token guardado si existe
+  ghToken=localStorage.getItem("mv_jefes_token")||"";
+  // Repo publico - no requiere token para leer
   document.getElementById("config-section").style.display="none";
   loadData();
 }
@@ -354,24 +356,13 @@ function toggleConfig(){
 }
 
 function saveConfig(){
-  var repo=document.getElementById("cfg-repo").value.trim();
   var token=document.getElementById("cfg-token").value.trim();
-  if(!repo||!token){showStatus("Completa ambos campos.","err");return;}
-  showStatus("<span style=\"display:inline-block;width:12px;height:12px;border:2px solid #93C5FD;border-top-color:#1E40AF;border-radius:50%;animation:spin 0.7s linear infinite;vertical-align:-2px;margin-right:6px\"></span>Verificando...","info");
-  fetch("https://api.github.com/repos/"+repo,{headers:{"Authorization":"token "+token,"Accept":"application/vnd.github.v3+json"}})
-    .then(function(r){return r.json();})
-    .then(function(d){
-      if(d.id){
-        ghRepo=GH_REPO;ghToken=token;
-        localStorage.setItem("mv_jefes_repo",GH_REPO);
-        localStorage.setItem("mv_jefes_token",token);
-        document.getElementById("config-section").style.display="none";
-        loadData();
-      } else {
-        showStatus("No se pudo verificar el repositorio. Revisa los datos.","err");
-      }
-    })
-    .catch(function(){showStatus("Error de conexion.","err");});
+  if(!token){showStatus("Ingresa el token de GitHub para poder guardar prioridades.","err");return;}
+  // Solo guardamos el token - la lectura de datos no requiere token (repo publico)
+  ghToken=token;
+  localStorage.setItem("mv_jefes_token",token);
+  showStatus("Token guardado. Ahora podras guardar prioridades.","ok");
+  document.getElementById("config-section").style.display="none";
 }
 
 function showStatus(msg,type){
@@ -387,7 +378,7 @@ function loadData(){
   btn.classList.add("loading");
   btn.innerHTML="<span class=\"spinner\"></span> Actualizando...";
 
-  var base="https://raw.githubusercontent.com/"+GH_REPO+"/principal/verificadores/";
+  var base="https://raw.githubusercontent.com/"+GH_REPO+"/main/verificadores/";
   var promises=CHECKER_FILES.map(function(name){
     return fetch(base+name+".json?t="+Date.now())
       .then(function(r){return r.ok?r.json():null;})
@@ -690,7 +681,7 @@ function openPrioModal(otKey){
 }
 
 function loadCurrentPriorities(otKey, o){
-  var url = "https://raw.githubusercontent.com/"+GH_REPO+"/principal/verificadores/prioridades.json?t="+Date.now();
+  var url = "https://raw.githubusercontent.com/"+GH_REPO+"/main/verificadores/prioridades.json?t="+Date.now();
   fetch(url)
     .then(function(r){return r.ok?r.json():{}; })
     .then(function(existing){
