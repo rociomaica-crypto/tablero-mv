@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-08T10:17:59.406Z",
+  "updatedAt": "2026-07-08T10:18:14.485Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "25527_1": {
@@ -84229,6 +84229,607 @@
           "cod": "BJR-VTT-10",
           "prod": "Viga de techo de tubos",
           "long": 5727,
+          "cant": 1,
+          "pend": 1
+        }
+      ]
+    },
+    "25609": {
+      "ot": "25609",
+      "obra": "Portón, puerta CF y escalera con baranda YUKYRY",
+      "cliente": "OMBUES S.A",
+      "fecha": "8/7/2026",
+      "avances": {
+        "arm": 25,
+        "pint": 0,
+        "env": 0,
+        "mont": 0
+      },
+      "totales": {
+        "cant": 24,
+        "arm_lib": 6,
+        "arm_pend": 18,
+        "pint_ok": 0,
+        "pint_pend": 24,
+        "env_ok": 0,
+        "env_pend": 24,
+        "items": 19
+      },
+      "items": [
+        {
+          "item": 1,
+          "cod": "BJO-CNP-1",
+          "prod": "Caño Pintado",
+          "long": 1800,
+          "cant": 2,
+          "peso": 8.6,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 0,
+          "literal": "BJO"
+        },
+        {
+          "item": 2,
+          "cod": "BJO-CNP-2",
+          "prod": "Caño Pintado",
+          "long": 5229,
+          "cant": 1,
+          "peso": 23.97,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 0,
+          "literal": "BJO"
+        },
+        {
+          "item": 3,
+          "cod": "BJO-CNP-3",
+          "prod": "Caño Pintado",
+          "long": 6000,
+          "cant": 1,
+          "peso": 10.88,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 0,
+          "literal": "BJO"
+        },
+        {
+          "item": 4,
+          "cod": "BJO-GS-1",
+          "prod": "Guía Soporte",
+          "long": 13365,
+          "cant": 1,
+          "peso": 298.22,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 0,
+          "literal": "BJO"
+        },
+        {
+          "item": 5,
+          "cod": "BJO-LLP-1",
+          "prod": "Angulo Pintado",
+          "long": 100,
+          "cant": 2,
+          "peso": 1.1,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 0,
+          "literal": "BJO"
+        },
+        {
+          "item": 6,
+          "cod": "BJO-PCT-1",
+          "prod": "Correa de tímpano/ Perfilado",
+          "long": 5815,
+          "cant": 1,
+          "peso": 27.94,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 0,
+          "literal": "BJO"
+        },
+        {
+          "item": 7,
+          "cod": "BJO-PO-1",
+          "prod": "Porton Corredizo",
+          "long": 6405,
+          "cant": 1,
+          "peso": 247.26,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 0,
+          "literal": "BJO"
+        },
+        {
+          "item": 8,
+          "cod": "BJO-PS-1",
+          "prod": "Pieza Suelta",
+          "long": 180,
+          "cant": 2,
+          "peso": 3.06,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 0,
+          "literal": "BJO"
+        },
+        {
+          "item": 9,
+          "cod": "BJO-PS-2",
+          "prod": "Pieza Suelta",
+          "long": 190,
+          "cant": 1,
+          "peso": 2.37,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 0,
+          "literal": "BJO"
+        },
+        {
+          "item": 10,
+          "cod": "BJO-PTC-1",
+          "prod": "Pilar Tubo Caño",
+          "long": 5295,
+          "cant": 2,
+          "peso": 65.46,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 0,
+          "literal": "BJO"
+        },
+        {
+          "item": 11,
+          "cod": "BJO-PTC-2",
+          "prod": "Pilar Tubo Caño",
+          "long": 198,
+          "cant": 1,
+          "peso": 72.53,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 0,
+          "literal": "BJO"
+        },
+        {
+          "item": 12,
+          "cod": "BJO-PZ-1",
+          "prod": "Pieza Especial",
+          "long": 26,
+          "cant": 1,
+          "peso": 19.61,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 19.61,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 0,
+          "literal": "BJO"
+        },
+        {
+          "item": 13,
+          "cod": "BJO-PZ-2",
+          "prod": "Pieza Especial",
+          "long": 26,
+          "cant": 1,
+          "peso": 16.34,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 16.34,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 0,
+          "literal": "BJO"
+        },
+        {
+          "item": 14,
+          "cod": "BJO-PZ-3",
+          "prod": "Pieza Especial",
+          "long": 76,
+          "cant": 2,
+          "peso": 34.36,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 34.36,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 0,
+          "literal": "BJO"
+        },
+        {
+          "item": 15,
+          "cod": "BJO-PZ-4",
+          "prod": "Pieza Especial",
+          "long": 26,
+          "cant": 1,
+          "peso": 18.23,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 18.23,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 0,
+          "literal": "BJO"
+        },
+        {
+          "item": 16,
+          "cod": "BJO-PZ-5",
+          "prod": "Pieza Especial",
+          "long": 26,
+          "cant": 1,
+          "peso": 15.19,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 15.19,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 0,
+          "literal": "BJO"
+        },
+        {
+          "item": 17,
+          "cod": "BJO-SP-1",
+          "prod": "SOPORTE",
+          "long": 330,
+          "cant": 1,
+          "peso": 2.92,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 0,
+          "literal": "BJO"
+        },
+        {
+          "item": 18,
+          "cod": "BJO-SP-2",
+          "prod": "SOPORTE",
+          "long": 330,
+          "cant": 1,
+          "peso": 2.92,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 0,
+          "literal": "BJO"
+        },
+        {
+          "item": 19,
+          "cod": "33394-PZ-1",
+          "prod": "Pieza Especial",
+          "long": 330,
+          "cant": 1,
+          "peso": 0,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 0,
+          "literal": "PZ"
+        }
+      ],
+      "arm_pend_items": [
+        {
+          "cod": "BJO-CNP-1",
+          "prod": "Caño Pintado",
+          "long": 1800,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJO-CNP-2",
+          "prod": "Caño Pintado",
+          "long": 5229,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJO-CNP-3",
+          "prod": "Caño Pintado",
+          "long": 6000,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJO-GS-1",
+          "prod": "Guía Soporte",
+          "long": 13365,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJO-LLP-1",
+          "prod": "Angulo Pintado",
+          "long": 100,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJO-PCT-1",
+          "prod": "Correa de tímpano/ Perfilado",
+          "long": 5815,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJO-PO-1",
+          "prod": "Porton Corredizo",
+          "long": 6405,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJO-PS-1",
+          "prod": "Pieza Suelta",
+          "long": 180,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJO-PS-2",
+          "prod": "Pieza Suelta",
+          "long": 190,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJO-PTC-1",
+          "prod": "Pilar Tubo Caño",
+          "long": 5295,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJO-PTC-2",
+          "prod": "Pilar Tubo Caño",
+          "long": 198,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJO-SP-1",
+          "prod": "SOPORTE",
+          "long": 330,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJO-SP-2",
+          "prod": "SOPORTE",
+          "long": 330,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "33394-PZ-1",
+          "prod": "Pieza Especial",
+          "long": 330,
+          "cant": 1,
+          "pend": 1
+        }
+      ],
+      "pint_pend_items": [
+        {
+          "cod": "BJO-CNP-1",
+          "prod": "Caño Pintado",
+          "long": 1800,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJO-CNP-2",
+          "prod": "Caño Pintado",
+          "long": 5229,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJO-CNP-3",
+          "prod": "Caño Pintado",
+          "long": 6000,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJO-GS-1",
+          "prod": "Guía Soporte",
+          "long": 13365,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJO-LLP-1",
+          "prod": "Angulo Pintado",
+          "long": 100,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJO-PCT-1",
+          "prod": "Correa de tímpano/ Perfilado",
+          "long": 5815,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJO-PO-1",
+          "prod": "Porton Corredizo",
+          "long": 6405,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJO-PS-1",
+          "prod": "Pieza Suelta",
+          "long": 180,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJO-PS-2",
+          "prod": "Pieza Suelta",
+          "long": 190,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJO-PTC-1",
+          "prod": "Pilar Tubo Caño",
+          "long": 5295,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJO-PTC-2",
+          "prod": "Pilar Tubo Caño",
+          "long": 198,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJO-PZ-1",
+          "prod": "Pieza Especial",
+          "long": 26,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJO-PZ-2",
+          "prod": "Pieza Especial",
+          "long": 26,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJO-PZ-3",
+          "prod": "Pieza Especial",
+          "long": 76,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJO-PZ-4",
+          "prod": "Pieza Especial",
+          "long": 26,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJO-PZ-5",
+          "prod": "Pieza Especial",
+          "long": 26,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJO-SP-1",
+          "prod": "SOPORTE",
+          "long": 330,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJO-SP-2",
+          "prod": "SOPORTE",
+          "long": 330,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "33394-PZ-1",
+          "prod": "Pieza Especial",
+          "long": 330,
           "cant": 1,
           "pend": 1
         }
