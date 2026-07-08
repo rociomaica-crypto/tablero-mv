@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-08T13:22:14.445Z",
+  "updatedAt": "2026-07-08T13:25:14.954Z",
   "updatedBy": "Angel Villa",
   "checks": {
     "25257_1": {
@@ -1192,7 +1192,11 @@
         "pint_pend": 2698,
         "env_ok": 134,
         "env_pend": 2564,
-        "items": 248
+        "items": 248,
+        "peso_total": 104728.62999999999,
+        "arm_pend_peso": 3430.409999999999,
+        "pint_pend_peso": 0,
+        "env_pend_peso": 2678.1999999999994
       },
       "items": [
         {
@@ -9065,7 +9069,11 @@
         "pint_pend": 687,
         "env_ok": 0,
         "env_pend": 687,
-        "items": 68
+        "items": 68,
+        "peso_total": 7868.769999999999,
+        "arm_pend_peso": 105.42,
+        "pint_pend_peso": 0,
+        "env_pend_peso": 0
       },
       "items": [
         {
@@ -11262,7 +11270,11 @@
         "pint_pend": 1532,
         "env_ok": 1405,
         "env_pend": 1123,
-        "items": 105
+        "items": 105,
+        "peso_total": 63479.758,
+        "arm_pend_peso": 31459.328000000005,
+        "pint_pend_peso": 34949.18,
+        "env_pend_peso": 36529.888000000006
       },
       "items": [
         {
@@ -13894,7 +13906,11 @@
         "pint_pend": 341,
         "env_ok": 26,
         "env_pend": 690,
-        "items": 68
+        "items": 68,
+        "peso_total": 23360.35999999999,
+        "arm_pend_peso": 19431.00499999999,
+        "pint_pend_peso": 19425.68999999999,
+        "env_pend_peso": 681.98
       },
       "items": [
         {
@@ -15398,7 +15414,11 @@
         "pint_pend": 2063,
         "env_ok": 0,
         "env_pend": 2063,
-        "items": 486
+        "items": 486,
+        "peso_total": 52609.85000000003,
+        "arm_pend_peso": 16065.905000000008,
+        "pint_pend_peso": 0,
+        "env_pend_peso": 0
       },
       "items": [
         {
@@ -28374,7 +28394,11 @@
         "pint_pend": 2690,
         "env_ok": 18,
         "env_pend": 2712,
-        "items": 245
+        "items": 245,
+        "peso_total": 101967.95999999996,
+        "arm_pend_peso": 46201.22249999999,
+        "pint_pend_peso": 32758.1875,
+        "env_pend_peso": 820.6500000000001
       },
       "items": [
         {
@@ -35549,7 +35573,11 @@
         "pint_pend": 89,
         "env_ok": 0,
         "env_pend": 89,
-        "items": 66
+        "items": 66,
+        "peso_total": 11205.710000000001,
+        "arm_pend_peso": 0,
+        "pint_pend_peso": 0,
+        "env_pend_peso": 0
       },
       "items": [
         {
@@ -37689,7 +37717,11 @@
         "pint_pend": 1452,
         "env_ok": 1,
         "env_pend": 1451,
-        "items": 198
+        "items": 198,
+        "peso_total": 37025.109999999964,
+        "arm_pend_peso": 143.39999999999998,
+        "pint_pend_peso": 0,
+        "env_pend_peso": 15.6
       },
       "items": [
         {
@@ -43990,7 +44022,11 @@
         "pint_pend": 1391,
         "env_ok": 18,
         "env_pend": 1389,
-        "items": 114
+        "items": 114,
+        "peso_total": 15639.729999999996,
+        "arm_pend_peso": 14126.270000000002,
+        "pint_pend_peso": 5715.499999999999,
+        "env_pend_peso": 1467.06
       },
       "items": [
         {
@@ -47197,7 +47233,11 @@
         "pint_pend": 1860,
         "env_ok": 0,
         "env_pend": 2427,
-        "items": 249
+        "items": 249,
+        "peso_total": 88431.76000000005,
+        "arm_pend_peso": 40272.53999999998,
+        "pint_pend_peso": 47345.169999999984,
+        "env_pend_peso": 0
       },
       "items": [
         {
