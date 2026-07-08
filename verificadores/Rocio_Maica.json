@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-08T10:25:47.252Z",
+  "updatedAt": "2026-07-08T12:31:27.377Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "25527_1": {
@@ -454,7 +454,8 @@
     },
     "25630_3": {
       "arm_state": "armado",
-      "pint_state": "galvamax"
+      "pint_state": "galvamax",
+      "arm_state_state": "armado"
     },
     "25630_4": {
       "arm_state": "armado",
@@ -466,7 +467,7 @@
     },
     "25630_6": {
       "qty_lib": 0,
-      "arm_state_state": "liberado"
+      "arm_state_state": ""
     },
     "25630_7": {
       "arm_state": "armado",
@@ -952,6 +953,11 @@
     },
     "25584_185": {
       "qty_lib": 0
+    },
+    "25732_1": {
+      "qty_lib": 1,
+      "arm_state_state": "",
+      "pint_state_state": ""
     }
   },
   "otMeta": {
@@ -974,7 +980,11 @@
         "pint_pend": 150,
         "env_ok": 259,
         "env_pend": 208,
-        "items": 45
+        "items": 45,
+        "peso_total": 42711.95,
+        "arm_pend_peso": 36352.549999999996,
+        "pint_pend_peso": 40917.38999999999,
+        "env_pend_peso": 32917.8408
       },
       "items": [
         {
@@ -1987,7 +1997,11 @@
         "pint_pend": 4961,
         "env_ok": 0,
         "env_pend": 6566,
-        "items": 594
+        "items": 594,
+        "peso_total": 103834.30000000003,
+        "arm_pend_peso": 25698.160000000003,
+        "pint_pend_peso": 44355.98,
+        "env_pend_peso": 0
       },
       "items": [
         {
@@ -16907,7 +16921,11 @@
         "pint_pend": 267,
         "env_ok": 0,
         "env_pend": 2492,
-        "items": 212
+        "items": 212,
+        "peso_total": 55592.63000000001,
+        "arm_pend_peso": 46350.71499999998,
+        "pint_pend_peso": 53351.71,
+        "env_pend_peso": 0
       },
       "items": [
         {
@@ -21164,7 +21182,11 @@
         "pint_pend": 120,
         "env_ok": 92,
         "env_pend": 41,
-        "items": 22
+        "items": 22,
+        "peso_total": 1528.9579999999999,
+        "arm_pend_peso": 1528.9579999999999,
+        "pint_pend_peso": 1094.9799999999998,
+        "env_pend_peso": 433.978
       },
       "items": [
         {
@@ -21679,7 +21701,11 @@
         "pint_pend": 4244,
         "env_ok": 141,
         "env_pend": 4103,
-        "items": 826
+        "items": 826,
+        "peso_total": 140090.37000000023,
+        "arm_pend_peso": 6233.259999999998,
+        "pint_pend_peso": 0,
+        "env_pend_peso": 2876.5799999999995
       },
       "items": [
         {
@@ -40775,7 +40801,11 @@
         "pint_pend": 501,
         "env_ok": 0,
         "env_pend": 687,
-        "items": 68
+        "items": 68,
+        "peso_total": 7868.769999999999,
+        "arm_pend_peso": 2342.1099999999997,
+        "pint_pend_peso": 1561.9599999999998,
+        "env_pend_peso": 0
       },
       "items": [
         {
@@ -42818,7 +42848,11 @@
         "pint_pend": 741,
         "env_ok": 1545,
         "env_pend": 33,
-        "items": 95
+        "items": 95,
+        "peso_total": 38306.504,
+        "arm_pend_peso": 25238.324,
+        "pint_pend_peso": 30171.79,
+        "env_pend_peso": 36765.693999999996
       },
       "items": [
         {
@@ -45081,7 +45115,11 @@
         "pint_pend": 273,
         "env_ok": 48,
         "env_pend": 407,
-        "items": 25
+        "items": 25,
+        "peso_total": 15118.84,
+        "arm_pend_peso": 14736.19,
+        "pint_pend_peso": 14737.29,
+        "env_pend_peso": 11645.58
       },
       "items": [
         {
@@ -45636,7 +45674,11 @@
         "pint_pend": 72,
         "env_ok": 724,
         "env_pend": 38,
-        "items": 73
+        "items": 73,
+        "peso_total": 24002.20599999999,
+        "arm_pend_peso": 21017.97599999999,
+        "pint_pend_peso": 22678.37999999999,
+        "env_pend_peso": 23907.20599999999
       },
       "items": [
         {
@@ -47111,7 +47153,11 @@
         "pint_pend": 5191,
         "env_ok": 602,
         "env_pend": 5765,
-        "items": 300
+        "items": 300,
+        "peso_total": 54546.63000000006,
+        "arm_pend_peso": 35832.265000000036,
+        "pint_pend_peso": 34364.23,
+        "env_pend_peso": 11538.137400000001
       },
       "items": [
         {
@@ -55143,7 +55189,11 @@
         "pint_pend": 0,
         "env_ok": 0,
         "env_pend": 327,
-        "items": 37
+        "items": 37,
+        "peso_total": 5780.900000000001,
+        "arm_pend_peso": 4475.3,
+        "pint_pend_peso": 5780.900000000001,
+        "env_pend_peso": 0
       },
       "items": [
         {
@@ -55837,20 +55887,24 @@
       "cliente": "Metarq  S.A",
       "fecha": "8/7/2026",
       "avances": {
-        "arm": 11,
+        "arm": 12,
         "pint": 0,
         "env": 0,
         "mont": 0
       },
       "totales": {
         "cant": 2063,
-        "arm_lib": 223,
-        "arm_pend": 1788,
+        "arm_lib": 249.5,
+        "arm_pend": 1813.5,
         "pint_ok": 0,
         "pint_pend": 2063,
         "env_ok": 0,
         "env_pend": 2063,
-        "items": 486
+        "items": 486,
+        "peso_total": 52609.85000000003,
+        "arm_pend_peso": 22343.35500000001,
+        "pint_pend_peso": 0,
+        "env_pend_peso": 0
       },
       "items": [
         {
@@ -57660,8 +57714,8 @@
           "long": 3174,
           "cant": 1,
           "peso": 7.96,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
           "arm_pend_peso": 3.98,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -57678,8 +57732,8 @@
           "long": 2925,
           "cant": 1,
           "peso": 7.37,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
           "arm_pend_peso": 3.685,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -57696,8 +57750,8 @@
           "long": 6493,
           "cant": 1,
           "peso": 16.5,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
           "arm_pend_peso": 8.25,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -58794,8 +58848,8 @@
           "long": 466,
           "cant": 1,
           "peso": 40.29,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
           "arm_pend_peso": 20.145,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -58812,8 +58866,8 @@
           "long": 466,
           "cant": 1,
           "peso": 41.28,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
           "arm_pend_peso": 20.64,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -58830,8 +58884,8 @@
           "long": 466,
           "cant": 1,
           "peso": 41.28,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
           "arm_pend_peso": 20.64,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -58848,8 +58902,8 @@
           "long": 466,
           "cant": 1,
           "peso": 41.28,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
           "arm_pend_peso": 20.64,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -58884,8 +58938,8 @@
           "long": 466,
           "cant": 1,
           "peso": 41.28,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
           "arm_pend_peso": 20.64,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -58902,8 +58956,8 @@
           "long": 466,
           "cant": 1,
           "peso": 41.28,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
           "arm_pend_peso": 20.64,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -58920,8 +58974,8 @@
           "long": 466,
           "cant": 1,
           "peso": 40.28,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
           "arm_pend_peso": 20.14,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -58938,8 +58992,8 @@
           "long": 466,
           "cant": 1,
           "peso": 41.28,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
           "arm_pend_peso": 20.64,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -58956,8 +59010,8 @@
           "long": 466,
           "cant": 1,
           "peso": 41.28,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
           "arm_pend_peso": 20.64,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -58974,8 +59028,8 @@
           "long": 466,
           "cant": 1,
           "peso": 41.28,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
           "arm_pend_peso": 20.64,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -58992,8 +59046,8 @@
           "long": 466,
           "cant": 1,
           "peso": 41.28,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
           "arm_pend_peso": 20.64,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -59010,8 +59064,8 @@
           "long": 466,
           "cant": 1,
           "peso": 41.28,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
           "arm_pend_peso": 20.64,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -59028,8 +59082,8 @@
           "long": 466,
           "cant": 1,
           "peso": 41.28,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
           "arm_pend_peso": 20.64,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -59046,8 +59100,8 @@
           "long": 466,
           "cant": 1,
           "peso": 41.28,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
           "arm_pend_peso": 20.64,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -59064,8 +59118,8 @@
           "long": 466,
           "cant": 1,
           "peso": 41.28,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
           "arm_pend_peso": 20.64,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -59082,8 +59136,8 @@
           "long": 466,
           "cant": 1,
           "peso": 41.28,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
           "arm_pend_peso": 20.64,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -59100,8 +59154,8 @@
           "long": 466,
           "cant": 1,
           "peso": 41.28,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
           "arm_pend_peso": 20.64,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -59118,8 +59172,8 @@
           "long": 466,
           "cant": 1,
           "peso": 41.28,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
           "arm_pend_peso": 20.64,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -59154,8 +59208,8 @@
           "long": 466,
           "cant": 1,
           "peso": 41.28,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
           "arm_pend_peso": 20.64,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -59172,8 +59226,8 @@
           "long": 466,
           "cant": 1,
           "peso": 41.27,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
           "arm_pend_peso": 20.635,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -59190,8 +59244,8 @@
           "long": 466,
           "cant": 1,
           "peso": 41.27,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
           "arm_pend_peso": 20.635,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -59208,8 +59262,8 @@
           "long": 466,
           "cant": 1,
           "peso": 41.27,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
           "arm_pend_peso": 20.635,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -59226,8 +59280,8 @@
           "long": 466,
           "cant": 1,
           "peso": 41.27,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
           "arm_pend_peso": 20.635,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -59244,8 +59298,8 @@
           "long": 466,
           "cant": 1,
           "peso": 41.28,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
           "arm_pend_peso": 20.64,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -59262,8 +59316,8 @@
           "long": 466,
           "cant": 1,
           "peso": 41.28,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
           "arm_pend_peso": 20.64,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -59280,8 +59334,8 @@
           "long": 466,
           "cant": 1,
           "peso": 41.28,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
           "arm_pend_peso": 20.64,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -59298,8 +59352,8 @@
           "long": 466,
           "cant": 1,
           "peso": 41.28,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
           "arm_pend_peso": 20.64,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -59316,8 +59370,8 @@
           "long": 466,
           "cant": 1,
           "peso": 41.28,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
           "arm_pend_peso": 20.64,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -59334,8 +59388,8 @@
           "long": 466,
           "cant": 1,
           "peso": 41.28,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
           "arm_pend_peso": 20.64,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -59352,8 +59406,8 @@
           "long": 466,
           "cant": 1,
           "peso": 41.28,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
           "arm_pend_peso": 20.64,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -59370,8 +59424,8 @@
           "long": 466,
           "cant": 1,
           "peso": 41.28,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
           "arm_pend_peso": 20.64,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -59388,8 +59442,8 @@
           "long": 466,
           "cant": 1,
           "peso": 41.28,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
           "arm_pend_peso": 20.64,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -61314,8 +61368,8 @@
           "long": 5466,
           "cant": 1,
           "peso": 330.02,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
           "arm_pend_peso": 165.01,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -61368,8 +61422,8 @@
           "long": 8137,
           "cant": 1,
           "peso": 512.26,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
           "arm_pend_peso": 256.13,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -61386,8 +61440,8 @@
           "long": 8136,
           "cant": 1,
           "peso": 479.23,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
           "arm_pend_peso": 239.615,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -61548,8 +61602,8 @@
           "long": 7728,
           "cant": 1,
           "peso": 460.97,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
           "arm_pend_peso": 230.485,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -61656,8 +61710,8 @@
           "long": 9814,
           "cant": 1,
           "peso": 345.26,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
           "arm_pend_peso": 172.63,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -61854,8 +61908,8 @@
           "long": 4460,
           "cant": 1,
           "peso": 253.75,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
           "arm_pend_peso": 126.875,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -61872,8 +61926,8 @@
           "long": 4312,
           "cant": 1,
           "peso": 271.22,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
           "arm_pend_peso": 135.61,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -62592,8 +62646,8 @@
           "long": 653,
           "cant": 1,
           "peso": 10.18,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
           "arm_pend_peso": 5.09,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -63798,8 +63852,8 @@
           "long": 19443,
           "cant": 1,
           "peso": 928.29,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
           "arm_pend_peso": 464.145,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -63816,8 +63870,8 @@
           "long": 19442,
           "cant": 1,
           "peso": 927.9,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
           "arm_pend_peso": 463.95,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -63834,8 +63888,8 @@
           "long": 19441,
           "cant": 1,
           "peso": 927.45,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
           "arm_pend_peso": 463.725,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -63870,8 +63924,8 @@
           "long": 19440,
           "cant": 1,
           "peso": 926.87,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.75,
+          "arm_pend": 0.25,
           "arm_pend_peso": 695.1525,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -63888,8 +63942,8 @@
           "long": 19440,
           "cant": 1,
           "peso": 926.81,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
           "arm_pend_peso": 463.405,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -63924,8 +63978,8 @@
           "long": 18434,
           "cant": 1,
           "peso": 880.65,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
           "arm_pend_peso": 440.325,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -63942,8 +63996,8 @@
           "long": 18434,
           "cant": 3,
           "peso": 2641.95,
-          "arm_lib": 1,
-          "arm_pend": 1,
+          "arm_lib": 1.75,
+          "arm_pend": 1.25,
           "arm_pend_peso": 1541.1375,
           "pint_ok": 0,
           "pint_pend": 3,
@@ -63960,8 +64014,8 @@
           "long": 18434,
           "cant": 1,
           "peso": 880.65,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
           "arm_pend_peso": 440.325,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -63978,8 +64032,8 @@
           "long": 18434,
           "cant": 1,
           "peso": 880.65,
-          "arm_lib": 0,
-          "arm_pend": 0,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
           "arm_pend_peso": 440.325,
           "pint_ok": 0,
           "pint_pend": 1,
@@ -65304,6 +65358,27 @@
           "pend": 1
         },
         {
+          "cod": "BIM-CV-1",
+          "prod": "Cruz Vertical",
+          "long": 3174,
+          "cant": 1,
+          "pend": 0.5
+        },
+        {
+          "cod": "BIM-CV-2",
+          "prod": "Cruz Vertical",
+          "long": 2925,
+          "cant": 1,
+          "pend": 0.5
+        },
+        {
+          "cod": "BIM-CV-3",
+          "prod": "Cruz Vertical",
+          "long": 6493,
+          "cant": 1,
+          "pend": 0.5
+        },
+        {
           "cod": "BIM-CV-4",
           "prod": "Cruz Vertical",
           "long": 6098,
@@ -65724,6 +65799,34 @@
           "pend": 8
         },
         {
+          "cod": "BIM-ME-1",
+          "prod": "Mensula",
+          "long": 466,
+          "cant": 1,
+          "pend": 0.5
+        },
+        {
+          "cod": "BIM-ME-2",
+          "prod": "Mensula",
+          "long": 466,
+          "cant": 1,
+          "pend": 0.5
+        },
+        {
+          "cod": "BIM-ME-3",
+          "prod": "Mensula",
+          "long": 466,
+          "cant": 1,
+          "pend": 0.5
+        },
+        {
+          "cod": "BIM-ME-4",
+          "prod": "Mensula",
+          "long": 466,
+          "cant": 1,
+          "pend": 0.5
+        },
+        {
           "cod": "BIM-ME-5",
           "prod": "Mensula",
           "long": 466,
@@ -65731,11 +65834,207 @@
           "pend": 1
         },
         {
+          "cod": "BIM-ME-6",
+          "prod": "Mensula",
+          "long": 466,
+          "cant": 1,
+          "pend": 0.5
+        },
+        {
+          "cod": "BIM-ME-7",
+          "prod": "Mensula",
+          "long": 466,
+          "cant": 1,
+          "pend": 0.5
+        },
+        {
+          "cod": "BIM-ME-8",
+          "prod": "Mensula",
+          "long": 466,
+          "cant": 1,
+          "pend": 0.5
+        },
+        {
+          "cod": "BIM-ME-9",
+          "prod": "Mensula",
+          "long": 466,
+          "cant": 1,
+          "pend": 0.5
+        },
+        {
+          "cod": "BIM-ME-10",
+          "prod": "Mensula",
+          "long": 466,
+          "cant": 1,
+          "pend": 0.5
+        },
+        {
+          "cod": "BIM-ME-11",
+          "prod": "Mensula",
+          "long": 466,
+          "cant": 1,
+          "pend": 0.5
+        },
+        {
+          "cod": "BIM-ME-12",
+          "prod": "Mensula",
+          "long": 466,
+          "cant": 1,
+          "pend": 0.5
+        },
+        {
+          "cod": "BIM-ME-13",
+          "prod": "Mensula",
+          "long": 466,
+          "cant": 1,
+          "pend": 0.5
+        },
+        {
+          "cod": "BIM-ME-14",
+          "prod": "Mensula",
+          "long": 466,
+          "cant": 1,
+          "pend": 0.5
+        },
+        {
+          "cod": "BIM-ME-15",
+          "prod": "Mensula",
+          "long": 466,
+          "cant": 1,
+          "pend": 0.5
+        },
+        {
+          "cod": "BIM-ME-16",
+          "prod": "Mensula",
+          "long": 466,
+          "cant": 1,
+          "pend": 0.5
+        },
+        {
+          "cod": "BIM-ME-17",
+          "prod": "Mensula",
+          "long": 466,
+          "cant": 1,
+          "pend": 0.5
+        },
+        {
+          "cod": "BIM-ME-18",
+          "prod": "Mensula",
+          "long": 466,
+          "cant": 1,
+          "pend": 0.5
+        },
+        {
+          "cod": "BIM-ME-19",
+          "prod": "Mensula",
+          "long": 466,
+          "cant": 1,
+          "pend": 0.5
+        },
+        {
           "cod": "BIM-ME-20",
           "prod": "Mensula",
           "long": 466,
           "cant": 1,
           "pend": 1
+        },
+        {
+          "cod": "BIM-ME-21",
+          "prod": "Mensula",
+          "long": 466,
+          "cant": 1,
+          "pend": 0.5
+        },
+        {
+          "cod": "BIM-ME-22",
+          "prod": "Mensula",
+          "long": 466,
+          "cant": 1,
+          "pend": 0.5
+        },
+        {
+          "cod": "BIM-ME-23",
+          "prod": "Mensula",
+          "long": 466,
+          "cant": 1,
+          "pend": 0.5
+        },
+        {
+          "cod": "BIM-ME-24",
+          "prod": "Mensula",
+          "long": 466,
+          "cant": 1,
+          "pend": 0.5
+        },
+        {
+          "cod": "BIM-ME-25",
+          "prod": "Mensula",
+          "long": 466,
+          "cant": 1,
+          "pend": 0.5
+        },
+        {
+          "cod": "BIM-ME-26",
+          "prod": "Mensula",
+          "long": 466,
+          "cant": 1,
+          "pend": 0.5
+        },
+        {
+          "cod": "BIM-ME-27",
+          "prod": "Mensula",
+          "long": 466,
+          "cant": 1,
+          "pend": 0.5
+        },
+        {
+          "cod": "BIM-ME-28",
+          "prod": "Mensula",
+          "long": 466,
+          "cant": 1,
+          "pend": 0.5
+        },
+        {
+          "cod": "BIM-ME-29",
+          "prod": "Mensula",
+          "long": 466,
+          "cant": 1,
+          "pend": 0.5
+        },
+        {
+          "cod": "BIM-ME-30",
+          "prod": "Mensula",
+          "long": 466,
+          "cant": 1,
+          "pend": 0.5
+        },
+        {
+          "cod": "BIM-ME-31",
+          "prod": "Mensula",
+          "long": 466,
+          "cant": 1,
+          "pend": 0.5
+        },
+        {
+          "cod": "BIM-ME-32",
+          "prod": "Mensula",
+          "long": 466,
+          "cant": 1,
+          "pend": 0.5
+        },
+        {
+          "cod": "BIM-ME-33",
+          "prod": "Mensula",
+          "long": 466,
+          "cant": 1,
+          "pend": 0.5
+        },
+        {
+          "cod": "BIM-ME-34",
+          "prod": "Mensula",
+          "long": 466,
+          "cant": 1,
+          "pend": 0.5
         },
         {
           "cod": "BIM-MF-1",
@@ -66455,251 +66754,6 @@
           "cod": "BIM-PCT-18",
           "prod": "Correa de tímpano/ Perfilado",
           "long": 4561,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCT-19",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 5034,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCT-20",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 5079,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCT-21",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 5104,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PIS-7",
-          "prod": "Pilar Alma Llena",
-          "long": 1571,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PIS-9",
-          "prod": "Pilar Alma Llena",
-          "long": 8136,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PIS-10",
-          "prod": "Pilar Alma Llena",
-          "long": 9138,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PL-1",
-          "prod": "Placa",
-          "long": 120,
-          "cant": 3,
-          "pend": 3
-        },
-        {
-          "cod": "BIM-PL-2",
-          "prod": "Placa",
-          "long": 200,
-          "cant": 3,
-          "pend": 3
-        },
-        {
-          "cod": "BIM-PL-3",
-          "prod": "Placa",
-          "long": 220,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BIM-PTC-1",
-          "prod": "Pilar Tubo Caño",
-          "long": 1200,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PTC-2",
-          "prod": "Pilar Tubo Caño",
-          "long": 1470,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PTC-3",
-          "prod": "Pilar Tubo Caño",
-          "long": 1200,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PTC-4",
-          "prod": "Pilar Tubo Caño",
-          "long": 1200,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PTC-5",
-          "prod": "Pilar Tubo Caño",
-          "long": 2937,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PTC-6",
-          "prod": "Pilar Tubo Caño",
-          "long": 8643,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PTC-7",
-          "prod": "Pilar Tubo Caño",
-          "long": 1200,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PTC-8",
-          "prod": "Pilar Tubo Caño",
-          "long": 6107,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PTC-9",
-          "prod": "Pilar Tubo Caño",
-          "long": 6107,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PTC-10",
-          "prod": "Pilar Tubo Caño",
-          "long": 1849,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PTC-11",
-          "prod": "Pilar Tubo Caño",
-          "long": 3038,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PTC-12",
-          "prod": "Pilar Tubo Caño",
-          "long": 5104,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PTC-13",
-          "prod": "Pilar Tubo Caño",
-          "long": 8729,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PTC-14",
-          "prod": "Pilar Tubo Caño",
-          "long": 1564,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PTC-15",
-          "prod": "Pilar Tubo Caño",
-          "long": 1462,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PTC-16",
-          "prod": "Pilar Tubo Caño",
-          "long": 1037,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PTC-17",
-          "prod": "Pilar Tubo Caño",
-          "long": 3688,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PTC-18",
-          "prod": "Pilar Tubo Caño",
-          "long": 717,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PTC-19",
-          "prod": "Pilar Tubo Caño",
-          "long": 9830,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PTC-20",
-          "prod": "Pilar Tubo Caño",
-          "long": 421,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PTC-21",
-          "prod": "Pilar Tubo Caño",
-          "long": 9795,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PTC-22",
-          "prod": "Pilar Tubo Caño",
-          "long": 456,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PTC-23",
-          "prod": "Pilar Tubo Caño",
-          "long": 786,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PTC-24",
-          "prod": "Pilar Tubo Caño",
-          "long": 1105,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PTC-25",
-          "prod": "Pilar Tubo Caño",
-          "long": 3620,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PTC-26",
-          "prod": "Pilar Tubo Caño",
-          "long": 1529,
           "cant": 1,
           "pend": 1
         }
@@ -68826,7 +68880,11 @@
         "pint_pend": 2649,
         "env_ok": 18,
         "env_pend": 2712,
-        "items": 245
+        "items": 245,
+        "peso_total": 101967.95999999996,
+        "arm_pend_peso": 57054.60499999999,
+        "pint_pend_peso": 46620.83,
+        "env_pend_peso": 820.6500000000001
       },
       "items": [
         {
@@ -75924,7 +75982,11 @@
         "pint_pend": 89,
         "env_ok": 0,
         "env_pend": 89,
-        "items": 66
+        "items": 66,
+        "peso_total": 11205.710000000001,
+        "arm_pend_peso": 5556.970000000001,
+        "pint_pend_peso": 0,
+        "env_pend_peso": 0
       },
       "items": [
         {
@@ -77959,7 +78021,11 @@
         "pint_pend": 1452,
         "env_ok": 1,
         "env_pend": 1451,
-        "items": 198
+        "items": 198,
+        "peso_total": 37025.109999999964,
+        "arm_pend_peso": 1410.1149999999998,
+        "pint_pend_peso": 0,
+        "env_pend_peso": 15.6
       },
       "items": [
         {
@@ -84253,7 +84319,11 @@
         "pint_pend": 24,
         "env_ok": 0,
         "env_pend": 24,
-        "items": 19
+        "items": 19,
+        "peso_total": 870.96,
+        "arm_pend_peso": 103.73,
+        "pint_pend_peso": 0,
+        "env_pend_peso": 0
       },
       "items": [
         {
@@ -84854,7 +84924,11 @@
         "pint_pend": 1391,
         "env_ok": 0,
         "env_pend": 1407,
-        "items": 114
+        "items": 114,
+        "peso_total": 15639.729999999996,
+        "arm_pend_peso": 15483.669999999996,
+        "pint_pend_peso": 5715.499999999999,
+        "env_pend_peso": 0
       },
       "items": [
         {
@@ -87732,7 +87806,11 @@
         "pint_pend": 202,
         "env_ok": 0,
         "env_pend": 202,
-        "items": 37
+        "items": 37,
+        "peso_total": 5430.380000000001,
+        "arm_pend_peso": 466.71000000000004,
+        "pint_pend_peso": 0,
+        "env_pend_peso": 0
       },
       "items": [
         {
@@ -88860,7 +88938,11 @@
         "pint_pend": 1585,
         "env_ok": 0,
         "env_pend": 2427,
-        "items": 249
+        "items": 249,
+        "peso_total": 88431.76000000005,
+        "arm_pend_peso": 42087.09499999998,
+        "pint_pend_peso": 60712.06999999997,
+        "env_pend_peso": 0
       },
       "items": [
         {
@@ -94798,7 +94880,11 @@
         "pint_pend": 75,
         "env_ok": 2,
         "env_pend": 73,
-        "items": 22
+        "items": 22,
+        "peso_total": 13873.26,
+        "arm_pend_peso": 490.93999999999994,
+        "pint_pend_peso": 0,
+        "env_pend_peso": 37.06
       },
       "items": [
         {
@@ -95495,7 +95581,11 @@
         "pint_pend": 7,
         "env_ok": 0,
         "env_pend": 7,
-        "items": 6
+        "items": 6,
+        "peso_total": 1529.4800000000002,
+        "arm_pend_peso": 1529.4800000000002,
+        "pint_pend_peso": 0,
+        "env_pend_peso": 0
       },
       "items": [
         {
@@ -95672,7 +95762,11 @@
         "pint_pend": 805,
         "env_ok": 0,
         "env_pend": 805,
-        "items": 198
+        "items": 198,
+        "peso_total": 25857.340000000007,
+        "arm_pend_peso": 1756.7700000000004,
+        "pint_pend_peso": 0,
+        "env_pend_peso": 0
       },
       "items": [
         {
@@ -101882,7 +101976,11 @@
         "pint_pend": 5,
         "env_ok": 2,
         "env_pend": 3,
-        "items": 4
+        "items": 4,
+        "peso_total": 1155.72,
+        "arm_pend_peso": 1124.73,
+        "pint_pend_peso": 0,
+        "env_pend_peso": 34
       },
       "items": [
         {
@@ -102017,7 +102115,11 @@
         "pint_pend": 11,
         "env_ok": 0,
         "env_pend": 11,
-        "items": 9
+        "items": 9,
+        "peso_total": 402.42,
+        "arm_pend_peso": 93.83,
+        "pint_pend_peso": 0,
+        "env_pend_peso": 0
       },
       "items": [
         {
