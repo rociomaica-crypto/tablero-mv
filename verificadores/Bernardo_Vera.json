@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T19:45:42.063Z",
+  "updatedAt": "2026-07-09T19:46:28.330Z",
   "updatedBy": "Bernardo Vera",
   "checks": {
     "25694_1": {
@@ -2763,6 +2763,15 @@
     },
     "25722_4": {
       "pint_state": "pintado"
+    },
+    "25107_2": {
+      "pint_state": "en_pintura"
+    },
+    "25107_13": {},
+    "25107_12": {},
+    "25107_14": {},
+    "25107_6": {
+      "pint_state": "en_pintura"
     }
   },
   "otMeta": {
