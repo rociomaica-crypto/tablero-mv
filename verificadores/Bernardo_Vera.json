@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T09:51:34.127Z",
+  "updatedAt": "2026-07-09T16:37:35.479Z",
   "updatedBy": "Bernardo Vera",
   "checks": {
     "25694_1": {
@@ -206,7 +206,8 @@
     },
     "25510_2": {
       "arm_state": "liberado",
-      "pint_state": "pintado"
+      "pint_state": "pintado",
+      "qty_lib": 1
     },
     "25510_3": {
       "arm_state": "liberado",
@@ -214,15 +215,18 @@
     },
     "25510_4": {
       "arm_state": "liberado",
-      "pint_state": "pintado"
+      "pint_state": "pintado",
+      "qty_lib": 1
     },
     "25510_5": {
       "arm_state": "liberado",
-      "pint_state": "pintado"
+      "pint_state": "pintado",
+      "qty_lib": 2
     },
     "25510_6": {
       "arm_state": "liberado",
-      "pint_state": "pintado"
+      "pint_state": "pintado",
+      "qty_lib": 1
     },
     "25510_7": {
       "arm_state": "liberado",
@@ -1049,7 +1053,8 @@
     },
     "25630_108": {
       "arm_state": "armado",
-      "pint_state": "galvamax"
+      "pint_state": "galvamax",
+      "qty_lib": 7
     },
     "25630_109": {
       "arm_state": "armado",
@@ -2688,7 +2693,65 @@
     },
     "25732_9": {
       "arm_state": "liberado"
-    }
+    },
+    "25572_325": {
+      "qty_lib": 1
+    },
+    "25572_324": {
+      "qty_lib": 1
+    },
+    "25572_314": {
+      "qty_lib": 1
+    },
+    "25572_315": {
+      "qty_lib": 1
+    },
+    "25572_313": {
+      "qty_lib": 1
+    },
+    "25572_350": {
+      "qty_lib": 1
+    },
+    "25572_349": {
+      "qty_lib": 1
+    },
+    "25572_68": {
+      "qty_lib": 1
+    },
+    "25572_66": {
+      "qty_lib": 1
+    },
+    "25572_65": {
+      "qty_lib": 2
+    },
+    "25572_323": {
+      "qty_lib": 1
+    },
+    "25572_312": {
+      "qty_lib": 1
+    },
+    "25676_2": {},
+    "25676_3": {},
+    "25676_1": {
+      "qty_lib": 5
+    },
+    "25676_109": {},
+    "25732_1": {
+      "qty_lib": 1
+    },
+    "24969_1": {
+      "arm_state_state": "armado",
+      "arm_state": "soldado",
+      "pint_state": "en_pintura"
+    },
+    "24283_75": {
+      "arm_state": "armado",
+      "pint_state": "en_pintura"
+    },
+    "25510_71": {},
+    "25510_69": {},
+    "25510_70": {},
+    "25510_73": {}
   },
   "otMeta": {
     "24969": {
