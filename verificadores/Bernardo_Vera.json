@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T19:40:18.242Z",
+  "updatedAt": "2026-07-09T19:41:09.942Z",
   "updatedBy": "Bernardo Vera",
   "checks": {
     "25694_1": {
@@ -2753,16 +2753,16 @@
     "25510_70": {},
     "25510_73": {},
     "25722_1": {
-      "pint_state": "en_pintura"
+      "pint_state": "pintado"
     },
     "25722_2": {
-      "pint_state": "en_pintura"
+      "pint_state": "pintado"
     },
     "25722_3": {
-      "pint_state": "en_pintura"
+      "pint_state": "pintado"
     },
     "25722_4": {
-      "pint_state": "en_pintura"
+      "pint_state": "pintado"
     }
   },
   "otMeta": {
