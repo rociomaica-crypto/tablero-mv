@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T20:36:49.331Z",
+  "updatedAt": "2026-07-09T20:49:06.515Z",
   "updatedBy": "Angel Villa",
   "checks": {
     "25257_1": {
@@ -2235,25 +2235,93 @@
     },
     "25572_101": {
       "qty_lib": 1,
-      "arm_state": "armado"
+      "arm_state": "liberado"
     },
     "25572_103": {
-      "arm_state": "armado"
+      "arm_state": ""
     },
     "25572_102": {
       "qty_lib": 1,
-      "arm_state": "armado"
+      "arm_state": "liberado"
     },
     "25572_106": {
       "qty_lib": 1,
-      "arm_state": "armado"
+      "arm_state": "liberado"
     },
     "25572_107": {
-      "arm_state": "armado"
+      "arm_state": "liberado"
     },
     "25572_108": {
       "qty_lib": 1,
+      "arm_state": "liberado"
+    },
+    "25572_6": {
       "arm_state": "armado"
+    },
+    "25572_7": {
+      "arm_state": "armado"
+    },
+    "25572_8": {
+      "arm_state": "armado"
+    },
+    "25572_9": {
+      "arm_state": "armado"
+    },
+    "25572_10": {
+      "arm_state": "armado"
+    },
+    "25572_11": {
+      "arm_state": "armado"
+    },
+    "25572_12": {
+      "arm_state": "armado"
+    },
+    "25572_14": {
+      "arm_state": "armado"
+    },
+    "25572_13": {
+      "arm_state": "armado"
+    },
+    "25572_1": {
+      "arm_state": "armado"
+    },
+    "25572_2": {
+      "qty_lib": 0,
+      "arm_state": "calibrado"
+    },
+    "25572_112": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25572_109": {
+      "arm_state": "armado"
+    },
+    "25572_110": {
+      "arm_state": "armado"
+    },
+    "25572_111": {
+      "arm_state": "armado"
+    },
+    "25572_113": {
+      "arm_state": "armado"
+    },
+    "25572_114": {
+      "arm_state": "armado"
+    },
+    "25572_115": {
+      "arm_state": "armado"
+    },
+    "25572_116": {
+      "arm_state": "armado"
+    },
+    "25572_117": {
+      "arm_state": "liberado"
+    },
+    "25572_118": {
+      "arm_state": "liberado"
+    },
+    "25572_119": {
+      "arm_state": "liberado"
     }
   },
   "otMeta": {
