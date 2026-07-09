@@ -90,6 +90,9 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;backgrou
 .reb-row{display:flex;justify-content:space-between;align-items:center;padding:3px 0}
 .reb-label{font-size:11px;color:#4A7FA5;font-weight:500}
 .reb-val{font-size:12px;font-weight:700;color:#0D3B66}
+.substate-row{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}
+.substate-chip{font-size:10px;font-weight:600;color:#4A7FA5;background:#fff;border:1px solid #C8DDF0;border-radius:12px;padding:3px 9px}
+.substate-chip.substate-done{color:#059669;border-color:#A7F3D0;background:#ECFDF5}
 .reb-bar-wrap{flex:1;margin:0 10px}
 .reb-bar-bg{height:6px;background:#D1E8F5;border-radius:3px;overflow:hidden}
 .reb-bar-fill{height:100%;border-radius:3px;background:linear-gradient(90deg,#1A5C8A,#0EA5E9)}
@@ -373,6 +376,20 @@ function showStatus(msg,type){
 
 var CHECKER_FILES=["Bernardo_Vera","Angel_Villa","Cristhian_Piatti","Sandro_Monzon","David_Gimenez","Adriana_Perez","Rocio_Maica"];
 
+// Merge de estados por campo: gana siempre el estado mas avanzado (Armado y Pintura son independientes)
+var ARM_ORDER_J={"":0,"armado":1,"soldado":2,"calibrado":3,"liberado":4};
+var PINT_ORDER_J={"":0,"en_pintura":1,"pintado":2,"galvamax":3,"rackpar":3};
+function mergeChecksJefes(local, incoming){
+  var result=Object.assign({},local||{});
+  if(incoming.arm_state!==undefined&&(ARM_ORDER_J[incoming.arm_state]||0)>(ARM_ORDER_J[result.arm_state||""]||0))
+    result.arm_state=incoming.arm_state;
+  if(incoming.pint_state!==undefined&&(PINT_ORDER_J[incoming.pint_state]||0)>(PINT_ORDER_J[result.pint_state||""]||0))
+    result.pint_state=incoming.pint_state;
+  if(incoming.qty_lib!==undefined&&(incoming.qty_lib||0)>(result.qty_lib||0))
+    result.qty_lib=incoming.qty_lib;
+  return result;
+}
+
 function loadData(){
   var btn=document.getElementById("refresh-btn");
   btn.classList.add("loading");
@@ -399,10 +416,10 @@ function loadData(){
         merged.updatedAt=data.updatedAt;
         merged.updatedBy=data.updatedBy;
       }
-      // Merge checks (each checker owns their own keys)
+      // Merge checks (combinar campo por campo, gana siempre el estado mas avanzado)
       if(data.checks){
         Object.keys(data.checks).forEach(function(k){
-          merged.checks[k]=data.checks[k];
+          merged.checks[k]=mergeChecksJefes(merged.checks[k],data.checks[k]);
         });
       }
       // Merge OT metadata (last writer wins per OT, but we keep all OTs)
@@ -488,13 +505,19 @@ function renderDashboard(data){
     var a=o.avances;
     var tot=t.cant||1;
 
-    // Checker progress for this OT
-    var armVer=0,pintVer=0,armTotal=0,pintTotal=0;
+    // Checker progress for this OT - desglose granular por subtipo
+    var armCounts={armado:0,soldado:0,calibrado:0,liberado:0};
+    var pintCounts={en_pintura:0,pintado:0,galvamax:0,rackpar:0};
+    var armTotal=0,armVer=0,pintVer=0;
     Object.keys(checks).forEach(function(ck){
-      if(ck.startsWith(k+"_")){
-        armTotal++;pintTotal++;
-        if(checks[ck].arm&&checks[ck].arm>=1)armVer++;
-        if(checks[ck].pint&&checks[ck].pint>=1)pintVer++;
+      if(ck.indexOf(k+"_")===0){
+        armTotal++;
+        var st=checks[ck].arm_state;
+        if(st&&armCounts.hasOwnProperty(st))armCounts[st]++;
+        if(st==="liberado")armVer++;
+        var pst=checks[ck].pint_state;
+        if(pst&&pintCounts.hasOwnProperty(pst))pintCounts[pst]++;
+        if(pst==="pintado"||pst==="galvamax"||pst==="rackpar")pintVer++;
       }
     });
 
@@ -564,11 +587,23 @@ function renderDashboard(data){
       html+="<div class=\"reb-bar-wrap\"><div class=\"reb-bar-bg\"><div class=\"reb-bar-fill\" style=\"width:"+armRebPct+"%\"></div></div></div>";
       html+="<span class=\"reb-val\">"+armVer+"/"+armTotal+" ("+armRebPct+"%)</span>";
       html+="</div>";
-      html+="<div class=\"reb-row\" style=\"margin-top:6px\">";
+      html+="<div class=\"substate-row\">"+
+        "<span class=\"substate-chip\">Armado: "+armCounts.armado+"</span>"+
+        "<span class=\"substate-chip\">Soldado: "+armCounts.soldado+"</span>"+
+        "<span class=\"substate-chip\">Calibrado: "+armCounts.calibrado+"</span>"+
+        "<span class=\"substate-chip substate-done\">Liberado: "+armCounts.liberado+"</span>"+
+        "</div>";
+      html+="<div class=\"reb-row\" style=\"margin-top:10px\">";
       html+="<span class=\"reb-label\">Pintura verificada</span>";
       html+="<div class=\"reb-bar-wrap\"><div class=\"reb-bar-bg\"><div class=\"reb-bar-fill\" style=\"width:"+pintRebPct+"%\"></div></div></div>";
       html+="<span class=\"reb-val\">"+pintVer+"/"+armTotal+" ("+pintRebPct+"%)</span>";
       html+="</div>";
+      html+="<div class=\"substate-row\">"+
+        "<span class=\"substate-chip\">En pintura: "+pintCounts.en_pintura+"</span>"+
+        "<span class=\"substate-chip substate-done\">Pintado: "+pintCounts.pintado+"</span>"+
+        "<span class=\"substate-chip substate-done\">Galvamax: "+pintCounts.galvamax+"</span>"+
+        "<span class=\"substate-chip substate-done\">Rackpar: "+pintCounts.rackpar+"</span>"+
+        "</div>";
       html+="</div>";
     }
 
