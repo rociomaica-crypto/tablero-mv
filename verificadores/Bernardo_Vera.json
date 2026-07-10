@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T09:13:12.855Z",
+  "updatedAt": "2026-07-10T09:16:42.566Z",
   "updatedBy": "Bernardo Vera",
   "checks": {
     "25694_1": {
@@ -2777,16 +2777,21 @@
     "25510_70": {},
     "25510_73": {},
     "25722_1": {
-      "pint_state": "pintado"
+      "pint_state": "pintado",
+      "arm_state": "liberado",
+      "pint_state_state": "galvamax"
     },
     "25722_2": {
-      "pint_state": "pintado"
+      "pint_state": "pintado",
+      "arm_state": "liberado"
     },
     "25722_3": {
-      "pint_state": "pintado"
+      "pint_state": "pintado",
+      "arm_state": "liberado"
     },
     "25722_4": {
-      "pint_state": "pintado"
+      "pint_state": "pintado",
+      "arm_state": "liberado"
     },
     "25107_2": {
       "pint_state": "en_pintura"
