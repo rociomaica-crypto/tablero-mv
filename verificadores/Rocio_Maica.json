@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T18:11:48.418Z",
+  "updatedAt": "2026-07-10T18:33:54.537Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "25527_1": {
@@ -2606,6 +2606,10 @@
     },
     "25603_66": {
       "arm_state": "armado"
+    },
+    "25603_4": {
+      "arm_state": "liberado",
+      "qty_lib": 1
     }
   },
   "otMeta": {
