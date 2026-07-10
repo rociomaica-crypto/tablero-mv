@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T14:47:26.450Z",
+  "updatedAt": "2026-07-10T14:47:38.933Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "25527_1": {
@@ -97665,26 +97665,26 @@
       "ot": "25609",
       "obra": "Portón, puerta CF y escalera con baranda YUKYRY",
       "cliente": "OMBUES S.A",
-      "fecha": "8/7/2026",
+      "fecha": "10/7/2026",
       "avances": {
-        "arm": 25,
+        "arm": 75,
         "pint": 0,
         "env": 0,
         "mont": 0
       },
       "totales": {
         "cant": 24,
-        "arm_lib": 6,
-        "arm_pend": 18,
+        "arm_lib": 18,
+        "arm_pend": 6,
         "pint_ok": 0,
         "pint_pend": 24,
         "env_ok": 0,
         "env_pend": 24,
         "items": 19,
-        "peso_total": 870.96,
-        "arm_pend_peso": 103.73,
-        "pint_pend_peso": 0,
-        "env_pend_peso": 0
+        "peso_total": 873.96,
+        "arm_pend_peso": 34.47,
+        "pint_pend_peso": 873.96,
+        "env_pend_peso": 873.96
       },
       "items": [
         {
@@ -97694,15 +97694,15 @@
           "long": 1800,
           "cant": 2,
           "peso": 8.6,
-          "arm_lib": 0,
-          "arm_pend": 2,
+          "arm_lib": 2,
+          "arm_pend": 0,
           "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 2,
-          "pint_pend_peso": 0,
+          "pint_pend_peso": 8.6,
           "env_ok": 0,
           "env_pend": 2,
-          "env_pend_peso": 0,
+          "env_pend_peso": 8.6,
           "literal": "BJO"
         },
         {
@@ -97712,15 +97712,15 @@
           "long": 5229,
           "cant": 1,
           "peso": 23.97,
-          "arm_lib": 0,
-          "arm_pend": 1,
+          "arm_lib": 1,
+          "arm_pend": 0,
           "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
-          "pint_pend_peso": 0,
+          "pint_pend_peso": 23.97,
           "env_ok": 0,
           "env_pend": 1,
-          "env_pend_peso": 0,
+          "env_pend_peso": 23.97,
           "literal": "BJO"
         },
         {
@@ -97730,15 +97730,15 @@
           "long": 6000,
           "cant": 1,
           "peso": 10.88,
-          "arm_lib": 0,
-          "arm_pend": 1,
+          "arm_lib": 1,
+          "arm_pend": 0,
           "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
-          "pint_pend_peso": 0,
+          "pint_pend_peso": 10.88,
           "env_ok": 0,
           "env_pend": 1,
-          "env_pend_peso": 0,
+          "env_pend_peso": 10.88,
           "literal": "BJO"
         },
         {
@@ -97748,15 +97748,15 @@
           "long": 13365,
           "cant": 1,
           "peso": 298.22,
-          "arm_lib": 0,
-          "arm_pend": 1,
+          "arm_lib": 1,
+          "arm_pend": 0,
           "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
-          "pint_pend_peso": 0,
+          "pint_pend_peso": 298.22,
           "env_ok": 0,
           "env_pend": 1,
-          "env_pend_peso": 0,
+          "env_pend_peso": 298.22,
           "literal": "BJO"
         },
         {
@@ -97768,13 +97768,13 @@
           "peso": 1.1,
           "arm_lib": 0,
           "arm_pend": 2,
-          "arm_pend_peso": 0,
+          "arm_pend_peso": 1.1,
           "pint_ok": 0,
           "pint_pend": 2,
-          "pint_pend_peso": 0,
+          "pint_pend_peso": 1.1,
           "env_ok": 0,
           "env_pend": 2,
-          "env_pend_peso": 0,
+          "env_pend_peso": 1.1,
           "literal": "BJO"
         },
         {
@@ -97786,13 +97786,13 @@
           "peso": 27.94,
           "arm_lib": 0,
           "arm_pend": 1,
-          "arm_pend_peso": 0,
+          "arm_pend_peso": 27.94,
           "pint_ok": 0,
           "pint_pend": 1,
-          "pint_pend_peso": 0,
+          "pint_pend_peso": 27.94,
           "env_ok": 0,
           "env_pend": 1,
-          "env_pend_peso": 0,
+          "env_pend_peso": 27.94,
           "literal": "BJO"
         },
         {
@@ -97802,15 +97802,15 @@
           "long": 6405,
           "cant": 1,
           "peso": 247.26,
-          "arm_lib": 0,
-          "arm_pend": 1,
+          "arm_lib": 1,
+          "arm_pend": 0,
           "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
-          "pint_pend_peso": 0,
+          "pint_pend_peso": 247.26,
           "env_ok": 0,
           "env_pend": 1,
-          "env_pend_peso": 0,
+          "env_pend_peso": 247.26,
           "literal": "BJO"
         },
         {
@@ -97822,13 +97822,13 @@
           "peso": 3.06,
           "arm_lib": 0,
           "arm_pend": 2,
-          "arm_pend_peso": 0,
+          "arm_pend_peso": 3.06,
           "pint_ok": 0,
           "pint_pend": 2,
-          "pint_pend_peso": 0,
+          "pint_pend_peso": 3.06,
           "env_ok": 0,
           "env_pend": 2,
-          "env_pend_peso": 0,
+          "env_pend_peso": 3.06,
           "literal": "BJO"
         },
         {
@@ -97840,13 +97840,13 @@
           "peso": 2.37,
           "arm_lib": 0,
           "arm_pend": 1,
-          "arm_pend_peso": 0,
+          "arm_pend_peso": 2.37,
           "pint_ok": 0,
           "pint_pend": 1,
-          "pint_pend_peso": 0,
+          "pint_pend_peso": 2.37,
           "env_ok": 0,
           "env_pend": 1,
-          "env_pend_peso": 0,
+          "env_pend_peso": 2.37,
           "literal": "BJO"
         },
         {
@@ -97856,15 +97856,15 @@
           "long": 5295,
           "cant": 2,
           "peso": 65.46,
-          "arm_lib": 0,
-          "arm_pend": 2,
+          "arm_lib": 2,
+          "arm_pend": 0,
           "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 2,
-          "pint_pend_peso": 0,
+          "pint_pend_peso": 65.46,
           "env_ok": 0,
           "env_pend": 2,
-          "env_pend_peso": 0,
+          "env_pend_peso": 65.46,
           "literal": "BJO"
         },
         {
@@ -97874,15 +97874,15 @@
           "long": 198,
           "cant": 1,
           "peso": 72.53,
-          "arm_lib": 0,
-          "arm_pend": 1,
+          "arm_lib": 1,
+          "arm_pend": 0,
           "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
-          "pint_pend_peso": 0,
+          "pint_pend_peso": 72.53,
           "env_ok": 0,
           "env_pend": 1,
-          "env_pend_peso": 0,
+          "env_pend_peso": 72.53,
           "literal": "BJO"
         },
         {
@@ -97894,13 +97894,13 @@
           "peso": 19.61,
           "arm_lib": 1,
           "arm_pend": 0,
-          "arm_pend_peso": 19.61,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
-          "pint_pend_peso": 0,
+          "pint_pend_peso": 19.61,
           "env_ok": 0,
           "env_pend": 1,
-          "env_pend_peso": 0,
+          "env_pend_peso": 19.61,
           "literal": "BJO"
         },
         {
@@ -97912,13 +97912,13 @@
           "peso": 16.34,
           "arm_lib": 1,
           "arm_pend": 0,
-          "arm_pend_peso": 16.34,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
-          "pint_pend_peso": 0,
+          "pint_pend_peso": 16.34,
           "env_ok": 0,
           "env_pend": 1,
-          "env_pend_peso": 0,
+          "env_pend_peso": 16.34,
           "literal": "BJO"
         },
         {
@@ -97930,13 +97930,13 @@
           "peso": 34.36,
           "arm_lib": 2,
           "arm_pend": 0,
-          "arm_pend_peso": 34.36,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 2,
-          "pint_pend_peso": 0,
+          "pint_pend_peso": 34.36,
           "env_ok": 0,
           "env_pend": 2,
-          "env_pend_peso": 0,
+          "env_pend_peso": 34.36,
           "literal": "BJO"
         },
         {
@@ -97948,13 +97948,13 @@
           "peso": 18.23,
           "arm_lib": 1,
           "arm_pend": 0,
-          "arm_pend_peso": 18.23,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
-          "pint_pend_peso": 0,
+          "pint_pend_peso": 18.23,
           "env_ok": 0,
           "env_pend": 1,
-          "env_pend_peso": 0,
+          "env_pend_peso": 18.23,
           "literal": "BJO"
         },
         {
@@ -97966,13 +97966,13 @@
           "peso": 15.19,
           "arm_lib": 1,
           "arm_pend": 0,
-          "arm_pend_peso": 15.19,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
-          "pint_pend_peso": 0,
+          "pint_pend_peso": 15.19,
           "env_ok": 0,
           "env_pend": 1,
-          "env_pend_peso": 0,
+          "env_pend_peso": 15.19,
           "literal": "BJO"
         },
         {
@@ -97982,15 +97982,15 @@
           "long": 330,
           "cant": 1,
           "peso": 2.92,
-          "arm_lib": 0,
-          "arm_pend": 1,
+          "arm_lib": 1,
+          "arm_pend": 0,
           "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
-          "pint_pend_peso": 0,
+          "pint_pend_peso": 2.92,
           "env_ok": 0,
           "env_pend": 1,
-          "env_pend_peso": 0,
+          "env_pend_peso": 2.92,
           "literal": "BJO"
         },
         {
@@ -98000,15 +98000,15 @@
           "long": 330,
           "cant": 1,
           "peso": 2.92,
-          "arm_lib": 0,
-          "arm_pend": 1,
+          "arm_lib": 1,
+          "arm_pend": 0,
           "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
-          "pint_pend_peso": 0,
+          "pint_pend_peso": 2.92,
           "env_ok": 0,
           "env_pend": 1,
-          "env_pend_peso": 0,
+          "env_pend_peso": 2.92,
           "literal": "BJO"
         },
         {
@@ -98017,48 +98017,20 @@
           "prod": "Pieza Especial",
           "long": 330,
           "cant": 1,
-          "peso": 0,
-          "arm_lib": 0,
-          "arm_pend": 1,
+          "peso": 3,
+          "arm_lib": 1,
+          "arm_pend": 0,
           "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
-          "pint_pend_peso": 0,
+          "pint_pend_peso": 3,
           "env_ok": 0,
           "env_pend": 1,
-          "env_pend_peso": 0,
+          "env_pend_peso": 3,
           "literal": "PZ"
         }
       ],
       "arm_pend_items": [
-        {
-          "cod": "BJO-CNP-1",
-          "prod": "Caño Pintado",
-          "long": 1800,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BJO-CNP-2",
-          "prod": "Caño Pintado",
-          "long": 5229,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BJO-CNP-3",
-          "prod": "Caño Pintado",
-          "long": 6000,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BJO-GS-1",
-          "prod": "Guía Soporte",
-          "long": 13365,
-          "cant": 1,
-          "pend": 1
-        },
         {
           "cod": "BJO-LLP-1",
           "prod": "Angulo Pintado",
@@ -98074,13 +98046,6 @@
           "pend": 1
         },
         {
-          "cod": "BJO-PO-1",
-          "prod": "Porton Corredizo",
-          "long": 6405,
-          "cant": 1,
-          "pend": 1
-        },
-        {
           "cod": "BJO-PS-1",
           "prod": "Pieza Suelta",
           "long": 180,
@@ -98091,41 +98056,6 @@
           "cod": "BJO-PS-2",
           "prod": "Pieza Suelta",
           "long": 190,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BJO-PTC-1",
-          "prod": "Pilar Tubo Caño",
-          "long": 5295,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BJO-PTC-2",
-          "prod": "Pilar Tubo Caño",
-          "long": 198,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BJO-SP-1",
-          "prod": "SOPORTE",
-          "long": 330,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BJO-SP-2",
-          "prod": "SOPORTE",
-          "long": 330,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "33394-PZ-1",
-          "prod": "Pieza Especial",
-          "long": 330,
           "cant": 1,
           "pend": 1
         }
