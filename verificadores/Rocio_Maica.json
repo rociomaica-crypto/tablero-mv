@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T14:48:53.302Z",
+  "updatedAt": "2026-07-10T14:49:08.766Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "25527_1": {
@@ -123443,26 +123443,26 @@
       "ot": "25732",
       "obra": "Escalera 2, Barandas y puerta, Suc. Aratiri",
       "cliente": "Metarq  S.A",
-      "fecha": "8/7/2026",
+      "fecha": "10/7/2026",
       "avances": {
-        "arm": 91,
+        "arm": 69,
         "pint": 0,
         "env": 0,
         "mont": 0
       },
       "totales": {
-        "cant": 11,
-        "arm_lib": 10,
-        "arm_pend": 1,
+        "cant": 16,
+        "arm_lib": 11,
+        "arm_pend": 5,
         "pint_ok": 0,
-        "pint_pend": 11,
+        "pint_pend": 16,
         "env_ok": 0,
-        "env_pend": 11,
-        "items": 9,
-        "peso_total": 402.42,
-        "arm_pend_peso": 93.83,
-        "pint_pend_peso": 0,
-        "env_pend_peso": 0
+        "env_pend": 16,
+        "items": 13,
+        "peso_total": 424.42,
+        "arm_pend_peso": 22,
+        "pint_pend_peso": 424.42,
+        "env_pend_peso": 424.42
       },
       "items": [
         {
@@ -123474,13 +123474,13 @@
           "peso": 8.07,
           "arm_lib": 1,
           "arm_pend": 0,
-          "arm_pend_peso": 8.07,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
-          "pint_pend_peso": 0,
+          "pint_pend_peso": 8.07,
           "env_ok": 0,
           "env_pend": 1,
-          "env_pend_peso": 0,
+          "env_pend_peso": 8.07,
           "literal": "BKB"
         },
         {
@@ -123492,13 +123492,13 @@
           "peso": 8.25,
           "arm_lib": 1,
           "arm_pend": 0,
-          "arm_pend_peso": 8.25,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
-          "pint_pend_peso": 0,
+          "pint_pend_peso": 8.25,
           "env_ok": 0,
           "env_pend": 1,
-          "env_pend_peso": 0,
+          "env_pend_peso": 8.25,
           "literal": "BKB"
         },
         {
@@ -123510,13 +123510,13 @@
           "peso": 33.25,
           "arm_lib": 1,
           "arm_pend": 0,
-          "arm_pend_peso": 33.25,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
-          "pint_pend_peso": 0,
+          "pint_pend_peso": 33.25,
           "env_ok": 0,
           "env_pend": 1,
-          "env_pend_peso": 0,
+          "env_pend_peso": 33.25,
           "literal": "BKB"
         },
         {
@@ -123526,15 +123526,15 @@
           "long": 7324,
           "cant": 1,
           "peso": 308.59,
-          "arm_lib": 0,
-          "arm_pend": 1,
+          "arm_lib": 1,
+          "arm_pend": 0,
           "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
-          "pint_pend_peso": 0,
+          "pint_pend_peso": 308.59,
           "env_ok": 0,
           "env_pend": 1,
-          "env_pend_peso": 0,
+          "env_pend_peso": 308.59,
           "literal": "BKB"
         },
         {
@@ -123546,13 +123546,13 @@
           "peso": 35.62,
           "arm_lib": 1,
           "arm_pend": 0,
-          "arm_pend_peso": 35.62,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
-          "pint_pend_peso": 0,
+          "pint_pend_peso": 35.62,
           "env_ok": 0,
           "env_pend": 1,
-          "env_pend_peso": 0,
+          "env_pend_peso": 35.62,
           "literal": "BKB"
         },
         {
@@ -123564,13 +123564,13 @@
           "peso": 0.35,
           "arm_lib": 1,
           "arm_pend": 0,
-          "arm_pend_peso": 0.35,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
-          "pint_pend_peso": 0,
+          "pint_pend_peso": 0.35,
           "env_ok": 0,
           "env_pend": 1,
-          "env_pend_peso": 0,
+          "env_pend_peso": 0.35,
           "literal": "BKB"
         },
         {
@@ -123582,13 +123582,13 @@
           "peso": 2.2,
           "arm_lib": 2,
           "arm_pend": 0,
-          "arm_pend_peso": 2.2,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 2,
-          "pint_pend_peso": 0,
+          "pint_pend_peso": 2.2,
           "env_ok": 0,
           "env_pend": 2,
-          "env_pend_peso": 0,
+          "env_pend_peso": 2.2,
           "literal": "BKB"
         },
         {
@@ -123600,13 +123600,13 @@
           "peso": 3.55,
           "arm_lib": 1,
           "arm_pend": 0,
-          "arm_pend_peso": 3.55,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
-          "pint_pend_peso": 0,
+          "pint_pend_peso": 3.55,
           "env_ok": 0,
           "env_pend": 1,
-          "env_pend_peso": 0,
+          "env_pend_peso": 3.55,
           "literal": "BKB"
         },
         {
@@ -123618,21 +123618,114 @@
           "peso": 2.54,
           "arm_lib": 2,
           "arm_pend": 0,
-          "arm_pend_peso": 2.54,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 2.54,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 2.54,
+          "literal": "BKB"
+        },
+        {
+          "item": 10,
+          "cod": "33664-PZ-1",
+          "prod": "Pieza Especial",
+          "long": 3000,
+          "cant": 2,
+          "peso": 0,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 2,
           "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 2,
           "env_pend_peso": 0,
+          "literal": "PZ"
+        },
+        {
+          "item": 11,
+          "cod": "BKB-PL-300",
+          "prod": "Placa",
+          "long": 350,
+          "cant": 1,
+          "peso": 2.74,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 2.74,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 2.74,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 2.74,
+          "literal": "BKB"
+        },
+        {
+          "item": 12,
+          "cod": "BKB-SP-300",
+          "prod": "SOPORTE",
+          "long": 250,
+          "cant": 1,
+          "peso": 14.94,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 14.94,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 14.94,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 14.94,
+          "literal": "BKB"
+        },
+        {
+          "item": 13,
+          "cod": "BKB-SP-301",
+          "prod": "SOPORTE",
+          "long": 230,
+          "cant": 1,
+          "peso": 4.32,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 4.32,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 4.32,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 4.32,
           "literal": "BKB"
         }
       ],
       "arm_pend_items": [
         {
-          "cod": "BKB-ES-1",
-          "prod": "Escalera Metalica",
-          "long": 7324,
+          "cod": "33664-PZ-1",
+          "prod": "Pieza Especial",
+          "long": 3000,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BKB-PL-300",
+          "prod": "Placa",
+          "long": 350,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKB-SP-300",
+          "prod": "SOPORTE",
+          "long": 250,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKB-SP-301",
+          "prod": "SOPORTE",
+          "long": 230,
           "cant": 1,
           "pend": 1
         }
@@ -123700,6 +123793,34 @@
           "long": 75,
           "cant": 2,
           "pend": 2
+        },
+        {
+          "cod": "33664-PZ-1",
+          "prod": "Pieza Especial",
+          "long": 3000,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BKB-PL-300",
+          "prod": "Placa",
+          "long": 350,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKB-SP-300",
+          "prod": "SOPORTE",
+          "long": 250,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKB-SP-301",
+          "prod": "SOPORTE",
+          "long": 230,
+          "cant": 1,
+          "pend": 1
         }
       ]
     }
