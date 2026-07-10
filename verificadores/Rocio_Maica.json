@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T17:09:16.273Z",
+  "updatedAt": "2026-07-10T17:46:24.143Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "25527_1": {
@@ -1058,31 +1058,40 @@
       "arm_state": "liberado"
     },
     "25708_1": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25708_2": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25708_3": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25708_4": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25708_5": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25708_8": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25708_9": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25708_11": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25708_13": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25607_178": {
       "qty_lib": 37,
@@ -2405,6 +2414,198 @@
     },
     "25603_66": {
       "arm_state": "armado"
+    },
+    "25708_96": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_28": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_29": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_30": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_32": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_155": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_156": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_158": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_160": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_161": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_24": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_25": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_89": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_90": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_91": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_26": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_27": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_93": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_83": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_85": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_86": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_87": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_88": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_97": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_94": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_95": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_84": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_92": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_172": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_54": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_55": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_56": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_57": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_58": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_163": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_16": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_17": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_18": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_19": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_20": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_21": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_22": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_23": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_6": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_7": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_12": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_14": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_10": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     }
   },
   "otMeta": {
@@ -115762,22 +115963,22 @@
       "cliente": "CVH SRL",
       "fecha": "10/7/2026",
       "avances": {
-        "arm": 22,
+        "arm": 29,
         "pint": 0,
         "env": 0,
         "mont": 0
       },
       "totales": {
         "cant": 744,
-        "arm_lib": 160,
-        "arm_pend": 584,
+        "arm_lib": 218,
+        "arm_pend": 526,
         "pint_ok": 3,
         "pint_pend": 741,
         "env_ok": 0,
         "env_pend": 744,
         "items": 260,
         "peso_total": 31415.130000000005,
-        "arm_pend_peso": 22534.675,
+        "arm_pend_peso": 21915.285,
         "pint_pend_peso": 31406.010000000002,
         "env_pend_peso": 31415.130000000005
       },
@@ -119047,9 +119248,9 @@
           "long": 1663,
           "cant": 7,
           "peso": 71.61,
-          "arm_lib": 0,
-          "arm_pend": 7,
-          "arm_pend_peso": 71.61,
+          "arm_lib": 7,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 7,
           "pint_pend_peso": 71.61,
@@ -119065,9 +119266,9 @@
           "long": 1726,
           "cant": 7,
           "peso": 74.34,
-          "arm_lib": 0,
-          "arm_pend": 7,
-          "arm_pend_peso": 74.34,
+          "arm_lib": 7,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 7,
           "pint_pend_peso": 74.34,
@@ -119083,9 +119284,9 @@
           "long": 1300,
           "cant": 5,
           "peso": 40,
-          "arm_lib": 0,
-          "arm_pend": 5,
-          "arm_pend_peso": 40,
+          "arm_lib": 5,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 5,
           "pint_pend_peso": 40,
@@ -119137,9 +119338,9 @@
           "long": 1220,
           "cant": 2,
           "peso": 15.02,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 15.02,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 2,
           "pint_pend_peso": 15.02,
@@ -119155,9 +119356,9 @@
           "long": 1849,
           "cant": 1,
           "peso": 11.38,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 11.38,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 11.38,
@@ -119173,9 +119374,9 @@
           "long": 1181,
           "cant": 1,
           "peso": 7.27,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 7.27,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 7.27,
@@ -119191,9 +119392,9 @@
           "long": 2053,
           "cant": 1,
           "peso": 12.64,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 12.64,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 12.64,
@@ -119209,9 +119410,9 @@
           "long": 1141,
           "cant": 1,
           "peso": 7.02,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 7.02,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 7.02,
@@ -119263,9 +119464,9 @@
           "long": 2023,
           "cant": 1,
           "peso": 12.45,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 12.45,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 12.45,
@@ -119281,9 +119482,9 @@
           "long": 2170,
           "cant": 1,
           "peso": 13.36,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 13.36,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 13.36,
@@ -119299,9 +119500,9 @@
           "long": 1101,
           "cant": 1,
           "peso": 6.78,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 6.78,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 6.78,
@@ -119317,9 +119518,9 @@
           "long": 1923,
           "cant": 1,
           "peso": 11.84,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 11.84,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 11.84,
@@ -119335,9 +119536,9 @@
           "long": 2133,
           "cant": 13,
           "peso": 170.69,
-          "arm_lib": 0,
-          "arm_pend": 13,
-          "arm_pend_peso": 170.69,
+          "arm_lib": 13,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 13,
           "pint_pend_peso": 170.69,
@@ -119353,9 +119554,9 @@
           "long": 1864,
           "cant": 2,
           "peso": 22.94,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 22.94,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 2,
           "pint_pend_peso": 22.94,
@@ -119371,9 +119572,9 @@
           "long": 2164,
           "cant": 1,
           "peso": 13.32,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 13.32,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 13.32,
@@ -119389,9 +119590,9 @@
           "long": 1803,
           "cant": 1,
           "peso": 11.1,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 11.1,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 11.1,
@@ -119407,9 +119608,9 @@
           "long": 1330,
           "cant": 1,
           "peso": 8.19,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 8.19,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 8.19,
@@ -119425,9 +119626,9 @@
           "long": 2034,
           "cant": 1,
           "peso": 12.52,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 12.52,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 12.52,
@@ -119479,9 +119680,9 @@
           "long": 1915,
           "cant": 1,
           "peso": 11.78,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 11.78,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 11.78,
@@ -119497,9 +119698,9 @@
           "long": 1339,
           "cant": 2,
           "peso": 16.48,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 16.48,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 2,
           "pint_pend_peso": 16.48,
@@ -119551,9 +119752,9 @@
           "long": 1368,
           "cant": 2,
           "peso": 16.84,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 16.84,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 2,
           "pint_pend_peso": 16.84,
@@ -119605,9 +119806,9 @@
           "long": 1753,
           "cant": 2,
           "peso": 21.58,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 21.58,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 2,
           "pint_pend_peso": 21.58,
@@ -119623,9 +119824,9 @@
           "long": 1718,
           "cant": 1,
           "peso": 10.57,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 10.57,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 10.57,
@@ -119641,9 +119842,9 @@
           "long": 1623,
           "cant": 1,
           "peso": 9.99,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 9.99,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 9.99,
@@ -119659,9 +119860,9 @@
           "long": 1573,
           "cant": 1,
           "peso": 9.68,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 9.68,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 9.68,
@@ -121301,181 +121502,6 @@
           "cod": "BKA-BT-500",
           "prod": "Bastidores",
           "long": 6465,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BKA-CNP-507",
-          "prod": "Caño Pintado",
-          "long": 1663,
-          "cant": 7,
-          "pend": 7
-        },
-        {
-          "cod": "BKA-CNP-508",
-          "prod": "Caño Pintado",
-          "long": 1726,
-          "cant": 7,
-          "pend": 7
-        },
-        {
-          "cod": "BKA-CNP-509",
-          "prod": "Caño Pintado",
-          "long": 1300,
-          "cant": 5,
-          "pend": 5
-        },
-        {
-          "cod": "BKA-CNP-512",
-          "prod": "Caño Pintado",
-          "long": 1220,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BKA-CNP-513",
-          "prod": "Caño Pintado",
-          "long": 1849,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BKA-CNP-514",
-          "prod": "Caño Pintado",
-          "long": 1181,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BKA-CNP-515",
-          "prod": "Caño Pintado",
-          "long": 2053,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BKA-CNP-516",
-          "prod": "Caño Pintado",
-          "long": 1141,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BKA-CNP-519",
-          "prod": "Caño Pintado",
-          "long": 2023,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BKA-CNP-520",
-          "prod": "Caño Pintado",
-          "long": 2170,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BKA-CNP-521",
-          "prod": "Caño Pintado",
-          "long": 1101,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BKA-CNP-522",
-          "prod": "Caño Pintado",
-          "long": 1923,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BKA-CNP-523",
-          "prod": "Caño Pintado",
-          "long": 2133,
-          "cant": 13,
-          "pend": 13
-        },
-        {
-          "cod": "BKA-CNP-524",
-          "prod": "Caño Pintado",
-          "long": 1864,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BKA-CNP-525",
-          "prod": "Caño Pintado",
-          "long": 2164,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BKA-CNP-526",
-          "prod": "Caño Pintado",
-          "long": 1803,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BKA-CNP-527",
-          "prod": "Caño Pintado",
-          "long": 1330,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BKA-CNP-528",
-          "prod": "Caño Pintado",
-          "long": 2034,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BKA-CNP-531",
-          "prod": "Caño Pintado",
-          "long": 1915,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BKA-CNP-532",
-          "prod": "Caño Pintado",
-          "long": 1339,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BKA-CNP-535",
-          "prod": "Caño Pintado",
-          "long": 1368,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BKA-CNP-538",
-          "prod": "Caño Pintado",
-          "long": 1753,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BKA-CNP-539",
-          "prod": "Caño Pintado",
-          "long": 1718,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BKA-CNP-540",
-          "prod": "Caño Pintado",
-          "long": 1623,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BKA-CNP-541",
-          "prod": "Caño Pintado",
-          "long": 1573,
           "cant": 1,
           "pend": 1
         },
