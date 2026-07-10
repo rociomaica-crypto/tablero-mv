@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T14:47:05.050Z",
+  "updatedAt": "2026-07-10T14:47:14.843Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "25527_1": {
@@ -91483,24 +91483,24 @@
       "ot": "25607",
       "obra": "Provision materiales y fabricación, Galpon Yukyry",
       "cliente": "OMBUES S.A",
-      "fecha": "9/7/2026",
+      "fecha": "10/7/2026",
       "avances": {
-        "arm": 26,
+        "arm": 27,
         "pint": 0,
         "env": 0,
         "mont": 0
       },
       "totales": {
         "cant": 1451,
-        "arm_lib": 381.5,
-        "arm_pend": 1069.5,
+        "arm_lib": 397.5,
+        "arm_pend": 1053.5,
         "pint_ok": 0,
         "pint_pend": 1451,
         "env_ok": 0,
         "env_pend": 1451,
         "items": 197,
         "peso_total": 37009.509999999966,
-        "arm_pend_peso": 32824.4,
+        "arm_pend_peso": 32386.480000000007,
         "pint_pend_peso": 37009.509999999966,
         "env_pend_peso": 37009.509999999966
       },
@@ -92142,9 +92142,9 @@
           "long": 1500,
           "cant": 4,
           "peso": 23.68,
-          "arm_lib": 2,
-          "arm_pend": 2,
-          "arm_pend_peso": 11.84,
+          "arm_lib": 4,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 4,
           "pint_pend_peso": 23.68,
@@ -92160,9 +92160,9 @@
           "long": 5000,
           "cant": 4,
           "peso": 77.76,
-          "arm_lib": 2,
-          "arm_pend": 2,
-          "arm_pend_peso": 38.88,
+          "arm_lib": 4,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 4,
           "pint_pend_peso": 77.76,
@@ -92178,9 +92178,9 @@
           "long": 6000,
           "cant": 4,
           "peso": 92.96,
-          "arm_lib": 2,
-          "arm_pend": 2,
-          "arm_pend_peso": 46.48,
+          "arm_lib": 4,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 4,
           "pint_pend_peso": 92.96,
@@ -92196,9 +92196,9 @@
           "long": 6000,
           "cant": 1,
           "peso": 23.21,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 23.21,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 11.605,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 23.21,
@@ -92214,9 +92214,9 @@
           "long": 6000,
           "cant": 1,
           "peso": 23.21,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 23.21,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 11.605,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 23.21,
@@ -92232,9 +92232,9 @@
           "long": 6000,
           "cant": 1,
           "peso": 23.21,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 23.21,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 11.605,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 23.21,
@@ -92250,9 +92250,9 @@
           "long": 6000,
           "cant": 1,
           "peso": 23.21,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 23.21,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 11.605,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 23.21,
@@ -94680,9 +94680,9 @@
           "long": 5777,
           "cant": 39,
           "peso": 1438.71,
-          "arm_lib": 33.5,
-          "arm_pend": 5.5,
-          "arm_pend_peso": 202.895,
+          "arm_lib": 37.5,
+          "arm_pend": 1.5,
+          "arm_pend_peso": 55.335,
           "pint_ok": 0,
           "pint_pend": 39,
           "pint_pend_peso": 1438.71,
@@ -94734,9 +94734,9 @@
           "long": 5669,
           "cant": 4,
           "peso": 144.88,
-          "arm_lib": 3,
-          "arm_pend": 1,
-          "arm_pend_peso": 36.22,
+          "arm_lib": 4,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 4,
           "pint_pend_peso": 144.88,
@@ -94770,9 +94770,9 @@
           "long": 5630,
           "cant": 8,
           "peso": 294.72,
-          "arm_lib": 4,
-          "arm_pend": 4,
-          "arm_pend_peso": 147.36,
+          "arm_lib": 7,
+          "arm_pend": 1,
+          "arm_pend_peso": 36.84,
           "pint_ok": 0,
           "pint_pend": 8,
           "pint_pend_peso": 294.72,
@@ -95299,53 +95299,32 @@
           "pend": 1
         },
         {
-          "cod": "BJR-CT-1",
-          "prod": "Correa Timpano",
-          "long": 1500,
-          "cant": 4,
-          "pend": 2
-        },
-        {
-          "cod": "BJR-CT-2",
-          "prod": "Correa Timpano",
-          "long": 5000,
-          "cant": 4,
-          "pend": 2
-        },
-        {
-          "cod": "BJR-CT-3",
-          "prod": "Correa Timpano",
-          "long": 6000,
-          "cant": 4,
-          "pend": 2
-        },
-        {
           "cod": "BJR-CT-4",
           "prod": "Correa Timpano",
           "long": 6000,
           "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BJR-CT-5",
           "prod": "Correa Timpano",
           "long": 6000,
           "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BJR-CT-6",
           "prod": "Correa Timpano",
           "long": 6000,
           "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BJR-CT-7",
           "prod": "Correa Timpano",
           "long": 6000,
           "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BJR-CT-8",
@@ -96213,21 +96192,14 @@
           "prod": "Viga  Arriostre de tubos o caños",
           "long": 5777,
           "cant": 39,
-          "pend": 5.5
-        },
-        {
-          "cod": "BJR-VAT-5",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5669,
-          "cant": 4,
-          "pend": 1
+          "pend": 1.5
         },
         {
           "cod": "BJR-VAT-7",
           "prod": "Viga  Arriostre de tubos o caños",
           "long": 5630,
           "cant": 8,
-          "pend": 4
+          "pend": 1
         },
         {
           "cod": "BJR-VOR-1",
