@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T14:29:38.781Z",
+  "updatedAt": "2026-07-10T14:29:49.447Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "25527_1": {
@@ -3233,10 +3233,10 @@
       "ot": "24623",
       "obra": "Naves Industriales MRA",
       "cliente": "KPN SAFETY PARAGUAY S.A",
-      "fecha": "9/7/2026",
+      "fecha": "10/7/2026",
       "avances": {
         "arm": 23,
-        "pint": 24,
+        "pint": 25,
         "env": 0,
         "mont": 0
       },
@@ -3244,14 +3244,14 @@
         "cant": 6566,
         "arm_lib": 1513,
         "arm_pend": 5053,
-        "pint_ok": 1605,
-        "pint_pend": 4961,
+        "pint_ok": 1609,
+        "pint_pend": 4957,
         "env_ok": 0,
         "env_pend": 6566,
         "items": 594,
         "peso_total": 103834.30000000003,
         "arm_pend_peso": 77112.19000000006,
-        "pint_pend_peso": 59478.31999999992,
+        "pint_pend_peso": 56234.98999999992,
         "env_pend_peso": 103834.30000000003
       },
       "items": [
@@ -3499,9 +3499,9 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 904.64,
+          "pint_ok": 0.5,
+          "pint_pend": 0.5,
+          "pint_pend_peso": 452.32,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 904.64,
@@ -3535,9 +3535,9 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 800.3,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 800.3,
@@ -3553,9 +3553,9 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 790.26,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 790.26,
@@ -3571,9 +3571,9 @@
           "arm_lib": 0.5,
           "arm_pend": 0.5,
           "arm_pend_peso": 400.15,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 800.3,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 800.3,
@@ -3589,9 +3589,9 @@
           "arm_lib": 0.5,
           "arm_pend": 0.5,
           "arm_pend_peso": 400.15,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 800.3,
+          "pint_ok": 0.5,
+          "pint_pend": 0.5,
+          "pint_pend_peso": 400.15,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 800.3,
@@ -16084,35 +16084,14 @@
           "prod": "Cabriada Angulos",
           "long": 22778,
           "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BET-CA-102",
-          "prod": "Cabriada Angulos",
-          "long": 22260,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BET-CA-103",
-          "prod": "Cabriada Angulos",
-          "long": 22260,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BET-CA-104",
-          "prod": "Cabriada Angulos",
-          "long": 22260,
-          "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BET-CA-105",
           "prod": "Cabriada Angulos",
           "long": 22260,
           "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BET-CA-106",
@@ -18150,6 +18129,27 @@
           "long": 125,
           "cant": 88,
           "pend": 88
+        },
+        {
+          "cod": "BET-SC-501",
+          "prod": "Soporte Cruz",
+          "long": 125,
+          "cant": 88,
+          "pend": 88
+        },
+        {
+          "cod": "BET-SC-502",
+          "prod": "Soporte Cruz",
+          "long": 130,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "BET-SC-503",
+          "prod": "Soporte Cruz",
+          "long": 130,
+          "cant": 6,
+          "pend": 6
         }
       ]
     },
