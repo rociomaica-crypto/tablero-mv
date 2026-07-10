@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T13:04:17.579Z",
+  "updatedAt": "2026-07-10T13:39:17.940Z",
   "updatedBy": "Angel Villa",
   "checks": {
     "25257_1": {
@@ -2486,6 +2486,69 @@
     "25572_447": {
       "qty_lib": 1,
       "arm_state": "liberado"
+    },
+    "25603_45": {
+      "arm_state": "armado"
+    },
+    "25603_46": {
+      "arm_state": "armado"
+    },
+    "25603_47": {
+      "arm_state": "armado"
+    },
+    "25603_48": {
+      "arm_state": "armado"
+    },
+    "25603_49": {
+      "arm_state": "armado"
+    },
+    "25603_51": {
+      "arm_state": "armado"
+    },
+    "25603_52": {
+      "arm_state": "armado"
+    },
+    "25603_53": {
+      "arm_state": "armado"
+    },
+    "25603_54": {
+      "arm_state": "armado"
+    },
+    "25603_55": {
+      "arm_state": "armado"
+    },
+    "25603_56": {
+      "arm_state": "armado"
+    },
+    "25603_57": {
+      "arm_state": "armado"
+    },
+    "25603_58": {
+      "arm_state": "armado"
+    },
+    "25603_59": {
+      "arm_state": "armado"
+    },
+    "25603_60": {
+      "arm_state": "armado"
+    },
+    "25603_61": {
+      "arm_state": "armado"
+    },
+    "25603_62": {
+      "arm_state": "armado"
+    },
+    "25603_63": {
+      "arm_state": "armado"
+    },
+    "25603_64": {
+      "arm_state": "armado"
+    },
+    "25603_65": {
+      "arm_state": "armado"
+    },
+    "25603_66": {
+      "arm_state": "armado"
     }
   },
   "otMeta": {
