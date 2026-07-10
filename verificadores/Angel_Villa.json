@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T10:36:43.361Z",
+  "updatedAt": "2026-07-10T13:04:17.579Z",
   "updatedBy": "Angel Villa",
   "checks": {
     "25257_1": {
@@ -329,34 +329,34 @@
       "pint_state_state": "pintado",
       "qty_lib": 1,
       "arm_state": "liberado",
-      "pint_state": "en_pintura"
+      "pint_state": "pintado"
     },
     "25694_2": {
       "arm_state_state": "soldado",
       "pint_state_state": "pintado",
       "qty_lib": 2,
       "arm_state": "liberado",
-      "pint_state": "en_pintura"
+      "pint_state": "pintado"
     },
     "25694_3": {
       "arm_state": "liberado",
       "qty_lib": 1,
-      "pint_state": "en_pintura"
+      "pint_state": "pintado"
     },
     "25694_4": {
       "arm_state": "liberado",
       "qty_lib": 1,
-      "pint_state": "en_pintura"
+      "pint_state": "pintado"
     },
     "25694_5": {
       "arm_state": "liberado",
       "qty_lib": 1,
-      "pint_state": "en_pintura"
+      "pint_state": "pintado"
     },
     "25694_6": {
       "arm_state": "liberado",
       "qty_lib": 1,
-      "pint_state": "en_pintura"
+      "pint_state": "pintado"
     },
     "24930_1": {
       "arm_state_state": "calibrado",
@@ -2473,6 +2473,18 @@
     },
     "25708_195": {
       "qty_lib": 48,
+      "arm_state": "liberado"
+    },
+    "25603_50": {
+      "qty_lib": 2,
+      "arm_state": "liberado"
+    },
+    "25572_446": {
+      "qty_lib": 1,
+      "arm_state": "liberado"
+    },
+    "25572_447": {
+      "qty_lib": 1,
       "arm_state": "liberado"
     }
   },
