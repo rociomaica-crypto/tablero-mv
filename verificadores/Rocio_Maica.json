@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T14:47:38.933Z",
+  "updatedAt": "2026-07-10T14:47:49.300Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "25527_1": {
@@ -98200,82 +98200,28 @@
       "ot": "25623",
       "obra": "Fabricacion y provision Galpon Suc. MV Aceros - It",
       "cliente": "MV ACEROS SA",
-      "fecha": "8/7/2026",
+      "fecha": "10/7/2026",
       "avances": {
-        "arm": 3,
+        "arm": 0,
         "pint": 0,
-        "env": 2,
+        "env": 0,
         "mont": 0
       },
       "totales": {
-        "cant": 2285,
-        "arm_lib": 59,
+        "cant": 2230,
+        "arm_lib": 4,
         "arm_pend": 2226,
         "pint_ok": 0,
-        "pint_pend": 2285,
-        "env_ok": 55,
+        "pint_pend": 2230,
+        "env_ok": 0,
         "env_pend": 2230,
-        "items": 216,
-        "peso_total": 121926.60999999999,
+        "items": 213,
+        "peso_total": 120069.25,
         "arm_pend_peso": 120066.45,
-        "pint_pend_peso": 121926.60999999999,
+        "pint_pend_peso": 120069.25,
         "env_pend_peso": 120069.25
       },
       "items": [
-        {
-          "item": 1,
-          "cod": "33139-AN-1",
-          "prod": "Anclaje",
-          "long": 1026,
-          "cant": 35,
-          "peso": 1346.8,
-          "arm_lib": 35,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 35,
-          "pint_pend_peso": 1346.8,
-          "env_ok": 35,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "AN"
-        },
-        {
-          "item": 2,
-          "cod": "33139-AN-2",
-          "prod": "Anclaje",
-          "long": 1026,
-          "cant": 16,
-          "peso": 190.56,
-          "arm_lib": 16,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 16,
-          "pint_pend_peso": 190.56,
-          "env_ok": 16,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "AN"
-        },
-        {
-          "item": 3,
-          "cod": "32331-AN-3",
-          "prod": "Anclaje",
-          "long": 0,
-          "cant": 4,
-          "peso": 320,
-          "arm_lib": 4,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 4,
-          "pint_pend_peso": 320,
-          "env_ok": 4,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "AN"
-        },
         {
           "item": 4,
           "cod": "BJY-AP-1",
@@ -103598,27 +103544,6 @@
         }
       ],
       "pint_pend_items": [
-        {
-          "cod": "33139-AN-1",
-          "prod": "Anclaje",
-          "long": 1026,
-          "cant": 35,
-          "pend": 35
-        },
-        {
-          "cod": "33139-AN-2",
-          "prod": "Anclaje",
-          "long": 1026,
-          "cant": 16,
-          "pend": 16
-        },
-        {
-          "cod": "32331-AN-3",
-          "prod": "Anclaje",
-          "long": 0,
-          "cant": 4,
-          "pend": 4
-        },
         {
           "cod": "BJY-AP-1",
           "prod": "Elemento de fijacion",
