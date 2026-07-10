@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T16:35:26.811Z",
+  "updatedAt": "2026-07-10T16:39:38.688Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "25527_1": {
@@ -1085,8 +1085,9 @@
       "arm_state": "liberado"
     },
     "25607_178": {
-      "qty_lib": 16,
-      "arm_state_state": "liberado"
+      "qty_lib": 37,
+      "arm_state_state": "liberado",
+      "arm_state": "liberado"
     },
     "25107_138": {
       "qty_lib": 1,
@@ -2214,6 +2215,33 @@
     },
     "25572_99": {
       "arm_state": "liberado"
+    },
+    "25607_181": {
+      "arm_state": "liberado",
+      "qty_lib": 4
+    },
+    "25607_37": {
+      "arm_state": "liberado"
+    },
+    "25607_38": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25607_40": {
+      "arm_state": "armado"
+    },
+    "25607_41": {
+      "arm_state": "armado"
+    },
+    "25607_42": {
+      "arm_state": "armado"
+    },
+    "25607_43": {
+      "arm_state": "armado"
+    },
+    "25607_183": {
+      "arm_state": "liberado",
+      "qty_lib": 7
     },
     "25572_446": {
       "arm_state": "liberado",
