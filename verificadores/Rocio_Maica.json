@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T14:46:35.362Z",
+  "updatedAt": "2026-07-10T14:46:49.134Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "25527_1": {
@@ -82442,7 +82442,7 @@
       "ot": "25584",
       "obra": "AMPLIACION ELECTROPAR TECHO",
       "cliente": "Tecinci S.R.L",
-      "fecha": "9/7/2026",
+      "fecha": "10/7/2026",
       "avances": {
         "arm": 18,
         "pint": 6,
@@ -82451,15 +82451,15 @@
       },
       "totales": {
         "cant": 2712,
-        "arm_lib": 481,
-        "arm_pend": 2231,
+        "arm_lib": 482.5,
+        "arm_pend": 2229.5,
         "pint_ok": 163,
         "pint_pend": 2549,
         "env_ok": 0,
         "env_pend": 2712,
         "items": 241,
         "peso_total": 101147.30999999995,
-        "arm_pend_peso": 43217.624999999985,
+        "arm_pend_peso": 43013.07499999998,
         "pint_pend_peso": 41182.66999999998,
         "env_pend_peso": 101147.30999999995
       },
@@ -86683,9 +86683,9 @@
           "long": 9945,
           "cant": 1,
           "peso": 155.28,
-          "arm_lib": 0.5,
-          "arm_pend": 0.5,
-          "arm_pend_peso": 77.64,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 155.28,
@@ -86701,9 +86701,9 @@
           "long": 9945,
           "cant": 1,
           "peso": 155.21,
-          "arm_lib": 0.5,
-          "arm_pend": 0.5,
-          "arm_pend_peso": 77.605,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 155.21,
@@ -86719,9 +86719,9 @@
           "long": 6281,
           "cant": 1,
           "peso": 98.61,
-          "arm_lib": 0.5,
-          "arm_pend": 0.5,
-          "arm_pend_peso": 49.305,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 98.61,
@@ -87872,27 +87872,6 @@
           "cod": "BIS-VAT-501",
           "prod": "Viga  Arriostre de tubos o caños",
           "long": 9945,
-          "cant": 1,
-          "pend": 0.5
-        },
-        {
-          "cod": "BIS-VAT-502",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 9945,
-          "cant": 1,
-          "pend": 0.5
-        },
-        {
-          "cod": "BIS-VAT-503",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 9945,
-          "cant": 1,
-          "pend": 0.5
-        },
-        {
-          "cod": "BIS-VAT-504",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 6281,
           "cant": 1,
           "pend": 0.5
         },
