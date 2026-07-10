@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T15:04:22.922Z",
+  "updatedAt": "2026-07-10T12:32:54.295Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "25527_1": {
@@ -398,13 +398,15 @@
       "arm_state_state": "soldado",
       "pint_state_state": "pintado",
       "qty_lib": 1,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25694_2": {
       "arm_state_state": "soldado",
       "pint_state_state": "pintado",
       "qty_lib": 2,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25505_12": {
       "arm_state": "liberado",
@@ -1636,19 +1638,23 @@
     },
     "25694_3": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25694_4": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25694_5": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25694_6": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25732_6": {
       "arm_state": "liberado"
@@ -1691,56 +1697,76 @@
       "qty_lib": 4
     },
     "25572_472": {
-      "qty_lib": 38
+      "qty_lib": 38,
+      "arm_state": "liberado"
     },
     "25572_473": {
-      "qty_lib": 1
+      "qty_lib": 1,
+      "arm_state": "liberado"
     },
     "25572_373": {
-      "qty_lib": 1
+      "qty_lib": 1,
+      "arm_state": "liberado"
     },
     "25572_374": {
-      "qty_lib": 1
+      "qty_lib": 1,
+      "arm_state": "liberado"
     },
     "25572_375": {
-      "qty_lib": 1
+      "qty_lib": 1,
+      "arm_state": "liberado"
     },
     "25572_382": {
-      "qty_lib": 2
+      "qty_lib": 2,
+      "arm_state": "liberado"
     },
-    "25572_383": {},
+    "25572_383": {
+      "arm_state": "armado",
+      "qty_lib": 1
+    },
     "25572_384": {
-      "qty_lib": 8
+      "qty_lib": 8,
+      "arm_state": "liberado"
     },
     "25572_385": {
-      "qty_lib": 2
+      "qty_lib": 2,
+      "arm_state": "liberado"
     },
     "25572_390": {
-      "qty_lib": 14
+      "qty_lib": 14,
+      "arm_state": "liberado"
     },
     "25572_391": {
-      "qty_lib": 1
+      "qty_lib": 1,
+      "arm_state": "liberado"
     },
     "25572_392": {
-      "qty_lib": 1
+      "qty_lib": 1,
+      "arm_state": "liberado"
     },
     "25572_393": {
-      "qty_lib": 1
+      "qty_lib": 1,
+      "arm_state": "liberado"
     },
     "25572_394": {
-      "qty_lib": 1
+      "qty_lib": 1,
+      "arm_state": "liberado"
     },
     "25572_395": {
-      "qty_lib": 2
+      "qty_lib": 2,
+      "arm_state": "liberado"
     },
     "25572_396": {
-      "qty_lib": 1
+      "qty_lib": 1,
+      "arm_state": "liberado"
     },
     "25572_397": {
-      "qty_lib": 1
+      "qty_lib": 1,
+      "arm_state": "liberado"
     },
     "25572_398": {
-      "qty_lib": 1
+      "qty_lib": 1,
+      "arm_state": "liberado"
     },
     "25572_415": {
       "qty_lib": 1
@@ -1877,6 +1903,280 @@
     "24283_75": {
       "arm_state": "armado",
       "pint_state": "en_pintura"
+    },
+    "24969_1": {
+      "arm_state": "soldado",
+      "pint_state": "en_pintura"
+    },
+    "25107_2": {
+      "pint_state": "en_pintura"
+    },
+    "25107_13": {},
+    "25107_12": {},
+    "25107_14": {},
+    "25107_6": {
+      "pint_state": "en_pintura"
+    },
+    "25505_13": {
+      "arm_state": "liberado"
+    },
+    "25505_18": {
+      "arm_state": "liberado"
+    },
+    "25505_19": {
+      "arm_state": "liberado"
+    },
+    "25722_1": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25722_2": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25722_3": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25722_4": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25436_2": {
+      "arm_state": "liberado"
+    },
+    "25572_304": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25572_371": {
+      "qty_lib": 1
+    },
+    "25572_372": {
+      "arm_state": "liberado"
+    },
+    "25572_376": {
+      "arm_state": "liberado",
+      "qty_lib": 4
+    },
+    "25572_377": {
+      "arm_state": "liberado"
+    },
+    "25572_378": {
+      "arm_state": "liberado"
+    },
+    "25572_379": {
+      "arm_state": "liberado"
+    },
+    "25572_380": {
+      "arm_state": "liberado",
+      "qty_lib": 13
+    },
+    "25572_381": {
+      "arm_state": "liberado"
+    },
+    "25572_386": {
+      "arm_state": "liberado",
+      "qty_lib": 5
+    },
+    "25572_387": {
+      "arm_state": "armado"
+    },
+    "25572_170": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25572_178": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25572_194": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25572_172": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25572_195": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25572_188": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25572_388": {
+      "arm_state": "armado",
+      "qty_lib": 1
+    },
+    "25572_389": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25572_399": {
+      "arm_state": "calibrado"
+    },
+    "25572_101": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25572_103": {},
+    "25572_102": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25572_106": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25572_107": {
+      "arm_state": "liberado"
+    },
+    "25572_108": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25572_6": {
+      "arm_state": "armado"
+    },
+    "25572_7": {
+      "arm_state": "armado"
+    },
+    "25572_8": {
+      "arm_state": "armado"
+    },
+    "25572_9": {
+      "arm_state": "armado"
+    },
+    "25572_10": {
+      "arm_state": "armado"
+    },
+    "25572_11": {
+      "arm_state": "armado"
+    },
+    "25572_12": {
+      "arm_state": "armado"
+    },
+    "25572_14": {
+      "arm_state": "armado"
+    },
+    "25572_13": {
+      "arm_state": "armado"
+    },
+    "25572_1": {
+      "arm_state": "armado"
+    },
+    "25572_2": {
+      "arm_state": "calibrado"
+    },
+    "25572_112": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25572_109": {
+      "arm_state": "armado"
+    },
+    "25572_110": {
+      "arm_state": "armado"
+    },
+    "25572_111": {
+      "arm_state": "armado"
+    },
+    "25572_113": {
+      "arm_state": "armado"
+    },
+    "25572_114": {
+      "arm_state": "armado"
+    },
+    "25572_115": {
+      "arm_state": "armado"
+    },
+    "25572_116": {
+      "arm_state": "armado"
+    },
+    "25572_117": {
+      "arm_state": "liberado"
+    },
+    "25572_118": {
+      "arm_state": "liberado"
+    },
+    "25572_119": {
+      "arm_state": "liberado"
+    },
+    "25572_196": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25572_169": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25572_450": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25572_449": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25572_445": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25572_442": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25572_443": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25572_444": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25572_451": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25572_452": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25572_448": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25572_80": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25572_83": {
+      "arm_state": "liberado",
+      "qty_lib": 5
+    },
+    "25572_95": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25572_86": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25572_93": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25572_100": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25572_79": {
+      "arm_state": "liberado"
+    },
+    "25572_99": {
+      "arm_state": "liberado"
     }
   },
   "otMeta": {
@@ -120922,46 +121222,28 @@
       "ot": "25722",
       "obra": "Adic. 05_Pórtico para Toten El Corral",
       "cliente": "Gomez Abente S.A.",
-      "fecha": "8/7/2026",
+      "fecha": "10/7/2026",
       "avances": {
-        "arm": 80,
-        "pint": 0,
-        "env": 40,
+        "arm": 100,
+        "pint": 100,
+        "env": 0,
         "mont": 0
       },
       "totales": {
-        "cant": 5,
-        "arm_lib": 4,
-        "arm_pend": 1,
-        "pint_ok": 0,
-        "pint_pend": 5,
-        "env_ok": 2,
+        "cant": 3,
+        "arm_lib": 3,
+        "arm_pend": 0,
+        "pint_ok": 3,
+        "pint_pend": 0,
+        "env_ok": 0,
         "env_pend": 3,
-        "items": 4,
-        "peso_total": 1155.72,
-        "arm_pend_peso": 1124.73,
+        "items": 3,
+        "peso_total": 1121.72,
+        "arm_pend_peso": 0,
         "pint_pend_peso": 0,
-        "env_pend_peso": 34
+        "env_pend_peso": 1121.72
       },
       "items": [
-        {
-          "item": 1,
-          "cod": "33389-AN-1",
-          "prod": "Anclaje",
-          "long": 0,
-          "cant": 2,
-          "peso": 34,
-          "arm_lib": 2,
-          "arm_pend": 0,
-          "arm_pend_peso": 34,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 0,
-          "env_ok": 2,
-          "env_pend": 0,
-          "env_pend_peso": 34,
-          "literal": "AN"
-        },
         {
           "item": 2,
           "cod": "BKC-PS-1",
@@ -120971,13 +121253,13 @@
           "peso": 11.9,
           "arm_lib": 1,
           "arm_pend": 0,
-          "arm_pend_peso": 11.9,
-          "pint_ok": 0,
-          "pint_pend": 1,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
           "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
-          "env_pend_peso": 0,
+          "env_pend_peso": 11.9,
           "literal": "BKC"
         },
         {
@@ -120989,13 +121271,13 @@
           "peso": 1078.83,
           "arm_lib": 1,
           "arm_pend": 0,
-          "arm_pend_peso": 1078.83,
-          "pint_ok": 0,
-          "pint_pend": 1,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
           "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
-          "env_pend_peso": 0,
+          "env_pend_peso": 1078.83,
           "literal": "BKC"
         },
         {
@@ -121005,57 +121287,20 @@
           "long": 3470,
           "cant": 1,
           "peso": 30.99,
-          "arm_lib": 0,
-          "arm_pend": 1,
+          "arm_lib": 1,
+          "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
+          "pint_ok": 1,
+          "pint_pend": 0,
           "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
-          "env_pend_peso": 0,
+          "env_pend_peso": 30.99,
           "literal": "BKC"
         }
       ],
-      "arm_pend_items": [
-        {
-          "cod": "BKC-RG-1",
-          "prod": "Regla para Ubicacion",
-          "long": 3470,
-          "cant": 1,
-          "pend": 1
-        }
-      ],
-      "pint_pend_items": [
-        {
-          "cod": "33389-AN-1",
-          "prod": "Anclaje",
-          "long": 0,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BKC-PS-1",
-          "prod": "Pieza Suelta",
-          "long": 544,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BKC-PZ-1",
-          "prod": "Pieza Especial",
-          "long": 8445,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BKC-RG-1",
-          "prod": "Regla para Ubicacion",
-          "long": 3470,
-          "cant": 1,
-          "pend": 1
-        }
-      ]
+      "arm_pend_items": [],
+      "pint_pend_items": []
     },
     "25732": {
       "ot": "25732",
