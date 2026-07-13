@@ -451,6 +451,34 @@ function loadData(){
       return;
     }
 
+    // Excluir perfilados (PCR/PCL/PCT) de los totales de armado
+    var PERF_RE=/[-_](PCR|PCL|PCT)[-_]/i;
+    Object.keys(merged.otMeta).forEach(function(k){
+      var o=merged.otMeta[k];
+      if(!o.items||!o.items.length) return;
+      var perfCant=0,perfLib=0,perfPeso=0,perfPendPeso=0;
+      o.items.forEach(function(it){
+        if(PERF_RE.test(it.cod)){
+          perfCant+=(it.cant||0);
+          perfLib+=(it.arm_lib||0);
+          perfPeso+=(it.peso||0);
+          perfPendPeso+=(it.arm_pend_peso||0);
+        }
+      });
+      if(perfCant>0){
+        var t=o.totales;
+        t.cant_arm=t.cant-perfCant;
+        t.arm_lib_adj=t.arm_lib-perfLib;
+        t.arm_pend_adj=(t.cant_arm)-(t.arm_lib_adj);
+        t.arm_pend_peso_adj=(t.arm_pend_peso||0)-perfPendPeso;
+        t._perfExcluded=perfCant;
+        // Filtrar perfilados de arm_pend_items
+        if(o.arm_pend_items){
+          o.arm_pend_items=o.arm_pend_items.filter(function(pi){return !PERF_RE.test(pi.cod);});
+        }
+      }
+    });
+
     renderDashboard(merged);
     btn.classList.remove("loading");
     btn.innerHTML="&#8635; Actualizar";
@@ -479,8 +507,12 @@ function renderDashboard(data){
   var totPiezas=0,totArmPend=0,totPintPend=0,totEnvPend=0,totPesoTotal=0,totArmPendKg=0,totPintPendKg=0;
   otKeys.forEach(function(k){
     var t=data.otMeta[k].totales;
-    totPiezas+=t.cant;totArmPend+=t.arm_pend;totPintPend+=t.pint_pend;totEnvPend+=t.env_pend;
-    totPesoTotal+=(t.peso_total||0);totArmPendKg+=(t.arm_pend_peso||0);totPintPendKg+=(t.pint_pend_peso||0);
+    totPiezas+=t.cant;
+    totArmPend+=(t._perfExcluded?t.arm_pend_adj:t.arm_pend);
+    totPintPend+=t.pint_pend;totEnvPend+=t.env_pend;
+    totPesoTotal+=(t.peso_total||0);
+    totArmPendKg+=(t._perfExcluded?t.arm_pend_peso_adj:t.arm_pend_peso)||0;
+    totPintPendKg+=(t.pint_pend_peso||0);
   });
 
   // Checker rebaja stats
@@ -521,12 +553,16 @@ function renderDashboard(data){
     });
 
     // Top pending products
-    // We only have totals here, not per-product - show global stats
-    var armPct=Math.round(t.arm_lib/tot*100);
+    // Usar valores ajustados si se excluyeron perfilados
+    var armLib=t._perfExcluded?t.arm_lib_adj:t.arm_lib;
+    var armPend=t._perfExcluded?t.arm_pend_adj:t.arm_pend;
+    var armPendPeso=t._perfExcluded?t.arm_pend_peso_adj:(t.arm_pend_peso||0);
+    var armTot=t._perfExcluded?t.cant_arm:tot;
+    var armPct=armTot>0?Math.round(armLib/armTot*100):0;
     var pintPct=Math.round(t.pint_ok/tot*100);
     var envPct=Math.round(t.env_ok/tot*100);
 
-    var alertClass=t.arm_pend>500||t.pint_pend>500?"border:2px solid #FCA5A5":"";
+    var alertClass=armPend>500||t.pint_pend>500?"border:2px solid #FCA5A5":"";
 
     html+="<div class=\"ot-card\" style=\""+alertClass+"\">";
     html+="<div class=\"ot-card-header\">";
@@ -548,17 +584,17 @@ function renderDashboard(data){
     html+="</div>";
 
     // Progress bars
-    var hasArmPend=t.arm_pend>0&&o.arm_pend_items&&o.arm_pend_items.length>0;
+    var hasArmPend=armPend>0&&o.arm_pend_items&&o.arm_pend_items.length>0;
     var hasPintPend=t.pint_pend>0&&o.pint_pend_items&&o.pint_pend_items.length>0;
     var ptot=t.peso_total||0;
-    var armKgPct=ptot>0?Math.round((ptot-(t.arm_pend_peso||0))/ptot*100):armPct;
+    var armKgPct=ptot>0?Math.round((ptot-armPendPeso)/ptot*100):armPct;
     var pintKgPct=ptot>0?Math.round((ptot-(t.pint_pend_peso||0))/ptot*100):pintPct;
     html+="<div class=\"proc-row\">";
     html+="<div class=\"proc-label\"><span class=\"proc-name\">Armado</span><span class=\"proc-pct\" style=\"color:"+pctC(armPct)+"\">"+armPct+"% pzas"+(ptot>0&&armKgPct!==armPct?"&nbsp;<small style='color:#6B8FA8;font-weight:500'>"+armKgPct+"% kg</small>":"")+"</span></div>";
-    html+="<div class=\"bar-bg\"><div class=\"bar-fill\" style=\"width:"+armPct+"%;background:"+barC(armPct)+"\" data-ok=\""+fmt(t.arm_lib)+"\"></div></div>";
-    html+="<div class=\"proc-detail\"><span>"+fmt(t.arm_lib)+" liberadas</span>";
-    if(hasArmPend){html+="<span class=\"pend-link\" onclick=\"openModal('"+k+"','arm')\">"+fmt(t.arm_pend)+" pendientes &rarr; "+(ptot>0?"<small style='color:#888'>&middot;"+armKgPct+"% kg ("+((t.arm_pend_peso||0)/1000).toFixed(1)+"t)</small>":"")+"</span>";}
-    else{html+="<span style=\"color:#DC2626;font-weight:700\">"+fmt(t.arm_pend)+" pendientes"+(ptot>0?" <small style='color:#888'>&middot;"+armKgPct+"% kg ("+((t.arm_pend_peso||0)/1000).toFixed(1)+"t)</small>":"")+"</span>";}
+    html+="<div class=\"bar-bg\"><div class=\"bar-fill\" style=\"width:"+armPct+"%;background:"+barC(armPct)+"\" data-ok=\""+fmt(armLib)+"\"></div></div>";
+    html+="<div class=\"proc-detail\"><span>"+fmt(armLib)+" liberadas</span>";
+    if(hasArmPend){html+="<span class=\"pend-link\" onclick=\"openModal('"+k+"','arm')\">"+fmt(armPend)+" pendientes &rarr; "+(ptot>0?"<small style='color:#888'>&middot;"+armKgPct+"% kg ("+(armPendPeso/1000).toFixed(1)+"t)</small>":"")+"</span>";}
+    else{html+="<span style=\"color:#DC2626;font-weight:700\">"+fmt(armPend)+" pendientes"+(ptot>0?" <small style='color:#888'>&middot;"+armKgPct+"% kg ("+(armPendPeso/1000).toFixed(1)+"t)</small>":"")+"</span>";}
     html+="</div></div>";
 
     html+="<div class=\"proc-row\">";
