@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-13T13:12:07.551Z",
+  "updatedAt": "2026-07-13T14:00:24.409Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "25527_1": {
@@ -24,7 +24,9 @@
     "25676_1": {
       "arm_state_state": "liberado",
       "pint_state_state": "galvamax",
-      "qty_lib": 5
+      "qty_lib": 5,
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25107_212": {
       "arm_state_state": "armado",
@@ -81,7 +83,9 @@
     },
     "25676_109": {
       "arm_state_state": "soldado",
-      "pint_state_state": ""
+      "pint_state_state": "",
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25257_2": {
       "qty_lib": 0
@@ -1378,7 +1382,8 @@
     },
     "25676_115": {
       "arm_state": "liberado",
-      "qty_lib": 94
+      "qty_lib": 94,
+      "pint_state": "pintado"
     },
     "25676_192": {
       "arm_state": "liberado",
@@ -3467,6 +3472,303 @@
     "25603_32": {
       "arm_state": "liberado",
       "qty_lib": 1
+    },
+    "25607_180": {
+      "arm_state": "liberado"
+    },
+    "25607_187": {
+      "arm_state": "liberado"
+    },
+    "25607_166": {
+      "arm_state": "liberado"
+    },
+    "25607_165": {
+      "arm_state": "liberado"
+    },
+    "25607_9": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25607_10": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25607_11": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25607_12": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25607_13": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25607_14": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25607_15": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25607_16": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25607_17": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25607_18": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25607_19": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25607_20": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25607_21": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25607_22": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25607_23": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25607_24": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25607_25": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25607_26": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25607_27": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25607_28": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25607_29": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25607_171": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25607_172": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25607_173": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25607_174": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25609_8": {
+      "arm_state": "liberado"
+    },
+    "25609_9": {
+      "arm_state": "liberado"
+    },
+    "25609_1": {
+      "arm_state": "liberado"
+    },
+    "25609_2": {
+      "arm_state": "liberado"
+    },
+    "25609_3": {
+      "arm_state": "liberado"
+    },
+    "25609_7": {
+      "arm_state": "liberado"
+    },
+    "25609_10": {
+      "arm_state": "liberado"
+    },
+    "25609_17": {
+      "arm_state": "liberado"
+    },
+    "25609_18": {
+      "arm_state": "liberado"
+    },
+    "25609_19": {
+      "arm_state": "liberado"
+    },
+    "25609_12": {
+      "arm_state": "liberado"
+    },
+    "25609_13": {
+      "arm_state": "liberado"
+    },
+    "25609_14": {
+      "arm_state": "liberado"
+    },
+    "25609_15": {
+      "arm_state": "liberado"
+    },
+    "25609_16": {
+      "arm_state": "liberado"
+    },
+    "25609_4": {
+      "arm_state": "liberado"
+    },
+    "25609_11": {
+      "arm_state": "liberado"
+    },
+    "25676_41": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25676_42": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25676_49": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25676_50": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25676_51": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25676_52": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25676_53": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25676_54": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25676_71": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25676_74": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25676_110": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25676_111": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25676_112": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25676_113": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25676_114": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25676_116": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25676_117": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25676_118": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25676_120": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25676_121": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25676_122": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25676_36": {
+      "arm_state": "liberado"
+    },
+    "25676_37": {
+      "arm_state": "liberado"
+    },
+    "25676_38": {
+      "arm_state": "liberado"
+    },
+    "25676_39": {
+      "arm_state": "liberado"
+    },
+    "25676_40": {
+      "arm_state": "liberado"
+    },
+    "25676_29": {
+      "arm_state": "liberado",
+      "qty_lib": 15
+    },
+    "25676_35": {
+      "arm_state": "liberado",
+      "qty_lib": 12
+    },
+    "25676_28": {
+      "arm_state": "liberado"
+    },
+    "25676_30": {
+      "arm_state": "liberado"
+    },
+    "25676_33": {
+      "arm_state": "liberado"
+    },
+    "25676_34": {
+      "arm_state": "liberado"
+    },
+    "25681_9": {
+      "arm_state": "liberado"
+    },
+    "25681_10": {
+      "arm_state": "liberado"
+    },
+    "25681_11": {
+      "arm_state": "liberado"
+    },
+    "25681_12": {
+      "arm_state": "liberado"
+    },
+    "25681_20": {
+      "arm_state": "liberado"
     }
   },
   "otMeta": {
@@ -123372,25 +123674,25 @@
       "ot": "25676",
       "obra": "Fabricación de estructura metálica para Silo Ovetr",
       "cliente": "Santa Rita Constructora S.A",
-      "fecha": "10/7/2026",
+      "fecha": "13/7/2026",
       "avances": {
         "arm": 40,
-        "pint": 51,
+        "pint": 54,
         "env": 0,
         "mont": 0
       },
       "totales": {
         "cant": 2427,
-        "arm_lib": 969,
-        "arm_pend": 1458,
-        "pint_ok": 1236,
-        "pint_pend": 1191,
+        "arm_lib": 971.5,
+        "arm_pend": 1455.5,
+        "pint_ok": 1320,
+        "pint_pend": 1107,
         "env_ok": 0,
         "env_pend": 2427,
         "items": 249,
         "peso_total": 88431.76000000005,
-        "arm_pend_peso": 44619.55,
-        "pint_pend_peso": 22534.4,
+        "arm_pend_peso": 44156.195,
+        "pint_pend_peso": 22090.550000000003,
         "env_pend_peso": 88431.76000000005
       },
       "items": [
@@ -125456,9 +125758,9 @@
           "arm_lib": 94,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 11,
-          "pint_pend": 83,
-          "pint_pend_peso": 303.78,
+          "pint_ok": 94,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 94,
           "env_pend_peso": 344.04,
@@ -125924,9 +126226,9 @@
           "arm_lib": 2,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 280.14,
+          "pint_ok": 1,
+          "pint_pend": 1,
+          "pint_pend_peso": 140.07,
           "env_ok": 0,
           "env_pend": 2,
           "env_pend_peso": 280.14,
@@ -126407,9 +126709,9 @@
           "long": 3410,
           "cant": 4,
           "peso": 281.04,
-          "arm_lib": 2,
-          "arm_pend": 2,
-          "arm_pend_peso": 140.52,
+          "arm_lib": 4,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 4,
           "pint_pend_peso": 281.04,
@@ -126803,9 +127105,9 @@
           "long": 17065,
           "cant": 1,
           "peso": 645.67,
-          "arm_lib": 0.5,
-          "arm_pend": 0.5,
-          "arm_pend_peso": 322.835,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 645.67,
@@ -128621,13 +128923,6 @@
           "pend": 2
         },
         {
-          "cod": "BJS-VSI-3",
-          "prod": "Viga secundaria IS",
-          "long": 3410,
-          "cant": 4,
-          "pend": 2
-        },
-        {
           "cod": "BJS-VTI-1",
           "prod": "Viga Techo IS",
           "long": 26112,
@@ -128682,13 +128977,6 @@
           "long": 26090,
           "cant": 2,
           "pend": 2
-        },
-        {
-          "cod": "BJS-VTR-18",
-          "prod": "Viga Techo Reticulada de angulos",
-          "long": 17065,
-          "cant": 1,
-          "pend": 0.5
         },
         {
           "cod": "BJS-VTR-19",
@@ -129001,13 +129289,6 @@
           "pend": 16
         },
         {
-          "cod": "BJS-SC-1",
-          "prod": "Soporte Cruz",
-          "long": 250,
-          "cant": 94,
-          "pend": 83
-        },
-        {
           "cod": "BJS-SP-3",
           "prod": "SOPORTE",
           "long": 210,
@@ -129082,7 +129363,7 @@
           "prod": "Viga de Arriostre IS /W",
           "long": 4965,
           "cant": 2,
-          "pend": 2
+          "pend": 1
         },
         {
           "cod": "BJS-VSI-1",
