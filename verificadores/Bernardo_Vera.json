@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-13T09:33:39.027Z",
+  "updatedAt": "2026-07-13T09:38:38.075Z",
   "updatedBy": "Bernardo Vera",
   "checks": {
     "25694_1": {
@@ -3055,7 +3055,8 @@
     },
     "25572_451": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "galvamax"
     },
     "25572_452": {
       "arm_state": "liberado",
@@ -3110,7 +3111,8 @@
     },
     "25572_447": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "galvamax"
     },
     "25603_50": {
       "arm_state": "liberado",
@@ -3939,11 +3941,12 @@
     },
     "25572_310": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "galvamax"
     },
     "25572_334": {
       "arm_state": "liberado",
-      "pint_state": "",
+      "pint_state": "galvamax",
       "qty_lib": 1
     },
     "25708_31": {
