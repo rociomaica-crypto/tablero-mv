@@ -375,6 +375,7 @@ function showStatus(msg,type){
 }
 
 var CHECKER_FILES=["Bernardo_Vera","Angel_Villa","Cristhian_Piatti","Sandro_Monzon","David_Gimenez","Adriana_Perez","Rocio_Maica"];
+var LPT_LOADER="Rocio_Maica";
 
 // Merge de estados por campo: gana siempre el estado mas avanzado (Armado y Pintura son independientes)
 var ARM_ORDER_J={"":0,"armado":1,"soldado":2,"calibrado":3,"liberado":4};
@@ -407,8 +408,9 @@ function loadData(){
     var merged={updatedAt:"",updatedBy:"",checks:{},otMeta:{}};
     var latestTime=0;
 
-    results.forEach(function(data){
+    results.forEach(function(data,idx){
       if(!data) return;
+      var checkerName=CHECKER_FILES[idx];
       // Track latest update
       var t=new Date(data.updatedAt).getTime();
       if(t>latestTime){
@@ -422,24 +424,21 @@ function loadData(){
           merged.checks[k]=mergeChecksJefes(merged.checks[k],data.checks[k]);
         });
       }
-      // Merge OT metadata (last writer wins per OT, but we keep all OTs)
+      // Merge OT metadata — LPT_LOADER (Rocio Maica) siempre gana
       if(data.otMeta){
         Object.keys(data.otMeta).forEach(function(k){
-          // Keep the more recent version of each OT
+          var isLoader=(checkerName===LPT_LOADER);
           if(!merged.otMeta[k]){
             merged.otMeta[k]=data.otMeta[k];
-          } else {
-            // Compare dates and keep most recent
-            var existingDate=new Date(merged.otMeta[k].fecha||0).getTime();
-            var newDate=new Date(data.otMeta[k].fecha||0).getTime();
-            if(newDate>=existingDate){
-              // Keep pending items from new version
-              merged.otMeta[k]=data.otMeta[k];
-            }
+            merged.otMeta[k]._fromLoader=isLoader;
+            merged.otMeta[k].updatedBy=data.updatedBy;
+            merged.otMeta[k].updatedAt=data.updatedAt;
+          } else if(isLoader){
+            merged.otMeta[k]=data.otMeta[k];
+            merged.otMeta[k]._fromLoader=true;
+            merged.otMeta[k].updatedBy=data.updatedBy;
+            merged.otMeta[k].updatedAt=data.updatedAt;
           }
-          // Always track who updated this OT
-          merged.otMeta[k].updatedBy=data.updatedBy;
-          merged.otMeta[k].updatedAt=data.updatedAt;
         });
       }
     });
