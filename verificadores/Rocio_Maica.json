@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-13T10:08:47.046Z",
+  "updatedAt": "2026-07-13T10:13:35.661Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "25527_1": {
@@ -115468,25 +115468,25 @@
       "ot": "25681",
       "obra": "Tenet Vivienda Astigarraga",
       "cliente": "BAU SA",
-      "fecha": "10/7/2026",
+      "fecha": "13/7/2026",
       "avances": {
-        "arm": 5,
-        "pint": 0,
+        "arm": 8,
+        "pint": 1,
         "env": 0,
         "mont": 0
       },
       "totales": {
         "cant": 73,
-        "arm_lib": 4,
-        "arm_pend": 69,
-        "pint_ok": 0,
-        "pint_pend": 73,
+        "arm_lib": 6,
+        "arm_pend": 67,
+        "pint_ok": 1,
+        "pint_pend": 72,
         "env_ok": 0,
         "env_pend": 73,
         "items": 21,
         "peso_total": 13836.199999999999,
-        "arm_pend_peso": 13382.32,
-        "pint_pend_peso": 13836.199999999999,
+        "arm_pend_peso": 7720.2,
+        "pint_pend_peso": 11030.519999999999,
         "env_pend_peso": 13836.199999999999
       },
       "items": [
@@ -115497,9 +115497,9 @@
           "long": 12000,
           "cant": 1,
           "peso": 2856.44,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 2856.44,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 2856.44,
@@ -115515,12 +115515,12 @@
           "long": 12000,
           "cant": 1,
           "peso": 2805.68,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 2805.68,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 2805.68,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 2805.68,
@@ -115871,20 +115871,6 @@
       ],
       "arm_pend_items": [
         {
-          "cod": "BJM-CD-1",
-          "prod": "Contenedor",
-          "long": 12000,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BJM-CD-2",
-          "prod": "Contenedor",
-          "long": 12000,
-          "cant": 1,
-          "pend": 1
-        },
-        {
           "cod": "BJM-CNP-200",
           "prod": "Caño Pintado",
           "long": 2900,
@@ -115993,13 +115979,6 @@
       "pint_pend_items": [
         {
           "cod": "BJM-CD-1",
-          "prod": "Contenedor",
-          "long": 12000,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BJM-CD-2",
           "prod": "Contenedor",
           "long": 12000,
           "cant": 1,
