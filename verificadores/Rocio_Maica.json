@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-14T09:33:20.294Z",
+  "updatedAt": "2026-07-14T09:40:46.465Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "25527_1": {
@@ -134459,25 +134459,25 @@
       "ot": "25708",
       "obra": "EXPLANADA SHOPPING COSTANERA",
       "cliente": "CVH SRL",
-      "fecha": "13/7/2026",
+      "fecha": "14/7/2026",
       "avances": {
-        "arm": 33,
+        "arm": 34,
         "pint": 19,
         "env": 0,
         "mont": 0
       },
       "totales": {
         "cant": 744,
-        "arm_lib": 242,
-        "arm_pend": 502,
-        "pint_ok": 140,
-        "pint_pend": 604,
+        "arm_lib": 249.5,
+        "arm_pend": 494.5,
+        "pint_ok": 143,
+        "pint_pend": 601,
         "env_ok": 0,
         "env_pend": 744,
         "items": 260,
         "peso_total": 31415.130000000005,
-        "arm_pend_peso": 16324.034999999998,
-        "pint_pend_peso": 17837.400000000005,
+        "arm_pend_peso": 15291.659999999996,
+        "pint_pend_peso": 17127.730000000003,
         "env_pend_peso": 31415.130000000005
       },
       "items": [
@@ -137080,12 +137080,12 @@
           "long": 4648,
           "cant": 1,
           "peso": 228,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 228,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 228,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 114,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 228,
@@ -137170,12 +137170,12 @@
           "long": 4786,
           "cant": 1,
           "peso": 233.89,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 233.89,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 233.89,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 116.945,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 233.89,
@@ -137188,9 +137188,9 @@
           "long": 4727,
           "cant": 1,
           "peso": 231.35,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 231.35,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 115.675,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 231.35,
@@ -137206,9 +137206,9 @@
           "long": 4650,
           "cant": 1,
           "peso": 228.06,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 228.06,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 114.03,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 228.06,
@@ -137368,9 +137368,9 @@
           "long": 7905,
           "cant": 1,
           "peso": 316.08,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 316.08,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 158.04,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 316.08,
@@ -137407,9 +137407,9 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 247.78,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 247.78,
@@ -137512,9 +137512,9 @@
           "long": 6350,
           "cant": 1,
           "peso": 256.65,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 256.65,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 128.325,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 256.65,
@@ -137530,9 +137530,9 @@
           "long": 7626,
           "cant": 1,
           "peso": 305.28,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 305.28,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 152.64,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 305.28,
@@ -138736,9 +138736,9 @@
           "long": 406,
           "cant": 2,
           "peso": 74.24,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 74.24,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 2,
           "pint_pend_peso": 74.24,
@@ -138790,9 +138790,9 @@
           "long": 406,
           "cant": 2,
           "peso": 58.48,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 58.48,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 2,
           "pint_pend_peso": 58.48,
@@ -139707,7 +139707,7 @@
           "prod": "Pilar Tubo Caño",
           "long": 4648,
           "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BKA-PTC-2",
@@ -139742,21 +139742,21 @@
           "prod": "Pilar Tubo Caño",
           "long": 4786,
           "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BKA-PTC-7",
           "prod": "Pilar Tubo Caño",
           "long": 4727,
           "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BKA-PTC-8",
           "prod": "Pilar Tubo Caño",
           "long": 4650,
           "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BKA-TC-1",
@@ -139791,7 +139791,7 @@
           "prod": "Viga Principal Alma Llena",
           "long": 7905,
           "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BKA-VPI-5",
@@ -139840,14 +139840,14 @@
           "prod": "Viga Principal Alma Llena",
           "long": 6350,
           "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BKA-VPI-13",
           "prod": "Viga Principal Alma Llena",
           "long": 7626,
           "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BKA-VPI-14",
@@ -139997,13 +139997,6 @@
           "pend": 12
         },
         {
-          "cod": "BKA-PL-501",
-          "prod": "Placa",
-          "long": 406,
-          "cant": 2,
-          "pend": 2
-        },
-        {
           "cod": "BKA-PL-502",
           "prod": "Placa",
           "long": 155,
@@ -140014,13 +140007,6 @@
           "cod": "BKA-PL-503",
           "prod": "Placa",
           "long": 2760,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BKA-PL-504",
-          "prod": "Placa",
-          "long": 406,
           "cant": 2,
           "pend": 2
         },
@@ -140685,13 +140671,6 @@
           "pend": 2
         },
         {
-          "cod": "BKA-PTC-1",
-          "prod": "Pilar Tubo Caño",
-          "long": 4648,
-          "cant": 1,
-          "pend": 1
-        },
-        {
           "cod": "BKA-PTC-2",
           "prod": "Pilar Tubo Caño",
           "long": 4711,
@@ -140716,13 +140695,6 @@
           "cod": "BKA-PTC-5",
           "prod": "Pilar Tubo Caño",
           "long": 4773,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BKA-PTC-6",
-          "prod": "Pilar Tubo Caño",
-          "long": 4786,
           "cant": 1,
           "pend": 1
         },
@@ -140793,13 +140765,6 @@
           "cod": "BKA-VPI-5",
           "prod": "Viga Principal Alma Llena",
           "long": 6138,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BKA-VPI-6",
-          "prod": "Viga Principal Alma Llena",
-          "long": 6127,
           "cant": 1,
           "pend": 1
         },
