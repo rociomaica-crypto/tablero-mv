@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-14T10:10:33.725Z",
+  "updatedAt": "2026-07-14T10:14:56.138Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "25527_1": {
@@ -3406,7 +3406,8 @@
       "arm_state": "liberado"
     },
     "25681_3": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25603_2": {
       "arm_state": "liberado",
@@ -4221,7 +4222,122 @@
       "qty_lib": 1
     },
     "25607_3": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25257_62": {
+      "arm_state": "armado"
+    },
+    "25257_60": {
+      "arm_state": "armado",
+      "qty_lib": 1
+    },
+    "25607_139": {
+      "arm_state": "armado"
+    },
+    "25607_140": {
+      "arm_state": "armado"
+    },
+    "25607_142": {
+      "arm_state": "armado"
+    },
+    "25607_143": {
+      "arm_state": "armado"
+    },
+    "25607_144": {
+      "arm_state": "armado"
+    },
+    "25607_146": {
+      "arm_state": "armado"
+    },
+    "25607_147": {
+      "arm_state": "armado"
+    },
+    "25607_148": {
+      "arm_state": "armado"
+    },
+    "25607_153": {
+      "arm_state": "armado"
+    },
+    "25607_159": {
+      "arm_state": "armado"
+    },
+    "25676_190": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25676_141": {
       "arm_state": "liberado"
+    },
+    "25676_183": {
+      "arm_state": "armado"
+    },
+    "25676_167": {
+      "arm_state": "liberado",
+      "qty_lib": 4
+    },
+    "25681_14": {
+      "arm_state": "armado"
+    },
+    "25681_13": {
+      "arm_state": "armado"
+    },
+    "25681_15": {
+      "arm_state": "armado"
+    },
+    "25681_16": {
+      "arm_state": "armado"
+    },
+    "25681_17": {
+      "arm_state": "armado"
+    },
+    "25681_22": {
+      "arm_state": "armado"
+    },
+    "25708_164": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_169": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_182": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_180": {
+      "arm_state": "liberado"
+    },
+    "25708_179": {
+      "arm_state": "liberado"
+    },
+    "25708_188": {
+      "arm_state": "liberado"
+    },
+    "25708_70": {
+      "arm_state": "liberado"
+    },
+    "25708_165": {
+      "arm_state": "armado"
+    },
+    "25708_166": {
+      "arm_state": "armado"
+    },
+    "25708_167": {
+      "arm_state": "armado"
+    },
+    "25708_171": {
+      "arm_state": "armado"
+    },
+    "25676_168": {
+      "arm_state": "liberado",
+      "qty_lib": 4
+    },
+    "25676_191": {
+      "arm_state": "liberado",
+      "qty_lib": 1
     }
   },
   "otMeta": {
@@ -116634,24 +116750,24 @@
       "ot": "25609",
       "obra": "Portón, puerta CF y escalera con baranda YUKYRY",
       "cliente": "OMBUES S.A",
-      "fecha": "10/7/2026",
+      "fecha": "14/7/2026",
       "avances": {
-        "arm": 75,
+        "arm": 88,
         "pint": 0,
         "env": 0,
         "mont": 0
       },
       "totales": {
         "cant": 24,
-        "arm_lib": 18,
-        "arm_pend": 6,
+        "arm_lib": 21,
+        "arm_pend": 3,
         "pint_ok": 0,
         "pint_pend": 24,
         "env_ok": 0,
         "env_pend": 24,
         "items": 19,
         "peso_total": 873.96,
-        "arm_pend_peso": 34.47,
+        "arm_pend_peso": 29.040000000000003,
         "pint_pend_peso": 873.96,
         "env_pend_peso": 873.96
       },
@@ -116789,9 +116905,9 @@
           "long": 180,
           "cant": 2,
           "peso": 3.06,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 3.06,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 2,
           "pint_pend_peso": 3.06,
@@ -116807,9 +116923,9 @@
           "long": 190,
           "cant": 1,
           "peso": 2.37,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 2.37,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 2.37,
@@ -117011,20 +117127,6 @@
           "cod": "BJO-PCT-1",
           "prod": "Correa de tímpano/ Perfilado",
           "long": 5815,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BJO-PS-1",
-          "prod": "Pieza Suelta",
-          "long": 180,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BJO-PS-2",
-          "prod": "Pieza Suelta",
-          "long": 190,
           "cant": 1,
           "pend": 1
         }
