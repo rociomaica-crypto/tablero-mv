@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-14T09:31:25.795Z",
+  "updatedAt": "2026-07-14T09:33:20.294Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "25527_1": {
@@ -1713,13 +1713,16 @@
       "arm_state": "liberado"
     },
     "25572_466": {
-      "qty_lib": 4
+      "qty_lib": 4,
+      "arm_state": "liberado"
     },
     "25572_467": {
-      "qty_lib": 4
+      "qty_lib": 4,
+      "arm_state": "liberado"
     },
     "25572_468": {
-      "qty_lib": 4
+      "qty_lib": 4,
+      "arm_state": "liberado"
     },
     "25572_472": {
       "qty_lib": 38,
@@ -1933,10 +1936,12 @@
       "qty_lib": 2
     },
     "25572_402": {
-      "qty_lib": 16
+      "qty_lib": 16,
+      "arm_state": "liberado"
     },
     "25572_404": {
-      "qty_lib": 12
+      "qty_lib": 12,
+      "arm_state": "liberado"
     },
     "25572_323": {
       "qty_lib": 1,
@@ -2039,7 +2044,8 @@
       "qty_lib": 5
     },
     "25572_387": {
-      "arm_state": "armado"
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25572_170": {
       "arm_state": "liberado",
@@ -2066,7 +2072,7 @@
       "qty_lib": 1
     },
     "25572_388": {
-      "arm_state": "armado",
+      "arm_state": "liberado",
       "qty_lib": 1
     },
     "25572_389": {
@@ -2153,31 +2159,40 @@
       "qty_lib": 1
     },
     "25572_110": {
-      "arm_state": "armado"
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25572_111": {
-      "arm_state": "armado"
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25572_113": {
-      "arm_state": "armado"
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25572_114": {
-      "arm_state": "armado"
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25572_115": {
-      "arm_state": "armado"
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25572_116": {
-      "arm_state": "armado"
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25572_117": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25572_118": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25572_119": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25572_196": {
       "arm_state": "liberado",
@@ -4066,6 +4081,146 @@
       "pint_state": "pintado"
     },
     "25681_19": {
+      "arm_state": "liberado"
+    },
+    "25572_336": {
+      "arm_state": "liberado",
+      "qty_lib": 3
+    },
+    "25572_337": {
+      "arm_state": "liberado",
+      "qty_lib": 3
+    },
+    "25572_338": {
+      "arm_state": "liberado",
+      "qty_lib": 4
+    },
+    "25572_469": {
+      "arm_state": "liberado",
+      "qty_lib": 3
+    },
+    "25572_81": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25572_82": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25572_84": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25572_85": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25572_400": {
+      "arm_state": "liberado",
+      "qty_lib": 6
+    },
+    "25572_401": {
+      "arm_state": "liberado",
+      "qty_lib": 16
+    },
+    "25572_403": {
+      "arm_state": "liberado",
+      "qty_lib": 16
+    },
+    "25572_405": {
+      "arm_state": "liberado",
+      "qty_lib": 4
+    },
+    "25572_406": {
+      "arm_state": "liberado",
+      "qty_lib": 16
+    },
+    "25572_407": {
+      "arm_state": "liberado",
+      "qty_lib": 16
+    },
+    "25572_408": {
+      "arm_state": "liberado",
+      "qty_lib": 16
+    },
+    "25572_409": {
+      "arm_state": "liberado",
+      "qty_lib": 16
+    },
+    "25572_410": {
+      "arm_state": "liberado",
+      "qty_lib": 32
+    },
+    "25572_365": {
+      "arm_state": "liberado"
+    },
+    "25572_366": {
+      "arm_state": "liberado"
+    },
+    "25572_367": {
+      "arm_state": "liberado"
+    },
+    "25572_370": {
+      "arm_state": "liberado",
+      "qty_lib": 224
+    },
+    "25603_38": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25603_40": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25603_41": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25603_39": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25603_42": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25603_43": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25603_44": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25603_33": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25603_34": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25603_35": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25603_36": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25603_37": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25607_141": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25607_145": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25607_3": {
       "arm_state": "liberado"
     }
   },
@@ -141641,118 +141796,28 @@
       "ot": "25732",
       "obra": "Escalera 2, Barandas y puerta, Suc. Aratiri",
       "cliente": "Metarq  S.A",
-      "fecha": "10/7/2026",
+      "fecha": "14/7/2026",
       "avances": {
-        "arm": 69,
+        "arm": 100,
         "pint": 0,
         "env": 0,
         "mont": 0
       },
       "totales": {
-        "cant": 16,
-        "arm_lib": 11,
-        "arm_pend": 5,
+        "cant": 9,
+        "arm_lib": 9,
+        "arm_pend": 0,
         "pint_ok": 0,
-        "pint_pend": 16,
+        "pint_pend": 9,
         "env_ok": 0,
-        "env_pend": 16,
-        "items": 13,
-        "peso_total": 424.42,
-        "arm_pend_peso": 22,
-        "pint_pend_peso": 424.42,
-        "env_pend_peso": 424.42
+        "env_pend": 9,
+        "items": 7,
+        "peso_total": 30.64,
+        "arm_pend_peso": 0,
+        "pint_pend_peso": 30.64,
+        "env_pend_peso": 30.64
       },
       "items": [
-        {
-          "item": 1,
-          "cod": "BKB-BR-1",
-          "prod": "Baranda - Unid.",
-          "long": 1116,
-          "cant": 1,
-          "peso": 8.07,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 8.07,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 8.07,
-          "literal": "BKB"
-        },
-        {
-          "item": 2,
-          "cod": "BKB-BR-2",
-          "prod": "Baranda - Unid.",
-          "long": 1116,
-          "cant": 1,
-          "peso": 8.25,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 8.25,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 8.25,
-          "literal": "BKB"
-        },
-        {
-          "item": 3,
-          "cod": "BKB-BR-3",
-          "prod": "Baranda - Unid.",
-          "long": 4788,
-          "cant": 1,
-          "peso": 33.25,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 33.25,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 33.25,
-          "literal": "BKB"
-        },
-        {
-          "item": 4,
-          "cod": "BKB-ES-1",
-          "prod": "Escalera Metalica",
-          "long": 7324,
-          "cant": 1,
-          "peso": 308.59,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 308.59,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 308.59,
-          "literal": "BKB"
-        },
-        {
-          "item": 5,
-          "cod": "BKB-PTC-1",
-          "prod": "Pilar Tubo Caño",
-          "long": 3805,
-          "cant": 1,
-          "peso": 35.62,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 35.62,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 35.62,
-          "literal": "BKB"
-        },
         {
           "item": 6,
           "cod": "BKB-SP-1",
@@ -141826,33 +141891,15 @@
           "literal": "BKB"
         },
         {
-          "item": 10,
-          "cod": "33664-PZ-1",
-          "prod": "Pieza Especial",
-          "long": 3000,
-          "cant": 2,
-          "peso": 0,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 0,
-          "literal": "PZ"
-        },
-        {
           "item": 11,
           "cod": "BKB-PL-300",
           "prod": "Placa",
           "long": 350,
           "cant": 1,
           "peso": 2.74,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 2.74,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 2.74,
@@ -141868,9 +141915,9 @@
           "long": 250,
           "cant": 1,
           "peso": 14.94,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 14.94,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 14.94,
@@ -141886,9 +141933,9 @@
           "long": 230,
           "cant": 1,
           "peso": 4.32,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 4.32,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 4.32,
@@ -141898,72 +141945,8 @@
           "literal": "BKB"
         }
       ],
-      "arm_pend_items": [
-        {
-          "cod": "33664-PZ-1",
-          "prod": "Pieza Especial",
-          "long": 3000,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BKB-PL-300",
-          "prod": "Placa",
-          "long": 350,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BKB-SP-300",
-          "prod": "SOPORTE",
-          "long": 250,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BKB-SP-301",
-          "prod": "SOPORTE",
-          "long": 230,
-          "cant": 1,
-          "pend": 1
-        }
-      ],
+      "arm_pend_items": [],
       "pint_pend_items": [
-        {
-          "cod": "BKB-BR-1",
-          "prod": "Baranda - Unid.",
-          "long": 1116,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BKB-BR-2",
-          "prod": "Baranda - Unid.",
-          "long": 1116,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BKB-BR-3",
-          "prod": "Baranda - Unid.",
-          "long": 4788,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BKB-ES-1",
-          "prod": "Escalera Metalica",
-          "long": 7324,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BKB-PTC-1",
-          "prod": "Pilar Tubo Caño",
-          "long": 3805,
-          "cant": 1,
-          "pend": 1
-        },
         {
           "cod": "BKB-SP-1",
           "prod": "SOPORTE",
@@ -141989,13 +141972,6 @@
           "cod": "BKB-SP-4",
           "prod": "SOPORTE",
           "long": 75,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "33664-PZ-1",
-          "prod": "Pieza Especial",
-          "long": 3000,
           "cant": 2,
           "pend": 2
         },
