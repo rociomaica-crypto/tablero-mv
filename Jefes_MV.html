@@ -451,14 +451,18 @@ function loadData(){
       return;
     }
 
-    // Excluir perfilados (PCR/PCL/PCT) de los totales de armado
+    // Excluir de armado: perfilados (PCR/PCL/PCT) y productos tercerizados por nombre
     var PERF_RE=/[-_](PCR|PCL|PCT)[-_]/i;
+    var EXCL_PRODS=["Clip fijo-Maq Nueva","Clip móvil-Maq Nueva","Zocalo para chapa zipada"];
+    function isArmExcluded(it){
+      return PERF_RE.test(it.cod)||EXCL_PRODS.indexOf(it.prod)>=0;
+    }
     Object.keys(merged.otMeta).forEach(function(k){
       var o=merged.otMeta[k];
       if(!o.items||!o.items.length) return;
       var perfCant=0,perfLib=0,perfPeso=0,perfPendPeso=0;
       o.items.forEach(function(it){
-        if(PERF_RE.test(it.cod)){
+        if(isArmExcluded(it)){
           perfCant+=(it.cant||0);
           perfLib+=(it.arm_lib||0);
           perfPeso+=(it.peso||0);
@@ -472,9 +476,39 @@ function loadData(){
         t.arm_pend_adj=(t.cant_arm)-(t.arm_lib_adj);
         t.arm_pend_peso_adj=(t.arm_pend_peso||0)-perfPendPeso;
         t._perfExcluded=perfCant;
-        // Filtrar perfilados de arm_pend_items
+        // Filtrar excluidos de arm_pend_items
         if(o.arm_pend_items){
-          o.arm_pend_items=o.arm_pend_items.filter(function(pi){return !PERF_RE.test(pi.cod);});
+          o.arm_pend_items=o.arm_pend_items.filter(function(pi){return !isArmExcluded(pi);});
+        }
+      }
+    });
+
+    // Excluir de pintura: productos que no se pintan
+    var EXCL_PINT=["Insertos","Anclaje","Clip fijo-Maq Nueva","Clip móvil-Maq Nueva","Zocalo para chapa zipada"];
+    function isPintExcluded(it){
+      return EXCL_PINT.indexOf(it.prod)>=0;
+    }
+    Object.keys(merged.otMeta).forEach(function(k){
+      var o=merged.otMeta[k];
+      if(!o.items||!o.items.length) return;
+      var exCant=0,exOk=0,exPeso=0,exPendPeso=0;
+      o.items.forEach(function(it){
+        if(isPintExcluded(it)){
+          exCant+=(it.cant||0);
+          exOk+=(it.pint_ok||0);
+          exPeso+=(it.peso||0);
+          exPendPeso+=(it.pint_pend_peso||0);
+        }
+      });
+      if(exCant>0){
+        var t=o.totales;
+        t.cant_pint=t.cant-exCant;
+        t.pint_ok_adj=t.pint_ok-exOk;
+        t.pint_pend_adj=(t.cant_pint)-(t.pint_ok_adj);
+        t.pint_pend_peso_adj=(t.pint_pend_peso||0)-exPendPeso;
+        t._pintExcluded=exCant;
+        if(o.pint_pend_items){
+          o.pint_pend_items=o.pint_pend_items.filter(function(pi){return !isPintExcluded(pi);});
         }
       }
     });
@@ -509,10 +543,10 @@ function renderDashboard(data){
     var t=data.otMeta[k].totales;
     totPiezas+=t.cant;
     totArmPend+=(t._perfExcluded?t.arm_pend_adj:t.arm_pend);
-    totPintPend+=t.pint_pend;totEnvPend+=t.env_pend;
+    totPintPend+=(t._pintExcluded?t.pint_pend_adj:t.pint_pend);totEnvPend+=t.env_pend;
     totPesoTotal+=(t.peso_total||0);
     totArmPendKg+=(t._perfExcluded?t.arm_pend_peso_adj:t.arm_pend_peso)||0;
-    totPintPendKg+=(t.pint_pend_peso||0);
+    totPintPendKg+=(t._pintExcluded?t.pint_pend_peso_adj:t.pint_pend_peso)||0;
   });
 
   // Checker rebaja stats
@@ -559,10 +593,14 @@ function renderDashboard(data){
     var armPendPeso=t._perfExcluded?t.arm_pend_peso_adj:(t.arm_pend_peso||0);
     var armTot=t._perfExcluded?t.cant_arm:tot;
     var armPct=armTot>0?Math.round(armLib/armTot*100):0;
-    var pintPct=Math.round(t.pint_ok/tot*100);
+    var pintOk=t._pintExcluded?t.pint_ok_adj:t.pint_ok;
+    var pintPend=t._pintExcluded?t.pint_pend_adj:t.pint_pend;
+    var pintPendPeso=t._pintExcluded?t.pint_pend_peso_adj:(t.pint_pend_peso||0);
+    var pintTot=t._pintExcluded?t.cant_pint:tot;
+    var pintPct=pintTot>0?Math.round(pintOk/pintTot*100):0;
     var envPct=Math.round(t.env_ok/tot*100);
 
-    var alertClass=armPend>500||t.pint_pend>500?"border:2px solid #FCA5A5":"";
+    var alertClass=armPend>500||pintPend>500?"border:2px solid #FCA5A5":"";
 
     html+="<div class=\"ot-card\" style=\""+alertClass+"\">";
     html+="<div class=\"ot-card-header\">";
@@ -585,10 +623,10 @@ function renderDashboard(data){
 
     // Progress bars
     var hasArmPend=armPend>0&&o.arm_pend_items&&o.arm_pend_items.length>0;
-    var hasPintPend=t.pint_pend>0&&o.pint_pend_items&&o.pint_pend_items.length>0;
+    var hasPintPend=pintPend>0&&o.pint_pend_items&&o.pint_pend_items.length>0;
     var ptot=t.peso_total||0;
     var armKgPct=ptot>0?Math.round((ptot-armPendPeso)/ptot*100):armPct;
-    var pintKgPct=ptot>0?Math.round((ptot-(t.pint_pend_peso||0))/ptot*100):pintPct;
+    var pintKgPct=ptot>0?Math.round((ptot-pintPendPeso)/ptot*100):pintPct;
     html+="<div class=\"proc-row\">";
     html+="<div class=\"proc-label\"><span class=\"proc-name\">Armado</span><span class=\"proc-pct\" style=\"color:"+pctC(armPct)+"\">"+armPct+"% pzas"+(ptot>0&&armKgPct!==armPct?"&nbsp;<small style='color:#6B8FA8;font-weight:500'>"+armKgPct+"% kg</small>":"")+"</span></div>";
     html+="<div class=\"bar-bg\"><div class=\"bar-fill\" style=\"width:"+armPct+"%;background:"+barC(armPct)+"\" data-ok=\""+fmt(armLib)+"\"></div></div>";
@@ -599,10 +637,10 @@ function renderDashboard(data){
 
     html+="<div class=\"proc-row\">";
     html+="<div class=\"proc-label\"><span class=\"proc-name\">Pintura</span><span class=\"proc-pct\" style=\"color:"+pctC(pintPct)+"\">"+pintPct+"% pzas"+(ptot>0&&pintKgPct!==pintPct?"&nbsp;<small style='color:#6B8FA8;font-weight:500'>"+pintKgPct+"% kg</small>":"")+"</span></div>";
-    html+="<div class=\"bar-bg\"><div class=\"bar-fill\" style=\"width:"+pintPct+"%;background:"+barC(pintPct)+"\" data-ok=\""+fmt(t.pint_ok)+"\"></div></div>";
-    html+="<div class=\"proc-detail\"><span>"+fmt(t.pint_ok)+" pintadas</span>";
-    if(hasPintPend){html+="<span class=\"pend-link\" onclick=\"openModal('"+k+"','pint')\">"+fmt(t.pint_pend)+" pendientes &rarr; "+(ptot>0?"<small style='color:#888'>&middot;"+pintKgPct+"% kg ("+((t.pint_pend_peso||0)/1000).toFixed(1)+"t)</small>":"")+"</span>";}
-    else{html+="<span style=\"color:#EA6C00;font-weight:700\">"+fmt(t.pint_pend)+" pendientes"+(ptot>0?" <small style='color:#888'>&middot;"+pintKgPct+"% kg ("+((t.pint_pend_peso||0)/1000).toFixed(1)+"t)</small>":"")+"</span>";}
+    html+="<div class=\"bar-bg\"><div class=\"bar-fill\" style=\"width:"+pintPct+"%;background:"+barC(pintPct)+"\" data-ok=\""+fmt(pintOk)+"\"></div></div>";
+    html+="<div class=\"proc-detail\"><span>"+fmt(pintOk)+" pintadas</span>";
+    if(hasPintPend){html+="<span class=\"pend-link\" onclick=\"openModal('"+k+"','pint')\">"+fmt(pintPend)+" pendientes &rarr; "+(ptot>0?"<small style='color:#888'>&middot;"+pintKgPct+"% kg ("+(pintPendPeso/1000).toFixed(1)+"t)</small>":"")+"</span>";}
+    else{html+="<span style=\"color:#EA6C00;font-weight:700\">"+fmt(pintPend)+" pendientes"+(ptot>0?" <small style='color:#888'>&middot;"+pintKgPct+"% kg ("+(pintPendPeso/1000).toFixed(1)+"t)</small>":"")+"</span>";}
     html+="</div></div>";
 
     html+="<div class=\"proc-row\">";
