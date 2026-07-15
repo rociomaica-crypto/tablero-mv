@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T13:52:31.503Z",
+  "updatedAt": "2026-07-15T14:42:24.619Z",
   "updatedBy": "Bernardo Vera",
   "checks": {
     "25694_1": {
@@ -2801,19 +2801,23 @@
       "pint_state": "galvamax"
     },
     "25732_6": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
     },
     "25732_7": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
     },
     "25732_8": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
     },
     "25732_5": {
       "arm_state": "liberado"
     },
     "25732_9": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
     },
     "25572_325": {
       "qty_lib": 1,
@@ -7097,6 +7101,18 @@
     },
     "25572_414": {
       "qty_lib": 40
+    },
+    "25732_11": {
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
+    },
+    "25732_12": {
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
+    },
+    "25732_13": {
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
     }
   },
   "otMeta": {
