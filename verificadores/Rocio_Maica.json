@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T13:13:02.852Z",
+  "updatedAt": "2026-07-16T13:13:28.217Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "25527_1": {
@@ -1947,11 +1947,13 @@
     },
     "25572_402": {
       "qty_lib": 16,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
     },
     "25572_404": {
       "qty_lib": 12,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
     },
     "25572_323": {
       "qty_lib": 1,
@@ -4367,39 +4369,48 @@
     },
     "25572_400": {
       "arm_state": "liberado",
-      "qty_lib": 6
+      "qty_lib": 6,
+      "pint_state": "galvamax"
     },
     "25572_401": {
       "arm_state": "liberado",
-      "qty_lib": 16
+      "qty_lib": 16,
+      "pint_state": "galvamax"
     },
     "25572_403": {
       "arm_state": "liberado",
-      "qty_lib": 16
+      "qty_lib": 16,
+      "pint_state": "galvamax"
     },
     "25572_405": {
       "arm_state": "liberado",
-      "qty_lib": 4
+      "qty_lib": 4,
+      "pint_state": "galvamax"
     },
     "25572_406": {
       "arm_state": "liberado",
-      "qty_lib": 16
+      "qty_lib": 16,
+      "pint_state": "galvamax"
     },
     "25572_407": {
       "arm_state": "liberado",
-      "qty_lib": 16
+      "qty_lib": 16,
+      "pint_state": "galvamax"
     },
     "25572_408": {
       "arm_state": "liberado",
-      "qty_lib": 16
+      "qty_lib": 16,
+      "pint_state": "galvamax"
     },
     "25572_409": {
       "arm_state": "liberado",
-      "qty_lib": 16
+      "qty_lib": 16,
+      "pint_state": "galvamax"
     },
     "25572_410": {
       "arm_state": "liberado",
-      "qty_lib": 32
+      "qty_lib": 32,
+      "pint_state": "galvamax"
     },
     "25572_365": {
       "arm_state": "liberado"
