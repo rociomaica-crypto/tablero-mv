@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T17:15:51.224Z",
+  "updatedAt": "2026-07-16T17:34:32.246Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "25527_1": {
@@ -127177,24 +127177,24 @@
       "ot": "25731",
       "obra": "Rieles  IM F3 porton 12",
       "cliente": "MV ACEROS SA",
-      "fecha": "13/7/2026",
+      "fecha": "16/7/2026",
       "avances": {
-        "arm": 0,
+        "arm": 19,
         "pint": 0,
         "env": 0,
         "mont": 0
       },
       "totales": {
         "cant": 610,
-        "arm_lib": 0,
-        "arm_pend": 610,
+        "arm_lib": 116,
+        "arm_pend": 494,
         "pint_ok": 0,
         "pint_pend": 610,
         "env_ok": 0,
         "env_pend": 610,
         "items": 6,
         "peso_total": 5037.820000000001,
-        "arm_pend_peso": 5037.820000000001,
+        "arm_pend_peso": 178,
         "pint_pend_peso": 5037.820000000001,
         "env_pend_peso": 5037.820000000001
       },
@@ -127242,9 +127242,9 @@
           "long": 350,
           "cant": 76,
           "peso": 82.84,
-          "arm_lib": 0,
-          "arm_pend": 76,
-          "arm_pend_peso": 82.84,
+          "arm_lib": 76,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 76,
           "pint_pend_peso": 82.84,
@@ -127260,9 +127260,9 @@
           "long": 1000,
           "cant": 2,
           "peso": 41.9,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 41.9,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 2,
           "pint_pend_peso": 41.9,
@@ -127278,9 +127278,9 @@
           "long": 6000,
           "cant": 36,
           "peso": 4525.56,
-          "arm_lib": 0,
-          "arm_pend": 36,
-          "arm_pend_peso": 4525.56,
+          "arm_lib": 36,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 36,
           "pint_pend_peso": 4525.56,
@@ -127296,9 +127296,9 @@
           "long": 5000,
           "cant": 2,
           "peso": 209.52,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 209.52,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 2,
           "pint_pend_peso": 209.52,
@@ -127322,34 +127322,6 @@
           "long": 277,
           "cant": 102,
           "pend": 102
-        },
-        {
-          "cod": "BKJ-PL-1",
-          "prod": "Placa",
-          "long": 350,
-          "cant": 76,
-          "pend": 76
-        },
-        {
-          "cod": "BKJ-RE-1",
-          "prod": "Riel",
-          "long": 1000,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BKJ-RE-2",
-          "prod": "Riel",
-          "long": 6000,
-          "cant": 36,
-          "pend": 36
-        },
-        {
-          "cod": "BKJ-RE-3",
-          "prod": "Riel",
-          "long": 5000,
-          "cant": 2,
-          "pend": 2
         }
       ],
       "pint_pend_items": [
