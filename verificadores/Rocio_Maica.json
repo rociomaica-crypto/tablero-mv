@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T11:33:53.843Z",
+  "updatedAt": "2026-07-16T11:36:41.511Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "25527_1": {
@@ -25309,11 +25309,11 @@
       "ot": "25093",
       "obra": "Fortis CDE Opc. 2",
       "cliente": "Jiménez Gaona y Lima SA",
-      "fecha": "15/7/2026",
+      "fecha": "16/7/2026",
       "avances": {
         "arm": 12,
         "pint": 12,
-        "env": 7,
+        "env": 8,
         "mont": 0
       },
       "totales": {
@@ -25322,8 +25322,8 @@
         "arm_pend": 17322,
         "pint_ok": 2384,
         "pint_pend": 17212,
-        "env_ok": 1418,
-        "env_pend": 18178,
+        "env_ok": 1618,
+        "env_pend": 17978,
         "items": 192,
         "peso_total": 19750.152,
         "arm_pend_peso": 12815.640000000001,
@@ -28764,8 +28764,8 @@
           "pint_ok": 0,
           "pint_pend": 380,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 380,
+          "env_ok": 200,
+          "env_pend": 180,
           "env_pend_peso": 0,
           "literal": "ZC"
         },
