@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T17:42:07.582Z",
+  "updatedAt": "2026-07-16T17:51:11.841Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "25527_1": {
@@ -94642,25 +94642,25 @@
       "ot": "25584",
       "obra": "AMPLIACION ELECTROPAR TECHO",
       "cliente": "Tecinci S.R.L",
-      "fecha": "10/7/2026",
+      "fecha": "16/7/2026",
       "avances": {
-        "arm": 18,
-        "pint": 6,
+        "arm": 19,
+        "pint": 8,
         "env": 0,
         "mont": 0
       },
       "totales": {
         "cant": 2712,
-        "arm_lib": 482.5,
-        "arm_pend": 2229.5,
-        "pint_ok": 163,
-        "pint_pend": 2549,
+        "arm_lib": 504,
+        "arm_pend": 2208,
+        "pint_ok": 224,
+        "pint_pend": 2488,
         "env_ok": 0,
         "env_pend": 2712,
         "items": 241,
         "peso_total": 101147.30999999995,
-        "arm_pend_peso": 43013.07499999998,
-        "pint_pend_peso": 41182.66999999998,
+        "arm_pend_peso": 40180.595,
+        "pint_pend_peso": 35566.319999999985,
         "env_pend_peso": 101147.30999999995
       },
       "items": [
@@ -96402,9 +96402,9 @@
           "arm_lib": 0,
           "arm_pend": 23,
           "arm_pend_peso": 1763.64,
-          "pint_ok": 0,
-          "pint_pend": 23,
-          "pint_pend_peso": 1763.64,
+          "pint_ok": 9,
+          "pint_pend": 14,
+          "pint_pend_peso": 1073.52,
           "env_ok": 0,
           "env_pend": 23,
           "env_pend_peso": 1763.64,
@@ -96420,9 +96420,9 @@
           "arm_lib": 0,
           "arm_pend": 23,
           "arm_pend_peso": 1897.27,
-          "pint_ok": 0,
-          "pint_pend": 23,
-          "pint_pend_peso": 1897.27,
+          "pint_ok": 20,
+          "pint_pend": 3,
+          "pint_pend_peso": 247.47,
           "env_ok": 0,
           "env_pend": 23,
           "env_pend_peso": 1897.27,
@@ -96438,9 +96438,9 @@
           "arm_lib": 0,
           "arm_pend": 23,
           "arm_pend_peso": 1763.64,
-          "pint_ok": 0,
-          "pint_pend": 23,
-          "pint_pend_peso": 1763.64,
+          "pint_ok": 16,
+          "pint_pend": 7,
+          "pint_pend_peso": 536.76,
           "env_ok": 0,
           "env_pend": 23,
           "env_pend_peso": 1763.64,
@@ -96492,9 +96492,9 @@
           "arm_lib": 0,
           "arm_pend": 3,
           "arm_pend_peso": 247.2,
-          "pint_ok": 0,
-          "pint_pend": 3,
-          "pint_pend_peso": 247.2,
+          "pint_ok": 3,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 3,
           "env_pend_peso": 247.2,
@@ -96510,9 +96510,9 @@
           "arm_lib": 0,
           "arm_pend": 4,
           "arm_pend_peso": 329.6,
-          "pint_ok": 0,
-          "pint_pend": 4,
-          "pint_pend_peso": 329.6,
+          "pint_ok": 2,
+          "pint_pend": 2,
+          "pint_pend_peso": 164.8,
           "env_ok": 0,
           "env_pend": 4,
           "env_pend_peso": 329.6,
@@ -97065,9 +97065,9 @@
           "long": 175,
           "cant": 6,
           "peso": 19.68,
-          "arm_lib": 0,
-          "arm_pend": 6,
-          "arm_pend_peso": 19.68,
+          "arm_lib": 6,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 6,
           "pint_pend_peso": 19.68,
@@ -97083,9 +97083,9 @@
           "long": 150,
           "cant": 2,
           "peso": 4.12,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 4.12,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 2,
           "pint_pend_peso": 4.12,
@@ -97101,9 +97101,9 @@
           "long": 5000,
           "cant": 1,
           "peso": 104.09,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 104.09,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 104.09,
@@ -97119,9 +97119,9 @@
           "long": 5445,
           "cant": 3,
           "peso": 340.08,
-          "arm_lib": 0,
-          "arm_pend": 3,
-          "arm_pend_peso": 340.08,
+          "arm_lib": 3,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 3,
           "pint_pend_peso": 340.08,
@@ -97626,9 +97626,9 @@
           "arm_lib": 5,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 5,
-          "pint_pend_peso": 781.2,
+          "pint_ok": 5,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 5,
           "env_pend_peso": 781.2,
@@ -97716,9 +97716,9 @@
           "arm_lib": 14,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 12,
-          "pint_pend": 2,
-          "pint_pend_peso": 300.54,
+          "pint_ok": 14,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 14,
           "env_pend_peso": 2103.78,
@@ -97734,9 +97734,9 @@
           "arm_lib": 2,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 301.92,
+          "pint_ok": 2,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 2,
           "env_pend_peso": 301.92,
@@ -97821,9 +97821,9 @@
           "long": 6458,
           "cant": 1,
           "peso": 134.43,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 134.43,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 67.215,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 134.43,
@@ -97839,9 +97839,9 @@
           "long": 10123,
           "cant": 1,
           "peso": 210.73,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 210.73,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 105.365,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 210.73,
@@ -97857,9 +97857,9 @@
           "long": 4000,
           "cant": 1,
           "peso": 83.27,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 83.27,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 83.27,
@@ -98181,9 +98181,9 @@
           "long": 9910,
           "cant": 1,
           "peso": 182.81,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 182.81,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 182.81,
@@ -98199,9 +98199,9 @@
           "long": 9990,
           "cant": 3,
           "peso": 552.87,
-          "arm_lib": 0,
-          "arm_pend": 3,
-          "arm_pend_peso": 552.87,
+          "arm_lib": 2,
+          "arm_pend": 1,
+          "arm_pend_peso": 184.29,
           "pint_ok": 0,
           "pint_pend": 3,
           "pint_pend_peso": 552.87,
@@ -98577,9 +98577,9 @@
           "long": 5932,
           "cant": 1,
           "peso": 330.32,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 330.32,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 165.16,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 330.32,
@@ -98595,9 +98595,9 @@
           "long": 5932,
           "cant": 1,
           "peso": 208.67,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 208.67,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 104.335,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 208.67,
@@ -98847,9 +98847,9 @@
           "long": 9895,
           "cant": 1,
           "peso": 154.95,
-          "arm_lib": 0.5,
-          "arm_pend": 0.5,
-          "arm_pend_peso": 77.475,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 154.95,
@@ -98865,9 +98865,9 @@
           "long": 9945,
           "cant": 1,
           "peso": 155.28,
-          "arm_lib": 0.5,
-          "arm_pend": 0.5,
-          "arm_pend_peso": 77.64,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 155.28,
@@ -98886,9 +98886,9 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 155.28,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 155.28,
@@ -98922,9 +98922,9 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 98.61,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 98.61,
@@ -98955,9 +98955,9 @@
           "long": 8561,
           "cant": 3,
           "peso": 1349.55,
-          "arm_lib": 0,
-          "arm_pend": 3,
-          "arm_pend_peso": 1349.55,
+          "arm_lib": 1.5,
+          "arm_pend": 1.5,
+          "arm_pend_peso": 674.775,
           "pint_ok": 0,
           "pint_pend": 3,
           "pint_pend_peso": 1349.55,
@@ -98973,9 +98973,9 @@
           "long": 8556,
           "cant": 1,
           "peso": 458.85,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 458.85,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 229.425,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 458.85,
@@ -98991,9 +98991,9 @@
           "long": 8556,
           "cant": 1,
           "peso": 456.92,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 456.92,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 228.46,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 456.92,
@@ -99677,34 +99677,6 @@
           "pend": 12
         },
         {
-          "cod": "BIS-PL-8",
-          "prod": "Placa",
-          "long": 175,
-          "cant": 6,
-          "pend": 6
-        },
-        {
-          "cod": "BIS-PL-9",
-          "prod": "Placa",
-          "long": 150,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIS-PTC-1",
-          "prod": "Pilar Tubo Caño",
-          "long": 5000,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIS-PTC-2",
-          "prod": "Pilar Tubo Caño",
-          "long": 5445,
-          "cant": 3,
-          "pend": 3
-        },
-        {
           "cod": "BIS-SC-1",
           "prod": "Soporte Cruz",
           "long": 140,
@@ -99807,21 +99779,14 @@
           "prod": "Viga Principal tubo o caños",
           "long": 6458,
           "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BIS-VPT-2",
           "prod": "Viga Principal tubo o caños",
           "long": 10123,
           "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIS-VPT-3",
-          "prod": "Viga Principal tubo o caños",
-          "long": 4000,
-          "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BIS-CH-500",
@@ -99880,18 +99845,11 @@
           "pend": 1
         },
         {
-          "cod": "BIS-CR-500",
-          "prod": "Correa Techo",
-          "long": 9910,
-          "cant": 1,
-          "pend": 1
-        },
-        {
           "cod": "BIS-CR-501",
           "prod": "Correa Techo",
           "long": 9990,
           "cant": 3,
-          "pend": 3
+          "pend": 1
         },
         {
           "cod": "BIS-CR-502",
@@ -100038,14 +99996,14 @@
           "prod": "Pilar Alma Llena",
           "long": 5932,
           "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BIS-PIS-501",
           "prod": "Pilar Alma Llena",
           "long": 5932,
           "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BIS-TC-500",
@@ -100062,20 +100020,6 @@
           "pend": 28
         },
         {
-          "cod": "BIS-VAT-500",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 9895,
-          "cant": 1,
-          "pend": 0.5
-        },
-        {
-          "cod": "BIS-VAT-501",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 9945,
-          "cant": 1,
-          "pend": 0.5
-        },
-        {
           "cod": "BIS-VOR-500",
           "prod": "Contraviga angulo",
           "long": 46226,
@@ -100087,21 +100031,21 @@
           "prod": "Viga Techo IS",
           "long": 8561,
           "cant": 3,
-          "pend": 3
+          "pend": 1.5
         },
         {
           "cod": "BIS-VTI-501",
           "prod": "Viga Techo IS",
           "long": 8556,
           "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BIS-VTI-502",
           "prod": "Viga Techo IS",
           "long": 8556,
           "cant": 1,
-          "pend": 1
+          "pend": 0.5
         }
       ],
       "pint_pend_items": [
@@ -100747,21 +100691,21 @@
           "prod": "Correa de Techo/ Perfilado",
           "long": 10500,
           "cant": 23,
-          "pend": 23
+          "pend": 14
         },
         {
           "cod": "BIS-PCR-5",
           "prod": "Correa de Techo/ Perfilado",
           "long": 11295,
           "cant": 23,
-          "pend": 23
+          "pend": 3
         },
         {
           "cod": "BIS-PCR-6",
           "prod": "Correa de Techo/ Perfilado",
           "long": 10500,
           "cant": 23,
-          "pend": 23
+          "pend": 7
         },
         {
           "cod": "BIS-PCR-8",
@@ -100778,18 +100722,11 @@
           "pend": 7
         },
         {
-          "cod": "BIS-PCT-2",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 11282,
-          "cant": 3,
-          "pend": 3
-        },
-        {
           "cod": "BIS-PCT-3",
           "prod": "Correa de tímpano/ Perfilado",
           "long": 11282,
           "cant": 4,
-          "pend": 4
+          "pend": 2
         },
         {
           "cod": "BIS-PCT-4",
@@ -101100,32 +101037,11 @@
           "pend": 24
         },
         {
-          "cod": "BIS-VAT-2",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 9944,
-          "cant": 5,
-          "pend": 5
-        },
-        {
           "cod": "BIS-VAT-6",
           "prod": "Viga  Arriostre de tubos o caños",
           "long": 9845,
           "cant": 14,
           "pend": 1
-        },
-        {
-          "cod": "BIS-VAT-7",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 9625,
-          "cant": 14,
-          "pend": 2
-        },
-        {
-          "cod": "BIS-VAT-8",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 9602,
-          "cant": 2,
-          "pend": 2
         },
         {
           "cod": "BIS-VPT-1",
@@ -101485,23 +101401,9 @@
           "pend": 1
         },
         {
-          "cod": "BIS-VAT-502",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 9945,
-          "cant": 1,
-          "pend": 1
-        },
-        {
           "cod": "BIS-VAT-503",
           "prod": "Viga  Arriostre de tubos o caños",
           "long": 9945,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIS-VAT-504",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 6281,
           "cant": 1,
           "pend": 1
         },
