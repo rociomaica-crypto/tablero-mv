@@ -492,23 +492,44 @@ function loadData(){
       var o=merged.otMeta[k];
       if(!o.items||!o.items.length) return;
       var exCant=0,exOk=0,exPeso=0,exPendPeso=0;
+      var galvCant=0,galvPeso=0;
       o.items.forEach(function(it){
         if(isPintExcluded(it)){
           exCant+=(it.cant||0);
           exOk+=(it.pint_ok||0);
           exPeso+=(it.peso||0);
           exPendPeso+=(it.pint_pend_peso||0);
+        } else if(it.pint_pend>0){
+          // Si tiene check de galvamax o rackpar, contar como resuelto
+          var chk=merged.checks[k+"_"+it.item]||{};
+          var ps=chk.pint_state_state||chk.pint_state||"";
+          if(ps==="galvamax"||ps==="rackpar"){
+            galvCant+=(it.pint_pend||0);
+            galvPeso+=(it.pint_pend_peso||0);
+          }
         }
       });
-      if(exCant>0){
+      if(exCant>0||galvCant>0){
         var t=o.totales;
-        t.cant_pint=t.cant-exCant;
-        t.pint_ok_adj=t.pint_ok-exOk;
-        t.pint_pend_adj=(t.cant_pint)-(t.pint_ok_adj);
-        t.pint_pend_peso_adj=(t.pint_pend_peso||0)-exPendPeso;
-        t._pintExcluded=exCant;
+        t.cant_pint=(t.cant||0)-exCant;
+        t.pint_ok_adj=(t.pint_ok||0)-exOk+galvCant;
+        t.pint_pend_adj=t.cant_pint-t.pint_ok_adj;
+        if(t.pint_pend_adj<0)t.pint_pend_adj=0;
+        t.pint_pend_peso_adj=(t.pint_pend_peso||0)-exPendPeso-galvPeso;
+        if(t.pint_pend_peso_adj<0)t.pint_pend_peso_adj=0;
+        t._pintExcluded=exCant+galvCant;
         if(o.pint_pend_items){
-          o.pint_pend_items=o.pint_pend_items.filter(function(pi){return !isPintExcluded(pi);});
+          // Construir set de códigos con galvamax/rackpar
+          var galvCods={};
+          o.items.forEach(function(it){
+            var chk=merged.checks[k+"_"+it.item]||{};
+            var ps=chk.pint_state_state||chk.pint_state||"";
+            if(ps==="galvamax"||ps==="rackpar") galvCods[it.cod]=true;
+          });
+          o.pint_pend_items=o.pint_pend_items.filter(function(pi){
+            if(isPintExcluded(pi))return false;
+            return !galvCods[pi.cod];
+          });
         }
       }
     });
