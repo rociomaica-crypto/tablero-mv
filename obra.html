@@ -70,6 +70,7 @@ var params=new URLSearchParams(window.location.search);
 var otNum=params.get("ot")||"";
 var GH_REPO="rociomaica-crypto/tablero-mv";
 var CHECKER_FILES=["Bernardo_Vera","Angel_Villa","Cristhian_Piatti","Sandro_Monzon","David_Gimenez","Adriana_Perez","Rocio_Maica"];
+var LPT_LOADER="Rocio_Maica";
 
 function loadOT(){
   if(!otNum){showError("OT no especificada","Escanea el QR correcto o solicita el link actualizado.");return;}
@@ -81,17 +82,68 @@ function loadOT(){
       .catch(function(){return null;});
   });
   Promise.all(promises).then(function(results){
-    var otData=null, updatedAt="", updatedBy="", allChecks={};
-    results.forEach(function(data){
+    var otData=null, loaderData=null, updatedAt="", updatedBy="", allChecks={};
+    results.forEach(function(data,idx){
       if(!data)return;
       if(data.otMeta&&data.otMeta[otNum]){
+        if(CHECKER_FILES[idx]===LPT_LOADER){
+          loaderData={otMeta:data.otMeta[otNum],updatedAt:data.updatedAt,updatedBy:data.updatedBy};
+        }
         otData=data.otMeta[otNum];
         updatedAt=data.updatedAt;
         updatedBy=data.updatedBy;
       }
       if(data.checks){Object.assign(allChecks,data.checks);}
     });
+    // LPT Loader siempre gana
+    if(loaderData){
+      otData=loaderData.otMeta;
+      updatedAt=loaderData.updatedAt;
+      updatedBy=loaderData.updatedBy;
+    }
     if(!otData){showError("OT "+otNum+" no encontrada","Esta obra aun no tiene datos sincronizados. Consulte con el equipo de produccion.");return;}
+
+    // Aplicar exclusiones de armado y pintura
+    var PERF_RE=/[-_](PCR|PCL|PCT|SK)[-_]/i;
+    var EXCL_ARM=["Clip fijo-Maq Nueva","Clip móvil-Maq Nueva","Zocalo para chapa zipada"];
+    var EXCL_PINT=["Insertos","Anclaje","Clip fijo-Maq Nueva","Clip móvil-Maq Nueva","Zocalo para chapa zipada"];
+    if(otData.items&&otData.items.length){
+      var t=otData.totales;
+      // Armado exclusions
+      var axC=0,axL=0,axPP=0;
+      otData.items.forEach(function(it){
+        if(PERF_RE.test(it.cod)||EXCL_ARM.indexOf(it.prod)>=0){
+          axC+=(it.cant||0);axL+=(it.arm_lib||0);axPP+=(it.arm_pend_peso||0);
+        }
+      });
+      if(axC>0){
+        t.cant_arm=t.cant-axC;t.arm_lib_adj=t.arm_lib-axL;
+        t.arm_pend_adj=t.cant_arm-t.arm_lib_adj;
+        t.arm_pend_peso_adj=(t.arm_pend_peso||0)-axPP;
+        t._perfExcluded=axC;
+      }
+      // Pintura exclusions + galvamax/rackpar
+      var pxC=0,pxOk=0,pxPP=0,galvC=0,galvPP=0;
+      otData.items.forEach(function(it){
+        if(EXCL_PINT.indexOf(it.prod)>=0||/[-_](SK)[-_]/i.test(it.cod)){
+          pxC+=(it.cant||0);pxOk+=(it.pint_ok||0);pxPP+=(it.pint_pend_peso||0);
+        } else if(it.pint_pend>0){
+          var chk=allChecks[otNum+"_"+it.item]||{};
+          var ps=chk.pint_state_state||chk.pint_state||"";
+          if(ps==="galvamax"||ps==="rackpar"){galvC+=(it.pint_pend||0);galvPP+=(it.pint_pend_peso||0);}
+        }
+      });
+      if(pxC>0||galvC>0){
+        t.cant_pint=(t.cant||0)-pxC;
+        t.pint_ok_adj=(t.pint_ok||0)-pxOk+galvC;
+        t.pint_pend_adj=t.cant_pint-t.pint_ok_adj;
+        if(t.pint_pend_adj<0)t.pint_pend_adj=0;
+        t.pint_pend_peso_adj=(t.pint_pend_peso||0)-pxPP-galvPP;
+        if(t.pint_pend_peso_adj<0)t.pint_pend_peso_adj=0;
+        t._pintExcluded=pxC+galvC;
+      }
+    }
+
     renderOT(otData, updatedAt, updatedBy, allChecks);
   });
 }
@@ -99,6 +151,16 @@ function loadOT(){
 function renderOT(o, updatedAt, updatedBy, checks){
   var t=o.totales;
   var tot=t.cant||1;
+
+  // Usar valores ajustados si existen
+  var armLib=t._perfExcluded?t.arm_lib_adj:t.arm_lib;
+  var armPend=t._perfExcluded?t.arm_pend_adj:t.arm_pend;
+  var armTot=t._perfExcluded?t.cant_arm:tot;
+  var armPendPeso=t._perfExcluded?t.arm_pend_peso_adj:(t.arm_pend_peso||0);
+  var pintOk=t._pintExcluded?t.pint_ok_adj:t.pint_ok;
+  var pintPend=t._pintExcluded?t.pint_pend_adj:t.pint_pend;
+  var pintTot=t._pintExcluded?t.cant_pint:tot;
+  var pintPendPeso=t._pintExcluded?t.pint_pend_peso_adj:(t.pint_pend_peso||0);
 
   // Calculate checker states from checks
   var armado=0, soldado=0, enPintura=0, pintado=0, galvamax=0;
@@ -122,11 +184,11 @@ function renderOT(o, updatedAt, updatedBy, checks){
   var pintadoPct=Math.round(pintado/tot*100);
   var galvamaxPct=Math.round(galvamax/tot*100);
   var enPintPct=Math.round(enPintura/tot*100);
-  var lptArmPct=o.avances.arm;
-  var lptPintPct=o.avances.pint;
+  var lptArmPct=armTot>0?Math.round(armLib/armTot*100):0;
+  var lptPintPct=pintTot>0?Math.round(pintOk/pintTot*100):0;
   var ptot=t.peso_total||0;
-  var armKgPct=ptot>0?Math.round((ptot-(t.arm_pend_peso||0))/ptot*100):lptArmPct;
-  var pintKgPct=ptot>0?Math.round((ptot-(t.pint_pend_peso||0))/ptot*100):lptPintPct;
+  var armKgPct=ptot>0?Math.round((ptot-armPendPeso)/ptot*100):lptArmPct;
+  var pintKgPct=ptot>0?Math.round((ptot-pintPendPeso)/ptot*100):lptPintPct;
   var lptEnvPct=o.avances.env;
 
   var dt=updatedAt?new Date(updatedAt):null;
@@ -145,8 +207,8 @@ function renderOT(o, updatedAt, updatedBy, checks){
 
     "<div class=\"section-title\">Estado del proceso — por el LPT</div>"+
 
-    makeSector("&#9874;","Armado",lptArmPct,t.arm_lib,t.arm_pend,"#10B981","Liberadas","Pendientes",armKgPct)+
-    makeSector("&#127912;","Pintura",lptPintPct,t.pint_ok,t.pint_pend,"#F97316","Pintadas","Pendientes",pintKgPct)+
+    makeSector("&#9874;","Armado",lptArmPct,armLib,armPend,"#10B981","Liberadas","Pendientes",armKgPct)+
+    makeSector("&#127912;","Pintura",lptPintPct,pintOk,pintPend,"#F97316","Pintadas","Pendientes",pintKgPct)+
     makeSector("&#128666;","Envio",lptEnvPct,t.env_ok,t.env_pend,"#0EA5E9","Enviadas","Pendientes")+
 
     "<div class=\"section-title\">Seguimiento checker — avance detallado</div>";
