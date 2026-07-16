@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T11:27:06.351Z",
+  "updatedAt": "2026-07-16T11:28:31.917Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "25527_1": {
@@ -79969,22 +79969,22 @@
       "cliente": "Metarq  S.A",
       "fecha": "16/7/2026",
       "avances": {
-        "arm": 41,
+        "arm": 50,
         "pint": 14,
         "env": 0,
         "mont": 0
       },
       "totales": {
         "cant": 1819,
-        "arm_lib": 752,
-        "arm_pend": 1067,
+        "arm_lib": 904,
+        "arm_pend": 915,
         "pint_ok": 260,
         "pint_pend": 1559,
         "env_ok": 0,
         "env_pend": 1819,
         "items": 375,
         "peso_total": 35436.10000000002,
-        "arm_pend_peso": 17402.780000000006,
+        "arm_pend_peso": 17257.58000000001,
         "pint_pend_peso": 34683.82000000002,
         "env_pend_peso": 35436.10000000002
       },
@@ -82732,9 +82732,9 @@
           "long": 2490,
           "cant": 8,
           "peso": 10.16,
-          "arm_lib": 0,
-          "arm_pend": 8,
-          "arm_pend_peso": 10.16,
+          "arm_lib": 8,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 8,
           "pint_pend": 0,
           "pint_pend_peso": 0,
@@ -82750,9 +82750,9 @@
           "long": 2515,
           "cant": 16,
           "peso": 20.48,
-          "arm_lib": 0,
-          "arm_pend": 16,
-          "arm_pend_peso": 20.48,
+          "arm_lib": 16,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 16,
           "pint_pend": 0,
           "pint_pend_peso": 0,
@@ -85720,9 +85720,9 @@
           "long": 1742,
           "cant": 16,
           "peso": 14.88,
-          "arm_lib": 0,
-          "arm_pend": 16,
-          "arm_pend_peso": 14.88,
+          "arm_lib": 16,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 16,
           "pint_pend": 0,
           "pint_pend_peso": 0,
@@ -85738,9 +85738,9 @@
           "long": 1672,
           "cant": 112,
           "peso": 99.68,
-          "arm_lib": 0,
-          "arm_pend": 112,
-          "arm_pend_peso": 99.68,
+          "arm_lib": 112,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 112,
           "pint_pend_peso": 99.68,
@@ -87001,20 +87001,6 @@
           "pend": 1
         },
         {
-          "cod": "BIM-DI-14",
-          "prod": "Diagonal",
-          "long": 2490,
-          "cant": 8,
-          "pend": 8
-        },
-        {
-          "cod": "BIM-DI-15",
-          "prod": "Diagonal",
-          "long": 2515,
-          "cant": 16,
-          "pend": 16
-        },
-        {
           "cod": "BIM-PCL-1",
           "prod": "Correa Lateral/ Perfilado",
           "long": 5788,
@@ -87944,20 +87930,6 @@
           "long": 160,
           "cant": 1,
           "pend": 1
-        },
-        {
-          "cod": "BIM-TI-1",
-          "prod": "Tilla de Traccion",
-          "long": 1742,
-          "cant": 16,
-          "pend": 16
-        },
-        {
-          "cod": "BIM-TI-2",
-          "prod": "Tilla de Traccion",
-          "long": 1672,
-          "cant": 112,
-          "pend": 112
         },
         {
           "cod": "BIM-VTT-1",
