@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T18:57:50.909Z",
+  "updatedAt": "2026-07-16T11:04:31.199Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "25527_1": {
@@ -1055,13 +1055,16 @@
       "pint_state": "galvamax"
     },
     "25681_4": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25681_6": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25681_7": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25708_1": {
       "arm_state": "liberado",
@@ -1674,19 +1677,23 @@
       "pint_state": "pintado"
     },
     "25732_6": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
     },
     "25732_7": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
     },
     "25732_8": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
     },
     "25732_5": {
       "arm_state": "liberado"
     },
     "25732_9": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
     },
     "25572_164": {
       "arm_state": "liberado",
@@ -3391,19 +3398,21 @@
       "arm_state": "liberado"
     },
     "25673_34": {
-      "arm_state": "armado"
+      "arm_state": "liberado"
     },
     "25673_35": {
-      "arm_state": "armado"
+      "arm_state": "liberado"
     },
     "25673_36": {
-      "arm_state": "armado"
+      "arm_state": "liberado"
     },
     "25681_5": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25681_2": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25681_3": {
       "arm_state": "liberado",
@@ -3773,19 +3782,24 @@
       "arm_state": "liberado"
     },
     "25681_9": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25681_10": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25681_11": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25681_12": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25681_20": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25257_62": {
       "arm_state": "liberado",
@@ -4163,25 +4177,32 @@
       "qty_lib": 1
     },
     "25681_19": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25681_14": {
-      "arm_state": "armado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25681_13": {
-      "arm_state": "armado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25681_15": {
-      "arm_state": "armado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25681_16": {
-      "arm_state": "armado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25681_17": {
-      "arm_state": "armado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25681_22": {
-      "arm_state": "armado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25708_164": {
       "arm_state": "liberado",
@@ -4205,7 +4226,8 @@
       "arm_state": "liberado"
     },
     "25708_70": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25708_165": {
       "arm_state": "armado"
@@ -4233,7 +4255,8 @@
     },
     "25257_66": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25257_65": {
       "arm_state": "liberado",
@@ -4368,7 +4391,10 @@
       "arm_state": "liberado",
       "qty_lib": 1
     },
-    "25607_158": {},
+    "25607_158": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
     "25607_155": {
       "arm_state": "liberado",
       "qty_lib": 1
@@ -4392,6 +4418,349 @@
     "25676_166": {
       "arm_state": "liberado",
       "qty_lib": 5
+    },
+    "25607_151": {
+      "qty_lib": 1
+    },
+    "25609_6": {
+      "arm_state": "liberado"
+    },
+    "25673_33": {
+      "arm_state": "liberado"
+    },
+    "25673_32": {
+      "arm_state": "liberado"
+    },
+    "25673_30": {
+      "arm_state": "liberado"
+    },
+    "25681_8": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25681_18": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25681_21": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_202": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 2
+    },
+    "25708_200": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_201": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_203": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_204": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_205": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_206": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_207": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_208": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_209": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_210": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_211": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_212": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_213": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_214": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_215": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_216": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_217": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_218": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_219": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_220": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_221": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_223": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_224": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_225": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_226": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_227": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_228": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_229": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_230": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_231": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_232": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_233": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_234": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_235": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_237": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_238": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_239": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_240": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_241": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_242": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_243": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_244": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_236": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_222": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_33": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_34": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_35": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_36": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_37": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_38": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_39": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_59": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_60": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_61": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_62": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_63": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_64": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_65": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_66": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_67": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_68": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_69": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_71": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_72": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_73": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_74": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_75": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_76": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_77": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_78": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_79": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_80": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_81": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_82": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_199": {
+      "arm_state": "liberado"
+    },
+    "25732_11": {
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
+    },
+    "25732_12": {
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
+    },
+    "25732_13": {
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
     }
   },
   "otMeta": {
@@ -79598,26 +79967,26 @@
       "ot": "25572",
       "obra": "Provision y fabricación,  Las Residentas F1",
       "cliente": "Metarq  S.A",
-      "fecha": "15/7/2026",
+      "fecha": "16/7/2026",
       "avances": {
-        "arm": 46,
-        "pint": 13,
+        "arm": 41,
+        "pint": 14,
         "env": 0,
         "mont": 0
       },
       "totales": {
-        "cant": 2013,
-        "arm_lib": 929,
-        "arm_pend": 1084,
-        "pint_ok": 256,
-        "pint_pend": 1757,
+        "cant": 1819,
+        "arm_lib": 752,
+        "arm_pend": 1067,
+        "pint_ok": 260,
+        "pint_pend": 1559,
         "env_ok": 0,
-        "env_pend": 2013,
-        "items": 434,
-        "peso_total": 39182.640000000036,
-        "arm_pend_peso": 20072.620000000003,
-        "pint_pend_peso": 38425.65000000002,
-        "env_pend_peso": 39182.640000000036
+        "env_pend": 1819,
+        "items": 375,
+        "peso_total": 35436.10000000002,
+        "arm_pend_peso": 17402.780000000006,
+        "pint_pend_peso": 34683.82000000002,
+        "env_pend_peso": 35436.10000000002
       },
       "items": [
         {
@@ -80008,9 +80377,9 @@
           "arm_lib": 2,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 14.9,
+          "pint_ok": 2,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 2,
           "env_pend_peso": 14.9,
@@ -80206,9 +80575,9 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 7.29,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 7.29,
@@ -80278,9 +80647,9 @@
           "arm_lib": 2,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 1,
-          "pint_pend_peso": 7.48,
+          "pint_ok": 2,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 2,
           "env_pend_peso": 14.96,
@@ -80314,9 +80683,9 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 6.9,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 6.9,
@@ -80815,9 +81184,9 @@
           "long": 6000,
           "cant": 6,
           "peso": 65.28,
-          "arm_lib": 0,
-          "arm_pend": 6,
-          "arm_pend_peso": 65.28,
+          "arm_lib": 6,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 6,
           "pint_pend_peso": 65.28,
@@ -82552,24 +82921,6 @@
           "env_ok": 0,
           "env_pend": 8,
           "env_pend_peso": 10.16,
-          "literal": "BIM"
-        },
-        {
-          "item": 179,
-          "cod": "BIM-ME-16",
-          "prod": "Mensula",
-          "long": 466,
-          "cant": 1,
-          "peso": 41.28,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 41.28,
           "literal": "BIM"
         },
         {
@@ -84481,96 +84832,6 @@
           "literal": "BIM"
         },
         {
-          "item": 304,
-          "cod": "BIM-PIS-1",
-          "prod": "Pilar Alma Llena",
-          "long": 5466,
-          "cant": 1,
-          "peso": 330.02,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 330.02,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 330.02,
-          "literal": "BIM"
-        },
-        {
-          "item": 310,
-          "cod": "BIM-PIS-7",
-          "prod": "Pilar Alma Llena",
-          "long": 1571,
-          "cant": 1,
-          "peso": 89.13,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 89.13,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 89.13,
-          "literal": "BIM"
-        },
-        {
-          "item": 327,
-          "cod": "BIM-PIS-24",
-          "prod": "Pilar Alma Llena",
-          "long": 4473,
-          "cant": 1,
-          "peso": 266.33,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 266.33,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 266.33,
-          "literal": "BIM"
-        },
-        {
-          "item": 334,
-          "cod": "BIM-PIS-31",
-          "prod": "Pilar Alma Llena",
-          "long": 4460,
-          "cant": 1,
-          "peso": 253.75,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 253.75,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 253.75,
-          "literal": "BIM"
-        },
-        {
-          "item": 335,
-          "cod": "BIM-PIS-32",
-          "prod": "Pilar Alma Llena",
-          "long": 4312,
-          "cant": 1,
-          "peso": 271.22,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 271.22,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 271.22,
-          "literal": "BIM"
-        },
-        {
           "item": 336,
           "cod": "BIM-PL-1",
           "prod": "Placa",
@@ -85219,204 +85480,6 @@
           "literal": "BIM"
         },
         {
-          "item": 372,
-          "cod": "BIM-SP-2",
-          "prod": "SOPORTE",
-          "long": 126,
-          "cant": 3,
-          "peso": 2.13,
-          "arm_lib": 3,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 3,
-          "pint_pend_peso": 2.13,
-          "env_ok": 0,
-          "env_pend": 3,
-          "env_pend_peso": 2.13,
-          "literal": "BIM"
-        },
-        {
-          "item": 373,
-          "cod": "BIM-SP-3",
-          "prod": "SOPORTE",
-          "long": 653,
-          "cant": 1,
-          "peso": 9.98,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 9.98,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 9.98,
-          "literal": "BIM"
-        },
-        {
-          "item": 374,
-          "cod": "BIM-SP-4",
-          "prod": "SOPORTE",
-          "long": 653,
-          "cant": 1,
-          "peso": 10.08,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 10.08,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 10.08,
-          "literal": "BIM"
-        },
-        {
-          "item": 375,
-          "cod": "BIM-SP-5",
-          "prod": "SOPORTE",
-          "long": 653,
-          "cant": 1,
-          "peso": 10.18,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 10.18,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 10.18,
-          "literal": "BIM"
-        },
-        {
-          "item": 376,
-          "cod": "BIM-SP-6",
-          "prod": "SOPORTE",
-          "long": 140,
-          "cant": 4,
-          "peso": 7.12,
-          "arm_lib": 4,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 4,
-          "pint_pend_peso": 7.12,
-          "env_ok": 0,
-          "env_pend": 4,
-          "env_pend_peso": 7.12,
-          "literal": "BIM"
-        },
-        {
-          "item": 377,
-          "cod": "BIM-SP-7",
-          "prod": "SOPORTE",
-          "long": 140,
-          "cant": 1,
-          "peso": 2.95,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 2.95,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 2.95,
-          "literal": "BIM"
-        },
-        {
-          "item": 378,
-          "cod": "BIM-SP-8",
-          "prod": "SOPORTE",
-          "long": 140,
-          "cant": 4,
-          "peso": 7.48,
-          "arm_lib": 4,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 4,
-          "pint_pend_peso": 7.48,
-          "env_ok": 0,
-          "env_pend": 4,
-          "env_pend_peso": 7.48,
-          "literal": "BIM"
-        },
-        {
-          "item": 379,
-          "cod": "BIM-SP-9",
-          "prod": "SOPORTE",
-          "long": 140,
-          "cant": 1,
-          "peso": 3.14,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 3.14,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 3.14,
-          "literal": "BIM"
-        },
-        {
-          "item": 380,
-          "cod": "BIM-SP-10",
-          "prod": "SOPORTE",
-          "long": 238,
-          "cant": 13,
-          "peso": 36.4,
-          "arm_lib": 13,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 13,
-          "pint_pend_peso": 36.4,
-          "env_ok": 0,
-          "env_pend": 13,
-          "env_pend_peso": 36.4,
-          "literal": "BIM"
-        },
-        {
-          "item": 381,
-          "cod": "BIM-SP-11",
-          "prod": "SOPORTE",
-          "long": 145,
-          "cant": 21,
-          "peso": 32.34,
-          "arm_lib": 21,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 21,
-          "pint_pend_peso": 32.34,
-          "env_ok": 0,
-          "env_pend": 21,
-          "env_pend_peso": 32.34,
-          "literal": "BIM"
-        },
-        {
-          "item": 382,
-          "cod": "BIM-SP-12",
-          "prod": "SOPORTE",
-          "long": 140,
-          "cant": 2,
-          "peso": 1.36,
-          "arm_lib": 2,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 1.36,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 1.36,
-          "literal": "BIM"
-        },
-        {
           "item": 383,
           "cod": "BIM-SP-13",
           "prod": "SOPORTE",
@@ -85435,78 +85498,6 @@
           "literal": "BIM"
         },
         {
-          "item": 384,
-          "cod": "BIM-SP-14",
-          "prod": "SOPORTE",
-          "long": 141,
-          "cant": 8,
-          "peso": 8.16,
-          "arm_lib": 8,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 8,
-          "pint_pend_peso": 8.16,
-          "env_ok": 0,
-          "env_pend": 8,
-          "env_pend_peso": 8.16,
-          "literal": "BIM"
-        },
-        {
-          "item": 385,
-          "cod": "BIM-SP-15",
-          "prod": "SOPORTE",
-          "long": 141,
-          "cant": 2,
-          "peso": 2.26,
-          "arm_lib": 2,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 2.26,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 2.26,
-          "literal": "BIM"
-        },
-        {
-          "item": 386,
-          "cod": "BIM-SP-16",
-          "prod": "SOPORTE",
-          "long": 145,
-          "cant": 5,
-          "peso": 7.7,
-          "arm_lib": 5,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 5,
-          "pint_pend_peso": 7.7,
-          "env_ok": 0,
-          "env_pend": 5,
-          "env_pend_peso": 7.7,
-          "literal": "BIM"
-        },
-        {
-          "item": 387,
-          "cod": "BIM-SP-17",
-          "prod": "SOPORTE",
-          "long": 145,
-          "cant": 1,
-          "peso": 1.54,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 1.54,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 1.54,
-          "literal": "BIM"
-        },
-        {
           "item": 388,
           "cod": "BIM-SP-18",
           "prod": "SOPORTE",
@@ -85522,204 +85513,6 @@
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 2.8,
-          "literal": "BIM"
-        },
-        {
-          "item": 389,
-          "cod": "BIM-SP-19",
-          "prod": "SOPORTE",
-          "long": 595,
-          "cant": 1,
-          "peso": 8.14,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 8.14,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 8.14,
-          "literal": "BIM"
-        },
-        {
-          "item": 390,
-          "cod": "BIM-SP-20",
-          "prod": "SOPORTE",
-          "long": 141,
-          "cant": 14,
-          "peso": 15.4,
-          "arm_lib": 14,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 14,
-          "pint_pend_peso": 15.4,
-          "env_ok": 0,
-          "env_pend": 14,
-          "env_pend_peso": 15.4,
-          "literal": "BIM"
-        },
-        {
-          "item": 391,
-          "cod": "BIM-SP-21",
-          "prod": "SOPORTE",
-          "long": 598,
-          "cant": 1,
-          "peso": 8.9,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 8.9,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 8.9,
-          "literal": "BIM"
-        },
-        {
-          "item": 392,
-          "cod": "BIM-SP-22",
-          "prod": "SOPORTE",
-          "long": 601,
-          "cant": 1,
-          "peso": 8.93,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 8.93,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 8.93,
-          "literal": "BIM"
-        },
-        {
-          "item": 393,
-          "cod": "BIM-SP-23",
-          "prod": "SOPORTE",
-          "long": 604,
-          "cant": 1,
-          "peso": 8.97,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 8.97,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 8.97,
-          "literal": "BIM"
-        },
-        {
-          "item": 394,
-          "cod": "BIM-SP-24",
-          "prod": "SOPORTE",
-          "long": 140,
-          "cant": 1,
-          "peso": 1.1,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 1.1,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 1.1,
-          "literal": "BIM"
-        },
-        {
-          "item": 395,
-          "cod": "BIM-SP-25",
-          "prod": "SOPORTE",
-          "long": 611,
-          "cant": 2,
-          "peso": 18.08,
-          "arm_lib": 2,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 18.08,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 18.08,
-          "literal": "BIM"
-        },
-        {
-          "item": 396,
-          "cod": "BIM-SP-26",
-          "prod": "SOPORTE",
-          "long": 273,
-          "cant": 1,
-          "peso": 15.39,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 15.39,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 15.39,
-          "literal": "BIM"
-        },
-        {
-          "item": 397,
-          "cod": "BIM-SP-27",
-          "prod": "SOPORTE",
-          "long": 614,
-          "cant": 1,
-          "peso": 9.07,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 9.07,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 9.07,
-          "literal": "BIM"
-        },
-        {
-          "item": 398,
-          "cod": "BIM-SP-28",
-          "prod": "SOPORTE",
-          "long": 617,
-          "cant": 1,
-          "peso": 9.11,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 9.11,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 9.11,
-          "literal": "BIM"
-        },
-        {
-          "item": 399,
-          "cod": "BIM-SP-29",
-          "prod": "SOPORTE",
-          "long": 145,
-          "cant": 1,
-          "peso": 1.54,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 1.54,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 1.54,
           "literal": "BIM"
         },
         {
@@ -85993,465 +85786,15 @@
           "literal": "BIM"
         },
         {
-          "item": 415,
-          "cod": "BIM-VAT-1",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5898,
-          "cant": 1,
-          "peso": 39.44,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 39.44,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 39.44,
-          "literal": "BIM"
-        },
-        {
-          "item": 416,
-          "cod": "BIM-VAT-2",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5966,
-          "cant": 1,
-          "peso": 39.86,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 39.86,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 39.86,
-          "literal": "BIM"
-        },
-        {
-          "item": 417,
-          "cod": "BIM-VAT-3",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5888,
-          "cant": 1,
-          "peso": 39.38,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 39.38,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 39.38,
-          "literal": "BIM"
-        },
-        {
-          "item": 418,
-          "cod": "BIM-VAT-4",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5934,
-          "cant": 9,
-          "peso": 356.94,
-          "arm_lib": 9,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 9,
-          "pint_pend_peso": 356.94,
-          "env_ok": 0,
-          "env_pend": 9,
-          "env_pend_peso": 356.94,
-          "literal": "BIM"
-        },
-        {
-          "item": 419,
-          "cod": "BIM-VAT-5",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5909,
-          "cant": 8,
-          "peso": 316.08,
-          "arm_lib": 8,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 8,
-          "pint_pend_peso": 316.08,
-          "env_ok": 0,
-          "env_pend": 8,
-          "env_pend_peso": 316.08,
-          "literal": "BIM"
-        },
-        {
-          "item": 420,
-          "cod": "BIM-VAT-6",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5927,
-          "cant": 9,
-          "peso": 356.58,
-          "arm_lib": 9,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 9,
-          "pint_pend_peso": 356.58,
-          "env_ok": 0,
-          "env_pend": 9,
-          "env_pend_peso": 356.58,
-          "literal": "BIM"
-        },
-        {
-          "item": 421,
-          "cod": "BIM-VAT-7",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5910,
-          "cant": 1,
-          "peso": 39.51,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 39.51,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 39.51,
-          "literal": "BIM"
-        },
-        {
-          "item": 422,
-          "cod": "BIM-VAT-8",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5917,
-          "cant": 1,
-          "peso": 39.56,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 39.56,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 39.56,
-          "literal": "BIM"
-        },
-        {
-          "item": 423,
-          "cod": "BIM-VAT-9",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5958,
-          "cant": 2,
-          "peso": 79.62,
-          "arm_lib": 2,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 79.62,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 79.62,
-          "literal": "BIM"
-        },
-        {
-          "item": 424,
-          "cod": "BIM-VAT-10",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5903,
-          "cant": 2,
-          "peso": 78.94,
-          "arm_lib": 2,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 78.94,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 78.94,
-          "literal": "BIM"
-        },
-        {
-          "item": 425,
-          "cod": "BIM-VAT-11",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5913,
-          "cant": 6,
-          "peso": 237.18,
-          "arm_lib": 6,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 6,
-          "pint_pend_peso": 237.18,
-          "env_ok": 0,
-          "env_pend": 6,
-          "env_pend_peso": 237.18,
-          "literal": "BIM"
-        },
-        {
-          "item": 426,
-          "cod": "BIM-VAT-12",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5773,
-          "cant": 1,
-          "peso": 38.67,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 38.67,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 38.67,
-          "literal": "BIM"
-        },
-        {
-          "item": 427,
-          "cod": "BIM-VAT-13",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5794,
-          "cant": 1,
-          "peso": 38.8,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 38.8,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 38.8,
-          "literal": "BIM"
-        },
-        {
-          "item": 428,
-          "cod": "BIM-VAT-14",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5781,
-          "cant": 1,
-          "peso": 38.72,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 38.72,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 38.72,
-          "literal": "BIM"
-        },
-        {
-          "item": 429,
-          "cod": "BIM-VAT-15",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5952,
-          "cant": 1,
-          "peso": 39.77,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 39.77,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 39.77,
-          "literal": "BIM"
-        },
-        {
-          "item": 430,
-          "cod": "BIM-VAT-16",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5591,
-          "cant": 1,
-          "peso": 37.55,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 37.55,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 37.55,
-          "literal": "BIM"
-        },
-        {
-          "item": 431,
-          "cod": "BIM-VAT-17",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5945,
-          "cant": 1,
-          "peso": 39.73,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 39.73,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 39.73,
-          "literal": "BIM"
-        },
-        {
-          "item": 432,
-          "cod": "BIM-VAT-18",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5926,
-          "cant": 1,
-          "peso": 39.62,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 39.62,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 39.62,
-          "literal": "BIM"
-        },
-        {
-          "item": 433,
-          "cod": "BIM-VAT-19",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5653,
-          "cant": 1,
-          "peso": 37.93,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 37.93,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 37.93,
-          "literal": "BIM"
-        },
-        {
-          "item": 434,
-          "cod": "BIM-VAT-20",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5799,
-          "cant": 1,
-          "peso": 38.83,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 38.83,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 38.83,
-          "literal": "BIM"
-        },
-        {
-          "item": 435,
-          "cod": "BIM-VAT-21",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5922,
-          "cant": 2,
-          "peso": 79.18,
-          "arm_lib": 2,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 79.18,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 79.18,
-          "literal": "BIM"
-        },
-        {
-          "item": 436,
-          "cod": "BIM-VAT-22",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5707,
-          "cant": 1,
-          "peso": 38.27,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 38.27,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 38.27,
-          "literal": "BIM"
-        },
-        {
-          "item": 437,
-          "cod": "BIM-VAT-23",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5772,
-          "cant": 1,
-          "peso": 38.67,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 38.67,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 38.67,
-          "literal": "BIM"
-        },
-        {
-          "item": 438,
-          "cod": "BIM-VAT-24",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5729,
-          "cant": 1,
-          "peso": 38.4,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 38.4,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 38.4,
-          "literal": "BIM"
-        },
-        {
-          "item": 439,
-          "cod": "BIM-VAT-25",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5941,
-          "cant": 1,
-          "peso": 39.7,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 39.7,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 39.7,
-          "literal": "BIM"
-        },
-        {
           "item": 440,
           "cod": "BIM-VSI-1",
           "prod": "Viga secundaria IS",
           "long": 11382,
           "cant": 1,
           "peso": 598.65,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 598.65,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 598.65,
@@ -86467,9 +85810,9 @@
           "long": 5383,
           "cant": 1,
           "peso": 285.51,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 285.51,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 285.51,
@@ -87019,51 +86362,15 @@
           "literal": "BIM"
         },
         {
-          "item": 472,
-          "cod": "BIM-SP-300",
-          "prod": "SOPORTE",
-          "long": 135,
-          "cant": 38,
-          "peso": 37.24,
-          "arm_lib": 38,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 38,
-          "pint_pend_peso": 37.24,
-          "env_ok": 0,
-          "env_pend": 38,
-          "env_pend_peso": 37.24,
-          "literal": "BIM"
-        },
-        {
-          "item": 473,
-          "cod": "BIM-SP-301",
-          "prod": "SOPORTE",
-          "long": 220,
-          "cant": 1,
-          "peso": 3.19,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 3.19,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 3.19,
-          "literal": "BIM"
-        },
-        {
           "item": 474,
           "cod": "BIM-VPI-300",
           "prod": "Viga Principal Alma Llena",
           "long": 5774,
           "cant": 1,
           "peso": 189.89,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 189.89,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 189.89,
@@ -87079,9 +86386,9 @@
           "long": 5780,
           "cant": 1,
           "peso": 190.09,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 190.09,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 190.09,
@@ -87097,9 +86404,9 @@
           "long": 5780,
           "cant": 1,
           "peso": 190.08,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 190.08,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 190.08,
@@ -87115,9 +86422,9 @@
           "long": 5785,
           "cant": 1,
           "peso": 190.23,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 190.23,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 190.23,
@@ -87133,9 +86440,9 @@
           "long": 5416,
           "cant": 1,
           "peso": 179,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 179,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 179,
@@ -87151,9 +86458,9 @@
           "long": 5592,
           "cant": 1,
           "peso": 181.41,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 181.41,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 181.41,
@@ -87187,9 +86494,9 @@
           "long": 5981,
           "cant": 1,
           "peso": 201.78,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 201.78,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 201.78,
@@ -87205,9 +86512,9 @@
           "long": 5997,
           "cant": 1,
           "peso": 202.3,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 202.3,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 202.3,
@@ -87223,9 +86530,9 @@
           "long": 5871,
           "cant": 1,
           "peso": 195.62,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 195.62,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 195.62,
@@ -87524,13 +86831,6 @@
           "long": 5810,
           "cant": 1,
           "pend": 1
-        },
-        {
-          "cod": "BIM-CNP-3",
-          "prod": "Caño Pintado",
-          "long": 6000,
-          "cant": 6,
-          "pend": 6
         },
         {
           "cod": "BIM-CR-1",
@@ -88660,20 +87960,6 @@
           "pend": 112
         },
         {
-          "cod": "BIM-VSI-1",
-          "prod": "Viga secundaria IS",
-          "long": 11382,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-VSI-2",
-          "prod": "Viga secundaria IS",
-          "long": 5383,
-          "cant": 1,
-          "pend": 1
-        },
-        {
           "cod": "BIM-VTT-1",
           "prod": "Viga de techo de tubos",
           "long": 7102,
@@ -88779,72 +88065,9 @@
           "pend": 28
         },
         {
-          "cod": "BIM-VPI-300",
-          "prod": "Viga Principal Alma Llena",
-          "long": 5774,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-VPI-301",
-          "prod": "Viga Principal Alma Llena",
-          "long": 5780,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-VPI-302",
-          "prod": "Viga Principal Alma Llena",
-          "long": 5780,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-VPI-303",
-          "prod": "Viga Principal Alma Llena",
-          "long": 5785,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-VPI-304",
-          "prod": "Viga Principal Alma Llena",
-          "long": 5416,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-VPI-305",
-          "prod": "Viga Principal Alma Llena",
-          "long": 5592,
-          "cant": 1,
-          "pend": 1
-        },
-        {
           "cod": "BIM-VPI-306",
           "prod": "Viga Principal Alma Llena",
           "long": 6093,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-VPI-307",
-          "prod": "Viga Principal Alma Llena",
-          "long": 5981,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-VPI-308",
-          "prod": "Viga Principal Alma Llena",
-          "long": 5997,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-VPI-309",
-          "prod": "Viga Principal Alma Llena",
-          "long": 5871,
           "cant": 1,
           "pend": 1
         },
@@ -88927,34 +88150,6 @@
         }
       ],
       "pint_pend_items": [
-        {
-          "cod": "BIM-CH-22",
-          "prod": "Cruz Horizontal",
-          "long": 8344,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-CH-33",
-          "prod": "Cruz Horizontal",
-          "long": 8171,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-CH-37",
-          "prod": "Cruz Horizontal",
-          "long": 8383,
-          "cant": 2,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-CH-39",
-          "prod": "Cruz Horizontal",
-          "long": 7727,
-          "cant": 1,
-          "pend": 1
-        },
         {
           "cod": "BIM-CL-1",
           "prod": "Correas Laterales",
@@ -90314,41 +89509,6 @@
           "pend": 1
         },
         {
-          "cod": "BIM-PIS-1",
-          "prod": "Pilar Alma Llena",
-          "long": 5466,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PIS-7",
-          "prod": "Pilar Alma Llena",
-          "long": 1571,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PIS-24",
-          "prod": "Pilar Alma Llena",
-          "long": 4473,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PIS-31",
-          "prod": "Pilar Alma Llena",
-          "long": 4460,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PIS-32",
-          "prod": "Pilar Alma Llena",
-          "long": 4312,
-          "cant": 1,
-          "pend": 1
-        },
-        {
           "cod": "BIM-PL-1",
           "prod": "Placa",
           "long": 120,
@@ -90601,83 +89761,6 @@
           "pend": 1
         },
         {
-          "cod": "BIM-SP-2",
-          "prod": "SOPORTE",
-          "long": 126,
-          "cant": 3,
-          "pend": 3
-        },
-        {
-          "cod": "BIM-SP-3",
-          "prod": "SOPORTE",
-          "long": 653,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-SP-4",
-          "prod": "SOPORTE",
-          "long": 653,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-SP-5",
-          "prod": "SOPORTE",
-          "long": 653,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-SP-6",
-          "prod": "SOPORTE",
-          "long": 140,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BIM-SP-7",
-          "prod": "SOPORTE",
-          "long": 140,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-SP-8",
-          "prod": "SOPORTE",
-          "long": 140,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BIM-SP-9",
-          "prod": "SOPORTE",
-          "long": 140,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-SP-10",
-          "prod": "SOPORTE",
-          "long": 238,
-          "cant": 13,
-          "pend": 13
-        },
-        {
-          "cod": "BIM-SP-11",
-          "prod": "SOPORTE",
-          "long": 145,
-          "cant": 21,
-          "pend": 21
-        },
-        {
-          "cod": "BIM-SP-12",
-          "prod": "SOPORTE",
-          "long": 140,
-          "cant": 2,
-          "pend": 2
-        },
-        {
           "cod": "BIM-SP-13",
           "prod": "SOPORTE",
           "long": 2000,
@@ -90685,114 +89768,9 @@
           "pend": 1
         },
         {
-          "cod": "BIM-SP-14",
-          "prod": "SOPORTE",
-          "long": 141,
-          "cant": 8,
-          "pend": 8
-        },
-        {
-          "cod": "BIM-SP-15",
-          "prod": "SOPORTE",
-          "long": 141,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-SP-16",
-          "prod": "SOPORTE",
-          "long": 145,
-          "cant": 5,
-          "pend": 5
-        },
-        {
-          "cod": "BIM-SP-17",
-          "prod": "SOPORTE",
-          "long": 145,
-          "cant": 1,
-          "pend": 1
-        },
-        {
           "cod": "BIM-SP-18",
           "prod": "SOPORTE",
           "long": 238,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-SP-19",
-          "prod": "SOPORTE",
-          "long": 595,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-SP-20",
-          "prod": "SOPORTE",
-          "long": 141,
-          "cant": 14,
-          "pend": 14
-        },
-        {
-          "cod": "BIM-SP-21",
-          "prod": "SOPORTE",
-          "long": 598,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-SP-22",
-          "prod": "SOPORTE",
-          "long": 601,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-SP-23",
-          "prod": "SOPORTE",
-          "long": 604,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-SP-24",
-          "prod": "SOPORTE",
-          "long": 140,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-SP-25",
-          "prod": "SOPORTE",
-          "long": 611,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-SP-26",
-          "prod": "SOPORTE",
-          "long": 273,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-SP-27",
-          "prod": "SOPORTE",
-          "long": 614,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-SP-28",
-          "prod": "SOPORTE",
-          "long": 617,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-SP-29",
-          "prod": "SOPORTE",
-          "long": 145,
           "cant": 1,
           "pend": 1
         },
@@ -90888,144 +89866,375 @@
           "pend": 88
         },
         {
-          "cod": "BIM-VAT-1",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5898,
+          "cod": "BIM-VSI-1",
+          "prod": "Viga secundaria IS",
+          "long": 11382,
           "cant": 1,
           "pend": 1
         },
         {
-          "cod": "BIM-VAT-2",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5966,
+          "cod": "BIM-VSI-2",
+          "prod": "Viga secundaria IS",
+          "long": 5383,
           "cant": 1,
           "pend": 1
         },
         {
-          "cod": "BIM-VAT-3",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5888,
+          "cod": "BIM-VTI-1",
+          "prod": "Viga Techo IS",
+          "long": 19443,
           "cant": 1,
           "pend": 1
         },
         {
-          "cod": "BIM-VAT-4",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5934,
-          "cant": 9,
-          "pend": 9
-        },
-        {
-          "cod": "BIM-VAT-5",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5909,
-          "cant": 8,
-          "pend": 8
-        },
-        {
-          "cod": "BIM-VAT-6",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5927,
-          "cant": 9,
-          "pend": 9
-        },
-        {
-          "cod": "BIM-VAT-7",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5910,
+          "cod": "BIM-VTI-2",
+          "prod": "Viga Techo IS",
+          "long": 19442,
           "cant": 1,
           "pend": 1
         },
         {
-          "cod": "BIM-VAT-8",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5917,
+          "cod": "BIM-VTI-3",
+          "prod": "Viga Techo IS",
+          "long": 19441,
           "cant": 1,
           "pend": 1
         },
         {
-          "cod": "BIM-VAT-9",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5958,
+          "cod": "BIM-VTI-4",
+          "prod": "Viga Techo IS",
+          "long": 19441,
           "cant": 2,
           "pend": 2
         },
         {
-          "cod": "BIM-VAT-10",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5903,
+          "cod": "BIM-VTI-5",
+          "prod": "Viga Techo IS",
+          "long": 19440,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BIM-VTI-6",
+          "prod": "Viga Techo IS",
+          "long": 19440,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BIM-VTI-7",
+          "prod": "Viga Techo IS",
+          "long": 18434,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BIM-VTI-8",
+          "prod": "Viga Techo IS",
+          "long": 18434,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BIM-VTI-9",
+          "prod": "Viga Techo IS",
+          "long": 18434,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BIM-VTI-10",
+          "prod": "Viga Techo IS",
+          "long": 18434,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BIM-VTI-11",
+          "prod": "Viga Techo IS",
+          "long": 18434,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BIM-VTT-1",
+          "prod": "Viga de techo de tubos",
+          "long": 7102,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BIM-VTT-2",
+          "prod": "Viga de techo de tubos",
+          "long": 7623,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BIM-VTT-3",
+          "prod": "Viga de techo de tubos",
+          "long": 6300,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BIM-VTT-4",
+          "prod": "Viga de techo de tubos",
+          "long": 7311,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BIM-VTT-5",
+          "prod": "Viga de techo de tubos",
+          "long": 5207,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BIM-VTT-6",
+          "prod": "Viga de techo de tubos",
+          "long": 4768,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BIM-VTT-7",
+          "prod": "Viga de techo de tubos",
+          "long": 5425,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BIM-VTT-8",
+          "prod": "Viga de techo de tubos",
+          "long": 6649,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BIM-VTT-9",
+          "prod": "Viga de techo de tubos",
+          "long": 7296,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BIM-VTT-10",
+          "prod": "Viga de techo de tubos",
+          "long": 6250,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BIM-VTT-11",
+          "prod": "Viga de techo de tubos",
+          "long": 5012,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BIM-VTT-12",
+          "prod": "Viga de techo de tubos",
+          "long": 5159,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BIM-CK-300",
+          "prod": "Conector",
+          "long": 90,
+          "cant": 251,
+          "pend": 251
+        },
+        {
+          "cod": "BIM-FL-300",
+          "prod": "Faldon - Ml",
+          "long": 215,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BIM-FL-301",
+          "prod": "Faldon - Ml",
+          "long": 70,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BIM-FL-302",
+          "prod": "Faldon - Ml",
+          "long": 120,
           "cant": 2,
           "pend": 2
         },
         {
-          "cod": "BIM-VAT-11",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5913,
-          "cant": 6,
-          "pend": 6
+          "cod": "BIM-PL-300",
+          "prod": "Placa",
+          "long": 225,
+          "cant": 3,
+          "pend": 3
         },
         {
-          "cod": "BIM-VAT-12",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5773,
+          "cod": "BIM-PTC-300",
+          "prod": "Pilar Tubo Caño",
+          "long": 3048,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BIM-SK-300",
+          "prod": "Steel  Deck PT",
+          "long": 6200,
+          "cant": 28,
+          "pend": 28
+        },
+        {
+          "cod": "BIM-VPI-300",
+          "prod": "Viga Principal Alma Llena",
+          "long": 5774,
           "cant": 1,
           "pend": 1
         },
         {
-          "cod": "BIM-VAT-13",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5794,
+          "cod": "BIM-VPI-301",
+          "prod": "Viga Principal Alma Llena",
+          "long": 5780,
           "cant": 1,
           "pend": 1
         },
         {
-          "cod": "BIM-VAT-14",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5781,
+          "cod": "BIM-VPI-302",
+          "prod": "Viga Principal Alma Llena",
+          "long": 5780,
           "cant": 1,
           "pend": 1
         },
         {
-          "cod": "BIM-VAT-15",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5952,
+          "cod": "BIM-VPI-303",
+          "prod": "Viga Principal Alma Llena",
+          "long": 5785,
           "cant": 1,
           "pend": 1
         },
         {
-          "cod": "BIM-VAT-16",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5591,
+          "cod": "BIM-VPI-304",
+          "prod": "Viga Principal Alma Llena",
+          "long": 5416,
           "cant": 1,
           "pend": 1
         },
         {
-          "cod": "BIM-VAT-17",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5945,
+          "cod": "BIM-VPI-305",
+          "prod": "Viga Principal Alma Llena",
+          "long": 5592,
           "cant": 1,
           "pend": 1
         },
         {
-          "cod": "BIM-VAT-18",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5926,
+          "cod": "BIM-VPI-306",
+          "prod": "Viga Principal Alma Llena",
+          "long": 6093,
           "cant": 1,
           "pend": 1
         },
         {
-          "cod": "BIM-VAT-19",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5653,
+          "cod": "BIM-VPI-307",
+          "prod": "Viga Principal Alma Llena",
+          "long": 5981,
           "cant": 1,
           "pend": 1
         },
         {
-          "cod": "BIM-VAT-20",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5799,
+          "cod": "BIM-VPI-308",
+          "prod": "Viga Principal Alma Llena",
+          "long": 5997,
           "cant": 1,
           "pend": 1
+        },
+        {
+          "cod": "BIM-VPI-309",
+          "prod": "Viga Principal Alma Llena",
+          "long": 5871,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BIM-VSI-300",
+          "prod": "Viga secundaria IS",
+          "long": 5810,
+          "cant": 7,
+          "pend": 7
+        },
+        {
+          "cod": "BIM-VSI-301",
+          "prod": "Viga secundaria IS",
+          "long": 5810,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BIM-VSI-302",
+          "prod": "Viga secundaria IS",
+          "long": 5427,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BKK-BR-1",
+          "prod": "Baranda - Unid.",
+          "long": 69,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKK-BR-2",
+          "prod": "Baranda - Unid.",
+          "long": 69,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKK-BR-3",
+          "prod": "Baranda - Unid.",
+          "long": 69,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKK-ES-1",
+          "prod": "Escalera Metalica",
+          "long": 6395,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKK-SP-1",
+          "prod": "SOPORTE",
+          "long": 220,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKK-SP-2",
+          "prod": "SOPORTE",
+          "long": 75,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BKK-VSI-1",
+          "prod": "Viga secundaria IS",
+          "long": 130,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "33765-PL-1",
+          "prod": "Placa",
+          "long": 0,
+          "cant": 5,
+          "pend": 5
         }
       ]
     },
