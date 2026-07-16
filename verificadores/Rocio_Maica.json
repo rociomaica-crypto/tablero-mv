@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T17:11:25.187Z",
+  "updatedAt": "2026-07-16T17:15:51.224Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "25527_1": {
@@ -114079,7 +114079,7 @@
       "ot": "25676",
       "obra": "Fabricación de estructura metálica para Silo Ovetr",
       "cliente": "Santa Rita Constructora S.A",
-      "fecha": "13/7/2026",
+      "fecha": "16/7/2026",
       "avances": {
         "arm": 40,
         "pint": 54,
@@ -114088,16 +114088,16 @@
       },
       "totales": {
         "cant": 2427,
-        "arm_lib": 971.5,
-        "arm_pend": 1455.5,
-        "pint_ok": 1320,
-        "pint_pend": 1107,
+        "arm_lib": 978,
+        "arm_pend": 1449,
+        "pint_ok": 1321,
+        "pint_pend": 1106,
         "env_ok": 0,
         "env_pend": 2427,
         "items": 249,
         "peso_total": 88431.76000000005,
-        "arm_pend_peso": 44156.195,
-        "pint_pend_peso": 22090.550000000003,
+        "arm_pend_peso": 40392.66500000001,
+        "pint_pend_peso": 21444.880000000005,
         "env_pend_peso": 88431.76000000005
       },
       "items": [
@@ -117078,9 +117078,9 @@
           "long": 5577,
           "cant": 5,
           "peso": 798.75,
-          "arm_lib": 2.5,
-          "arm_pend": 2.5,
-          "arm_pend_peso": 399.375,
+          "arm_lib": 5,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 5,
           "pint_pend_peso": 798.75,
@@ -117096,9 +117096,9 @@
           "long": 5577,
           "cant": 4,
           "peso": 661.04,
-          "arm_lib": 2,
-          "arm_pend": 2,
-          "arm_pend_peso": 330.52,
+          "arm_lib": 4,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 4,
           "pint_pend_peso": 661.04,
@@ -117366,9 +117366,9 @@
           "long": 26090,
           "cant": 1,
           "peso": 1402.03,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 1402.03,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 701.015,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 1402.03,
@@ -117384,9 +117384,9 @@
           "long": 26090,
           "cant": 2,
           "peso": 4009.38,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 4009.38,
+          "arm_lib": 1,
+          "arm_pend": 1,
+          "arm_pend_peso": 2004.69,
           "pint_ok": 0,
           "pint_pend": 2,
           "pint_pend_peso": 4009.38,
@@ -117513,9 +117513,9 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 645.67,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 645.67,
@@ -117528,9 +117528,9 @@
           "long": 17065,
           "cant": 1,
           "peso": 655.86,
-          "arm_lib": 0.5,
-          "arm_pend": 0.5,
-          "arm_pend_peso": 327.93,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 655.86,
@@ -119314,20 +119314,6 @@
           "pend": 20
         },
         {
-          "cod": "BJS-VSI-1",
-          "prod": "Viga secundaria IS",
-          "long": 5577,
-          "cant": 5,
-          "pend": 2.5
-        },
-        {
-          "cod": "BJS-VSI-2",
-          "prod": "Viga secundaria IS",
-          "long": 5577,
-          "cant": 4,
-          "pend": 2
-        },
-        {
           "cod": "BJS-VTI-1",
           "prod": "Viga Techo IS",
           "long": 26112,
@@ -119374,21 +119360,14 @@
           "prod": "Viga Techo Reticulada de angulos",
           "long": 26090,
           "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BJS-VTR-11",
           "prod": "Viga Techo Reticulada de angulos",
           "long": 26090,
           "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BJS-VTR-19",
-          "prod": "Viga Techo Reticulada de angulos",
-          "long": 17065,
-          "cant": 1,
-          "pend": 0.5
+          "pend": 1
         },
         {
           "cod": "BJS-CH-41",
@@ -119846,13 +119825,6 @@
           "long": 26090,
           "cant": 2,
           "pend": 2
-        },
-        {
-          "cod": "BJS-VTR-18",
-          "prod": "Viga Techo Reticulada de angulos",
-          "long": 17065,
-          "cant": 1,
-          "pend": 1
         },
         {
           "cod": "BJS-VTR-19",
