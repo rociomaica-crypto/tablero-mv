@@ -93,7 +93,24 @@ function loadOT(){
         updatedAt=data.updatedAt;
         updatedBy=data.updatedBy;
       }
-      if(data.checks){Object.assign(allChecks,data.checks);}
+      if(data.checks){
+        var ARM_ORD={"":0,"armado":1,"soldado":2,"calibrado":3,"liberado":4};
+        var PINT_ORD={"":0,"en_pintura":1,"pintado":2,"galvamax":3,"rackpar":3};
+        Object.keys(data.checks).forEach(function(ck){
+          if(!allChecks[ck]){allChecks[ck]=data.checks[ck];return;}
+          var r=allChecks[ck], inc=data.checks[ck];
+          if(inc.arm_state!==undefined&&(ARM_ORD[inc.arm_state]||0)>(ARM_ORD[r.arm_state||""]||0))
+            r.arm_state=inc.arm_state;
+          if(inc.arm_state_state!==undefined&&(ARM_ORD[inc.arm_state_state]||0)>(ARM_ORD[r.arm_state_state||""]||0))
+            r.arm_state_state=inc.arm_state_state;
+          if(inc.pint_state!==undefined&&(PINT_ORD[inc.pint_state]||0)>(PINT_ORD[r.pint_state||""]||0))
+            r.pint_state=inc.pint_state;
+          if(inc.pint_state_state!==undefined&&(PINT_ORD[inc.pint_state_state]||0)>(PINT_ORD[r.pint_state_state||""]||0))
+            r.pint_state_state=inc.pint_state_state;
+          if(inc.qty_lib!==undefined&&(inc.qty_lib||0)>(r.qty_lib||0))
+            r.qty_lib=inc.qty_lib;
+        });
+      }
     });
     // LPT Loader siempre gana
     if(loaderData){
