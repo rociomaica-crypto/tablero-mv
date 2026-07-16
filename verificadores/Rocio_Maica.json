@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T12:16:22.754Z",
+  "updatedAt": "2026-07-16T12:47:13.886Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "25527_1": {
@@ -2247,33 +2247,42 @@
     },
     "25572_80": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "galvamax"
     },
     "25572_83": {
       "arm_state": "liberado",
-      "qty_lib": 5
+      "qty_lib": 5,
+      "pint_state": "galvamax"
     },
     "25572_95": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "en_pintura"
     },
     "25572_86": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "en_pintura"
     },
     "25572_93": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "en_pintura"
     },
     "25572_100": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "en_pintura"
     },
     "25572_79": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
     },
     "25572_99": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "en_pintura",
+      "qty_lib": 1
     },
     "25607_181": {
       "arm_state": "liberado",
@@ -4280,19 +4289,23 @@
     },
     "25572_81": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "galvamax"
     },
     "25572_82": {
       "arm_state": "liberado",
-      "qty_lib": 2
+      "qty_lib": 2,
+      "pint_state": "en_pintura"
     },
     "25572_84": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "en_pintura"
     },
     "25572_85": {
       "arm_state": "liberado",
-      "qty_lib": 2
+      "qty_lib": 2,
+      "pint_state": "en_pintura"
     },
     "25572_400": {
       "arm_state": "liberado",
@@ -5197,6 +5210,125 @@
     "25572_414": {
       "qty_lib": 128,
       "pint_state": "galvamax"
+    },
+    "25572_69": {
+      "pint_state": "galvamax",
+      "qty_lib": 1
+    },
+    "25572_70": {
+      "pint_state": "galvamax",
+      "qty_lib": 1
+    },
+    "25572_71": {
+      "pint_state": "galvamax",
+      "qty_lib": 1
+    },
+    "25572_72": {
+      "pint_state": "galvamax",
+      "qty_lib": 2
+    },
+    "25572_73": {
+      "pint_state": "galvamax",
+      "qty_lib": 2
+    },
+    "25572_74": {
+      "pint_state": "galvamax",
+      "qty_lib": 4
+    },
+    "25572_75": {
+      "pint_state": "galvamax",
+      "qty_lib": 2
+    },
+    "25572_76": {
+      "pint_state": "galvamax",
+      "qty_lib": 1
+    },
+    "25572_77": {
+      "pint_state": "galvamax",
+      "qty_lib": 1
+    },
+    "25572_78": {
+      "pint_state": "galvamax",
+      "qty_lib": 1
+    },
+    "25572_52": {
+      "pint_state": "en_pintura"
+    },
+    "25572_53": {
+      "pint_state": "en_pintura"
+    },
+    "25572_54": {
+      "pint_state": "en_pintura"
+    },
+    "25572_55": {
+      "pint_state": "en_pintura"
+    },
+    "25572_56": {
+      "pint_state": "en_pintura"
+    },
+    "25572_57": {
+      "pint_state": "en_pintura"
+    },
+    "25572_58": {
+      "pint_state": "en_pintura"
+    },
+    "25572_59": {
+      "pint_state": "en_pintura"
+    },
+    "25572_60": {
+      "pint_state": "en_pintura"
+    },
+    "25572_61": {
+      "pint_state": "en_pintura"
+    },
+    "25572_62": {
+      "pint_state": "en_pintura"
+    },
+    "25572_63": {
+      "pint_state": "en_pintura"
+    },
+    "25572_64": {
+      "pint_state": "en_pintura"
+    },
+    "25572_87": {
+      "pint_state": "en_pintura",
+      "qty_lib": 1
+    },
+    "25572_88": {
+      "pint_state": "en_pintura",
+      "qty_lib": 1
+    },
+    "25572_89": {
+      "pint_state": "en_pintura",
+      "qty_lib": 1
+    },
+    "25572_90": {
+      "pint_state": "en_pintura",
+      "qty_lib": 1
+    },
+    "25572_91": {
+      "pint_state": "en_pintura",
+      "qty_lib": 1
+    },
+    "25572_92": {
+      "pint_state": "en_pintura",
+      "qty_lib": 1
+    },
+    "25572_94": {
+      "pint_state": "en_pintura",
+      "qty_lib": 1
+    },
+    "25572_96": {
+      "pint_state": "en_pintura",
+      "qty_lib": 1
+    },
+    "25572_97": {
+      "pint_state": "en_pintura",
+      "qty_lib": 1
+    },
+    "25572_98": {
+      "pint_state": "en_pintura",
+      "qty_lib": 1
     }
   },
   "otMeta": {
