@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T13:30:32.387Z",
+  "updatedAt": "2026-07-16T13:31:43.545Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "25527_1": {
@@ -1942,15 +1942,18 @@
     },
     "25572_68": {
       "qty_lib": 1,
-      "pint_state": "galvamax"
+      "pint_state": "galvamax",
+      "arm_state": "liberado"
     },
     "25572_66": {
       "qty_lib": 1,
-      "pint_state": "galvamax"
+      "pint_state": "galvamax",
+      "arm_state": "liberado"
     },
     "25572_65": {
       "qty_lib": 2,
-      "pint_state": "galvamax"
+      "pint_state": "galvamax",
+      "arm_state": "liberado"
     },
     "25572_402": {
       "qty_lib": 16,
@@ -2174,7 +2177,7 @@
       "pint_state": "galvamax"
     },
     "25572_13": {
-      "arm_state": "armado",
+      "arm_state": "liberado",
       "qty_lib": 1,
       "pint_state": "galvamax"
     },
@@ -5457,7 +5460,8 @@
     },
     "25572_67": {
       "pint_state": "galvamax",
-      "qty_lib": 6
+      "qty_lib": 6,
+      "arm_state": "liberado"
     },
     "25572_487": {
       "pint_state": "galvamax"
@@ -5480,31 +5484,38 @@
     },
     "25572_4": {
       "pint_state": "galvamax",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "arm_state": "liberado"
     },
     "25572_5": {
       "pint_state": "galvamax",
-      "qty_lib": 3
+      "qty_lib": 3,
+      "arm_state": "liberado"
     },
     "25572_29": {
       "pint_state": "galvamax",
-      "qty_lib": 3
+      "qty_lib": 3,
+      "arm_state": "liberado"
     },
     "25572_41": {
       "pint_state": "galvamax",
-      "qty_lib": 4
+      "qty_lib": 4,
+      "arm_state": "liberado"
     },
     "25572_48": {
       "pint_state": "galvamax",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "arm_state": "liberado"
     },
     "25572_49": {
       "pint_state": "galvamax",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "arm_state": "liberado"
     },
     "25572_50": {
       "pint_state": "galvamax",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "arm_state": "liberado"
     },
     "25572_51": {
       "pint_state": "pintado",
