@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T12:07:49.647Z",
+  "updatedAt": "2026-07-16T12:08:43.371Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "25527_1": {
@@ -5073,6 +5073,10 @@
     },
     "25572_303": {
       "pint_state": "galvamax"
+    },
+    "25572_465": {
+      "pint_state": "galvamax",
+      "qty_lib": 251
     }
   },
   "otMeta": {
