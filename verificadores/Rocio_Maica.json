@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T13:28:17.547Z",
+  "updatedAt": "2026-07-16T13:29:06.605Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "25527_1": {
@@ -1721,15 +1721,18 @@
     },
     "25572_466": {
       "qty_lib": 4,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
     },
     "25572_467": {
       "qty_lib": 4,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
     },
     "25572_468": {
       "qty_lib": 4,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
     },
     "25572_472": {
       "qty_lib": 38,
