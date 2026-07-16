@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T13:54:50.115Z",
+  "updatedAt": "2026-07-16T13:57:52.432Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "25527_1": {
@@ -81140,22 +81140,22 @@
       "cliente": "Metarq  S.A",
       "fecha": "16/7/2026",
       "avances": {
-        "arm": 50,
+        "arm": 62,
         "pint": 14,
         "env": 0,
         "mont": 0
       },
       "totales": {
         "cant": 1819,
-        "arm_lib": 904,
-        "arm_pend": 915,
+        "arm_lib": 1129,
+        "arm_pend": 690,
         "pint_ok": 260,
         "pint_pend": 1559,
         "env_ok": 0,
         "env_pend": 1819,
         "items": 375,
         "peso_total": 35436.10000000002,
-        "arm_pend_peso": 17257.58000000001,
+        "arm_pend_peso": 17236.69000000001,
         "pint_pend_peso": 34683.82000000002,
         "env_pend_peso": 35436.10000000002
       },
@@ -86621,9 +86621,9 @@
           "long": 50,
           "cant": 224,
           "peso": 20.16,
-          "arm_lib": 0,
-          "arm_pend": 224,
-          "arm_pend_peso": 20.16,
+          "arm_lib": 224,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 224,
           "pint_pend_peso": 20.16,
@@ -86639,9 +86639,9 @@
           "long": 160,
           "cant": 1,
           "peso": 0.73,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 0.73,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 0.73,
@@ -89085,20 +89085,6 @@
           "cod": "BIM-PTC-29",
           "prod": "Pilar Tubo Caño",
           "long": 2458,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-SD-2",
-          "prod": "Soporte Diagonal",
-          "long": 50,
-          "cant": 224,
-          "pend": 224
-        },
-        {
-          "cod": "BIM-SP-1",
-          "prod": "SOPORTE",
-          "long": 160,
           "cant": 1,
           "pend": 1
         },
