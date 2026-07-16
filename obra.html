@@ -179,17 +179,22 @@ function renderOT(o, updatedAt, updatedBy, checks){
   var pintTot=t._pintExcluded?t.cant_pint:tot;
   var pintPendPeso=t._pintExcluded?t.pint_pend_peso_adj:(t.pint_pend_peso||0);
 
-  // Calculate checker states from checks
-  var armado=0, soldado=0, enPintura=0, pintado=0, galvamax=0;
-  // Count by state from checks
+  // Calculate checker states from checks - contar PIEZAS no items
+  var armado=0, soldado=0, enPintura=0, pintado=0, galvamax=0, rackpar=0;
+  // Build map from item number to cant for piece counting
+  var itemCant={};
+  if(o.items){o.items.forEach(function(it){itemCant[it.item]=it.cant||1;});}
   Object.keys(checks).forEach(function(key){
     if(key.indexOf(otNum+"_")!==0)return;
     var c=checks[key];
-    if(c.arm_state==="armado")armado++;
-    if(c.arm_state==="soldado")soldado++;
-    if(c.pint_state==="en_pintura")enPintura++;
-    if(c.pint_state==="pintado")pintado++;
-    if(c.pint_state==="galvamax")galvamax++;
+    var itemNum=key.split("_")[1];
+    var pzas=itemCant[itemNum]||1;
+    if(c.arm_state==="armado"||c.arm_state_state==="armado")armado+=pzas;
+    if(c.arm_state==="soldado"||c.arm_state_state==="soldado")soldado+=pzas;
+    if(c.pint_state==="en_pintura"||c.pint_state_state==="en_pintura")enPintura+=pzas;
+    if(c.pint_state==="pintado"||c.pint_state_state==="pintado")pintado+=pzas;
+    if(c.pint_state==="galvamax"||c.pint_state_state==="galvamax")galvamax+=pzas;
+    if(c.pint_state==="rackpar"||c.pint_state_state==="rackpar")rackpar+=pzas;
   });
   // Items with no state = pending (use LPT arm_pend as base)
   var pendiente=t.arm_pend-(armado+soldado);
@@ -230,13 +235,15 @@ function renderOT(o, updatedAt, updatedBy, checks){
 
     "<div class=\"section-title\">Seguimiento checker — avance detallado</div>";
 
-  // Checker detail sectors
-  if(soldado>0||armado>0||enPintura>0||pintado>0||galvamax>0){
-    html+=makeCheckerSector("&#9874;","Soldado (libera a pintura)",soldadoPct,soldado,tot,"#059669")+
-      makeCheckerSector("&#128295;","En proceso de armado",armadoPct,armado,tot,"#3B82F6")+
-      makeCheckerSector("&#127912;","En pintura",enPintPct,enPintura,tot,"#F59E0B")+
-      makeCheckerSector("&#10003;","Pintado",pintadoPct,pintado,tot,"#10B981")+
-      makeCheckerSector("&#9881;","Galvamax",galvamaxPct,galvamax,tot,"#8B5CF6");
+  // Checker detail sectors - solo mostrar los que tienen piezas
+  if(soldado>0||armado>0||enPintura>0||pintado>0||galvamax>0||rackpar>0){
+    html+="";
+    if(soldado>0)html+=makeCheckerSector("&#9874;","Soldado (libera a pintura)",soldadoPct,soldado,tot,"#059669");
+    if(armado>0)html+=makeCheckerSector("&#128295;","En proceso de armado",armadoPct,armado,tot,"#3B82F6");
+    if(enPintura>0)html+=makeCheckerSector("&#127912;","En pintura",enPintPct,enPintura,tot,"#F59E0B");
+    if(pintado>0)html+=makeCheckerSector("&#10003;","Pintado",pintadoPct,pintado,tot,"#10B981");
+    if(galvamax>0)html+=makeCheckerSector("&#9881;","Galvamax",galvamaxPct,galvamax,tot,"#8B5CF6");
+    if(rackpar>0)html+=makeCheckerSector("&#9881;","Rackpar",Math.round(rackpar/tot*100),rackpar,tot,"#EC4899");
   }else{
     html+="<div style=\"background:#fff;border-radius:10px;padding:14px;text-align:center;color:#7BA7C4;font-size:12px;border:1px solid #E8F4FD\">El checker aun no ha registrado avance detallado</div>";
   }
