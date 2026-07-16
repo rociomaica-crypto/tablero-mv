@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T12:47:13.886Z",
+  "updatedAt": "2026-07-16T12:47:48.832Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "25527_1": {
@@ -5252,43 +5252,56 @@
       "qty_lib": 1
     },
     "25572_52": {
-      "pint_state": "en_pintura"
+      "pint_state": "galvamax",
+      "qty_lib": 1
     },
     "25572_53": {
-      "pint_state": "en_pintura"
+      "pint_state": "galvamax",
+      "qty_lib": 1
     },
     "25572_54": {
-      "pint_state": "en_pintura"
+      "pint_state": "galvamax",
+      "qty_lib": 1
     },
     "25572_55": {
-      "pint_state": "en_pintura"
+      "pint_state": "galvamax",
+      "qty_lib": 1
     },
     "25572_56": {
-      "pint_state": "en_pintura"
+      "pint_state": "galvamax",
+      "qty_lib": 1
     },
     "25572_57": {
-      "pint_state": "en_pintura"
+      "pint_state": "galvamax",
+      "qty_lib": 1
     },
     "25572_58": {
-      "pint_state": "en_pintura"
+      "pint_state": "galvamax",
+      "qty_lib": 1
     },
     "25572_59": {
-      "pint_state": "en_pintura"
+      "pint_state": "galvamax",
+      "qty_lib": 1
     },
     "25572_60": {
-      "pint_state": "en_pintura"
+      "pint_state": "galvamax",
+      "qty_lib": 4
     },
     "25572_61": {
-      "pint_state": "en_pintura"
+      "pint_state": "galvamax",
+      "qty_lib": 1
     },
     "25572_62": {
-      "pint_state": "en_pintura"
+      "pint_state": "galvamax",
+      "qty_lib": 1
     },
     "25572_63": {
-      "pint_state": "en_pintura"
+      "pint_state": "galvamax",
+      "qty_lib": 1
     },
     "25572_64": {
-      "pint_state": "en_pintura"
+      "pint_state": "galvamax",
+      "qty_lib": 1
     },
     "25572_87": {
       "pint_state": "en_pintura",
