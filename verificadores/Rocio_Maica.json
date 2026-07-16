@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T12:49:48.214Z",
+  "updatedAt": "2026-07-16T12:59:45.910Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "25527_1": {
@@ -5349,6 +5349,23 @@
     "25572_67": {
       "pint_state": "galvamax",
       "qty_lib": 6
+    },
+    "25572_487": {
+      "pint_state": "en_pintura"
+    },
+    "25572_488": {
+      "pint_state": "en_pintura"
+    },
+    "25572_489": {
+      "pint_state": "en_pintura"
+    },
+    "25572_368": {
+      "pint_state": "galvamax",
+      "qty_lib": 76
+    },
+    "25572_369": {
+      "pint_state": "galvamax",
+      "qty_lib": 76
     }
   },
   "otMeta": {
