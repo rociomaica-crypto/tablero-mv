@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T17:51:11.841Z",
+  "updatedAt": "2026-07-17T09:55:30.020Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "25527_1": {
@@ -4318,29 +4318,36 @@
       "pint_state": "pintado"
     },
     "25708_180": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25708_179": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25708_188": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25708_70": {
       "arm_state": "liberado",
       "pint_state": "pintado"
     },
     "25708_165": {
-      "arm_state": "armado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25708_166": {
-      "arm_state": "armado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25708_167": {
-      "arm_state": "armado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25708_171": {
-      "arm_state": "armado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25257_61": {
       "arm_state": "liberado",
@@ -4524,7 +4531,7 @@
       "qty_lib": 1
     },
     "25607_154": {
-      "arm_state": "calibrado",
+      "arm_state": "liberado",
       "qty_lib": 1
     },
     "25607_150": {
@@ -4544,7 +4551,8 @@
       "qty_lib": 5
     },
     "25607_151": {
-      "qty_lib": 1
+      "qty_lib": 1,
+      "arm_state": "liberado"
     },
     "25609_6": {
       "arm_state": "liberado"
@@ -5526,37 +5534,49 @@
       "qty_lib": 1
     },
     "25572_440": {
-      "pint_state": "galvamax"
+      "pint_state": "galvamax",
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25572_441": {
-      "pint_state": "galvamax"
+      "pint_state": "galvamax",
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25572_493": {
-      "pint_state": "galvamax"
+      "pint_state": "galvamax",
+      "arm_state": "liberado",
+      "qty_lib": 2
     },
     "25572_474": {
       "pint_state": "galvamax",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "arm_state": "liberado"
     },
     "25572_475": {
       "pint_state": "galvamax",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "arm_state": "liberado"
     },
     "25572_476": {
       "pint_state": "galvamax",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "arm_state": "liberado"
     },
     "25572_477": {
       "pint_state": "galvamax",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "arm_state": "liberado"
     },
     "25572_478": {
       "pint_state": "galvamax",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "arm_state": "liberado"
     },
     "25572_479": {
       "pint_state": "galvamax",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "arm_state": "liberado"
     },
     "25572_480": {
       "pint_state": "galvamax",
@@ -5564,15 +5584,18 @@
     },
     "25572_481": {
       "pint_state": "galvamax",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "arm_state": "liberado"
     },
     "25572_482": {
       "pint_state": "galvamax",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "arm_state": "liberado"
     },
     "25572_483": {
       "pint_state": "galvamax",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "arm_state": "liberado"
     },
     "25572_140": {
       "pint_state": "pintado",
@@ -5932,6 +5955,284 @@
     },
     "25572_490": {
       "pint_state": "galvamax"
+    },
+    "25257_68": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25607_51": {
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
+    },
+    "25607_52": {
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
+    },
+    "25607_53": {
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
+    },
+    "25607_54": {
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
+    },
+    "25607_55": {
+      "arm_state": "liberado"
+    },
+    "25607_56": {
+      "arm_state": "liberado"
+    },
+    "25607_60": {
+      "arm_state": "liberado"
+    },
+    "25607_66": {
+      "arm_state": "liberado"
+    },
+    "25607_58": {
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
+    },
+    "25607_59": {
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
+    },
+    "25607_62": {
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
+    },
+    "25607_63": {
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
+    },
+    "25607_61": {
+      "arm_state": "liberado"
+    },
+    "25607_67": {
+      "arm_state": "liberado"
+    },
+    "25607_68": {
+      "arm_state": "liberado"
+    },
+    "25607_4": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25607_5": {
+      "arm_state": "armado"
+    },
+    "25607_169": {
+      "arm_state": "liberado"
+    },
+    "25708_127": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_128": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_129": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_130": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_131": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_132": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_133": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_162": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_173": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_174": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_175": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_176": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_177": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_178": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_181": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_183": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_184": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_185": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_186": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_187": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_189": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_190": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_191": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_192": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_168": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_170": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_271": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_272": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_273": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_274": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_275": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_276": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_277": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_278": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_279": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_280": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_281": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_282": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_283": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_284": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_285": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_286": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_261": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_262": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_263": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_264": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_265": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_266": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_268": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25708_269": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25572_484": {
+      "arm_state": "liberado",
+      "qty_lib": 7
+    },
+    "25572_485": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25572_486": {
+      "arm_state": "liberado"
     }
   },
   "otMeta": {
@@ -131431,6 +131732,1279 @@
           "long": 230,
           "cant": 1,
           "pend": 1
+        }
+      ]
+    },
+    "25742": {
+      "ot": "25742",
+      "obra": "Estructura de soporte para motores  y Extractores",
+      "cliente": "VENTURIO S.A",
+      "fecha": "17/7/2026",
+      "avances": {
+        "arm": 11,
+        "pint": 0,
+        "env": 0,
+        "mont": 0
+      },
+      "totales": {
+        "cant": 271,
+        "arm_lib": 30,
+        "arm_pend": 241,
+        "pint_ok": 0,
+        "pint_pend": 271,
+        "env_ok": 0,
+        "env_pend": 271,
+        "items": 39,
+        "peso_total": 10720.16,
+        "arm_pend_peso": 10583.06,
+        "pint_pend_peso": 10720.16,
+        "env_pend_peso": 10720.16
+      },
+      "items": [
+        {
+          "item": 1,
+          "cod": "BKM-LLP-1",
+          "prod": "Angulo Pintado",
+          "long": 6000,
+          "cant": 4,
+          "peso": 0,
+          "arm_lib": 0,
+          "arm_pend": 4,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 4,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 4,
+          "env_pend_peso": 0,
+          "literal": "BKM"
+        },
+        {
+          "item": 2,
+          "cod": "BKM-LLP-2",
+          "prod": "Angulo Pintado",
+          "long": 6000,
+          "cant": 4,
+          "peso": 0,
+          "arm_lib": 0,
+          "arm_pend": 4,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 4,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 4,
+          "env_pend_peso": 0,
+          "literal": "BKM"
+        },
+        {
+          "item": 3,
+          "cod": "BKM-CNP-1",
+          "prod": "Caño Pintado",
+          "long": 1654,
+          "cant": 4,
+          "peso": 40.72,
+          "arm_lib": 0,
+          "arm_pend": 4,
+          "arm_pend_peso": 40.72,
+          "pint_ok": 0,
+          "pint_pend": 4,
+          "pint_pend_peso": 40.72,
+          "env_ok": 0,
+          "env_pend": 4,
+          "env_pend_peso": 40.72,
+          "literal": "BKM"
+        },
+        {
+          "item": 4,
+          "cod": "BKM-CNP-2",
+          "prod": "Caño Pintado",
+          "long": 888,
+          "cant": 2,
+          "peso": 10.94,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 10.94,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 10.94,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 10.94,
+          "literal": "BKM"
+        },
+        {
+          "item": 5,
+          "cod": "BKM-CNP-3",
+          "prod": "Caño Pintado",
+          "long": 726,
+          "cant": 2,
+          "peso": 8.94,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 8.94,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 8.94,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 8.94,
+          "literal": "BKM"
+        },
+        {
+          "item": 6,
+          "cod": "BKM-CNP-4",
+          "prod": "Caño Pintado",
+          "long": 1606,
+          "cant": 2,
+          "peso": 19.78,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 19.78,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 19.78,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 19.78,
+          "literal": "BKM"
+        },
+        {
+          "item": 7,
+          "cod": "BKM-CNP-5",
+          "prod": "Caño Pintado",
+          "long": 781,
+          "cant": 5,
+          "peso": 24.05,
+          "arm_lib": 0,
+          "arm_pend": 5,
+          "arm_pend_peso": 24.05,
+          "pint_ok": 0,
+          "pint_pend": 5,
+          "pint_pend_peso": 24.05,
+          "env_ok": 0,
+          "env_pend": 5,
+          "env_pend_peso": 24.05,
+          "literal": "BKM"
+        },
+        {
+          "item": 8,
+          "cod": "BKM-CNP-6",
+          "prod": "Caño Pintado",
+          "long": 635,
+          "cant": 9,
+          "peso": 35.19,
+          "arm_lib": 0,
+          "arm_pend": 9,
+          "arm_pend_peso": 35.19,
+          "pint_ok": 0,
+          "pint_pend": 9,
+          "pint_pend_peso": 35.19,
+          "env_ok": 0,
+          "env_pend": 9,
+          "env_pend_peso": 35.19,
+          "literal": "BKM"
+        },
+        {
+          "item": 9,
+          "cod": "BKM-CNP-7",
+          "prod": "Caño Pintado",
+          "long": 1050,
+          "cant": 8,
+          "peso": 51.68,
+          "arm_lib": 0,
+          "arm_pend": 8,
+          "arm_pend_peso": 51.68,
+          "pint_ok": 0,
+          "pint_pend": 8,
+          "pint_pend_peso": 51.68,
+          "env_ok": 0,
+          "env_pend": 8,
+          "env_pend_peso": 51.68,
+          "literal": "BKM"
+        },
+        {
+          "item": 10,
+          "cod": "BKM-CNP-8",
+          "prod": "Caño Pintado",
+          "long": 850,
+          "cant": 6,
+          "peso": 24.96,
+          "arm_lib": 0,
+          "arm_pend": 6,
+          "arm_pend_peso": 24.96,
+          "pint_ok": 0,
+          "pint_pend": 6,
+          "pint_pend_peso": 24.96,
+          "env_ok": 0,
+          "env_pend": 6,
+          "env_pend_peso": 24.96,
+          "literal": "BKM"
+        },
+        {
+          "item": 11,
+          "cod": "BKM-CNP-9",
+          "prod": "Caño Pintado",
+          "long": 1406,
+          "cant": 2,
+          "peso": 13.78,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 13.78,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 13.78,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 13.78,
+          "literal": "BKM"
+        },
+        {
+          "item": 12,
+          "cod": "BKM-CNP-10",
+          "prod": "Caño Pintado",
+          "long": 4220,
+          "cant": 2,
+          "peso": 51.94,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 51.94,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 51.94,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 51.94,
+          "literal": "BKM"
+        },
+        {
+          "item": 13,
+          "cod": "BKM-CNP-11",
+          "prod": "Caño Pintado",
+          "long": 3322,
+          "cant": 2,
+          "peso": 40.9,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 40.9,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 40.9,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 40.9,
+          "literal": "BKM"
+        },
+        {
+          "item": 14,
+          "cod": "BKM-CNP-12",
+          "prod": "Caño Pintado",
+          "long": 812,
+          "cant": 2,
+          "peso": 10,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 10,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 10,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 10,
+          "literal": "BKM"
+        },
+        {
+          "item": 15,
+          "cod": "BKM-CNP-13",
+          "prod": "Caño Pintado",
+          "long": 656,
+          "cant": 2,
+          "peso": 8.08,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 8.08,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 8.08,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 8.08,
+          "literal": "BKM"
+        },
+        {
+          "item": 16,
+          "cod": "BKM-CNP-14",
+          "prod": "Caño Pintado",
+          "long": 977,
+          "cant": 2,
+          "peso": 12.02,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 12.02,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 12.02,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 12.02,
+          "literal": "BKM"
+        },
+        {
+          "item": 17,
+          "cod": "BKM-CNP-15",
+          "prod": "Caño Pintado",
+          "long": 1450,
+          "cant": 2,
+          "peso": 17.84,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 17.84,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 17.84,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 17.84,
+          "literal": "BKM"
+        },
+        {
+          "item": 18,
+          "cod": "BKM-CNP-16",
+          "prod": "Caño Pintado",
+          "long": 1250,
+          "cant": 2,
+          "peso": 12.24,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 12.24,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 12.24,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 12.24,
+          "literal": "BKM"
+        },
+        {
+          "item": 19,
+          "cod": "BKM-CNP-17",
+          "prod": "Caño Pintado",
+          "long": 1298,
+          "cant": 2,
+          "peso": 15.98,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 15.98,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 15.98,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 15.98,
+          "literal": "BKM"
+        },
+        {
+          "item": 20,
+          "cod": "BKM-CNP-18",
+          "prod": "Caño Pintado",
+          "long": 750,
+          "cant": 1,
+          "peso": 4.62,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 4.62,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 4.62,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 4.62,
+          "literal": "BKM"
+        },
+        {
+          "item": 21,
+          "cod": "BKM-CNP-19",
+          "prod": "Caño Pintado",
+          "long": 735,
+          "cant": 1,
+          "peso": 4.53,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 4.53,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 4.53,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 4.53,
+          "literal": "BKM"
+        },
+        {
+          "item": 22,
+          "cod": "BKM-CNP-20",
+          "prod": "Caño Pintado",
+          "long": 776,
+          "cant": 2,
+          "peso": 9.56,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 9.56,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 9.56,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 9.56,
+          "literal": "BKM"
+        },
+        {
+          "item": 23,
+          "cod": "BKM-CNP-21",
+          "prod": "Caño Pintado",
+          "long": 800,
+          "cant": 2,
+          "peso": 7.84,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 7.84,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 7.84,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 7.84,
+          "literal": "BKM"
+        },
+        {
+          "item": 24,
+          "cod": "BKM-CNP-22",
+          "prod": "Caño Pintado",
+          "long": 3106,
+          "cant": 2,
+          "peso": 38.24,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 38.24,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 38.24,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 38.24,
+          "literal": "BKM"
+        },
+        {
+          "item": 25,
+          "cod": "BKM-CNP-23",
+          "prod": "Caño Pintado",
+          "long": 922,
+          "cant": 2,
+          "peso": 11.34,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 11.34,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 11.34,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 11.34,
+          "literal": "BKM"
+        },
+        {
+          "item": 26,
+          "cod": "BKM-PA-1",
+          "prod": "Pasarela Metalica",
+          "long": 2000,
+          "cant": 1,
+          "peso": 55.37,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 55.37,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 55.37,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 55.37,
+          "literal": "BKM"
+        },
+        {
+          "item": 27,
+          "cod": "BKM-PL-1",
+          "prod": "Placa",
+          "long": 328,
+          "cant": 30,
+          "peso": 137.1,
+          "arm_lib": 30,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 30,
+          "pint_pend_peso": 137.1,
+          "env_ok": 0,
+          "env_pend": 30,
+          "env_pend_peso": 137.1,
+          "literal": "BKM"
+        },
+        {
+          "item": 28,
+          "cod": "BKM-VST-1",
+          "prod": "Viga Secundaria Tubo o caños",
+          "long": 3881,
+          "cant": 4,
+          "peso": 187.24,
+          "arm_lib": 0,
+          "arm_pend": 4,
+          "arm_pend_peso": 187.24,
+          "pint_ok": 0,
+          "pint_pend": 4,
+          "pint_pend_peso": 187.24,
+          "env_ok": 0,
+          "env_pend": 4,
+          "env_pend_peso": 187.24,
+          "literal": "BKM"
+        },
+        {
+          "item": 29,
+          "cod": "BKM-CNP-100",
+          "prod": "Caño Pintado",
+          "long": 6000,
+          "cant": 18,
+          "peso": 7079.4,
+          "arm_lib": 0,
+          "arm_pend": 18,
+          "arm_pend_peso": 7079.4,
+          "pint_ok": 0,
+          "pint_pend": 18,
+          "pint_pend_peso": 7079.4,
+          "env_ok": 0,
+          "env_pend": 18,
+          "env_pend_peso": 7079.4,
+          "literal": "BKM"
+        },
+        {
+          "item": 30,
+          "cod": "BKM-PA-100",
+          "prod": "Pasarela Metalica",
+          "long": 3004,
+          "cant": 2,
+          "peso": 168.8,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 168.8,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 168.8,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 168.8,
+          "literal": "BKM"
+        },
+        {
+          "item": 31,
+          "cod": "BKM-PA-101",
+          "prod": "Pasarela Metalica",
+          "long": 3002,
+          "cant": 6,
+          "peso": 506.4,
+          "arm_lib": 0,
+          "arm_pend": 6,
+          "arm_pend_peso": 506.4,
+          "pint_ok": 0,
+          "pint_pend": 6,
+          "pint_pend_peso": 506.4,
+          "env_ok": 0,
+          "env_pend": 6,
+          "env_pend_peso": 506.4,
+          "literal": "BKM"
+        },
+        {
+          "item": 32,
+          "cod": "BKM-PA-102",
+          "prod": "Pasarela Metalica",
+          "long": 3002,
+          "cant": 2,
+          "peso": 168.8,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 168.8,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 168.8,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 168.8,
+          "literal": "BKM"
+        },
+        {
+          "item": 33,
+          "cod": "BKM-PA-103",
+          "prod": "Pasarela Metalica",
+          "long": 3004,
+          "cant": 3,
+          "peso": 253.2,
+          "arm_lib": 0,
+          "arm_pend": 3,
+          "arm_pend_peso": 253.2,
+          "pint_ok": 0,
+          "pint_pend": 3,
+          "pint_pend_peso": 253.2,
+          "env_ok": 0,
+          "env_pend": 3,
+          "env_pend_peso": 253.2,
+          "literal": "BKM"
+        },
+        {
+          "item": 34,
+          "cod": "BKM-PA-104",
+          "prod": "Pasarela Metalica",
+          "long": 3004,
+          "cant": 1,
+          "peso": 84.4,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 84.4,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 84.4,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 84.4,
+          "literal": "BKM"
+        },
+        {
+          "item": 35,
+          "cod": "BKM-PA-105",
+          "prod": "Pasarela Metalica",
+          "long": 3002,
+          "cant": 11,
+          "peso": 928.4,
+          "arm_lib": 0,
+          "arm_pend": 11,
+          "arm_pend_peso": 928.4,
+          "pint_ok": 0,
+          "pint_pend": 11,
+          "pint_pend_peso": 928.4,
+          "env_ok": 0,
+          "env_pend": 11,
+          "env_pend_peso": 928.4,
+          "literal": "BKM"
+        },
+        {
+          "item": 36,
+          "cod": "BKM-PA-106",
+          "prod": "Pasarela Metalica",
+          "long": 406,
+          "cant": 1,
+          "peso": 14.16,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 14.16,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 14.16,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 14.16,
+          "literal": "BKM"
+        },
+        {
+          "item": 37,
+          "cod": "BKM-PA-107",
+          "prod": "Pasarela Metalica",
+          "long": 1646,
+          "cant": 1,
+          "peso": 47.2,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 47.2,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 47.2,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 47.2,
+          "literal": "BKM"
+        },
+        {
+          "item": 38,
+          "cod": "BKM-PA-108",
+          "prod": "Pasarela Metalica",
+          "long": 3002,
+          "cant": 1,
+          "peso": 84.4,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 84.4,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 84.4,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 84.4,
+          "literal": "BKM"
+        },
+        {
+          "item": 39,
+          "cod": "BKM-PL-100",
+          "prod": "Placa",
+          "long": 328,
+          "cant": 116,
+          "peso": 530.12,
+          "arm_lib": 0,
+          "arm_pend": 116,
+          "arm_pend_peso": 530.12,
+          "pint_ok": 0,
+          "pint_pend": 116,
+          "pint_pend_peso": 530.12,
+          "env_ok": 0,
+          "env_pend": 116,
+          "env_pend_peso": 530.12,
+          "literal": "BKM"
+        }
+      ],
+      "arm_pend_items": [
+        {
+          "cod": "BKM-LLP-1",
+          "prod": "Angulo Pintado",
+          "long": 6000,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BKM-LLP-2",
+          "prod": "Angulo Pintado",
+          "long": 6000,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BKM-CNP-1",
+          "prod": "Caño Pintado",
+          "long": 1654,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BKM-CNP-2",
+          "prod": "Caño Pintado",
+          "long": 888,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BKM-CNP-3",
+          "prod": "Caño Pintado",
+          "long": 726,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BKM-CNP-4",
+          "prod": "Caño Pintado",
+          "long": 1606,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BKM-CNP-5",
+          "prod": "Caño Pintado",
+          "long": 781,
+          "cant": 5,
+          "pend": 5
+        },
+        {
+          "cod": "BKM-CNP-6",
+          "prod": "Caño Pintado",
+          "long": 635,
+          "cant": 9,
+          "pend": 9
+        },
+        {
+          "cod": "BKM-CNP-7",
+          "prod": "Caño Pintado",
+          "long": 1050,
+          "cant": 8,
+          "pend": 8
+        },
+        {
+          "cod": "BKM-CNP-8",
+          "prod": "Caño Pintado",
+          "long": 850,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "BKM-CNP-9",
+          "prod": "Caño Pintado",
+          "long": 1406,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BKM-CNP-10",
+          "prod": "Caño Pintado",
+          "long": 4220,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BKM-CNP-11",
+          "prod": "Caño Pintado",
+          "long": 3322,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BKM-CNP-12",
+          "prod": "Caño Pintado",
+          "long": 812,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BKM-CNP-13",
+          "prod": "Caño Pintado",
+          "long": 656,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BKM-CNP-14",
+          "prod": "Caño Pintado",
+          "long": 977,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BKM-CNP-15",
+          "prod": "Caño Pintado",
+          "long": 1450,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BKM-CNP-16",
+          "prod": "Caño Pintado",
+          "long": 1250,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BKM-CNP-17",
+          "prod": "Caño Pintado",
+          "long": 1298,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BKM-CNP-18",
+          "prod": "Caño Pintado",
+          "long": 750,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKM-CNP-19",
+          "prod": "Caño Pintado",
+          "long": 735,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKM-CNP-20",
+          "prod": "Caño Pintado",
+          "long": 776,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BKM-CNP-21",
+          "prod": "Caño Pintado",
+          "long": 800,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BKM-CNP-22",
+          "prod": "Caño Pintado",
+          "long": 3106,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BKM-CNP-23",
+          "prod": "Caño Pintado",
+          "long": 922,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BKM-PA-1",
+          "prod": "Pasarela Metalica",
+          "long": 2000,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKM-VST-1",
+          "prod": "Viga Secundaria Tubo o caños",
+          "long": 3881,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BKM-CNP-100",
+          "prod": "Caño Pintado",
+          "long": 6000,
+          "cant": 18,
+          "pend": 18
+        },
+        {
+          "cod": "BKM-PA-100",
+          "prod": "Pasarela Metalica",
+          "long": 3004,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BKM-PA-101",
+          "prod": "Pasarela Metalica",
+          "long": 3002,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "BKM-PA-102",
+          "prod": "Pasarela Metalica",
+          "long": 3002,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BKM-PA-103",
+          "prod": "Pasarela Metalica",
+          "long": 3004,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BKM-PA-104",
+          "prod": "Pasarela Metalica",
+          "long": 3004,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKM-PA-105",
+          "prod": "Pasarela Metalica",
+          "long": 3002,
+          "cant": 11,
+          "pend": 11
+        },
+        {
+          "cod": "BKM-PA-106",
+          "prod": "Pasarela Metalica",
+          "long": 406,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKM-PA-107",
+          "prod": "Pasarela Metalica",
+          "long": 1646,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKM-PA-108",
+          "prod": "Pasarela Metalica",
+          "long": 3002,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKM-PL-100",
+          "prod": "Placa",
+          "long": 328,
+          "cant": 116,
+          "pend": 116
+        }
+      ],
+      "pint_pend_items": [
+        {
+          "cod": "BKM-LLP-1",
+          "prod": "Angulo Pintado",
+          "long": 6000,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BKM-LLP-2",
+          "prod": "Angulo Pintado",
+          "long": 6000,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BKM-CNP-1",
+          "prod": "Caño Pintado",
+          "long": 1654,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BKM-CNP-2",
+          "prod": "Caño Pintado",
+          "long": 888,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BKM-CNP-3",
+          "prod": "Caño Pintado",
+          "long": 726,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BKM-CNP-4",
+          "prod": "Caño Pintado",
+          "long": 1606,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BKM-CNP-5",
+          "prod": "Caño Pintado",
+          "long": 781,
+          "cant": 5,
+          "pend": 5
+        },
+        {
+          "cod": "BKM-CNP-6",
+          "prod": "Caño Pintado",
+          "long": 635,
+          "cant": 9,
+          "pend": 9
+        },
+        {
+          "cod": "BKM-CNP-7",
+          "prod": "Caño Pintado",
+          "long": 1050,
+          "cant": 8,
+          "pend": 8
+        },
+        {
+          "cod": "BKM-CNP-8",
+          "prod": "Caño Pintado",
+          "long": 850,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "BKM-CNP-9",
+          "prod": "Caño Pintado",
+          "long": 1406,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BKM-CNP-10",
+          "prod": "Caño Pintado",
+          "long": 4220,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BKM-CNP-11",
+          "prod": "Caño Pintado",
+          "long": 3322,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BKM-CNP-12",
+          "prod": "Caño Pintado",
+          "long": 812,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BKM-CNP-13",
+          "prod": "Caño Pintado",
+          "long": 656,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BKM-CNP-14",
+          "prod": "Caño Pintado",
+          "long": 977,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BKM-CNP-15",
+          "prod": "Caño Pintado",
+          "long": 1450,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BKM-CNP-16",
+          "prod": "Caño Pintado",
+          "long": 1250,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BKM-CNP-17",
+          "prod": "Caño Pintado",
+          "long": 1298,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BKM-CNP-18",
+          "prod": "Caño Pintado",
+          "long": 750,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKM-CNP-19",
+          "prod": "Caño Pintado",
+          "long": 735,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKM-CNP-20",
+          "prod": "Caño Pintado",
+          "long": 776,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BKM-CNP-21",
+          "prod": "Caño Pintado",
+          "long": 800,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BKM-CNP-22",
+          "prod": "Caño Pintado",
+          "long": 3106,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BKM-CNP-23",
+          "prod": "Caño Pintado",
+          "long": 922,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BKM-PA-1",
+          "prod": "Pasarela Metalica",
+          "long": 2000,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKM-PL-1",
+          "prod": "Placa",
+          "long": 328,
+          "cant": 30,
+          "pend": 30
+        },
+        {
+          "cod": "BKM-VST-1",
+          "prod": "Viga Secundaria Tubo o caños",
+          "long": 3881,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BKM-CNP-100",
+          "prod": "Caño Pintado",
+          "long": 6000,
+          "cant": 18,
+          "pend": 18
+        },
+        {
+          "cod": "BKM-PA-100",
+          "prod": "Pasarela Metalica",
+          "long": 3004,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BKM-PA-101",
+          "prod": "Pasarela Metalica",
+          "long": 3002,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "BKM-PA-102",
+          "prod": "Pasarela Metalica",
+          "long": 3002,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BKM-PA-103",
+          "prod": "Pasarela Metalica",
+          "long": 3004,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BKM-PA-104",
+          "prod": "Pasarela Metalica",
+          "long": 3004,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKM-PA-105",
+          "prod": "Pasarela Metalica",
+          "long": 3002,
+          "cant": 11,
+          "pend": 11
+        },
+        {
+          "cod": "BKM-PA-106",
+          "prod": "Pasarela Metalica",
+          "long": 406,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKM-PA-107",
+          "prod": "Pasarela Metalica",
+          "long": 1646,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKM-PA-108",
+          "prod": "Pasarela Metalica",
+          "long": 3002,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKM-PL-100",
+          "prod": "Placa",
+          "long": 328,
+          "cant": 116,
+          "pend": 116
         }
       ]
     }
