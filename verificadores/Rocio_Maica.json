@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T11:23:53.508Z",
+  "updatedAt": "2026-07-17T11:29:07.648Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "25527_1": {
@@ -131509,6 +131509,198 @@
           "long": 328,
           "cant": 116,
           "pend": 116
+        }
+      ]
+    },
+    "25787": {
+      "ot": "25787",
+      "obra": "Apoyo metálico para escalera mecánica",
+      "cliente": "Blue Tower Ventures Paraguay SA",
+      "fecha": "17/7/2026",
+      "avances": {
+        "arm": 0,
+        "pint": 0,
+        "env": 0,
+        "mont": 0
+      },
+      "totales": {
+        "cant": 26,
+        "arm_lib": 0,
+        "arm_pend": 26,
+        "pint_ok": 0,
+        "pint_pend": 26,
+        "env_ok": 0,
+        "env_pend": 26,
+        "items": 5,
+        "peso_total": 810.96,
+        "arm_pend_peso": 810.96,
+        "pint_pend_peso": 810.96,
+        "env_pend_peso": 810.96
+      },
+      "items": [
+        {
+          "item": 1,
+          "cod": "32523-VPI-1",
+          "prod": "Viga Principal Alma Llena",
+          "long": 3700,
+          "cant": 1,
+          "peso": 345.55,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 345.55,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 345.55,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 345.55,
+          "literal": "VPI"
+        },
+        {
+          "item": 2,
+          "cod": "32523-VPI-2",
+          "prod": "Viga Principal Alma Llena",
+          "long": 2600,
+          "cant": 1,
+          "peso": 247.45,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 247.45,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 247.45,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 247.45,
+          "literal": "VPI"
+        },
+        {
+          "item": 3,
+          "cod": "32524-SP-1",
+          "prod": "SOPORTE",
+          "long": 0,
+          "cant": 4,
+          "peso": 111.68,
+          "arm_lib": 0,
+          "arm_pend": 4,
+          "arm_pend_peso": 111.68,
+          "pint_ok": 0,
+          "pint_pend": 4,
+          "pint_pend_peso": 111.68,
+          "env_ok": 0,
+          "env_pend": 4,
+          "env_pend_peso": 111.68,
+          "literal": "SP"
+        },
+        {
+          "item": 4,
+          "cod": "32524-PL-1",
+          "prod": "Placa",
+          "long": 0,
+          "cant": 4,
+          "peso": 90.92,
+          "arm_lib": 0,
+          "arm_pend": 4,
+          "arm_pend_peso": 90.92,
+          "pint_ok": 0,
+          "pint_pend": 4,
+          "pint_pend_peso": 90.92,
+          "env_ok": 0,
+          "env_pend": 4,
+          "env_pend_peso": 90.92,
+          "literal": "PL"
+        },
+        {
+          "item": 5,
+          "cod": "32524-PE-1",
+          "prod": "Perno PCF",
+          "long": 0,
+          "cant": 16,
+          "peso": 15.36,
+          "arm_lib": 0,
+          "arm_pend": 16,
+          "arm_pend_peso": 15.36,
+          "pint_ok": 0,
+          "pint_pend": 16,
+          "pint_pend_peso": 15.36,
+          "env_ok": 0,
+          "env_pend": 16,
+          "env_pend_peso": 15.36,
+          "literal": "PE"
+        }
+      ],
+      "arm_pend_items": [
+        {
+          "cod": "32523-VPI-1",
+          "prod": "Viga Principal Alma Llena",
+          "long": 3700,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "32523-VPI-2",
+          "prod": "Viga Principal Alma Llena",
+          "long": 2600,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "32524-SP-1",
+          "prod": "SOPORTE",
+          "long": 0,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "32524-PL-1",
+          "prod": "Placa",
+          "long": 0,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "32524-PE-1",
+          "prod": "Perno PCF",
+          "long": 0,
+          "cant": 16,
+          "pend": 16
+        }
+      ],
+      "pint_pend_items": [
+        {
+          "cod": "32523-VPI-1",
+          "prod": "Viga Principal Alma Llena",
+          "long": 3700,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "32523-VPI-2",
+          "prod": "Viga Principal Alma Llena",
+          "long": 2600,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "32524-SP-1",
+          "prod": "SOPORTE",
+          "long": 0,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "32524-PL-1",
+          "prod": "Placa",
+          "long": 0,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "32524-PE-1",
+          "prod": "Perno PCF",
+          "long": 0,
+          "cant": 16,
+          "pend": 16
         }
       ]
     }
