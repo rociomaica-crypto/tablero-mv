@@ -121,7 +121,7 @@ function loadOT(){
     if(!otData){showError("OT "+otNum+" no encontrada","Esta obra aun no tiene datos sincronizados. Consulte con el equipo de produccion.");return;}
 
     // Aplicar exclusiones de armado y pintura
-    var PERF_RE=/[-_](PCR|PCL|PCT|SK)[-_]/i;
+    var PERF_RE=/[-_](PCR|PCL|PCT|SK|CPF|CPM)[-_]/i;
     var EXCL_ARM=["Clip fijo-Maq Nueva","Clip móvil-Maq Nueva","Zocalo para chapa zipada"];
     var EXCL_PINT=["Insertos","Anclaje","Clip fijo-Maq Nueva","Clip móvil-Maq Nueva","Zocalo para chapa zipada"];
     if(otData.items&&otData.items.length){
@@ -142,7 +142,7 @@ function loadOT(){
       // Pintura exclusions + galvamax/rackpar
       var pxC=0,pxOk=0,pxPP=0,galvC=0,galvPP=0;
       otData.items.forEach(function(it){
-        if(EXCL_PINT.indexOf(it.prod)>=0||/[-_](SK)[-_]/i.test(it.cod)){
+        if(EXCL_PINT.indexOf(it.prod)>=0||/[-_](SK|CPF|CPM)[-_]/i.test(it.cod)){
           pxC+=(it.cant||0);pxOk+=(it.pint_ok||0);pxPP+=(it.pint_pend_peso||0);
         } else if(it.pint_pend>0){
           var chk=allChecks[otNum+"_"+it.item]||{};
