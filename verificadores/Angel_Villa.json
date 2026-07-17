@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T18:51:36.254Z",
+  "updatedAt": "2026-07-17T17:48:22.175Z",
   "updatedBy": "Angel Villa",
   "checks": {
     "25257_1": {
@@ -4044,7 +4044,7 @@
     },
     "25607_154": {
       "qty_lib": 1,
-      "arm_state": "calibrado"
+      "arm_state": "liberado"
     },
     "25607_150": {
       "qty_lib": 1,
@@ -5229,7 +5229,8 @@
       "qty_lib": 1
     },
     "25572_486": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "qty_lib": 3
     },
     "25572_493": {
       "arm_state": "liberado",
@@ -5303,7 +5304,7 @@
       "pint_state": "galvamax"
     },
     "25607_4": {
-      "qty_lib": 1,
+      "qty_lib": 2,
       "arm_state": "liberado"
     },
     "25257_68": {
@@ -6416,6 +6417,43 @@
     "25572_464": {},
     "25572_490": {
       "pint_state": "galvamax"
+    },
+    "25676_182": {
+      "qty_lib": 1,
+      "arm_state": "liberado"
+    },
+    "25676_175": {
+      "qty_lib": 0
+    },
+    "25607_192": {
+      "qty_lib": 1,
+      "arm_state": "liberado"
+    },
+    "25607_189": {
+      "qty_lib": 1,
+      "arm_state": "liberado"
+    },
+    "25607_190": {
+      "qty_lib": 1,
+      "arm_state": "liberado"
+    },
+    "25607_191": {
+      "qty_lib": 2,
+      "arm_state": "liberado"
+    },
+    "25607_68": {
+      "arm_state": "liberado"
+    },
+    "25607_5": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25607_169": {
+      "arm_state": "liberado"
+    },
+    "25607_6": {
+      "qty_lib": 1,
+      "arm_state": "liberado"
     }
   },
   "otMeta": {
@@ -39338,7 +39376,7 @@
       "ot": "25584",
       "obra": "AMPLIACION ELECTROPAR TECHO",
       "cliente": "Tecinci S.R.L",
-      "fecha": "16/7/2026",
+      "fecha": "17/7/2026",
       "avances": {
         "arm": 19,
         "pint": 8,
@@ -39347,15 +39385,15 @@
       },
       "totales": {
         "cant": 2712,
-        "arm_lib": 504,
-        "arm_pend": 2208,
+        "arm_lib": 507,
+        "arm_pend": 2205,
         "pint_ok": 224,
         "pint_pend": 2488,
         "env_ok": 0,
         "env_pend": 2712,
         "items": 241,
         "peso_total": 101147.30999999995,
-        "arm_pend_peso": 40180.595,
+        "arm_pend_peso": 39705.405,
         "pint_pend_peso": 35566.319999999985,
         "env_pend_peso": 101147.30999999995
       },
@@ -42517,9 +42555,9 @@
           "long": 6458,
           "cant": 1,
           "peso": 134.43,
-          "arm_lib": 0.5,
-          "arm_pend": 0.5,
-          "arm_pend_peso": 67.215,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 134.43,
@@ -42535,9 +42573,9 @@
           "long": 10123,
           "cant": 1,
           "peso": 210.73,
-          "arm_lib": 0.5,
-          "arm_pend": 0.5,
-          "arm_pend_peso": 105.365,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 210.73,
@@ -42895,9 +42933,9 @@
           "long": 9990,
           "cant": 3,
           "peso": 552.87,
-          "arm_lib": 2,
-          "arm_pend": 1,
-          "arm_pend_peso": 184.29,
+          "arm_lib": 3,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 3,
           "pint_pend_peso": 552.87,
@@ -42913,9 +42951,9 @@
           "long": 6414,
           "cant": 1,
           "peso": 118.32,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 118.32,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 118.32,
@@ -44471,20 +44509,6 @@
           "pend": 1
         },
         {
-          "cod": "BIS-VPT-1",
-          "prod": "Viga Principal tubo o caños",
-          "long": 6458,
-          "cant": 1,
-          "pend": 0.5
-        },
-        {
-          "cod": "BIS-VPT-2",
-          "prod": "Viga Principal tubo o caños",
-          "long": 10123,
-          "cant": 1,
-          "pend": 0.5
-        },
-        {
           "cod": "BIS-CH-500",
           "prod": "Cruz Horizontal",
           "long": 10289,
@@ -44537,20 +44561,6 @@
           "cod": "BIS-CH-507",
           "prod": "Cruz Horizontal",
           "long": 10323,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIS-CR-501",
-          "prod": "Correa Techo",
-          "long": 9990,
-          "cant": 3,
-          "pend": 1
-        },
-        {
-          "cod": "BIS-CR-502",
-          "prod": "Correa Techo",
-          "long": 6414,
           "cant": 1,
           "pend": 1
         },
