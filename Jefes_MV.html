@@ -452,7 +452,7 @@ function loadData(){
     }
 
     // Excluir de armado: perfilados (PCR/PCL/PCT) y productos tercerizados por nombre
-    var PERF_RE=/[-_](PCR|PCL|PCT|SK)[-_]/i;
+    var PERF_RE=/[-_](PCR|PCL|PCT|SK|CPF|CPM)[-_]/i;
     var EXCL_PRODS=["Clip fijo-Maq Nueva","Clip móvil-Maq Nueva","Zocalo para chapa zipada"];
     function isArmExcluded(it){
       return PERF_RE.test(it.cod)||EXCL_PRODS.indexOf(it.prod)>=0;
@@ -486,7 +486,7 @@ function loadData(){
     // Excluir de pintura: productos que no se pintan
     var EXCL_PINT=["Insertos","Anclaje","Clip fijo-Maq Nueva","Clip móvil-Maq Nueva","Zocalo para chapa zipada"];
     function isPintExcluded(it){
-      return EXCL_PINT.indexOf(it.prod)>=0||/[-_](SK)[-_]/i.test(it.cod);
+      return EXCL_PINT.indexOf(it.prod)>=0||/[-_](SK|CPF|CPM)[-_]/i.test(it.cod);
     }
     Object.keys(merged.otMeta).forEach(function(k){
       var o=merged.otMeta[k];
