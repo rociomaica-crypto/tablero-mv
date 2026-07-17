@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T20:35:25.634Z",
+  "updatedAt": "2026-07-17T20:39:40.174Z",
   "updatedBy": "Bernardo Vera",
   "checks": {
     "25694_1": {
@@ -7695,7 +7695,7 @@
       "qty_lib": 7
     },
     "25572_486": {
-      "qty_lib": 2,
+      "qty_lib": 3,
       "arm_state": "liberado"
     },
     "25572_485": {
@@ -7760,8 +7760,8 @@
       "arm_state": "liberado"
     },
     "25607_5": {
-      "arm_state": "armado",
-      "qty_lib": 0
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25607_169": {
       "arm_state": "liberado"
@@ -8655,6 +8655,81 @@
       "arm_state": "liberado"
     },
     "25607_84": {
+      "arm_state": "liberado"
+    },
+    "25584_245": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25584_244": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25584_243": {
+      "arm_state": "armado"
+    },
+    "25584_222": {
+      "arm_state": "armado"
+    },
+    "25607_192": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25607_189": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25607_190": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25607_191": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25607_6": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25676_182": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25676_175": {},
+    "25708_98": {
+      "arm_state": "liberado"
+    },
+    "25708_99": {
+      "arm_state": "liberado"
+    },
+    "25708_100": {
+      "arm_state": "liberado"
+    },
+    "25708_101": {
+      "arm_state": "liberado"
+    },
+    "25708_102": {
+      "arm_state": "liberado"
+    },
+    "25708_103": {
+      "arm_state": "liberado"
+    },
+    "25708_104": {
+      "arm_state": "liberado"
+    },
+    "25708_105": {
+      "arm_state": "liberado"
+    },
+    "25708_106": {
+      "arm_state": "liberado"
+    },
+    "25708_107": {
+      "arm_state": "liberado"
+    },
+    "25708_108": {
+      "arm_state": "liberado"
+    },
+    "25708_109": {
       "arm_state": "liberado"
     }
   },
