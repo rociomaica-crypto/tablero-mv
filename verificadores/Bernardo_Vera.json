@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T09:42:23.781Z",
+  "updatedAt": "2026-07-20T10:35:58.106Z",
   "updatedBy": "Bernardo Vera",
   "checks": {
     "25694_1": {
@@ -9100,20 +9100,22 @@
       "arm_state": "liberado"
     },
     "25107_670": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25107_673": {
       "arm_state": "liberado"
     },
     "25107_666": {
-      "arm_state": "armado"
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25107_669": {
       "arm_state": "armado"
     },
     "25107_679": {
       "qty_lib": 1,
-      "arm_state": "armado"
+      "arm_state": "liberado"
     },
     "25107_156": {
       "qty_lib": 5
@@ -9124,6 +9126,471 @@
       "qty_lib": 1
     },
     "25607_8": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25195_1": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_2": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_3": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_4": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_5": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_6": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_7": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_8": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_9": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_10": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_11": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_12": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_13": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_14": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_15": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_16": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_17": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_18": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_19": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_20": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_21": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_22": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_23": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_24": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_25": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_26": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_27": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_28": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_29": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_30": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_31": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_32": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_33": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_34": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_35": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_36": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_37": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_38": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_39": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_40": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_41": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_42": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_43": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_44": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_45": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_46": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_47": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_48": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_49": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_50": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_51": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_52": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_53": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_54": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_55": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_56": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_57": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_58": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_59": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_60": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_61": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_62": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_63": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_64": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_65": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_66": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_67": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_68": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_69": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_70": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_71": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_72": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_73": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_74": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_75": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_76": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_77": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_78": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_79": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_80": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_81": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_82": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_83": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_84": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_85": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_86": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_87": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_88": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_89": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_90": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_91": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_92": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_93": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_94": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_95": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_96": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_97": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_98": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_99": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_100": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_101": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_102": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_103": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_104": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_105": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_106": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_107": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_108": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_109": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_110": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_111": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_112": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_113": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25195_114": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25107_446": {},
+    "25107_671": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_678": {
       "arm_state": "liberado",
       "qty_lib": 1
     }
@@ -12193,26 +12660,26 @@
       "ot": "25607",
       "obra": "Provision materiales y fabricación, Galpon Yukyry",
       "cliente": "OMBUES S.A",
-      "fecha": "16/7/2026",
+      "fecha": "20/7/2026",
       "avances": {
-        "arm": 30,
+        "arm": 34,
         "pint": 0,
         "env": 0,
         "mont": 0
       },
       "totales": {
-        "cant": 1376,
-        "arm_lib": 408.5,
-        "arm_pend": 967.5,
+        "cant": 1451,
+        "arm_lib": 486.6,
+        "arm_pend": 964.4,
         "pint_ok": 0,
-        "pint_pend": 1376,
+        "pint_pend": 1451,
         "env_ok": 0,
-        "env_pend": 1376,
-        "items": 178,
-        "peso_total": 34735.66999999998,
-        "arm_pend_peso": 18572.13,
-        "pint_pend_peso": 34735.66999999998,
-        "env_pend_peso": 34735.66999999998
+        "env_pend": 1451,
+        "items": 197,
+        "peso_total": 37009.509999999966,
+        "arm_pend_peso": 13329.034000000001,
+        "pint_pend_peso": 37009.509999999966,
+        "env_pend_peso": 37009.509999999966
       },
       "items": [
         {
@@ -12258,9 +12725,9 @@
           "long": 35779,
           "cant": 2,
           "peso": 4177.78,
-          "arm_lib": 1.5,
-          "arm_pend": 0.5,
-          "arm_pend_peso": 1044.445,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 2,
           "pint_pend_peso": 4177.78,
@@ -12294,9 +12761,9 @@
           "long": 35779,
           "cant": 1,
           "peso": 2089.37,
-          "arm_lib": 0.5,
-          "arm_pend": 0.5,
-          "arm_pend_peso": 1044.685,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 2089.37,
@@ -12312,9 +12779,9 @@
           "long": 35779,
           "cant": 1,
           "peso": 2090.49,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 2090.49,
+          "arm_lib": 0.8,
+          "arm_pend": 0.2,
+          "arm_pend_peso": 418.098,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 2090.49,
@@ -12330,9 +12797,9 @@
           "long": 35779,
           "cant": 1,
           "peso": 2093.38,
-          "arm_lib": 0.5,
-          "arm_pend": 0.5,
-          "arm_pend_peso": 1046.69,
+          "arm_lib": 0.8,
+          "arm_pend": 0.2,
+          "arm_pend_peso": 418.676,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 2093.38,
@@ -13098,6 +13565,78 @@
           "literal": "BJR"
         },
         {
+          "item": 51,
+          "cod": "BJR-CV-1",
+          "prod": "Cruz Vertical",
+          "long": 3092,
+          "cant": 1,
+          "peso": 7.79,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 7.79,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 7.79,
+          "literal": "BJR"
+        },
+        {
+          "item": 52,
+          "cod": "BJR-CV-2",
+          "prod": "Cruz Vertical",
+          "long": 3095,
+          "cant": 1,
+          "peso": 7.79,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 7.79,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 7.79,
+          "literal": "BJR"
+        },
+        {
+          "item": 53,
+          "cod": "BJR-CV-3",
+          "prod": "Cruz Vertical",
+          "long": 3460,
+          "cant": 3,
+          "peso": 25.98,
+          "arm_lib": 3,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 3,
+          "pint_pend_peso": 25.98,
+          "env_ok": 0,
+          "env_pend": 3,
+          "env_pend_peso": 25.98,
+          "literal": "BJR"
+        },
+        {
+          "item": 54,
+          "cod": "BJR-CV-4",
+          "prod": "Cruz Vertical",
+          "long": 3462,
+          "cant": 3,
+          "peso": 26.01,
+          "arm_lib": 3,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 3,
+          "pint_pend_peso": 26.01,
+          "env_ok": 0,
+          "env_pend": 3,
+          "env_pend_peso": 26.01,
+          "literal": "BJR"
+        },
+        {
           "item": 55,
           "cod": "BJR-CV-5",
           "prod": "Cruz Vertical",
@@ -13152,6 +13691,42 @@
           "literal": "BJR"
         },
         {
+          "item": 58,
+          "cod": "BJR-CV-8",
+          "prod": "Cruz Vertical",
+          "long": 3129,
+          "cant": 2,
+          "peso": 15.74,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 15.74,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 15.74,
+          "literal": "BJR"
+        },
+        {
+          "item": 59,
+          "cod": "BJR-CV-9",
+          "prod": "Cruz Vertical",
+          "long": 3640,
+          "cant": 2,
+          "peso": 18.18,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 18.18,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 18.18,
+          "literal": "BJR"
+        },
+        {
           "item": 60,
           "cod": "BJR-CV-10",
           "prod": "Cruz Vertical",
@@ -13185,6 +13760,42 @@
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 18.29,
+          "literal": "BJR"
+        },
+        {
+          "item": 62,
+          "cod": "BJR-CV-12",
+          "prod": "Cruz Vertical",
+          "long": 3648,
+          "cant": 2,
+          "peso": 18.22,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 18.22,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 18.22,
+          "literal": "BJR"
+        },
+        {
+          "item": 63,
+          "cod": "BJR-CV-13",
+          "prod": "Cruz Vertical",
+          "long": 4065,
+          "cant": 2,
+          "peso": 20.22,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 20.22,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 20.22,
           "literal": "BJR"
         },
         {
@@ -15222,15 +15833,213 @@
           "literal": "BJR"
         },
         {
+          "item": 177,
+          "cod": "BJR-VAT-1",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 5875,
+          "cant": 1,
+          "peso": 37.49,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 37.49,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 37.49,
+          "literal": "BJR"
+        },
+        {
+          "item": 178,
+          "cod": "BJR-VAT-2",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 5777,
+          "cant": 39,
+          "peso": 1438.71,
+          "arm_lib": 39,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 39,
+          "pint_pend_peso": 1438.71,
+          "env_ok": 0,
+          "env_pend": 39,
+          "env_pend_peso": 1438.71,
+          "literal": "BJR"
+        },
+        {
+          "item": 179,
+          "cod": "BJR-VAT-3",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 4625,
+          "cant": 1,
+          "peso": 29.8,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 29.8,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 29.8,
+          "literal": "BJR"
+        },
+        {
+          "item": 180,
+          "cod": "BJR-VAT-4",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 4529,
+          "cant": 1,
+          "peso": 29.2,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 29.2,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 29.2,
+          "literal": "BJR"
+        },
+        {
+          "item": 181,
+          "cod": "BJR-VAT-5",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 5669,
+          "cant": 4,
+          "peso": 144.88,
+          "arm_lib": 4,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 4,
+          "pint_pend_peso": 144.88,
+          "env_ok": 0,
+          "env_pend": 4,
+          "env_pend_peso": 144.88,
+          "literal": "BJR"
+        },
+        {
+          "item": 182,
+          "cod": "BJR-VAT-6",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 4629,
+          "cant": 1,
+          "peso": 29.82,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 29.82,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 29.82,
+          "literal": "BJR"
+        },
+        {
+          "item": 183,
+          "cod": "BJR-VAT-7",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 5630,
+          "cant": 8,
+          "peso": 294.72,
+          "arm_lib": 8,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 8,
+          "pint_pend_peso": 294.72,
+          "env_ok": 0,
+          "env_pend": 8,
+          "env_pend_peso": 294.72,
+          "literal": "BJR"
+        },
+        {
+          "item": 184,
+          "cod": "BJR-VAT-8",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 4659,
+          "cant": 1,
+          "peso": 30.01,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 30.01,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 30.01,
+          "literal": "BJR"
+        },
+        {
+          "item": 185,
+          "cod": "BJR-VAT-9",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 5676,
+          "cant": 1,
+          "peso": 36.27,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 36.27,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 36.27,
+          "literal": "BJR"
+        },
+        {
+          "item": 186,
+          "cod": "BJR-VAT-10",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 4847,
+          "cant": 1,
+          "peso": 31.17,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 31.17,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 31.17,
+          "literal": "BJR"
+        },
+        {
+          "item": 187,
+          "cod": "BJR-VAT-11",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 4957,
+          "cant": 1,
+          "peso": 31.84,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 31.84,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 31.84,
+          "literal": "BJR"
+        },
+        {
           "item": 188,
           "cod": "BJR-VOR-1",
           "prod": "Contraviga angulo",
           "long": 11825,
           "cant": 1,
           "peso": 853.56,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 853.56,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 853.56,
@@ -15422,32 +16231,18 @@
       ],
       "arm_pend_items": [
         {
-          "cod": "BJR-CA-3",
-          "prod": "Cabriada Angulos",
-          "long": 35779,
-          "cant": 2,
-          "pend": 0.5
-        },
-        {
-          "cod": "BJR-CA-5",
-          "prod": "Cabriada Angulos",
-          "long": 35779,
-          "cant": 1,
-          "pend": 0.5
-        },
-        {
           "cod": "BJR-CA-6",
           "prod": "Cabriada Angulos",
           "long": 35779,
           "cant": 1,
-          "pend": 1
+          "pend": 0.2
         },
         {
           "cod": "BJR-CA-7",
           "prod": "Cabriada Angulos",
           "long": 35779,
           "cant": 1,
-          "pend": 0.5
+          "pend": 0.2
         },
         {
           "cod": "BJR-CH-1",
@@ -16248,13 +17043,6 @@
           "pend": 162
         },
         {
-          "cod": "BJR-VOR-1",
-          "prod": "Contraviga angulo",
-          "long": 11825,
-          "cant": 1,
-          "pend": 1
-        },
-        {
           "cod": "BJR-VTT-1",
           "prod": "Viga de techo de tubos",
           "long": 5634,
@@ -16670,6 +17458,34 @@
           "pend": 1
         },
         {
+          "cod": "BJR-CV-1",
+          "prod": "Cruz Vertical",
+          "long": 3092,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJR-CV-2",
+          "prod": "Cruz Vertical",
+          "long": 3095,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJR-CV-3",
+          "prod": "Cruz Vertical",
+          "long": 3460,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BJR-CV-4",
+          "prod": "Cruz Vertical",
+          "long": 3462,
+          "cant": 3,
+          "pend": 3
+        },
+        {
           "cod": "BJR-CV-5",
           "prod": "Cruz Vertical",
           "long": 6347,
@@ -16691,6 +17507,20 @@
           "pend": 16
         },
         {
+          "cod": "BJR-CV-8",
+          "prod": "Cruz Vertical",
+          "long": 3129,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJR-CV-9",
+          "prod": "Cruz Vertical",
+          "long": 3640,
+          "cant": 2,
+          "pend": 2
+        },
+        {
           "cod": "BJR-CV-10",
           "prod": "Cruz Vertical",
           "long": 8218,
@@ -16703,6 +17533,20 @@
           "long": 7241,
           "cant": 1,
           "pend": 1
+        },
+        {
+          "cod": "BJR-CV-12",
+          "prod": "Cruz Vertical",
+          "long": 3648,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BJR-CV-13",
+          "prod": "Cruz Vertical",
+          "long": 4065,
+          "cant": 2,
+          "pend": 2
         },
         {
           "cod": "BJR-CV-14",
@@ -17494,6 +18338,83 @@
           "long": 1589,
           "cant": 162,
           "pend": 162
+        },
+        {
+          "cod": "BJR-VAT-1",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 5875,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJR-VAT-2",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 5777,
+          "cant": 39,
+          "pend": 39
+        },
+        {
+          "cod": "BJR-VAT-3",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 4625,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJR-VAT-4",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 4529,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJR-VAT-5",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 5669,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BJR-VAT-6",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 4629,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJR-VAT-7",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 5630,
+          "cant": 8,
+          "pend": 8
+        },
+        {
+          "cod": "BJR-VAT-8",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 4659,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJR-VAT-9",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 5676,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJR-VAT-10",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 4847,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJR-VAT-11",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 4957,
+          "cant": 1,
+          "pend": 1
         },
         {
           "cod": "BJR-VOR-1",
