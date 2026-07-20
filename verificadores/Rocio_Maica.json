@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T10:11:11.391Z",
+  "updatedAt": "2026-07-20T11:28:25.970Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "25527_1": {
@@ -107420,24 +107420,24 @@
       "ot": "25609",
       "obra": "Portón, puerta CF y escalera con baranda YUKYRY",
       "cliente": "OMBUES S.A",
-      "fecha": "14/7/2026",
+      "fecha": "20/7/2026",
       "avances": {
-        "arm": 88,
+        "arm": 92,
         "pint": 0,
         "env": 0,
         "mont": 0
       },
       "totales": {
         "cant": 24,
-        "arm_lib": 21,
-        "arm_pend": 3,
+        "arm_lib": 22,
+        "arm_pend": 2,
         "pint_ok": 0,
         "pint_pend": 24,
         "env_ok": 0,
         "env_pend": 24,
         "items": 19,
         "peso_total": 873.96,
-        "arm_pend_peso": 29.040000000000003,
+        "arm_pend_peso": 1.1,
         "pint_pend_peso": 873.96,
         "env_pend_peso": 873.96
       },
@@ -107539,9 +107539,9 @@
           "long": 5815,
           "cant": 1,
           "peso": 27.94,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 27.94,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 27.94,
@@ -107792,13 +107792,6 @@
           "long": 100,
           "cant": 2,
           "pend": 2
-        },
-        {
-          "cod": "BJO-PCT-1",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 5815,
-          "cant": 1,
-          "pend": 1
         }
       ],
       "pint_pend_items": [
