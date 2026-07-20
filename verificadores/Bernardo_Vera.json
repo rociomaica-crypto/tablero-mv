@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T12:05:13.833Z",
+  "updatedAt": "2026-07-20T12:05:50.896Z",
   "updatedBy": "Bernardo Vera",
   "checks": {
     "25694_1": {
@@ -2138,7 +2138,8 @@
     "25607_178": {
       "qty_lib": 39,
       "arm_state_state": "liberado",
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
     },
     "25107_138": {
       "qty_lib": 1,
@@ -3893,7 +3894,8 @@
     },
     "25607_181": {
       "qty_lib": 4,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
     },
     "25607_37": {
       "arm_state": "liberado"
@@ -3916,7 +3918,8 @@
     },
     "25607_183": {
       "qty_lib": 8,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
     },
     "25527_515": {
       "arm_state": "liberado",
@@ -4827,22 +4830,28 @@
     },
     "25607_177": {
       "qty_lib": 1,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
     },
     "25607_179": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
     },
     "25607_182": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
     },
     "25607_184": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
     },
     "25607_185": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
     },
     "25607_186": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
     },
     "25607_39": {
       "arm_state": "liberado"
@@ -5036,10 +5045,12 @@
       "arm_state": "liberado"
     },
     "25607_180": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
     },
     "25607_187": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
     },
     "25607_166": {
       "arm_state": "liberado"
@@ -6922,7 +6933,8 @@
     },
     "25607_160": {
       "arm_state": "liberado",
-      "qty_lib": 16
+      "qty_lib": 16,
+      "pint_state": "galvamax"
     },
     "25607_149": {
       "arm_state": "liberado",
