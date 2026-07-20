@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T11:28:25.970Z",
+  "updatedAt": "2026-07-20T11:30:14.801Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "25527_1": {
@@ -80700,6 +80700,689 @@
           "long": 0,
           "cant": 4,
           "pend": 4
+        }
+      ]
+    },
+    "25531": {
+      "ot": "25531",
+      "obra": "Pérgola _Ed. Nest",
+      "cliente": "GRIT S.A.",
+      "fecha": "20/7/2026",
+      "avances": {
+        "arm": 12,
+        "pint": 0,
+        "env": 0,
+        "mont": 0
+      },
+      "totales": {
+        "cant": 50,
+        "arm_lib": 6,
+        "arm_pend": 44,
+        "pint_ok": 0,
+        "pint_pend": 50,
+        "env_ok": 0,
+        "env_pend": 50,
+        "items": 21,
+        "peso_total": 3421.6500000000005,
+        "arm_pend_peso": 3382.77,
+        "pint_pend_peso": 3421.6500000000005,
+        "env_pend_peso": 3421.6500000000005
+      },
+      "items": [
+        {
+          "item": 1,
+          "cod": "BIA-PL-1",
+          "prod": "Placa",
+          "long": 250,
+          "cant": 14,
+          "peso": 20.44,
+          "arm_lib": 0,
+          "arm_pend": 14,
+          "arm_pend_peso": 20.44,
+          "pint_ok": 0,
+          "pint_pend": 14,
+          "pint_pend_peso": 20.44,
+          "env_ok": 0,
+          "env_pend": 14,
+          "env_pend_peso": 20.44,
+          "literal": "BIA"
+        },
+        {
+          "item": 2,
+          "cod": "BIA-PL-2",
+          "prod": "Placa",
+          "long": 260,
+          "cant": 6,
+          "peso": 8.64,
+          "arm_lib": 0,
+          "arm_pend": 6,
+          "arm_pend_peso": 8.64,
+          "pint_ok": 0,
+          "pint_pend": 6,
+          "pint_pend_peso": 8.64,
+          "env_ok": 0,
+          "env_pend": 6,
+          "env_pend_peso": 8.64,
+          "literal": "BIA"
+        },
+        {
+          "item": 3,
+          "cod": "BIA-PL-3",
+          "prod": "Placa",
+          "long": 400,
+          "cant": 4,
+          "peso": 11.2,
+          "arm_lib": 0,
+          "arm_pend": 4,
+          "arm_pend_peso": 11.2,
+          "pint_ok": 0,
+          "pint_pend": 4,
+          "pint_pend_peso": 11.2,
+          "env_ok": 0,
+          "env_pend": 4,
+          "env_pend_peso": 11.2,
+          "literal": "BIA"
+        },
+        {
+          "item": 4,
+          "cod": "BIA-PL-4",
+          "prod": "Placa",
+          "long": 90,
+          "cant": 4,
+          "peso": 1.2,
+          "arm_lib": 0,
+          "arm_pend": 4,
+          "arm_pend_peso": 1.2,
+          "pint_ok": 0,
+          "pint_pend": 4,
+          "pint_pend_peso": 1.2,
+          "env_ok": 0,
+          "env_pend": 4,
+          "env_pend_peso": 1.2,
+          "literal": "BIA"
+        },
+        {
+          "item": 5,
+          "cod": "BIA-PTC-1",
+          "prod": "Pilar Tubo Caño",
+          "long": 5005,
+          "cant": 1,
+          "peso": 96.59,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 96.59,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 96.59,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 96.59,
+          "literal": "BIA"
+        },
+        {
+          "item": 6,
+          "cod": "BIA-PTC-2",
+          "prod": "Pilar Tubo Caño",
+          "long": 5849,
+          "cant": 1,
+          "peso": 112.43,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 112.43,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 112.43,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 112.43,
+          "literal": "BIA"
+        },
+        {
+          "item": 7,
+          "cod": "BIA-PTC-3",
+          "prod": "Pilar Tubo Caño",
+          "long": 7265,
+          "cant": 1,
+          "peso": 138.96,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 138.96,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 138.96,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 138.96,
+          "literal": "BIA"
+        },
+        {
+          "item": 8,
+          "cod": "BIA-PZ-1",
+          "prod": "Pieza Especial",
+          "long": 3566,
+          "cant": 1,
+          "peso": 465.98,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 465.98,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 465.98,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 465.98,
+          "literal": "BIA"
+        },
+        {
+          "item": 9,
+          "cod": "BIA-PZ-2",
+          "prod": "Pieza Especial",
+          "long": 3538,
+          "cant": 1,
+          "peso": 420.07,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 420.07,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 420.07,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 420.07,
+          "literal": "BIA"
+        },
+        {
+          "item": 10,
+          "cod": "BIA-PZ-3",
+          "prod": "Pieza Especial",
+          "long": 3536,
+          "cant": 1,
+          "peso": 462.8,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 462.8,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 462.8,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 462.8,
+          "literal": "BIA"
+        },
+        {
+          "item": 11,
+          "cod": "BIA-PZ-4",
+          "prod": "Pieza Especial",
+          "long": 3851,
+          "cant": 1,
+          "peso": 447.57,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 447.57,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 447.57,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 447.57,
+          "literal": "BIA"
+        },
+        {
+          "item": 12,
+          "cod": "BIA-PZ-5",
+          "prod": "Pieza Especial",
+          "long": 3373,
+          "cant": 1,
+          "peso": 135.35,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 135.35,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 135.35,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 135.35,
+          "literal": "BIA"
+        },
+        {
+          "item": 13,
+          "cod": "BIA-PZ-6",
+          "prod": "Pieza Especial",
+          "long": 3583,
+          "cant": 1,
+          "peso": 65.19,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 65.19,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 65.19,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 65.19,
+          "literal": "BIA"
+        },
+        {
+          "item": 14,
+          "cod": "BIA-PZ-7",
+          "prod": "Pieza Especial",
+          "long": 4715,
+          "cant": 1,
+          "peso": 189,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 189,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 189,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 189,
+          "literal": "BIA"
+        },
+        {
+          "item": 15,
+          "cod": "BIA-PZ-8",
+          "prod": "Pieza Especial",
+          "long": 3815,
+          "cant": 1,
+          "peso": 471.31,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 471.31,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 471.31,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 471.31,
+          "literal": "BIA"
+        },
+        {
+          "item": 16,
+          "cod": "BIA-PZ-9",
+          "prod": "Pieza Especial",
+          "long": 2375,
+          "cant": 1,
+          "peso": 297.12,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 297.12,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 297.12,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 297.12,
+          "literal": "BIA"
+        },
+        {
+          "item": 17,
+          "cod": "BIA-SP-1",
+          "prod": "SOPORTE",
+          "long": 250,
+          "cant": 4,
+          "peso": 18.76,
+          "arm_lib": 4,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 4,
+          "pint_pend_peso": 18.76,
+          "env_ok": 0,
+          "env_pend": 4,
+          "env_pend_peso": 18.76,
+          "literal": "BIA"
+        },
+        {
+          "item": 18,
+          "cod": "BIA-SP-2",
+          "prod": "SOPORTE",
+          "long": 250,
+          "cant": 3,
+          "peso": 17.55,
+          "arm_lib": 0,
+          "arm_pend": 3,
+          "arm_pend_peso": 17.55,
+          "pint_ok": 0,
+          "pint_pend": 3,
+          "pint_pend_peso": 17.55,
+          "env_ok": 0,
+          "env_pend": 3,
+          "env_pend_peso": 17.55,
+          "literal": "BIA"
+        },
+        {
+          "item": 19,
+          "cod": "BIA-SP-3",
+          "prod": "SOPORTE",
+          "long": 880,
+          "cant": 1,
+          "peso": 21.37,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 21.37,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 21.37,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 21.37,
+          "literal": "BIA"
+        },
+        {
+          "item": 20,
+          "cod": "BIA-SP-4",
+          "prod": "SOPORTE",
+          "long": 803,
+          "cant": 1,
+          "peso": 7.55,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 7.55,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 7.55,
+          "literal": "BIA"
+        },
+        {
+          "item": 21,
+          "cod": "BIA-SP-5",
+          "prod": "SOPORTE",
+          "long": 1353,
+          "cant": 1,
+          "peso": 12.57,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 12.57,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 12.57,
+          "literal": "BIA"
+        }
+      ],
+      "arm_pend_items": [
+        {
+          "cod": "BIA-PL-1",
+          "prod": "Placa",
+          "long": 250,
+          "cant": 14,
+          "pend": 14
+        },
+        {
+          "cod": "BIA-PL-2",
+          "prod": "Placa",
+          "long": 260,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "BIA-PL-3",
+          "prod": "Placa",
+          "long": 400,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BIA-PL-4",
+          "prod": "Placa",
+          "long": 90,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BIA-PTC-1",
+          "prod": "Pilar Tubo Caño",
+          "long": 5005,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BIA-PTC-2",
+          "prod": "Pilar Tubo Caño",
+          "long": 5849,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BIA-PTC-3",
+          "prod": "Pilar Tubo Caño",
+          "long": 7265,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BIA-PZ-1",
+          "prod": "Pieza Especial",
+          "long": 3566,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BIA-PZ-2",
+          "prod": "Pieza Especial",
+          "long": 3538,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BIA-PZ-3",
+          "prod": "Pieza Especial",
+          "long": 3536,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BIA-PZ-4",
+          "prod": "Pieza Especial",
+          "long": 3851,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BIA-PZ-5",
+          "prod": "Pieza Especial",
+          "long": 3373,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BIA-PZ-6",
+          "prod": "Pieza Especial",
+          "long": 3583,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BIA-PZ-7",
+          "prod": "Pieza Especial",
+          "long": 4715,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BIA-PZ-8",
+          "prod": "Pieza Especial",
+          "long": 3815,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BIA-PZ-9",
+          "prod": "Pieza Especial",
+          "long": 2375,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BIA-SP-2",
+          "prod": "SOPORTE",
+          "long": 250,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BIA-SP-3",
+          "prod": "SOPORTE",
+          "long": 880,
+          "cant": 1,
+          "pend": 1
+        }
+      ],
+      "pint_pend_items": [
+        {
+          "cod": "BIA-PL-1",
+          "prod": "Placa",
+          "long": 250,
+          "cant": 14,
+          "pend": 14
+        },
+        {
+          "cod": "BIA-PL-2",
+          "prod": "Placa",
+          "long": 260,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "BIA-PL-3",
+          "prod": "Placa",
+          "long": 400,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BIA-PL-4",
+          "prod": "Placa",
+          "long": 90,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BIA-PTC-1",
+          "prod": "Pilar Tubo Caño",
+          "long": 5005,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BIA-PTC-2",
+          "prod": "Pilar Tubo Caño",
+          "long": 5849,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BIA-PTC-3",
+          "prod": "Pilar Tubo Caño",
+          "long": 7265,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BIA-PZ-1",
+          "prod": "Pieza Especial",
+          "long": 3566,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BIA-PZ-2",
+          "prod": "Pieza Especial",
+          "long": 3538,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BIA-PZ-3",
+          "prod": "Pieza Especial",
+          "long": 3536,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BIA-PZ-4",
+          "prod": "Pieza Especial",
+          "long": 3851,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BIA-PZ-5",
+          "prod": "Pieza Especial",
+          "long": 3373,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BIA-PZ-6",
+          "prod": "Pieza Especial",
+          "long": 3583,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BIA-PZ-7",
+          "prod": "Pieza Especial",
+          "long": 4715,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BIA-PZ-8",
+          "prod": "Pieza Especial",
+          "long": 3815,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BIA-PZ-9",
+          "prod": "Pieza Especial",
+          "long": 2375,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BIA-SP-1",
+          "prod": "SOPORTE",
+          "long": 250,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BIA-SP-2",
+          "prod": "SOPORTE",
+          "long": 250,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BIA-SP-3",
+          "prod": "SOPORTE",
+          "long": 880,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BIA-SP-4",
+          "prod": "SOPORTE",
+          "long": 803,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BIA-SP-5",
+          "prod": "SOPORTE",
+          "long": 1353,
+          "cant": 1,
+          "pend": 1
         }
       ]
     },
