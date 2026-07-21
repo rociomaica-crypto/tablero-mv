@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T11:02:01.873Z",
+  "updatedAt": "2026-07-21T11:04:53.638Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "25527_1": {
@@ -89819,26 +89819,26 @@
       "ot": "25541",
       "obra": "Fachada Shopping Mcal",
       "cliente": "Salum & Wenz S.A",
-      "fecha": "16/7/2026",
+      "fecha": "21/7/2026",
       "avances": {
-        "arm": 20,
+        "arm": 24,
         "pint": 24,
         "env": 0,
         "mont": 0
       },
       "totales": {
         "cant": 391,
-        "arm_lib": 79,
-        "arm_pend": 312,
-        "pint_ok": 94,
-        "pint_pend": 297,
+        "arm_lib": 95,
+        "arm_pend": 296,
+        "pint_ok": 95,
+        "pint_pend": 296,
         "env_ok": 0,
         "env_pend": 391,
         "items": 31,
-        "peso_total": 6603.310000000002,
-        "arm_pend_peso": 292.7,
+        "peso_total": 6698.310000000002,
+        "arm_pend_peso": 0,
         "pint_pend_peso": 0,
-        "env_pend_peso": 6603.310000000002
+        "env_pend_peso": 6698.310000000002
       },
       "items": [
         {
@@ -90298,9 +90298,9 @@
           "long": 2493,
           "cant": 5,
           "peso": 76.7,
-          "arm_lib": 0,
-          "arm_pend": 5,
-          "arm_pend_peso": 76.7,
+          "arm_lib": 5,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 5,
           "pint_pend": 0,
           "pint_pend_peso": 0,
@@ -90316,9 +90316,9 @@
           "long": 2900,
           "cant": 5,
           "peso": 89.25,
-          "arm_lib": 0,
-          "arm_pend": 5,
-          "arm_pend_peso": 89.25,
+          "arm_lib": 5,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 5,
           "pint_pend": 0,
           "pint_pend_peso": 0,
@@ -90334,9 +90334,9 @@
           "long": 3307,
           "cant": 5,
           "peso": 126.75,
-          "arm_lib": 0,
-          "arm_pend": 5,
-          "arm_pend_peso": 126.75,
+          "arm_lib": 5,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 5,
           "pint_pend": 0,
           "pint_pend_peso": 0,
@@ -90387,16 +90387,16 @@
           "prod": "SOPORTE",
           "long": 6000,
           "cant": 1,
-          "peso": 0,
-          "arm_lib": 0,
-          "arm_pend": 1,
+          "peso": 95,
+          "arm_lib": 1,
+          "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
+          "pint_ok": 1,
+          "pint_pend": 0,
           "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
-          "env_pend_peso": 0,
+          "env_pend_peso": 95,
           "literal": "SP"
         }
       ],
@@ -90416,27 +90416,6 @@
           "pend": 3
         },
         {
-          "cod": "33967-CR-500",
-          "prod": "Correa Techo",
-          "long": 2493,
-          "cant": 5,
-          "pend": 5
-        },
-        {
-          "cod": "33967-CR-501",
-          "prod": "Correa Techo",
-          "long": 2900,
-          "cant": 5,
-          "pend": 5
-        },
-        {
-          "cod": "33967-CR-502",
-          "prod": "Correa Techo",
-          "long": 3307,
-          "cant": 5,
-          "pend": 5
-        },
-        {
           "cod": "25541-CPF-1",
           "prod": "Clips p/ Chapa  Zipada  Fijo-Maq Vieja",
           "long": 0,
@@ -90449,13 +90428,6 @@
           "long": 0,
           "cant": 40,
           "pend": 40
-        },
-        {
-          "cod": "32525-SP-1",
-          "prod": "SOPORTE",
-          "long": 6000,
-          "cant": 1,
-          "pend": 1
         }
       ],
       "pint_pend_items": [
@@ -90486,13 +90458,6 @@
           "long": 0,
           "cant": 40,
           "pend": 40
-        },
-        {
-          "cod": "32525-SP-1",
-          "prod": "SOPORTE",
-          "long": 6000,
-          "cant": 1,
-          "pend": 1
         }
       ]
     },
