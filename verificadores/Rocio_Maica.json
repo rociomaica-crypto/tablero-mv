@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T11:17:09.377Z",
+  "updatedAt": "2026-07-21T19:58:19.529Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "25527_1": {
@@ -6507,14 +6507,14 @@
       "qty_lib": 1
     },
     "25107_135": {
-      "arm_state": "liberado",
+      "arm_state": "",
       "qty_lib": 1
     },
     "25107_698": {
       "arm_state": "soldado"
     },
     "25107_134": {
-      "arm_state": "liberado"
+      "arm_state": ""
     },
     "25584_242": {
       "arm_state": "liberado"
