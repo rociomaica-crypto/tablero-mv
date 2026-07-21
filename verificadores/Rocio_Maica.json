@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T10:52:07.370Z",
+  "updatedAt": "2026-07-21T10:53:03.616Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "25527_1": {
@@ -115128,7 +115128,7 @@
       "ot": "25623",
       "obra": "Fabricacion y provision Galpon Suc. MV Aceros - It",
       "cliente": "MV ACEROS SA",
-      "fecha": "20/7/2026",
+      "fecha": "21/7/2026",
       "avances": {
         "arm": 18,
         "pint": 0,
@@ -115137,15 +115137,15 @@
       },
       "totales": {
         "cant": 2230,
-        "arm_lib": 395.25,
-        "arm_pend": 1834.75,
+        "arm_lib": 401.25,
+        "arm_pend": 1828.75,
         "pint_ok": 0,
         "pint_pend": 2230,
         "env_ok": 0,
         "env_pend": 2230,
         "items": 213,
         "peso_total": 120069.25,
-        "arm_pend_peso": 118796.68,
+        "arm_pend_peso": 118786.11999999998,
         "pint_pend_peso": 120069.25,
         "env_pend_peso": 120069.25
       },
@@ -118019,9 +118019,9 @@
           "long": 145,
           "cant": 12,
           "peso": 21.12,
-          "arm_lib": 0,
-          "arm_pend": 12,
-          "arm_pend_peso": 21.12,
+          "arm_lib": 6,
+          "arm_pend": 6,
+          "arm_pend_peso": 10.56,
           "pint_ok": 0,
           "pint_pend": 12,
           "pint_pend_peso": 21.12,
@@ -119985,7 +119985,7 @@
           "prod": "SOPORTE",
           "long": 145,
           "cant": 12,
-          "pend": 12
+          "pend": 6
         },
         {
           "cod": "BJY-SP-2",
