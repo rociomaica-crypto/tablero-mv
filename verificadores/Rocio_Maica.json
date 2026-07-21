@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T11:08:01.371Z",
+  "updatedAt": "2026-07-21T11:09:37.026Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "25527_1": {
@@ -86389,24 +86389,24 @@
       "ot": "25531",
       "obra": "Pérgola _Ed. Nest",
       "cliente": "GRIT S.A.",
-      "fecha": "20/7/2026",
+      "fecha": "21/7/2026",
       "avances": {
-        "arm": 12,
+        "arm": 20,
         "pint": 0,
         "env": 0,
         "mont": 0
       },
       "totales": {
         "cant": 50,
-        "arm_lib": 6,
-        "arm_pend": 44,
+        "arm_lib": 10,
+        "arm_pend": 40,
         "pint_ok": 0,
         "pint_pend": 50,
         "env_ok": 0,
         "env_pend": 50,
         "items": 21,
         "peso_total": 3421.6500000000005,
-        "arm_pend_peso": 3382.77,
+        "arm_pend_peso": 3343.85,
         "pint_pend_peso": 3421.6500000000005,
         "env_pend_peso": 3421.6500000000005
       },
@@ -86724,9 +86724,9 @@
           "long": 250,
           "cant": 3,
           "peso": 17.55,
-          "arm_lib": 0,
-          "arm_pend": 3,
-          "arm_pend_peso": 17.55,
+          "arm_lib": 3,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 3,
           "pint_pend_peso": 17.55,
@@ -86742,9 +86742,9 @@
           "long": 880,
           "cant": 1,
           "peso": 21.37,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 21.37,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 21.37,
@@ -86900,20 +86900,6 @@
           "cod": "BIA-PZ-9",
           "prod": "Pieza Especial",
           "long": 2375,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIA-SP-2",
-          "prod": "SOPORTE",
-          "long": 250,
-          "cant": 3,
-          "pend": 3
-        },
-        {
-          "cod": "BIA-SP-3",
-          "prod": "SOPORTE",
-          "long": 880,
           "cant": 1,
           "pend": 1
         }
