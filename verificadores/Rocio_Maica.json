@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T10:48:48.966Z",
+  "updatedAt": "2026-07-21T10:49:58.649Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "25527_1": {
@@ -125066,25 +125066,25 @@
       "ot": "25676",
       "obra": "Fabricación de estructura metálica para Silo Ovetr",
       "cliente": "Santa Rita Constructora S.A",
-      "fecha": "16/7/2026",
+      "fecha": "21/7/2026",
       "avances": {
-        "arm": 40,
-        "pint": 54,
+        "arm": 46,
+        "pint": 51,
         "env": 0,
         "mont": 0
       },
       "totales": {
-        "cant": 2427,
-        "arm_lib": 978,
-        "arm_pend": 1449,
-        "pint_ok": 1321,
-        "pint_pend": 1106,
+        "cant": 2607,
+        "arm_lib": 1211.2,
+        "arm_pend": 1395.8,
+        "pint_ok": 1331.5,
+        "pint_pend": 1275.5,
         "env_ok": 0,
-        "env_pend": 2427,
-        "items": 249,
+        "env_pend": 2607,
+        "items": 250,
         "peso_total": 88431.76000000005,
-        "arm_pend_peso": 40392.66500000001,
-        "pint_pend_peso": 21444.880000000005,
+        "arm_pend_peso": 34333.467,
+        "pint_pend_peso": 17449.715,
         "env_pend_peso": 88431.76000000005
       },
       "items": [
@@ -125275,9 +125275,9 @@
           "long": 3439,
           "cant": 4,
           "peso": 6.96,
-          "arm_lib": 0,
-          "arm_pend": 4,
-          "arm_pend_peso": 6.96,
+          "arm_lib": 4,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 4,
           "pint_pend_peso": 6.96,
@@ -125293,9 +125293,9 @@
           "long": 2915,
           "cant": 8,
           "peso": 11.84,
-          "arm_lib": 0,
-          "arm_pend": 8,
-          "arm_pend_peso": 11.84,
+          "arm_lib": 8,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 8,
           "pint_pend_peso": 11.84,
@@ -125347,9 +125347,9 @@
           "long": 2720,
           "cant": 12,
           "peso": 16.56,
-          "arm_lib": 0,
-          "arm_pend": 12,
-          "arm_pend_peso": 16.56,
+          "arm_lib": 12,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 12,
           "pint_pend_peso": 16.56,
@@ -125365,9 +125365,9 @@
           "long": 3113,
           "cant": 8,
           "peso": 12.64,
-          "arm_lib": 0,
-          "arm_pend": 8,
-          "arm_pend_peso": 12.64,
+          "arm_lib": 8,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 8,
           "pint_pend_peso": 12.64,
@@ -125383,9 +125383,9 @@
           "long": 2008,
           "cant": 4,
           "peso": 4.08,
-          "arm_lib": 0,
-          "arm_pend": 4,
-          "arm_pend_peso": 4.08,
+          "arm_lib": 4,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 4,
           "pint_pend_peso": 4.08,
@@ -125401,9 +125401,9 @@
           "long": 3159,
           "cant": 4,
           "peso": 6.4,
-          "arm_lib": 0,
-          "arm_pend": 4,
-          "arm_pend_peso": 6.4,
+          "arm_lib": 4,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 4,
           "pint_pend_peso": 6.4,
@@ -125419,9 +125419,9 @@
           "long": 2788,
           "cant": 20,
           "peso": 28.4,
-          "arm_lib": 0,
-          "arm_pend": 20,
-          "arm_pend_peso": 28.4,
+          "arm_lib": 20,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 20,
           "pint_pend_peso": 28.4,
@@ -125437,9 +125437,9 @@
           "long": 2835,
           "cant": 36,
           "peso": 51.84,
-          "arm_lib": 0,
-          "arm_pend": 36,
-          "arm_pend_peso": 51.84,
+          "arm_lib": 36,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 36,
           "pint_pend_peso": 51.84,
@@ -125473,9 +125473,9 @@
           "long": 3226,
           "cant": 12,
           "peso": 19.68,
-          "arm_lib": 0,
-          "arm_pend": 12,
-          "arm_pend_peso": 19.68,
+          "arm_lib": 12,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 12,
           "pint_pend_peso": 19.68,
@@ -125491,9 +125491,9 @@
           "long": 3305,
           "cant": 4,
           "peso": 6.72,
-          "arm_lib": 0,
-          "arm_pend": 4,
-          "arm_pend_peso": 6.72,
+          "arm_lib": 4,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 4,
           "pint_pend_peso": 6.72,
@@ -125527,9 +125527,9 @@
           "long": 3364,
           "cant": 4,
           "peso": 6.84,
-          "arm_lib": 0,
-          "arm_pend": 4,
-          "arm_pend_peso": 6.84,
+          "arm_lib": 4,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 4,
           "pint_pend_peso": 6.84,
@@ -127525,9 +127525,9 @@
           "long": 1623,
           "cant": 528,
           "peso": 459.36,
-          "arm_lib": 0,
-          "arm_pend": 528,
-          "arm_pend_peso": 459.36,
+          "arm_lib": 20,
+          "arm_pend": 508,
+          "arm_pend_peso": 441.96,
           "pint_ok": 0,
           "pint_pend": 528,
           "pint_pend_peso": 459.36,
@@ -127543,9 +127543,9 @@
           "long": 1584,
           "cant": 74,
           "peso": 62.9,
-          "arm_lib": 0,
-          "arm_pend": 74,
-          "arm_pend_peso": 62.9,
+          "arm_lib": 74,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 74,
           "pint_pend_peso": 62.9,
@@ -127597,9 +127597,9 @@
           "long": 1590,
           "cant": 20,
           "peso": 17,
-          "arm_lib": 0,
-          "arm_pend": 20,
-          "arm_pend_peso": 17,
+          "arm_lib": 20,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 20,
           "pint_pend_peso": 17,
@@ -128086,9 +128086,9 @@
           "arm_lib": 4,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 4,
-          "pint_pend_peso": 661.04,
+          "pint_ok": 4,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 4,
           "env_pend_peso": 661.04,
@@ -128104,9 +128104,9 @@
           "arm_lib": 4,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 4,
-          "pint_pend_peso": 281.04,
+          "pint_ok": 4,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 4,
           "env_pend_peso": 281.04,
@@ -128209,9 +128209,9 @@
           "long": 24252,
           "cant": 1,
           "peso": 1391.53,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 1391.53,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 695.765,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 1391.53,
@@ -128227,12 +128227,12 @@
           "long": 24252,
           "cant": 2,
           "peso": 3980.78,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 3980.78,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 3980.78,
+          "arm_lib": 1.2,
+          "arm_pend": 0.8,
+          "arm_pend_peso": 1592.312,
+          "pint_ok": 0.5,
+          "pint_pend": 1.5,
+          "pint_pend_peso": 2985.585,
           "env_ok": 0,
           "env_pend": 2,
           "env_pend_peso": 3980.78,
@@ -128353,12 +128353,12 @@
           "long": 26090,
           "cant": 1,
           "peso": 1402.03,
-          "arm_lib": 0.5,
-          "arm_pend": 0.5,
-          "arm_pend_peso": 701.015,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 1402.03,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 1402.03,
@@ -128371,9 +128371,9 @@
           "long": 26090,
           "cant": 2,
           "peso": 4009.38,
-          "arm_lib": 1,
-          "arm_pend": 1,
-          "arm_pend_peso": 2004.69,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 2,
           "pint_pend_peso": 4009.38,
@@ -128518,9 +128518,9 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 655.86,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 655.86,
@@ -129569,6 +129569,24 @@
           "env_pend": 4,
           "env_pend_peso": 122.12,
           "literal": "BJS"
+        },
+        {
+          "item": 250,
+          "cod": "33947-PL-1",
+          "prod": "Placa",
+          "long": 0,
+          "cant": 180,
+          "peso": 0,
+          "arm_lib": 0,
+          "arm_pend": 180,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 180,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 180,
+          "env_pend_peso": 0,
+          "literal": "PL"
         }
       ],
       "arm_pend_items": [
@@ -129622,20 +129640,6 @@
           "pend": 8
         },
         {
-          "cod": "BJS-DI-200",
-          "prod": "Diagonal",
-          "long": 3439,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BJS-DI-201",
-          "prod": "Diagonal",
-          "long": 2915,
-          "cant": 8,
-          "pend": 8
-        },
-        {
           "cod": "BJS-DI-202",
           "prod": "Diagonal",
           "long": 3358,
@@ -129650,48 +129654,6 @@
           "pend": 16
         },
         {
-          "cod": "BJS-DI-204",
-          "prod": "Diagonal",
-          "long": 2720,
-          "cant": 12,
-          "pend": 12
-        },
-        {
-          "cod": "BJS-DI-205",
-          "prod": "Diagonal",
-          "long": 3113,
-          "cant": 8,
-          "pend": 8
-        },
-        {
-          "cod": "BJS-DI-206",
-          "prod": "Diagonal",
-          "long": 2008,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BJS-DI-207",
-          "prod": "Diagonal",
-          "long": 3159,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BJS-DI-208",
-          "prod": "Diagonal",
-          "long": 2788,
-          "cant": 20,
-          "pend": 20
-        },
-        {
-          "cod": "BJS-DI-209",
-          "prod": "Diagonal",
-          "long": 2835,
-          "cant": 36,
-          "pend": 36
-        },
-        {
           "cod": "BJS-DI-210",
           "prod": "Diagonal",
           "long": 2757,
@@ -129699,32 +129661,11 @@
           "pend": 8
         },
         {
-          "cod": "BJS-DI-211",
-          "prod": "Diagonal",
-          "long": 3226,
-          "cant": 12,
-          "pend": 12
-        },
-        {
-          "cod": "BJS-DI-212",
-          "prod": "Diagonal",
-          "long": 3305,
-          "cant": 4,
-          "pend": 4
-        },
-        {
           "cod": "BJS-DI-213",
           "prod": "Diagonal",
           "long": 2551,
           "cant": 12,
           "pend": 12
-        },
-        {
-          "cod": "BJS-DI-214",
-          "prod": "Diagonal",
-          "long": 3364,
-          "cant": 4,
-          "pend": 4
         },
         {
           "cod": "BJS-DI-215",
@@ -130270,14 +130211,7 @@
           "prod": "Tilla de Traccion",
           "long": 1623,
           "cant": 528,
-          "pend": 528
-        },
-        {
-          "cod": "BJS-TI-201",
-          "prod": "Tilla de Traccion",
-          "long": 1584,
-          "cant": 74,
-          "pend": 74
+          "pend": 508
         },
         {
           "cod": "BJS-TI-202",
@@ -130292,13 +130226,6 @@
           "long": 1251,
           "cant": 2,
           "pend": 2
-        },
-        {
-          "cod": "BJS-TI-204",
-          "prod": "Tilla de Traccion",
-          "long": 1590,
-          "cant": 20,
-          "pend": 20
         },
         {
           "cod": "BJS-VTI-1",
@@ -130326,14 +130253,14 @@
           "prod": "Viga Techo Reticulada de angulos",
           "long": 24252,
           "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BJS-VTR-3",
           "prod": "Viga Techo Reticulada de angulos",
           "long": 24252,
           "cant": 2,
-          "pend": 2
+          "pend": 0.8
         },
         {
           "cod": "BJS-VTR-9",
@@ -130341,20 +130268,6 @@
           "long": 26090,
           "cant": 1,
           "pend": 0.5
-        },
-        {
-          "cod": "BJS-VTR-10",
-          "prod": "Viga Techo Reticulada de angulos",
-          "long": 26090,
-          "cant": 1,
-          "pend": 0.5
-        },
-        {
-          "cod": "BJS-VTR-11",
-          "prod": "Viga Techo Reticulada de angulos",
-          "long": 26090,
-          "cant": 2,
-          "pend": 1
         },
         {
           "cod": "BJS-CH-41",
@@ -130383,6 +130296,13 @@
           "long": 7955,
           "cant": 2,
           "pend": 0.5
+        },
+        {
+          "cod": "33947-PL-1",
+          "prod": "Placa",
+          "long": 0,
+          "cant": 180,
+          "pend": 180
         }
       ],
       "pint_pend_items": [
@@ -130744,20 +130664,6 @@
           "pend": 5
         },
         {
-          "cod": "BJS-VSI-2",
-          "prod": "Viga secundaria IS",
-          "long": 5577,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BJS-VSI-3",
-          "prod": "Viga secundaria IS",
-          "long": 3410,
-          "cant": 4,
-          "pend": 4
-        },
-        {
           "cod": "BJS-VTI-1",
           "prod": "Viga Techo IS",
           "long": 26112,
@@ -130790,17 +130696,10 @@
           "prod": "Viga Techo Reticulada de angulos",
           "long": 24252,
           "cant": 2,
-          "pend": 2
+          "pend": 1.5
         },
         {
           "cod": "BJS-VTR-9",
-          "prod": "Viga Techo Reticulada de angulos",
-          "long": 26090,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BJS-VTR-10",
           "prod": "Viga Techo Reticulada de angulos",
           "long": 26090,
           "cant": 1,
@@ -130814,11 +130713,11 @@
           "pend": 2
         },
         {
-          "cod": "BJS-VTR-19",
-          "prod": "Viga Techo Reticulada de angulos",
-          "long": 17065,
-          "cant": 1,
-          "pend": 1
+          "cod": "33947-PL-1",
+          "prod": "Placa",
+          "long": 0,
+          "cant": 180,
+          "pend": 180
         }
       ]
     },
