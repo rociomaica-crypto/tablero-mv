@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T10:40:04.172Z",
+  "updatedAt": "2026-07-21T10:44:35.099Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "25527_1": {
@@ -139720,197 +139720,30 @@
       "ot": "25731",
       "obra": "Rieles  IM F3 porton 12",
       "cliente": "MV ACEROS SA",
-      "fecha": "16/7/2026",
+      "fecha": "21/7/2026",
       "avances": {
-        "arm": 19,
+        "arm": 0,
         "pint": 0,
         "env": 0,
         "mont": 0
       },
       "totales": {
-        "cant": 610,
-        "arm_lib": 116,
-        "arm_pend": 494,
+        "cant": 0,
+        "arm_lib": 0,
+        "arm_pend": 0,
         "pint_ok": 0,
-        "pint_pend": 610,
+        "pint_pend": 0,
         "env_ok": 0,
-        "env_pend": 610,
-        "items": 6,
-        "peso_total": 5037.820000000001,
-        "arm_pend_peso": 178,
-        "pint_pend_peso": 5037.820000000001,
-        "env_pend_peso": 5037.820000000001
+        "env_pend": 0,
+        "items": 0,
+        "peso_total": 0,
+        "arm_pend_peso": 0,
+        "pint_pend_peso": 0,
+        "env_pend_peso": 0
       },
-      "items": [
-        {
-          "item": 1,
-          "cod": "BKJ-GH-1",
-          "prod": "Gancho",
-          "long": 227,
-          "cant": 392,
-          "peso": 137.2,
-          "arm_lib": 0,
-          "arm_pend": 392,
-          "arm_pend_peso": 137.2,
-          "pint_ok": 0,
-          "pint_pend": 392,
-          "pint_pend_peso": 137.2,
-          "env_ok": 0,
-          "env_pend": 392,
-          "env_pend_peso": 137.2,
-          "literal": "BKJ"
-        },
-        {
-          "item": 2,
-          "cod": "BKJ-GH-2",
-          "prod": "Gancho",
-          "long": 277,
-          "cant": 102,
-          "peso": 40.8,
-          "arm_lib": 0,
-          "arm_pend": 102,
-          "arm_pend_peso": 40.8,
-          "pint_ok": 0,
-          "pint_pend": 102,
-          "pint_pend_peso": 40.8,
-          "env_ok": 0,
-          "env_pend": 102,
-          "env_pend_peso": 40.8,
-          "literal": "BKJ"
-        },
-        {
-          "item": 3,
-          "cod": "BKJ-PL-1",
-          "prod": "Placa",
-          "long": 350,
-          "cant": 76,
-          "peso": 82.84,
-          "arm_lib": 76,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 76,
-          "pint_pend_peso": 82.84,
-          "env_ok": 0,
-          "env_pend": 76,
-          "env_pend_peso": 82.84,
-          "literal": "BKJ"
-        },
-        {
-          "item": 4,
-          "cod": "BKJ-RE-1",
-          "prod": "Riel",
-          "long": 1000,
-          "cant": 2,
-          "peso": 41.9,
-          "arm_lib": 2,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 41.9,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 41.9,
-          "literal": "BKJ"
-        },
-        {
-          "item": 5,
-          "cod": "BKJ-RE-2",
-          "prod": "Riel",
-          "long": 6000,
-          "cant": 36,
-          "peso": 4525.56,
-          "arm_lib": 36,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 36,
-          "pint_pend_peso": 4525.56,
-          "env_ok": 0,
-          "env_pend": 36,
-          "env_pend_peso": 4525.56,
-          "literal": "BKJ"
-        },
-        {
-          "item": 6,
-          "cod": "BKJ-RE-3",
-          "prod": "Riel",
-          "long": 5000,
-          "cant": 2,
-          "peso": 209.52,
-          "arm_lib": 2,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 209.52,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 209.52,
-          "literal": "BKJ"
-        }
-      ],
-      "arm_pend_items": [
-        {
-          "cod": "BKJ-GH-1",
-          "prod": "Gancho",
-          "long": 227,
-          "cant": 392,
-          "pend": 392
-        },
-        {
-          "cod": "BKJ-GH-2",
-          "prod": "Gancho",
-          "long": 277,
-          "cant": 102,
-          "pend": 102
-        }
-      ],
-      "pint_pend_items": [
-        {
-          "cod": "BKJ-GH-1",
-          "prod": "Gancho",
-          "long": 227,
-          "cant": 392,
-          "pend": 392
-        },
-        {
-          "cod": "BKJ-GH-2",
-          "prod": "Gancho",
-          "long": 277,
-          "cant": 102,
-          "pend": 102
-        },
-        {
-          "cod": "BKJ-PL-1",
-          "prod": "Placa",
-          "long": 350,
-          "cant": 76,
-          "pend": 76
-        },
-        {
-          "cod": "BKJ-RE-1",
-          "prod": "Riel",
-          "long": 1000,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BKJ-RE-2",
-          "prod": "Riel",
-          "long": 6000,
-          "cant": 36,
-          "pend": 36
-        },
-        {
-          "cod": "BKJ-RE-3",
-          "prod": "Riel",
-          "long": 5000,
-          "cant": 2,
-          "pend": 2
-        }
-      ]
+      "items": [],
+      "arm_pend_items": [],
+      "pint_pend_items": []
     },
     "25732": {
       "ot": "25732",
