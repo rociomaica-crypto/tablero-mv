@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-22T09:40:03.859Z",
+  "updatedAt": "2026-07-23T10:02:02.713Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "25527_1": {
@@ -12,10 +12,12 @@
     },
     "25676_2": {
       "arm_state_state": "soldado",
-      "pint_state_state": "galvamax"
+      "pint_state_state": "galvamax",
+      "arm_state": "soldado"
     },
     "25676_3": {
-      "arm_state_state": "soldado"
+      "arm_state_state": "soldado",
+      "arm_state": "soldado"
     },
     "24930_1": {
       "arm_state_state": "calibrado",
@@ -42,7 +44,9 @@
       "arm_state_state": "soldado"
     },
     "25107_131": {
-      "arm_state_state": ""
+      "arm_state_state": "",
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25257_1": {
       "arm_state_state": "soldado",
@@ -1110,7 +1114,8 @@
     },
     "25107_138": {
       "qty_lib": 1,
-      "arm_state_state": "liberado"
+      "arm_state_state": "liberado",
+      "arm_state": "liberado"
     },
     "25107_137": {
       "qty_lib": 0
@@ -1121,7 +1126,8 @@
     },
     "25107_132": {
       "qty_lib": 1,
-      "arm_state_state": "liberado"
+      "arm_state_state": "liberado",
+      "arm_state": "liberado"
     },
     "25107_146": {
       "qty_lib": 1,
@@ -1129,7 +1135,8 @@
     },
     "25107_145": {
       "qty_lib": 2,
-      "arm_state_state": "liberado"
+      "arm_state_state": "liberado",
+      "arm_state": "liberado"
     },
     "25107_147": {
       "qty_lib": 3,
@@ -3996,11 +4003,13 @@
     },
     "25676_8": {
       "arm_state": "liberado",
-      "pint_state": "pintado"
+      "pint_state": "pintado",
+      "qty_lib": 2
     },
     "25676_9": {
       "arm_state": "liberado",
-      "pint_state": "pintado"
+      "pint_state": "pintado",
+      "qty_lib": 2
     },
     "25676_43": {
       "arm_state": "liberado",
@@ -4228,23 +4237,28 @@
     },
     "25676_176": {
       "arm_state": "liberado",
-      "pint_state": "pintado"
+      "pint_state": "pintado",
+      "qty_lib": 1
     },
     "25676_177": {
       "arm_state": "liberado",
-      "pint_state": "pintado"
+      "pint_state": "pintado",
+      "qty_lib": 1
     },
     "25676_178": {
       "arm_state": "liberado",
-      "pint_state": "pintado"
+      "pint_state": "pintado",
+      "qty_lib": 1
     },
     "25676_179": {
       "arm_state": "liberado",
-      "pint_state": "pintado"
+      "pint_state": "pintado",
+      "qty_lib": 1
     },
     "25676_180": {
       "arm_state": "liberado",
-      "pint_state": "pintado"
+      "pint_state": "pintado",
+      "qty_lib": 1
     },
     "25676_184": {
       "arm_state": "liberado",
@@ -4252,31 +4266,38 @@
     },
     "25676_185": {
       "arm_state": "liberado",
-      "pint_state": "pintado"
+      "pint_state": "pintado",
+      "qty_lib": 1
     },
     "25676_186": {
       "arm_state": "liberado",
-      "pint_state": "pintado"
+      "pint_state": "pintado",
+      "qty_lib": 1
     },
     "25676_187": {
       "arm_state": "liberado",
-      "pint_state": "pintado"
+      "pint_state": "pintado",
+      "qty_lib": 1
     },
     "25676_188": {
       "arm_state": "liberado",
-      "pint_state": "pintado"
+      "pint_state": "pintado",
+      "qty_lib": 1
     },
     "25676_189": {
       "arm_state": "liberado",
-      "pint_state": "pintado"
+      "pint_state": "pintado",
+      "qty_lib": 1
     },
     "25676_170": {
       "arm_state": "liberado",
-      "pint_state": "pintado"
+      "pint_state": "pintado",
+      "qty_lib": 1
     },
     "25676_172": {
       "arm_state": "liberado",
-      "pint_state": "pintado"
+      "pint_state": "pintado",
+      "qty_lib": 1
     },
     "25676_190": {
       "arm_state": "liberado",
@@ -6340,40 +6361,52 @@
       "qty_lib": 1
     },
     "25708_98": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25708_99": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25708_100": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25708_101": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25708_102": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25708_103": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25708_104": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25708_105": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25708_106": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25708_107": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25708_108": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25708_109": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25708_134": {
       "arm_state": "liberado"
@@ -6444,7 +6477,8 @@
       "arm_state": "liberado"
     },
     "25607_188": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25607_152": {
       "arm_state": "liberado",
@@ -6507,62 +6541,79 @@
       "qty_lib": 1
     },
     "25107_135": {
-      "arm_state": "",
+      "arm_state": "liberado",
       "qty_lib": 1
     },
     "25107_698": {
-      "arm_state": "soldado"
+      "arm_state": "calibrado",
+      "qty_lib": 1
     },
     "25107_134": {
-      "arm_state": ""
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25584_242": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25107_667": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25107_668": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25107_669": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25107_670": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25107_671": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25107_675": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25107_676": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25107_677": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25107_681": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25107_682": {
       "arm_state": "liberado"
     },
     "25107_685": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25107_686": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25107_687": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25107_688": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25107_689": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25107_690": {
       "arm_state": "liberado"
@@ -6571,49 +6622,63 @@
       "arm_state": "liberado"
     },
     "25107_692": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25107_693": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25107_696": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25107_697": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25107_700": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "qty_lib": 4
     },
     "25107_701": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25107_702": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25107_703": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25107_704": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "qty_lib": 2
     },
     "25107_705": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25107_706": {
       "arm_state": "liberado"
     },
     "25107_707": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25107_708": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25107_709": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "qty_lib": 2
     },
     "25107_710": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "qty_lib": 5
     },
     "25607_85": {
       "pint_state": "galvamax",
@@ -6832,6 +6897,60 @@
     },
     "25607_138": {
       "pint_state": "galvamax",
+      "qty_lib": 1
+    },
+    "25607_175": {
+      "arm_state": "liberado"
+    },
+    "25676_171": {},
+    "25676_174": {
+      "qty_lib": 1
+    },
+    "25676_4": {
+      "arm_state": "soldado"
+    },
+    "25676_5": {
+      "arm_state": "soldado"
+    },
+    "25676_6": {
+      "arm_state": "soldado"
+    },
+    "25676_7": {
+      "arm_state": "soldado"
+    },
+    "25676_10": {
+      "arm_state": "soldado"
+    },
+    "25708_15": {
+      "arm_state": "liberado"
+    },
+    "25107_140": {
+      "arm_state": "liberado"
+    },
+    "25107_150": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_141": {
+      "arm_state": "liberado"
+    },
+    "25107_136": {
+      "arm_state": "liberado"
+    },
+    "25107_143": {
+      "arm_state": "liberado"
+    },
+    "25107_441": {
+      "arm_state": "liberado"
+    },
+    "25107_142": {
+      "arm_state": "soldado"
+    },
+    "25436_49": {
+      "arm_state": "soldado"
+    },
+    "25584_179": {
+      "arm_state": "liberado",
       "qty_lib": 1
     }
   },
@@ -86821,26 +86940,26 @@
       "ot": "25572",
       "obra": "Provision y fabricación,  Las Residentas F1",
       "cliente": "Metarq  S.A",
-      "fecha": "21/7/2026",
+      "fecha": "23/7/2026",
       "avances": {
-        "arm": 69,
-        "pint": 0,
-        "env": 0,
+        "arm": 88,
+        "pint": 5,
+        "env": 1,
         "mont": 0
       },
       "totales": {
-        "cant": 1266,
-        "arm_lib": 871,
-        "arm_pend": 395,
-        "pint_ok": 0,
-        "pint_pend": 1266,
+        "cant": 416,
+        "arm_lib": 364,
+        "arm_pend": 52,
+        "pint_ok": 22,
+        "pint_pend": 394,
         "env_ok": 3,
-        "env_pend": 1263,
-        "items": 230,
-        "peso_total": 20792.200000000004,
-        "arm_pend_peso": 13519.520000000004,
-        "pint_pend_peso": 20792.200000000004,
-        "env_pend_peso": 20726.650000000005
+        "env_pend": 413,
+        "items": 103,
+        "peso_total": 11354.400000000003,
+        "arm_pend_peso": 2718.71,
+        "pint_pend_peso": 9728.850000000002,
+        "env_pend_peso": 11288.850000000002
       },
       "items": [
         {
@@ -86850,9 +86969,9 @@
           "long": 6293,
           "cant": 1,
           "peso": 60.46,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 60.46,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 30.23,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 60.46,
@@ -86868,9 +86987,9 @@
           "long": 5996,
           "cant": 1,
           "peso": 57.62,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 57.62,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 57.62,
@@ -86886,9 +87005,9 @@
           "long": 5671,
           "cant": 1,
           "peso": 54.49,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 54.49,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 54.49,
@@ -86904,9 +87023,9 @@
           "long": 6097,
           "cant": 1,
           "peso": 58.58,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 58.58,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 29.29,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 58.58,
@@ -86940,9 +87059,9 @@
           "long": 6322,
           "cant": 1,
           "peso": 60.74,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 60.74,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 30.37,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 60.74,
@@ -86958,9 +87077,9 @@
           "long": 6677,
           "cant": 1,
           "peso": 64.15,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 64.15,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 32.075,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 64.15,
@@ -86976,9 +87095,9 @@
           "long": 5187,
           "cant": 1,
           "peso": 49.84,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 49.84,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 49.84,
@@ -86994,9 +87113,9 @@
           "long": 5796,
           "cant": 4,
           "peso": 222.76,
-          "arm_lib": 0,
-          "arm_pend": 4,
-          "arm_pend_peso": 222.76,
+          "arm_lib": 4,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 4,
           "pint_pend_peso": 222.76,
@@ -87012,9 +87131,9 @@
           "long": 5796,
           "cant": 1,
           "peso": 55.69,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 55.69,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 55.69,
@@ -87030,9 +87149,9 @@
           "long": 5780,
           "cant": 1,
           "peso": 55.53,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 55.53,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 55.53,
@@ -87048,9 +87167,9 @@
           "long": 5783,
           "cant": 1,
           "peso": 55.56,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 55.56,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 55.56,
@@ -87066,9 +87185,9 @@
           "long": 5810,
           "cant": 1,
           "peso": 55.83,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 55.83,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 55.83,
@@ -87078,33 +87197,15 @@
           "literal": "BIM"
         },
         {
-          "item": 67,
-          "cod": "BIM-CNP-3",
-          "prod": "Caño Pintado",
-          "long": 6000,
-          "cant": 6,
-          "peso": 65.28,
-          "arm_lib": 6,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 6,
-          "pint_pend_peso": 65.28,
-          "env_ok": 0,
-          "env_pend": 6,
-          "env_pend_peso": 65.28,
-          "literal": "BIM"
-        },
-        {
           "item": 69,
           "cod": "BIM-CR-1",
           "prod": "Correa Techo",
           "long": 6074,
           "cant": 1,
           "peso": 58.36,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 58.36,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 29.18,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 58.36,
@@ -87120,9 +87221,9 @@
           "long": 5965,
           "cant": 1,
           "peso": 57.31,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 57.31,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 57.31,
@@ -87138,9 +87239,9 @@
           "long": 6040,
           "cant": 1,
           "peso": 58.04,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 58.04,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 58.04,
@@ -87156,9 +87257,9 @@
           "long": 6009,
           "cant": 2,
           "peso": 115.48,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 115.48,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 2,
           "pint_pend_peso": 115.48,
@@ -87174,9 +87275,9 @@
           "long": 5984,
           "cant": 2,
           "peso": 115,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 115,
+          "arm_lib": 1,
+          "arm_pend": 1,
+          "arm_pend_peso": 57.5,
           "pint_ok": 0,
           "pint_pend": 2,
           "pint_pend_peso": 115,
@@ -87192,9 +87293,9 @@
           "long": 6003,
           "cant": 4,
           "peso": 230.72,
-          "arm_lib": 0,
-          "arm_pend": 4,
-          "arm_pend_peso": 230.72,
+          "arm_lib": 3,
+          "arm_pend": 1,
+          "arm_pend_peso": 57.68,
           "pint_ok": 0,
           "pint_pend": 4,
           "pint_pend_peso": 230.72,
@@ -87210,9 +87311,9 @@
           "long": 5988,
           "cant": 2,
           "peso": 115.06,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 115.06,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 2,
           "pint_pend_peso": 115.06,
@@ -87228,9 +87329,9 @@
           "long": 6092,
           "cant": 1,
           "peso": 58.54,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 58.54,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 58.54,
@@ -87246,9 +87347,9 @@
           "long": 6102,
           "cant": 1,
           "peso": 58.63,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 58.63,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 29.315,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 58.63,
@@ -87264,9 +87365,9 @@
           "long": 6093,
           "cant": 1,
           "peso": 58.54,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 58.54,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 29.27,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 58.54,
@@ -87294,33 +87395,15 @@
           "literal": "BIM"
         },
         {
-          "item": 80,
-          "cod": "BIM-CT-2",
-          "prod": "Correa Timpano",
-          "long": 91,
-          "cant": 1,
-          "peso": 12.5,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 12.5,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 12.5,
-          "literal": "BIM"
-        },
-        {
           "item": 81,
           "cod": "BIM-CT-3",
           "prod": "Correa Timpano",
           "long": 7574,
           "cant": 1,
           "peso": 72.58,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 72.58,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 36.29,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 72.58,
@@ -87336,9 +87419,9 @@
           "long": 1375,
           "cant": 2,
           "peso": 26.44,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 26.44,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 2,
           "pint_pend_peso": 26.44,
@@ -87348,33 +87431,15 @@
           "literal": "BIM"
         },
         {
-          "item": 83,
-          "cod": "BIM-CT-5",
-          "prod": "Correa Timpano",
-          "long": 91,
-          "cant": 1,
-          "peso": 12.5,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 12.5,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 12.5,
-          "literal": "BIM"
-        },
-        {
           "item": 84,
           "cod": "BIM-CT-6",
           "prod": "Correa Timpano",
           "long": 6350,
           "cant": 1,
           "peso": 60.83,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 60.83,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 60.83,
@@ -87390,9 +87455,9 @@
           "long": 7270,
           "cant": 2,
           "peso": 140.9,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 140.9,
+          "arm_lib": 1,
+          "arm_pend": 1,
+          "arm_pend_peso": 70.45,
           "pint_ok": 0,
           "pint_pend": 2,
           "pint_pend_peso": 140.9,
@@ -87402,33 +87467,15 @@
           "literal": "BIM"
         },
         {
-          "item": 86,
-          "cod": "BIM-CT-8",
-          "prod": "Correa Timpano",
-          "long": 91,
-          "cant": 1,
-          "peso": 12.08,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 12.08,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 12.08,
-          "literal": "BIM"
-        },
-        {
           "item": 87,
           "cod": "BIM-CT-9",
           "prod": "Correa Timpano",
           "long": 2275,
           "cant": 1,
           "peso": 21.86,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 21.86,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 21.86,
@@ -87444,9 +87491,9 @@
           "long": 5157,
           "cant": 1,
           "peso": 49.55,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 49.55,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 49.55,
@@ -87462,9 +87509,9 @@
           "long": 2249,
           "cant": 1,
           "peso": 21.61,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 21.61,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 21.61,
@@ -87480,9 +87527,9 @@
           "long": 2578,
           "cant": 1,
           "peso": 24.77,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 24.77,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 24.77,
@@ -87498,9 +87545,9 @@
           "long": 6938,
           "cant": 1,
           "peso": 64.63,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 64.63,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 32.315,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 64.63,
@@ -87516,9 +87563,9 @@
           "long": 2601,
           "cant": 1,
           "peso": 24.99,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 24.99,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 24.99,
@@ -87528,33 +87575,15 @@
           "literal": "BIM"
         },
         {
-          "item": 93,
-          "cod": "BIM-CT-15",
-          "prod": "Correa Timpano",
-          "long": 91,
-          "cant": 1,
-          "peso": 12.49,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 12.49,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 12.49,
-          "literal": "BIM"
-        },
-        {
           "item": 94,
           "cod": "BIM-CT-16",
           "prod": "Correa Timpano",
           "long": 6300,
           "cant": 1,
           "peso": 60.36,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 60.36,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 30.18,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 60.36,
@@ -87564,33 +87593,15 @@
           "literal": "BIM"
         },
         {
-          "item": 95,
-          "cod": "BIM-CT-17",
-          "prod": "Correa Timpano",
-          "long": 91,
-          "cant": 1,
-          "peso": 12.42,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 12.42,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 12.42,
-          "literal": "BIM"
-        },
-        {
           "item": 96,
           "cod": "BIM-CT-18",
           "prod": "Correa Timpano",
           "long": 2751,
           "cant": 1,
           "peso": 26.43,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 26.43,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 26.43,
@@ -87606,9 +87617,9 @@
           "long": 5104,
           "cant": 1,
           "peso": 49.04,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 49.04,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 49.04,
@@ -87636,42 +87647,6 @@
           "literal": "BIM"
         },
         {
-          "item": 99,
-          "cod": "BIM-CT-21",
-          "prod": "Correa Timpano",
-          "long": 91,
-          "cant": 1,
-          "peso": 12.58,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 12.58,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 12.58,
-          "literal": "BIM"
-        },
-        {
-          "item": 100,
-          "cod": "BIM-CT-22",
-          "prod": "Correa Timpano",
-          "long": 91,
-          "cant": 1,
-          "peso": 2.14,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 2.14,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 2.14,
-          "literal": "BIM"
-        },
-        {
           "item": 198,
           "cod": "BIM-MF-1",
           "prod": "Mano Francesa",
@@ -87690,1887 +87665,15 @@
           "literal": "BIM"
         },
         {
-          "item": 200,
-          "cod": "BIM-PCL-1",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5788,
-          "cant": 2,
-          "peso": 55.6,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 55.6,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 55.6,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 55.6,
-          "literal": "BIM"
-        },
-        {
-          "item": 201,
-          "cod": "BIM-PCL-2",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5957,
-          "cant": 1,
-          "peso": 28.62,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 28.62,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 28.62,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 28.62,
-          "literal": "BIM"
-        },
-        {
-          "item": 202,
-          "cod": "BIM-PCL-3",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5799,
-          "cant": 1,
-          "peso": 27.86,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 27.86,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 27.86,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 27.86,
-          "literal": "BIM"
-        },
-        {
-          "item": 203,
-          "cod": "BIM-PCL-4",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5794,
-          "cant": 1,
-          "peso": 27.83,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 27.83,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 27.83,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 27.83,
-          "literal": "BIM"
-        },
-        {
-          "item": 204,
-          "cod": "BIM-PCL-5",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 4857,
-          "cant": 1,
-          "peso": 23.33,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 23.33,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 23.33,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 23.33,
-          "literal": "BIM"
-        },
-        {
-          "item": 205,
-          "cod": "BIM-PCL-6",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5773,
-          "cant": 1,
-          "peso": 27.73,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 27.73,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 27.73,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 27.73,
-          "literal": "BIM"
-        },
-        {
-          "item": 206,
-          "cod": "BIM-PCL-7",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5790,
-          "cant": 2,
-          "peso": 55.64,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 55.64,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 55.64,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 55.64,
-          "literal": "BIM"
-        },
-        {
-          "item": 207,
-          "cod": "BIM-PCL-8",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5097,
-          "cant": 2,
-          "peso": 48.98,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 48.98,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 48.98,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 48.98,
-          "literal": "BIM"
-        },
-        {
-          "item": 208,
-          "cod": "BIM-PCL-9",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5866,
-          "cant": 1,
-          "peso": 28.18,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 28.18,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 28.18,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 28.18,
-          "literal": "BIM"
-        },
-        {
-          "item": 209,
-          "cod": "BIM-PCL-10",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5866,
-          "cant": 1,
-          "peso": 28.18,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 28.18,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 28.18,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 28.18,
-          "literal": "BIM"
-        },
-        {
-          "item": 210,
-          "cod": "BIM-PCL-11",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 597,
-          "cant": 2,
-          "peso": 5.74,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 5.74,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 5.74,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 5.74,
-          "literal": "BIM"
-        },
-        {
-          "item": 211,
-          "cod": "BIM-PCL-12",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 6672,
-          "cant": 1,
-          "peso": 32.05,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 32.05,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 32.05,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 32.05,
-          "literal": "BIM"
-        },
-        {
-          "item": 212,
-          "cod": "BIM-PCL-13",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 6677,
-          "cant": 1,
-          "peso": 32.08,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 32.08,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 32.08,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 32.08,
-          "literal": "BIM"
-        },
-        {
-          "item": 213,
-          "cod": "BIM-PCL-14",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5895,
-          "cant": 1,
-          "peso": 28.32,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 28.32,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 28.32,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 28.32,
-          "literal": "BIM"
-        },
-        {
-          "item": 214,
-          "cod": "BIM-PCL-15",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 6293,
-          "cant": 1,
-          "peso": 30.23,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 30.23,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 30.23,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 30.23,
-          "literal": "BIM"
-        },
-        {
-          "item": 215,
-          "cod": "BIM-PCL-16",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5187,
-          "cant": 4,
-          "peso": 99.68,
-          "arm_lib": 0,
-          "arm_pend": 4,
-          "arm_pend_peso": 99.68,
-          "pint_ok": 0,
-          "pint_pend": 4,
-          "pint_pend_peso": 99.68,
-          "env_ok": 0,
-          "env_pend": 4,
-          "env_pend_peso": 99.68,
-          "literal": "BIM"
-        },
-        {
-          "item": 216,
-          "cod": "BIM-PCL-17",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5996,
-          "cant": 3,
-          "peso": 86.43,
-          "arm_lib": 0,
-          "arm_pend": 3,
-          "arm_pend_peso": 86.43,
-          "pint_ok": 0,
-          "pint_pend": 3,
-          "pint_pend_peso": 86.43,
-          "env_ok": 0,
-          "env_pend": 3,
-          "env_pend_peso": 86.43,
-          "literal": "BIM"
-        },
-        {
-          "item": 217,
-          "cod": "BIM-PCL-18",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 4787,
-          "cant": 1,
-          "peso": 23,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 23,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 23,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 23,
-          "literal": "BIM"
-        },
-        {
-          "item": 218,
-          "cod": "BIM-PCL-19",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5982,
-          "cant": 3,
-          "peso": 86.22,
-          "arm_lib": 0,
-          "arm_pend": 3,
-          "arm_pend_peso": 86.22,
-          "pint_ok": 0,
-          "pint_pend": 3,
-          "pint_pend_peso": 86.22,
-          "env_ok": 0,
-          "env_pend": 3,
-          "env_pend_peso": 86.22,
-          "literal": "BIM"
-        },
-        {
-          "item": 219,
-          "cod": "BIM-PCL-20",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 6097,
-          "cant": 2,
-          "peso": 58.58,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 58.58,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 58.58,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 58.58,
-          "literal": "BIM"
-        },
-        {
-          "item": 220,
-          "cod": "BIM-PCL-21",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5962,
-          "cant": 1,
-          "peso": 28.64,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 28.64,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 28.64,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 28.64,
-          "literal": "BIM"
-        },
-        {
-          "item": 221,
-          "cod": "BIM-PCL-22",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 6036,
-          "cant": 1,
-          "peso": 29,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 29,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 29,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 29,
-          "literal": "BIM"
-        },
-        {
-          "item": 222,
-          "cod": "BIM-PCL-23",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5736,
-          "cant": 3,
-          "peso": 82.68,
-          "arm_lib": 0,
-          "arm_pend": 3,
-          "arm_pend_peso": 82.68,
-          "pint_ok": 0,
-          "pint_pend": 3,
-          "pint_pend_peso": 82.68,
-          "env_ok": 0,
-          "env_pend": 3,
-          "env_pend_peso": 82.68,
-          "literal": "BIM"
-        },
-        {
-          "item": 223,
-          "cod": "BIM-PCL-24",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 6547,
-          "cant": 2,
-          "peso": 62.9,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 62.9,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 62.9,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 62.9,
-          "literal": "BIM"
-        },
-        {
-          "item": 224,
-          "cod": "BIM-PCL-25",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5786,
-          "cant": 3,
-          "peso": 83.4,
-          "arm_lib": 0,
-          "arm_pend": 3,
-          "arm_pend_peso": 83.4,
-          "pint_ok": 0,
-          "pint_pend": 3,
-          "pint_pend_peso": 83.4,
-          "env_ok": 0,
-          "env_pend": 3,
-          "env_pend_peso": 83.4,
-          "literal": "BIM"
-        },
-        {
-          "item": 225,
-          "cod": "BIM-PCL-26",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5791,
-          "cant": 1,
-          "peso": 27.82,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 27.82,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 27.82,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 27.82,
-          "literal": "BIM"
-        },
-        {
-          "item": 226,
-          "cod": "BIM-PCL-27",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5795,
-          "cant": 1,
-          "peso": 27.84,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 27.84,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 27.84,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 27.84,
-          "literal": "BIM"
-        },
-        {
-          "item": 227,
-          "cod": "BIM-PCL-28",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5769,
-          "cant": 1,
-          "peso": 27.72,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 27.72,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 27.72,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 27.72,
-          "literal": "BIM"
-        },
-        {
-          "item": 228,
-          "cod": "BIM-PCL-29",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5770,
-          "cant": 1,
-          "peso": 27.72,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 27.72,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 27.72,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 27.72,
-          "literal": "BIM"
-        },
-        {
-          "item": 229,
-          "cod": "BIM-PCL-30",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 4901,
-          "cant": 1,
-          "peso": 23.54,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 23.54,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 23.54,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 23.54,
-          "literal": "BIM"
-        },
-        {
-          "item": 230,
-          "cod": "BIM-PCL-31",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5796,
-          "cant": 4,
-          "peso": 111.36,
-          "arm_lib": 0,
-          "arm_pend": 4,
-          "arm_pend_peso": 111.36,
-          "pint_ok": 0,
-          "pint_pend": 4,
-          "pint_pend_peso": 111.36,
-          "env_ok": 0,
-          "env_pend": 4,
-          "env_pend_peso": 111.36,
-          "literal": "BIM"
-        },
-        {
-          "item": 231,
-          "cod": "BIM-PCL-32",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5796,
-          "cant": 2,
-          "peso": 55.68,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 55.68,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 55.68,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 55.68,
-          "literal": "BIM"
-        },
-        {
-          "item": 232,
-          "cod": "BIM-PCL-33",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5799,
-          "cant": 2,
-          "peso": 55.72,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 55.72,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 55.72,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 55.72,
-          "literal": "BIM"
-        },
-        {
-          "item": 233,
-          "cod": "BIM-PCL-34",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5796,
-          "cant": 2,
-          "peso": 55.68,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 55.68,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 55.68,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 55.68,
-          "literal": "BIM"
-        },
-        {
-          "item": 234,
-          "cod": "BIM-PCL-35",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5801,
-          "cant": 1,
-          "peso": 27.87,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 27.87,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 27.87,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 27.87,
-          "literal": "BIM"
-        },
-        {
-          "item": 235,
-          "cod": "BIM-PCL-36",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5801,
-          "cant": 2,
-          "peso": 55.74,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 55.74,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 55.74,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 55.74,
-          "literal": "BIM"
-        },
-        {
-          "item": 236,
-          "cod": "BIM-PCL-37",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5777,
-          "cant": 1,
-          "peso": 27.75,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 27.75,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 27.75,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 27.75,
-          "literal": "BIM"
-        },
-        {
-          "item": 237,
-          "cod": "BIM-PCL-38",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5777,
-          "cant": 2,
-          "peso": 55.5,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 55.5,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 55.5,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 55.5,
-          "literal": "BIM"
-        },
-        {
-          "item": 238,
-          "cod": "BIM-PCL-39",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5796,
-          "cant": 2,
-          "peso": 55.7,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 55.7,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 55.7,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 55.7,
-          "literal": "BIM"
-        },
-        {
-          "item": 239,
-          "cod": "BIM-PCL-40",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5783,
-          "cant": 1,
-          "peso": 27.78,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 27.78,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 27.78,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 27.78,
-          "literal": "BIM"
-        },
-        {
-          "item": 240,
-          "cod": "BIM-PCL-41",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5783,
-          "cant": 2,
-          "peso": 55.56,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 55.56,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 55.56,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 55.56,
-          "literal": "BIM"
-        },
-        {
-          "item": 241,
-          "cod": "BIM-PCL-42",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5810,
-          "cant": 3,
-          "peso": 83.73,
-          "arm_lib": 0,
-          "arm_pend": 3,
-          "arm_pend_peso": 83.73,
-          "pint_ok": 0,
-          "pint_pend": 3,
-          "pint_pend_peso": 83.73,
-          "env_ok": 0,
-          "env_pend": 3,
-          "env_pend_peso": 83.73,
-          "literal": "BIM"
-        },
-        {
-          "item": 242,
-          "cod": "BIM-PCL-43",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 446,
-          "cant": 1,
-          "peso": 2.14,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 2.14,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 2.14,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 2.14,
-          "literal": "BIM"
-        },
-        {
-          "item": 243,
-          "cod": "BIM-PCR-1",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6069,
-          "cant": 1,
-          "peso": 29.16,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 29.16,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 29.16,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 29.16,
-          "literal": "BIM"
-        },
-        {
-          "item": 244,
-          "cod": "BIM-PCR-2",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 5965,
-          "cant": 12,
-          "peso": 343.92,
-          "arm_lib": 0,
-          "arm_pend": 12,
-          "arm_pend_peso": 343.92,
-          "pint_ok": 0,
-          "pint_pend": 12,
-          "pint_pend_peso": 343.92,
-          "env_ok": 0,
-          "env_pend": 12,
-          "env_pend_peso": 343.92,
-          "literal": "BIM"
-        },
-        {
-          "item": 245,
-          "cod": "BIM-PCR-3",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6040,
-          "cant": 12,
-          "peso": 348.24,
-          "arm_lib": 0,
-          "arm_pend": 12,
-          "arm_pend_peso": 348.24,
-          "pint_ok": 0,
-          "pint_pend": 12,
-          "pint_pend_peso": 348.24,
-          "env_ok": 0,
-          "env_pend": 12,
-          "env_pend_peso": 348.24,
-          "literal": "BIM"
-        },
-        {
-          "item": 246,
-          "cod": "BIM-PCR-4",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6009,
-          "cant": 23,
-          "peso": 664.01,
-          "arm_lib": 0,
-          "arm_pend": 23,
-          "arm_pend_peso": 664.01,
-          "pint_ok": 0,
-          "pint_pend": 23,
-          "pint_pend_peso": 664.01,
-          "env_ok": 0,
-          "env_pend": 23,
-          "env_pend_peso": 664.01,
-          "literal": "BIM"
-        },
-        {
-          "item": 247,
-          "cod": "BIM-PCR-5",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 5984,
-          "cant": 23,
-          "peso": 661.25,
-          "arm_lib": 0,
-          "arm_pend": 23,
-          "arm_pend_peso": 661.25,
-          "pint_ok": 0,
-          "pint_pend": 23,
-          "pint_pend_peso": 661.25,
-          "env_ok": 0,
-          "env_pend": 23,
-          "env_pend_peso": 661.25,
-          "literal": "BIM"
-        },
-        {
-          "item": 248,
-          "cod": "BIM-PCR-6",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6001,
-          "cant": 23,
-          "peso": 663.09,
-          "arm_lib": 0,
-          "arm_pend": 23,
-          "arm_pend_peso": 663.09,
-          "pint_ok": 0,
-          "pint_pend": 23,
-          "pint_pend_peso": 663.09,
-          "env_ok": 0,
-          "env_pend": 23,
-          "env_pend_peso": 663.09,
-          "literal": "BIM"
-        },
-        {
-          "item": 249,
-          "cod": "BIM-PCR-7",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 5988,
-          "cant": 23,
-          "peso": 661.71,
-          "arm_lib": 0,
-          "arm_pend": 23,
-          "arm_pend_peso": 661.71,
-          "pint_ok": 0,
-          "pint_pend": 23,
-          "pint_pend_peso": 661.71,
-          "env_ok": 0,
-          "env_pend": 23,
-          "env_pend_peso": 661.71,
-          "literal": "BIM"
-        },
-        {
-          "item": 250,
-          "cod": "BIM-PCR-8",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6093,
-          "cant": 2,
-          "peso": 58.54,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 58.54,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 58.54,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 58.54,
-          "literal": "BIM"
-        },
-        {
-          "item": 251,
-          "cod": "BIM-PCR-9",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6064,
-          "cant": 1,
-          "peso": 29.13,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 29.13,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 29.13,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 29.13,
-          "literal": "BIM"
-        },
-        {
-          "item": 252,
-          "cod": "BIM-PCR-10",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6049,
-          "cant": 1,
-          "peso": 29.06,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 29.06,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 29.06,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 29.06,
-          "literal": "BIM"
-        },
-        {
-          "item": 253,
-          "cod": "BIM-PCR-11",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 5756,
-          "cant": 1,
-          "peso": 27.66,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 27.66,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 27.66,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 27.66,
-          "literal": "BIM"
-        },
-        {
-          "item": 254,
-          "cod": "BIM-PCR-12",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6093,
-          "cant": 1,
-          "peso": 29.27,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 29.27,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 29.27,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 29.27,
-          "literal": "BIM"
-        },
-        {
-          "item": 255,
-          "cod": "BIM-PCR-13",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6054,
-          "cant": 1,
-          "peso": 29.08,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 29.08,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 29.08,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 29.08,
-          "literal": "BIM"
-        },
-        {
-          "item": 256,
-          "cod": "BIM-PCR-14",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6049,
-          "cant": 1,
-          "peso": 29.06,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 29.06,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 29.06,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 29.06,
-          "literal": "BIM"
-        },
-        {
-          "item": 257,
-          "cod": "BIM-PCR-15",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6093,
-          "cant": 1,
-          "peso": 29.27,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 29.27,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 29.27,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 29.27,
-          "literal": "BIM"
-        },
-        {
-          "item": 258,
-          "cod": "BIM-PCR-17",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6044,
-          "cant": 2,
-          "peso": 58.08,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 58.08,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 58.08,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 58.08,
-          "literal": "BIM"
-        },
-        {
-          "item": 259,
-          "cod": "BIM-PCR-18",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6093,
-          "cant": 3,
-          "peso": 87.81,
-          "arm_lib": 0,
-          "arm_pend": 3,
-          "arm_pend_peso": 87.81,
-          "pint_ok": 0,
-          "pint_pend": 3,
-          "pint_pend_peso": 87.81,
-          "env_ok": 0,
-          "env_pend": 3,
-          "env_pend_peso": 87.81,
-          "literal": "BIM"
-        },
-        {
-          "item": 260,
-          "cod": "BIM-PCR-19",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6047,
-          "cant": 2,
-          "peso": 58.1,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 58.1,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 58.1,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 58.1,
-          "literal": "BIM"
-        },
-        {
-          "item": 261,
-          "cod": "BIM-PCR-21",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6093,
-          "cant": 1,
-          "peso": 29.27,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 29.27,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 29.27,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 29.27,
-          "literal": "BIM"
-        },
-        {
-          "item": 262,
-          "cod": "BIM-PCR-23",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6051,
-          "cant": 1,
-          "peso": 29.07,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 29.07,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 29.07,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 29.07,
-          "literal": "BIM"
-        },
-        {
-          "item": 263,
-          "cod": "BIM-PCR-24",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 5933,
-          "cant": 1,
-          "peso": 28.5,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 28.5,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 28.5,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 28.5,
-          "literal": "BIM"
-        },
-        {
-          "item": 264,
-          "cod": "BIM-PCR-25",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6093,
-          "cant": 1,
-          "peso": 29.27,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 29.27,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 29.27,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 29.27,
-          "literal": "BIM"
-        },
-        {
-          "item": 265,
-          "cod": "BIM-PCR-27",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6055,
-          "cant": 2,
-          "peso": 58.18,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 58.18,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 58.18,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 58.18,
-          "literal": "BIM"
-        },
-        {
-          "item": 266,
-          "cod": "BIM-PCR-28",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6093,
-          "cant": 2,
-          "peso": 58.54,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 58.54,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 58.54,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 58.54,
-          "literal": "BIM"
-        },
-        {
-          "item": 267,
-          "cod": "BIM-PCR-29",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6061,
-          "cant": 3,
-          "peso": 87.36,
-          "arm_lib": 0,
-          "arm_pend": 3,
-          "arm_pend_peso": 87.36,
-          "pint_ok": 0,
-          "pint_pend": 3,
-          "pint_pend_peso": 87.36,
-          "env_ok": 0,
-          "env_pend": 3,
-          "env_pend_peso": 87.36,
-          "literal": "BIM"
-        },
-        {
-          "item": 268,
-          "cod": "BIM-PCR-30",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6002,
-          "cant": 11,
-          "peso": 317.24,
-          "arm_lib": 0,
-          "arm_pend": 11,
-          "arm_pend_peso": 317.24,
-          "pint_ok": 0,
-          "pint_pend": 11,
-          "pint_pend_peso": 317.24,
-          "env_ok": 0,
-          "env_pend": 11,
-          "env_pend_peso": 317.24,
-          "literal": "BIM"
-        },
-        {
-          "item": 269,
-          "cod": "BIM-PCR-31",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6003,
-          "cant": 11,
-          "peso": 317.24,
-          "arm_lib": 0,
-          "arm_pend": 11,
-          "arm_pend_peso": 317.24,
-          "pint_ok": 0,
-          "pint_pend": 11,
-          "pint_pend_peso": 317.24,
-          "env_ok": 0,
-          "env_pend": 11,
-          "env_pend_peso": 317.24,
-          "literal": "BIM"
-        },
-        {
-          "item": 270,
-          "cod": "BIM-PCR-32",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6108,
-          "cant": 2,
-          "peso": 58.68,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 58.68,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 58.68,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 58.68,
-          "literal": "BIM"
-        },
-        {
-          "item": 271,
-          "cod": "BIM-PCR-33",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6123,
-          "cant": 2,
-          "peso": 58.84,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 58.84,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 58.84,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 58.84,
-          "literal": "BIM"
-        },
-        {
-          "item": 272,
-          "cod": "BIM-PCR-34",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6065,
-          "cant": 2,
-          "peso": 58.28,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 58.28,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 58.28,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 58.28,
-          "literal": "BIM"
-        },
-        {
-          "item": 273,
-          "cod": "BIM-PCR-35",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6123,
-          "cant": 1,
-          "peso": 29.42,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 29.42,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 29.42,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 29.42,
-          "literal": "BIM"
-        },
-        {
-          "item": 274,
-          "cod": "BIM-PCR-36",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6123,
-          "cant": 2,
-          "peso": 58.84,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 58.84,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 58.84,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 58.84,
-          "literal": "BIM"
-        },
-        {
-          "item": 275,
-          "cod": "BIM-PCR-37",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6066,
-          "cant": 1,
-          "peso": 29.14,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 29.14,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 29.14,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 29.14,
-          "literal": "BIM"
-        },
-        {
-          "item": 276,
-          "cod": "BIM-PCR-39",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6069,
-          "cant": 1,
-          "peso": 29.16,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 29.16,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 29.16,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 29.16,
-          "literal": "BIM"
-        },
-        {
-          "item": 277,
-          "cod": "BIM-PCR-40",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6129,
-          "cant": 1,
-          "peso": 29.45,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 29.45,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 29.45,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 29.45,
-          "literal": "BIM"
-        },
-        {
-          "item": 278,
-          "cod": "BIM-PCR-41",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 5770,
-          "cant": 1,
-          "peso": 27.72,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 27.72,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 27.72,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 27.72,
-          "literal": "BIM"
-        },
-        {
-          "item": 279,
-          "cod": "BIM-PCR-42",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6123,
-          "cant": 2,
-          "peso": 58.84,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 58.84,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 58.84,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 58.84,
-          "literal": "BIM"
-        },
-        {
-          "item": 280,
-          "cod": "BIM-PCR-44",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6089,
-          "cant": 1,
-          "peso": 29.25,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 29.25,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 29.25,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 29.25,
-          "literal": "BIM"
-        },
-        {
-          "item": 281,
-          "cod": "BIM-PCR-45",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6096,
-          "cant": 1,
-          "peso": 29.28,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 29.28,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 29.28,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 29.28,
-          "literal": "BIM"
-        },
-        {
-          "item": 282,
-          "cod": "BIM-PCR-46",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6103,
-          "cant": 1,
-          "peso": 29.32,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 29.32,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 29.32,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 29.32,
-          "literal": "BIM"
-        },
-        {
-          "item": 283,
-          "cod": "BIM-PCT-1",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 3065,
-          "cant": 1,
-          "peso": 14.73,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 14.73,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 14.73,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 14.73,
-          "literal": "BIM"
-        },
-        {
-          "item": 284,
-          "cod": "BIM-PCT-2",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 7491,
-          "cant": 2,
-          "peso": 71.98,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 71.98,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 71.98,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 71.98,
-          "literal": "BIM"
-        },
-        {
-          "item": 285,
-          "cod": "BIM-PCT-3",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 7466,
-          "cant": 1,
-          "peso": 35.87,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 35.87,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 35.87,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 35.87,
-          "literal": "BIM"
-        },
-        {
-          "item": 286,
-          "cod": "BIM-PCT-4",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 7192,
-          "cant": 1,
-          "peso": 34.55,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 34.55,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 34.55,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 34.55,
-          "literal": "BIM"
-        },
-        {
-          "item": 287,
-          "cod": "BIM-PCT-5",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 2720,
-          "cant": 1,
-          "peso": 13.07,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 13.07,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 13.07,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 13.07,
-          "literal": "BIM"
-        },
-        {
-          "item": 288,
-          "cod": "BIM-PCT-6",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 1401,
-          "cant": 1,
-          "peso": 6.73,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 6.73,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 6.73,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 6.73,
-          "literal": "BIM"
-        },
-        {
-          "item": 289,
-          "cod": "BIM-PCT-7",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 3576,
-          "cant": 4,
-          "peso": 68.72,
-          "arm_lib": 0,
-          "arm_pend": 4,
-          "arm_pend_peso": 68.72,
-          "pint_ok": 0,
-          "pint_pend": 4,
-          "pint_pend_peso": 68.72,
-          "env_ok": 0,
-          "env_pend": 4,
-          "env_pend_peso": 68.72,
-          "literal": "BIM"
-        },
-        {
-          "item": 290,
-          "cod": "BIM-PCT-8",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 6269,
-          "cant": 4,
-          "peso": 120.48,
-          "arm_lib": 0,
-          "arm_pend": 4,
-          "arm_pend_peso": 120.48,
-          "pint_ok": 0,
-          "pint_pend": 4,
-          "pint_pend_peso": 120.48,
-          "env_ok": 0,
-          "env_pend": 4,
-          "env_pend_peso": 120.48,
-          "literal": "BIM"
-        },
-        {
-          "item": 291,
-          "cod": "BIM-PCT-9",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 2300,
-          "cant": 1,
-          "peso": 11.05,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 11.05,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 11.05,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 11.05,
-          "literal": "BIM"
-        },
-        {
-          "item": 292,
-          "cod": "BIM-PCT-10",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 5157,
-          "cant": 4,
-          "peso": 99.08,
-          "arm_lib": 0,
-          "arm_pend": 4,
-          "arm_pend_peso": 99.08,
-          "pint_ok": 0,
-          "pint_pend": 4,
-          "pint_pend_peso": 99.08,
-          "env_ok": 0,
-          "env_pend": 4,
-          "env_pend_peso": 99.08,
-          "literal": "BIM"
-        },
-        {
-          "item": 293,
-          "cod": "BIM-PCT-11",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 5157,
-          "cant": 1,
-          "peso": 24.77,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 24.77,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 24.77,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 24.77,
-          "literal": "BIM"
-        },
-        {
-          "item": 294,
-          "cod": "BIM-PCT-12",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 5067,
-          "cant": 1,
-          "peso": 24.35,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 24.35,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 24.35,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 24.35,
-          "literal": "BIM"
-        },
-        {
-          "item": 295,
-          "cod": "BIM-PCT-13",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 6592,
-          "cant": 1,
-          "peso": 31.67,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 31.67,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 31.67,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 31.67,
-          "literal": "BIM"
-        },
-        {
-          "item": 296,
-          "cod": "BIM-PCT-14",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 6592,
-          "cant": 4,
-          "peso": 126.68,
-          "arm_lib": 0,
-          "arm_pend": 4,
-          "arm_pend_peso": 126.68,
-          "pint_ok": 0,
-          "pint_pend": 4,
-          "pint_pend_peso": 126.68,
-          "env_ok": 0,
-          "env_pend": 4,
-          "env_pend_peso": 126.68,
-          "literal": "BIM"
-        },
-        {
-          "item": 297,
-          "cod": "BIM-PCT-15",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 2629,
-          "cant": 2,
-          "peso": 25.26,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 25.26,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 25.26,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 25.26,
-          "literal": "BIM"
-        },
-        {
-          "item": 298,
-          "cod": "BIM-PCT-16",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 6219,
-          "cant": 4,
-          "peso": 119.52,
-          "arm_lib": 0,
-          "arm_pend": 4,
-          "arm_pend_peso": 119.52,
-          "pint_ok": 0,
-          "pint_pend": 4,
-          "pint_pend_peso": 119.52,
-          "env_ok": 0,
-          "env_pend": 4,
-          "env_pend_peso": 119.52,
-          "literal": "BIM"
-        },
-        {
-          "item": 299,
-          "cod": "BIM-PCT-17",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 2775,
-          "cant": 1,
-          "peso": 13.33,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 13.33,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 13.33,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 13.33,
-          "literal": "BIM"
-        },
-        {
-          "item": 300,
-          "cod": "BIM-PCT-18",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 4561,
-          "cant": 1,
-          "peso": 21.91,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 21.91,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 21.91,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 21.91,
-          "literal": "BIM"
-        },
-        {
-          "item": 301,
-          "cod": "BIM-PCT-19",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 5034,
-          "cant": 1,
-          "peso": 24.19,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 24.19,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 24.19,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 24.19,
-          "literal": "BIM"
-        },
-        {
-          "item": 302,
-          "cod": "BIM-PCT-20",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 5079,
-          "cant": 1,
-          "peso": 24.4,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 24.4,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 24.4,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 24.4,
-          "literal": "BIM"
-        },
-        {
-          "item": 303,
-          "cod": "BIM-PCT-21",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 5104,
-          "cant": 1,
-          "peso": 24.52,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 24.52,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 24.52,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 24.52,
-          "literal": "BIM"
-        },
-        {
           "item": 339,
           "cod": "BIM-PTC-1",
           "prod": "Pilar Tubo Caño",
           "long": 1200,
           "cant": 1,
           "peso": 19.86,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 19.86,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 9.93,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 19.86,
@@ -89586,12 +87689,12 @@
           "long": 1470,
           "cant": 1,
           "peso": 31.8,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 31.8,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 31.8,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 15.9,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 31.8,
@@ -89604,9 +87707,9 @@
           "long": 1200,
           "cant": 1,
           "peso": 19.86,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 19.86,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 9.93,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 19.86,
@@ -89622,9 +87725,9 @@
           "long": 1200,
           "cant": 1,
           "peso": 19.86,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 19.86,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 9.93,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 19.86,
@@ -89640,9 +87743,9 @@
           "long": 2937,
           "cant": 1,
           "peso": 76.29,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 76.29,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 76.29,
@@ -89658,9 +87761,9 @@
           "long": 8643,
           "cant": 1,
           "peso": 117.44,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 117.44,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 58.72,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 117.44,
@@ -89676,9 +87779,9 @@
           "long": 1200,
           "cant": 1,
           "peso": 18.75,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 18.75,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 9.375,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 18.75,
@@ -89694,9 +87797,9 @@
           "long": 6107,
           "cant": 1,
           "peso": 73.47,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 73.47,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 36.735,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 73.47,
@@ -89712,9 +87815,9 @@
           "long": 6107,
           "cant": 1,
           "peso": 77.19,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 77.19,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 38.595,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 77.19,
@@ -89730,9 +87833,9 @@
           "long": 1849,
           "cant": 1,
           "peso": 26.98,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 26.98,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 26.98,
@@ -89769,9 +87872,9 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 23.57,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 23.57,
@@ -89805,9 +87908,9 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 17.29,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 17.29,
@@ -89820,9 +87923,9 @@
           "long": 3688,
           "cant": 1,
           "peso": 35.43,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 35.43,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 35.43,
@@ -89841,9 +87944,9 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 14.23,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 14.23,
@@ -89856,12 +87959,12 @@
           "long": 9830,
           "cant": 1,
           "peso": 149.19,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 149.19,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 149.19,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 149.19,
@@ -89931,9 +88034,9 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 15.05,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 15.05,
@@ -89949,9 +88052,9 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 18.09,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 18.09,
@@ -89964,12 +88067,12 @@
           "long": 3620,
           "cant": 1,
           "peso": 34.78,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 34.78,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 34.78,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 34.78,
@@ -89985,9 +88088,9 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 23.91,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 23.91,
@@ -90021,9 +88124,9 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 26.01,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 26.01,
@@ -90036,69 +88139,15 @@
           "long": 2458,
           "cant": 1,
           "peso": 71.32,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 71.32,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 71.32,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 71.32,
-          "literal": "BIM"
-        },
-        {
-          "item": 368,
-          "cod": "BIM-SC-1",
-          "prod": "Soporte Cruz",
-          "long": 125,
-          "cant": 76,
-          "peso": 31.92,
-          "arm_lib": 76,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 76,
-          "pint_pend_peso": 31.92,
-          "env_ok": 0,
-          "env_pend": 76,
-          "env_pend_peso": 31.92,
-          "literal": "BIM"
-        },
-        {
-          "item": 369,
-          "cod": "BIM-SC-2",
-          "prod": "Soporte Cruz",
-          "long": 125,
-          "cant": 76,
-          "peso": 31.92,
-          "arm_lib": 76,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 76,
-          "pint_pend_peso": 31.92,
-          "env_ok": 0,
-          "env_pend": 76,
-          "env_pend_peso": 31.92,
-          "literal": "BIM"
-        },
-        {
-          "item": 370,
-          "cod": "BIM-SD-2",
-          "prod": "Soporte Diagonal",
-          "long": 50,
-          "cant": 224,
-          "peso": 20.16,
-          "arm_lib": 224,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 224,
-          "pint_pend_peso": 20.16,
-          "env_ok": 0,
-          "env_pend": 224,
-          "env_pend_peso": 20.16,
           "literal": "BIM"
         },
         {
@@ -90117,222 +88166,6 @@
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 2.8,
-          "literal": "BIM"
-        },
-        {
-          "item": 400,
-          "cod": "BIM-TC-1",
-          "prod": "Tilla de compresion",
-          "long": 1430,
-          "cant": 6,
-          "peso": 18.18,
-          "arm_lib": 6,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 6,
-          "pint_pend_peso": 18.18,
-          "env_ok": 0,
-          "env_pend": 6,
-          "env_pend_peso": 18.18,
-          "literal": "BIM"
-        },
-        {
-          "item": 401,
-          "cod": "BIM-TC-2",
-          "prod": "Tilla de compresion",
-          "long": 1163,
-          "cant": 16,
-          "peso": 40.64,
-          "arm_lib": 16,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 16,
-          "pint_pend_peso": 40.64,
-          "env_ok": 0,
-          "env_pend": 16,
-          "env_pend_peso": 40.64,
-          "literal": "BIM"
-        },
-        {
-          "item": 402,
-          "cod": "BIM-TC-3",
-          "prod": "Tilla de compresion",
-          "long": 687,
-          "cant": 16,
-          "peso": 26.72,
-          "arm_lib": 16,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 16,
-          "pint_pend_peso": 26.72,
-          "env_ok": 0,
-          "env_pend": 16,
-          "env_pend_peso": 26.72,
-          "literal": "BIM"
-        },
-        {
-          "item": 403,
-          "cod": "BIM-TC-4",
-          "prod": "Tilla de compresion",
-          "long": 1588,
-          "cant": 16,
-          "peso": 53.12,
-          "arm_lib": 16,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 16,
-          "pint_pend_peso": 53.12,
-          "env_ok": 0,
-          "env_pend": 16,
-          "env_pend_peso": 53.12,
-          "literal": "BIM"
-        },
-        {
-          "item": 404,
-          "cod": "BIM-TC-5",
-          "prod": "Tilla de compresion",
-          "long": 1087,
-          "cant": 12,
-          "peso": 28.8,
-          "arm_lib": 12,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 12,
-          "pint_pend_peso": 28.8,
-          "env_ok": 0,
-          "env_pend": 12,
-          "env_pend_peso": 28.8,
-          "literal": "BIM"
-        },
-        {
-          "item": 405,
-          "cod": "BIM-TC-6",
-          "prod": "Tilla de compresion",
-          "long": 1261,
-          "cant": 4,
-          "peso": 10.88,
-          "arm_lib": 4,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 4,
-          "pint_pend_peso": 10.88,
-          "env_ok": 0,
-          "env_pend": 4,
-          "env_pend_peso": 10.88,
-          "literal": "BIM"
-        },
-        {
-          "item": 406,
-          "cod": "BIM-TC-7",
-          "prod": "Tilla de compresion",
-          "long": 1588,
-          "cant": 16,
-          "peso": 53.12,
-          "arm_lib": 16,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 16,
-          "pint_pend_peso": 53.12,
-          "env_ok": 0,
-          "env_pend": 16,
-          "env_pend_peso": 53.12,
-          "literal": "BIM"
-        },
-        {
-          "item": 407,
-          "cod": "BIM-TC-8",
-          "prod": "Tilla de compresion",
-          "long": 600,
-          "cant": 16,
-          "peso": 23.36,
-          "arm_lib": 16,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 16,
-          "pint_pend_peso": 23.36,
-          "env_ok": 0,
-          "env_pend": 16,
-          "env_pend_peso": 23.36,
-          "literal": "BIM"
-        },
-        {
-          "item": 408,
-          "cod": "BIM-TC-9",
-          "prod": "Tilla de compresion",
-          "long": 928,
-          "cant": 16,
-          "peso": 33.76,
-          "arm_lib": 16,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 16,
-          "pint_pend_peso": 33.76,
-          "env_ok": 0,
-          "env_pend": 16,
-          "env_pend_peso": 33.76,
-          "literal": "BIM"
-        },
-        {
-          "item": 409,
-          "cod": "BIM-TC-10",
-          "prod": "Tilla de compresion",
-          "long": 1023,
-          "cant": 16,
-          "peso": 36.48,
-          "arm_lib": 16,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 16,
-          "pint_pend_peso": 36.48,
-          "env_ok": 0,
-          "env_pend": 16,
-          "env_pend_peso": 36.48,
-          "literal": "BIM"
-        },
-        {
-          "item": 410,
-          "cod": "BIM-TC-11",
-          "prod": "Tilla de compresion",
-          "long": 1621,
-          "cant": 32,
-          "peso": 108.16,
-          "arm_lib": 32,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 32,
-          "pint_pend_peso": 108.16,
-          "env_ok": 0,
-          "env_pend": 32,
-          "env_pend_peso": 108.16,
-          "literal": "BIM"
-        },
-        {
-          "item": 440,
-          "cod": "BIM-VSI-1",
-          "prod": "Viga secundaria IS",
-          "long": 11382,
-          "cant": 1,
-          "peso": 598.65,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 598.65,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 598.65,
           "literal": "BIM"
         },
         {
@@ -90363,9 +88196,9 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 131.98,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 131.98,
@@ -90381,9 +88214,9 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 127.87,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 127.87,
@@ -90399,9 +88232,9 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 102.03,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 102.03,
@@ -90414,12 +88247,12 @@
           "long": 7311,
           "cant": 1,
           "peso": 125.32,
-          "arm_lib": 0.5,
-          "arm_pend": 0.5,
-          "arm_pend_peso": 62.66,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 125.32,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 125.32,
@@ -90435,9 +88268,9 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 86.36,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 86.36,
@@ -90453,9 +88286,9 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 85.6,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 85.6,
@@ -90471,9 +88304,9 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 96.24,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 96.24,
@@ -90489,9 +88322,9 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 108.1,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 108.1,
@@ -90507,9 +88340,9 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 123.62,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 123.62,
@@ -90525,9 +88358,9 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 100.59,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 100.59,
@@ -90543,9 +88376,9 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 87.26,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 87.26,
@@ -90558,12 +88391,12 @@
           "long": 5159,
           "cant": 1,
           "peso": 96.66,
-          "arm_lib": 0.5,
-          "arm_pend": 0.5,
-          "arm_pend_peso": 48.33,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 96.66,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 96.66,
@@ -90990,28 +88823,14 @@
           "prod": "Correas Laterales",
           "long": 6293,
           "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-CL-2",
-          "prod": "Correas Laterales",
-          "long": 5996,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-CL-3",
-          "prod": "Correas Laterales",
-          "long": 5671,
-          "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BIM-CL-4",
           "prod": "Correas Laterales",
           "long": 6097,
           "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BIM-CL-5",
@@ -91025,111 +88844,34 @@
           "prod": "Correas Laterales",
           "long": 6322,
           "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BIM-CL-7",
           "prod": "Correas Laterales",
           "long": 6677,
           "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-CL-8",
-          "prod": "Correas Laterales",
-          "long": 5187,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-CL-9",
-          "prod": "Correas Laterales",
-          "long": 5796,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BIM-CL-10",
-          "prod": "Correas Laterales",
-          "long": 5796,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-CL-11",
-          "prod": "Correas Laterales",
-          "long": 5780,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-CL-12",
-          "prod": "Correas Laterales",
-          "long": 5783,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-CL-13",
-          "prod": "Correas Laterales",
-          "long": 5810,
-          "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BIM-CR-1",
           "prod": "Correa Techo",
           "long": 6074,
           "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-CR-2",
-          "prod": "Correa Techo",
-          "long": 5965,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-CR-3",
-          "prod": "Correa Techo",
-          "long": 6040,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-CR-4",
-          "prod": "Correa Techo",
-          "long": 6009,
-          "cant": 2,
-          "pend": 2
+          "pend": 0.5
         },
         {
           "cod": "BIM-CR-5",
           "prod": "Correa Techo",
           "long": 5984,
           "cant": 2,
-          "pend": 2
+          "pend": 1
         },
         {
           "cod": "BIM-CR-6",
           "prod": "Correa Techo",
           "long": 6003,
           "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BIM-CR-7",
-          "prod": "Correa Techo",
-          "long": 5988,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-CR-8",
-          "prod": "Correa Techo",
-          "long": 6092,
-          "cant": 1,
           "pend": 1
         },
         {
@@ -91137,69 +88879,27 @@
           "prod": "Correa Techo",
           "long": 6102,
           "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BIM-CR-10",
           "prod": "Correa Techo",
           "long": 6093,
           "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BIM-CT-3",
           "prod": "Correa Timpano",
           "long": 7574,
           "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-CT-4",
-          "prod": "Correa Timpano",
-          "long": 1375,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-CT-6",
-          "prod": "Correa Timpano",
-          "long": 6350,
-          "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BIM-CT-7",
           "prod": "Correa Timpano",
           "long": 7270,
           "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-CT-9",
-          "prod": "Correa Timpano",
-          "long": 2275,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-CT-10",
-          "prod": "Correa Timpano",
-          "long": 5157,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-CT-11",
-          "prod": "Correa Timpano",
-          "long": 2249,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-CT-12",
-          "prod": "Correa Timpano",
-          "long": 2578,
-          "cant": 1,
           "pend": 1
         },
         {
@@ -91207,35 +88907,14 @@
           "prod": "Correa Timpano",
           "long": 6938,
           "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-CT-14",
-          "prod": "Correa Timpano",
-          "long": 2601,
-          "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BIM-CT-16",
           "prod": "Correa Timpano",
           "long": 6300,
           "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-CT-18",
-          "prod": "Correa Timpano",
-          "long": 2751,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-CT-19",
-          "prod": "Correa Timpano",
-          "long": 5104,
-          "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BIM-CT-20",
@@ -91245,842 +88924,58 @@
           "pend": 1
         },
         {
-          "cod": "BIM-PCL-1",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5788,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-PCL-2",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5957,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCL-3",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5799,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCL-4",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5794,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCL-5",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 4857,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCL-6",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5773,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCL-7",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5790,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-PCL-8",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5097,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-PCL-9",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5866,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCL-10",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5866,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCL-11",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 597,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-PCL-12",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 6672,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCL-13",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 6677,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCL-14",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5895,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCL-15",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 6293,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCL-16",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5187,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BIM-PCL-17",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5996,
-          "cant": 3,
-          "pend": 3
-        },
-        {
-          "cod": "BIM-PCL-18",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 4787,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCL-19",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5982,
-          "cant": 3,
-          "pend": 3
-        },
-        {
-          "cod": "BIM-PCL-20",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 6097,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-PCL-21",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5962,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCL-22",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 6036,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCL-23",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5736,
-          "cant": 3,
-          "pend": 3
-        },
-        {
-          "cod": "BIM-PCL-24",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 6547,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-PCL-25",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5786,
-          "cant": 3,
-          "pend": 3
-        },
-        {
-          "cod": "BIM-PCL-26",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5791,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCL-27",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5795,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCL-28",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5769,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCL-29",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5770,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCL-30",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 4901,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCL-31",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5796,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BIM-PCL-32",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5796,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-PCL-33",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5799,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-PCL-34",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5796,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-PCL-35",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5801,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCL-36",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5801,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-PCL-37",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5777,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCL-38",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5777,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-PCL-39",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5796,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-PCL-40",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5783,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCL-41",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5783,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-PCL-42",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5810,
-          "cant": 3,
-          "pend": 3
-        },
-        {
-          "cod": "BIM-PCL-43",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 446,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCR-1",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6069,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCR-2",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 5965,
-          "cant": 12,
-          "pend": 12
-        },
-        {
-          "cod": "BIM-PCR-3",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6040,
-          "cant": 12,
-          "pend": 12
-        },
-        {
-          "cod": "BIM-PCR-4",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6009,
-          "cant": 23,
-          "pend": 23
-        },
-        {
-          "cod": "BIM-PCR-5",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 5984,
-          "cant": 23,
-          "pend": 23
-        },
-        {
-          "cod": "BIM-PCR-6",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6001,
-          "cant": 23,
-          "pend": 23
-        },
-        {
-          "cod": "BIM-PCR-7",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 5988,
-          "cant": 23,
-          "pend": 23
-        },
-        {
-          "cod": "BIM-PCR-8",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6093,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-PCR-9",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6064,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCR-10",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6049,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCR-11",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 5756,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCR-12",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6093,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCR-13",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6054,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCR-14",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6049,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCR-15",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6093,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCR-17",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6044,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-PCR-18",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6093,
-          "cant": 3,
-          "pend": 3
-        },
-        {
-          "cod": "BIM-PCR-19",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6047,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-PCR-21",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6093,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCR-23",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6051,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCR-24",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 5933,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCR-25",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6093,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCR-27",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6055,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-PCR-28",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6093,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-PCR-29",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6061,
-          "cant": 3,
-          "pend": 3
-        },
-        {
-          "cod": "BIM-PCR-30",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6002,
-          "cant": 11,
-          "pend": 11
-        },
-        {
-          "cod": "BIM-PCR-31",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6003,
-          "cant": 11,
-          "pend": 11
-        },
-        {
-          "cod": "BIM-PCR-32",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6108,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-PCR-33",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6123,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-PCR-34",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6065,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-PCR-35",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6123,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCR-36",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6123,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-PCR-37",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6066,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCR-39",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6069,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCR-40",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6129,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCR-41",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 5770,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCR-42",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6123,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-PCR-44",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6089,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCR-45",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6096,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCR-46",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6103,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCT-1",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 3065,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCT-2",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 7491,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-PCT-3",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 7466,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCT-4",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 7192,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCT-5",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 2720,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCT-6",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 1401,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCT-7",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 3576,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BIM-PCT-8",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 6269,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BIM-PCT-9",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 2300,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCT-10",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 5157,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BIM-PCT-11",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 5157,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCT-12",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 5067,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCT-13",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 6592,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCT-14",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 6592,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BIM-PCT-15",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 2629,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-PCT-16",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 6219,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BIM-PCT-17",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 2775,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCT-18",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 4561,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCT-19",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 5034,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCT-20",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 5079,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCT-21",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 5104,
-          "cant": 1,
-          "pend": 1
-        },
-        {
           "cod": "BIM-PTC-1",
           "prod": "Pilar Tubo Caño",
           "long": 1200,
           "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BIM-PTC-2",
           "prod": "Pilar Tubo Caño",
           "long": 1470,
           "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BIM-PTC-3",
           "prod": "Pilar Tubo Caño",
           "long": 1200,
           "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BIM-PTC-4",
           "prod": "Pilar Tubo Caño",
           "long": 1200,
           "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PTC-5",
-          "prod": "Pilar Tubo Caño",
-          "long": 2937,
-          "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BIM-PTC-6",
           "prod": "Pilar Tubo Caño",
           "long": 8643,
           "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BIM-PTC-7",
           "prod": "Pilar Tubo Caño",
           "long": 1200,
           "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BIM-PTC-8",
           "prod": "Pilar Tubo Caño",
           "long": 6107,
           "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BIM-PTC-9",
           "prod": "Pilar Tubo Caño",
           "long": 6107,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PTC-10",
-          "prod": "Pilar Tubo Caño",
-          "long": 1849,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PTC-17",
-          "prod": "Pilar Tubo Caño",
-          "long": 3688,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PTC-19",
-          "prod": "Pilar Tubo Caño",
-          "long": 9830,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PTC-25",
-          "prod": "Pilar Tubo Caño",
-          "long": 3620,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PTC-29",
-          "prod": "Pilar Tubo Caño",
-          "long": 2458,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-VTT-4",
-          "prod": "Viga de techo de tubos",
-          "long": 7311,
-          "cant": 1,
-          "pend": 0.5
-        },
-        {
-          "cod": "BIM-VTT-12",
-          "prod": "Viga de techo de tubos",
-          "long": 5159,
           "cant": 1,
           "pend": 0.5
         },
@@ -92234,13 +89129,6 @@
           "pend": 1
         },
         {
-          "cod": "BIM-CNP-3",
-          "prod": "Caño Pintado",
-          "long": 6000,
-          "cant": 6,
-          "pend": 6
-        },
-        {
           "cod": "BIM-CR-1",
           "prod": "Correa Techo",
           "long": 6074,
@@ -92318,13 +89206,6 @@
           "pend": 1
         },
         {
-          "cod": "BIM-CT-2",
-          "prod": "Correa Timpano",
-          "long": 91,
-          "cant": 1,
-          "pend": 1
-        },
-        {
           "cod": "BIM-CT-3",
           "prod": "Correa Timpano",
           "long": 7574,
@@ -92339,13 +89220,6 @@
           "pend": 2
         },
         {
-          "cod": "BIM-CT-5",
-          "prod": "Correa Timpano",
-          "long": 91,
-          "cant": 1,
-          "pend": 1
-        },
-        {
           "cod": "BIM-CT-6",
           "prod": "Correa Timpano",
           "long": 6350,
@@ -92358,13 +89232,6 @@
           "long": 7270,
           "cant": 2,
           "pend": 2
-        },
-        {
-          "cod": "BIM-CT-8",
-          "prod": "Correa Timpano",
-          "long": 91,
-          "cant": 1,
-          "pend": 1
         },
         {
           "cod": "BIM-CT-9",
@@ -92409,23 +89276,9 @@
           "pend": 1
         },
         {
-          "cod": "BIM-CT-15",
-          "prod": "Correa Timpano",
-          "long": 91,
-          "cant": 1,
-          "pend": 1
-        },
-        {
           "cod": "BIM-CT-16",
           "prod": "Correa Timpano",
           "long": 6300,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-CT-17",
-          "prod": "Correa Timpano",
-          "long": 91,
           "cant": 1,
           "pend": 1
         },
@@ -92451,20 +89304,6 @@
           "pend": 1
         },
         {
-          "cod": "BIM-CT-21",
-          "prod": "Correa Timpano",
-          "long": 91,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-CT-22",
-          "prod": "Correa Timpano",
-          "long": 91,
-          "cant": 1,
-          "pend": 1
-        },
-        {
           "cod": "BIM-MF-1",
           "prod": "Mano Francesa",
           "long": 2651,
@@ -92472,744 +89311,9 @@
           "pend": 13
         },
         {
-          "cod": "BIM-PCL-1",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5788,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-PCL-2",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5957,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCL-3",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5799,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCL-4",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5794,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCL-5",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 4857,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCL-6",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5773,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCL-7",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5790,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-PCL-8",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5097,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-PCL-9",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5866,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCL-10",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5866,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCL-11",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 597,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-PCL-12",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 6672,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCL-13",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 6677,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCL-14",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5895,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCL-15",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 6293,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCL-16",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5187,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BIM-PCL-17",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5996,
-          "cant": 3,
-          "pend": 3
-        },
-        {
-          "cod": "BIM-PCL-18",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 4787,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCL-19",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5982,
-          "cant": 3,
-          "pend": 3
-        },
-        {
-          "cod": "BIM-PCL-20",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 6097,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-PCL-21",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5962,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCL-22",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 6036,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCL-23",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5736,
-          "cant": 3,
-          "pend": 3
-        },
-        {
-          "cod": "BIM-PCL-24",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 6547,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-PCL-25",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5786,
-          "cant": 3,
-          "pend": 3
-        },
-        {
-          "cod": "BIM-PCL-26",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5791,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCL-27",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5795,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCL-28",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5769,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCL-29",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5770,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCL-30",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 4901,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCL-31",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5796,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BIM-PCL-32",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5796,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-PCL-33",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5799,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-PCL-34",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5796,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-PCL-35",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5801,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCL-36",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5801,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-PCL-37",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5777,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCL-38",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5777,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-PCL-39",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5796,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-PCL-40",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5783,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCL-41",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5783,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-PCL-42",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5810,
-          "cant": 3,
-          "pend": 3
-        },
-        {
-          "cod": "BIM-PCL-43",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 446,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCR-1",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6069,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCR-2",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 5965,
-          "cant": 12,
-          "pend": 12
-        },
-        {
-          "cod": "BIM-PCR-3",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6040,
-          "cant": 12,
-          "pend": 12
-        },
-        {
-          "cod": "BIM-PCR-4",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6009,
-          "cant": 23,
-          "pend": 23
-        },
-        {
-          "cod": "BIM-PCR-5",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 5984,
-          "cant": 23,
-          "pend": 23
-        },
-        {
-          "cod": "BIM-PCR-6",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6001,
-          "cant": 23,
-          "pend": 23
-        },
-        {
-          "cod": "BIM-PCR-7",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 5988,
-          "cant": 23,
-          "pend": 23
-        },
-        {
-          "cod": "BIM-PCR-8",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6093,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-PCR-9",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6064,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCR-10",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6049,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCR-11",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 5756,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCR-12",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6093,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCR-13",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6054,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCR-14",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6049,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCR-15",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6093,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCR-17",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6044,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-PCR-18",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6093,
-          "cant": 3,
-          "pend": 3
-        },
-        {
-          "cod": "BIM-PCR-19",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6047,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-PCR-21",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6093,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCR-23",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6051,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCR-24",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 5933,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCR-25",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6093,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCR-27",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6055,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-PCR-28",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6093,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-PCR-29",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6061,
-          "cant": 3,
-          "pend": 3
-        },
-        {
-          "cod": "BIM-PCR-30",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6002,
-          "cant": 11,
-          "pend": 11
-        },
-        {
-          "cod": "BIM-PCR-31",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6003,
-          "cant": 11,
-          "pend": 11
-        },
-        {
-          "cod": "BIM-PCR-32",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6108,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-PCR-33",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6123,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-PCR-34",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6065,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-PCR-35",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6123,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCR-36",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6123,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-PCR-37",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6066,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCR-39",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6069,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCR-40",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6129,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCR-41",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 5770,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCR-42",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6123,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-PCR-44",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6089,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCR-45",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6096,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCR-46",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6103,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCT-1",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 3065,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCT-2",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 7491,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-PCT-3",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 7466,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCT-4",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 7192,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCT-5",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 2720,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCT-6",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 1401,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCT-7",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 3576,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BIM-PCT-8",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 6269,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BIM-PCT-9",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 2300,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCT-10",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 5157,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BIM-PCT-11",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 5157,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCT-12",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 5067,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCT-13",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 6592,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCT-14",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 6592,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BIM-PCT-15",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 2629,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BIM-PCT-16",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 6219,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BIM-PCT-17",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 2775,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCT-18",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 4561,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCT-19",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 5034,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCT-20",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 5079,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PCT-21",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 5104,
-          "cant": 1,
-          "pend": 1
-        },
-        {
           "cod": "BIM-PTC-1",
           "prod": "Pilar Tubo Caño",
           "long": 1200,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PTC-2",
-          "prod": "Pilar Tubo Caño",
-          "long": 1470,
           "cant": 1,
           "pend": 1
         },
@@ -93277,13 +89381,6 @@
           "pend": 1
         },
         {
-          "cod": "BIM-PTC-14",
-          "prod": "Pilar Tubo Caño",
-          "long": 1564,
-          "cant": 1,
-          "pend": 1
-        },
-        {
           "cod": "BIM-PTC-15",
           "prod": "Pilar Tubo Caño",
           "long": 1462,
@@ -93291,30 +89388,9 @@
           "pend": 1
         },
         {
-          "cod": "BIM-PTC-16",
-          "prod": "Pilar Tubo Caño",
-          "long": 1037,
-          "cant": 1,
-          "pend": 1
-        },
-        {
           "cod": "BIM-PTC-17",
           "prod": "Pilar Tubo Caño",
           "long": 3688,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PTC-18",
-          "prod": "Pilar Tubo Caño",
-          "long": 717,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PTC-19",
-          "prod": "Pilar Tubo Caño",
-          "long": 9830,
           "cant": 1,
           "pend": 1
         },
@@ -93340,44 +89416,9 @@
           "pend": 1
         },
         {
-          "cod": "BIM-PTC-23",
-          "prod": "Pilar Tubo Caño",
-          "long": 786,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PTC-24",
-          "prod": "Pilar Tubo Caño",
-          "long": 1105,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PTC-25",
-          "prod": "Pilar Tubo Caño",
-          "long": 3620,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PTC-26",
-          "prod": "Pilar Tubo Caño",
-          "long": 1529,
-          "cant": 1,
-          "pend": 1
-        },
-        {
           "cod": "BIM-PTC-27",
           "prod": "Pilar Tubo Caño",
           "long": 8484,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-PTC-28",
-          "prod": "Pilar Tubo Caño",
-          "long": 1768,
           "cant": 1,
           "pend": 1
         },
@@ -93389,27 +89430,6 @@
           "pend": 1
         },
         {
-          "cod": "BIM-SC-1",
-          "prod": "Soporte Cruz",
-          "long": 125,
-          "cant": 76,
-          "pend": 76
-        },
-        {
-          "cod": "BIM-SC-2",
-          "prod": "Soporte Cruz",
-          "long": 125,
-          "cant": 76,
-          "pend": 76
-        },
-        {
-          "cod": "BIM-SD-2",
-          "prod": "Soporte Diagonal",
-          "long": 50,
-          "cant": 224,
-          "pend": 224
-        },
-        {
           "cod": "BIM-SP-18",
           "prod": "SOPORTE",
           "long": 238,
@@ -93417,177 +89437,9 @@
           "pend": 1
         },
         {
-          "cod": "BIM-TC-1",
-          "prod": "Tilla de compresion",
-          "long": 1430,
-          "cant": 6,
-          "pend": 6
-        },
-        {
-          "cod": "BIM-TC-2",
-          "prod": "Tilla de compresion",
-          "long": 1163,
-          "cant": 16,
-          "pend": 16
-        },
-        {
-          "cod": "BIM-TC-3",
-          "prod": "Tilla de compresion",
-          "long": 687,
-          "cant": 16,
-          "pend": 16
-        },
-        {
-          "cod": "BIM-TC-4",
-          "prod": "Tilla de compresion",
-          "long": 1588,
-          "cant": 16,
-          "pend": 16
-        },
-        {
-          "cod": "BIM-TC-5",
-          "prod": "Tilla de compresion",
-          "long": 1087,
-          "cant": 12,
-          "pend": 12
-        },
-        {
-          "cod": "BIM-TC-6",
-          "prod": "Tilla de compresion",
-          "long": 1261,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BIM-TC-7",
-          "prod": "Tilla de compresion",
-          "long": 1588,
-          "cant": 16,
-          "pend": 16
-        },
-        {
-          "cod": "BIM-TC-8",
-          "prod": "Tilla de compresion",
-          "long": 600,
-          "cant": 16,
-          "pend": 16
-        },
-        {
-          "cod": "BIM-TC-9",
-          "prod": "Tilla de compresion",
-          "long": 928,
-          "cant": 16,
-          "pend": 16
-        },
-        {
-          "cod": "BIM-TC-10",
-          "prod": "Tilla de compresion",
-          "long": 1023,
-          "cant": 16,
-          "pend": 16
-        },
-        {
-          "cod": "BIM-TC-11",
-          "prod": "Tilla de compresion",
-          "long": 1621,
-          "cant": 32,
-          "pend": 32
-        },
-        {
-          "cod": "BIM-VSI-1",
-          "prod": "Viga secundaria IS",
-          "long": 11382,
-          "cant": 1,
-          "pend": 1
-        },
-        {
           "cod": "BIM-VSI-2",
           "prod": "Viga secundaria IS",
           "long": 5383,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-VTT-1",
-          "prod": "Viga de techo de tubos",
-          "long": 7102,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-VTT-2",
-          "prod": "Viga de techo de tubos",
-          "long": 7623,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-VTT-3",
-          "prod": "Viga de techo de tubos",
-          "long": 6300,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-VTT-4",
-          "prod": "Viga de techo de tubos",
-          "long": 7311,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-VTT-5",
-          "prod": "Viga de techo de tubos",
-          "long": 5207,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-VTT-6",
-          "prod": "Viga de techo de tubos",
-          "long": 4768,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-VTT-7",
-          "prod": "Viga de techo de tubos",
-          "long": 5425,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-VTT-8",
-          "prod": "Viga de techo de tubos",
-          "long": 6649,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-VTT-9",
-          "prod": "Viga de techo de tubos",
-          "long": 7296,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-VTT-10",
-          "prod": "Viga de techo de tubos",
-          "long": 6250,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-VTT-11",
-          "prod": "Viga de techo de tubos",
-          "long": 5012,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BIM-VTT-12",
-          "prod": "Viga de techo de tubos",
-          "long": 5159,
           "cant": 1,
           "pend": 1
         },
