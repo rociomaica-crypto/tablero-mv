@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-23T09:27:48.043Z",
+  "updatedAt": "2026-07-23T09:54:56.888Z",
   "updatedBy": "Bernardo Vera",
   "checks": {
     "25694_1": {
@@ -6578,14 +6578,16 @@
       "pint_state": "pintado"
     },
     "25527_721": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25527_722": {
       "arm_state": "liberado",
       "pint_state": "pintado"
     },
     "25527_723": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25708_164": {
       "arm_state": "liberado",
@@ -6631,12 +6633,12 @@
     },
     "25572_366": {
       "arm_state": "liberado",
-      "pint_state": "galvamax",
+      "pint_state": "pintado",
       "qty_lib": 1
     },
     "25572_367": {
       "arm_state": "liberado",
-      "pint_state": "galvamax",
+      "pint_state": "pintado",
       "qty_lib": 1
     },
     "25572_370": {
@@ -8533,7 +8535,9 @@
       "pint_state": "pintado"
     },
     "25572_363": {
-      "qty_lib": 1
+      "qty_lib": 1,
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25572_364": {
       "qty_lib": 1,
