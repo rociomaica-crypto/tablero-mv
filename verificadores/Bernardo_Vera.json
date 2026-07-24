@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T14:27:06.653Z",
+  "updatedAt": "2026-07-24T14:54:14.014Z",
   "updatedBy": "Bernardo Vera",
   "checks": {
     "25694_1": {
@@ -10738,7 +10738,8 @@
       "arm_state": "liberado"
     },
     "24655_169": {
-      "pint_state": "pintado"
+      "pint_state": "",
+      "arm_state": "liberado"
     },
     "24655_30": {
       "arm_state": "liberado"
@@ -10976,6 +10977,86 @@
     "25107_730": {
       "arm_state": "liberado",
       "qty_lib": 2
+    },
+    "25676_137": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25676_138": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25676_139": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25676_140": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25676_11": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25676_12": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25676_13": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25676_14": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25676_15": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25676_16": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25676_17": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25676_18": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25676_19": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25676_20": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25676_21": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25676_22": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25676_23": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25676_24": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25676_25": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25676_26": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     }
   },
   "otMeta": {
