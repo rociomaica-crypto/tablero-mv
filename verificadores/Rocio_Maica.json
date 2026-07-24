@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T20:19:29.989Z",
+  "updatedAt": "2026-07-24T20:19:41.390Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "25527_1": {
@@ -6959,22 +6959,22 @@
       "ot": "24283",
       "obra": "Nave de Producción PARGLASS Opc 2",
       "cliente": "PARGLASS SOCIEDAD ANÓNIMA",
-      "fecha": "10/7/2026",
+      "fecha": "24/7/2026",
       "avances": {
         "arm": 51,
-        "pint": 67,
+        "pint": 68,
         "env": 55,
         "mont": 0
       },
       "totales": {
-        "cant": 475,
+        "cant": 469,
         "arm_lib": 240,
-        "arm_pend": 235,
+        "arm_pend": 229,
         "pint_ok": 319,
-        "pint_pend": 156,
+        "pint_pend": 150,
         "env_ok": 259.68,
-        "env_pend": 215.32,
-        "items": 46,
+        "env_pend": 209.32,
+        "items": 45,
         "peso_total": 42711.95,
         "arm_pend_peso": 6359.399999999999,
         "pint_pend_peso": 1794.56,
@@ -7790,24 +7790,6 @@
           "env_pend": 2,
           "env_pend_peso": 0,
           "literal": "TCN"
-        },
-        {
-          "item": 1861,
-          "cod": "34124-BB-1",
-          "prod": "Babeta metálica - Ml",
-          "long": 3000,
-          "cant": 6,
-          "peso": 0,
-          "arm_lib": 0,
-          "arm_pend": 6,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 6,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 6,
-          "env_pend_peso": 0,
-          "literal": "BB"
         }
       ],
       "arm_pend_items": [
@@ -7915,13 +7897,6 @@
           "long": 450,
           "cant": 2,
           "pend": 2
-        },
-        {
-          "cod": "34124-BB-1",
-          "prod": "Babeta metálica - Ml",
-          "long": 3000,
-          "cant": 6,
-          "pend": 6
         }
       ],
       "pint_pend_items": [
@@ -7994,13 +7969,6 @@
           "long": 450,
           "cant": 2,
           "pend": 2
-        },
-        {
-          "cod": "34124-BB-1",
-          "prod": "Babeta metálica - Ml",
-          "long": 3000,
-          "cant": 6,
-          "pend": 6
         }
       ]
     },
