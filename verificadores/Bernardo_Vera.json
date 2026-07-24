@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T09:43:08.577Z",
+  "updatedAt": "2026-07-24T09:59:22.626Z",
   "updatedBy": "Bernardo Vera",
   "checks": {
     "25694_1": {
@@ -7790,15 +7790,18 @@
     },
     "25572_484": {
       "arm_state": "liberado",
-      "qty_lib": 7
+      "qty_lib": 7,
+      "pint_state": "pintado"
     },
     "25572_486": {
       "qty_lib": 3,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25572_485": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25572_493": {
       "arm_state": "liberado",
@@ -7807,47 +7810,47 @@
     },
     "25572_474": {
       "arm_state": "liberado",
-      "pint_state": "galvamax",
+      "pint_state": "pintado",
       "qty_lib": 1
     },
     "25572_475": {
       "arm_state": "liberado",
-      "pint_state": "galvamax",
+      "pint_state": "pintado",
       "qty_lib": 1
     },
     "25572_476": {
       "arm_state": "liberado",
-      "pint_state": "galvamax",
+      "pint_state": "pintado",
       "qty_lib": 1
     },
     "25572_477": {
       "arm_state": "liberado",
-      "pint_state": "galvamax",
+      "pint_state": "pintado",
       "qty_lib": 1
     },
     "25572_478": {
       "arm_state": "liberado",
-      "pint_state": "galvamax",
+      "pint_state": "pintado",
       "qty_lib": 1
     },
     "25572_479": {
       "arm_state": "liberado",
-      "pint_state": "galvamax",
+      "pint_state": "pintado",
       "qty_lib": 1
     },
     "25572_480": {
       "arm_state": "liberado",
-      "pint_state": "galvamax",
+      "pint_state": "pintado",
       "qty_lib": 1
     },
     "25572_482": {
       "arm_state": "liberado",
-      "pint_state": "galvamax",
+      "pint_state": "pintado",
       "qty_lib": 1
     },
     "25572_483": {
       "arm_state": "liberado",
-      "pint_state": "galvamax",
+      "pint_state": "pintado",
       "qty_lib": 1
     },
     "25607_68": {
@@ -7872,7 +7875,7 @@
     },
     "25572_481": {
       "arm_state": "liberado",
-      "pint_state": "galvamax",
+      "pint_state": "pintado",
       "qty_lib": 1
     },
     "25257_68": {
@@ -8398,11 +8401,13 @@
     },
     "25572_62": {
       "qty_lib": 1,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25572_63": {
       "qty_lib": 1,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25572_64": {
       "qty_lib": 1,
@@ -8582,53 +8587,56 @@
       "qty_lib": 4
     },
     "25572_453": {
-      "arm_state": "armado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25572_454": {
       "arm_state": "liberado",
       "qty_lib": 1,
-      "pint_state": "en_pintura"
+      "pint_state": "pintado"
     },
     "25572_455": {
       "arm_state": "liberado",
-      "pint_state": "en_pintura"
+      "pint_state": "pintado"
     },
     "25572_456": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25572_457": {
       "arm_state": "liberado",
       "qty_lib": 1,
-      "pint_state": "en_pintura"
+      "pint_state": "pintado"
     },
     "25572_458": {
       "arm_state": "liberado",
       "qty_lib": 1,
-      "pint_state": "en_pintura"
+      "pint_state": "pintado"
     },
     "25572_459": {
       "arm_state": "liberado",
-      "pint_state": "en_pintura"
+      "pint_state": "pintado"
     },
     "25572_460": {
       "arm_state": "liberado",
-      "pint_state": "en_pintura"
+      "pint_state": "pintado"
     },
     "25572_461": {
       "arm_state": "liberado",
       "qty_lib": 1,
-      "pint_state": "en_pintura"
+      "pint_state": "pintado"
     },
     "25572_462": {
       "arm_state": "liberado",
-      "pint_state": "en_pintura"
+      "pint_state": "pintado"
     },
     "25572_463": {
       "arm_state": "liberado",
-      "pint_state": "en_pintura"
+      "pint_state": "pintado"
     },
     "25572_464": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25572_490": {
       "pint_state": "galvamax"
