@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T10:21:01.506Z",
+  "updatedAt": "2026-07-24T10:21:30.834Z",
   "updatedBy": "Bernardo Vera",
   "checks": {
     "25694_1": {
@@ -9961,7 +9961,8 @@
     },
     "25607_188": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "galvamax"
     },
     "25607_152": {
       "arm_state": "liberado",
