@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T12:43:30.202Z",
+  "updatedAt": "2026-07-30T12:44:47.106Z",
   "updatedBy": "Bernardo Vera",
   "checks": {
     "25694_1": {
@@ -12993,6 +12993,30 @@
       "arm_state": "liberado"
     },
     "25672_13": {
+      "qty_lib": 1,
+      "arm_state": "liberado"
+    },
+    "25672_73": {
+      "qty_lib": 1,
+      "arm_state": "liberado"
+    },
+    "25672_74": {
+      "qty_lib": 1,
+      "arm_state": "liberado"
+    },
+    "25672_75": {
+      "qty_lib": 2,
+      "arm_state": "liberado"
+    },
+    "25672_77": {
+      "qty_lib": 2,
+      "arm_state": "liberado"
+    },
+    "25672_70": {
+      "qty_lib": 2,
+      "arm_state": "liberado"
+    },
+    "25672_71": {
       "qty_lib": 1,
       "arm_state": "liberado"
     }
