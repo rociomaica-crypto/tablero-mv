@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T17:47:37.087Z",
+  "updatedAt": "2026-08-03T10:39:55.004Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "24969_1": {
@@ -2521,33 +2521,49 @@
       "pint_state": "pintado"
     },
     "25676_36": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 8
     },
     "25676_37": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 8
     },
     "25676_38": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 28
     },
     "25676_39": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 28
     },
     "25676_40": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 8
     },
     "25676_29": {
       "arm_state": "liberado",
-      "qty_lib": 26
+      "qty_lib": 26,
+      "pint_state": "en_pintura"
     },
     "25676_35": {
       "arm_state": "liberado",
-      "qty_lib": 12
+      "qty_lib": 12,
+      "pint_state": "en_pintura"
     },
     "25676_28": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 30
     },
     "25676_30": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 3
     },
     "25676_33": {
       "arm_state": "liberado",
@@ -2555,10 +2571,14 @@
       "qty_lib": 2
     },
     "25676_34": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "en_pintura",
+      "qty_lib": 2
     },
     "25676_119": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 8
     },
     "25676_8": {
       "arm_state": "liberado",
@@ -2909,35 +2929,44 @@
       "qty_lib": 1
     },
     "25676_141": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 2
     },
     "25676_183": {
       "arm_state": "liberado",
-      "qty_lib": 2
+      "qty_lib": 2,
+      "pint_state": "pintado"
     },
     "25676_167": {
       "arm_state": "liberado",
-      "qty_lib": 4
+      "qty_lib": 4,
+      "pint_state": "pintado"
     },
     "25676_168": {
       "arm_state": "liberado",
-      "qty_lib": 4
+      "qty_lib": 4,
+      "pint_state": "pintado"
     },
     "25676_191": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25676_166": {
       "arm_state": "liberado",
-      "qty_lib": 5
+      "qty_lib": 5,
+      "pint_state": "pintado"
     },
     "25676_182": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25676_175": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25676_171": {
       "arm_state": "liberado",
@@ -2946,7 +2975,8 @@
     },
     "25676_174": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25676_4": {
       "arm_state": "liberado",
@@ -2975,7 +3005,8 @@
     },
     "25676_173": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25676_137": {
       "arm_state": "liberado",
@@ -3074,13 +3105,19 @@
       "qty_lib": 4
     },
     "25676_27": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 3
     },
     "25676_31": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
     },
     "25676_32": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
     },
     "25676_169": {
       "arm_state": "liberado",
@@ -3089,7 +3126,8 @@
     },
     "25676_181": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25681_4": {
       "arm_state": "liberado",
@@ -3355,7 +3393,8 @@
     },
     "25708_172": {
       "arm_state": "liberado",
-      "pint_state": "pintado"
+      "pint_state": "pintado",
+      "qty_lib": 16
     },
     "25708_54": {
       "arm_state": "liberado",
@@ -3782,35 +3821,43 @@
       "pint_state": "pintado"
     },
     "25708_199": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25708_127": {
       "arm_state": "liberado",
-      "pint_state": "pintado"
+      "pint_state": "pintado",
+      "qty_lib": 1
     },
     "25708_128": {
       "arm_state": "liberado",
-      "pint_state": "pintado"
+      "pint_state": "pintado",
+      "qty_lib": 1
     },
     "25708_129": {
       "arm_state": "liberado",
-      "pint_state": "pintado"
+      "pint_state": "pintado",
+      "qty_lib": 1
     },
     "25708_130": {
       "arm_state": "liberado",
-      "pint_state": "pintado"
+      "pint_state": "pintado",
+      "qty_lib": 1
     },
     "25708_131": {
       "arm_state": "liberado",
-      "pint_state": "pintado"
+      "pint_state": "pintado",
+      "qty_lib": 2
     },
     "25708_132": {
       "arm_state": "liberado",
-      "pint_state": "pintado"
+      "pint_state": "pintado",
+      "qty_lib": 1
     },
     "25708_133": {
       "arm_state": "liberado",
-      "pint_state": "pintado"
+      "pint_state": "pintado",
+      "qty_lib": 1
     },
     "25708_162": {
       "arm_state": "liberado",
@@ -3890,67 +3937,83 @@
     },
     "25708_271": {
       "arm_state": "liberado",
-      "pint_state": "pintado"
+      "pint_state": "pintado",
+      "qty_lib": 1
     },
     "25708_272": {
       "arm_state": "liberado",
-      "pint_state": "pintado"
+      "pint_state": "pintado",
+      "qty_lib": 10
     },
     "25708_273": {
       "arm_state": "liberado",
-      "pint_state": "pintado"
+      "pint_state": "pintado",
+      "qty_lib": 1
     },
     "25708_274": {
       "arm_state": "liberado",
-      "pint_state": "pintado"
+      "pint_state": "pintado",
+      "qty_lib": 5
     },
     "25708_275": {
       "arm_state": "liberado",
-      "pint_state": "pintado"
+      "pint_state": "pintado",
+      "qty_lib": 2
     },
     "25708_276": {
       "arm_state": "liberado",
-      "pint_state": "pintado"
+      "pint_state": "pintado",
+      "qty_lib": 1
     },
     "25708_277": {
       "arm_state": "liberado",
-      "pint_state": "pintado"
+      "pint_state": "pintado",
+      "qty_lib": 1
     },
     "25708_278": {
       "arm_state": "liberado",
-      "pint_state": "pintado"
+      "pint_state": "pintado",
+      "qty_lib": 1
     },
     "25708_279": {
       "arm_state": "liberado",
-      "pint_state": "pintado"
+      "pint_state": "pintado",
+      "qty_lib": 3
     },
     "25708_280": {
       "arm_state": "liberado",
-      "pint_state": "pintado"
+      "pint_state": "pintado",
+      "qty_lib": 4
     },
     "25708_281": {
       "arm_state": "liberado",
-      "pint_state": "pintado"
+      "pint_state": "pintado",
+      "qty_lib": 1
     },
     "25708_282": {
       "arm_state": "liberado",
-      "pint_state": "pintado"
+      "pint_state": "pintado",
+      "qty_lib": 1
     },
     "25708_283": {
       "arm_state": "liberado",
-      "pint_state": "pintado"
+      "pint_state": "pintado",
+      "qty_lib": 2
     },
     "25708_284": {
       "arm_state": "liberado",
-      "pint_state": "pintado"
+      "pint_state": "pintado",
+      "qty_lib": 1
     },
     "25708_285": {
       "arm_state": "liberado",
-      "pint_state": "pintado"
+      "pint_state": "pintado",
+      "qty_lib": 1
     },
     "25708_286": {
       "arm_state": "liberado",
-      "pint_state": "pintado"
+      "pint_state": "pintado",
+      "qty_lib": 1
     },
     "25708_261": {
       "arm_state": "liberado",
@@ -4034,7 +4097,8 @@
     },
     "25708_134": {
       "arm_state": "liberado",
-      "pint_state": "pintado"
+      "pint_state": "pintado",
+      "qty_lib": 31
     },
     "25708_290": {
       "arm_state": "liberado"
@@ -4044,7 +4108,8 @@
     },
     "25708_270": {
       "arm_state": "liberado",
-      "pint_state": "pintado"
+      "pint_state": "pintado",
+      "qty_lib": 1
     },
     "25708_110": {
       "arm_state": "liberado"
@@ -7335,7 +7400,159 @@
       "pint_state": "pintado",
       "qty_lib": 1
     },
-    "25541_70": {}
+    "25541_70": {},
+    "25676_136": {
+      "arm_state": "armado",
+      "qty_lib": 470
+    },
+    "25676_242": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25676_243": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 2
+    },
+    "25676_244": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 2
+    },
+    "25676_245": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25676_246": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 2
+    },
+    "25676_247": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25676_248": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25676_249": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 4
+    },
+    "25676_135": {
+      "arm_state": "liberado",
+      "pint_state": "en_pintura",
+      "qty_lib": 16
+    },
+    "25676_142": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 7
+    },
+    "25676_143": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 7
+    },
+    "25676_144": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 3
+    },
+    "25676_145": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 3
+    },
+    "25676_146": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25676_147": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25676_148": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25676_123": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 8
+    },
+    "25676_124": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 24
+    },
+    "25676_125": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 14
+    },
+    "25676_126": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 14
+    },
+    "25676_127": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 10
+    },
+    "25676_128": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 24
+    },
+    "25676_129": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 2
+    },
+    "25676_130": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 12
+    },
+    "25676_131": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 5
+    },
+    "25676_132": {
+      "arm_state": "liberado",
+      "pint_state": "en_pintura",
+      "qty_lib": 8
+    },
+    "25676_133": {
+      "arm_state": "liberado",
+      "pint_state": "en_pintura",
+      "qty_lib": 8
+    },
+    "25676_134": {
+      "arm_state": "liberado",
+      "pint_state": "en_pintura",
+      "qty_lib": 8
+    },
+    "25107_255": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_257": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    }
   },
   "otMeta": {
     "24655": {
@@ -86122,6 +86339,3238 @@
           "cod": "BKL-VTT-11",
           "prod": "Viga de techo de tubos",
           "long": 1805,
+          "cant": 1,
+          "pend": 1
+        }
+      ]
+    },
+    "25748": {
+      "ot": "25748",
+      "obra": "Entrepiso SDS - Sector Lujo",
+      "cliente": "COMPAÑIA EUROPEA PYA DE ARTICULOS DE LUJO S.A.",
+      "fecha": "3/8/2026",
+      "avances": {
+        "arm": 34,
+        "pint": 21,
+        "env": 0,
+        "mont": 0
+      },
+      "totales": {
+        "cant": 175,
+        "arm_lib": 59.5,
+        "arm_pend": 115.5,
+        "pint_ok": 37,
+        "pint_pend": 138,
+        "env_ok": 0,
+        "env_pend": 175,
+        "items": 114,
+        "peso_total": 23898.520000000004,
+        "arm_pend_peso": 9655.050000000001,
+        "pint_pend_peso": 10167.820000000002,
+        "env_pend_peso": 23898.520000000004
+      },
+      "items": [
+        {
+          "item": 1,
+          "cod": "BKP-FL-100",
+          "prod": "Faldon - Ml",
+          "long": 1500,
+          "cant": 2,
+          "peso": 17.6,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 17.6,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 17.6,
+          "literal": "BKP"
+        },
+        {
+          "item": 2,
+          "cod": "BKP-FL-101",
+          "prod": "Faldon - Ml",
+          "long": 3000,
+          "cant": 12,
+          "peso": 211.08,
+          "arm_lib": 12,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 12,
+          "pint_pend_peso": 211.08,
+          "env_ok": 0,
+          "env_pend": 12,
+          "env_pend_peso": 211.08,
+          "literal": "BKP"
+        },
+        {
+          "item": 3,
+          "cod": "BKP-FL-102",
+          "prod": "Faldon - Ml",
+          "long": 6047,
+          "cant": 1,
+          "peso": 38.35,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 38.35,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 38.35,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 38.35,
+          "literal": "BKP"
+        },
+        {
+          "item": 4,
+          "cod": "BKP-FL-103",
+          "prod": "Faldon - Ml",
+          "long": 6027,
+          "cant": 1,
+          "peso": 38.22,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 38.22,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 38.22,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 38.22,
+          "literal": "BKP"
+        },
+        {
+          "item": 5,
+          "cod": "BKP-FL-104",
+          "prod": "Faldon - Ml",
+          "long": 3040,
+          "cant": 1,
+          "peso": 21.54,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 21.54,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 21.54,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 21.54,
+          "literal": "BKP"
+        },
+        {
+          "item": 6,
+          "cod": "BKP-FL-105",
+          "prod": "Faldon - Ml",
+          "long": 4037,
+          "cant": 1,
+          "peso": 29.47,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 29.47,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 29.47,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 29.47,
+          "literal": "BKP"
+        },
+        {
+          "item": 7,
+          "cod": "BKP-FL-106",
+          "prod": "Faldon - Ml",
+          "long": 3028,
+          "cant": 1,
+          "peso": 21.29,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 21.29,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 21.29,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 21.29,
+          "literal": "BKP"
+        },
+        {
+          "item": 8,
+          "cod": "BKP-FL-107",
+          "prod": "Faldon - Ml",
+          "long": 3000,
+          "cant": 7,
+          "peso": 133,
+          "arm_lib": 7,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 7,
+          "pint_pend_peso": 133,
+          "env_ok": 0,
+          "env_pend": 7,
+          "env_pend_peso": 133,
+          "literal": "BKP"
+        },
+        {
+          "item": 9,
+          "cod": "BKP-FL-108",
+          "prod": "Faldon - Ml",
+          "long": 5996,
+          "cant": 1,
+          "peso": 38.02,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 38.02,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 38.02,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 38.02,
+          "literal": "BKP"
+        },
+        {
+          "item": 10,
+          "cod": "BKP-FL-109",
+          "prod": "Faldon - Ml",
+          "long": 5634,
+          "cant": 1,
+          "peso": 35.72,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 35.72,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 35.72,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 35.72,
+          "literal": "BKP"
+        },
+        {
+          "item": 11,
+          "cod": "BKP-FL-110",
+          "prod": "Faldon - Ml",
+          "long": 5526,
+          "cant": 1,
+          "peso": 35.03,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 35.03,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 35.03,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 35.03,
+          "literal": "BKP"
+        },
+        {
+          "item": 12,
+          "cod": "BKP-FL-111",
+          "prod": "Faldon - Ml",
+          "long": 1800,
+          "cant": 1,
+          "peso": 11.4,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 11.4,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 11.4,
+          "literal": "BKP"
+        },
+        {
+          "item": 13,
+          "cod": "BKP-FL-112",
+          "prod": "Faldon - Ml",
+          "long": 5491,
+          "cant": 1,
+          "peso": 34.81,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 34.81,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 34.81,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 34.81,
+          "literal": "BKP"
+        },
+        {
+          "item": 14,
+          "cod": "BKP-FL-113",
+          "prod": "Faldon - Ml",
+          "long": 1000,
+          "cant": 1,
+          "peso": 5.86,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 5.86,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 5.86,
+          "literal": "BKP"
+        },
+        {
+          "item": 15,
+          "cod": "BKP-PIS-1",
+          "prod": "Pilar Alma Llena",
+          "long": 5950,
+          "cant": 1,
+          "peso": 885.08,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 885.08,
+          "literal": "BKP"
+        },
+        {
+          "item": 16,
+          "cod": "BKP-PIS-2",
+          "prod": "Pilar Alma Llena",
+          "long": 5950,
+          "cant": 1,
+          "peso": 913.56,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 913.56,
+          "literal": "BKP"
+        },
+        {
+          "item": 17,
+          "cod": "BKP-PIS-3",
+          "prod": "Pilar Alma Llena",
+          "long": 5950,
+          "cant": 1,
+          "peso": 906.29,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 906.29,
+          "literal": "BKP"
+        },
+        {
+          "item": 18,
+          "cod": "BKP-PIS-4",
+          "prod": "Pilar Alma Llena",
+          "long": 5950,
+          "cant": 1,
+          "peso": 892.43,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 892.43,
+          "literal": "BKP"
+        },
+        {
+          "item": 19,
+          "cod": "BKP-PIS-5",
+          "prod": "Pilar Alma Llena",
+          "long": 5950,
+          "cant": 1,
+          "peso": 892.43,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 892.43,
+          "literal": "BKP"
+        },
+        {
+          "item": 20,
+          "cod": "BKP-PL-1",
+          "prod": "Placa",
+          "long": 100,
+          "cant": 14,
+          "peso": 23.1,
+          "arm_lib": 0,
+          "arm_pend": 14,
+          "arm_pend_peso": 23.1,
+          "pint_ok": 0,
+          "pint_pend": 14,
+          "pint_pend_peso": 23.1,
+          "env_ok": 0,
+          "env_pend": 14,
+          "env_pend_peso": 23.1,
+          "literal": "BKP"
+        },
+        {
+          "item": 21,
+          "cod": "BKP-PL-2",
+          "prod": "Placa",
+          "long": 147,
+          "cant": 1,
+          "peso": 6.17,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 6.17,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 6.17,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 6.17,
+          "literal": "BKP"
+        },
+        {
+          "item": 22,
+          "cod": "BKP-PL-3",
+          "prod": "Placa",
+          "long": 200,
+          "cant": 10,
+          "peso": 109.3,
+          "arm_lib": 0,
+          "arm_pend": 10,
+          "arm_pend_peso": 109.3,
+          "pint_ok": 0,
+          "pint_pend": 10,
+          "pint_pend_peso": 109.3,
+          "env_ok": 0,
+          "env_pend": 10,
+          "env_pend_peso": 109.3,
+          "literal": "BKP"
+        },
+        {
+          "item": 23,
+          "cod": "BKP-PL-4",
+          "prod": "Placa",
+          "long": 330,
+          "cant": 2,
+          "peso": 26.32,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 26.32,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 26.32,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 26.32,
+          "literal": "BKP"
+        },
+        {
+          "item": 24,
+          "cod": "BKP-PL-5",
+          "prod": "Placa",
+          "long": 135,
+          "cant": 6,
+          "peso": 6.48,
+          "arm_lib": 0,
+          "arm_pend": 6,
+          "arm_pend_peso": 6.48,
+          "pint_ok": 0,
+          "pint_pend": 6,
+          "pint_pend_peso": 6.48,
+          "env_ok": 0,
+          "env_pend": 6,
+          "env_pend_peso": 6.48,
+          "literal": "BKP"
+        },
+        {
+          "item": 25,
+          "cod": "BKP-SP-1",
+          "prod": "SOPORTE",
+          "long": 467,
+          "cant": 1,
+          "peso": 6.34,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 6.34,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 6.34,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 6.34,
+          "literal": "BKP"
+        },
+        {
+          "item": 26,
+          "cod": "BKP-SP-2",
+          "prod": "SOPORTE",
+          "long": 494,
+          "cant": 1,
+          "peso": 6.7,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 6.7,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 6.7,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 6.7,
+          "literal": "BKP"
+        },
+        {
+          "item": 27,
+          "cod": "BKP-SP-3",
+          "prod": "SOPORTE",
+          "long": 521,
+          "cant": 1,
+          "peso": 7.07,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 7.07,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 7.07,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 7.07,
+          "literal": "BKP"
+        },
+        {
+          "item": 28,
+          "cod": "BKP-SP-4",
+          "prod": "SOPORTE",
+          "long": 471,
+          "cant": 1,
+          "peso": 6.39,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 6.39,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 6.39,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 6.39,
+          "literal": "BKP"
+        },
+        {
+          "item": 29,
+          "cod": "BKP-SP-5",
+          "prod": "SOPORTE",
+          "long": 251,
+          "cant": 1,
+          "peso": 3.41,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 3.41,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 3.41,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 3.41,
+          "literal": "BKP"
+        },
+        {
+          "item": 30,
+          "cod": "BKP-SP-6",
+          "prod": "SOPORTE",
+          "long": 520,
+          "cant": 1,
+          "peso": 7.06,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 7.06,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 7.06,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 7.06,
+          "literal": "BKP"
+        },
+        {
+          "item": 31,
+          "cod": "BKP-SP-7",
+          "prod": "SOPORTE",
+          "long": 1400,
+          "cant": 1,
+          "peso": 19,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 19,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 19,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 19,
+          "literal": "BKP"
+        },
+        {
+          "item": 32,
+          "cod": "BKP-SP-8",
+          "prod": "SOPORTE",
+          "long": 1775,
+          "cant": 1,
+          "peso": 24.09,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 24.09,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 24.09,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 24.09,
+          "literal": "BKP"
+        },
+        {
+          "item": 33,
+          "cod": "BKP-SP-9",
+          "prod": "SOPORTE",
+          "long": 1280,
+          "cant": 1,
+          "peso": 17.37,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 17.37,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 17.37,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 17.37,
+          "literal": "BKP"
+        },
+        {
+          "item": 34,
+          "cod": "BKP-SP-10",
+          "prod": "SOPORTE",
+          "long": 1160,
+          "cant": 1,
+          "peso": 15.74,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 15.74,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 15.74,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 15.74,
+          "literal": "BKP"
+        },
+        {
+          "item": 35,
+          "cod": "BKP-SP-11",
+          "prod": "SOPORTE",
+          "long": 1050,
+          "cant": 1,
+          "peso": 14.25,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 14.25,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 14.25,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 14.25,
+          "literal": "BKP"
+        },
+        {
+          "item": 36,
+          "cod": "BKP-SP-12",
+          "prod": "SOPORTE",
+          "long": 910,
+          "cant": 1,
+          "peso": 12.35,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 12.35,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 12.35,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 12.35,
+          "literal": "BKP"
+        },
+        {
+          "item": 37,
+          "cod": "BKP-SP-13",
+          "prod": "SOPORTE",
+          "long": 790,
+          "cant": 1,
+          "peso": 10.72,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 10.72,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 10.72,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 10.72,
+          "literal": "BKP"
+        },
+        {
+          "item": 38,
+          "cod": "BKP-SP-14",
+          "prod": "SOPORTE",
+          "long": 400,
+          "cant": 6,
+          "peso": 14.46,
+          "arm_lib": 0,
+          "arm_pend": 6,
+          "arm_pend_peso": 14.46,
+          "pint_ok": 0,
+          "pint_pend": 6,
+          "pint_pend_peso": 14.46,
+          "env_ok": 0,
+          "env_pend": 6,
+          "env_pend_peso": 14.46,
+          "literal": "BKP"
+        },
+        {
+          "item": 39,
+          "cod": "BKP-SP-15",
+          "prod": "SOPORTE",
+          "long": 80,
+          "cant": 3,
+          "peso": 8.28,
+          "arm_lib": 3,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 3,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 3,
+          "env_pend_peso": 8.28,
+          "literal": "BKP"
+        },
+        {
+          "item": 40,
+          "cod": "BKP-SP-16",
+          "prod": "SOPORTE",
+          "long": 85,
+          "cant": 3,
+          "peso": 8.37,
+          "arm_lib": 3,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 3,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 3,
+          "env_pend_peso": 8.37,
+          "literal": "BKP"
+        },
+        {
+          "item": 41,
+          "cod": "BKP-SP-17",
+          "prod": "SOPORTE",
+          "long": 647,
+          "cant": 4,
+          "peso": 35.12,
+          "arm_lib": 0,
+          "arm_pend": 4,
+          "arm_pend_peso": 35.12,
+          "pint_ok": 0,
+          "pint_pend": 4,
+          "pint_pend_peso": 35.12,
+          "env_ok": 0,
+          "env_pend": 4,
+          "env_pend_peso": 35.12,
+          "literal": "BKP"
+        },
+        {
+          "item": 42,
+          "cod": "BKP-SP-18",
+          "prod": "SOPORTE",
+          "long": 78,
+          "cant": 1,
+          "peso": 2.7,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 2.7,
+          "literal": "BKP"
+        },
+        {
+          "item": 43,
+          "cod": "BKP-SP-19",
+          "prod": "SOPORTE",
+          "long": 90,
+          "cant": 1,
+          "peso": 2.78,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 2.78,
+          "literal": "BKP"
+        },
+        {
+          "item": 44,
+          "cod": "BKP-SP-20",
+          "prod": "SOPORTE",
+          "long": 80,
+          "cant": 4,
+          "peso": 11.04,
+          "arm_lib": 4,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 4,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 4,
+          "env_pend_peso": 11.04,
+          "literal": "BKP"
+        },
+        {
+          "item": 45,
+          "cod": "BKP-SP-21",
+          "prod": "SOPORTE",
+          "long": 100,
+          "cant": 1,
+          "peso": 2.87,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 2.87,
+          "literal": "BKP"
+        },
+        {
+          "item": 46,
+          "cod": "BKP-SP-22",
+          "prod": "SOPORTE",
+          "long": 80,
+          "cant": 1,
+          "peso": 2.74,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 2.74,
+          "literal": "BKP"
+        },
+        {
+          "item": 47,
+          "cod": "BKP-SP-23",
+          "prod": "SOPORTE",
+          "long": 96,
+          "cant": 1,
+          "peso": 3.07,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 3.07,
+          "literal": "BKP"
+        },
+        {
+          "item": 48,
+          "cod": "BKP-SP-24",
+          "prod": "SOPORTE",
+          "long": 104,
+          "cant": 1,
+          "peso": 2.95,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 2.95,
+          "literal": "BKP"
+        },
+        {
+          "item": 49,
+          "cod": "BKP-SP-25",
+          "prod": "SOPORTE",
+          "long": 121,
+          "cant": 1,
+          "peso": 3.33,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 3.33,
+          "literal": "BKP"
+        },
+        {
+          "item": 50,
+          "cod": "BKP-SP-26",
+          "prod": "SOPORTE",
+          "long": 80,
+          "cant": 1,
+          "peso": 2.79,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 2.79,
+          "literal": "BKP"
+        },
+        {
+          "item": 51,
+          "cod": "BKP-SP-100",
+          "prod": "SOPORTE",
+          "long": 6047,
+          "cant": 1,
+          "peso": 44.13,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 44.13,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 44.13,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 44.13,
+          "literal": "BKP"
+        },
+        {
+          "item": 52,
+          "cod": "BKP-SP-101",
+          "prod": "SOPORTE",
+          "long": 6027,
+          "cant": 1,
+          "peso": 43.98,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 43.98,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 43.98,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 43.98,
+          "literal": "BKP"
+        },
+        {
+          "item": 53,
+          "cod": "BKP-SP-102",
+          "prod": "SOPORTE",
+          "long": 5996,
+          "cant": 1,
+          "peso": 43.75,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 43.75,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 43.75,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 43.75,
+          "literal": "BKP"
+        },
+        {
+          "item": 54,
+          "cod": "BKP-SP-103",
+          "prod": "SOPORTE",
+          "long": 5634,
+          "cant": 1,
+          "peso": 41.1,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 41.1,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 41.1,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 41.1,
+          "literal": "BKP"
+        },
+        {
+          "item": 55,
+          "cod": "BKP-SP-104",
+          "prod": "SOPORTE",
+          "long": 5526,
+          "cant": 1,
+          "peso": 40.31,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 40.31,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 40.31,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 40.31,
+          "literal": "BKP"
+        },
+        {
+          "item": 56,
+          "cod": "BKP-SP-105",
+          "prod": "SOPORTE",
+          "long": 5491,
+          "cant": 1,
+          "peso": 40.05,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 40.05,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 40.05,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 40.05,
+          "literal": "BKP"
+        },
+        {
+          "item": 57,
+          "cod": "BKP-VPI-1",
+          "prod": "Viga Principal Alma Llena",
+          "long": 12831,
+          "cant": 1,
+          "peso": 1751.44,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 1751.44,
+          "literal": "BKP"
+        },
+        {
+          "item": 58,
+          "cod": "BKP-VPI-2",
+          "prod": "Viga Principal Alma Llena",
+          "long": 1880,
+          "cant": 1,
+          "peso": 164.36,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 164.36,
+          "literal": "BKP"
+        },
+        {
+          "item": 59,
+          "cod": "BKP-VPI-3",
+          "prod": "Viga Principal Alma Llena",
+          "long": 2383,
+          "cant": 1,
+          "peso": 142.4,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 142.4,
+          "literal": "BKP"
+        },
+        {
+          "item": 60,
+          "cod": "BKP-VPI-4",
+          "prod": "Viga Principal Alma Llena",
+          "long": 4359,
+          "cant": 1,
+          "peso": 260.48,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 260.48,
+          "literal": "BKP"
+        },
+        {
+          "item": 61,
+          "cod": "BKP-VPI-5",
+          "prod": "Viga Principal Alma Llena",
+          "long": 13494,
+          "cant": 1,
+          "peso": 1842.83,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 1842.83,
+          "literal": "BKP"
+        },
+        {
+          "item": 62,
+          "cod": "BKP-VPI-6",
+          "prod": "Viga Principal Alma Llena",
+          "long": 12804,
+          "cant": 1,
+          "peso": 1754.7,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 1754.7,
+          "literal": "BKP"
+        },
+        {
+          "item": 63,
+          "cod": "BKP-VPI-7",
+          "prod": "Viga Principal Alma Llena",
+          "long": 6153,
+          "cant": 1,
+          "peso": 367.74,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 367.74,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 367.74,
+          "literal": "BKP"
+        },
+        {
+          "item": 64,
+          "cod": "BKP-VPI-8",
+          "prod": "Viga Principal Alma Llena",
+          "long": 4607,
+          "cant": 1,
+          "peso": 275.34,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 275.34,
+          "literal": "BKP"
+        },
+        {
+          "item": 65,
+          "cod": "BKP-VPI-9",
+          "prod": "Viga Principal Alma Llena",
+          "long": 5977,
+          "cant": 1,
+          "peso": 357.18,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 357.18,
+          "literal": "BKP"
+        },
+        {
+          "item": 66,
+          "cod": "BKP-VPI-10",
+          "prod": "Viga Principal Alma Llena",
+          "long": 7282,
+          "cant": 1,
+          "peso": 560.08,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 560.08,
+          "literal": "BKP"
+        },
+        {
+          "item": 67,
+          "cod": "BKP-VPI-11",
+          "prod": "Viga Principal Alma Llena",
+          "long": 6170,
+          "cant": 1,
+          "peso": 368.7,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 368.7,
+          "literal": "BKP"
+        },
+        {
+          "item": 68,
+          "cod": "BKP-VSI-1",
+          "prod": "Viga secundaria IS",
+          "long": 8881,
+          "cant": 1,
+          "peso": 961.97,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 961.97,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 961.97,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 961.97,
+          "literal": "BKP"
+        },
+        {
+          "item": 69,
+          "cod": "BKP-VSI-2",
+          "prod": "Viga secundaria IS",
+          "long": 8741,
+          "cant": 1,
+          "peso": 946.52,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 946.52,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 946.52,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 946.52,
+          "literal": "BKP"
+        },
+        {
+          "item": 70,
+          "cod": "BKP-VSI-3",
+          "prod": "Viga secundaria IS",
+          "long": 9154,
+          "cant": 1,
+          "peso": 1003.14,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 501.57,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 1003.14,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 1003.14,
+          "literal": "BKP"
+        },
+        {
+          "item": 71,
+          "cod": "BKP-VSI-4",
+          "prod": "Viga secundaria IS",
+          "long": 5432,
+          "cant": 1,
+          "peso": 153.22,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 153.22,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 153.22,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 153.22,
+          "literal": "BKP"
+        },
+        {
+          "item": 72,
+          "cod": "BKP-VSI-5",
+          "prod": "Viga secundaria IS",
+          "long": 1050,
+          "cant": 1,
+          "peso": 29.62,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 29.62,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 29.62,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 29.62,
+          "literal": "BKP"
+        },
+        {
+          "item": 73,
+          "cod": "BKP-VSI-6",
+          "prod": "Viga secundaria IS",
+          "long": 5115,
+          "cant": 1,
+          "peso": 144.28,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 144.28,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 144.28,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 144.28,
+          "literal": "BKP"
+        },
+        {
+          "item": 74,
+          "cod": "BKP-VSI-7",
+          "prod": "Viga secundaria IS",
+          "long": 718,
+          "cant": 1,
+          "peso": 20.27,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 20.27,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 20.27,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 20.27,
+          "literal": "BKP"
+        },
+        {
+          "item": 75,
+          "cod": "BKP-VSI-8",
+          "prod": "Viga secundaria IS",
+          "long": 2585,
+          "cant": 1,
+          "peso": 72.93,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 72.93,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 72.93,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 72.93,
+          "literal": "BKP"
+        },
+        {
+          "item": 76,
+          "cod": "BKP-VSI-9",
+          "prod": "Viga secundaria IS",
+          "long": 4797,
+          "cant": 1,
+          "peso": 135.31,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 135.31,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 135.31,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 135.31,
+          "literal": "BKP"
+        },
+        {
+          "item": 77,
+          "cod": "BKP-VSI-10",
+          "prod": "Viga secundaria IS",
+          "long": 3950,
+          "cant": 1,
+          "peso": 111.43,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 111.43,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 111.43,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 111.43,
+          "literal": "BKP"
+        },
+        {
+          "item": 78,
+          "cod": "BKP-VSI-11",
+          "prod": "Viga secundaria IS",
+          "long": 4456,
+          "cant": 1,
+          "peso": 125.71,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 125.71,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 125.71,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 125.71,
+          "literal": "BKP"
+        },
+        {
+          "item": 79,
+          "cod": "BKP-VSI-12",
+          "prod": "Viga secundaria IS",
+          "long": 7219,
+          "cant": 1,
+          "peso": 485.2,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 485.2,
+          "literal": "BKP"
+        },
+        {
+          "item": 80,
+          "cod": "BKP-VSI-13",
+          "prod": "Viga secundaria IS",
+          "long": 4626,
+          "cant": 1,
+          "peso": 130.5,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 130.5,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 130.5,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 130.5,
+          "literal": "BKP"
+        },
+        {
+          "item": 81,
+          "cod": "BKP-VSI-14",
+          "prod": "Viga secundaria IS",
+          "long": 5358,
+          "cant": 1,
+          "peso": 151.14,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 151.14,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 151.14,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 151.14,
+          "literal": "BKP"
+        },
+        {
+          "item": 82,
+          "cod": "BKP-VSI-15",
+          "prod": "Viga secundaria IS",
+          "long": 5022,
+          "cant": 1,
+          "peso": 141.65,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 141.65,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 141.65,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 141.65,
+          "literal": "BKP"
+        },
+        {
+          "item": 83,
+          "cod": "BKP-VSI-16",
+          "prod": "Viga secundaria IS",
+          "long": 4103,
+          "cant": 1,
+          "peso": 115.75,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 115.75,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 115.75,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 115.75,
+          "literal": "BKP"
+        },
+        {
+          "item": 84,
+          "cod": "BKP-VSI-17",
+          "prod": "Viga secundaria IS",
+          "long": 4687,
+          "cant": 1,
+          "peso": 132.22,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 132.22,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 132.22,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 132.22,
+          "literal": "BKP"
+        },
+        {
+          "item": 85,
+          "cod": "BKP-VSI-18",
+          "prod": "Viga secundaria IS",
+          "long": 5355,
+          "cant": 1,
+          "peso": 151.05,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 151.05,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 151.05,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 151.05,
+          "literal": "BKP"
+        },
+        {
+          "item": 86,
+          "cod": "BKP-VSI-19",
+          "prod": "Viga secundaria IS",
+          "long": 5745,
+          "cant": 1,
+          "peso": 162.05,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 162.05,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 162.05,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 162.05,
+          "literal": "BKP"
+        },
+        {
+          "item": 87,
+          "cod": "BKP-VSI-20",
+          "prod": "Viga secundaria IS",
+          "long": 5017,
+          "cant": 1,
+          "peso": 141.52,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 141.52,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 141.52,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 141.52,
+          "literal": "BKP"
+        },
+        {
+          "item": 88,
+          "cod": "BKP-VSI-21",
+          "prod": "Viga secundaria IS",
+          "long": 4679,
+          "cant": 1,
+          "peso": 132,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 132,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 132,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 132,
+          "literal": "BKP"
+        },
+        {
+          "item": 89,
+          "cod": "BKP-VSI-22",
+          "prod": "Viga secundaria IS",
+          "long": 7191,
+          "cant": 1,
+          "peso": 483.32,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 483.32,
+          "literal": "BKP"
+        },
+        {
+          "item": 90,
+          "cod": "BKP-VSI-23",
+          "prod": "Viga secundaria IS",
+          "long": 5301,
+          "cant": 1,
+          "peso": 149.53,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 149.53,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 149.53,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 149.53,
+          "literal": "BKP"
+        },
+        {
+          "item": 91,
+          "cod": "BKP-VSI-24",
+          "prod": "Viga secundaria IS",
+          "long": 4981,
+          "cant": 1,
+          "peso": 140.51,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 140.51,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 140.51,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 140.51,
+          "literal": "BKP"
+        },
+        {
+          "item": 92,
+          "cod": "BKP-VSI-25",
+          "prod": "Viga secundaria IS",
+          "long": 5639,
+          "cant": 1,
+          "peso": 159.07,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 159.07,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 159.07,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 159.07,
+          "literal": "BKP"
+        },
+        {
+          "item": 93,
+          "cod": "BKP-VSI-26",
+          "prod": "Viga secundaria IS",
+          "long": 4662,
+          "cant": 1,
+          "peso": 131.5,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 131.5,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 131.5,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 131.5,
+          "literal": "BKP"
+        },
+        {
+          "item": 94,
+          "cod": "BKP-VSI-27",
+          "prod": "Viga secundaria IS",
+          "long": 3488,
+          "cant": 1,
+          "peso": 98.4,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 98.4,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 98.4,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 98.4,
+          "literal": "BKP"
+        },
+        {
+          "item": 95,
+          "cod": "BKP-VSI-28",
+          "prod": "Viga secundaria IS",
+          "long": 3820,
+          "cant": 1,
+          "peso": 107.76,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 107.76,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 107.76,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 107.76,
+          "literal": "BKP"
+        },
+        {
+          "item": 96,
+          "cod": "BKP-VSI-29",
+          "prod": "Viga secundaria IS",
+          "long": 4152,
+          "cant": 1,
+          "peso": 117.11,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 117.11,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 117.11,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 117.11,
+          "literal": "BKP"
+        },
+        {
+          "item": 97,
+          "cod": "BKP-VSI-30",
+          "prod": "Viga secundaria IS",
+          "long": 4772,
+          "cant": 1,
+          "peso": 134.62,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 134.62,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 134.62,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 134.62,
+          "literal": "BKP"
+        },
+        {
+          "item": 98,
+          "cod": "BKP-VSI-31",
+          "prod": "Viga secundaria IS",
+          "long": 5027,
+          "cant": 1,
+          "peso": 141.8,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 141.8,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 141.8,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 141.8,
+          "literal": "BKP"
+        },
+        {
+          "item": 99,
+          "cod": "BKP-VSI-32",
+          "prod": "Viga secundaria IS",
+          "long": 5310,
+          "cant": 1,
+          "peso": 149.79,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 149.79,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 149.79,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 149.79,
+          "literal": "BKP"
+        },
+        {
+          "item": 100,
+          "cod": "BKP-VSI-33",
+          "prod": "Viga secundaria IS",
+          "long": 5857,
+          "cant": 1,
+          "peso": 165.23,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 165.23,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 165.23,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 165.23,
+          "literal": "BKP"
+        },
+        {
+          "item": 101,
+          "cod": "BKP-VSI-34",
+          "prod": "Viga secundaria IS",
+          "long": 7107,
+          "cant": 1,
+          "peso": 477.81,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 477.81,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 477.81,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 477.81,
+          "literal": "BKP"
+        },
+        {
+          "item": 102,
+          "cod": "BKP-VSI-35",
+          "prod": "Viga secundaria IS",
+          "long": 5564,
+          "cant": 1,
+          "peso": 376.22,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 376.22,
+          "literal": "BKP"
+        },
+        {
+          "item": 103,
+          "cod": "BKP-VSI-36",
+          "prod": "Viga secundaria IS",
+          "long": 3590,
+          "cant": 1,
+          "peso": 101.27,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 101.27,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 101.27,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 101.27,
+          "literal": "BKP"
+        },
+        {
+          "item": 104,
+          "cod": "BKP-VSI-37",
+          "prod": "Viga secundaria IS",
+          "long": 4017,
+          "cant": 1,
+          "peso": 113.31,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 113.31,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 113.31,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 113.31,
+          "literal": "BKP"
+        },
+        {
+          "item": 105,
+          "cod": "BKP-VSI-38",
+          "prod": "Viga secundaria IS",
+          "long": 4444,
+          "cant": 1,
+          "peso": 125.36,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 125.36,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 125.36,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 125.36,
+          "literal": "BKP"
+        },
+        {
+          "item": 106,
+          "cod": "BKP-VSI-39",
+          "prod": "Viga secundaria IS",
+          "long": 5386,
+          "cant": 1,
+          "peso": 151.92,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 151.92,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 151.92,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 151.92,
+          "literal": "BKP"
+        },
+        {
+          "item": 107,
+          "cod": "BKP-VSI-40",
+          "prod": "Viga secundaria IS",
+          "long": 5163,
+          "cant": 1,
+          "peso": 145.63,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 145.63,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 145.63,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 145.63,
+          "literal": "BKP"
+        },
+        {
+          "item": 108,
+          "cod": "BKP-VSI-41",
+          "prod": "Viga secundaria IS",
+          "long": 5282,
+          "cant": 1,
+          "peso": 148.99,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 148.99,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 148.99,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 148.99,
+          "literal": "BKP"
+        },
+        {
+          "item": 109,
+          "cod": "BKP-VSI-42",
+          "prod": "Viga secundaria IS",
+          "long": 5433,
+          "cant": 1,
+          "peso": 153.26,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 153.26,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 153.26,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 153.26,
+          "literal": "BKP"
+        },
+        {
+          "item": 110,
+          "cod": "BKP-VSI-43",
+          "prod": "Viga secundaria IS",
+          "long": 4306,
+          "cant": 1,
+          "peso": 121.47,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 121.47,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 121.47,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 121.47,
+          "literal": "BKP"
+        },
+        {
+          "item": 111,
+          "cod": "BKP-VSI-44",
+          "prod": "Viga secundaria IS",
+          "long": 4643,
+          "cant": 1,
+          "peso": 130.98,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 130.98,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 130.98,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 130.98,
+          "literal": "BKP"
+        },
+        {
+          "item": 112,
+          "cod": "BKP-VSI-45",
+          "prod": "Viga secundaria IS",
+          "long": 4674,
+          "cant": 1,
+          "peso": 131.86,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 131.86,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 131.86,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 131.86,
+          "literal": "BKP"
+        },
+        {
+          "item": 113,
+          "cod": "BKP-VSI-46",
+          "prod": "Viga secundaria IS",
+          "long": 4755,
+          "cant": 1,
+          "peso": 134.12,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 134.12,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 134.12,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 134.12,
+          "literal": "BKP"
+        },
+        {
+          "item": 114,
+          "cod": "BKP-VSI-47",
+          "prod": "Viga secundaria IS",
+          "long": 8000,
+          "cant": 1,
+          "peso": 478.09,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 478.09,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 478.09,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 478.09,
+          "literal": "BKP"
+        }
+      ],
+      "arm_pend_items": [
+        {
+          "cod": "BKP-FL-102",
+          "prod": "Faldon - Ml",
+          "long": 6047,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-FL-103",
+          "prod": "Faldon - Ml",
+          "long": 6027,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-FL-104",
+          "prod": "Faldon - Ml",
+          "long": 3040,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-FL-105",
+          "prod": "Faldon - Ml",
+          "long": 4037,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-FL-106",
+          "prod": "Faldon - Ml",
+          "long": 3028,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-FL-108",
+          "prod": "Faldon - Ml",
+          "long": 5996,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-FL-109",
+          "prod": "Faldon - Ml",
+          "long": 5634,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-FL-110",
+          "prod": "Faldon - Ml",
+          "long": 5526,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-FL-112",
+          "prod": "Faldon - Ml",
+          "long": 5491,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-PL-1",
+          "prod": "Placa",
+          "long": 100,
+          "cant": 14,
+          "pend": 14
+        },
+        {
+          "cod": "BKP-PL-2",
+          "prod": "Placa",
+          "long": 147,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-PL-3",
+          "prod": "Placa",
+          "long": 200,
+          "cant": 10,
+          "pend": 10
+        },
+        {
+          "cod": "BKP-PL-4",
+          "prod": "Placa",
+          "long": 330,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BKP-PL-5",
+          "prod": "Placa",
+          "long": 135,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "BKP-SP-1",
+          "prod": "SOPORTE",
+          "long": 467,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-SP-2",
+          "prod": "SOPORTE",
+          "long": 494,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-SP-3",
+          "prod": "SOPORTE",
+          "long": 521,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-SP-4",
+          "prod": "SOPORTE",
+          "long": 471,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-SP-5",
+          "prod": "SOPORTE",
+          "long": 251,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-SP-6",
+          "prod": "SOPORTE",
+          "long": 520,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-SP-7",
+          "prod": "SOPORTE",
+          "long": 1400,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-SP-8",
+          "prod": "SOPORTE",
+          "long": 1775,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-SP-9",
+          "prod": "SOPORTE",
+          "long": 1280,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-SP-10",
+          "prod": "SOPORTE",
+          "long": 1160,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-SP-11",
+          "prod": "SOPORTE",
+          "long": 1050,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-SP-12",
+          "prod": "SOPORTE",
+          "long": 910,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-SP-13",
+          "prod": "SOPORTE",
+          "long": 790,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-SP-14",
+          "prod": "SOPORTE",
+          "long": 400,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "BKP-SP-17",
+          "prod": "SOPORTE",
+          "long": 647,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BKP-SP-100",
+          "prod": "SOPORTE",
+          "long": 6047,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-SP-101",
+          "prod": "SOPORTE",
+          "long": 6027,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-SP-102",
+          "prod": "SOPORTE",
+          "long": 5996,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-SP-103",
+          "prod": "SOPORTE",
+          "long": 5634,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-SP-104",
+          "prod": "SOPORTE",
+          "long": 5526,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-SP-105",
+          "prod": "SOPORTE",
+          "long": 5491,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VPI-7",
+          "prod": "Viga Principal Alma Llena",
+          "long": 6153,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-1",
+          "prod": "Viga secundaria IS",
+          "long": 8881,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-2",
+          "prod": "Viga secundaria IS",
+          "long": 8741,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-3",
+          "prod": "Viga secundaria IS",
+          "long": 9154,
+          "cant": 1,
+          "pend": 0.5
+        },
+        {
+          "cod": "BKP-VSI-4",
+          "prod": "Viga secundaria IS",
+          "long": 5432,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-5",
+          "prod": "Viga secundaria IS",
+          "long": 1050,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-6",
+          "prod": "Viga secundaria IS",
+          "long": 5115,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-7",
+          "prod": "Viga secundaria IS",
+          "long": 718,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-8",
+          "prod": "Viga secundaria IS",
+          "long": 2585,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-9",
+          "prod": "Viga secundaria IS",
+          "long": 4797,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-10",
+          "prod": "Viga secundaria IS",
+          "long": 3950,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-11",
+          "prod": "Viga secundaria IS",
+          "long": 4456,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-13",
+          "prod": "Viga secundaria IS",
+          "long": 4626,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-14",
+          "prod": "Viga secundaria IS",
+          "long": 5358,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-15",
+          "prod": "Viga secundaria IS",
+          "long": 5022,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-16",
+          "prod": "Viga secundaria IS",
+          "long": 4103,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-17",
+          "prod": "Viga secundaria IS",
+          "long": 4687,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-18",
+          "prod": "Viga secundaria IS",
+          "long": 5355,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-19",
+          "prod": "Viga secundaria IS",
+          "long": 5745,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-20",
+          "prod": "Viga secundaria IS",
+          "long": 5017,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-21",
+          "prod": "Viga secundaria IS",
+          "long": 4679,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-23",
+          "prod": "Viga secundaria IS",
+          "long": 5301,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-24",
+          "prod": "Viga secundaria IS",
+          "long": 4981,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-25",
+          "prod": "Viga secundaria IS",
+          "long": 5639,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-26",
+          "prod": "Viga secundaria IS",
+          "long": 4662,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-27",
+          "prod": "Viga secundaria IS",
+          "long": 3488,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-28",
+          "prod": "Viga secundaria IS",
+          "long": 3820,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-29",
+          "prod": "Viga secundaria IS",
+          "long": 4152,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-30",
+          "prod": "Viga secundaria IS",
+          "long": 4772,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-31",
+          "prod": "Viga secundaria IS",
+          "long": 5027,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-32",
+          "prod": "Viga secundaria IS",
+          "long": 5310,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-33",
+          "prod": "Viga secundaria IS",
+          "long": 5857,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-34",
+          "prod": "Viga secundaria IS",
+          "long": 7107,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-36",
+          "prod": "Viga secundaria IS",
+          "long": 3590,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-37",
+          "prod": "Viga secundaria IS",
+          "long": 4017,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-38",
+          "prod": "Viga secundaria IS",
+          "long": 4444,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-39",
+          "prod": "Viga secundaria IS",
+          "long": 5386,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-40",
+          "prod": "Viga secundaria IS",
+          "long": 5163,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-41",
+          "prod": "Viga secundaria IS",
+          "long": 5282,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-42",
+          "prod": "Viga secundaria IS",
+          "long": 5433,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-43",
+          "prod": "Viga secundaria IS",
+          "long": 4306,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-44",
+          "prod": "Viga secundaria IS",
+          "long": 4643,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-45",
+          "prod": "Viga secundaria IS",
+          "long": 4674,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-46",
+          "prod": "Viga secundaria IS",
+          "long": 4755,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-47",
+          "prod": "Viga secundaria IS",
+          "long": 8000,
+          "cant": 1,
+          "pend": 1
+        }
+      ],
+      "pint_pend_items": [
+        {
+          "cod": "BKP-FL-100",
+          "prod": "Faldon - Ml",
+          "long": 1500,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BKP-FL-101",
+          "prod": "Faldon - Ml",
+          "long": 3000,
+          "cant": 12,
+          "pend": 12
+        },
+        {
+          "cod": "BKP-FL-102",
+          "prod": "Faldon - Ml",
+          "long": 6047,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-FL-103",
+          "prod": "Faldon - Ml",
+          "long": 6027,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-FL-104",
+          "prod": "Faldon - Ml",
+          "long": 3040,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-FL-105",
+          "prod": "Faldon - Ml",
+          "long": 4037,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-FL-106",
+          "prod": "Faldon - Ml",
+          "long": 3028,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-FL-107",
+          "prod": "Faldon - Ml",
+          "long": 3000,
+          "cant": 7,
+          "pend": 7
+        },
+        {
+          "cod": "BKP-FL-108",
+          "prod": "Faldon - Ml",
+          "long": 5996,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-FL-109",
+          "prod": "Faldon - Ml",
+          "long": 5634,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-FL-110",
+          "prod": "Faldon - Ml",
+          "long": 5526,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-FL-111",
+          "prod": "Faldon - Ml",
+          "long": 1800,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-FL-112",
+          "prod": "Faldon - Ml",
+          "long": 5491,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-FL-113",
+          "prod": "Faldon - Ml",
+          "long": 1000,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-PL-1",
+          "prod": "Placa",
+          "long": 100,
+          "cant": 14,
+          "pend": 14
+        },
+        {
+          "cod": "BKP-PL-2",
+          "prod": "Placa",
+          "long": 147,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-PL-3",
+          "prod": "Placa",
+          "long": 200,
+          "cant": 10,
+          "pend": 10
+        },
+        {
+          "cod": "BKP-PL-4",
+          "prod": "Placa",
+          "long": 330,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BKP-PL-5",
+          "prod": "Placa",
+          "long": 135,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "BKP-SP-1",
+          "prod": "SOPORTE",
+          "long": 467,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-SP-2",
+          "prod": "SOPORTE",
+          "long": 494,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-SP-3",
+          "prod": "SOPORTE",
+          "long": 521,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-SP-4",
+          "prod": "SOPORTE",
+          "long": 471,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-SP-5",
+          "prod": "SOPORTE",
+          "long": 251,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-SP-6",
+          "prod": "SOPORTE",
+          "long": 520,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-SP-7",
+          "prod": "SOPORTE",
+          "long": 1400,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-SP-8",
+          "prod": "SOPORTE",
+          "long": 1775,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-SP-9",
+          "prod": "SOPORTE",
+          "long": 1280,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-SP-10",
+          "prod": "SOPORTE",
+          "long": 1160,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-SP-11",
+          "prod": "SOPORTE",
+          "long": 1050,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-SP-12",
+          "prod": "SOPORTE",
+          "long": 910,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-SP-13",
+          "prod": "SOPORTE",
+          "long": 790,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-SP-14",
+          "prod": "SOPORTE",
+          "long": 400,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "BKP-SP-17",
+          "prod": "SOPORTE",
+          "long": 647,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BKP-SP-100",
+          "prod": "SOPORTE",
+          "long": 6047,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-SP-101",
+          "prod": "SOPORTE",
+          "long": 6027,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-SP-102",
+          "prod": "SOPORTE",
+          "long": 5996,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-SP-103",
+          "prod": "SOPORTE",
+          "long": 5634,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-SP-104",
+          "prod": "SOPORTE",
+          "long": 5526,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-SP-105",
+          "prod": "SOPORTE",
+          "long": 5491,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-1",
+          "prod": "Viga secundaria IS",
+          "long": 8881,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-2",
+          "prod": "Viga secundaria IS",
+          "long": 8741,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-3",
+          "prod": "Viga secundaria IS",
+          "long": 9154,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-4",
+          "prod": "Viga secundaria IS",
+          "long": 5432,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-5",
+          "prod": "Viga secundaria IS",
+          "long": 1050,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-6",
+          "prod": "Viga secundaria IS",
+          "long": 5115,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-7",
+          "prod": "Viga secundaria IS",
+          "long": 718,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-8",
+          "prod": "Viga secundaria IS",
+          "long": 2585,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-9",
+          "prod": "Viga secundaria IS",
+          "long": 4797,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-10",
+          "prod": "Viga secundaria IS",
+          "long": 3950,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-11",
+          "prod": "Viga secundaria IS",
+          "long": 4456,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-13",
+          "prod": "Viga secundaria IS",
+          "long": 4626,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-14",
+          "prod": "Viga secundaria IS",
+          "long": 5358,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-15",
+          "prod": "Viga secundaria IS",
+          "long": 5022,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-16",
+          "prod": "Viga secundaria IS",
+          "long": 4103,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-17",
+          "prod": "Viga secundaria IS",
+          "long": 4687,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-18",
+          "prod": "Viga secundaria IS",
+          "long": 5355,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-19",
+          "prod": "Viga secundaria IS",
+          "long": 5745,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-20",
+          "prod": "Viga secundaria IS",
+          "long": 5017,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-21",
+          "prod": "Viga secundaria IS",
+          "long": 4679,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-23",
+          "prod": "Viga secundaria IS",
+          "long": 5301,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-24",
+          "prod": "Viga secundaria IS",
+          "long": 4981,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-25",
+          "prod": "Viga secundaria IS",
+          "long": 5639,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-26",
+          "prod": "Viga secundaria IS",
+          "long": 4662,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-27",
+          "prod": "Viga secundaria IS",
+          "long": 3488,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-28",
+          "prod": "Viga secundaria IS",
+          "long": 3820,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-29",
+          "prod": "Viga secundaria IS",
+          "long": 4152,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-30",
+          "prod": "Viga secundaria IS",
+          "long": 4772,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-31",
+          "prod": "Viga secundaria IS",
+          "long": 5027,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-32",
+          "prod": "Viga secundaria IS",
+          "long": 5310,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-33",
+          "prod": "Viga secundaria IS",
+          "long": 5857,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-34",
+          "prod": "Viga secundaria IS",
+          "long": 7107,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-36",
+          "prod": "Viga secundaria IS",
+          "long": 3590,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-37",
+          "prod": "Viga secundaria IS",
+          "long": 4017,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-38",
+          "prod": "Viga secundaria IS",
+          "long": 4444,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-39",
+          "prod": "Viga secundaria IS",
+          "long": 5386,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-40",
+          "prod": "Viga secundaria IS",
+          "long": 5163,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-41",
+          "prod": "Viga secundaria IS",
+          "long": 5282,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-42",
+          "prod": "Viga secundaria IS",
+          "long": 5433,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-43",
+          "prod": "Viga secundaria IS",
+          "long": 4306,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-44",
+          "prod": "Viga secundaria IS",
+          "long": 4643,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-45",
+          "prod": "Viga secundaria IS",
+          "long": 4674,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-46",
+          "prod": "Viga secundaria IS",
+          "long": 4755,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKP-VSI-47",
+          "prod": "Viga secundaria IS",
+          "long": 8000,
           "cant": 1,
           "pend": 1
         }
