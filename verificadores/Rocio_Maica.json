@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-03T10:44:35.858Z",
+  "updatedAt": "2026-08-03T10:45:45.858Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "24969_1": {
@@ -23540,46 +23540,28 @@
       "ot": "24930",
       "obra": "NAVE 5 AMPLIACION FABRICA CHACOMER",
       "cliente": "Chacomer S.A.E.",
-      "fecha": "31/7/2026",
+      "fecha": "3/8/2026",
       "avances": {
-        "arm": 80,
-        "pint": 88,
-        "env": 1,
+        "arm": 81,
+        "pint": 89,
+        "env": 0,
         "mont": 0
       },
       "totales": {
-        "cant": 2529,
-        "arm_lib": 2019.5,
-        "arm_pend": 509.5,
+        "cant": 2507,
+        "arm_lib": 2024.5,
+        "arm_pend": 482.5,
         "pint_ok": 2231,
-        "pint_pend": 298,
-        "env_ok": 22,
+        "pint_pend": 276,
+        "env_ok": 0,
         "env_pend": 2507,
-        "items": 220,
-        "peso_total": 56156.27000000001,
-        "arm_pend_peso": 8305.919999999996,
-        "pint_pend_peso": 2199.8,
+        "items": 219,
+        "peso_total": 55592.63000000001,
+        "arm_pend_peso": 8260.719999999996,
+        "pint_pend_peso": 1636.16,
         "env_pend_peso": 55592.63000000001
       },
       "items": [
-        {
-          "item": 1,
-          "cod": "31994-IN-1",
-          "prod": "Inserto Metalico",
-          "long": 400,
-          "cant": 22,
-          "peso": 563.64,
-          "arm_lib": 22,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 22,
-          "pint_pend_peso": 563.64,
-          "env_ok": 22,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "IN"
-        },
         {
           "item": 2,
           "cod": "BHA-AP-1",
@@ -26341,9 +26323,9 @@
           "long": 279,
           "cant": 22,
           "peso": 36.3,
-          "arm_lib": 0,
-          "arm_pend": 22,
-          "arm_pend_peso": 36.3,
+          "arm_lib": 22,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 22,
           "pint_pend_peso": 36.3,
@@ -26359,9 +26341,9 @@
           "long": 299,
           "cant": 5,
           "peso": 8.9,
-          "arm_lib": 0,
-          "arm_pend": 5,
-          "arm_pend_peso": 8.9,
+          "arm_lib": 5,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 5,
           "pint_pend_peso": 8.9,
@@ -27679,20 +27661,6 @@
           "pend": 7
         },
         {
-          "cod": "BHA-PE-1",
-          "prod": "Perno PCF",
-          "long": 279,
-          "cant": 22,
-          "pend": 22
-        },
-        {
-          "cod": "BHA-PE-2",
-          "prod": "Perno PCF",
-          "long": 299,
-          "cant": 5,
-          "pend": 5
-        },
-        {
           "cod": "BHA-SC-1",
           "prod": "Soporte Cruz",
           "long": 125,
@@ -27792,13 +27760,6 @@
         }
       ],
       "pint_pend_items": [
-        {
-          "cod": "31994-IN-1",
-          "prod": "Inserto Metalico",
-          "long": 400,
-          "cant": 22,
-          "pend": 22
-        },
         {
           "cod": "BHA-BT-13",
           "prod": "Bastidores",
