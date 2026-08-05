@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T13:39:01.864Z",
+  "updatedAt": "2026-08-05T14:01:18.709Z",
   "updatedBy": "Angel Villa",
   "checks": {
     "25257_1": {
@@ -9096,6 +9096,58 @@
       "arm_state": "liberado"
     },
     "25560_10": {
+      "qty_lib": 1,
+      "arm_state": "liberado"
+    },
+    "25748_25": {
+      "qty_lib": 1,
+      "arm_state": "liberado"
+    },
+    "25748_26": {
+      "qty_lib": 2,
+      "arm_state": "liberado"
+    },
+    "25748_27": {
+      "qty_lib": 1,
+      "arm_state": "liberado"
+    },
+    "25748_28": {
+      "qty_lib": 1,
+      "arm_state": "liberado"
+    },
+    "25748_29": {
+      "qty_lib": 1,
+      "arm_state": "liberado"
+    },
+    "25748_30": {
+      "qty_lib": 1,
+      "arm_state": "liberado"
+    },
+    "25748_31": {
+      "qty_lib": 1,
+      "arm_state": "liberado"
+    },
+    "25748_32": {
+      "qty_lib": 1,
+      "arm_state": "liberado"
+    },
+    "25748_33": {
+      "qty_lib": 1,
+      "arm_state": "liberado"
+    },
+    "25748_34": {
+      "qty_lib": 1,
+      "arm_state": "liberado"
+    },
+    "25748_35": {
+      "qty_lib": 1,
+      "arm_state": "liberado"
+    },
+    "25748_36": {
+      "qty_lib": 1,
+      "arm_state": "liberado"
+    },
+    "25748_37": {
       "qty_lib": 1,
       "arm_state": "liberado"
     }
