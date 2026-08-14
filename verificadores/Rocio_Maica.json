@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T12:12:40.812Z",
+  "updatedAt": "2026-08-14T12:13:16.989Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "24969_1": {
@@ -165423,6 +165423,112 @@
           "cod": "33306-SP-1",
           "prod": "SOPORTE",
           "long": 920,
+          "cant": 3,
+          "pend": 3
+        }
+      ]
+    },
+    "25818": {
+      "ot": "25818",
+      "obra": "Portones para corral",
+      "cliente": "RANCAGUA S.A.",
+      "fecha": "14/8/2026",
+      "avances": {
+        "arm": 100,
+        "pint": 0,
+        "env": 0,
+        "mont": 0
+      },
+      "totales": {
+        "cant": 22,
+        "arm_lib": 22,
+        "arm_pend": 0,
+        "pint_ok": 0,
+        "pint_pend": 22,
+        "env_ok": 0,
+        "env_pend": 22,
+        "items": 3,
+        "peso_total": 1437.46,
+        "arm_pend_peso": 0,
+        "pint_pend_peso": 1437.46,
+        "env_pend_peso": 1437.46
+      },
+      "items": [
+        {
+          "item": 1,
+          "cod": "BLF-PBT-1",
+          "prod": "Portón Batiente",
+          "long": 3302,
+          "cant": 17,
+          "peso": 1060.8,
+          "arm_lib": 17,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 17,
+          "pint_pend_peso": 1060.8,
+          "env_ok": 0,
+          "env_pend": 17,
+          "env_pend_peso": 1060.8,
+          "literal": "BLF"
+        },
+        {
+          "item": 2,
+          "cod": "BLF-PBT-100",
+          "prod": "Portón Batiente",
+          "long": 3552,
+          "cant": 2,
+          "peso": 133,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 133,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 133,
+          "literal": "BLF"
+        },
+        {
+          "item": 3,
+          "cod": "BLF-PBT-200",
+          "prod": "Portón Batiente",
+          "long": 4271,
+          "cant": 3,
+          "peso": 243.66,
+          "arm_lib": 3,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 3,
+          "pint_pend_peso": 243.66,
+          "env_ok": 0,
+          "env_pend": 3,
+          "env_pend_peso": 243.66,
+          "literal": "BLF"
+        }
+      ],
+      "arm_pend_items": [],
+      "pint_pend_items": [
+        {
+          "cod": "BLF-PBT-1",
+          "prod": "Portón Batiente",
+          "long": 3302,
+          "cant": 17,
+          "pend": 17
+        },
+        {
+          "cod": "BLF-PBT-100",
+          "prod": "Portón Batiente",
+          "long": 3552,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BLF-PBT-200",
+          "prod": "Portón Batiente",
+          "long": 4271,
           "cant": 3,
           "pend": 3
         }
