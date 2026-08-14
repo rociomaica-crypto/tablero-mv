@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T12:29:31.017Z",
+  "updatedAt": "2026-08-14T12:36:23.845Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "24969_1": {
@@ -162540,26 +162540,26 @@
       "ot": "25682",
       "obra": "Fabricación de Contenedores",
       "cliente": "AUTOPRIME SRL",
-      "fecha": "3/8/2026",
+      "fecha": "14/8/2026",
       "avances": {
-        "arm": 65,
+        "arm": 82,
         "pint": 0,
         "env": 0,
         "mont": 0
       },
       "totales": {
         "cant": 219,
-        "arm_lib": 143,
-        "arm_pend": 76,
+        "arm_lib": 178.5,
+        "arm_pend": 40.5,
         "pint_ok": 0,
         "pint_pend": 219,
-        "env_ok": 0,
-        "env_pend": 219,
+        "env_ok": 1,
+        "env_pend": 218,
         "items": 37,
         "peso_total": 4768.000000000002,
-        "arm_pend_peso": 2071.4,
+        "arm_pend_peso": 646.3849999999999,
         "pint_pend_peso": 4768.000000000002,
-        "env_pend_peso": 4768.000000000002
+        "env_pend_peso": 4311.200000000002
       },
       "items": [
         {
@@ -162575,9 +162575,9 @@
           "pint_ok": 0,
           "pint_pend": 3,
           "pint_pend_peso": 1370.4,
-          "env_ok": 0,
-          "env_pend": 3,
-          "env_pend_peso": 1370.4,
+          "env_ok": 1,
+          "env_pend": 2,
+          "env_pend_peso": 913.6,
           "literal": "BJB"
         },
         {
@@ -162695,9 +162695,9 @@
           "long": 4305,
           "cant": 12,
           "peso": 236.88,
-          "arm_lib": 0,
-          "arm_pend": 12,
-          "arm_pend_peso": 236.88,
+          "arm_lib": 12,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 12,
           "pint_pend_peso": 236.88,
@@ -162713,9 +162713,9 @@
           "long": 5740,
           "cant": 7,
           "peso": 184.17,
-          "arm_lib": 0,
-          "arm_pend": 7,
-          "arm_pend_peso": 184.17,
+          "arm_lib": 7,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 7,
           "pint_pend_peso": 184.17,
@@ -162785,9 +162785,9 @@
           "long": 4805,
           "cant": 2,
           "peso": 126.02,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 126.02,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 2,
           "pint_pend_peso": 126.02,
@@ -162803,9 +162803,9 @@
           "long": 4415,
           "cant": 2,
           "peso": 115.92,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 115.92,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 2,
           "pint_pend_peso": 115.92,
@@ -162821,9 +162821,9 @@
           "long": 4029,
           "cant": 1,
           "peso": 53.15,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 53.15,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 53.15,
@@ -162839,9 +162839,9 @@
           "long": 4029,
           "cant": 1,
           "peso": 53.35,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 53.35,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 53.35,
@@ -162857,9 +162857,9 @@
           "long": 4029,
           "cant": 1,
           "peso": 53.15,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 53.15,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 53.15,
@@ -162875,9 +162875,9 @@
           "long": 4892,
           "cant": 2,
           "peso": 128.28,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 128.28,
+          "arm_lib": 1,
+          "arm_pend": 1,
+          "arm_pend_peso": 64.14,
           "pint_ok": 0,
           "pint_pend": 2,
           "pint_pend_peso": 128.28,
@@ -162893,9 +162893,9 @@
           "long": 4324,
           "cant": 2,
           "peso": 113.56,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 113.56,
+          "arm_lib": 1,
+          "arm_pend": 1,
+          "arm_pend_peso": 56.78,
           "pint_ok": 0,
           "pint_pend": 2,
           "pint_pend_peso": 113.56,
@@ -162911,9 +162911,9 @@
           "long": 4029,
           "cant": 2,
           "peso": 105.92,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 105.92,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 2,
           "pint_pend_peso": 105.92,
@@ -163055,9 +163055,9 @@
           "long": 500,
           "cant": 3,
           "peso": 14.22,
-          "arm_lib": 0,
-          "arm_pend": 3,
-          "arm_pend_peso": 14.22,
+          "arm_lib": 1.5,
+          "arm_pend": 1.5,
+          "arm_pend_peso": 7.11,
           "pint_ok": 0,
           "pint_pend": 3,
           "pint_pend_peso": 14.22,
@@ -163109,9 +163109,9 @@
           "long": 8260,
           "cant": 1,
           "peso": 143.17,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 143.17,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 71.585,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 143.17,
@@ -163127,9 +163127,9 @@
           "long": 8158,
           "cant": 1,
           "peso": 80.3,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 80.3,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 40.15,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 80.3,
@@ -163145,9 +163145,9 @@
           "long": 8158,
           "cant": 1,
           "peso": 81.88,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 81.88,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 40.94,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 81.88,
@@ -163163,9 +163163,9 @@
           "long": 8158,
           "cant": 1,
           "peso": 80.3,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 80.3,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 40.15,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 80.3,
@@ -163181,9 +163181,9 @@
           "long": 9032,
           "cant": 1,
           "peso": 88.59,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 88.59,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 44.295,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 88.59,
@@ -163199,9 +163199,9 @@
           "long": 9032,
           "cant": 1,
           "peso": 88.59,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 88.59,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 44.295,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 88.59,
@@ -163217,9 +163217,9 @@
           "long": 9032,
           "cant": 2,
           "peso": 174.02,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 174.02,
+          "arm_lib": 1,
+          "arm_pend": 1,
+          "arm_pend_peso": 87.01,
           "pint_ok": 0,
           "pint_pend": 2,
           "pint_pend_peso": 174.02,
@@ -163231,20 +163231,6 @@
       ],
       "arm_pend_items": [
         {
-          "cod": "BJB-CR-1",
-          "prod": "Correa Techo",
-          "long": 4305,
-          "cant": 12,
-          "pend": 12
-        },
-        {
-          "cod": "BJB-CR-100",
-          "prod": "Correa Techo",
-          "long": 5740,
-          "cant": 7,
-          "pend": 7
-        },
-        {
           "cod": "BJB-CR-101",
           "prod": "Correa Techo",
           "long": 3105,
@@ -163252,60 +163238,18 @@
           "pend": 7
         },
         {
-          "cod": "BJB-PCT-1",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 4805,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BJB-PCT-2",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 4415,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BJB-PCT-3",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 4029,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BJB-PCT-4",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 4029,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BJB-PCT-5",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 4029,
-          "cant": 1,
-          "pend": 1
-        },
-        {
           "cod": "BJB-PCT-100",
           "prod": "Correa de tímpano/ Perfilado",
           "long": 4892,
           "cant": 2,
-          "pend": 2
+          "pend": 1
         },
         {
           "cod": "BJB-PCT-101",
           "prod": "Correa de tímpano/ Perfilado",
           "long": 4324,
           "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BJB-PCT-102",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 4029,
-          "cant": 2,
-          "pend": 2
+          "pend": 1
         },
         {
           "cod": "BJB-SC-1",
@@ -163340,7 +163284,7 @@
           "prod": "SOPORTE",
           "long": 500,
           "cant": 3,
-          "pend": 3
+          "pend": 1.5
         },
         {
           "cod": "BJB-VAT-1",
@@ -163354,49 +163298,49 @@
           "prod": "Viga  Arriostre de tubos o caños",
           "long": 8260,
           "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BJB-VTT-1",
           "prod": "Viga de techo de tubos",
           "long": 8158,
           "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BJB-VTT-2",
           "prod": "Viga de techo de tubos",
           "long": 8158,
           "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BJB-VTT-3",
           "prod": "Viga de techo de tubos",
           "long": 8158,
           "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BJB-VTT-100",
           "prod": "Viga de techo de tubos",
           "long": 9032,
           "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BJB-VTT-101",
           "prod": "Viga de techo de tubos",
           "long": 9032,
           "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BJB-VTT-102",
           "prod": "Viga de techo de tubos",
           "long": 9032,
           "cant": 2,
-          "pend": 2
+          "pend": 1
         }
       ],
       "pint_pend_items": [
