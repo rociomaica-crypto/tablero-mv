@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T13:42:04.253Z",
+  "updatedAt": "2026-08-17T09:34:14.098Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "24969_1": {
@@ -7959,25 +7959,25 @@
       "ot": "24623",
       "obra": "Naves Industriales MRA",
       "cliente": "KPN SAFETY PARAGUAY S.A",
-      "fecha": "3/8/2026",
+      "fecha": "17/8/2026",
       "avances": {
-        "arm": 24,
+        "arm": 35,
         "pint": 25,
         "env": 0,
         "mont": 0
       },
       "totales": {
         "cant": 6566,
-        "arm_lib": 1593,
-        "arm_pend": 4973,
-        "pint_ok": 1610,
-        "pint_pend": 4956,
+        "arm_lib": 2297.5,
+        "arm_pend": 4268.5,
+        "pint_ok": 1619.5,
+        "pint_pend": 4946.5,
         "env_ok": 0,
         "env_pend": 6566,
         "items": 594,
         "peso_total": 103834.30000000003,
-        "arm_pend_peso": 74127.43500000008,
-        "pint_pend_peso": 55435.13999999992,
+        "arm_pend_peso": 73493.09000000008,
+        "pint_pend_peso": 54981.439999999915,
         "env_pend_peso": 103834.30000000003
       },
       "items": [
@@ -8351,9 +8351,9 @@
           "arm_lib": 0.5,
           "arm_pend": 0.5,
           "arm_pend_peso": 399.7,
-          "pint_ok": 0.5,
-          "pint_pend": 0.5,
-          "pint_pend_peso": 399.7,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 799.4,
@@ -9194,9 +9194,9 @@
           "long": 9193,
           "cant": 1,
           "peso": 12.85,
-          "arm_lib": 0.5,
-          "arm_pend": 0.5,
-          "arm_pend_peso": 6.425,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 1,
           "pint_pend": 0,
           "pint_pend_peso": 0,
@@ -12038,9 +12038,9 @@
           "long": 3477,
           "cant": 2,
           "peso": 6.18,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 6.18,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 2,
           "pint_pend": 0,
           "pint_pend_peso": 0,
@@ -12095,9 +12095,9 @@
           "arm_lib": 4,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 4,
-          "pint_pend_peso": 24,
+          "pint_ok": 4,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 4,
           "env_pend_peso": 24,
@@ -12236,9 +12236,9 @@
           "long": 3477,
           "cant": 2,
           "peso": 6.18,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 6.18,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 2,
           "pint_pend": 0,
           "pint_pend_peso": 0,
@@ -12293,9 +12293,9 @@
           "arm_lib": 5,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 5,
-          "pint_pend_peso": 30,
+          "pint_ok": 5,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 5,
           "env_pend_peso": 30,
@@ -12398,9 +12398,9 @@
           "long": 3399,
           "cant": 2,
           "peso": 6.04,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 6.04,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 2,
           "pint_pend": 0,
           "pint_pend_peso": 0,
@@ -12578,9 +12578,9 @@
           "long": 2626,
           "cant": 4,
           "peso": 5.32,
-          "arm_lib": 0,
-          "arm_pend": 4,
-          "arm_pend_peso": 5.32,
+          "arm_lib": 4,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 4,
           "pint_pend": 0,
           "pint_pend_peso": 0,
@@ -12614,9 +12614,9 @@
           "long": 2535,
           "cant": 3,
           "peso": 3.87,
-          "arm_lib": 0,
-          "arm_pend": 3,
-          "arm_pend_peso": 3.87,
+          "arm_lib": 3,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 3,
           "pint_pend": 0,
           "pint_pend_peso": 0,
@@ -12794,9 +12794,9 @@
           "long": 2644,
           "cant": 4,
           "peso": 5.36,
-          "arm_lib": 0,
-          "arm_pend": 4,
-          "arm_pend_peso": 5.36,
+          "arm_lib": 4,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 4,
           "pint_pend": 0,
           "pint_pend_peso": 0,
@@ -13028,9 +13028,9 @@
           "long": 2533,
           "cant": 4,
           "peso": 5.16,
-          "arm_lib": 0,
-          "arm_pend": 4,
-          "arm_pend_peso": 5.16,
+          "arm_lib": 4,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 4,
           "pint_pend_peso": 5.16,
@@ -13046,9 +13046,9 @@
           "long": 2626,
           "cant": 4,
           "peso": 5.32,
-          "arm_lib": 0,
-          "arm_pend": 4,
-          "arm_pend_peso": 5.32,
+          "arm_lib": 4,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 4,
           "pint_pend_peso": 5.32,
@@ -13064,9 +13064,9 @@
           "long": 2551,
           "cant": 4,
           "peso": 5.2,
-          "arm_lib": 0,
-          "arm_pend": 4,
-          "arm_pend_peso": 5.2,
+          "arm_lib": 4,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 4,
           "pint_pend_peso": 5.2,
@@ -13082,9 +13082,9 @@
           "long": 2667,
           "cant": 28,
           "peso": 38.08,
-          "arm_lib": 0,
-          "arm_pend": 28,
-          "arm_pend_peso": 38.08,
+          "arm_lib": 28,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 28,
           "pint_pend_peso": 38.08,
@@ -13118,9 +13118,9 @@
           "long": 2647,
           "cant": 28,
           "peso": 37.8,
-          "arm_lib": 0,
-          "arm_pend": 28,
-          "arm_pend_peso": 37.8,
+          "arm_lib": 28,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 28,
           "pint_pend_peso": 37.8,
@@ -13136,9 +13136,9 @@
           "long": 2533,
           "cant": 4,
           "peso": 5.16,
-          "arm_lib": 0,
-          "arm_pend": 4,
-          "arm_pend_peso": 5.16,
+          "arm_lib": 4,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 4,
           "pint_pend": 0,
           "pint_pend_peso": 0,
@@ -13172,9 +13172,9 @@
           "long": 2130,
           "cant": 3,
           "peso": 3.27,
-          "arm_lib": 0,
-          "arm_pend": 3,
-          "arm_pend_peso": 3.27,
+          "arm_lib": 3,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 3,
           "pint_pend_peso": 3.27,
@@ -13190,9 +13190,9 @@
           "long": 2552,
           "cant": 4,
           "peso": 5.2,
-          "arm_lib": 0,
-          "arm_pend": 4,
-          "arm_pend_peso": 5.2,
+          "arm_lib": 4,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 4,
           "pint_pend_peso": 5.2,
@@ -13208,9 +13208,9 @@
           "long": 2667,
           "cant": 28,
           "peso": 38.08,
-          "arm_lib": 0,
-          "arm_pend": 28,
-          "arm_pend_peso": 38.08,
+          "arm_lib": 28,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 28,
           "pint_pend_peso": 38.08,
@@ -13226,9 +13226,9 @@
           "long": 2499,
           "cant": 2,
           "peso": 2.54,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 2.54,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 2,
           "pint_pend_peso": 2.54,
@@ -13244,9 +13244,9 @@
           "long": 2540,
           "cant": 7,
           "peso": 9.03,
-          "arm_lib": 0,
-          "arm_pend": 7,
-          "arm_pend_peso": 9.03,
+          "arm_lib": 7,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 7,
           "pint_pend_peso": 9.03,
@@ -13262,9 +13262,9 @@
           "long": 1956,
           "cant": 2,
           "peso": 2,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 2,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 2,
           "pint_pend_peso": 2,
@@ -17402,9 +17402,9 @@
           "long": 1434,
           "cant": 172,
           "peso": 132.44,
-          "arm_lib": 0,
-          "arm_pend": 172,
-          "arm_pend_peso": 132.44,
+          "arm_lib": 172,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 172,
           "pint_pend_peso": 132.44,
@@ -17420,9 +17420,9 @@
           "long": 1435,
           "cant": 167,
           "peso": 128.59,
-          "arm_lib": 0,
-          "arm_pend": 167,
-          "arm_pend_peso": 128.59,
+          "arm_lib": 167,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 167,
           "pint_pend_peso": 128.59,
@@ -17438,9 +17438,9 @@
           "long": 1435,
           "cant": 172,
           "peso": 132.44,
-          "arm_lib": 0,
-          "arm_pend": 172,
-          "arm_pend_peso": 132.44,
+          "arm_lib": 60,
+          "arm_pend": 112,
+          "arm_pend_peso": 86.24,
           "pint_ok": 0,
           "pint_pend": 172,
           "pint_pend_peso": 132.44,
@@ -17492,9 +17492,9 @@
           "long": 1435,
           "cant": 170,
           "peso": 130.9,
-          "arm_lib": 0,
-          "arm_pend": 170,
-          "arm_pend_peso": 130.9,
+          "arm_lib": 170,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 170,
           "pint_pend_peso": 130.9,
@@ -18977,13 +18977,6 @@
           "pend": 0.5
         },
         {
-          "cod": "BET-CH-11",
-          "prod": "Cruz Horizontal",
-          "long": 9193,
-          "cant": 1,
-          "pend": 0.5
-        },
-        {
           "cod": "BET-CH-17",
           "prod": "Cruz Horizontal",
           "long": 9306,
@@ -19908,13 +19901,6 @@
           "pend": 1
         },
         {
-          "cod": "BET-CV-103",
-          "prod": "Cruz Vertical",
-          "long": 3477,
-          "cant": 2,
-          "pend": 2
-        },
-        {
           "cod": "BET-CV-200",
           "prod": "Cruz Vertical",
           "long": 6555,
@@ -19957,13 +19943,6 @@
           "pend": 2
         },
         {
-          "cod": "BET-CV-305",
-          "prod": "Cruz Vertical",
-          "long": 3477,
-          "cant": 2,
-          "pend": 2
-        },
-        {
           "cod": "BET-CV-400",
           "prod": "Cruz Vertical",
           "long": 6639,
@@ -19997,13 +19976,6 @@
           "long": 6716,
           "cant": 1,
           "pend": 1
-        },
-        {
-          "cod": "BET-CV-503",
-          "prod": "Cruz Vertical",
-          "long": 3399,
-          "cant": 2,
-          "pend": 2
         },
         {
           "cod": "BET-DI-3",
@@ -20041,20 +20013,6 @@
           "pend": 2
         },
         {
-          "cod": "BET-DI-100",
-          "prod": "Diagonal",
-          "long": 2626,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BET-DI-102",
-          "prod": "Diagonal",
-          "long": 2535,
-          "cant": 3,
-          "pend": 3
-        },
-        {
           "cod": "BET-DI-104",
           "prod": "Diagonal",
           "long": 2193,
@@ -20083,46 +20041,11 @@
           "pend": 4
         },
         {
-          "cod": "BET-DI-203",
-          "prod": "Diagonal",
-          "long": 2644,
-          "cant": 4,
-          "pend": 4
-        },
-        {
           "cod": "BET-DI-206",
           "prod": "Diagonal",
           "long": 2552,
           "cant": 1,
           "pend": 1
-        },
-        {
-          "cod": "BET-DI-401",
-          "prod": "Diagonal",
-          "long": 2533,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BET-DI-402",
-          "prod": "Diagonal",
-          "long": 2626,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BET-DI-403",
-          "prod": "Diagonal",
-          "long": 2551,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BET-DI-404",
-          "prod": "Diagonal",
-          "long": 2667,
-          "cant": 28,
-          "pend": 28
         },
         {
           "cod": "BET-DI-405",
@@ -20132,67 +20055,11 @@
           "pend": 4
         },
         {
-          "cod": "BET-DI-500",
-          "prod": "Diagonal",
-          "long": 2647,
-          "cant": 28,
-          "pend": 28
-        },
-        {
-          "cod": "BET-DI-501",
-          "prod": "Diagonal",
-          "long": 2533,
-          "cant": 4,
-          "pend": 4
-        },
-        {
           "cod": "BET-DI-502",
           "prod": "Diagonal",
           "long": 2193,
           "cant": 3,
           "pend": 3
-        },
-        {
-          "cod": "BET-DI-503",
-          "prod": "Diagonal",
-          "long": 2130,
-          "cant": 3,
-          "pend": 3
-        },
-        {
-          "cod": "BET-DI-504",
-          "prod": "Diagonal",
-          "long": 2552,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BET-DI-505",
-          "prod": "Diagonal",
-          "long": 2667,
-          "cant": 28,
-          "pend": 28
-        },
-        {
-          "cod": "BET-DI-506",
-          "prod": "Diagonal",
-          "long": 2499,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BET-DI-507",
-          "prod": "Diagonal",
-          "long": 2540,
-          "cant": 7,
-          "pend": 7
-        },
-        {
-          "cod": "BET-DI-508",
-          "prod": "Diagonal",
-          "long": 1956,
-          "cant": 2,
-          "pend": 2
         },
         {
           "cod": "BET-DI-509",
@@ -20774,6 +20641,139 @@
           "long": 6940,
           "cant": 112,
           "pend": 112
+        },
+        {
+          "cod": "BET-PCR-501",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 3570,
+          "cant": 14,
+          "pend": 14
+        },
+        {
+          "cod": "BET-PCR-502",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7055,
+          "cant": 8,
+          "pend": 8
+        },
+        {
+          "cod": "BET-PCR-503",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 7055,
+          "cant": 8,
+          "pend": 8
+        },
+        {
+          "cod": "BET-PTC-1",
+          "prod": "Pilar Tubo Caño",
+          "long": 566,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BET-PTC-106",
+          "prod": "Pilar Tubo Caño",
+          "long": 544,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BET-PTC-200",
+          "prod": "Pilar Tubo Caño",
+          "long": 2399,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BET-PTC-201",
+          "prod": "Pilar Tubo Caño",
+          "long": 2303,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BET-PTC-202",
+          "prod": "Pilar Tubo Caño",
+          "long": 2304,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BET-PTC-203",
+          "prod": "Pilar Tubo Caño",
+          "long": 2304,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BET-PTC-204",
+          "prod": "Pilar Tubo Caño",
+          "long": 2305,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BET-PTC-205",
+          "prod": "Pilar Tubo Caño",
+          "long": 2306,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BET-PTC-206",
+          "prod": "Pilar Tubo Caño",
+          "long": 2306,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BET-PTC-300",
+          "prod": "Pilar Tubo Caño",
+          "long": 2399,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BET-PTC-301",
+          "prod": "Pilar Tubo Caño",
+          "long": 2303,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BET-PTC-302",
+          "prod": "Pilar Tubo Caño",
+          "long": 2304,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BET-PTC-303",
+          "prod": "Pilar Tubo Caño",
+          "long": 2304,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BET-PTC-304",
+          "prod": "Pilar Tubo Caño",
+          "long": 2305,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BET-PTC-305",
+          "prod": "Pilar Tubo Caño",
+          "long": 2306,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BET-PTC-306",
+          "prod": "Pilar Tubo Caño",
+          "long": 544,
+          "cant": 1,
+          "pend": 1
         }
       ],
       "pint_pend_items": [
@@ -20818,13 +20818,6 @@
           "long": 22260,
           "cant": 1,
           "pend": 1
-        },
-        {
-          "cod": "BET-CA-107",
-          "prod": "Cabriada Angulos",
-          "long": 22260,
-          "cant": 1,
-          "pend": 0.5
         },
         {
           "cod": "BET-CA-108",
@@ -22171,13 +22164,6 @@
           "pend": 8
         },
         {
-          "cod": "BET-CV-202",
-          "prod": "Cruz Vertical",
-          "long": 6726,
-          "cant": 4,
-          "pend": 4
-        },
-        {
           "cod": "BET-CV-203",
           "prod": "Cruz Vertical",
           "long": 6623,
@@ -22239,13 +22225,6 @@
           "long": 6716,
           "cant": 1,
           "pend": 1
-        },
-        {
-          "cod": "BET-CV-402",
-          "prod": "Cruz Vertical",
-          "long": 6726,
-          "cant": 5,
-          "pend": 5
         },
         {
           "cod": "BET-CV-403",
@@ -22876,6 +22855,27 @@
           "long": 50,
           "cant": 180,
           "pend": 180
+        },
+        {
+          "cod": "BET-SD-100",
+          "prod": "Soporte Diagonal",
+          "long": 50,
+          "cant": 140,
+          "pend": 140
+        },
+        {
+          "cod": "BET-SD-200",
+          "prod": "Soporte Diagonal",
+          "long": 50,
+          "cant": 144,
+          "pend": 144
+        },
+        {
+          "cod": "BET-SD-300",
+          "prod": "Soporte Diagonal",
+          "long": 50,
+          "cant": 144,
+          "pend": 144
         }
       ]
     },
