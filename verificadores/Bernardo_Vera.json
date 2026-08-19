@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T10:51:26.811Z",
+  "updatedAt": "2026-08-19T14:49:23.208Z",
   "updatedBy": "Bernardo Vera",
   "checks": {
     "25694_1": {
@@ -9446,19 +9446,23 @@
     },
     "25623_76": {
       "arm_state": "liberado",
-      "qty_lib": 72
+      "qty_lib": 72,
+      "pint_state": "pintado"
     },
     "25623_77": {
       "arm_state": "liberado",
-      "qty_lib": 72
+      "qty_lib": 72,
+      "pint_state": "pintado"
     },
     "25623_78": {
       "arm_state": "liberado",
-      "qty_lib": 6
+      "qty_lib": 6,
+      "pint_state": "pintado"
     },
     "25623_79": {
       "arm_state": "liberado",
-      "qty_lib": 6
+      "qty_lib": 6,
+      "pint_state": "pintado"
     },
     "25107_450": {
       "arm_state": "liberado",
@@ -10037,7 +10041,8 @@
     },
     "25584_142": {
       "arm_state": "liberado",
-      "qty_lib": 57
+      "qty_lib": 86,
+      "pint_state": "pintado"
     },
     "25584_143": {
       "arm_state": "liberado",
@@ -10780,7 +10785,9 @@
       "pint_state": "pintado"
     },
     "25584_148": {
-      "arm_state": "liberado"
+      "arm_state": "",
+      "qty_lib": 0,
+      "pint_state": "pintado"
     },
     "25584_149": {
       "arm_state": "liberado"
@@ -10792,35 +10799,43 @@
     },
     "25623_4": {
       "arm_state": "liberado",
-      "qty_lib": 24
+      "qty_lib": 24,
+      "pint_state": "pintado"
     },
     "25623_5": {
       "arm_state": "liberado",
-      "qty_lib": 24
+      "qty_lib": 24,
+      "pint_state": "pintado"
     },
     "25623_6": {
       "arm_state": "liberado",
-      "qty_lib": 5
+      "qty_lib": 5,
+      "pint_state": "pintado"
     },
     "25623_7": {
       "arm_state": "liberado",
-      "qty_lib": 6
+      "qty_lib": 6,
+      "pint_state": "pintado"
     },
     "25623_8": {
       "arm_state": "liberado",
-      "qty_lib": 2
+      "qty_lib": 2,
+      "pint_state": "pintado"
     },
     "25623_9": {
       "arm_state": "liberado",
-      "qty_lib": 3
+      "qty_lib": 3,
+      "pint_state": "pintado"
     },
     "25623_10": {
       "arm_state": "liberado",
-      "qty_lib": 2
+      "qty_lib": 2,
+      "pint_state": "pintado"
     },
     "25623_11": {
       "arm_state": "liberado",
-      "qty_lib": 2
+      "qty_lib": 2,
+      "pint_state": "pintado"
     },
     "25107_680": {
       "arm_state": "liberado",
@@ -21711,24 +21726,29 @@
       "pint_state": "pintado"
     },
     "25623_28": {
-      "qty_lib": 10,
-      "arm_state": "armado"
+      "qty_lib": 20,
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25623_158": {
       "qty_lib": 94,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25623_159": {
       "qty_lib": 69,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25623_160": {
       "qty_lib": 35,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25623_161": {
       "qty_lib": 10,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25107_371": {
       "qty_lib": 1,
@@ -21877,7 +21897,8 @@
     },
     "25623_148": {
       "qty_lib": 2,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25623_257": {
       "qty_lib": 4,
@@ -22432,7 +22453,8 @@
       "arm_state": "liberado"
     },
     "25584_195": {
-      "qty_lib": 0
+      "qty_lib": 1,
+      "arm_state": "liberado"
     },
     "25584_196": {
       "qty_lib": 1,
@@ -23860,6 +23882,190 @@
     "24784_3": {
       "qty_lib": 24,
       "arm_state": "liberado"
+    },
+    "25623_27": {
+      "qty_lib": 4,
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25623_29": {
+      "qty_lib": 4,
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25623_89": {
+      "qty_lib": 24,
+      "arm_state": "liberado"
+    },
+    "25623_88": {
+      "qty_lib": 4,
+      "arm_state": "liberado"
+    },
+    "25623_87": {
+      "qty_lib": 2,
+      "arm_state": "liberado"
+    },
+    "25623_86": {
+      "qty_lib": 8,
+      "arm_state": "liberado"
+    },
+    "25623_85": {
+      "qty_lib": 8,
+      "arm_state": "liberado"
+    },
+    "25623_84": {
+      "qty_lib": 2,
+      "arm_state": "liberado"
+    },
+    "25623_83": {
+      "qty_lib": 12,
+      "arm_state": "liberado"
+    },
+    "25623_82": {
+      "qty_lib": 228,
+      "arm_state": "liberado"
+    },
+    "25623_81": {
+      "qty_lib": 48,
+      "arm_state": "liberado"
+    },
+    "25623_90": {
+      "qty_lib": 2,
+      "arm_state": "liberado"
+    },
+    "25623_91": {
+      "qty_lib": 1,
+      "arm_state": "liberado"
+    },
+    "25623_92": {
+      "qty_lib": 10,
+      "arm_state": "liberado"
+    },
+    "25623_93": {
+      "qty_lib": 4,
+      "arm_state": "liberado"
+    },
+    "25623_94": {
+      "qty_lib": 4,
+      "arm_state": "liberado"
+    },
+    "25623_95": {
+      "qty_lib": 2,
+      "arm_state": "liberado"
+    },
+    "25623_96": {
+      "qty_lib": 1,
+      "arm_state": "liberado"
+    },
+    "25623_139": {
+      "qty_lib": 1,
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25623_155": {
+      "qty_lib": 4,
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25623_207": {
+      "qty_lib": 1,
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25623_209": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25623_222": {
+      "qty_lib": 1,
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25623_223": {
+      "qty_lib": 1,
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25623_224": {
+      "qty_lib": 1,
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25527_775": {
+      "qty_lib": 1,
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25527_774": {
+      "qty_lib": 0
+    },
+    "25527_773": {
+      "qty_lib": 1,
+      "arm_state": "armado"
+    },
+    "25584_51": {
+      "qty_lib": 6,
+      "arm_state": "liberado",
+      "pint_state": "en_pintura"
+    },
+    "25584_48": {
+      "qty_lib": 2,
+      "arm_state": "liberado",
+      "pint_state": "en_pintura"
+    },
+    "25584_44": {
+      "qty_lib": 2,
+      "arm_state": "liberado",
+      "pint_state": "en_pintura"
+    },
+    "25584_55": {
+      "qty_lib": 8,
+      "arm_state": "liberado",
+      "pint_state": "en_pintura"
+    },
+    "25584_50": {
+      "qty_lib": 6,
+      "arm_state": "liberado",
+      "pint_state": "en_pintura"
+    },
+    "25584_78": {
+      "qty_lib": 8,
+      "arm_state": "liberado",
+      "pint_state": "en_pintura"
+    },
+    "25584_161": {
+      "qty_lib": 96,
+      "arm_state": "liberado",
+      "pint_state": "en_pintura"
+    },
+    "25584_164": {
+      "qty_lib": 80,
+      "arm_state": "armado"
+    },
+    "25584_162": {
+      "qty_lib": 102,
+      "arm_state": "liberado",
+      "pint_state": "en_pintura"
+    },
+    "25584_163": {
+      "qty_lib": 384,
+      "arm_state": "liberado",
+      "pint_state": "en_pintura"
+    },
+    "25560_111": {
+      "qty_lib": 1,
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25560_112": {
+      "qty_lib": 1,
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25560_153": {
+      "qty_lib": 1,
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     }
   },
   "otMeta": {
@@ -25950,28 +26156,64 @@
       "ot": "25565",
       "obra": "OBRA CCA - TECNOEDIL",
       "cliente": "Tecnoedil S.A",
-      "fecha": "13/7/2026",
+      "fecha": "14/8/2026",
       "avances": {
-        "arm": 85,
-        "pint": 100,
-        "env": 0,
+        "arm": 88,
+        "pint": 96,
+        "env": 100,
         "mont": 0
       },
       "totales": {
-        "cant": 327,
-        "arm_lib": 279,
+        "cant": 407,
+        "arm_lib": 359,
         "arm_pend": 48,
-        "pint_ok": 327,
-        "pint_pend": 0,
-        "env_ok": 0,
-        "env_pend": 327,
-        "items": 37,
-        "peso_total": 5780.900000000001,
+        "pint_ok": 389,
+        "pint_pend": 18,
+        "env_ok": 407,
+        "env_pend": 0,
+        "items": 46,
+        "peso_total": 6594.887,
         "arm_pend_peso": 1305.6,
-        "pint_pend_peso": 0,
-        "env_pend_peso": 5780.900000000001
+        "pint_pend_peso": 738.987,
+        "env_pend_peso": 0
       },
       "items": [
+        {
+          "item": 1,
+          "cod": "BJA-IN-500",
+          "prod": "Inserto Metalico",
+          "long": 300,
+          "cant": 6,
+          "peso": 92.94,
+          "arm_lib": 6,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 6,
+          "pint_pend_peso": 92.94,
+          "env_ok": 6,
+          "env_pend": 0,
+          "env_pend_peso": 0,
+          "literal": "BJA"
+        },
+        {
+          "item": 2,
+          "cod": "BJA-IN-501",
+          "prod": "Inserto Metalico",
+          "long": 300,
+          "cant": 4,
+          "peso": 49.96,
+          "arm_lib": 4,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 4,
+          "pint_pend_peso": 49.96,
+          "env_ok": 4,
+          "env_pend": 0,
+          "env_pend_peso": 0,
+          "literal": "BJA"
+        },
         {
           "item": 3,
           "cod": "BJA-CH-1",
@@ -25985,9 +26227,9 @@
           "pint_ok": 8,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 8,
-          "env_pend_peso": 57.6,
+          "env_ok": 8,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJA"
         },
         {
@@ -26003,9 +26245,9 @@
           "pint_ok": 8,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 8,
-          "env_pend_peso": 49.28,
+          "env_ok": 8,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJA"
         },
         {
@@ -26021,9 +26263,9 @@
           "pint_ok": 4,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 4,
-          "env_pend_peso": 221.68,
+          "env_ok": 4,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJA"
         },
         {
@@ -26039,9 +26281,9 @@
           "pint_ok": 4,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 4,
-          "env_pend_peso": 218.88,
+          "env_ok": 4,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJA"
         },
         {
@@ -26057,9 +26299,9 @@
           "pint_ok": 4,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 4,
-          "env_pend_peso": 221.92,
+          "env_ok": 4,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJA"
         },
         {
@@ -26075,9 +26317,9 @@
           "pint_ok": 4,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 4,
-          "env_pend_peso": 216.32,
+          "env_ok": 4,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJA"
         },
         {
@@ -26093,9 +26335,9 @@
           "pint_ok": 8,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 8,
-          "env_pend_peso": 13.04,
+          "env_ok": 8,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJA"
         },
         {
@@ -26111,9 +26353,9 @@
           "pint_ok": 8,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 8,
-          "env_pend_peso": 13.12,
+          "env_ok": 8,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJA"
         },
         {
@@ -26129,9 +26371,9 @@
           "pint_ok": 8,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 8,
-          "env_pend_peso": 13.2,
+          "env_ok": 8,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJA"
         },
         {
@@ -26147,9 +26389,9 @@
           "pint_ok": 8,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 8,
-          "env_pend_peso": 13.28,
+          "env_ok": 8,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJA"
         },
         {
@@ -26165,9 +26407,9 @@
           "pint_ok": 12,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 12,
-          "env_pend_peso": 38.64,
+          "env_ok": 12,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJA"
         },
         {
@@ -26183,9 +26425,9 @@
           "pint_ok": 24,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 24,
-          "env_pend_peso": 656.64,
+          "env_ok": 24,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJA"
         },
         {
@@ -26201,9 +26443,9 @@
           "pint_ok": 24,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 24,
-          "env_pend_peso": 648.96,
+          "env_ok": 24,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJA"
         },
         {
@@ -26219,9 +26461,9 @@
           "pint_ok": 6,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 6,
-          "env_pend_peso": 24,
+          "env_ok": 6,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJA"
         },
         {
@@ -26237,9 +26479,9 @@
           "pint_ok": 4,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 4,
-          "env_pend_peso": 7.08,
+          "env_ok": 4,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJA"
         },
         {
@@ -26255,9 +26497,9 @@
           "pint_ok": 12,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 12,
-          "env_pend_peso": 12.36,
+          "env_ok": 12,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJA"
         },
         {
@@ -26273,9 +26515,9 @@
           "pint_ok": 4,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 4,
-          "env_pend_peso": 5.24,
+          "env_ok": 4,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJA"
         },
         {
@@ -26291,9 +26533,9 @@
           "pint_ok": 12,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 12,
-          "env_pend_peso": 5.4,
+          "env_ok": 12,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJA"
         },
         {
@@ -26309,9 +26551,9 @@
           "pint_ok": 12,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 12,
-          "env_pend_peso": 30,
+          "env_ok": 12,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJA"
         },
         {
@@ -26327,9 +26569,9 @@
           "pint_ok": 6,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 6,
-          "env_pend_peso": 5.82,
+          "env_ok": 6,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJA"
         },
         {
@@ -26345,9 +26587,9 @@
           "pint_ok": 4,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 4,
-          "env_pend_peso": 32.8,
+          "env_ok": 4,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJA"
         },
         {
@@ -26363,9 +26605,9 @@
           "pint_ok": 2,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 46.48,
+          "env_ok": 2,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJA"
         },
         {
@@ -26381,9 +26623,9 @@
           "pint_ok": 16,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 16,
-          "env_pend_peso": 6.72,
+          "env_ok": 16,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJA"
         },
         {
@@ -26399,9 +26641,9 @@
           "pint_ok": 16,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 16,
-          "env_pend_peso": 6.72,
+          "env_ok": 16,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJA"
         },
         {
@@ -26417,9 +26659,9 @@
           "pint_ok": 64,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 64,
-          "env_pend_peso": 5.76,
+          "env_ok": 64,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJA"
         },
         {
@@ -26435,9 +26677,9 @@
           "pint_ok": 4,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 4,
-          "env_pend_peso": 4.16,
+          "env_ok": 4,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJA"
         },
         {
@@ -26453,9 +26695,9 @@
           "pint_ok": 8,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 8,
-          "env_pend_peso": 27.04,
+          "env_ok": 8,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJA"
         },
         {
@@ -26471,9 +26713,9 @@
           "pint_ok": 8,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 8,
-          "env_pend_peso": 26.8,
+          "env_ok": 8,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJA"
         },
         {
@@ -26489,9 +26731,9 @@
           "pint_ok": 3,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 3,
-          "env_pend_peso": 2.85,
+          "env_ok": 3,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJA"
         },
         {
@@ -26507,9 +26749,9 @@
           "pint_ok": 1,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 0.95,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJA"
         },
         {
@@ -26525,9 +26767,9 @@
           "pint_ok": 8,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 8,
-          "env_pend_peso": 7.12,
+          "env_ok": 8,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJA"
         },
         {
@@ -26543,9 +26785,9 @@
           "pint_ok": 8,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 8,
-          "env_pend_peso": 7.2,
+          "env_ok": 8,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJA"
         },
         {
@@ -26561,9 +26803,9 @@
           "pint_ok": 1,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 881.8,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJA"
         },
         {
@@ -26579,9 +26821,9 @@
           "pint_ok": 1,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 885.88,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJA"
         },
         {
@@ -26597,9 +26839,9 @@
           "pint_ok": 1,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 881.8,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJA"
         },
         {
@@ -26615,9 +26857,9 @@
           "pint_ok": 1,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 242.18,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJA"
         },
         {
@@ -26633,10 +26875,136 @@
           "pint_ok": 1,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 242.18,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJA"
+        },
+        {
+          "item": 40,
+          "cod": "34355-BB-1",
+          "prod": "Babeta metálica - Ml",
+          "long": 25500,
+          "cant": 1,
+          "peso": 60.052,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 60.052,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
+          "literal": "BB"
+        },
+        {
+          "item": 41,
+          "cod": "34355-BB-2",
+          "prod": "Babeta metálica - Ml",
+          "long": 25500,
+          "cant": 1,
+          "peso": 40.035,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 40.035,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
+          "literal": "BB"
+        },
+        {
+          "item": 42,
+          "cod": "34355-CN-3",
+          "prod": "Canaleta x Kg.",
+          "long": 25000,
+          "cant": 2,
+          "peso": 494,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 494,
+          "env_ok": 2,
+          "env_pend": 0,
+          "env_pend_peso": 0,
+          "literal": "CN"
+        },
+        {
+          "item": 43,
+          "cod": "34355-TCN-4",
+          "prod": "Tapa de Canaleta",
+          "long": 375,
+          "cant": 4,
+          "peso": 2,
+          "arm_lib": 4,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 4,
+          "pint_pend_peso": 2,
+          "env_ok": 4,
+          "env_pend": 0,
+          "env_pend_peso": 0,
+          "literal": "TCN"
+        },
+        {
+          "item": 44,
+          "cod": "34355-SCN-5",
+          "prod": "Soporte para canaleta",
+          "long": 685,
+          "cant": 26,
+          "peso": 39,
+          "arm_lib": 26,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 26,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 26,
+          "env_pend": 0,
+          "env_pend_peso": 0,
+          "literal": "SCN"
+        },
+        {
+          "item": 45,
+          "cod": "34355-PS-6",
+          "prod": "Pieza Suelta",
+          "long": 200,
+          "cant": 26,
+          "peso": 26,
+          "arm_lib": 26,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 26,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 26,
+          "env_pend": 0,
+          "env_pend_peso": 0,
+          "literal": "PS"
+        },
+        {
+          "item": 46,
+          "cod": "34355-PS-7",
+          "prod": "Pieza Suelta",
+          "long": 500,
+          "cant": 10,
+          "peso": 10,
+          "arm_lib": 10,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 10,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 10,
+          "env_pend": 0,
+          "env_pend_peso": 0,
+          "literal": "PS"
         }
       ],
       "arm_pend_items": [
@@ -26655,7 +27023,50 @@
           "pend": 24
         }
       ],
-      "pint_pend_items": []
+      "pint_pend_items": [
+        {
+          "cod": "BJA-IN-500",
+          "prod": "Inserto Metalico",
+          "long": 300,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "BJA-IN-501",
+          "prod": "Inserto Metalico",
+          "long": 300,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "34355-BB-1",
+          "prod": "Babeta metálica - Ml",
+          "long": 25500,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "34355-BB-2",
+          "prod": "Babeta metálica - Ml",
+          "long": 25500,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "34355-CN-3",
+          "prod": "Canaleta x Kg.",
+          "long": 25000,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "34355-TCN-4",
+          "prod": "Tapa de Canaleta",
+          "long": 375,
+          "cant": 4,
+          "pend": 4
+        }
+      ]
     },
     "25607": {
       "ot": "25607",
@@ -32158,28 +32569,352 @@
       "ot": "25673",
       "obra": "Pasarela y escalera_Hilagro",
       "cliente": "Gomez Abente S.A.",
-      "fecha": "16/7/2026",
+      "fecha": "14/8/2026",
       "avances": {
-        "arm": 64,
-        "pint": 0,
-        "env": 0,
+        "arm": 92,
+        "pint": 26,
+        "env": 96,
         "mont": 0
       },
       "totales": {
-        "cant": 28,
-        "arm_lib": 18,
-        "arm_pend": 10,
-        "pint_ok": 0,
-        "pint_pend": 28,
-        "env_ok": 0,
-        "env_pend": 28,
-        "items": 16,
-        "peso_total": 3117.5199999999995,
-        "arm_pend_peso": 2416.26,
-        "pint_pend_peso": 3117.5199999999995,
-        "env_pend_peso": 3117.5199999999995
+        "cant": 202,
+        "arm_lib": 185,
+        "arm_pend": 17,
+        "pint_ok": 52,
+        "pint_pend": 150,
+        "env_ok": 194,
+        "env_pend": 8,
+        "items": 37,
+        "peso_total": 5430.380000000001,
+        "arm_pend_peso": 375.89000000000004,
+        "pint_pend_peso": 361.70000000000005,
+        "env_pend_peso": 321.88000000000005
       },
       "items": [
+        {
+          "item": 1,
+          "cod": "BJP-CK-1",
+          "prod": "Conector",
+          "long": 110,
+          "cant": 94,
+          "peso": 17.86,
+          "arm_lib": 94,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 94,
+          "pint_pend_peso": 17.86,
+          "env_ok": 94,
+          "env_pend": 0,
+          "env_pend_peso": 0,
+          "literal": "BJP"
+        },
+        {
+          "item": 2,
+          "cod": "BJP-FL-1",
+          "prod": "Faldon - Ml",
+          "long": 259,
+          "cant": 1,
+          "peso": 22.05,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
+          "literal": "BJP"
+        },
+        {
+          "item": 3,
+          "cod": "BJP-FL-2",
+          "prod": "Faldon - Ml",
+          "long": 130,
+          "cant": 7,
+          "peso": 165.9,
+          "arm_lib": 7,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 7,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 7,
+          "env_pend": 0,
+          "env_pend_peso": 0,
+          "literal": "BJP"
+        },
+        {
+          "item": 4,
+          "cod": "BJP-FL-3",
+          "prod": "Faldon - Ml",
+          "long": 130,
+          "cant": 1,
+          "peso": 23.7,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
+          "literal": "BJP"
+        },
+        {
+          "item": 5,
+          "cod": "BJP-FL-4",
+          "prod": "Faldon - Ml",
+          "long": 106,
+          "cant": 1,
+          "peso": 8.42,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
+          "literal": "BJP"
+        },
+        {
+          "item": 6,
+          "cod": "BJP-FL-5",
+          "prod": "Faldon - Ml",
+          "long": 76,
+          "cant": 2,
+          "peso": 17.24,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 2,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 2,
+          "env_pend": 0,
+          "env_pend_peso": 0,
+          "literal": "BJP"
+        },
+        {
+          "item": 7,
+          "cod": "BJP-FL-6",
+          "prod": "Faldon - Ml",
+          "long": 130,
+          "cant": 1,
+          "peso": 8.69,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
+          "literal": "BJP"
+        },
+        {
+          "item": 8,
+          "cod": "BJP-FL-7",
+          "prod": "Faldon - Ml",
+          "long": 130,
+          "cant": 1,
+          "peso": 3.95,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
+          "literal": "BJP"
+        },
+        {
+          "item": 9,
+          "cod": "BJP-FL-8",
+          "prod": "Faldon - Ml",
+          "long": 130,
+          "cant": 1,
+          "peso": 5.49,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
+          "literal": "BJP"
+        },
+        {
+          "item": 10,
+          "cod": "BJP-FL-9",
+          "prod": "Faldon - Ml",
+          "long": 155,
+          "cant": 1,
+          "peso": 2.55,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
+          "literal": "BJP"
+        },
+        {
+          "item": 11,
+          "cod": "BJP-FL-10",
+          "prod": "Faldon - Ml",
+          "long": 130,
+          "cant": 1,
+          "peso": 12.74,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
+          "literal": "BJP"
+        },
+        {
+          "item": 12,
+          "cod": "BJP-PA-1",
+          "prod": "Pasarela Metalica",
+          "long": 12839,
+          "cant": 1,
+          "peso": 1882.88,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
+          "literal": "BJP"
+        },
+        {
+          "item": 13,
+          "cod": "BJP-PE-1",
+          "prod": "Perno PCF",
+          "long": 250,
+          "cant": 12,
+          "peso": 5.64,
+          "arm_lib": 12,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 12,
+          "pint_pend_peso": 5.64,
+          "env_ok": 12,
+          "env_pend": 0,
+          "env_pend_peso": 0,
+          "literal": "BJP"
+        },
+        {
+          "item": 14,
+          "cod": "BJP-PE-2",
+          "prod": "Perno PCF",
+          "long": 300,
+          "cant": 12,
+          "peso": 6.48,
+          "arm_lib": 12,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 12,
+          "pint_pend_peso": 6.48,
+          "env_ok": 12,
+          "env_pend": 0,
+          "env_pend_peso": 0,
+          "literal": "BJP"
+        },
+        {
+          "item": 15,
+          "cod": "BJP-PL-1",
+          "prod": "Placa",
+          "long": 180,
+          "cant": 4,
+          "peso": 28.84,
+          "arm_lib": 0,
+          "arm_pend": 4,
+          "arm_pend_peso": 28.84,
+          "pint_ok": 4,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 4,
+          "env_pend": 0,
+          "env_pend_peso": 0,
+          "literal": "BJP"
+        },
+        {
+          "item": 16,
+          "cod": "BJP-PL-2",
+          "prod": "Placa",
+          "long": 110,
+          "cant": 4,
+          "peso": 16.28,
+          "arm_lib": 0,
+          "arm_pend": 4,
+          "arm_pend_peso": 16.28,
+          "pint_ok": 4,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 4,
+          "env_pend": 0,
+          "env_pend_peso": 0,
+          "literal": "BJP"
+        },
+        {
+          "item": 17,
+          "cod": "BJP-PL-3",
+          "prod": "Placa",
+          "long": 435,
+          "cant": 2,
+          "peso": 15.98,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 2,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 2,
+          "env_pend": 0,
+          "env_pend_peso": 0,
+          "literal": "BJP"
+        },
+        {
+          "item": 18,
+          "cod": "BJP-PS-1",
+          "prod": "Pieza Suelta",
+          "long": 1610,
+          "cant": 1,
+          "peso": 8.89,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 8.89,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
+          "literal": "BJP"
+        },
         {
           "item": 19,
           "cod": "BJP-SK-1",
@@ -32289,21 +33024,57 @@
           "literal": "BJP"
         },
         {
+          "item": 25,
+          "cod": "BJP-VSI-1",
+          "prod": "Viga secundaria IS",
+          "long": 1300,
+          "cant": 2,
+          "peso": 35.28,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 2,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 2,
+          "env_pend": 0,
+          "env_pend_peso": 0,
+          "literal": "BJP"
+        },
+        {
+          "item": 26,
+          "cod": "BJP-VSI-2",
+          "prod": "Viga secundaria IS",
+          "long": 1044,
+          "cant": 1,
+          "peso": 14.16,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
+          "literal": "BJP"
+        },
+        {
           "item": 27,
           "cod": "BKH-ES-1",
           "prod": "Escalera Metalica",
           "long": 3240,
           "cant": 1,
           "peso": 1047.19,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 1047.19,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 1047.19,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 1047.19,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BKH"
         },
         {
@@ -32313,15 +33084,33 @@
           "long": 3240,
           "cant": 1,
           "peso": 1047.19,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 1047.19,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
+          "literal": "BKH"
+        },
+        {
+          "item": 29,
+          "cod": "BKH-PE-1",
+          "prod": "Perno PCF",
+          "long": 300,
+          "cant": 24,
+          "peso": 9.84,
+          "arm_lib": 24,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 1047.19,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 1047.19,
+          "pint_pend": 24,
+          "pint_pend_peso": 9.84,
+          "env_ok": 24,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BKH"
         },
         {
@@ -32334,12 +33123,12 @@
           "arm_lib": 2,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 1.18,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 1.18,
+          "pint_ok": 2,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 2,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BKH"
         },
         {
@@ -32352,12 +33141,12 @@
           "arm_lib": 2,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 470,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 470,
+          "pint_ok": 2,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 2,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BKH"
         },
         {
@@ -32370,12 +33159,12 @@
           "arm_lib": 2,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 1.2,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 1.2,
+          "pint_ok": 2,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 2,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BKH"
         },
         {
@@ -32388,12 +33177,12 @@
           "arm_lib": 2,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 5.7,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 5.7,
+          "pint_ok": 2,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 2,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BKH"
         },
         {
@@ -32406,12 +33195,12 @@
           "arm_lib": 2,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 6.22,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 6.22,
+          "pint_ok": 2,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 2,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BKH"
         },
         {
@@ -32424,12 +33213,12 @@
           "arm_lib": 4,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 4,
-          "pint_pend_peso": 16.44,
-          "env_ok": 0,
-          "env_pend": 4,
-          "env_pend_peso": 16.44,
+          "pint_ok": 4,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 4,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BKH"
         },
         {
@@ -32442,12 +33231,12 @@
           "arm_lib": 2,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 5.72,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 5.72,
+          "pint_ok": 2,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 2,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BKH"
         },
         {
@@ -32460,16 +33249,37 @@
           "arm_lib": 2,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 194.8,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 194.8,
+          "pint_ok": 2,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 2,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BKH"
         }
       ],
       "arm_pend_items": [
+        {
+          "cod": "BJP-PL-1",
+          "prod": "Placa",
+          "long": 180,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BJP-PL-2",
+          "prod": "Placa",
+          "long": 110,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BJP-PS-1",
+          "prod": "Pieza Suelta",
+          "long": 1610,
+          "cant": 1,
+          "pend": 1
+        },
         {
           "cod": "BJP-SK-1",
           "prod": "Steel  Deck PT",
@@ -32509,26 +33319,33 @@
           "cod": "BJP-SK-6",
           "prod": "Steel  Deck PT",
           "long": 7649,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BKH-ES-1",
-          "prod": "Escalera Metalica",
-          "long": 3240,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BKH-ES-2",
-          "prod": "Escalera Metalica",
-          "long": 3240,
           "cant": 1,
           "pend": 1
         }
       ],
       "pint_pend_items": [
         {
+          "cod": "BJP-CK-1",
+          "prod": "Conector",
+          "long": 110,
+          "cant": 94,
+          "pend": 94
+        },
+        {
+          "cod": "BJP-PE-1",
+          "prod": "Perno PCF",
+          "long": 250,
+          "cant": 12,
+          "pend": 12
+        },
+        {
+          "cod": "BJP-PE-2",
+          "prod": "Perno PCF",
+          "long": 300,
+          "cant": 12,
+          "pend": 12
+        },
+        {
           "cod": "BJP-SK-1",
           "prod": "Steel  Deck PT",
           "long": 5634,
@@ -32571,74 +33388,11 @@
           "pend": 1
         },
         {
-          "cod": "BKH-ES-1",
-          "prod": "Escalera Metalica",
-          "long": 3240,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BKH-ES-2",
-          "prod": "Escalera Metalica",
-          "long": 3240,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BKH-PL-1",
-          "prod": "Placa",
-          "long": 56,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BKH-PL-2",
-          "prod": "Placa",
-          "long": 1000,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BKH-PL-3",
-          "prod": "Placa",
-          "long": 496,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BKH-PL-4",
-          "prod": "Placa",
-          "long": 230,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BKH-PL-5",
-          "prod": "Placa",
-          "long": 326,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BKH-PL-6",
-          "prod": "Placa",
-          "long": 95,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BKH-PL-7",
-          "prod": "Placa",
-          "long": 234,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BKH-PL-8",
-          "prod": "Placa",
-          "long": 2100,
-          "cant": 2,
-          "pend": 2
+          "cod": "BKH-PE-1",
+          "prod": "Perno PCF",
+          "long": 300,
+          "cant": 24,
+          "pend": 24
         }
       ]
     },
@@ -37495,972 +38249,30 @@
       "ot": "25708",
       "obra": "EXPLANADA SHOPPING COSTANERA",
       "cliente": "CVH SRL",
-      "fecha": "3/8/2026",
+      "fecha": "14/8/2026",
       "avances": {
-        "arm": 80,
-        "pint": 61,
+        "arm": 0,
+        "pint": 0,
         "env": 0,
         "mont": 0
       },
       "totales": {
-        "cant": 136,
-        "arm_lib": 109,
-        "arm_pend": 27,
-        "pint_ok": 83,
-        "pint_pend": 53,
+        "cant": 0,
+        "arm_lib": 0,
+        "arm_pend": 0,
+        "pint_ok": 0,
+        "pint_pend": 0,
         "env_ok": 0,
-        "env_pend": 136,
-        "items": 44,
-        "peso_total": 4358.633000000002,
+        "env_pend": 0,
+        "items": 0,
+        "peso_total": 0,
         "arm_pend_peso": 0,
-        "pint_pend_peso": 69.893,
-        "env_pend_peso": 4358.633000000002
+        "pint_pend_peso": 0,
+        "env_pend_peso": 0
       },
-      "items": [
-        {
-          "item": 110,
-          "cod": "BKA-CR-1",
-          "prod": "Correa Techo",
-          "long": 8703,
-          "cant": 1,
-          "peso": 89.09,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 89.09,
-          "literal": "BKA"
-        },
-        {
-          "item": 111,
-          "cod": "BKA-CR-2",
-          "prod": "Correa Techo",
-          "long": 7938,
-          "cant": 1,
-          "peso": 81.25,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 81.25,
-          "literal": "BKA"
-        },
-        {
-          "item": 112,
-          "cod": "BKA-CR-3",
-          "prod": "Correa Techo",
-          "long": 7860,
-          "cant": 1,
-          "peso": 80.46,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 80.46,
-          "literal": "BKA"
-        },
-        {
-          "item": 113,
-          "cod": "BKA-CR-4",
-          "prod": "Correa Techo",
-          "long": 7819,
-          "cant": 1,
-          "peso": 80.03,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 80.03,
-          "literal": "BKA"
-        },
-        {
-          "item": 114,
-          "cod": "BKA-CR-5",
-          "prod": "Correa Techo",
-          "long": 8049,
-          "cant": 2,
-          "peso": 164.8,
-          "arm_lib": 2,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 2,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 164.8,
-          "literal": "BKA"
-        },
-        {
-          "item": 115,
-          "cod": "BKA-CR-6",
-          "prod": "Correa Techo",
-          "long": 8044,
-          "cant": 1,
-          "peso": 82.35,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 82.35,
-          "literal": "BKA"
-        },
-        {
-          "item": 116,
-          "cod": "BKA-CR-7",
-          "prod": "Correa Techo",
-          "long": 8038,
-          "cant": 2,
-          "peso": 164.56,
-          "arm_lib": 2,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 2,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 164.56,
-          "literal": "BKA"
-        },
-        {
-          "item": 117,
-          "cod": "BKA-CR-8",
-          "prod": "Correa Techo",
-          "long": 5854,
-          "cant": 1,
-          "peso": 59.92,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 59.92,
-          "literal": "BKA"
-        },
-        {
-          "item": 118,
-          "cod": "BKA-CR-9",
-          "prod": "Correa Techo",
-          "long": 4847,
-          "cant": 2,
-          "peso": 49.62,
-          "arm_lib": 2,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 2,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 49.62,
-          "literal": "BKA"
-        },
-        {
-          "item": 119,
-          "cod": "BKA-CR-10",
-          "prod": "Correa Techo",
-          "long": 7651,
-          "cant": 1,
-          "peso": 78.32,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 78.32,
-          "literal": "BKA"
-        },
-        {
-          "item": 120,
-          "cod": "BKA-CR-11",
-          "prod": "Correa Techo",
-          "long": 5387,
-          "cant": 1,
-          "peso": 55.14,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 55.14,
-          "literal": "BKA"
-        },
-        {
-          "item": 121,
-          "cod": "BKA-CR-18",
-          "prod": "Correa Techo",
-          "long": 8095,
-          "cant": 1,
-          "peso": 82.86,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 82.86,
-          "literal": "BKA"
-        },
-        {
-          "item": 122,
-          "cod": "BKA-CR-19",
-          "prod": "Correa Techo",
-          "long": 8020,
-          "cant": 2,
-          "peso": 164.2,
-          "arm_lib": 2,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 2,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 164.2,
-          "literal": "BKA"
-        },
-        {
-          "item": 123,
-          "cod": "BKA-CR-21",
-          "prod": "Correa Techo",
-          "long": 8199,
-          "cant": 1,
-          "peso": 83.93,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 83.93,
-          "literal": "BKA"
-        },
-        {
-          "item": 124,
-          "cod": "BKA-CR-23",
-          "prod": "Correa Techo",
-          "long": 8311,
-          "cant": 1,
-          "peso": 85.07,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 85.07,
-          "literal": "BKA"
-        },
-        {
-          "item": 125,
-          "cod": "BKA-CR-24",
-          "prod": "Correa Techo",
-          "long": 8028,
-          "cant": 1,
-          "peso": 82.18,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 82.18,
-          "literal": "BKA"
-        },
-        {
-          "item": 126,
-          "cod": "BKA-CR-25",
-          "prod": "Correa Techo",
-          "long": 9534,
-          "cant": 1,
-          "peso": 97.59,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 97.59,
-          "literal": "BKA"
-        },
-        {
-          "item": 134,
-          "cod": "BKA-PC-1",
-          "prod": "Porta Correas Metalicas",
-          "long": 100,
-          "cant": 31,
-          "peso": 43.09,
-          "arm_lib": 31,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 31,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 31,
-          "env_pend_peso": 43.09,
-          "literal": "BKA"
-        },
-        {
-          "item": 172,
-          "cod": "BKA-SD-1",
-          "prod": "Soporte Diagonal",
-          "long": 50,
-          "cant": 16,
-          "peso": 1.44,
-          "arm_lib": 16,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 16,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 16,
-          "env_pend_peso": 1.44,
-          "literal": "BKA"
-        },
-        {
-          "item": 199,
-          "cod": "BKA-BT-500",
-          "prod": "Bastidores",
-          "long": 6465,
-          "cant": 1,
-          "peso": 1603.65,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 1603.65,
-          "literal": "BKA"
-        },
-        {
-          "item": 245,
-          "cod": "BKA-CR-500",
-          "prod": "Correa Techo",
-          "long": 7223,
-          "cant": 1,
-          "peso": 73.93,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 73.93,
-          "literal": "BKA"
-        },
-        {
-          "item": 246,
-          "cod": "BKA-CR-501",
-          "prod": "Correa Techo",
-          "long": 9012,
-          "cant": 1,
-          "peso": 92.25,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 92.25,
-          "literal": "BKA"
-        },
-        {
-          "item": 247,
-          "cod": "BKA-CR-502",
-          "prod": "Correa Techo",
-          "long": 10864,
-          "cant": 1,
-          "peso": 111.2,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 111.2,
-          "literal": "BKA"
-        },
-        {
-          "item": 248,
-          "cod": "BKA-CR-503",
-          "prod": "Correa Techo",
-          "long": 12109,
-          "cant": 1,
-          "peso": 123.93,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 123.93,
-          "literal": "BKA"
-        },
-        {
-          "item": 249,
-          "cod": "BKA-CR-504",
-          "prod": "Correa Techo",
-          "long": 6968,
-          "cant": 1,
-          "peso": 71.32,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 71.32,
-          "literal": "BKA"
-        },
-        {
-          "item": 250,
-          "cod": "BKA-CR-505",
-          "prod": "Correa Techo",
-          "long": 7980,
-          "cant": 1,
-          "peso": 81.67,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 81.67,
-          "literal": "BKA"
-        },
-        {
-          "item": 251,
-          "cod": "BKA-CR-506",
-          "prod": "Correa Techo",
-          "long": 7164,
-          "cant": 1,
-          "peso": 73.33,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 73.33,
-          "literal": "BKA"
-        },
-        {
-          "item": 252,
-          "cod": "BKA-CR-507",
-          "prod": "Correa Techo",
-          "long": 8990,
-          "cant": 1,
-          "peso": 92,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 92,
-          "literal": "BKA"
-        },
-        {
-          "item": 253,
-          "cod": "BKA-CR-508",
-          "prod": "Correa Techo",
-          "long": 9856,
-          "cant": 1,
-          "peso": 100.87,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 100.87,
-          "literal": "BKA"
-        },
-        {
-          "item": 254,
-          "cod": "BKA-CR-509",
-          "prod": "Correa Techo",
-          "long": 7506,
-          "cant": 1,
-          "peso": 76.83,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 76.83,
-          "literal": "BKA"
-        },
-        {
-          "item": 255,
-          "cod": "BKA-CR-510",
-          "prod": "Correa Techo",
-          "long": 7820,
-          "cant": 1,
-          "peso": 80.05,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 80.05,
-          "literal": "BKA"
-        },
-        {
-          "item": 256,
-          "cod": "BKA-CR-511",
-          "prod": "Correa Techo",
-          "long": 7992,
-          "cant": 1,
-          "peso": 81.81,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 81.81,
-          "literal": "BKA"
-        },
-        {
-          "item": 257,
-          "cod": "BKA-PC-500",
-          "prod": "Porta Correas Metalicas",
-          "long": 100,
-          "cant": 26,
-          "peso": 36.14,
-          "arm_lib": 26,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 26,
-          "pint_pend_peso": 36.14,
-          "env_ok": 0,
-          "env_pend": 26,
-          "env_pend_peso": 36.14,
-          "literal": "BKA"
-        },
-        {
-          "item": 294,
-          "cod": "33718-PS-01",
-          "prod": "Pieza Suelta",
-          "long": 0,
-          "cant": 5,
-          "peso": 0,
-          "arm_lib": 0,
-          "arm_pend": 5,
-          "arm_pend_peso": 0,
-          "pint_ok": 2,
-          "pint_pend": 3,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 5,
-          "env_pend_peso": 0,
-          "literal": "PS"
-        },
-        {
-          "item": 295,
-          "cod": "34362-CN-1",
-          "prod": "Canaleta x Kg.",
-          "long": 12000,
-          "cant": 1,
-          "peso": 0,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 0,
-          "literal": "CN"
-        },
-        {
-          "item": 296,
-          "cod": "34362-CN-2",
-          "prod": "Canaleta x Kg.",
-          "long": 7620,
-          "cant": 2,
-          "peso": 0,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 0,
-          "literal": "CN"
-        },
-        {
-          "item": 297,
-          "cod": "34362-CN-3",
-          "prod": "Canaleta x Kg.",
-          "long": 8400,
-          "cant": 2,
-          "peso": 0,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 0,
-          "literal": "CN"
-        },
-        {
-          "item": 298,
-          "cod": "34362-CN-4",
-          "prod": "Canaleta x Kg.",
-          "long": 12300,
-          "cant": 1,
-          "peso": 0,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 0,
-          "literal": "CN"
-        },
-        {
-          "item": 299,
-          "cod": "34362-CN-5",
-          "prod": "Canaleta x Kg.",
-          "long": 7500,
-          "cant": 2,
-          "peso": 0,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 0,
-          "literal": "CN"
-        },
-        {
-          "item": 300,
-          "cod": "34362-CN-6",
-          "prod": "Canaleta x Kg.",
-          "long": 9000,
-          "cant": 1,
-          "peso": 0,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 0,
-          "literal": "CN"
-        },
-        {
-          "item": 301,
-          "cod": "34362-CN-7",
-          "prod": "Canaleta x Kg.",
-          "long": 9000,
-          "cant": 1,
-          "peso": 0,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 0,
-          "literal": "CN"
-        },
-        {
-          "item": 302,
-          "cod": "34362-TCN-8",
-          "prod": "Tapa de Canaleta",
-          "long": 480,
-          "cant": 12,
-          "peso": 0,
-          "arm_lib": 0,
-          "arm_pend": 12,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 12,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 12,
-          "env_pend_peso": 0,
-          "literal": "TCN"
-        },
-        {
-          "item": 303,
-          "cod": "34364-BB-1",
-          "prod": "Babeta metálica - Ml",
-          "long": 10000,
-          "cant": 1,
-          "peso": 13.501,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 13.501,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 13.501,
-          "literal": "BB"
-        },
-        {
-          "item": 304,
-          "cod": "34364-BB-2",
-          "prod": "Babeta metálica - Ml",
-          "long": 10000,
-          "cant": 1,
-          "peso": 20.252,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 20.252,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 20.252,
-          "literal": "BB"
-        }
-      ],
-      "arm_pend_items": [
-        {
-          "cod": "33718-PS-01",
-          "prod": "Pieza Suelta",
-          "long": 0,
-          "cant": 5,
-          "pend": 5
-        },
-        {
-          "cod": "34362-CN-1",
-          "prod": "Canaleta x Kg.",
-          "long": 12000,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "34362-CN-2",
-          "prod": "Canaleta x Kg.",
-          "long": 7620,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "34362-CN-3",
-          "prod": "Canaleta x Kg.",
-          "long": 8400,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "34362-CN-4",
-          "prod": "Canaleta x Kg.",
-          "long": 12300,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "34362-CN-5",
-          "prod": "Canaleta x Kg.",
-          "long": 7500,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "34362-CN-6",
-          "prod": "Canaleta x Kg.",
-          "long": 9000,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "34362-CN-7",
-          "prod": "Canaleta x Kg.",
-          "long": 9000,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "34362-TCN-8",
-          "prod": "Tapa de Canaleta",
-          "long": 480,
-          "cant": 12,
-          "pend": 12
-        }
-      ],
-      "pint_pend_items": [
-        {
-          "cod": "BKA-PC-500",
-          "prod": "Porta Correas Metalicas",
-          "long": 100,
-          "cant": 26,
-          "pend": 26
-        },
-        {
-          "cod": "33718-PS-01",
-          "prod": "Pieza Suelta",
-          "long": 0,
-          "cant": 5,
-          "pend": 3
-        },
-        {
-          "cod": "34362-CN-1",
-          "prod": "Canaleta x Kg.",
-          "long": 12000,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "34362-CN-2",
-          "prod": "Canaleta x Kg.",
-          "long": 7620,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "34362-CN-3",
-          "prod": "Canaleta x Kg.",
-          "long": 8400,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "34362-CN-4",
-          "prod": "Canaleta x Kg.",
-          "long": 12300,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "34362-CN-5",
-          "prod": "Canaleta x Kg.",
-          "long": 7500,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "34362-CN-6",
-          "prod": "Canaleta x Kg.",
-          "long": 9000,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "34362-CN-7",
-          "prod": "Canaleta x Kg.",
-          "long": 9000,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "34362-TCN-8",
-          "prod": "Tapa de Canaleta",
-          "long": 480,
-          "cant": 12,
-          "pend": 12
-        },
-        {
-          "cod": "34364-BB-1",
-          "prod": "Babeta metálica - Ml",
-          "long": 10000,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "34364-BB-2",
-          "prod": "Babeta metálica - Ml",
-          "long": 10000,
-          "cant": 1,
-          "pend": 1
-        }
-      ]
+      "items": [],
+      "arm_pend_items": [],
+      "pint_pend_items": []
     },
     "25722": {
       "ot": "25722",
