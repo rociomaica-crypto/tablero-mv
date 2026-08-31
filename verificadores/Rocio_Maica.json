@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T19:10:47.419Z",
+  "updatedAt": "2026-08-31T19:10:56.641Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "24969_1": {
@@ -170593,6 +170593,159 @@
           "long": 4271,
           "cant": 3,
           "pend": 3
+        }
+      ]
+    },
+    "25832": {
+      "ot": "25832",
+      "obra": "Caja de Ascensor SAX Shopping del Sol",
+      "cliente": "COMPAÑIA EUROPEA PYA DE ARTICULOS DE LUJO S.A.",
+      "fecha": "31/8/2026",
+      "avances": {
+        "arm": 100,
+        "pint": 54,
+        "env": 31,
+        "mont": 0
+      },
+      "totales": {
+        "cant": 13,
+        "arm_lib": 13,
+        "arm_pend": 0,
+        "pint_ok": 7,
+        "pint_pend": 6,
+        "env_ok": 4,
+        "env_pend": 9,
+        "items": 6,
+        "peso_total": 1846.7199999999998,
+        "arm_pend_peso": 0,
+        "pint_pend_peso": 41.46,
+        "env_pend_peso": 1805.9999999999998
+      },
+      "items": [
+        {
+          "item": 1,
+          "cod": "33720-IN-200",
+          "prod": "Inserto Metalico",
+          "long": 500,
+          "cant": 4,
+          "peso": 40.72,
+          "arm_lib": 4,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 4,
+          "pint_pend_peso": 40.72,
+          "env_ok": 4,
+          "env_pend": 0,
+          "env_pend_peso": 0,
+          "literal": "IN"
+        },
+        {
+          "item": 2,
+          "cod": "BLG-PE-1",
+          "prod": "Perno PCF",
+          "long": 183,
+          "cant": 2,
+          "peso": 0.74,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 0.74,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 0.74,
+          "literal": "BLG"
+        },
+        {
+          "item": 3,
+          "cod": "BLG-PL-1",
+          "prod": "Placa",
+          "long": 97,
+          "cant": 2,
+          "peso": 2.4,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 2,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 2.4,
+          "literal": "BLG"
+        },
+        {
+          "item": 4,
+          "cod": "BLG-PL-2",
+          "prod": "Placa",
+          "long": 106,
+          "cant": 2,
+          "peso": 2.66,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 2,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 2.66,
+          "literal": "BLG"
+        },
+        {
+          "item": 5,
+          "cod": "BLG-PZ-1",
+          "prod": "Pieza Especial",
+          "long": 2330,
+          "cant": 1,
+          "peso": 1697.1,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 1697.1,
+          "literal": "BLG"
+        },
+        {
+          "item": 6,
+          "cod": "BLG-VST-1",
+          "prod": "Viga Secundaria Tubo o caños",
+          "long": 2030,
+          "cant": 2,
+          "peso": 103.1,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 2,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 103.1,
+          "literal": "BLG"
+        }
+      ],
+      "arm_pend_items": [],
+      "pint_pend_items": [
+        {
+          "cod": "33720-IN-200",
+          "prod": "Inserto Metalico",
+          "long": 500,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BLG-PE-1",
+          "prod": "Perno PCF",
+          "long": 183,
+          "cant": 2,
+          "pend": 2
         }
       ]
     },
