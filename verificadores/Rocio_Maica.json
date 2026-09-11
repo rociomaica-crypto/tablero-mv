@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T18:20:41.398Z",
+  "updatedAt": "2026-09-11T18:20:53.598Z",
   "updatedBy": "Rocio Maica",
   "checks": {
     "24969_1": {
@@ -176730,6 +176730,270 @@
           "long": 1344,
           "cant": 6,
           "pend": 6
+        }
+      ]
+    },
+    "25882": {
+      "ot": "25882",
+      "obra": "Soporte de Luces",
+      "cliente": "GLOBO IMPORT EXPORT S.A.",
+      "fecha": "11/9/2026",
+      "avances": {
+        "arm": 38,
+        "pint": 0,
+        "env": 0,
+        "mont": 0
+      },
+      "totales": {
+        "cant": 39,
+        "arm_lib": 15,
+        "arm_pend": 24,
+        "pint_ok": 0,
+        "pint_pend": 39,
+        "env_ok": 0,
+        "env_pend": 39,
+        "items": 9,
+        "peso_total": 600.8700000000001,
+        "arm_pend_peso": 21.84,
+        "pint_pend_peso": 600.8700000000001,
+        "env_pend_peso": 600.8700000000001
+      },
+      "items": [
+        {
+          "item": 1,
+          "cod": "BMC-LLP-1",
+          "prod": "Angulo Pintado",
+          "long": 200,
+          "cant": 24,
+          "peso": 21.84,
+          "arm_lib": 0,
+          "arm_pend": 24,
+          "arm_pend_peso": 21.84,
+          "pint_ok": 0,
+          "pint_pend": 24,
+          "pint_pend_peso": 21.84,
+          "env_ok": 0,
+          "env_pend": 24,
+          "env_pend_peso": 21.84,
+          "literal": "BMC"
+        },
+        {
+          "item": 2,
+          "cod": "BMC-PZ-1",
+          "prod": "Pieza Especial",
+          "long": 4008,
+          "cant": 2,
+          "peso": 60.38,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 60.38,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 60.38,
+          "literal": "BMC"
+        },
+        {
+          "item": 3,
+          "cod": "BMC-PZ-2",
+          "prod": "Pieza Especial",
+          "long": 3508,
+          "cant": 1,
+          "peso": 26.51,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 26.51,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 26.51,
+          "literal": "BMC"
+        },
+        {
+          "item": 4,
+          "cod": "BMC-VPT-1",
+          "prod": "Viga Principal tubo o caños",
+          "long": 5994,
+          "cant": 2,
+          "peso": 103.44,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 103.44,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 103.44,
+          "literal": "BMC"
+        },
+        {
+          "item": 5,
+          "cod": "BMC-VPT-2",
+          "prod": "Viga Principal tubo o caños",
+          "long": 5994,
+          "cant": 2,
+          "peso": 103.44,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 103.44,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 103.44,
+          "literal": "BMC"
+        },
+        {
+          "item": 6,
+          "cod": "BMC-VPT-3",
+          "prod": "Viga Principal tubo o caños",
+          "long": 5994,
+          "cant": 1,
+          "peso": 51.72,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 51.72,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 51.72,
+          "literal": "BMC"
+        },
+        {
+          "item": 7,
+          "cod": "BMC-VPT-4",
+          "prod": "Viga Principal tubo o caños",
+          "long": 5994,
+          "cant": 1,
+          "peso": 51.72,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 51.72,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 51.72,
+          "literal": "BMC"
+        },
+        {
+          "item": 8,
+          "cod": "BMC-VST-1",
+          "prod": "Viga Secundaria Tubo o caños",
+          "long": 3848,
+          "cant": 4,
+          "peso": 126.56,
+          "arm_lib": 4,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 4,
+          "pint_pend_peso": 126.56,
+          "env_ok": 0,
+          "env_pend": 4,
+          "env_pend_peso": 126.56,
+          "literal": "BMC"
+        },
+        {
+          "item": 9,
+          "cod": "BMC-VST-2",
+          "prod": "Viga Secundaria Tubo o caños",
+          "long": 3350,
+          "cant": 2,
+          "peso": 55.26,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 55.26,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 55.26,
+          "literal": "BMC"
+        }
+      ],
+      "arm_pend_items": [
+        {
+          "cod": "BMC-LLP-1",
+          "prod": "Angulo Pintado",
+          "long": 200,
+          "cant": 24,
+          "pend": 24
+        }
+      ],
+      "pint_pend_items": [
+        {
+          "cod": "BMC-LLP-1",
+          "prod": "Angulo Pintado",
+          "long": 200,
+          "cant": 24,
+          "pend": 24
+        },
+        {
+          "cod": "BMC-PZ-1",
+          "prod": "Pieza Especial",
+          "long": 4008,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BMC-PZ-2",
+          "prod": "Pieza Especial",
+          "long": 3508,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BMC-VPT-1",
+          "prod": "Viga Principal tubo o caños",
+          "long": 5994,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BMC-VPT-2",
+          "prod": "Viga Principal tubo o caños",
+          "long": 5994,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BMC-VPT-3",
+          "prod": "Viga Principal tubo o caños",
+          "long": 5994,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BMC-VPT-4",
+          "prod": "Viga Principal tubo o caños",
+          "long": 5994,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BMC-VST-1",
+          "prod": "Viga Secundaria Tubo o caños",
+          "long": 3848,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BMC-VST-2",
+          "prod": "Viga Secundaria Tubo o caños",
+          "long": 3350,
+          "cant": 2,
+          "pend": 2
         }
       ]
     }
