@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T19:40:37.137Z",
+  "updatedAt": "2026-09-21T09:23:42.517Z",
   "updatedBy": "Angel Villa",
   "checks": {
     "25257_1": {
@@ -998,8 +998,7 @@
     },
     "25107_133": {
       "qty_lib": 1,
-      "arm_state_state": "liberado",
-      "arm_state": "liberado"
+      "arm_state_state": "liberado"
     },
     "25107_132": {
       "qty_lib": 1,
@@ -1008,8 +1007,7 @@
     },
     "25107_146": {
       "qty_lib": 1,
-      "arm_state_state": "liberado",
-      "arm_state": "liberado"
+      "arm_state_state": "liberado"
     },
     "25107_145": {
       "qty_lib": 2,
@@ -1505,7 +1503,8 @@
     },
     "24623_17": {
       "qty_lib": 1,
-      "arm_state_state": "liberado"
+      "arm_state_state": "liberado",
+      "arm_state": "liberado"
     },
     "25722_2": {
       "qty_lib": 1,
@@ -10212,8 +10211,8 @@
       "arm_state": "liberado"
     },
     "25623_246": {
-      "qty_lib": 4,
-      "arm_state": "liberado",
+      "qty_lib": 3,
+      "arm_state": "",
       "pint_state": ""
     },
     "25720_212": {
@@ -11367,7 +11366,7 @@
       "qty_lib": 1
     },
     "25659_138": {
-      "qty_lib": 2,
+      "qty_lib": 1,
       "arm_state": "liberado"
     },
     "25659_137": {
@@ -11389,50 +11388,11 @@
       "qty_lib": 1,
       "arm_state": "liberado"
     },
-    "25852_25": {
-      "qty_lib": 2,
-      "arm_state": "liberado"
-    },
-    "25852_24": {
+    "24623_14": {
       "qty_lib": 1,
       "arm_state": "liberado"
     },
-    "25799_2": {
-      "qty_lib": 4,
-      "arm_state": "liberado"
-    },
-    "25799_3": {
-      "qty_lib": 6,
-      "arm_state": "liberado"
-    },
-    "25799_4": {
-      "qty_lib": 3,
-      "arm_state": "liberado"
-    },
-    "25799_5": {
-      "qty_lib": 2,
-      "arm_state": "liberado"
-    },
-    "25799_6": {
-      "qty_lib": 12,
-      "arm_state": "liberado"
-    },
-    "25799_7": {
-      "qty_lib": 3,
-      "arm_state": "liberado"
-    },
-    "25799_8": {
-      "qty_lib": 3,
-      "arm_state": "liberado"
-    },
-    "25799_9": {
-      "qty_lib": 3,
-      "arm_state": "liberado"
-    },
-    "25799_1": {
-      "qty_lib": 0
-    },
-    "25768_183": {
+    "24623_20": {
       "qty_lib": 1,
       "arm_state": "liberado"
     }
