@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T10:02:17.285Z",
+  "updatedAt": "2026-10-02T10:04:40.704Z",
   "updatedBy": "Bernardo Vera",
   "checks": {
     "25694_1": {
@@ -34550,7 +34550,7 @@
       "arm_state": "liberado"
     },
     "25107_1081": {
-      "qty_lib": 5,
+      "qty_lib": 6,
       "arm_state": "armado"
     },
     "25107_1082": {
@@ -34588,6 +34588,79 @@
     "25659_117": {
       "qty_lib": 18,
       "arm_state": "liberado"
+    },
+    "25107_1084": {
+      "qty_lib": 1,
+      "arm_state": "liberado"
+    },
+    "25659_145": {
+      "qty_lib": 15,
+      "arm_state": "liberado"
+    },
+    "25381_49": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25381_50": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 23
+    },
+    "25381_51": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 2
+    },
+    "25381_52": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 2
+    },
+    "25381_53": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25381_54": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 2
+    },
+    "25381_55": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 2
+    },
+    "25381_56": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25381_57": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 2
+    },
+    "25381_58": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 2
+    },
+    "25381_59": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25381_60": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25381_61": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
     }
   },
   "otMeta": {
