@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T10:03:13.500Z",
+  "updatedAt": "2026-10-10T10:10:10.476Z",
   "updatedBy": "Bernardo Vera",
   "checks": {
     "25694_1": {
@@ -494,7 +494,9 @@
       "qty_lib": 1
     },
     "25107_214": {
-      "arm_state_state": "armado"
+      "arm_state_state": "armado",
+      "arm_state": "liberado",
+      "qty_lib": 4
     },
     "25107_215": {
       "arm_state_state": "soldado",
@@ -13140,7 +13142,7 @@
     },
     "25107_218": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 3
     },
     "25107_811": {
       "arm_state": "liberado",
@@ -34851,10 +34853,12 @@
       "qty_lib": 3
     },
     "25107_199": {
-      "qty_lib": 1
+      "qty_lib": 1,
+      "arm_state": "calibrado"
     },
     "25107_200": {
-      "qty_lib": 1
+      "qty_lib": 1,
+      "arm_state": "calibrado"
     },
     "25107_201": {
       "arm_state": "liberado",
@@ -35022,6 +35026,57 @@
       "arm_state": "liberado",
       "qty_lib": 2,
       "pint_state": "pintado"
+    },
+    "25107_1177": {
+      "arm_state": "liberado"
+    },
+    "25107_1178": {
+      "arm_state": "calibrado"
+    },
+    "25107_1179": {},
+    "25107_1181": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1182": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1183": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1185": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25107_1186": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25107_1187": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1184": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1189": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1188": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25659_12": {
+      "qty_lib": 64,
+      "arm_state": "liberado"
+    },
+    "25107_1152": {
+      "qty_lib": 3,
+      "arm_state": "armado"
     }
   },
   "otMeta": {
