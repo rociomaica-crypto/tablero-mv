@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T17:58:19.470Z",
+  "updatedAt": "2026-10-12T21:53:24.808Z",
   "updatedBy": "Sandro Monzon",
   "checks": {
     "24969_1": {
@@ -22437,6 +22437,369 @@
           "cod": ".R.BLL-VPI-5",
           "prod": "Viga Principal Alma Llena",
           "long": 3244,
+          "cant": 1,
+          "pend": 1
+        }
+      ]
+    },
+    "25962": {
+      "ot": "25962",
+      "obra": "Adic. 03_Modificación de pilares Ríos Repuestos Mc",
+      "cliente": "Arq. Tatiane Cardoso",
+      "fecha": "12/10/2026",
+      "avances": {
+        "arm": 27,
+        "pint": 0,
+        "env": 0,
+        "mont": 0
+      },
+      "totales": {
+        "cant": 11,
+        "arm_lib": 3,
+        "arm_pend": 8,
+        "pint_ok": 0,
+        "pint_pend": 11,
+        "env_ok": 0,
+        "env_pend": 11,
+        "items": 11,
+        "peso_total": 2028.94,
+        "arm_pend_peso": 1194.4099999999999,
+        "pint_pend_peso": 2028.94,
+        "env_pend_peso": 2028.94
+      },
+      "items": [
+        {
+          "item": 1,
+          "cod": ".R.BKI-PIS-1",
+          "prod": "Pilar Alma Llena",
+          "long": 5935,
+          "cant": 1,
+          "peso": 268.07,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 268.07,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 268.07,
+          "literal": ".R.BKI"
+        },
+        {
+          "item": 2,
+          "cod": ".R.BKI-PIS-2",
+          "prod": "Pilar Alma Llena",
+          "long": 4512,
+          "cant": 1,
+          "peso": 209.95,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 209.95,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 209.95,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 209.95,
+          "literal": ".R.BKI"
+        },
+        {
+          "item": 3,
+          "cod": ".R.BKI-PIS-3",
+          "prod": "Pilar Alma Llena",
+          "long": 4512,
+          "cant": 1,
+          "peso": 206.33,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 206.33,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 206.33,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 206.33,
+          "literal": ".R.BKI"
+        },
+        {
+          "item": 4,
+          "cod": ".R.BKI-PIS-4",
+          "prod": "Pilar Alma Llena",
+          "long": 4462,
+          "cant": 1,
+          "peso": 204.63,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 204.63,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 204.63,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 204.63,
+          "literal": ".R.BKI"
+        },
+        {
+          "item": 5,
+          "cod": ".R.BKI-PIS-5",
+          "prod": "Pilar Alma Llena",
+          "long": 5986,
+          "cant": 1,
+          "peso": 278.95,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 278.95,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 278.95,
+          "literal": ".R.BKI"
+        },
+        {
+          "item": 6,
+          "cod": ".R.BKI-PIS-6",
+          "prod": "Pilar Alma Llena",
+          "long": 4456,
+          "cant": 1,
+          "peso": 207.43,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 207.43,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 207.43,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 207.43,
+          "literal": ".R.BKI"
+        },
+        {
+          "item": 7,
+          "cod": "BKI-PIS-7",
+          "prod": "Pilar Alma Llena",
+          "long": 4462,
+          "cant": 1,
+          "peso": 209.95,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 209.95,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 209.95,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 209.95,
+          "literal": "BKI"
+        },
+        {
+          "item": 8,
+          "cod": "BKI-PIS-8",
+          "prod": "Pilar Alma Llena",
+          "long": 6176,
+          "cant": 1,
+          "peso": 287.51,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 287.51,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 287.51,
+          "literal": "BKI"
+        },
+        {
+          "item": 9,
+          "cod": ".R.BKI-PTC-1",
+          "prod": "Pilar Tubo Caño",
+          "long": 4556,
+          "cant": 1,
+          "peso": 97.64,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 97.64,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 97.64,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 97.64,
+          "literal": ".R.BKI"
+        },
+        {
+          "item": 10,
+          "cod": ".R.BKI-VAT-4",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 6547,
+          "cant": 1,
+          "peso": 33.61,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 33.61,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 33.61,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 33.61,
+          "literal": ".R.BKI"
+        },
+        {
+          "item": 11,
+          "cod": "BKI-VAT-6",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 4983,
+          "cant": 1,
+          "peso": 24.87,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 24.87,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 24.87,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 24.87,
+          "literal": "BKI"
+        }
+      ],
+      "arm_pend_items": [
+        {
+          "cod": ".R.BKI-PIS-2",
+          "prod": "Pilar Alma Llena",
+          "long": 4512,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BKI-PIS-3",
+          "prod": "Pilar Alma Llena",
+          "long": 4512,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BKI-PIS-4",
+          "prod": "Pilar Alma Llena",
+          "long": 4462,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BKI-PIS-6",
+          "prod": "Pilar Alma Llena",
+          "long": 4456,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKI-PIS-7",
+          "prod": "Pilar Alma Llena",
+          "long": 4462,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BKI-PTC-1",
+          "prod": "Pilar Tubo Caño",
+          "long": 4556,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BKI-VAT-4",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 6547,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKI-VAT-6",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 4983,
+          "cant": 1,
+          "pend": 1
+        }
+      ],
+      "pint_pend_items": [
+        {
+          "cod": ".R.BKI-PIS-1",
+          "prod": "Pilar Alma Llena",
+          "long": 5935,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BKI-PIS-2",
+          "prod": "Pilar Alma Llena",
+          "long": 4512,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BKI-PIS-3",
+          "prod": "Pilar Alma Llena",
+          "long": 4512,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BKI-PIS-4",
+          "prod": "Pilar Alma Llena",
+          "long": 4462,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BKI-PIS-5",
+          "prod": "Pilar Alma Llena",
+          "long": 5986,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BKI-PIS-6",
+          "prod": "Pilar Alma Llena",
+          "long": 4456,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKI-PIS-7",
+          "prod": "Pilar Alma Llena",
+          "long": 4462,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKI-PIS-8",
+          "prod": "Pilar Alma Llena",
+          "long": 6176,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BKI-PTC-1",
+          "prod": "Pilar Tubo Caño",
+          "long": 4556,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BKI-VAT-4",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 6547,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BKI-VAT-6",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 4983,
           "cant": 1,
           "pend": 1
         }
