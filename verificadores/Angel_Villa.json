@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T14:07:41.567Z",
+  "updatedAt": "2026-10-13T14:09:24.314Z",
   "updatedBy": "Angel Villa",
   "checks": {
     "25257_1": {
@@ -11537,7 +11537,8 @@
     },
     "25799_40": {
       "qty_lib": 3,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
     },
     "25799_15": {
       "qty_lib": 2,
@@ -11561,7 +11562,8 @@
     },
     "25799_48": {
       "qty_lib": 4,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
     },
     "25799_31": {
       "qty_lib": 6,
@@ -11569,7 +11571,8 @@
     },
     "25799_38": {
       "qty_lib": 6,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
     },
     "25799_34": {
       "qty_lib": 4,
@@ -11597,15 +11600,18 @@
     },
     "25799_47": {
       "qty_lib": 7,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
     },
     "25799_50": {
       "qty_lib": 1,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
     },
     "25799_39": {
       "qty_lib": 3,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
     },
     "25799_22": {
       "qty_lib": 3,
@@ -11625,14 +11631,17 @@
     },
     "25799_41": {
       "arm_state": "liberado",
-      "qty_lib": 63
+      "qty_lib": 63,
+      "pint_state": "galvamax"
     },
     "25799_49": {
       "qty_lib": 2,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
     },
     "25799_27": {
-      "arm_state": "armado"
+      "arm_state": "liberado",
+      "qty_lib": 3
     },
     "25799_25": {
       "qty_lib": 4,
@@ -11652,23 +11661,28 @@
     },
     "25799_44": {
       "qty_lib": 1,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
     },
     "25799_45": {
       "qty_lib": 4,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
     },
     "25799_42": {
       "qty_lib": 6,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
     },
     "25799_43": {
       "qty_lib": 12,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
     },
     "25799_46": {
       "qty_lib": 11,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
     },
     "25799_37": {
       "qty_lib": 8,
