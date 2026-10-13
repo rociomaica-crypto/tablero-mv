@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T14:27:55.428Z",
+  "updatedAt": "2026-10-13T14:28:57.398Z",
   "updatedBy": "Angel Villa",
   "checks": {
     "25257_1": {
@@ -12122,7 +12122,8 @@
     },
     "25797_52": {
       "qty_lib": 6,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
     },
     "25797_53": {
       "qty_lib": 24,
@@ -12142,7 +12143,8 @@
     },
     "25797_51": {
       "qty_lib": 116,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
     },
     "25797_54": {
       "qty_lib": 3,
@@ -12180,12 +12182,13 @@
     },
     "25797_45": {
       "qty_lib": 4,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
     },
     "25797_49": {
       "qty_lib": 3,
       "arm_state": "liberado",
-      "pint_state": "en_pintura"
+      "pint_state": "galvamax"
     },
     "25797_55": {
       "qty_lib": 2,
@@ -12333,19 +12336,23 @@
     },
     "25797_46": {
       "qty_lib": 3,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
     },
     "25797_47": {
       "qty_lib": 3,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
     },
     "25797_48": {
       "qty_lib": 1,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
     },
     "25797_50": {
       "qty_lib": 3,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "galvamax"
     },
     "25797_26": {
       "qty_lib": 1,
