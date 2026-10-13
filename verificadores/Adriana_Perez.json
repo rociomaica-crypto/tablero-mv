@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T21:38:19.853Z",
+  "updatedAt": "2026-10-13T21:40:46.668Z",
   "updatedBy": "Adriana Perez",
   "checks": {
     "24969_1": {
@@ -37950,25 +37950,25 @@
       "ot": "25659",
       "obra": "NAVE 4 CDLUQUE CHACOMER OP PILAR 16M",
       "cliente": "Kinetik SA",
-      "fecha": "8/10/2026",
+      "fecha": "13/10/2026",
       "avances": {
-        "arm": 26,
-        "pint": 13,
+        "arm": 29,
+        "pint": 14,
         "env": 1,
         "mont": 0
       },
       "totales": {
-        "cant": 18841,
-        "arm_lib": 4905.5,
-        "arm_pend": 13935.5,
-        "pint_ok": 2475,
-        "pint_pend": 16366,
-        "env_ok": 148,
+        "cant": 18792,
+        "arm_lib": 5447.5,
+        "arm_pend": 13344.5,
+        "pint_ok": 2692.5,
+        "pint_pend": 16099.5,
+        "env_ok": 99,
         "env_pend": 18693,
-        "items": 243,
-        "peso_total": 736601.6000000003,
-        "arm_pend_peso": 440301.13499999995,
-        "pint_pend_peso": 475348.8500000001,
+        "items": 238,
+        "peso_total": 733341.1200000003,
+        "arm_pend_peso": 423049.83999999997,
+        "pint_pend_peso": 452425.07,
         "env_pend_peso": 726944.2800000003
       },
       "items": [
@@ -38045,24 +38045,6 @@
           "literal": "BJK"
         },
         {
-          "item": 5,
-          "cod": "BJK-AN-201",
-          "prod": "Anclaje",
-          "long": 1000,
-          "cant": 45,
-          "peso": 3098.7,
-          "arm_lib": 45,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 45,
-          "pint_pend_peso": 3098.7,
-          "env_ok": 45,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BJK"
-        },
-        {
           "item": 6,
           "cod": "BJK-AN-202",
           "prod": "Anclaje",
@@ -38078,78 +38060,6 @@
           "env_ok": 34,
           "env_pend": 2,
           "env_pend_peso": 131.12,
-          "literal": "BJK"
-        },
-        {
-          "item": 7,
-          "cod": "BJK-RG-700",
-          "prod": "Regla para Ubicacion",
-          "long": 6210,
-          "cant": 1,
-          "peso": 39.27,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 39.27,
-          "env_ok": 1,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BJK"
-        },
-        {
-          "item": 8,
-          "cod": "BJK-RG-701",
-          "prod": "Regla para Ubicacion",
-          "long": 6170,
-          "cant": 1,
-          "peso": 43.46,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 43.46,
-          "env_ok": 1,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BJK"
-        },
-        {
-          "item": 9,
-          "cod": "BJK-RG-702",
-          "prod": "Regla para Ubicacion",
-          "long": 6095,
-          "cant": 1,
-          "peso": 40.63,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 40.63,
-          "env_ok": 1,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BJK"
-        },
-        {
-          "item": 10,
-          "cod": "BJK-RG-703",
-          "prod": "Regla para Ubicacion",
-          "long": 6095,
-          "cant": 1,
-          "peso": 38.42,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 38.42,
-          "env_ok": 1,
-          "env_pend": 0,
-          "env_pend_peso": 0,
           "literal": "BJK"
         },
         {
@@ -38177,9 +38087,9 @@
           "long": 7153,
           "cant": 64,
           "peso": 408.32,
-          "arm_lib": 0,
-          "arm_pend": 64,
-          "arm_pend_peso": 408.32,
+          "arm_lib": 64,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 64,
           "pint_pend_peso": 408.32,
@@ -38231,9 +38141,9 @@
           "long": 5615,
           "cant": 30,
           "peso": 1481.1,
-          "arm_lib": 0,
-          "arm_pend": 30,
-          "arm_pend_peso": 1481.1,
+          "arm_lib": 10,
+          "arm_pend": 20,
+          "arm_pend_peso": 987.4,
           "pint_ok": 0,
           "pint_pend": 30,
           "pint_pend_peso": 1481.1,
@@ -38699,12 +38609,12 @@
           "long": 5615,
           "cant": 30,
           "peso": 1481.1,
-          "arm_lib": 15,
-          "arm_pend": 15,
-          "arm_pend_peso": 740.55,
-          "pint_ok": 4,
-          "pint_pend": 26,
-          "pint_pend_peso": 1283.62,
+          "arm_lib": 30,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 26,
+          "pint_pend": 4,
+          "pint_pend_peso": 197.48,
           "env_ok": 0,
           "env_pend": 30,
           "env_pend_peso": 1481.1,
@@ -39512,9 +39422,9 @@
           "arm_lib": 0,
           "arm_pend": 15,
           "arm_pend_peso": 12316.65,
-          "pint_ok": 0,
-          "pint_pend": 15,
-          "pint_pend_peso": 12316.65,
+          "pint_ok": 0.5,
+          "pint_pend": 14.5,
+          "pint_pend_peso": 11906.095,
           "env_ok": 0,
           "env_pend": 15,
           "env_pend_peso": 12316.65,
@@ -39635,12 +39545,12 @@
           "long": 5615,
           "cant": 30,
           "peso": 1481.1,
-          "arm_lib": 29,
-          "arm_pend": 1,
-          "arm_pend_peso": 49.37,
-          "pint_ok": 19,
-          "pint_pend": 11,
-          "pint_pend_peso": 543.07,
+          "arm_lib": 30,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 21,
+          "pint_pend": 9,
+          "pint_pend_peso": 444.33,
           "env_ok": 0,
           "env_pend": 30,
           "env_pend_peso": 1481.1,
@@ -39941,9 +39851,9 @@
           "long": 21942,
           "cant": 1,
           "peso": 834.55,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 834.55,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 417.275,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 834.55,
@@ -39959,9 +39869,9 @@
           "long": 21942,
           "cant": 8,
           "peso": 6605.6,
-          "arm_lib": 0,
-          "arm_pend": 8,
-          "arm_pend_peso": 6605.6,
+          "arm_lib": 6.5,
+          "arm_pend": 1.5,
+          "arm_pend_peso": 1238.55,
           "pint_ok": 0,
           "pint_pend": 8,
           "pint_pend_peso": 6605.6,
@@ -39977,9 +39887,9 @@
           "long": 21942,
           "cant": 15,
           "peso": 12316.65,
-          "arm_lib": 0.5,
-          "arm_pend": 14.5,
-          "arm_pend_peso": 11906.095,
+          "arm_lib": 2,
+          "arm_pend": 13,
+          "arm_pend_peso": 10674.43,
           "pint_ok": 0,
           "pint_pend": 15,
           "pint_pend_peso": 12316.65,
@@ -39995,9 +39905,9 @@
           "long": 21942,
           "cant": 8,
           "peso": 6605.6,
-          "arm_lib": 0,
-          "arm_pend": 8,
-          "arm_pend_peso": 6605.6,
+          "arm_lib": 0.5,
+          "arm_pend": 7.5,
+          "arm_pend_peso": 6192.75,
           "pint_ok": 0,
           "pint_pend": 8,
           "pint_pend_peso": 6605.6,
@@ -40013,9 +39923,9 @@
           "long": 21942,
           "cant": 1,
           "peso": 834.55,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 834.55,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 834.55,
@@ -40196,9 +40106,9 @@
           "arm_lib": 0,
           "arm_pend": 480,
           "arm_pend_peso": 13089.6,
-          "pint_ok": 120,
-          "pint_pend": 360,
-          "pint_pend_peso": 9817.2,
+          "pint_ok": 300,
+          "pint_pend": 180,
+          "pint_pend_peso": 4908.6,
           "env_ok": 0,
           "env_pend": 480,
           "env_pend_peso": 13089.6,
@@ -40211,9 +40121,9 @@
           "long": 125,
           "cant": 126,
           "peso": 52.92,
-          "arm_lib": 0,
-          "arm_pend": 126,
-          "arm_pend_peso": 52.92,
+          "arm_lib": 126,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 126,
           "pint_pend_peso": 52.92,
@@ -40391,9 +40301,9 @@
           "long": 5425,
           "cant": 27,
           "peso": 1234.44,
-          "arm_lib": 24.5,
-          "arm_pend": 2.5,
-          "arm_pend_peso": 114.3,
+          "arm_lib": 27,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 19,
           "pint_pend": 8,
           "pint_pend_peso": 365.76,
@@ -40430,9 +40340,9 @@
           "arm_lib": 8,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 7,
-          "pint_pend": 1,
-          "pint_pend_peso": 825.7,
+          "pint_ok": 8,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 8,
           "env_pend_peso": 6605.6,
@@ -40448,9 +40358,9 @@
           "arm_lib": 15,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 13,
-          "pint_pend": 2,
-          "pint_pend_peso": 1642.22,
+          "pint_ok": 14.5,
+          "pint_pend": 0.5,
+          "pint_pend_peso": 410.555,
           "env_ok": 0,
           "env_pend": 15,
           "env_pend_peso": 12316.65,
@@ -40466,9 +40376,9 @@
           "arm_lib": 8,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 7,
-          "pint_pend": 1,
-          "pint_pend_peso": 825.7,
+          "pint_ok": 7.5,
+          "pint_pend": 0.5,
+          "pint_pend_peso": 412.85,
           "env_ok": 0,
           "env_pend": 8,
           "env_pend_peso": 6605.6,
@@ -40571,9 +40481,9 @@
           "long": 5615,
           "cant": 30,
           "peso": 1481.1,
-          "arm_lib": 28,
-          "arm_pend": 2,
-          "arm_pend_peso": 98.74,
+          "arm_lib": 30,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 24,
           "pint_pend": 6,
           "pint_pend_peso": 296.22,
@@ -40841,9 +40751,9 @@
           "long": 1486,
           "cant": 416,
           "peso": 332.8,
-          "arm_lib": 220,
-          "arm_pend": 196,
-          "arm_pend_peso": 156.8,
+          "arm_lib": 416,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 416,
           "pint_pend_peso": 332.8,
@@ -41597,9 +41507,9 @@
           "long": 1649,
           "cant": 672,
           "peso": 591.36,
-          "arm_lib": 438,
-          "arm_pend": 234,
-          "arm_pend_peso": 205.92,
+          "arm_lib": 598,
+          "arm_pend": 74,
+          "arm_pend_peso": 65.12,
           "pint_ok": 0,
           "pint_pend": 672,
           "pint_pend_peso": 591.36,
@@ -41903,9 +41813,9 @@
           "long": 16250,
           "cant": 35,
           "peso": 83496.35,
-          "arm_lib": 17.5,
-          "arm_pend": 17.5,
-          "arm_pend_peso": 41748.175,
+          "arm_lib": 19,
+          "arm_pend": 16,
+          "arm_pend_peso": 38169.76,
           "pint_ok": 9,
           "pint_pend": 26,
           "pint_pend_peso": 62025.86,
@@ -41960,9 +41870,9 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 1240.55,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 1240.55,
@@ -41996,9 +41906,9 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 1174.03,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 1174.03,
@@ -42011,12 +41921,12 @@
           "long": 12776,
           "cant": 5,
           "peso": 5656.15,
-          "arm_lib": 1,
-          "arm_pend": 4,
-          "arm_pend_peso": 4524.92,
-          "pint_ok": 1,
-          "pint_pend": 4,
-          "pint_pend_peso": 4524.92,
+          "arm_lib": 2,
+          "arm_pend": 3,
+          "arm_pend_peso": 3393.69,
+          "pint_ok": 2,
+          "pint_pend": 3,
+          "pint_pend_peso": 3393.69,
           "env_ok": 0,
           "env_pend": 5,
           "env_pend_peso": 5656.15,
@@ -42068,9 +41978,9 @@
           "arm_lib": 13.5,
           "arm_pend": 21.5,
           "arm_pend_peso": 24383.365,
-          "pint_ok": 10,
-          "pint_pend": 25,
-          "pint_pend_peso": 28352.75,
+          "pint_ok": 13,
+          "pint_pend": 22,
+          "pint_pend_peso": 24950.42,
           "env_ok": 0,
           "env_pend": 35,
           "env_pend_peso": 39693.85,
@@ -42122,9 +42032,9 @@
           "arm_lib": 13,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 12,
-          "pint_pend": 1,
-          "pint_pend_peso": 706.77,
+          "pint_ok": 13,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 13,
           "env_pend_peso": 9188.01,
@@ -42137,12 +42047,12 @@
           "long": 11250,
           "cant": 35,
           "peso": 35398.3,
-          "arm_lib": 14,
-          "arm_pend": 21,
-          "arm_pend_peso": 21238.98,
-          "pint_ok": 10,
-          "pint_pend": 25,
-          "pint_pend_peso": 25284.5,
+          "arm_lib": 16,
+          "arm_pend": 19,
+          "arm_pend_peso": 19216.22,
+          "pint_ok": 13,
+          "pint_pend": 22,
+          "pint_pend_peso": 22250.36,
           "env_ok": 0,
           "env_pend": 35,
           "env_pend_peso": 35398.3,
@@ -42370,18 +42280,11 @@
           "pend": 20
         },
         {
-          "cod": "BJK-CH-2",
-          "prod": "Cruz Horizontal",
-          "long": 7153,
-          "cant": 64,
-          "pend": 64
-        },
-        {
           "cod": "BJK-CT-2",
           "prod": "Correa Timpano",
           "long": 5615,
           "cant": 30,
-          "pend": 30
+          "pend": 20
         },
         {
           "cod": "BJK-PCR-1",
@@ -42501,13 +42404,6 @@
           "long": 21942,
           "cant": 1,
           "pend": 1
-        },
-        {
-          "cod": "BJK-CT-101",
-          "prod": "Correa Timpano",
-          "long": 5615,
-          "cant": 30,
-          "pend": 15
         },
         {
           "cod": "BJK-PCR-100",
@@ -42755,13 +42651,6 @@
           "pend": 1
         },
         {
-          "cod": "BJK-CT-301",
-          "prod": "Correa Timpano",
-          "long": 5615,
-          "cant": 30,
-          "pend": 1
-        },
-        {
           "cod": "BJK-PCR-300",
           "prod": "Correa de Techo/ Perfilado",
           "long": 5875,
@@ -42836,35 +42725,28 @@
           "prod": "Viga Techo Reticulada de angulos",
           "long": 21942,
           "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BJK-VTR-301",
           "prod": "Viga Techo Reticulada de angulos",
           "long": 21942,
           "cant": 8,
-          "pend": 8
+          "pend": 1.5
         },
         {
           "cod": "BJK-VTR-302",
           "prod": "Viga Techo Reticulada de angulos",
           "long": 21942,
           "cant": 15,
-          "pend": 14.5
+          "pend": 13
         },
         {
           "cod": "BJK-VTR-303",
           "prod": "Viga Techo Reticulada de angulos",
           "long": 21942,
           "cant": 8,
-          "pend": 8
-        },
-        {
-          "cod": "BJK-VTR-304",
-          "prod": "Viga Techo Reticulada de angulos",
-          "long": 21942,
-          "cant": 1,
-          "pend": 1
+          "pend": 7.5
         },
         {
           "cod": "BJK-PCR-400",
@@ -42879,13 +42761,6 @@
           "long": 5615,
           "cant": 480,
           "pend": 480
-        },
-        {
-          "cod": "BJK-SC-400",
-          "prod": "Soporte Cruz",
-          "long": 125,
-          "cant": 126,
-          "pend": 126
         },
         {
           "cod": "BJK-SD-400",
@@ -42913,20 +42788,6 @@
           "prod": "SOPORTE",
           "long": 6000,
           "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BJK-VAT-400",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5425,
-          "cant": 27,
-          "pend": 2.5
-        },
-        {
-          "cod": "BJK-CT-501",
-          "prod": "Correa Timpano",
-          "long": 5615,
-          "cant": 30,
           "pend": 2
         },
         {
@@ -42991,13 +42852,6 @@
           "long": 6000,
           "cant": 2,
           "pend": 2
-        },
-        {
-          "cod": "BJK-TI-500",
-          "prod": "Tilla de Traccion",
-          "long": 1486,
-          "cant": 416,
-          "pend": 196
         },
         {
           "cod": "BJK-CV-603",
@@ -43186,7 +43040,7 @@
           "prod": "Tilla de Traccion",
           "long": 1649,
           "cant": 672,
-          "pend": 234
+          "pend": 74
         },
         {
           "cod": "BJK-VAT-601",
@@ -43221,14 +43075,14 @@
           "prod": "Pilar Alma Llena",
           "long": 16250,
           "cant": 35,
-          "pend": 17.5
+          "pend": 16
         },
         {
           "cod": "BJK-VOR-600",
           "prod": "Contraviga angulo",
           "long": 12776,
           "cant": 5,
-          "pend": 4
+          "pend": 3
         },
         {
           "cod": "BJK-VOR-602",
@@ -43256,7 +43110,7 @@
           "prod": "Contraviga angulo",
           "long": 11250,
           "cant": 35,
-          "pend": 21
+          "pend": 19
         },
         {
           "cod": "BJK-VOR-609",
@@ -43345,46 +43199,11 @@
           "pend": 66
         },
         {
-          "cod": "BJK-AN-201",
-          "prod": "Anclaje",
-          "long": 1000,
-          "cant": 45,
-          "pend": 45
-        },
-        {
           "cod": "BJK-AN-202",
           "prod": "Anclaje",
           "long": 1000,
           "cant": 36,
           "pend": 36
-        },
-        {
-          "cod": "BJK-RG-700",
-          "prod": "Regla para Ubicacion",
-          "long": 6210,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BJK-RG-701",
-          "prod": "Regla para Ubicacion",
-          "long": 6170,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BJK-RG-702",
-          "prod": "Regla para Ubicacion",
-          "long": 6095,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BJK-RG-703",
-          "prod": "Regla para Ubicacion",
-          "long": 6095,
-          "cant": 1,
-          "pend": 1
         },
         {
           "cod": "BJK-CH-1",
@@ -43580,7 +43399,7 @@
           "prod": "Correa Timpano",
           "long": 5615,
           "cant": 30,
-          "pend": 26
+          "pend": 4
         },
         {
           "cod": "BJK-DI-100",
@@ -43874,7 +43693,7 @@
           "prod": "Viga Techo Reticulada de angulos",
           "long": 21942,
           "cant": 15,
-          "pend": 15
+          "pend": 14.5
         },
         {
           "cod": "BJK-VTR-203",
@@ -43916,7 +43735,7 @@
           "prod": "Correa Timpano",
           "long": 5615,
           "cant": 30,
-          "pend": 11
+          "pend": 9
         },
         {
           "cod": "BJK-DI-300",
@@ -44098,7 +43917,7 @@
           "prod": "Correa de Techo/ Perfilado",
           "long": 5615,
           "cant": 480,
-          "pend": 360
+          "pend": 180
         },
         {
           "cod": "BJK-SC-400",
@@ -44171,25 +43990,18 @@
           "pend": 8
         },
         {
-          "cod": "BJK-VTR-401",
-          "prod": "Viga Techo Reticulada de angulos",
-          "long": 21942,
-          "cant": 8,
-          "pend": 1
-        },
-        {
           "cod": "BJK-VTR-402",
           "prod": "Viga Techo Reticulada de angulos",
           "long": 21942,
           "cant": 15,
-          "pend": 2
+          "pend": 0.5
         },
         {
           "cod": "BJK-VTR-403",
           "prod": "Viga Techo Reticulada de angulos",
           "long": 21942,
           "cant": 8,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BJK-VTR-404",
@@ -44577,25 +44389,11 @@
           "pend": 2
         },
         {
-          "cod": "BJK-PIS-616",
-          "prod": "Pilar Alma Llena",
-          "long": 16430,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BJK-PIS-618",
-          "prod": "Pilar Alma Llena",
-          "long": 16250,
-          "cant": 1,
-          "pend": 1
-        },
-        {
           "cod": "BJK-VOR-600",
           "prod": "Contraviga angulo",
           "long": 12776,
           "cant": 5,
-          "pend": 4
+          "pend": 3
         },
         {
           "cod": "BJK-VOR-602",
@@ -44609,7 +44407,7 @@
           "prod": "Contraviga angulo",
           "long": 11250,
           "cant": 35,
-          "pend": 25
+          "pend": 22
         },
         {
           "cod": "BJK-VOR-605",
@@ -44619,18 +44417,11 @@
           "pend": 14
         },
         {
-          "cod": "BJK-VOR-606",
-          "prod": "Contraviga angulo",
-          "long": 11250,
-          "cant": 13,
-          "pend": 1
-        },
-        {
           "cod": "BJK-VOR-607",
           "prod": "Contraviga angulo",
           "long": 11250,
           "cant": 35,
-          "pend": 25
+          "pend": 22
         },
         {
           "cod": "BJK-VOR-610",
