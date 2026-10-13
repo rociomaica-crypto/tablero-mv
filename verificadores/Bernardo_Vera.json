@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T14:09:23.172Z",
+  "updatedAt": "2026-10-13T21:07:25.477Z",
   "updatedBy": "Bernardo Vera",
   "checks": {
     "25694_1": {
@@ -762,7 +762,7 @@
       "pint_state": "galvamax"
     },
     "25630_26": {
-      "arm_state": "armado",
+      "arm_state": "liberado",
       "pint_state": "galvamax"
     },
     "25630_27": {
@@ -770,7 +770,7 @@
       "pint_state": "galvamax"
     },
     "25630_28": {
-      "arm_state": "armado",
+      "arm_state": "liberado",
       "pint_state": "galvamax"
     },
     "25630_29": {
@@ -1018,7 +1018,7 @@
       "pint_state": "galvamax"
     },
     "25630_90": {
-      "arm_state": "armado",
+      "arm_state": "liberado",
       "pint_state": "galvamax"
     },
     "25630_91": {
@@ -33866,11 +33866,11 @@
     },
     "25659_79": {
       "qty_lib": 32,
-      "arm_state": "armado"
+      "arm_state": "liberado"
     },
     "25659_131": {
       "qty_lib": 32,
-      "arm_state": "armado"
+      "arm_state": "liberado"
     },
     "25659_201": {
       "qty_lib": 40,
@@ -35106,12 +35106,17 @@
       "pint_state": "pintado"
     },
     "25107_1177": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25107_1178": {
-      "arm_state": "calibrado"
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
-    "25107_1179": {},
+    "25107_1179": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
     "25107_1181": {
       "arm_state": "liberado",
       "qty_lib": 1
@@ -35419,6 +35424,26 @@
     "25107_1093": {
       "qty_lib": 6,
       "arm_state": "liberado"
+    },
+    "25659_158": {
+      "arm_state": "liberado",
+      "qty_lib": 32
+    },
+    "25659_132": {
+      "qty_lib": 32,
+      "arm_state": "liberado"
+    },
+    "25659_105": {
+      "qty_lib": 32,
+      "arm_state": "liberado"
+    },
+    "25659_80": {
+      "qty_lib": 32,
+      "arm_state": "liberado"
+    },
+    "25107_1180": {
+      "arm_state": "liberado",
+      "qty_lib": 1
     }
   },
   "otMeta": {
