@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T16:48:59.913Z",
+  "updatedAt": "2026-10-13T21:37:34.370Z",
   "updatedBy": "Adriana Perez",
   "checks": {
     "24969_1": {
@@ -8401,12 +8401,17 @@
       "qty_lib": 1
     },
     "25107_1177": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25107_1178": {
-      "arm_state": "calibrado"
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
-    "25107_1179": {},
+    "25107_1179": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
     "25107_1181": {
       "arm_state": "liberado",
       "qty_lib": 1
@@ -8440,6 +8445,10 @@
       "qty_lib": 1
     },
     "25107_1188": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1180": {
       "arm_state": "liberado",
       "qty_lib": 1
     }
@@ -51647,82 +51656,28 @@
       "ot": "25801",
       "obra": "Galpón Sr. Torlucci",
       "cliente": "Ultracongelados S.A.",
-      "fecha": "6/10/2026",
+      "fecha": "12/10/2026",
       "avances": {
-        "arm": 60,
-        "pint": 42,
-        "env": 5,
+        "arm": 65,
+        "pint": 29,
+        "env": 0,
         "mont": 0
       },
       "totales": {
-        "cant": 1791,
-        "arm_lib": 1083.5,
-        "arm_pend": 707.5,
-        "pint_ok": 756,
+        "cant": 1459,
+        "arm_lib": 942,
+        "arm_pend": 517,
+        "pint_ok": 424,
         "pint_pend": 1035,
-        "env_ok": 81,
-        "env_pend": 1710,
-        "items": 244,
-        "peso_total": 31496.74000000001,
-        "arm_pend_peso": 9353.870000000003,
-        "pint_pend_peso": 6749.769999999998,
-        "env_pend_peso": 15357.480000000014
+        "env_ok": 2,
+        "env_pend": 1457,
+        "items": 197,
+        "peso_total": 14632.160000000007,
+        "arm_pend_peso": 10205.465000000007,
+        "pint_pend_peso": 11914.950000000008,
+        "env_pend_peso": 14570.440000000008
       },
       "items": [
-        {
-          "item": 1,
-          "cod": "34403-AN-1",
-          "prod": "Anclaje",
-          "long": 0,
-          "cant": 16,
-          "peso": 1339.68,
-          "arm_lib": 16,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 16,
-          "pint_pend_peso": 1339.68,
-          "env_ok": 16,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "AN"
-        },
-        {
-          "item": 2,
-          "cod": "34404-AN-2",
-          "prod": "Anclaje",
-          "long": 0,
-          "cant": 2,
-          "peso": 123.36,
-          "arm_lib": 2,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 123.36,
-          "env_ok": 2,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "AN"
-        },
-        {
-          "item": 3,
-          "cod": "34405-AN-3",
-          "prod": "Anclaje",
-          "long": 0,
-          "cant": 4,
-          "peso": 127.88,
-          "arm_lib": 4,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 4,
-          "pint_pend_peso": 127.88,
-          "env_ok": 4,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "AN"
-        },
         {
           "item": 4,
           "cod": "34562-CN-1",
@@ -51833,60 +51788,6 @@
         },
         {
           "item": 10,
-          "cod": "BLL-CH-1",
-          "prod": "Cruz Horizontal",
-          "long": 6108,
-          "cant": 1,
-          "peso": 8.53,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 8.53,
-          "literal": "BLL"
-        },
-        {
-          "item": 11,
-          "cod": "BLL-CH-2",
-          "prod": "Cruz Horizontal",
-          "long": 6014,
-          "cant": 2,
-          "peso": 16.8,
-          "arm_lib": 2,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 2,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 16.8,
-          "literal": "BLL"
-        },
-        {
-          "item": 12,
-          "cod": "BLL-CH-3",
-          "prod": "Cruz Horizontal",
-          "long": 6110,
-          "cant": 1,
-          "peso": 8.54,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 8.54,
-          "literal": "BLL"
-        },
-        {
-          "item": 13,
           "cod": "BLL-CH-4",
           "prod": "Cruz Horizontal",
           "long": 8029,
@@ -51904,7 +51805,7 @@
           "literal": "BLL"
         },
         {
-          "item": 14,
+          "item": 11,
           "cod": "BLL-CH-5",
           "prod": "Cruz Horizontal",
           "long": 7958,
@@ -51922,7 +51823,7 @@
           "literal": "BLL"
         },
         {
-          "item": 15,
+          "item": 12,
           "cod": "BLL-CH-6",
           "prod": "Cruz Horizontal",
           "long": 8033,
@@ -51940,7 +51841,7 @@
           "literal": "BLL"
         },
         {
-          "item": 16,
+          "item": 13,
           "cod": "BLL-CH-7",
           "prod": "Cruz Horizontal",
           "long": 7643,
@@ -51958,7 +51859,7 @@
           "literal": "BLL"
         },
         {
-          "item": 17,
+          "item": 14,
           "cod": "BLL-CH-8",
           "prod": "Cruz Horizontal",
           "long": 7715,
@@ -51976,7 +51877,7 @@
           "literal": "BLL"
         },
         {
-          "item": 18,
+          "item": 15,
           "cod": "BLL-CH-9",
           "prod": "Cruz Horizontal",
           "long": 7720,
@@ -51994,7 +51895,7 @@
           "literal": "BLL"
         },
         {
-          "item": 19,
+          "item": 16,
           "cod": "BLL-CK-1",
           "prod": "Conector",
           "long": 68,
@@ -52012,7 +51913,7 @@
           "literal": "BLL"
         },
         {
-          "item": 20,
+          "item": 17,
           "cod": "BLL-CNP-1",
           "prod": "Caño Pintado",
           "long": 2498,
@@ -52030,7 +51931,7 @@
           "literal": "BLL"
         },
         {
-          "item": 21,
+          "item": 18,
           "cod": "BLL-CNP-2",
           "prod": "Caño Pintado",
           "long": 418,
@@ -52048,7 +51949,7 @@
           "literal": "BLL"
         },
         {
-          "item": 22,
+          "item": 19,
           "cod": "BLL-CNP-3",
           "prod": "Caño Pintado",
           "long": 1400,
@@ -52066,7 +51967,7 @@
           "literal": "BLL"
         },
         {
-          "item": 23,
+          "item": 20,
           "cod": "BLL-CNP-4",
           "prod": "Caño Pintado",
           "long": 1000,
@@ -52085,96 +51986,6 @@
         },
         {
           "item": 24,
-          "cod": "BLL-CR-1",
-          "prod": "Correa Techo",
-          "long": 4006,
-          "cant": 1,
-          "peso": 38.49,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 38.49,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 38.49,
-          "literal": "BLL"
-        },
-        {
-          "item": 25,
-          "cod": "BLL-CR-2",
-          "prod": "Correa Techo",
-          "long": 6490,
-          "cant": 1,
-          "peso": 62.36,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 62.36,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 62.36,
-          "literal": "BLL"
-        },
-        {
-          "item": 26,
-          "cod": "BLL-CR-4",
-          "prod": "Correa Techo",
-          "long": 6080,
-          "cant": 4,
-          "peso": 233.68,
-          "arm_lib": 4,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 4,
-          "pint_pend_peso": 233.68,
-          "env_ok": 0,
-          "env_pend": 4,
-          "env_pend_peso": 233.68,
-          "literal": "BLL"
-        },
-        {
-          "item": 27,
-          "cod": "BLL-CR-5",
-          "prod": "Correa Techo",
-          "long": 6388,
-          "cant": 1,
-          "peso": 61.37,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 61.37,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 61.37,
-          "literal": "BLL"
-        },
-        {
-          "item": 28,
-          "cod": "BLL-CV-1",
-          "prod": "Cruz Vertical",
-          "long": 7065,
-          "cant": 3,
-          "peso": 29.61,
-          "arm_lib": 3,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 3,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 3,
-          "env_pend_peso": 29.61,
-          "literal": "BLL"
-        },
-        {
-          "item": 29,
           "cod": "BLL-CV-2",
           "prod": "Cruz Vertical",
           "long": 6865,
@@ -52192,7 +52003,7 @@
           "literal": "BLL"
         },
         {
-          "item": 30,
+          "item": 25,
           "cod": "BLL-CV-3",
           "prod": "Cruz Vertical",
           "long": 6087,
@@ -52210,7 +52021,7 @@
           "literal": "BLL"
         },
         {
-          "item": 31,
+          "item": 26,
           "cod": "BLL-CV-4",
           "prod": "Cruz Vertical",
           "long": 6350,
@@ -52228,97 +52039,7 @@
           "literal": "BLL"
         },
         {
-          "item": 32,
-          "cod": "BLL-CV-5",
-          "prod": "Cruz Vertical",
-          "long": 7024,
-          "cant": 3,
-          "peso": 29.43,
-          "arm_lib": 3,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 3,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 3,
-          "env_pend_peso": 29.43,
-          "literal": "BLL"
-        },
-        {
-          "item": 33,
-          "cod": "BLL-CV-6",
-          "prod": "Cruz Vertical",
-          "long": 5966,
-          "cant": 2,
-          "peso": 16.68,
-          "arm_lib": 2,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 2,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 16.68,
-          "literal": "BLL"
-        },
-        {
-          "item": 34,
-          "cod": "BLL-CV-7",
-          "prod": "Cruz Vertical",
-          "long": 4112,
-          "cant": 2,
-          "peso": 11.48,
-          "arm_lib": 2,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 2,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 11.48,
-          "literal": "BLL"
-        },
-        {
-          "item": 35,
-          "cod": "BLL-CV-8",
-          "prod": "Cruz Vertical",
-          "long": 4351,
-          "cant": 2,
-          "peso": 12.16,
-          "arm_lib": 2,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 2,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 12.16,
-          "literal": "BLL"
-        },
-        {
-          "item": 36,
-          "cod": "BLL-CV-9",
-          "prod": "Cruz Vertical",
-          "long": 5135,
-          "cant": 2,
-          "peso": 14.34,
-          "arm_lib": 2,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 2,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 14.34,
-          "literal": "BLL"
-        },
-        {
-          "item": 37,
+          "item": 27,
           "cod": "BLL-CV-10",
           "prod": "Cruz Vertical",
           "long": 7613,
@@ -52336,7 +52057,7 @@
           "literal": "BLL"
         },
         {
-          "item": 38,
+          "item": 28,
           "cod": "BLL-CV-11",
           "prod": "Cruz Vertical",
           "long": 7864,
@@ -52354,7 +52075,7 @@
           "literal": "BLL"
         },
         {
-          "item": 39,
+          "item": 29,
           "cod": "BLL-CV-12",
           "prod": "Cruz Vertical",
           "long": 6987,
@@ -52372,7 +52093,7 @@
           "literal": "BLL"
         },
         {
-          "item": 40,
+          "item": 30,
           "cod": "BLL-CV-13",
           "prod": "Cruz Vertical",
           "long": 7685,
@@ -52390,7 +52111,7 @@
           "literal": "BLL"
         },
         {
-          "item": 41,
+          "item": 31,
           "cod": "BLL-DI-1",
           "prod": "Diagonal",
           "long": 1909,
@@ -52408,7 +52129,7 @@
           "literal": "BLL"
         },
         {
-          "item": 42,
+          "item": 32,
           "cod": "BLL-DI-2",
           "prod": "Diagonal",
           "long": 1896,
@@ -52426,7 +52147,7 @@
           "literal": "BLL"
         },
         {
-          "item": 43,
+          "item": 33,
           "cod": "BLL-DI-3",
           "prod": "Diagonal",
           "long": 1894,
@@ -52444,7 +52165,7 @@
           "literal": "BLL"
         },
         {
-          "item": 44,
+          "item": 34,
           "cod": "BLL-DI-4",
           "prod": "Diagonal",
           "long": 1906,
@@ -52462,7 +52183,7 @@
           "literal": "BLL"
         },
         {
-          "item": 45,
+          "item": 35,
           "cod": "BLL-DI-5",
           "prod": "Diagonal",
           "long": 1919,
@@ -52480,61 +52201,7 @@
           "literal": "BLL"
         },
         {
-          "item": 46,
-          "cod": "BLL-DI-6",
-          "prod": "Diagonal",
-          "long": 1718,
-          "cant": 4,
-          "peso": 3.52,
-          "arm_lib": 4,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 4,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 4,
-          "env_pend_peso": 3.52,
-          "literal": "BLL"
-        },
-        {
-          "item": 47,
-          "cod": "BLL-DI-7",
-          "prod": "Diagonal",
-          "long": 1883,
-          "cant": 2,
-          "peso": 1.92,
-          "arm_lib": 2,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 2,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 1.92,
-          "literal": "BLL"
-        },
-        {
-          "item": 48,
-          "cod": "BLL-DI-8",
-          "prod": "Diagonal",
-          "long": 1672,
-          "cant": 1,
-          "peso": 0.85,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 0.85,
-          "literal": "BLL"
-        },
-        {
-          "item": 49,
+          "item": 36,
           "cod": "BLL-DI-9",
           "prod": "Diagonal",
           "long": 1541,
@@ -52552,43 +52219,7 @@
           "literal": "BLL"
         },
         {
-          "item": 50,
-          "cod": "BLL-DI-10",
-          "prod": "Diagonal",
-          "long": 1377,
-          "cant": 1,
-          "peso": 0.71,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 0.71,
-          "literal": "BLL"
-        },
-        {
-          "item": 51,
-          "cod": "BLL-DI-11",
-          "prod": "Diagonal",
-          "long": 1507,
-          "cant": 4,
-          "peso": 3.08,
-          "arm_lib": 4,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 4,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 4,
-          "env_pend_peso": 3.08,
-          "literal": "BLL"
-        },
-        {
-          "item": 52,
+          "item": 37,
           "cod": "BLL-DI-12",
           "prod": "Diagonal",
           "long": 1392,
@@ -52606,7 +52237,7 @@
           "literal": "BLL"
         },
         {
-          "item": 53,
+          "item": 38,
           "cod": "BLL-DI-13",
           "prod": "Diagonal",
           "long": 2559,
@@ -52624,7 +52255,7 @@
           "literal": "BLL"
         },
         {
-          "item": 54,
+          "item": 39,
           "cod": "BLL-DI-14",
           "prod": "Diagonal",
           "long": 1971,
@@ -52642,7 +52273,7 @@
           "literal": "BLL"
         },
         {
-          "item": 55,
+          "item": 40,
           "cod": "BLL-DI-15",
           "prod": "Diagonal",
           "long": 2448,
@@ -52660,7 +52291,7 @@
           "literal": "BLL"
         },
         {
-          "item": 56,
+          "item": 41,
           "cod": "BLL-DI-16",
           "prod": "Diagonal",
           "long": 2269,
@@ -52678,7 +52309,7 @@
           "literal": "BLL"
         },
         {
-          "item": 57,
+          "item": 42,
           "cod": "BLL-DI-17",
           "prod": "Diagonal",
           "long": 2336,
@@ -52696,7 +52327,7 @@
           "literal": "BLL"
         },
         {
-          "item": 58,
+          "item": 43,
           "cod": "BLL-DI-18",
           "prod": "Diagonal",
           "long": 2293,
@@ -52714,7 +52345,7 @@
           "literal": "BLL"
         },
         {
-          "item": 59,
+          "item": 44,
           "cod": "BLL-DI-19",
           "prod": "Diagonal",
           "long": 2357,
@@ -52732,7 +52363,7 @@
           "literal": "BLL"
         },
         {
-          "item": 60,
+          "item": 45,
           "cod": "BLL-DI-20",
           "prod": "Diagonal",
           "long": 2360,
@@ -52750,7 +52381,7 @@
           "literal": "BLL"
         },
         {
-          "item": 61,
+          "item": 46,
           "cod": "BLL-DI-21",
           "prod": "Diagonal",
           "long": 2337,
@@ -52768,7 +52399,7 @@
           "literal": "BLL"
         },
         {
-          "item": 62,
+          "item": 47,
           "cod": "BLL-DI-22",
           "prod": "Diagonal",
           "long": 2472,
@@ -52786,7 +52417,7 @@
           "literal": "BLL"
         },
         {
-          "item": 63,
+          "item": 48,
           "cod": "BLL-DI-23",
           "prod": "Diagonal",
           "long": 2240,
@@ -52804,7 +52435,7 @@
           "literal": "BLL"
         },
         {
-          "item": 64,
+          "item": 49,
           "cod": "BLL-DI-24",
           "prod": "Diagonal",
           "long": 2180,
@@ -52822,7 +52453,7 @@
           "literal": "BLL"
         },
         {
-          "item": 65,
+          "item": 50,
           "cod": "BLL-DI-25",
           "prod": "Diagonal",
           "long": 2172,
@@ -52840,7 +52471,7 @@
           "literal": "BLL"
         },
         {
-          "item": 66,
+          "item": 51,
           "cod": "BLL-DI-26",
           "prod": "Diagonal",
           "long": 2086,
@@ -52858,7 +52489,7 @@
           "literal": "BLL"
         },
         {
-          "item": 67,
+          "item": 52,
           "cod": "BLL-DI-27",
           "prod": "Diagonal",
           "long": 2672,
@@ -52876,7 +52507,7 @@
           "literal": "BLL"
         },
         {
-          "item": 68,
+          "item": 53,
           "cod": "BLL-DI-28",
           "prod": "Diagonal",
           "long": 2426,
@@ -52894,7 +52525,7 @@
           "literal": "BLL"
         },
         {
-          "item": 69,
+          "item": 54,
           "cod": "BLL-ES-1",
           "prod": "Escalera Metalica",
           "long": 5279,
@@ -52912,7 +52543,7 @@
           "literal": "BLL"
         },
         {
-          "item": 70,
+          "item": 55,
           "cod": "BLL-FL-1",
           "prod": "Faldon - Ml",
           "long": 100,
@@ -52930,7 +52561,7 @@
           "literal": "BLL"
         },
         {
-          "item": 71,
+          "item": 56,
           "cod": "BLL-FL-2",
           "prod": "Faldon - Ml",
           "long": 100,
@@ -52948,7 +52579,7 @@
           "literal": "BLL"
         },
         {
-          "item": 72,
+          "item": 57,
           "cod": "BLL-FL-3",
           "prod": "Faldon - Ml",
           "long": 100,
@@ -52966,7 +52597,7 @@
           "literal": "BLL"
         },
         {
-          "item": 73,
+          "item": 58,
           "cod": "BLL-FL-4",
           "prod": "Faldon - Ml",
           "long": 100,
@@ -52984,7 +52615,7 @@
           "literal": "BLL"
         },
         {
-          "item": 74,
+          "item": 59,
           "cod": "BLL-FL-5",
           "prod": "Faldon - Ml",
           "long": 100,
@@ -53002,7 +52633,7 @@
           "literal": "BLL"
         },
         {
-          "item": 75,
+          "item": 60,
           "cod": "BLL-FL-6",
           "prod": "Faldon - Ml",
           "long": 100,
@@ -53020,7 +52651,7 @@
           "literal": "BLL"
         },
         {
-          "item": 76,
+          "item": 61,
           "cod": "BLL-FL-7",
           "prod": "Faldon - Ml",
           "long": 100,
@@ -53038,7 +52669,7 @@
           "literal": "BLL"
         },
         {
-          "item": 77,
+          "item": 62,
           "cod": "BLL-FL-8",
           "prod": "Faldon - Ml",
           "long": 100,
@@ -53056,79 +52687,25 @@
           "literal": "BLL"
         },
         {
-          "item": 78,
-          "cod": "BLL-MF-1",
-          "prod": "Mano Francesa",
-          "long": 1285,
-          "cant": 6,
-          "peso": 92.94,
-          "arm_lib": 6,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 6,
-          "pint_pend_peso": 92.94,
-          "env_ok": 0,
-          "env_pend": 6,
-          "env_pend_peso": 92.94,
-          "literal": "BLL"
-        },
-        {
-          "item": 79,
+          "item": 64,
           "cod": "BLL-PCC-1",
           "prod": "Correa de Cenefa/ Perfilado",
-          "long": 3564,
-          "cant": 6,
-          "peso": 102.72,
+          "long": 3333,
+          "cant": 3,
+          "peso": 48.03,
           "arm_lib": 0,
-          "arm_pend": 6,
-          "arm_pend_peso": 102.72,
+          "arm_pend": 3,
+          "arm_pend_peso": 48.03,
           "pint_ok": 0,
-          "pint_pend": 6,
-          "pint_pend_peso": 102.72,
+          "pint_pend": 3,
+          "pint_pend_peso": 48.03,
           "env_ok": 0,
-          "env_pend": 6,
-          "env_pend_peso": 102.72,
+          "env_pend": 3,
+          "env_pend_peso": 48.03,
           "literal": "BLL"
         },
         {
-          "item": 80,
-          "cod": "BLL-PCC-2",
-          "prod": "Correa de Cenefa/ Perfilado",
-          "long": 6359,
-          "cant": 6,
-          "peso": 183.3,
-          "arm_lib": 0,
-          "arm_pend": 6,
-          "arm_pend_peso": 183.3,
-          "pint_ok": 6,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 6,
-          "env_pend_peso": 183.3,
-          "literal": "BLL"
-        },
-        {
-          "item": 81,
-          "cod": "BLL-PCC-3",
-          "prod": "Correa de Cenefa/ Perfilado",
-          "long": 5947,
-          "cant": 30,
-          "peso": 857.1,
-          "arm_lib": 0,
-          "arm_pend": 30,
-          "arm_pend_peso": 857.1,
-          "pint_ok": 30,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 30,
-          "env_pend_peso": 857.1,
-          "literal": "BLL"
-        },
-        {
-          "item": 82,
+          "item": 67,
           "cod": "BLL-PCL-1",
           "prod": "Correa Lateral/ Perfilado",
           "long": 318,
@@ -53146,61 +52723,7 @@
           "literal": "BLL"
         },
         {
-          "item": 83,
-          "cod": "BLL-PCL-2",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 3965,
-          "cant": 1,
-          "peso": 19.05,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 19.05,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 19.05,
-          "literal": "BLL"
-        },
-        {
-          "item": 84,
-          "cod": "BLL-PCL-3",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 3965,
-          "cant": 3,
-          "peso": 57.15,
-          "arm_lib": 0,
-          "arm_pend": 3,
-          "arm_pend_peso": 57.15,
-          "pint_ok": 2,
-          "pint_pend": 1,
-          "pint_pend_peso": 19.05,
-          "env_ok": 0,
-          "env_pend": 3,
-          "env_pend_peso": 57.15,
-          "literal": "BLL"
-        },
-        {
-          "item": 85,
-          "cod": "BLL-PCL-4",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 3960,
-          "cant": 8,
-          "peso": 152.16,
-          "arm_lib": 0,
-          "arm_pend": 8,
-          "arm_pend_peso": 152.16,
-          "pint_ok": 3,
-          "pint_pend": 5,
-          "pint_pend_peso": 95.1,
-          "env_ok": 0,
-          "env_pend": 8,
-          "env_pend_peso": 152.16,
-          "literal": "BLL"
-        },
-        {
-          "item": 86,
+          "item": 68,
           "cod": "BLL-PCL-5",
           "prod": "Correa Lateral/ Perfilado",
           "long": 3865,
@@ -53218,61 +52741,43 @@
           "literal": "BLL"
         },
         {
-          "item": 87,
-          "cod": "BLL-PCL-6",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 4070,
-          "cant": 1,
-          "peso": 19.55,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 19.55,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 19.55,
-          "literal": "BLL"
-        },
-        {
-          "item": 88,
+          "item": 69,
           "cod": "BLL-PCL-7",
           "prod": "Correa Lateral/ Perfilado",
-          "long": 4060,
+          "long": 3829,
           "cant": 1,
-          "peso": 19.51,
+          "peso": 18.4,
           "arm_lib": 0,
           "arm_pend": 1,
-          "arm_pend_peso": 19.51,
+          "arm_pend_peso": 18.4,
           "pint_ok": 0,
           "pint_pend": 1,
-          "pint_pend_peso": 19.51,
+          "pint_pend_peso": 18.4,
           "env_ok": 0,
           "env_pend": 1,
-          "env_pend_peso": 19.51,
+          "env_pend_peso": 18.4,
           "literal": "BLL"
         },
         {
-          "item": 89,
+          "item": 70,
           "cod": "BLL-PCL-8",
           "prod": "Correa Lateral/ Perfilado",
-          "long": 3472,
+          "long": 3241,
           "cant": 1,
-          "peso": 16.68,
+          "peso": 15.57,
           "arm_lib": 0,
           "arm_pend": 1,
-          "arm_pend_peso": 16.68,
+          "arm_pend_peso": 15.57,
           "pint_ok": 0,
           "pint_pend": 1,
-          "pint_pend_peso": 16.68,
+          "pint_pend_peso": 15.57,
           "env_ok": 0,
           "env_pend": 1,
-          "env_pend_peso": 16.68,
+          "env_pend_peso": 15.57,
           "literal": "BLL"
         },
         {
-          "item": 90,
+          "item": 71,
           "cod": "BLL-PCL-9",
           "prod": "Correa Lateral/ Perfilado",
           "long": 3675,
@@ -53290,205 +52795,43 @@
           "literal": "BLL"
         },
         {
-          "item": 91,
+          "item": 72,
           "cod": "BLL-PCL-10",
           "prod": "Correa Lateral/ Perfilado",
-          "long": 2083,
+          "long": 1752,
           "cant": 2,
-          "peso": 20.02,
+          "peso": 16.84,
           "arm_lib": 0,
           "arm_pend": 2,
-          "arm_pend_peso": 20.02,
+          "arm_pend_peso": 16.84,
           "pint_ok": 0,
           "pint_pend": 2,
-          "pint_pend_peso": 20.02,
+          "pint_pend_peso": 16.84,
           "env_ok": 0,
           "env_pend": 2,
-          "env_pend_peso": 20.02,
+          "env_pend_peso": 16.84,
           "literal": "BLL"
         },
         {
-          "item": 92,
-          "cod": "BLL-PCL-11",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 6490,
-          "cant": 13,
-          "peso": 405.34,
-          "arm_lib": 0,
-          "arm_pend": 13,
-          "arm_pend_peso": 405.34,
-          "pint_ok": 13,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 13,
-          "env_pend_peso": 405.34,
-          "literal": "BLL"
-        },
-        {
-          "item": 93,
-          "cod": "BLL-PCL-12",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 6267,
-          "cant": 1,
-          "peso": 30.11,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 30.11,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 30.11,
-          "literal": "BLL"
-        },
-        {
-          "item": 94,
-          "cod": "BLL-PCL-13",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 6470,
-          "cant": 1,
-          "peso": 31.09,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 31.09,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 31.09,
-          "literal": "BLL"
-        },
-        {
-          "item": 95,
-          "cod": "BLL-PCL-14",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 6185,
-          "cant": 4,
-          "peso": 118.84,
-          "arm_lib": 0,
-          "arm_pend": 4,
-          "arm_pend_peso": 118.84,
-          "pint_ok": 4,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 4,
-          "env_pend_peso": 118.84,
-          "literal": "BLL"
-        },
-        {
-          "item": 96,
-          "cod": "BLL-PCL-15",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 6080,
-          "cant": 66,
-          "peso": 1927.86,
-          "arm_lib": 0,
-          "arm_pend": 66,
-          "arm_pend_peso": 1927.86,
-          "pint_ok": 66,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 66,
-          "env_pend_peso": 1927.86,
-          "literal": "BLL"
-        },
-        {
-          "item": 97,
-          "cod": "BLL-PCL-16",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5857,
-          "cant": 1,
-          "peso": 28.14,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 28.14,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 28.14,
-          "literal": "BLL"
-        },
-        {
-          "item": 98,
-          "cod": "BLL-PCL-17",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 6060,
-          "cant": 5,
-          "peso": 145.6,
-          "arm_lib": 0,
-          "arm_pend": 5,
-          "arm_pend_peso": 145.6,
-          "pint_ok": 5,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 5,
-          "env_pend_peso": 145.6,
-          "literal": "BLL"
-        },
-        {
-          "item": 99,
-          "cod": "BLL-PCL-18",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5969,
-          "cant": 1,
-          "peso": 28.67,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 28.67,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 28.67,
-          "literal": "BLL"
-        },
-        {
-          "item": 100,
-          "cod": "BLL-PCL-19",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 6350,
-          "cant": 18,
-          "peso": 549.18,
-          "arm_lib": 0,
-          "arm_pend": 18,
-          "arm_pend_peso": 549.18,
-          "pint_ok": 18,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 18,
-          "env_pend_peso": 549.18,
-          "literal": "BLL"
-        },
-        {
-          "item": 101,
+          "item": 82,
           "cod": "BLL-PCR-1",
           "prod": "Correa de Techo/ Perfilado",
-          "long": 3966,
-          "cant": 8,
-          "peso": 152.4,
+          "long": 3735,
+          "cant": 2,
+          "peso": 35.88,
           "arm_lib": 0,
-          "arm_pend": 8,
-          "arm_pend_peso": 152.4,
+          "arm_pend": 2,
+          "arm_pend_peso": 35.88,
           "pint_ok": 0,
-          "pint_pend": 8,
-          "pint_pend_peso": 152.4,
+          "pint_pend": 2,
+          "pint_pend_peso": 35.88,
           "env_ok": 0,
-          "env_pend": 8,
-          "env_pend_peso": 152.4,
+          "env_pend": 2,
+          "env_pend_peso": 35.88,
           "literal": "BLL"
         },
         {
-          "item": 102,
+          "item": 83,
           "cod": "BLL-PCR-2",
           "prod": "Correa de Techo/ Perfilado",
           "long": 6490,
@@ -53506,43 +52849,7 @@
           "literal": "BLL"
         },
         {
-          "item": 103,
-          "cod": "BLL-PCR-4",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6080,
-          "cant": 32,
-          "peso": 934.72,
-          "arm_lib": 0,
-          "arm_pend": 32,
-          "arm_pend_peso": 934.72,
-          "pint_ok": 29,
-          "pint_pend": 3,
-          "pint_pend_peso": 87.63,
-          "env_ok": 0,
-          "env_pend": 32,
-          "env_pend_peso": 934.72,
-          "literal": "BLL"
-        },
-        {
-          "item": 104,
-          "cod": "BLL-PCR-5",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6348,
-          "cant": 8,
-          "peso": 243.92,
-          "arm_lib": 0,
-          "arm_pend": 8,
-          "arm_pend_peso": 243.92,
-          "pint_ok": 8,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 8,
-          "env_pend_peso": 243.92,
-          "literal": "BLL"
-        },
-        {
-          "item": 105,
+          "item": 86,
           "cod": "BLL-PCT-1",
           "prod": "Correa de tímpano/ Perfilado",
           "long": 723,
@@ -53560,7 +52867,7 @@
           "literal": "BLL"
         },
         {
-          "item": 106,
+          "item": 87,
           "cod": "BLL-PCT-2",
           "prod": "Correa de tímpano/ Perfilado",
           "long": 3838,
@@ -53578,25 +52885,7 @@
           "literal": "BLL"
         },
         {
-          "item": 107,
-          "cod": "BLL-PCT-3",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 5565,
-          "cant": 29,
-          "peso": 775.17,
-          "arm_lib": 0,
-          "arm_pend": 29,
-          "arm_pend_peso": 775.17,
-          "pint_ok": 29,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 29,
-          "env_pend_peso": 775.17,
-          "literal": "BLL"
-        },
-        {
-          "item": 108,
+          "item": 89,
           "cod": "BLL-PCT-4",
           "prod": "Correa de tímpano/ Perfilado",
           "long": 733,
@@ -53614,7 +52903,7 @@
           "literal": "BLL"
         },
         {
-          "item": 109,
+          "item": 90,
           "cod": "BLL-PCT-5",
           "prod": "Correa de tímpano/ Perfilado",
           "long": 547,
@@ -53632,25 +52921,7 @@
           "literal": "BLL"
         },
         {
-          "item": 110,
-          "cod": "BLL-PCT-6",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 5064,
-          "cant": 12,
-          "peso": 291.96,
-          "arm_lib": 0,
-          "arm_pend": 12,
-          "arm_pend_peso": 291.96,
-          "pint_ok": 12,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 12,
-          "env_pend_peso": 291.96,
-          "literal": "BLL"
-        },
-        {
-          "item": 111,
+          "item": 92,
           "cod": "BLL-PCT-7",
           "prod": "Correa de tímpano/ Perfilado",
           "long": 415,
@@ -53669,348 +52940,6 @@
         },
         {
           "item": 112,
-          "cod": "BLL-PIS-1",
-          "prod": "Pilar Alma Llena",
-          "long": 11166,
-          "cant": 1,
-          "peso": 591.28,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 1,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BLL"
-        },
-        {
-          "item": 113,
-          "cod": "BLL-PIS-2",
-          "prod": "Pilar Alma Llena",
-          "long": 2490,
-          "cant": 1,
-          "peso": 88.18,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 1,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BLL"
-        },
-        {
-          "item": 114,
-          "cod": "BLL-PIS-3",
-          "prod": "Pilar Alma Llena",
-          "long": 11298,
-          "cant": 1,
-          "peso": 414.53,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 1,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BLL"
-        },
-        {
-          "item": 115,
-          "cod": "BLL-PIS-4",
-          "prod": "Pilar Alma Llena",
-          "long": 9910,
-          "cant": 1,
-          "peso": 542.43,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 1,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BLL"
-        },
-        {
-          "item": 116,
-          "cod": "BLL-PIS-5",
-          "prod": "Pilar Alma Llena",
-          "long": 2860,
-          "cant": 2,
-          "peso": 207.52,
-          "arm_lib": 2,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 2,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 2,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BLL"
-        },
-        {
-          "item": 117,
-          "cod": "BLL-PIS-6",
-          "prod": "Pilar Alma Llena",
-          "long": 11166,
-          "cant": 1,
-          "peso": 586.42,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 1,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BLL"
-        },
-        {
-          "item": 118,
-          "cod": "BLL-PIS-7",
-          "prod": "Pilar Alma Llena",
-          "long": 9910,
-          "cant": 1,
-          "peso": 540.27,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 1,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BLL"
-        },
-        {
-          "item": 119,
-          "cod": "BLL-PIS-8",
-          "prod": "Pilar Alma Llena",
-          "long": 11166,
-          "cant": 1,
-          "peso": 589.63,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 1,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BLL"
-        },
-        {
-          "item": 120,
-          "cod": "BLL-PIS-9",
-          "prod": "Pilar Alma Llena",
-          "long": 9910,
-          "cant": 1,
-          "peso": 536.78,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 1,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BLL"
-        },
-        {
-          "item": 121,
-          "cod": "BLL-PIS-10",
-          "prod": "Pilar Alma Llena",
-          "long": 2860,
-          "cant": 1,
-          "peso": 99.67,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 1,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BLL"
-        },
-        {
-          "item": 122,
-          "cod": "BLL-PIS-11",
-          "prod": "Pilar Alma Llena",
-          "long": 11166,
-          "cant": 1,
-          "peso": 590.93,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 1,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BLL"
-        },
-        {
-          "item": 123,
-          "cod": "BLL-PIS-12",
-          "prod": "Pilar Alma Llena",
-          "long": 9910,
-          "cant": 2,
-          "peso": 1049.38,
-          "arm_lib": 2,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 2,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 2,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BLL"
-        },
-        {
-          "item": 124,
-          "cod": "BLL-PIS-13",
-          "prod": "Pilar Alma Llena",
-          "long": 11166,
-          "cant": 2,
-          "peso": 1168.4,
-          "arm_lib": 2,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 2,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 2,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BLL"
-        },
-        {
-          "item": 125,
-          "cod": "BLL-PIS-14",
-          "prod": "Pilar Alma Llena",
-          "long": 9910,
-          "cant": 1,
-          "peso": 524.69,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 1,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BLL"
-        },
-        {
-          "item": 126,
-          "cod": "BLL-PIS-15",
-          "prod": "Pilar Alma Llena",
-          "long": 11166,
-          "cant": 1,
-          "peso": 584.2,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 1,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BLL"
-        },
-        {
-          "item": 127,
-          "cod": "BLL-PIS-16",
-          "prod": "Pilar Alma Llena",
-          "long": 11298,
-          "cant": 1,
-          "peso": 416.52,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 1,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BLL"
-        },
-        {
-          "item": 128,
-          "cod": "BLL-PIS-17",
-          "prod": "Pilar Alma Llena",
-          "long": 9910,
-          "cant": 1,
-          "peso": 531.29,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 1,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BLL"
-        },
-        {
-          "item": 129,
-          "cod": "BLL-PIS-18",
-          "prod": "Pilar Alma Llena",
-          "long": 11166,
-          "cant": 1,
-          "peso": 587.11,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 1,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BLL"
-        },
-        {
-          "item": 130,
-          "cod": "BLL-PIS-19",
-          "prod": "Pilar Alma Llena",
-          "long": 9910,
-          "cant": 1,
-          "peso": 557.63,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 1,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BLL"
-        },
-        {
-          "item": 131,
           "cod": "BLL-PL-1",
           "prod": "Placa",
           "long": 260,
@@ -54028,7 +52957,7 @@
           "literal": "BLL"
         },
         {
-          "item": 132,
+          "item": 113,
           "cod": "BLL-PL-2",
           "prod": "Placa",
           "long": 160,
@@ -54046,7 +52975,7 @@
           "literal": "BLL"
         },
         {
-          "item": 133,
+          "item": 114,
           "cod": "BLL-PTC-1",
           "prod": "Pilar Tubo Caño",
           "long": 2075,
@@ -54064,25 +52993,7 @@
           "literal": "BLL"
         },
         {
-          "item": 134,
-          "cod": "BLL-PTC-2",
-          "prod": "Pilar Tubo Caño",
-          "long": 2075,
-          "cant": 1,
-          "peso": 30.86,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 30.86,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 30.86,
-          "literal": "BLL"
-        },
-        {
-          "item": 135,
+          "item": 116,
           "cod": "BLL-PTC-4",
           "prod": "Pilar Tubo Caño",
           "long": 2075,
@@ -54094,49 +53005,13 @@
           "pint_ok": 4,
           "pint_pend": 2,
           "pint_pend_peso": 61.72,
-          "env_ok": 0,
-          "env_pend": 6,
-          "env_pend_peso": 185.16,
+          "env_ok": 2,
+          "env_pend": 4,
+          "env_pend_peso": 123.44,
           "literal": "BLL"
         },
         {
-          "item": 136,
-          "cod": "BLL-PTC-7",
-          "prod": "Pilar Tubo Caño",
-          "long": 2075,
-          "cant": 1,
-          "peso": 37.74,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 37.74,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 37.74,
-          "literal": "BLL"
-        },
-        {
-          "item": 137,
-          "cod": "BLL-PTC-8",
-          "prod": "Pilar Tubo Caño",
-          "long": 2075,
-          "cant": 1,
-          "peso": 37.74,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 37.74,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 37.74,
-          "literal": "BLL"
-        },
-        {
-          "item": 138,
+          "item": 119,
           "cod": "BLL-PTC-9",
           "prod": "Pilar Tubo Caño",
           "long": 2075,
@@ -54154,7 +53029,7 @@
           "literal": "BLL"
         },
         {
-          "item": 139,
+          "item": 120,
           "cod": "BLL-PTC-11",
           "prod": "Pilar Tubo Caño",
           "long": 2075,
@@ -54172,7 +53047,7 @@
           "literal": "BLL"
         },
         {
-          "item": 140,
+          "item": 121,
           "cod": "BLL-PTC-12",
           "prod": "Pilar Tubo Caño",
           "long": 2075,
@@ -54190,7 +53065,7 @@
           "literal": "BLL"
         },
         {
-          "item": 141,
+          "item": 122,
           "cod": "BLL-SC-1",
           "prod": "Soporte Cruz",
           "long": 130,
@@ -54208,7 +53083,7 @@
           "literal": "BLL"
         },
         {
-          "item": 142,
+          "item": 123,
           "cod": "BLL-SC-2",
           "prod": "Soporte Cruz",
           "long": 130,
@@ -54226,7 +53101,7 @@
           "literal": "BLL"
         },
         {
-          "item": 143,
+          "item": 124,
           "cod": "BLL-SC-3",
           "prod": "Soporte Cruz",
           "long": 130,
@@ -54244,7 +53119,7 @@
           "literal": "BLL"
         },
         {
-          "item": 144,
+          "item": 125,
           "cod": "BLL-SC-4",
           "prod": "Soporte Cruz",
           "long": 130,
@@ -54262,7 +53137,7 @@
           "literal": "BLL"
         },
         {
-          "item": 145,
+          "item": 126,
           "cod": "BLL-SC-5",
           "prod": "Soporte Cruz",
           "long": 130,
@@ -54280,7 +53155,7 @@
           "literal": "BLL"
         },
         {
-          "item": 146,
+          "item": 127,
           "cod": "BLL-SD-1",
           "prod": "Soporte Diagonal",
           "long": 50,
@@ -54298,7 +53173,7 @@
           "literal": "BLL"
         },
         {
-          "item": 147,
+          "item": 128,
           "cod": "BLL-SP-1",
           "prod": "SOPORTE",
           "long": 185,
@@ -54316,7 +53191,7 @@
           "literal": "BLL"
         },
         {
-          "item": 148,
+          "item": 129,
           "cod": "BLL-SP-2",
           "prod": "SOPORTE",
           "long": 3373,
@@ -54334,7 +53209,7 @@
           "literal": "BLL"
         },
         {
-          "item": 149,
+          "item": 130,
           "cod": "BLL-SP-3",
           "prod": "SOPORTE",
           "long": 120,
@@ -54352,7 +53227,7 @@
           "literal": "BLL"
         },
         {
-          "item": 150,
+          "item": 131,
           "cod": "BLL-SP-4",
           "prod": "SOPORTE",
           "long": 6000,
@@ -54370,7 +53245,7 @@
           "literal": "BLL"
         },
         {
-          "item": 151,
+          "item": 132,
           "cod": "BLL-SP-5",
           "prod": "SOPORTE",
           "long": 150,
@@ -54388,7 +53263,7 @@
           "literal": "BLL"
         },
         {
-          "item": 152,
+          "item": 133,
           "cod": "BLL-SP-6",
           "prod": "SOPORTE",
           "long": 2688,
@@ -54406,7 +53281,7 @@
           "literal": "BLL"
         },
         {
-          "item": 153,
+          "item": 134,
           "cod": "BLL-SP-7",
           "prod": "SOPORTE",
           "long": 120,
@@ -54424,7 +53299,7 @@
           "literal": "BLL"
         },
         {
-          "item": 154,
+          "item": 135,
           "cod": "BLL-SP-8",
           "prod": "SOPORTE",
           "long": 120,
@@ -54442,7 +53317,7 @@
           "literal": "BLL"
         },
         {
-          "item": 155,
+          "item": 136,
           "cod": "BLL-SP-9",
           "prod": "SOPORTE",
           "long": 140,
@@ -54460,7 +53335,7 @@
           "literal": "BLL"
         },
         {
-          "item": 156,
+          "item": 137,
           "cod": "BLL-SP-10",
           "prod": "SOPORTE",
           "long": 5200,
@@ -54478,7 +53353,7 @@
           "literal": "BLL"
         },
         {
-          "item": 157,
+          "item": 138,
           "cod": "BLL-TC-1",
           "prod": "Tilla de compresion",
           "long": 818,
@@ -54496,7 +53371,7 @@
           "literal": "BLL"
         },
         {
-          "item": 158,
+          "item": 139,
           "cod": "BLL-TC-2",
           "prod": "Tilla de compresion",
           "long": 968,
@@ -54514,7 +53389,7 @@
           "literal": "BLL"
         },
         {
-          "item": 159,
+          "item": 140,
           "cod": "BLL-TC-3",
           "prod": "Tilla de compresion",
           "long": 985,
@@ -54532,7 +53407,7 @@
           "literal": "BLL"
         },
         {
-          "item": 160,
+          "item": 141,
           "cod": "BLL-TC-4",
           "prod": "Tilla de compresion",
           "long": 1198,
@@ -54550,7 +53425,7 @@
           "literal": "BLL"
         },
         {
-          "item": 161,
+          "item": 142,
           "cod": "BLL-TC-5",
           "prod": "Tilla de compresion",
           "long": 1139,
@@ -54568,7 +53443,7 @@
           "literal": "BLL"
         },
         {
-          "item": 162,
+          "item": 143,
           "cod": "BLL-TC-6",
           "prod": "Tilla de compresion",
           "long": 1398,
@@ -54586,7 +53461,7 @@
           "literal": "BLL"
         },
         {
-          "item": 163,
+          "item": 144,
           "cod": "BLL-TC-7",
           "prod": "Tilla de compresion",
           "long": 693,
@@ -54604,7 +53479,7 @@
           "literal": "BLL"
         },
         {
-          "item": 164,
+          "item": 145,
           "cod": "BLL-TC-8",
           "prod": "Tilla de compresion",
           "long": 992,
@@ -54622,7 +53497,7 @@
           "literal": "BLL"
         },
         {
-          "item": 165,
+          "item": 146,
           "cod": "BLL-TE-1",
           "prod": "Tensor",
           "long": 6163,
@@ -54640,7 +53515,7 @@
           "literal": "BLL"
         },
         {
-          "item": 166,
+          "item": 147,
           "cod": "BLL-TI-2",
           "prod": "Tilla de Traccion",
           "long": 1075,
@@ -54658,7 +53533,7 @@
           "literal": "BLL"
         },
         {
-          "item": 167,
+          "item": 148,
           "cod": "BLL-TI-3",
           "prod": "Tilla de Traccion",
           "long": 1286,
@@ -54676,7 +53551,7 @@
           "literal": "BLL"
         },
         {
-          "item": 168,
+          "item": 149,
           "cod": "BLL-TI-4",
           "prod": "Tilla de Traccion",
           "long": 1708,
@@ -54694,7 +53569,7 @@
           "literal": "BLL"
         },
         {
-          "item": 169,
+          "item": 150,
           "cod": "BLL-TI-5",
           "prod": "Tilla de Traccion",
           "long": 1585,
@@ -54712,7 +53587,7 @@
           "literal": "BLL"
         },
         {
-          "item": 170,
+          "item": 151,
           "cod": "BLL-TI-6",
           "prod": "Tilla de Traccion",
           "long": 1253,
@@ -54730,7 +53605,7 @@
           "literal": "BLL"
         },
         {
-          "item": 171,
+          "item": 152,
           "cod": "BLL-VAR-1",
           "prod": "Viga de arriostre -Angulos",
           "long": 6353,
@@ -54748,7 +53623,7 @@
           "literal": "BLL"
         },
         {
-          "item": 172,
+          "item": 153,
           "cod": "BLL-VAR-2",
           "prod": "Viga de arriostre -Angulos",
           "long": 5943,
@@ -54766,151 +53641,7 @@
           "literal": "BLL"
         },
         {
-          "item": 173,
-          "cod": "BLL-VAT-1",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 4928,
-          "cant": 1,
-          "peso": 35.95,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 1,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BLL"
-        },
-        {
-          "item": 174,
-          "cod": "BLL-VAT-2",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 4928,
-          "cant": 1,
-          "peso": 35.95,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 1,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BLL"
-        },
-        {
-          "item": 175,
-          "cod": "BLL-VAT-3",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 3562,
-          "cant": 1,
-          "peso": 24.34,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 24.34,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 24.34,
-          "literal": "BLL"
-        },
-        {
-          "item": 176,
-          "cod": "BLL-VAT-4",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 3625,
-          "cant": 2,
-          "peso": 55.86,
-          "arm_lib": 2,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 2,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 55.86,
-          "literal": "BLL"
-        },
-        {
-          "item": 177,
-          "cod": "BLL-VAT-5",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 3625,
-          "cant": 2,
-          "peso": 49.46,
-          "arm_lib": 2,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 49.46,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 49.46,
-          "literal": "BLL"
-        },
-        {
-          "item": 178,
-          "cod": "BLL-VAT-6",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 6420,
-          "cant": 2,
-          "peso": 90.28,
-          "arm_lib": 2,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 2,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 2,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BLL"
-        },
-        {
-          "item": 179,
-          "cod": "BLL-VAT-7",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 6420,
-          "cant": 2,
-          "peso": 83.86,
-          "arm_lib": 2,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 2,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 2,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BLL"
-        },
-        {
-          "item": 180,
-          "cod": "BLL-VAT-8",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 6010,
-          "cant": 10,
-          "peso": 426.1,
-          "arm_lib": 10,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 10,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 10,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BLL"
-        },
-        {
-          "item": 181,
+          "item": 159,
           "cod": "BLL-VAT-9",
           "prod": "Viga  Arriostre de tubos o caños",
           "long": 6012,
@@ -54928,79 +53659,7 @@
           "literal": "BLL"
         },
         {
-          "item": 182,
-          "cod": "BLL-VAT-10",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5946,
-          "cant": 1,
-          "peso": 39.02,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 1,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BLL"
-        },
-        {
-          "item": 183,
-          "cod": "BLL-VAT-11",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 4928,
-          "cant": 1,
-          "peso": 35.95,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 1,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BLL"
-        },
-        {
-          "item": 184,
-          "cod": "BLL-VAT-12",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 4928,
-          "cant": 1,
-          "peso": 35.95,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 1,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BLL"
-        },
-        {
-          "item": 185,
-          "cod": "BLL-VPI-1",
-          "prod": "Viga Principal Alma Llena",
-          "long": 2391,
-          "cant": 1,
-          "peso": 75.51,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 1,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BLL"
-        },
-        {
-          "item": 186,
+          "item": 163,
           "cod": "BLL-VPI-2",
           "prod": "Viga Principal Alma Llena",
           "long": 1329,
@@ -55018,259 +53677,7 @@
           "literal": "BLL"
         },
         {
-          "item": 187,
-          "cod": "BLL-VPI-3",
-          "prod": "Viga Principal Alma Llena",
-          "long": 2085,
-          "cant": 1,
-          "peso": 76.28,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 1,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BLL"
-        },
-        {
-          "item": 188,
-          "cod": "BLL-VPI-4",
-          "prod": "Viga Principal Alma Llena",
-          "long": 5125,
-          "cant": 1,
-          "peso": 179.53,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 179.53,
-          "literal": "BLL"
-        },
-        {
-          "item": 189,
-          "cod": "BLL-VPI-5",
-          "prod": "Viga Principal Alma Llena",
-          "long": 3475,
-          "cant": 1,
-          "peso": 114.27,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 114.27,
-          "literal": "BLL"
-        },
-        {
-          "item": 190,
-          "cod": "BLL-VPI-6",
-          "prod": "Viga Principal Alma Llena",
-          "long": 2000,
-          "cant": 3,
-          "peso": 252,
-          "arm_lib": 3,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 3,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 3,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BLL"
-        },
-        {
-          "item": 191,
-          "cod": "BLL-VPI-7",
-          "prod": "Viga Principal Alma Llena",
-          "long": 6270,
-          "cant": 1,
-          "peso": 206.18,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 1,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BLL"
-        },
-        {
-          "item": 192,
-          "cod": "BLL-VPI-8",
-          "prod": "Viga Principal Alma Llena",
-          "long": 6320,
-          "cant": 1,
-          "peso": 207.83,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 1,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BLL"
-        },
-        {
-          "item": 193,
-          "cod": "BLL-VPI-9",
-          "prod": "Viga Principal Alma Llena",
-          "long": 5860,
-          "cant": 1,
-          "peso": 192.7,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 1,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BLL"
-        },
-        {
-          "item": 194,
-          "cod": "BLL-VPI-10",
-          "prod": "Viga Principal Alma Llena",
-          "long": 5910,
-          "cant": 1,
-          "peso": 194.34,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 1,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BLL"
-        },
-        {
-          "item": 195,
-          "cod": "BLL-VSI-1",
-          "prod": "Viga secundaria IS",
-          "long": 2381,
-          "cant": 5,
-          "peso": 355.6,
-          "arm_lib": 5,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 5,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 5,
-          "env_pend_peso": 355.6,
-          "literal": "BLL"
-        },
-        {
-          "item": 196,
-          "cod": "BLL-VTR-1",
-          "prod": "Viga Techo Reticulada de angulos",
-          "long": 10172,
-          "cant": 1,
-          "peso": 392.91,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 1,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BLL"
-        },
-        {
-          "item": 197,
-          "cod": "BLL-VTR-2",
-          "prod": "Viga Techo Reticulada de angulos",
-          "long": 10172,
-          "cant": 2,
-          "peso": 783.88,
-          "arm_lib": 2,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 2,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 2,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BLL"
-        },
-        {
-          "item": 198,
-          "cod": "BLL-VTR-3",
-          "prod": "Viga Techo Reticulada de angulos",
-          "long": 10172,
-          "cant": 1,
-          "peso": 391.94,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 1,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BLL"
-        },
-        {
-          "item": 199,
-          "cod": "BLL-VTR-4",
-          "prod": "Viga Techo Reticulada de angulos",
-          "long": 10172,
-          "cant": 1,
-          "peso": 391.94,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 1,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BLL"
-        },
-        {
-          "item": 200,
-          "cod": "BLL-VTR-5",
-          "prod": "Viga Techo Reticulada de angulos",
-          "long": 10172,
-          "cant": 1,
-          "peso": 392.91,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 1,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BLL"
-        },
-        {
-          "item": 201,
+          "item": 175,
           "cod": "BLL-VTT-1",
           "prod": "Viga de techo de tubos",
           "long": 10116,
@@ -55288,7 +53695,7 @@
           "literal": "BLL"
         },
         {
-          "item": 202,
+          "item": 176,
           "cod": "BLL-VTT-2",
           "prod": "Viga de techo de tubos",
           "long": 10116,
@@ -55306,25 +53713,7 @@
           "literal": "BLL"
         },
         {
-          "item": 203,
-          "cod": "BLL-CH-300",
-          "prod": "Cruz Horizontal",
-          "long": 5934,
-          "cant": 2,
-          "peso": 16.58,
-          "arm_lib": 0.5,
-          "arm_pend": 1.5,
-          "arm_pend_peso": 12.435,
-          "pint_ok": 2,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 16.58,
-          "literal": "BLL"
-        },
-        {
-          "item": 204,
+          "item": 177,
           "cod": "BLL-CH-301",
           "prod": "Cruz Horizontal",
           "long": 7560,
@@ -55342,25 +53731,7 @@
           "literal": "BLL"
         },
         {
-          "item": 205,
-          "cod": "BLL-CR-300",
-          "prod": "Correa Techo",
-          "long": 3755,
-          "cant": 1,
-          "peso": 36.08,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 36.08,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 36.08,
-          "literal": "BLL"
-        },
-        {
-          "item": 206,
+          "item": 178,
           "cod": "BLL-CR-301",
           "prod": "Correa Techo",
           "long": 6490,
@@ -55378,7 +53749,7 @@
           "literal": "BLL"
         },
         {
-          "item": 207,
+          "item": 179,
           "cod": "BLL-CR-302",
           "prod": "Correa Techo",
           "long": 6140,
@@ -55396,7 +53767,7 @@
           "literal": "BLL"
         },
         {
-          "item": 208,
+          "item": 180,
           "cod": "BLL-DI-300",
           "prod": "Diagonal",
           "long": 2028,
@@ -55414,43 +53785,7 @@
           "literal": "BLL"
         },
         {
-          "item": 209,
-          "cod": "BLL-DI-301",
-          "prod": "Diagonal",
-          "long": 2416,
-          "cant": 2,
-          "peso": 2.46,
-          "arm_lib": 2,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 2,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 2.46,
-          "literal": "BLL"
-        },
-        {
-          "item": 210,
-          "cod": "BLL-DI-302",
-          "prod": "Diagonal",
-          "long": 2295,
-          "cant": 2,
-          "peso": 2.34,
-          "arm_lib": 2,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 2,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 2.34,
-          "literal": "BLL"
-        },
-        {
-          "item": 211,
+          "item": 181,
           "cod": "BLL-DI-303",
           "prod": "Diagonal",
           "long": 1992,
@@ -55468,7 +53803,7 @@
           "literal": "BLL"
         },
         {
-          "item": 212,
+          "item": 182,
           "cod": "BLL-DI-304",
           "prod": "Diagonal",
           "long": 2663,
@@ -55486,7 +53821,7 @@
           "literal": "BLL"
         },
         {
-          "item": 213,
+          "item": 183,
           "cod": "BLL-DI-305",
           "prod": "Diagonal",
           "long": 2549,
@@ -55504,7 +53839,7 @@
           "literal": "BLL"
         },
         {
-          "item": 214,
+          "item": 184,
           "cod": "BLL-DI-306",
           "prod": "Diagonal",
           "long": 2307,
@@ -55522,7 +53857,7 @@
           "literal": "BLL"
         },
         {
-          "item": 215,
+          "item": 185,
           "cod": "BLL-DI-307",
           "prod": "Diagonal",
           "long": 2449,
@@ -55540,7 +53875,7 @@
           "literal": "BLL"
         },
         {
-          "item": 216,
+          "item": 186,
           "cod": "BLL-DI-308",
           "prod": "Diagonal",
           "long": 2154,
@@ -55558,7 +53893,7 @@
           "literal": "BLL"
         },
         {
-          "item": 217,
+          "item": 187,
           "cod": "BLL-DI-309",
           "prod": "Diagonal",
           "long": 2555,
@@ -55576,7 +53911,7 @@
           "literal": "BLL"
         },
         {
-          "item": 218,
+          "item": 188,
           "cod": "BLL-PCC-300",
           "prod": "Correa de Cenefa/ Perfilado",
           "long": 5632,
@@ -55594,25 +53929,25 @@
           "literal": "BLL"
         },
         {
-          "item": 219,
+          "item": 189,
           "cod": "BLL-PCC-301",
           "prod": "Correa de Cenefa/ Perfilado",
-          "long": 3575,
+          "long": 3304,
           "cant": 2,
-          "peso": 34.36,
+          "peso": 31.62,
           "arm_lib": 0,
           "arm_pend": 2,
-          "arm_pend_peso": 34.36,
+          "arm_pend_peso": 31.62,
           "pint_ok": 0,
           "pint_pend": 2,
-          "pint_pend_peso": 34.36,
+          "pint_pend_peso": 31.62,
           "env_ok": 0,
           "env_pend": 2,
-          "env_pend_peso": 34.36,
+          "env_pend_peso": 31.62,
           "literal": "BLL"
         },
         {
-          "item": 220,
+          "item": 190,
           "cod": "BLL-PCC-302",
           "prod": "Correa de Cenefa/ Perfilado",
           "long": 6370,
@@ -55630,7 +53965,7 @@
           "literal": "BLL"
         },
         {
-          "item": 221,
+          "item": 191,
           "cod": "BLL-PCC-303",
           "prod": "Correa de Cenefa/ Perfilado",
           "long": 5960,
@@ -55648,25 +53983,25 @@
           "literal": "BLL"
         },
         {
-          "item": 222,
+          "item": 192,
           "cod": "BLL-PCR-300",
           "prod": "Correa de Techo/ Perfilado",
-          "long": 3764,
+          "long": 3533,
           "cant": 4,
-          "peso": 72.32,
+          "peso": 6788,
           "arm_lib": 0,
           "arm_pend": 4,
-          "arm_pend_peso": 72.32,
+          "arm_pend_peso": 6788,
           "pint_ok": 0,
           "pint_pend": 4,
-          "pint_pend_peso": 72.32,
+          "pint_pend_peso": 6788,
           "env_ok": 0,
           "env_pend": 4,
-          "env_pend_peso": 72.32,
+          "env_pend_peso": 6788,
           "literal": "BLL"
         },
         {
-          "item": 223,
+          "item": 193,
           "cod": "BLL-PCR-301",
           "prod": "Correa de Techo/ Perfilado",
           "long": 6490,
@@ -55684,7 +54019,7 @@
           "literal": "BLL"
         },
         {
-          "item": 224,
+          "item": 194,
           "cod": "BLL-PCR-302",
           "prod": "Correa de Techo/ Perfilado",
           "long": 6148,
@@ -55702,7 +54037,7 @@
           "literal": "BLL"
         },
         {
-          "item": 225,
+          "item": 195,
           "cod": "BLL-PTC-300",
           "prod": "Pilar Tubo Caño",
           "long": 1005,
@@ -55720,7 +54055,7 @@
           "literal": "BLL"
         },
         {
-          "item": 226,
+          "item": 196,
           "cod": "BLL-PTC-301",
           "prod": "Pilar Tubo Caño",
           "long": 1005,
@@ -55738,7 +54073,7 @@
           "literal": "BLL"
         },
         {
-          "item": 227,
+          "item": 197,
           "cod": "BLL-SC-300",
           "prod": "Soporte Cruz",
           "long": 130,
@@ -55756,7 +54091,7 @@
           "literal": "BLL"
         },
         {
-          "item": 228,
+          "item": 198,
           "cod": "BLL-SC-301",
           "prod": "Soporte Cruz",
           "long": 130,
@@ -55774,7 +54109,7 @@
           "literal": "BLL"
         },
         {
-          "item": 229,
+          "item": 199,
           "cod": "BLL-SD-300",
           "prod": "Soporte Diagonal",
           "long": 50,
@@ -55792,7 +54127,7 @@
           "literal": "BLL"
         },
         {
-          "item": 230,
+          "item": 200,
           "cod": "BLL-TC-300",
           "prod": "Tilla de compresion",
           "long": 938,
@@ -55810,7 +54145,7 @@
           "literal": "BLL"
         },
         {
-          "item": 231,
+          "item": 201,
           "cod": "BLL-TC-301",
           "prod": "Tilla de compresion",
           "long": 1401,
@@ -55828,7 +54163,7 @@
           "literal": "BLL"
         },
         {
-          "item": 232,
+          "item": 202,
           "cod": "BLL-TC-302",
           "prod": "Tilla de compresion",
           "long": 1576,
@@ -55846,7 +54181,7 @@
           "literal": "BLL"
         },
         {
-          "item": 233,
+          "item": 203,
           "cod": "BLL-TI-300",
           "prod": "Tilla de Traccion",
           "long": 1717,
@@ -55864,7 +54199,7 @@
           "literal": "BLL"
         },
         {
-          "item": 234,
+          "item": 204,
           "cod": "BLL-VMR-300",
           "prod": "Viga Marquesina Reticulado",
           "long": 5962,
@@ -55882,7 +54217,7 @@
           "literal": "BLL"
         },
         {
-          "item": 235,
+          "item": 205,
           "cod": "BLL-VMR-301",
           "prod": "Viga Marquesina Reticulado",
           "long": 5962,
@@ -55900,7 +54235,7 @@
           "literal": "BLL"
         },
         {
-          "item": 236,
+          "item": 206,
           "cod": "BLL-VMR-302",
           "prod": "Viga Marquesina Reticulado",
           "long": 5962,
@@ -55918,7 +54253,7 @@
           "literal": "BLL"
         },
         {
-          "item": 237,
+          "item": 207,
           "cod": "BLL-VMR-303",
           "prod": "Viga Marquesina Reticulado",
           "long": 5962,
@@ -55936,7 +54271,7 @@
           "literal": "BLL"
         },
         {
-          "item": 238,
+          "item": 208,
           "cod": "BLL-SK-1",
           "prod": "Steel  Deck PT",
           "long": 1602,
@@ -55954,7 +54289,7 @@
           "literal": "BLL"
         },
         {
-          "item": 239,
+          "item": 209,
           "cod": "BLL-SK-2",
           "prod": "Steel  Deck PT",
           "long": 3850,
@@ -55972,7 +54307,7 @@
           "literal": "BLL"
         },
         {
-          "item": 240,
+          "item": 210,
           "cod": "BLL-SK-3",
           "prod": "Steel  Deck PT",
           "long": 4483,
@@ -55990,7 +54325,7 @@
           "literal": "BLL"
         },
         {
-          "item": 241,
+          "item": 211,
           "cod": "BLL-SK-4",
           "prod": "Steel  Deck PT",
           "long": 4210,
@@ -56008,58 +54343,886 @@
           "literal": "BLL"
         },
         {
-          "item": 242,
-          "cod": "34409-PL-1",
-          "prod": "Placa",
-          "long": 0,
+          "item": 215,
+          "cod": ".R.BLL-CH-1",
+          "prod": "Cruz Horizontal",
+          "long": 5958,
           "cant": 1,
-          "peso": 0,
+          "peso": 8.32,
           "arm_lib": 0,
           "arm_pend": 1,
-          "arm_pend_peso": 0,
+          "arm_pend_peso": 8.32,
           "pint_ok": 0,
           "pint_pend": 1,
-          "pint_pend_peso": 0,
-          "env_ok": 1,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "PL"
+          "pint_pend_peso": 8.32,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 8.32,
+          "literal": ".R.BLL"
+        },
+        {
+          "item": 216,
+          "cod": ".R.BLL-CH-2",
+          "prod": "Cruz Horizontal",
+          "long": 5894,
+          "cant": 1,
+          "peso": 8.23,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 8.23,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 8.23,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 8.23,
+          "literal": ".R.BLL"
+        },
+        {
+          "item": 217,
+          "cod": ".R.BLL-CH-3",
+          "prod": "Cruz Horizontal",
+          "long": 5993,
+          "cant": 1,
+          "peso": 8.37,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 8.37,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 8.37,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 8.37,
+          "literal": ".R.BLL"
+        },
+        {
+          "item": 218,
+          "cod": "BLL-CH-10",
+          "prod": "Cruz Horizontal",
+          "long": 5874,
+          "cant": 1,
+          "peso": 8.21,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 8.21,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 8.21,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 8.21,
+          "literal": "BLL"
+        },
+        {
+          "item": 219,
+          "cod": ".R.BLL-CH-300",
+          "prod": "Cruz Horizontal",
+          "long": 5570,
+          "cant": 1,
+          "peso": 7.78,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 7.78,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 7.78,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 7.78,
+          "literal": ".R.BLL"
+        },
+        {
+          "item": 220,
+          "cod": "BLL-CH-302",
+          "prod": "Cruz Horizontal",
+          "long": 5573,
+          "cant": 1,
+          "peso": 7.79,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 7.79,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 7.79,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 7.79,
+          "literal": "BLL"
+        },
+        {
+          "item": 221,
+          "cod": ".R.BLL-CR-1",
+          "prod": "Correa Techo",
+          "long": 3775,
+          "cant": 1,
+          "peso": 36.27,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 36.27,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 36.27,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 36.27,
+          "literal": ".R.BLL"
+        },
+        {
+          "item": 222,
+          "cod": ".R.BLL-CR-300",
+          "prod": "Correa Techo",
+          "long": 3524,
+          "cant": 1,
+          "peso": 33.86,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 33.86,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 33.86,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 33.86,
+          "literal": ".R.BLL"
+        },
+        {
+          "item": 223,
+          "cod": ".R.BLL-CV-6",
+          "prod": "Cruz Vertical",
+          "long": 5810,
+          "cant": 2,
+          "peso": 16.24,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 16.24,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 16.24,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 16.24,
+          "literal": ".R.BLL"
+        },
+        {
+          "item": 224,
+          "cod": ".R.BLL-CV-7",
+          "prod": "Cruz Vertical",
+          "long": 3916,
+          "cant": 1,
+          "peso": 5.47,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 5.47,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 5.47,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 5.47,
+          "literal": ".R.BLL"
+        },
+        {
+          "item": 225,
+          "cod": ".R.BLL-CV-8",
+          "prod": "Cruz Vertical",
+          "long": 4164,
+          "cant": 1,
+          "peso": 5.81,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 5.81,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 5.81,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 5.81,
+          "literal": ".R.BLL"
+        },
+        {
+          "item": 226,
+          "cod": ".R.BLL-CV-9",
+          "prod": "Cruz Vertical",
+          "long": 4980,
+          "cant": 1,
+          "peso": 6.95,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 6.95,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 6.95,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 6.95,
+          "literal": ".R.BLL"
+        },
+        {
+          "item": 227,
+          "cod": "BLL-CV-16",
+          "prod": "Cruz Vertical",
+          "long": 3916,
+          "cant": 1,
+          "peso": 5.47,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 5.47,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 5.47,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 5.47,
+          "literal": "BLL"
+        },
+        {
+          "item": 228,
+          "cod": "BLL-CV-17",
+          "prod": "Cruz Vertical",
+          "long": 4974,
+          "cant": 1,
+          "peso": 6.95,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 6.95,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 6.95,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 6.95,
+          "literal": "BLL"
+        },
+        {
+          "item": 229,
+          "cod": "BLL-CV-18",
+          "prod": "Cruz Vertical",
+          "long": 4168,
+          "cant": 1,
+          "peso": 5.82,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 5.82,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 5.82,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 5.82,
+          "literal": "BLL"
+        },
+        {
+          "item": 230,
+          "cod": ".R.BLL-DI-6",
+          "prod": "Diagonal",
+          "long": 1718,
+          "cant": 2,
+          "peso": 1.76,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 1.76,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 1.76,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 1.76,
+          "literal": ".R.BLL"
+        },
+        {
+          "item": 231,
+          "cod": ".R.BLL-DI-7",
+          "prod": "Diagonal",
+          "long": 1883,
+          "cant": 1,
+          "peso": 0.96,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 0.96,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 0.96,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 0.96,
+          "literal": ".R.BLL"
+        },
+        {
+          "item": 232,
+          "cod": ".R.BLL-DI-8",
+          "prod": "Diagonal",
+          "long": 1507,
+          "cant": 1,
+          "peso": 0.77,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 0.77,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 0.77,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 0.77,
+          "literal": ".R.BLL"
+        },
+        {
+          "item": 233,
+          "cod": ".R.BLL-DI-10",
+          "prod": "Diagonal",
+          "long": 1174,
+          "cant": 1,
+          "peso": 0.6,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 0.6,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 0.6,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 0.6,
+          "literal": ".R.BLL"
+        },
+        {
+          "item": 234,
+          "cod": ".R.BLL-DI-11",
+          "prod": "Diagonal",
+          "long": 1507,
+          "cant": 2,
+          "peso": 1.54,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 1.54,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 1.54,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 1.54,
+          "literal": ".R.BLL"
+        },
+        {
+          "item": 235,
+          "cod": "BLL-DI-29",
+          "prod": "Diagonal",
+          "long": 1580,
+          "cant": 1,
+          "peso": 0.81,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 0.81,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 0.81,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 0.81,
+          "literal": "BLL"
+        },
+        {
+          "item": 236,
+          "cod": "BLL-DI-30",
+          "prod": "Diagonal",
+          "long": 1751,
+          "cant": 1,
+          "peso": 0.89,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 0.89,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 0.89,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 0.89,
+          "literal": "BLL"
+        },
+        {
+          "item": 237,
+          "cod": "BLL-DI-32",
+          "prod": "Diagonal",
+          "long": 1555,
+          "cant": 1,
+          "peso": 0.8,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 0.8,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 0.8,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 0.8,
+          "literal": "BLL"
+        },
+        {
+          "item": 238,
+          "cod": "BLL-DI-33",
+          "prod": "Diagonal",
+          "long": 1356,
+          "cant": 1,
+          "peso": 0.7,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 0.7,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 0.7,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 0.7,
+          "literal": "BLL"
+        },
+        {
+          "item": 239,
+          "cod": "BLL-DI-34",
+          "prod": "Diagonal",
+          "long": 1327,
+          "cant": 1,
+          "peso": 0.68,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 0.68,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 0.68,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 0.68,
+          "literal": "BLL"
+        },
+        {
+          "item": 240,
+          "cod": ".R.BLL-DI-301",
+          "prod": "Diagonal",
+          "long": 2416,
+          "cant": 1,
+          "peso": 1.23,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 1.23,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 1.23,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 1.23,
+          "literal": ".R.BLL"
+        },
+        {
+          "item": 241,
+          "cod": ".R.BLL-DI-302",
+          "prod": "Diagonal",
+          "long": 2153,
+          "cant": 1,
+          "peso": 1.1,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 1.1,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 1.1,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 1.1,
+          "literal": ".R.BLL"
+        },
+        {
+          "item": 242,
+          "cod": "BLL-DI-310",
+          "prod": "Diagonal",
+          "long": 2225,
+          "cant": 1,
+          "peso": 1.13,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 1.13,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 1.13,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 1.13,
+          "literal": "BLL"
         },
         {
           "item": 243,
-          "cod": "34409-PL-2",
-          "prod": "Placa",
-          "long": 0,
+          "cod": "BLL-DI-311",
+          "prod": "Diagonal",
+          "long": 1929,
           "cant": 1,
-          "peso": 0,
+          "peso": 0.98,
           "arm_lib": 0,
           "arm_pend": 1,
-          "arm_pend_peso": 0,
+          "arm_pend_peso": 0.98,
           "pint_ok": 0,
           "pint_pend": 1,
-          "pint_pend_peso": 0,
-          "env_ok": 1,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "PL"
+          "pint_pend_peso": 0.98,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 0.98,
+          "literal": "BLL"
         },
         {
           "item": 244,
-          "cod": "34409-PL-3",
-          "prod": "Placa",
-          "long": 0,
+          "cod": "BLL-PCC-4",
+          "prod": "Correa de Cenefa/ Perfilado",
+          "long": 3291,
+          "cant": 3,
+          "peso": 47.43,
+          "arm_lib": 0,
+          "arm_pend": 3,
+          "arm_pend_peso": 47.43,
+          "pint_ok": 0,
+          "pint_pend": 3,
+          "pint_pend_peso": 47.43,
+          "env_ok": 0,
+          "env_pend": 3,
+          "env_pend_peso": 47.43,
+          "literal": "BLL"
+        },
+        {
+          "item": 245,
+          "cod": ".R.BLL-PCL-2",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 3734,
           "cant": 1,
-          "peso": 0,
+          "peso": 17.94,
           "arm_lib": 0,
           "arm_pend": 1,
-          "arm_pend_peso": 0,
+          "arm_pend_peso": 17.94,
           "pint_ok": 0,
           "pint_pend": 1,
-          "pint_pend_peso": 0,
-          "env_ok": 1,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "PL"
+          "pint_pend_peso": 17.94,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 17.94,
+          "literal": ".R.BLL"
+        },
+        {
+          "item": 246,
+          "cod": ".R.BLL-PCL-3",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 3734,
+          "cant": 3,
+          "peso": 53.82,
+          "arm_lib": 0,
+          "arm_pend": 3,
+          "arm_pend_peso": 53.82,
+          "pint_ok": 0,
+          "pint_pend": 3,
+          "pint_pend_peso": 53.82,
+          "env_ok": 0,
+          "env_pend": 3,
+          "env_pend_peso": 53.82,
+          "literal": ".R.BLL"
+        },
+        {
+          "item": 247,
+          "cod": ".R.BLL-PCL-4",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 3734,
+          "cant": 8,
+          "peso": 143.52,
+          "arm_lib": 0,
+          "arm_pend": 8,
+          "arm_pend_peso": 143.52,
+          "pint_ok": 0,
+          "pint_pend": 8,
+          "pint_pend_peso": 143.52,
+          "env_ok": 0,
+          "env_pend": 8,
+          "env_pend_peso": 143.52,
+          "literal": ".R.BLL"
+        },
+        {
+          "item": 248,
+          "cod": ".R.BLL-PCL-6",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 3839,
+          "cant": 1,
+          "peso": 18.44,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 18.44,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 18.44,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 18.44,
+          "literal": ".R.BLL"
+        },
+        {
+          "item": 249,
+          "cod": "BLL-PCR-6",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 3735,
+          "cant": 1,
+          "peso": 17.94,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 17.94,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 17.94,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 17.94,
+          "literal": "BLL"
+        },
+        {
+          "item": 250,
+          "cod": "BLL-PCR-7",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 3735,
+          "cant": 1,
+          "peso": 17.94,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 17.94,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 17.94,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 17.94,
+          "literal": "BLL"
+        },
+        {
+          "item": 251,
+          "cod": "BLL-PCR-8",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 3735,
+          "cant": 1,
+          "peso": 17.94,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 17.94,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 17.94,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 17.94,
+          "literal": "BLL"
+        },
+        {
+          "item": 252,
+          "cod": "BLL-PCR-9",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 3735,
+          "cant": 1,
+          "peso": 17.94,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 17.94,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 17.94,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 17.94,
+          "literal": "BLL"
+        },
+        {
+          "item": 253,
+          "cod": "BLL-PCR-10",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 3735,
+          "cant": 1,
+          "peso": 17.94,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 17.94,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 17.94,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 17.94,
+          "literal": "BLL"
+        },
+        {
+          "item": 254,
+          "cod": "BLL-PCR-11",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 3735,
+          "cant": 1,
+          "peso": 17.94,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 17.94,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 17.94,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 17.94,
+          "literal": "BLL"
+        },
+        {
+          "item": 255,
+          "cod": ".R.BLL-VAT-3",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 3309,
+          "cant": 1,
+          "peso": 22.79,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 22.79,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 22.79,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 22.79,
+          "literal": ".R.BLL"
+        },
+        {
+          "item": 256,
+          "cod": ".R.BLL-VAT-4",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 3352,
+          "cant": 1,
+          "peso": 26.25,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 26.25,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 26.25,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 26.25,
+          "literal": ".R.BLL"
+        },
+        {
+          "item": 257,
+          "cod": ".R.BLL-VAT-5",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 3352,
+          "cant": 1,
+          "peso": 23.05,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 23.05,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 23.05,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 23.05,
+          "literal": ".R.BLL"
+        },
+        {
+          "item": 258,
+          "cod": "BLL-VAT-13",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 3394,
+          "cant": 1,
+          "peso": 26.51,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 26.51,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 26.51,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 26.51,
+          "literal": "BLL"
+        },
+        {
+          "item": 259,
+          "cod": "BLL-VAT-14",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 3394,
+          "cant": 1,
+          "peso": 23.34,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 23.34,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 23.34,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 23.34,
+          "literal": "BLL"
+        },
+        {
+          "item": 260,
+          "cod": ".R.BLL-VPI-1",
+          "prod": "Viga Principal Alma Llena",
+          "long": 2391,
+          "cant": 1,
+          "peso": 75.51,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 75.51,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 75.51,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 75.51,
+          "literal": ".R.BLL"
+        },
+        {
+          "item": 261,
+          "cod": ".R.BLL-VPI-3",
+          "prod": "Viga Principal Alma Llena",
+          "long": 2085,
+          "cant": 1,
+          "peso": 76.28,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 76.28,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 76.28,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 76.28,
+          "literal": ".R.BLL"
+        },
+        {
+          "item": 262,
+          "cod": ".R.BLL-VPI-4",
+          "prod": "Viga Principal Alma Llena",
+          "long": 4893,
+          "cant": 1,
+          "peso": 171.93,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 171.93,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 171.93,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 171.93,
+          "literal": ".R.BLL"
+        },
+        {
+          "item": 263,
+          "cod": ".R.BLL-VPI-5",
+          "prod": "Viga Principal Alma Llena",
+          "long": 3244,
+          "cant": 1,
+          "peso": 106.67,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 106.67,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 106.67,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 106.67,
+          "literal": ".R.BLL"
         }
       ],
       "arm_pend_items": [
@@ -56080,23 +55243,9 @@
         {
           "cod": "BLL-PCC-1",
           "prod": "Correa de Cenefa/ Perfilado",
-          "long": 3564,
-          "cant": 6,
-          "pend": 6
-        },
-        {
-          "cod": "BLL-PCC-2",
-          "prod": "Correa de Cenefa/ Perfilado",
-          "long": 6359,
-          "cant": 6,
-          "pend": 6
-        },
-        {
-          "cod": "BLL-PCC-3",
-          "prod": "Correa de Cenefa/ Perfilado",
-          "long": 5947,
-          "cant": 30,
-          "pend": 30
+          "long": 3333,
+          "cant": 3,
+          "pend": 3
         },
         {
           "cod": "BLL-PCL-1",
@@ -56106,27 +55255,6 @@
           "pend": 1
         },
         {
-          "cod": "BLL-PCL-2",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 3965,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BLL-PCL-3",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 3965,
-          "cant": 3,
-          "pend": 3
-        },
-        {
-          "cod": "BLL-PCL-4",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 3960,
-          "cant": 8,
-          "pend": 8
-        },
-        {
           "cod": "BLL-PCL-5",
           "prod": "Correa Lateral/ Perfilado",
           "long": 3865,
@@ -56134,23 +55262,16 @@
           "pend": 1
         },
         {
-          "cod": "BLL-PCL-6",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 4070,
-          "cant": 1,
-          "pend": 1
-        },
-        {
           "cod": "BLL-PCL-7",
           "prod": "Correa Lateral/ Perfilado",
-          "long": 4060,
+          "long": 3829,
           "cant": 1,
           "pend": 1
         },
         {
           "cod": "BLL-PCL-8",
           "prod": "Correa Lateral/ Perfilado",
-          "long": 3472,
+          "long": 3241,
           "cant": 1,
           "pend": 1
         },
@@ -56164,93 +55285,16 @@
         {
           "cod": "BLL-PCL-10",
           "prod": "Correa Lateral/ Perfilado",
-          "long": 2083,
+          "long": 1752,
           "cant": 2,
           "pend": 2
         },
         {
-          "cod": "BLL-PCL-11",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 6490,
-          "cant": 13,
-          "pend": 13
-        },
-        {
-          "cod": "BLL-PCL-12",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 6267,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BLL-PCL-13",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 6470,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BLL-PCL-14",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 6185,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BLL-PCL-15",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 6080,
-          "cant": 66,
-          "pend": 66
-        },
-        {
-          "cod": "BLL-PCL-16",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5857,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BLL-PCL-17",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 6060,
-          "cant": 5,
-          "pend": 5
-        },
-        {
-          "cod": "BLL-PCL-18",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5969,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BLL-PCL-19",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 6350,
-          "cant": 18,
-          "pend": 18
-        },
-        {
           "cod": "BLL-PCR-1",
           "prod": "Correa de Techo/ Perfilado",
-          "long": 3966,
-          "cant": 8,
-          "pend": 8
-        },
-        {
-          "cod": "BLL-PCR-4",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6080,
-          "cant": 32,
-          "pend": 32
-        },
-        {
-          "cod": "BLL-PCR-5",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6348,
-          "cant": 8,
-          "pend": 8
+          "long": 3735,
+          "cant": 2,
+          "pend": 2
         },
         {
           "cod": "BLL-PCT-1",
@@ -56267,13 +55311,6 @@
           "pend": 3
         },
         {
-          "cod": "BLL-PCT-3",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 5565,
-          "cant": 29,
-          "pend": 29
-        },
-        {
           "cod": "BLL-PCT-4",
           "prod": "Correa de tímpano/ Perfilado",
           "long": 733,
@@ -56288,13 +55325,6 @@
           "pend": 6
         },
         {
-          "cod": "BLL-PCT-6",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 5064,
-          "cant": 12,
-          "pend": 12
-        },
-        {
           "cod": "BLL-PCT-7",
           "prod": "Correa de tímpano/ Perfilado",
           "long": 415,
@@ -56307,13 +55337,6 @@
           "long": 50,
           "cant": 264,
           "pend": 264
-        },
-        {
-          "cod": "BLL-CH-300",
-          "prod": "Cruz Horizontal",
-          "long": 5934,
-          "cant": 2,
-          "pend": 1.5
         },
         {
           "cod": "BLL-CH-301",
@@ -56332,7 +55355,7 @@
         {
           "cod": "BLL-PCC-301",
           "prod": "Correa de Cenefa/ Perfilado",
-          "long": 3575,
+          "long": 3304,
           "cant": 2,
           "pend": 2
         },
@@ -56353,7 +55376,7 @@
         {
           "cod": "BLL-PCR-300",
           "prod": "Correa de Techo/ Perfilado",
-          "long": 3764,
+          "long": 3533,
           "cant": 4,
           "pend": 4
         },
@@ -56435,49 +55458,350 @@
           "pend": 3
         },
         {
-          "cod": "34409-PL-1",
-          "prod": "Placa",
-          "long": 0,
+          "cod": ".R.BLL-CH-1",
+          "prod": "Cruz Horizontal",
+          "long": 5958,
           "cant": 1,
           "pend": 1
         },
         {
-          "cod": "34409-PL-2",
-          "prod": "Placa",
-          "long": 0,
+          "cod": ".R.BLL-CH-2",
+          "prod": "Cruz Horizontal",
+          "long": 5894,
           "cant": 1,
           "pend": 1
         },
         {
-          "cod": "34409-PL-3",
-          "prod": "Placa",
-          "long": 0,
+          "cod": ".R.BLL-CH-3",
+          "prod": "Cruz Horizontal",
+          "long": 5993,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BLL-CH-10",
+          "prod": "Cruz Horizontal",
+          "long": 5874,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BLL-CH-300",
+          "prod": "Cruz Horizontal",
+          "long": 5570,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BLL-CH-302",
+          "prod": "Cruz Horizontal",
+          "long": 5573,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BLL-CR-1",
+          "prod": "Correa Techo",
+          "long": 3775,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BLL-CR-300",
+          "prod": "Correa Techo",
+          "long": 3524,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BLL-CV-6",
+          "prod": "Cruz Vertical",
+          "long": 5810,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": ".R.BLL-CV-7",
+          "prod": "Cruz Vertical",
+          "long": 3916,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BLL-CV-8",
+          "prod": "Cruz Vertical",
+          "long": 4164,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BLL-CV-9",
+          "prod": "Cruz Vertical",
+          "long": 4980,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BLL-CV-16",
+          "prod": "Cruz Vertical",
+          "long": 3916,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BLL-CV-17",
+          "prod": "Cruz Vertical",
+          "long": 4974,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BLL-CV-18",
+          "prod": "Cruz Vertical",
+          "long": 4168,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BLL-DI-6",
+          "prod": "Diagonal",
+          "long": 1718,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": ".R.BLL-DI-7",
+          "prod": "Diagonal",
+          "long": 1883,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BLL-DI-8",
+          "prod": "Diagonal",
+          "long": 1507,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BLL-DI-10",
+          "prod": "Diagonal",
+          "long": 1174,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BLL-DI-11",
+          "prod": "Diagonal",
+          "long": 1507,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BLL-DI-29",
+          "prod": "Diagonal",
+          "long": 1580,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BLL-DI-30",
+          "prod": "Diagonal",
+          "long": 1751,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BLL-DI-32",
+          "prod": "Diagonal",
+          "long": 1555,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BLL-DI-33",
+          "prod": "Diagonal",
+          "long": 1356,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BLL-DI-34",
+          "prod": "Diagonal",
+          "long": 1327,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BLL-DI-301",
+          "prod": "Diagonal",
+          "long": 2416,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BLL-DI-302",
+          "prod": "Diagonal",
+          "long": 2153,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BLL-DI-310",
+          "prod": "Diagonal",
+          "long": 2225,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BLL-DI-311",
+          "prod": "Diagonal",
+          "long": 1929,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BLL-PCC-4",
+          "prod": "Correa de Cenefa/ Perfilado",
+          "long": 3291,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": ".R.BLL-PCL-2",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 3734,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BLL-PCL-3",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 3734,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": ".R.BLL-PCL-4",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 3734,
+          "cant": 8,
+          "pend": 8
+        },
+        {
+          "cod": ".R.BLL-PCL-6",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 3839,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BLL-PCR-6",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 3735,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BLL-PCR-7",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 3735,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BLL-PCR-8",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 3735,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BLL-PCR-9",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 3735,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BLL-PCR-10",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 3735,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BLL-PCR-11",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 3735,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BLL-VAT-3",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 3309,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BLL-VAT-4",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 3352,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BLL-VAT-5",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 3352,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BLL-VAT-13",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 3394,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BLL-VAT-14",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 3394,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BLL-VPI-1",
+          "prod": "Viga Principal Alma Llena",
+          "long": 2391,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BLL-VPI-3",
+          "prod": "Viga Principal Alma Llena",
+          "long": 2085,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BLL-VPI-4",
+          "prod": "Viga Principal Alma Llena",
+          "long": 4893,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BLL-VPI-5",
+          "prod": "Viga Principal Alma Llena",
+          "long": 3244,
           "cant": 1,
           "pend": 1
         }
       ],
       "pint_pend_items": [
-        {
-          "cod": "34403-AN-1",
-          "prod": "Anclaje",
-          "long": 0,
-          "cant": 16,
-          "pend": 16
-        },
-        {
-          "cod": "34404-AN-2",
-          "prod": "Anclaje",
-          "long": 0,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "34405-AN-3",
-          "prod": "Anclaje",
-          "long": 0,
-          "cant": 4,
-          "pend": 4
-        },
         {
           "cod": "34562-CN-1",
           "prod": "Canaleta x Kg.",
@@ -56549,34 +55873,6 @@
           "pend": 1
         },
         {
-          "cod": "BLL-CR-1",
-          "prod": "Correa Techo",
-          "long": 4006,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BLL-CR-2",
-          "prod": "Correa Techo",
-          "long": 6490,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BLL-CR-4",
-          "prod": "Correa Techo",
-          "long": 6080,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BLL-CR-5",
-          "prod": "Correa Techo",
-          "long": 6388,
-          "cant": 1,
-          "pend": 1
-        },
-        {
           "cod": "BLL-ES-1",
           "prod": "Escalera Metalica",
           "long": 5279,
@@ -56584,18 +55880,11 @@
           "pend": 1
         },
         {
-          "cod": "BLL-MF-1",
-          "prod": "Mano Francesa",
-          "long": 1285,
-          "cant": 6,
-          "pend": 6
-        },
-        {
           "cod": "BLL-PCC-1",
           "prod": "Correa de Cenefa/ Perfilado",
-          "long": 3564,
-          "cant": 6,
-          "pend": 6
+          "long": 3333,
+          "cant": 3,
+          "pend": 3
         },
         {
           "cod": "BLL-PCL-1",
@@ -56603,20 +55892,6 @@
           "long": 318,
           "cant": 1,
           "pend": 1
-        },
-        {
-          "cod": "BLL-PCL-3",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 3965,
-          "cant": 3,
-          "pend": 1
-        },
-        {
-          "cod": "BLL-PCL-4",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 3960,
-          "cant": 8,
-          "pend": 5
         },
         {
           "cod": "BLL-PCL-5",
@@ -56628,14 +55903,14 @@
         {
           "cod": "BLL-PCL-7",
           "prod": "Correa Lateral/ Perfilado",
-          "long": 4060,
+          "long": 3829,
           "cant": 1,
           "pend": 1
         },
         {
           "cod": "BLL-PCL-8",
           "prod": "Correa Lateral/ Perfilado",
-          "long": 3472,
+          "long": 3241,
           "cant": 1,
           "pend": 1
         },
@@ -56649,23 +55924,16 @@
         {
           "cod": "BLL-PCL-10",
           "prod": "Correa Lateral/ Perfilado",
-          "long": 2083,
+          "long": 1752,
           "cant": 2,
           "pend": 2
         },
         {
           "cod": "BLL-PCR-1",
           "prod": "Correa de Techo/ Perfilado",
-          "long": 3966,
-          "cant": 8,
-          "pend": 8
-        },
-        {
-          "cod": "BLL-PCR-4",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 6080,
-          "cant": 32,
-          "pend": 3
+          "long": 3735,
+          "cant": 2,
+          "pend": 2
         },
         {
           "cod": "BLL-PCT-1",
@@ -56717,32 +55985,11 @@
           "pend": 4
         },
         {
-          "cod": "BLL-PTC-2",
-          "prod": "Pilar Tubo Caño",
-          "long": 2075,
-          "cant": 1,
-          "pend": 1
-        },
-        {
           "cod": "BLL-PTC-4",
           "prod": "Pilar Tubo Caño",
           "long": 2075,
           "cant": 6,
           "pend": 2
-        },
-        {
-          "cod": "BLL-PTC-7",
-          "prod": "Pilar Tubo Caño",
-          "long": 2075,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BLL-PTC-8",
-          "prod": "Pilar Tubo Caño",
-          "long": 2075,
-          "cant": 1,
-          "pend": 1
         },
         {
           "cod": "BLL-SC-1",
@@ -56913,32 +56160,11 @@
           "pend": 14
         },
         {
-          "cod": "BLL-VAT-3",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 3562,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BLL-VAT-5",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 3625,
-          "cant": 2,
-          "pend": 2
-        },
-        {
           "cod": "BLL-VAT-9",
           "prod": "Viga  Arriostre de tubos o caños",
           "long": 6012,
           "cant": 10,
           "pend": 10
-        },
-        {
-          "cod": "BLL-CR-300",
-          "prod": "Correa Techo",
-          "long": 3755,
-          "cant": 1,
-          "pend": 1
         },
         {
           "cod": "BLL-CR-301",
@@ -56964,7 +56190,7 @@
         {
           "cod": "BLL-PCC-301",
           "prod": "Correa de Cenefa/ Perfilado",
-          "long": 3575,
+          "long": 3304,
           "cant": 2,
           "pend": 2
         },
@@ -56985,7 +56211,7 @@
         {
           "cod": "BLL-PCR-300",
           "prod": "Correa de Techo/ Perfilado",
-          "long": 3764,
+          "long": 3533,
           "cant": 4,
           "pend": 4
         },
@@ -57095,23 +56321,345 @@
           "pend": 3
         },
         {
-          "cod": "34409-PL-1",
-          "prod": "Placa",
-          "long": 0,
+          "cod": ".R.BLL-CH-1",
+          "prod": "Cruz Horizontal",
+          "long": 5958,
           "cant": 1,
           "pend": 1
         },
         {
-          "cod": "34409-PL-2",
-          "prod": "Placa",
-          "long": 0,
+          "cod": ".R.BLL-CH-2",
+          "prod": "Cruz Horizontal",
+          "long": 5894,
           "cant": 1,
           "pend": 1
         },
         {
-          "cod": "34409-PL-3",
-          "prod": "Placa",
-          "long": 0,
+          "cod": ".R.BLL-CH-3",
+          "prod": "Cruz Horizontal",
+          "long": 5993,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BLL-CH-10",
+          "prod": "Cruz Horizontal",
+          "long": 5874,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BLL-CH-300",
+          "prod": "Cruz Horizontal",
+          "long": 5570,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BLL-CH-302",
+          "prod": "Cruz Horizontal",
+          "long": 5573,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BLL-CR-1",
+          "prod": "Correa Techo",
+          "long": 3775,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BLL-CR-300",
+          "prod": "Correa Techo",
+          "long": 3524,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BLL-CV-6",
+          "prod": "Cruz Vertical",
+          "long": 5810,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": ".R.BLL-CV-7",
+          "prod": "Cruz Vertical",
+          "long": 3916,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BLL-CV-8",
+          "prod": "Cruz Vertical",
+          "long": 4164,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BLL-CV-9",
+          "prod": "Cruz Vertical",
+          "long": 4980,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BLL-CV-16",
+          "prod": "Cruz Vertical",
+          "long": 3916,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BLL-CV-17",
+          "prod": "Cruz Vertical",
+          "long": 4974,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BLL-CV-18",
+          "prod": "Cruz Vertical",
+          "long": 4168,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BLL-DI-6",
+          "prod": "Diagonal",
+          "long": 1718,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": ".R.BLL-DI-7",
+          "prod": "Diagonal",
+          "long": 1883,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BLL-DI-8",
+          "prod": "Diagonal",
+          "long": 1507,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BLL-DI-10",
+          "prod": "Diagonal",
+          "long": 1174,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BLL-DI-11",
+          "prod": "Diagonal",
+          "long": 1507,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BLL-DI-29",
+          "prod": "Diagonal",
+          "long": 1580,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BLL-DI-30",
+          "prod": "Diagonal",
+          "long": 1751,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BLL-DI-32",
+          "prod": "Diagonal",
+          "long": 1555,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BLL-DI-33",
+          "prod": "Diagonal",
+          "long": 1356,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BLL-DI-34",
+          "prod": "Diagonal",
+          "long": 1327,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BLL-DI-301",
+          "prod": "Diagonal",
+          "long": 2416,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BLL-DI-302",
+          "prod": "Diagonal",
+          "long": 2153,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BLL-DI-310",
+          "prod": "Diagonal",
+          "long": 2225,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BLL-DI-311",
+          "prod": "Diagonal",
+          "long": 1929,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BLL-PCC-4",
+          "prod": "Correa de Cenefa/ Perfilado",
+          "long": 3291,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": ".R.BLL-PCL-2",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 3734,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BLL-PCL-3",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 3734,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": ".R.BLL-PCL-4",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 3734,
+          "cant": 8,
+          "pend": 8
+        },
+        {
+          "cod": ".R.BLL-PCL-6",
+          "prod": "Correa Lateral/ Perfilado",
+          "long": 3839,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BLL-PCR-6",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 3735,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BLL-PCR-7",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 3735,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BLL-PCR-8",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 3735,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BLL-PCR-9",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 3735,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BLL-PCR-10",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 3735,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BLL-PCR-11",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 3735,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BLL-VAT-3",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 3309,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BLL-VAT-4",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 3352,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BLL-VAT-5",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 3352,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BLL-VAT-13",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 3394,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BLL-VAT-14",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 3394,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BLL-VPI-1",
+          "prod": "Viga Principal Alma Llena",
+          "long": 2391,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BLL-VPI-3",
+          "prod": "Viga Principal Alma Llena",
+          "long": 2085,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BLL-VPI-4",
+          "prod": "Viga Principal Alma Llena",
+          "long": 4893,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BLL-VPI-5",
+          "prod": "Viga Principal Alma Llena",
+          "long": 3244,
           "cant": 1,
           "pend": 1
         }
