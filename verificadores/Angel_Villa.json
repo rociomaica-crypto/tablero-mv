@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T10:19:10.616Z",
+  "updatedAt": "2026-10-14T10:21:55.519Z",
   "updatedBy": "Angel Villa",
   "checks": {
     "25257_1": {
@@ -12594,7 +12594,8 @@
       "arm_state": "liberado"
     },
     "25962_7": {
-      "qty_lib": 1
+      "qty_lib": 1,
+      "arm_state": "liberado"
     },
     "25962_1": {
       "qty_lib": 1,
@@ -12605,7 +12606,7 @@
       "arm_state": "liberado"
     },
     "25962_4": {
-      "qty_lib": 0
+      "qty_lib": 1
     },
     "25962_5": {
       "qty_lib": 1,
@@ -12644,6 +12645,13 @@
     "25992_11": {
       "qty_lib": 1,
       "arm_state": "liberado"
+    },
+    "25962_2": {
+      "qty_lib": 1
+    },
+    "25962_9": {
+      "qty_lib": 1,
+      "arm_state": "calibrado"
     }
   },
   "otMeta": {
