@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T09:12:50.146Z",
+  "updatedAt": "2026-10-14T09:23:20.184Z",
   "updatedBy": "Sandro Monzon",
   "checks": {
     "24969_1": {
@@ -8464,7 +8464,7 @@
       "ot": "25659",
       "obra": "NAVE 4 CDLUQUE CHACOMER OP PILAR 16M",
       "cliente": "Kinetik SA",
-      "fecha": "13/10/2026",
+      "fecha": "14/10/2026",
       "avances": {
         "arm": 29,
         "pint": 14,
@@ -8472,17 +8472,17 @@
         "mont": 0
       },
       "totales": {
-        "cant": 18841,
-        "arm_lib": 5496.5,
+        "cant": 18792,
+        "arm_lib": 5447.5,
         "arm_pend": 13344.5,
         "pint_ok": 2692.5,
-        "pint_pend": 16148.5,
-        "env_ok": 148,
+        "pint_pend": 16099.5,
+        "env_ok": 99,
         "env_pend": 18693,
-        "items": 243,
-        "peso_total": 736601.6000000003,
+        "items": 238,
+        "peso_total": 733341.1200000003,
         "arm_pend_peso": 423049.83999999997,
-        "pint_pend_peso": 455685.55,
+        "pint_pend_peso": 452425.07,
         "env_pend_peso": 726944.2800000003
       },
       "items": [
@@ -8559,24 +8559,6 @@
           "literal": "BJK"
         },
         {
-          "item": 5,
-          "cod": "BJK-AN-201",
-          "prod": "Anclaje",
-          "long": 1000,
-          "cant": 45,
-          "peso": 3098.7,
-          "arm_lib": 45,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 45,
-          "pint_pend_peso": 3098.7,
-          "env_ok": 45,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BJK"
-        },
-        {
           "item": 6,
           "cod": "BJK-AN-202",
           "prod": "Anclaje",
@@ -8592,78 +8574,6 @@
           "env_ok": 34,
           "env_pend": 2,
           "env_pend_peso": 131.12,
-          "literal": "BJK"
-        },
-        {
-          "item": 7,
-          "cod": "BJK-RG-700",
-          "prod": "Regla para Ubicacion",
-          "long": 6210,
-          "cant": 1,
-          "peso": 39.27,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 39.27,
-          "env_ok": 1,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BJK"
-        },
-        {
-          "item": 8,
-          "cod": "BJK-RG-701",
-          "prod": "Regla para Ubicacion",
-          "long": 6170,
-          "cant": 1,
-          "peso": 43.46,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 43.46,
-          "env_ok": 1,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BJK"
-        },
-        {
-          "item": 9,
-          "cod": "BJK-RG-702",
-          "prod": "Regla para Ubicacion",
-          "long": 6095,
-          "cant": 1,
-          "peso": 40.63,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 40.63,
-          "env_ok": 1,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BJK"
-        },
-        {
-          "item": 10,
-          "cod": "BJK-RG-703",
-          "prod": "Regla para Ubicacion",
-          "long": 6095,
-          "cant": 1,
-          "peso": 38.42,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 38.42,
-          "env_ok": 1,
-          "env_pend": 0,
-          "env_pend_peso": 0,
           "literal": "BJK"
         },
         {
@@ -13803,46 +13713,11 @@
           "pend": 66
         },
         {
-          "cod": "BJK-AN-201",
-          "prod": "Anclaje",
-          "long": 1000,
-          "cant": 45,
-          "pend": 45
-        },
-        {
           "cod": "BJK-AN-202",
           "prod": "Anclaje",
           "long": 1000,
           "cant": 36,
           "pend": 36
-        },
-        {
-          "cod": "BJK-RG-700",
-          "prod": "Regla para Ubicacion",
-          "long": 6210,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BJK-RG-701",
-          "prod": "Regla para Ubicacion",
-          "long": 6170,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BJK-RG-702",
-          "prod": "Regla para Ubicacion",
-          "long": 6095,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BJK-RG-703",
-          "prod": "Regla para Ubicacion",
-          "long": 6095,
-          "cant": 1,
-          "pend": 1
         },
         {
           "cod": "BJK-CH-1",
