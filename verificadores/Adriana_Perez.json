@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T17:42:52.012Z",
+  "updatedAt": "2026-10-16T12:10:31.892Z",
   "updatedBy": "Adriana Perez",
   "checks": {
     "24969_1": {
@@ -8295,7 +8295,7 @@
     },
     "25107_209": {
       "arm_state": "liberado",
-      "qty_lib": 2
+      "qty_lib": 3
     },
     "25107_223": {
       "arm_state": "liberado",
@@ -8371,7 +8371,7 @@
     },
     "25107_219": {
       "arm_state": "liberado",
-      "qty_lib": 2
+      "qty_lib": 3
     },
     "25107_220": {
       "arm_state": "liberado",
@@ -8453,6 +8453,70 @@
       "qty_lib": 1
     },
     "25107_18": {
+      "qty_lib": 1
+    },
+    "25107_1429": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1428": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1423": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1419": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1433": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1420": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1422": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1421": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1424": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1425": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1426": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1427": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1430": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1432": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1224": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1227": {
+      "arm_state": "liberado",
       "qty_lib": 1
     }
   },
@@ -61397,24 +61461,24 @@
       "ot": "25859",
       "obra": "Vigas Carrileras  RF2",
       "cliente": "MV ACEROS SA",
-      "fecha": "12/10/2026",
+      "fecha": "16/10/2026",
       "avances": {
-        "arm": 84,
+        "arm": 97,
         "pint": 0,
         "env": 0,
         "mont": 0
       },
       "totales": {
         "cant": 53,
-        "arm_lib": 44.5,
-        "arm_pend": 8.5,
+        "arm_lib": 51.5,
+        "arm_pend": 1.5,
         "pint_ok": 0,
         "pint_pend": 53,
         "env_ok": 0,
         "env_pend": 53,
         "items": 36,
         "peso_total": 5101.789999999999,
-        "arm_pend_peso": 2759.1749999999993,
+        "arm_pend_peso": 481.43,
         "pint_pend_peso": 5101.789999999999,
         "env_pend_peso": 5101.789999999999
       },
@@ -61822,9 +61886,9 @@
           "long": 6099,
           "cant": 1,
           "peso": 327.98,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 327.98,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 163.99,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 327.98,
@@ -61840,9 +61904,9 @@
           "long": 6099,
           "cant": 1,
           "peso": 327.98,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 327.98,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 327.98,
@@ -61858,9 +61922,9 @@
           "long": 5983,
           "cant": 1,
           "peso": 322.33,
-          "arm_lib": 0.5,
-          "arm_pend": 0.5,
-          "arm_pend_peso": 161.165,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 322.33,
@@ -61876,9 +61940,9 @@
           "long": 5983,
           "cant": 1,
           "peso": 322.33,
-          "arm_lib": 0.5,
-          "arm_pend": 0.5,
-          "arm_pend_peso": 161.165,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 322.33,
@@ -61912,9 +61976,9 @@
           "long": 5986,
           "cant": 1,
           "peso": 322.49,
-          "arm_lib": 0.5,
-          "arm_pend": 0.5,
-          "arm_pend_peso": 161.245,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 322.49,
@@ -61930,9 +61994,9 @@
           "long": 5979,
           "cant": 1,
           "peso": 322.12,
-          "arm_lib": 0.5,
-          "arm_pend": 0.5,
-          "arm_pend_peso": 161.06,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 322.12,
@@ -61948,9 +62012,9 @@
           "long": 5979,
           "cant": 1,
           "peso": 322.12,
-          "arm_lib": 0.5,
-          "arm_pend": 0.5,
-          "arm_pend_peso": 161.06,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 322.12,
@@ -61966,9 +62030,9 @@
           "long": 5993,
           "cant": 1,
           "peso": 322.83,
-          "arm_lib": 0.5,
-          "arm_pend": 0.5,
-          "arm_pend_peso": 161.415,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 322.83,
@@ -61984,9 +62048,9 @@
           "long": 5993,
           "cant": 1,
           "peso": 322.83,
-          "arm_lib": 0.5,
-          "arm_pend": 0.5,
-          "arm_pend_peso": 161.415,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 322.83,
@@ -62002,9 +62066,9 @@
           "long": 5983,
           "cant": 1,
           "peso": 322.32,
-          "arm_lib": 0.5,
-          "arm_pend": 0.5,
-          "arm_pend_peso": 161.16,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 322.32,
@@ -62020,9 +62084,9 @@
           "long": 5983,
           "cant": 1,
           "peso": 322.32,
-          "arm_lib": 0.5,
-          "arm_pend": 0.5,
-          "arm_pend_peso": 161.16,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 322.32,
@@ -62056,9 +62120,9 @@
           "long": 6241,
           "cant": 1,
           "peso": 334.93,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 334.93,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 334.93,
@@ -62074,27 +62138,6 @@
           "prod": "Viga Carrilera IS",
           "long": 6099,
           "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BMB-VCI-2",
-          "prod": "Viga Carrilera IS",
-          "long": 6099,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BMB-VCI-3",
-          "prod": "Viga Carrilera IS",
-          "long": 5983,
-          "cant": 1,
-          "pend": 0.5
-        },
-        {
-          "cod": "BMB-VCI-4",
-          "prod": "Viga Carrilera IS",
-          "long": 5983,
-          "cant": 1,
           "pend": 0.5
         },
         {
@@ -62105,67 +62148,11 @@
           "pend": 0.5
         },
         {
-          "cod": "BMB-VCI-6",
-          "prod": "Viga Carrilera IS",
-          "long": 5986,
-          "cant": 1,
-          "pend": 0.5
-        },
-        {
-          "cod": "BMB-VCI-7",
-          "prod": "Viga Carrilera IS",
-          "long": 5979,
-          "cant": 1,
-          "pend": 0.5
-        },
-        {
-          "cod": "BMB-VCI-8",
-          "prod": "Viga Carrilera IS",
-          "long": 5979,
-          "cant": 1,
-          "pend": 0.5
-        },
-        {
-          "cod": "BMB-VCI-9",
-          "prod": "Viga Carrilera IS",
-          "long": 5993,
-          "cant": 1,
-          "pend": 0.5
-        },
-        {
-          "cod": "BMB-VCI-10",
-          "prod": "Viga Carrilera IS",
-          "long": 5993,
-          "cant": 1,
-          "pend": 0.5
-        },
-        {
-          "cod": "BMB-VCI-11",
-          "prod": "Viga Carrilera IS",
-          "long": 5983,
-          "cant": 1,
-          "pend": 0.5
-        },
-        {
-          "cod": "BMB-VCI-12",
-          "prod": "Viga Carrilera IS",
-          "long": 5983,
-          "cant": 1,
-          "pend": 0.5
-        },
-        {
           "cod": "BMB-VCI-13",
           "prod": "Viga Carrilera IS",
           "long": 5779,
           "cant": 1,
           "pend": 0.5
-        },
-        {
-          "cod": "BMB-VCI-14",
-          "prod": "Viga Carrilera IS",
-          "long": 6241,
-          "cant": 1,
-          "pend": 1
         }
       ],
       "pint_pend_items": [
@@ -72192,26 +72179,26 @@
       "ot": "25992",
       "obra": "P.Grua 5TN de 17,64m y 18,64m en ejes RF1",
       "cliente": "MV ACEROS SA",
-      "fecha": "8/10/2026",
+      "fecha": "16/10/2026",
       "avances": {
-        "arm": 0,
-        "pint": 0,
-        "env": 0,
+        "arm": 99,
+        "pint": 95,
+        "env": 96,
         "mont": 0
       },
       "totales": {
-        "cant": 590,
-        "arm_lib": 0,
-        "arm_pend": 590,
-        "pint_ok": 0,
-        "pint_pend": 590,
-        "env_ok": 0,
-        "env_pend": 590,
-        "items": 36,
-        "peso_total": 12802.380000000008,
-        "arm_pend_peso": 12802.380000000008,
-        "pint_pend_peso": 12802.380000000008,
-        "env_pend_peso": 12802.380000000008
+        "cant": 568,
+        "arm_lib": 560,
+        "arm_pend": 8,
+        "pint_ok": 538,
+        "pint_pend": 30,
+        "env_ok": 543,
+        "env_pend": 25,
+        "items": 34,
+        "peso_total": 12791.160000000007,
+        "arm_pend_peso": 211.04,
+        "pint_pend_peso": 447.88000000000005,
+        "env_pend_peso": 8059.82
       },
       "items": [
         {
@@ -72221,15 +72208,15 @@
           "long": 150,
           "cant": 17,
           "peso": 62.56,
-          "arm_lib": 0,
-          "arm_pend": 17,
-          "arm_pend_peso": 62.56,
-          "pint_ok": 0,
-          "pint_pend": 17,
-          "pint_pend_peso": 62.56,
-          "env_ok": 0,
-          "env_pend": 17,
-          "env_pend_peso": 62.56,
+          "arm_lib": 17,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 17,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 17,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BNR"
         },
         {
@@ -72239,15 +72226,15 @@
           "long": 150,
           "cant": 17,
           "peso": 62.56,
-          "arm_lib": 0,
-          "arm_pend": 17,
-          "arm_pend_peso": 62.56,
-          "pint_ok": 0,
-          "pint_pend": 17,
-          "pint_pend_peso": 62.56,
-          "env_ok": 0,
-          "env_pend": 17,
-          "env_pend_peso": 62.56,
+          "arm_lib": 17,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 17,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 17,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BNR"
         },
         {
@@ -72257,12 +72244,12 @@
           "long": 300,
           "cant": 1,
           "peso": 191.74,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 191.74,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 191.74,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 191.74,
@@ -72275,12 +72262,12 @@
           "long": 300,
           "cant": 1,
           "peso": 191.74,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 191.74,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 191.74,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 191.74,
@@ -72293,12 +72280,12 @@
           "long": 300,
           "cant": 1,
           "peso": 191.74,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 191.74,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 191.74,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 191.74,
@@ -72311,12 +72298,12 @@
           "long": 300,
           "cant": 1,
           "peso": 191.74,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 191.74,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 191.74,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 191.74,
@@ -72329,15 +72316,15 @@
           "long": 197,
           "cant": 192,
           "peso": 61.44,
-          "arm_lib": 0,
-          "arm_pend": 192,
-          "arm_pend_peso": 61.44,
-          "pint_ok": 0,
-          "pint_pend": 192,
-          "pint_pend_peso": 61.44,
-          "env_ok": 0,
-          "env_pend": 192,
-          "env_pend_peso": 61.44,
+          "arm_lib": 192,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 192,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 192,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BNR"
         },
         {
@@ -72347,15 +72334,15 @@
           "long": 197,
           "cant": 192,
           "peso": 61.44,
-          "arm_lib": 0,
-          "arm_pend": 192,
-          "arm_pend_peso": 61.44,
-          "pint_ok": 0,
-          "pint_pend": 192,
-          "pint_pend_peso": 61.44,
-          "env_ok": 0,
-          "env_pend": 192,
-          "env_pend_peso": 61.44,
+          "arm_lib": 192,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 192,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 192,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BNR"
         },
         {
@@ -72365,9 +72352,9 @@
           "long": 431,
           "cant": 2,
           "peso": 1.18,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 1.18,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 2,
           "pint_pend_peso": 1.18,
@@ -72383,9 +72370,9 @@
           "long": 431,
           "cant": 2,
           "peso": 1.18,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 1.18,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 2,
           "pint_pend_peso": 1.18,
@@ -72401,12 +72388,12 @@
           "long": 965,
           "cant": 1,
           "peso": 3685.95,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 3685.95,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 3685.95,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 3685.95,
@@ -72419,12 +72406,12 @@
           "long": 965,
           "cant": 1,
           "peso": 3500.17,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 3500.17,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 3500.17,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 3500.17,
@@ -72437,15 +72424,15 @@
           "long": 350,
           "cant": 28,
           "peso": 30.52,
-          "arm_lib": 0,
-          "arm_pend": 28,
-          "arm_pend_peso": 30.52,
-          "pint_ok": 0,
-          "pint_pend": 28,
-          "pint_pend_peso": 30.52,
-          "env_ok": 0,
-          "env_pend": 28,
-          "env_pend_peso": 30.52,
+          "arm_lib": 28,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 28,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 28,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BNR"
         },
         {
@@ -72455,15 +72442,15 @@
           "long": 350,
           "cant": 28,
           "peso": 30.52,
-          "arm_lib": 0,
-          "arm_pend": 28,
-          "arm_pend_peso": 30.52,
-          "pint_ok": 0,
-          "pint_pend": 28,
-          "pint_pend_peso": 30.52,
-          "env_ok": 0,
-          "env_pend": 28,
-          "env_pend_peso": 30.52,
+          "arm_lib": 28,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 28,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 28,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BNR"
         },
         {
@@ -72473,15 +72460,15 @@
           "long": 6000,
           "cant": 16,
           "peso": 2011.36,
-          "arm_lib": 0,
-          "arm_pend": 16,
-          "arm_pend_peso": 2011.36,
-          "pint_ok": 0,
-          "pint_pend": 16,
-          "pint_pend_peso": 2011.36,
-          "env_ok": 0,
-          "env_pend": 16,
-          "env_pend_peso": 2011.36,
+          "arm_lib": 16,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 16,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 16,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BNR"
         },
         {
@@ -72491,15 +72478,15 @@
           "long": 6000,
           "cant": 16,
           "peso": 2011.36,
-          "arm_lib": 0,
-          "arm_pend": 16,
-          "arm_pend_peso": 2011.36,
-          "pint_ok": 0,
-          "pint_pend": 16,
-          "pint_pend_peso": 2011.36,
-          "env_ok": 0,
-          "env_pend": 16,
-          "env_pend_peso": 2011.36,
+          "arm_lib": 16,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 16,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 16,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BNR"
         },
         {
@@ -72509,15 +72496,15 @@
           "long": 66,
           "cant": 4,
           "peso": 2.2,
-          "arm_lib": 0,
-          "arm_pend": 4,
-          "arm_pend_peso": 2.2,
-          "pint_ok": 0,
-          "pint_pend": 4,
-          "pint_pend_peso": 2.2,
-          "env_ok": 0,
-          "env_pend": 4,
-          "env_pend_peso": 2.2,
+          "arm_lib": 4,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 4,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 4,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BNR"
         },
         {
@@ -72527,9 +72514,9 @@
           "long": 200,
           "cant": 1,
           "peso": 0.91,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 0.91,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 0.91,
@@ -72545,9 +72532,9 @@
           "long": 800,
           "cant": 1,
           "peso": 4.43,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 4.43,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 4.43,
@@ -72563,9 +72550,9 @@
           "long": 380,
           "cant": 1,
           "peso": 3.61,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 3.61,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 3.61,
@@ -72581,9 +72568,9 @@
           "long": 405,
           "cant": 1,
           "peso": 1.87,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 1.87,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 1.87,
@@ -72599,15 +72586,15 @@
           "long": 6000,
           "cant": 8,
           "peso": 211.04,
-          "arm_lib": 0,
-          "arm_pend": 8,
-          "arm_pend_peso": 211.04,
+          "arm_lib": 8,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 8,
           "pint_pend_peso": 211.04,
-          "env_ok": 0,
-          "env_pend": 8,
-          "env_pend_peso": 211.04,
+          "env_ok": 8,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BNR"
         },
         {
@@ -72623,9 +72610,9 @@
           "pint_ok": 0,
           "pint_pend": 8,
           "pint_pend_peso": 211.04,
-          "env_ok": 0,
-          "env_pend": 8,
-          "env_pend_peso": 211.04,
+          "env_ok": 5,
+          "env_pend": 3,
+          "env_pend_peso": 79.14,
           "literal": "BNR"
         },
         {
@@ -72635,15 +72622,15 @@
           "long": 66,
           "cant": 4,
           "peso": 2.2,
-          "arm_lib": 0,
-          "arm_pend": 4,
-          "arm_pend_peso": 2.2,
-          "pint_ok": 0,
-          "pint_pend": 4,
-          "pint_pend_peso": 2.2,
-          "env_ok": 0,
-          "env_pend": 4,
-          "env_pend_peso": 2.2,
+          "arm_lib": 4,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 4,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 4,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BNR"
         },
         {
@@ -72653,9 +72640,9 @@
           "long": 200,
           "cant": 1,
           "peso": 0.91,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 0.91,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 0.91,
@@ -72671,9 +72658,9 @@
           "long": 800,
           "cant": 1,
           "peso": 4.43,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 4.43,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 4.43,
@@ -72689,9 +72676,9 @@
           "long": 380,
           "cant": 1,
           "peso": 3.61,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 3.61,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 3.61,
@@ -72707,9 +72694,9 @@
           "long": 405,
           "cant": 1,
           "peso": 1.87,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 1.87,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 1.87,
@@ -72725,15 +72712,15 @@
           "long": 113,
           "cant": 4,
           "peso": 16.84,
-          "arm_lib": 0,
-          "arm_pend": 4,
-          "arm_pend_peso": 16.84,
-          "pint_ok": 0,
-          "pint_pend": 4,
-          "pint_pend_peso": 16.84,
-          "env_ok": 0,
-          "env_pend": 4,
-          "env_pend_peso": 16.84,
+          "arm_lib": 4,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 4,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 4,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BNR"
         },
         {
@@ -72743,15 +72730,15 @@
           "long": 95,
           "cant": 4,
           "peso": 9.28,
-          "arm_lib": 0,
-          "arm_pend": 4,
-          "arm_pend_peso": 9.28,
-          "pint_ok": 0,
-          "pint_pend": 4,
-          "pint_pend_peso": 9.28,
-          "env_ok": 0,
-          "env_pend": 4,
-          "env_pend_peso": 9.28,
+          "arm_lib": 4,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 4,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 4,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BNR"
         },
         {
@@ -72761,12 +72748,12 @@
           "long": 150,
           "cant": 2,
           "peso": 1.8,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 1.8,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 1.8,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 2,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 2,
           "env_pend_peso": 1.8,
@@ -72779,15 +72766,15 @@
           "long": 113,
           "cant": 4,
           "peso": 16.84,
-          "arm_lib": 0,
-          "arm_pend": 4,
-          "arm_pend_peso": 16.84,
-          "pint_ok": 0,
-          "pint_pend": 4,
-          "pint_pend_peso": 16.84,
-          "env_ok": 0,
-          "env_pend": 4,
-          "env_pend_peso": 16.84,
+          "arm_lib": 4,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 4,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 4,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BNR"
         },
         {
@@ -72797,9 +72784,9 @@
           "long": 150,
           "cant": 2,
           "peso": 1.8,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 1.8,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 2,
           "pint_pend_peso": 1.8,
@@ -72815,366 +72802,29 @@
           "long": 95,
           "cant": 4,
           "peso": 9.28,
-          "arm_lib": 0,
-          "arm_pend": 4,
-          "arm_pend_peso": 9.28,
-          "pint_ok": 0,
-          "pint_pend": 4,
-          "pint_pend_peso": 9.28,
-          "env_ok": 0,
-          "env_pend": 4,
-          "env_pend_peso": 9.28,
-          "literal": "BNR"
-        },
-        {
-          "item": 35,
-          "cod": "BNR-SP-7",
-          "prod": "SOPORTE",
-          "long": 335,
-          "cant": 12,
-          "peso": 6.12,
-          "arm_lib": 0,
-          "arm_pend": 12,
-          "arm_pend_peso": 6.12,
-          "pint_ok": 0,
-          "pint_pend": 12,
-          "pint_pend_peso": 6.12,
-          "env_ok": 0,
-          "env_pend": 12,
-          "env_pend_peso": 6.12,
-          "literal": "BNR"
-        },
-        {
-          "item": 36,
-          "cod": "BNR-SP-206",
-          "prod": "SOPORTE",
-          "long": 335,
-          "cant": 10,
-          "peso": 5.1,
-          "arm_lib": 0,
-          "arm_pend": 10,
-          "arm_pend_peso": 5.1,
-          "pint_ok": 0,
-          "pint_pend": 10,
-          "pint_pend_peso": 5.1,
-          "env_ok": 0,
-          "env_pend": 10,
-          "env_pend_peso": 5.1,
+          "arm_lib": 4,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 4,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 4,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BNR"
         }
       ],
       "arm_pend_items": [
         {
-          "cod": "BNR-AP-1",
-          "prod": "Elemento de fijacion",
-          "long": 150,
-          "cant": 17,
-          "pend": 17
-        },
-        {
-          "cod": "BNR-AP-200",
-          "prod": "Elemento de fijacion",
-          "long": 150,
-          "cant": 17,
-          "pend": 17
-        },
-        {
-          "cod": "BNR-CO-1",
-          "prod": "Carro (Troley )",
-          "long": 300,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BNR-CO-2",
-          "prod": "Carro (Troley )",
-          "long": 300,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BNR-CO-200",
-          "prod": "Carro (Troley )",
-          "long": 300,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BNR-CO-201",
-          "prod": "Carro (Troley )",
-          "long": 300,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BNR-GH-1",
-          "prod": "Gancho",
-          "long": 197,
-          "cant": 192,
-          "pend": 192
-        },
-        {
-          "cod": "BNR-GH-200",
-          "prod": "Gancho",
-          "long": 197,
-          "cant": 192,
-          "pend": 192
-        },
-        {
-          "cod": "BNR-PE-1",
-          "prod": "Perno PCF",
-          "long": 431,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BNR-PE-200",
-          "prod": "Perno PCF",
-          "long": 431,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BNR-PG-1",
-          "prod": "Puente Grúa - Un",
-          "long": 965,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BNR-PG-200",
-          "prod": "Puente Grúa - Un",
-          "long": 965,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BNR-PL-1",
-          "prod": "Placa",
-          "long": 350,
-          "cant": 28,
-          "pend": 28
-        },
-        {
-          "cod": "BNR-PL-200",
-          "prod": "Placa",
-          "long": 350,
-          "cant": 28,
-          "pend": 28
-        },
-        {
-          "cod": "BNR-RE-1",
-          "prod": "Riel",
-          "long": 6000,
-          "cant": 16,
-          "pend": 16
-        },
-        {
-          "cod": "BNR-RE-200",
-          "prod": "Riel",
-          "long": 6000,
-          "cant": 16,
-          "pend": 16
-        },
-        {
-          "cod": "BNR-SP-1",
-          "prod": "SOPORTE",
-          "long": 66,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BNR-SP-2",
-          "prod": "SOPORTE",
-          "long": 200,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BNR-SP-3",
-          "prod": "SOPORTE",
-          "long": 800,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BNR-SP-4",
-          "prod": "SOPORTE",
-          "long": 380,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BNR-SP-5",
-          "prod": "SOPORTE",
-          "long": 405,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BNR-SP-6",
-          "prod": "SOPORTE",
-          "long": 6000,
-          "cant": 8,
-          "pend": 8
-        },
-        {
           "cod": "BNR-SP-200",
           "prod": "SOPORTE",
           "long": 6000,
           "cant": 8,
           "pend": 8
-        },
-        {
-          "cod": "BNR-SP-201",
-          "prod": "SOPORTE",
-          "long": 66,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BNR-SP-202",
-          "prod": "SOPORTE",
-          "long": 200,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BNR-SP-203",
-          "prod": "SOPORTE",
-          "long": 800,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BNR-SP-204",
-          "prod": "SOPORTE",
-          "long": 380,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BNR-SP-205",
-          "prod": "SOPORTE",
-          "long": 405,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BNR-TP-1",
-          "prod": "Tope",
-          "long": 113,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BNR-TP-2",
-          "prod": "Tope",
-          "long": 95,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BNR-TP-3",
-          "prod": "Tope",
-          "long": 150,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BNR-TP-200",
-          "prod": "Tope",
-          "long": 113,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BNR-TP-201",
-          "prod": "Tope",
-          "long": 150,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BNR-TP-202",
-          "prod": "Tope",
-          "long": 95,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BNR-SP-7",
-          "prod": "SOPORTE",
-          "long": 335,
-          "cant": 12,
-          "pend": 12
-        },
-        {
-          "cod": "BNR-SP-206",
-          "prod": "SOPORTE",
-          "long": 335,
-          "cant": 10,
-          "pend": 10
         }
       ],
       "pint_pend_items": [
         {
-          "cod": "BNR-AP-1",
-          "prod": "Elemento de fijacion",
-          "long": 150,
-          "cant": 17,
-          "pend": 17
-        },
-        {
-          "cod": "BNR-AP-200",
-          "prod": "Elemento de fijacion",
-          "long": 150,
-          "cant": 17,
-          "pend": 17
-        },
-        {
-          "cod": "BNR-CO-1",
-          "prod": "Carro (Troley )",
-          "long": 300,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BNR-CO-2",
-          "prod": "Carro (Troley )",
-          "long": 300,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BNR-CO-200",
-          "prod": "Carro (Troley )",
-          "long": 300,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BNR-CO-201",
-          "prod": "Carro (Troley )",
-          "long": 300,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BNR-GH-1",
-          "prod": "Gancho",
-          "long": 197,
-          "cant": 192,
-          "pend": 192
-        },
-        {
-          "cod": "BNR-GH-200",
-          "prod": "Gancho",
-          "long": 197,
-          "cant": 192,
-          "pend": 192
-        },
-        {
           "cod": "BNR-PE-1",
           "prod": "Perno PCF",
           "long": 431,
@@ -73187,55 +72837,6 @@
           "long": 431,
           "cant": 2,
           "pend": 2
-        },
-        {
-          "cod": "BNR-PG-1",
-          "prod": "Puente Grúa - Un",
-          "long": 965,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BNR-PG-200",
-          "prod": "Puente Grúa - Un",
-          "long": 965,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BNR-PL-1",
-          "prod": "Placa",
-          "long": 350,
-          "cant": 28,
-          "pend": 28
-        },
-        {
-          "cod": "BNR-PL-200",
-          "prod": "Placa",
-          "long": 350,
-          "cant": 28,
-          "pend": 28
-        },
-        {
-          "cod": "BNR-RE-1",
-          "prod": "Riel",
-          "long": 6000,
-          "cant": 16,
-          "pend": 16
-        },
-        {
-          "cod": "BNR-RE-200",
-          "prod": "Riel",
-          "long": 6000,
-          "cant": 16,
-          "pend": 16
-        },
-        {
-          "cod": "BNR-SP-1",
-          "prod": "SOPORTE",
-          "long": 66,
-          "cant": 4,
-          "pend": 4
         },
         {
           "cod": "BNR-SP-2",
@@ -73280,13 +72881,6 @@
           "pend": 8
         },
         {
-          "cod": "BNR-SP-201",
-          "prod": "SOPORTE",
-          "long": 66,
-          "cant": 4,
-          "pend": 4
-        },
-        {
           "cod": "BNR-SP-202",
           "prod": "SOPORTE",
           "long": 200,
@@ -73315,60 +72909,11 @@
           "pend": 1
         },
         {
-          "cod": "BNR-TP-1",
-          "prod": "Tope",
-          "long": 113,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BNR-TP-2",
-          "prod": "Tope",
-          "long": 95,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BNR-TP-3",
-          "prod": "Tope",
-          "long": 150,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BNR-TP-200",
-          "prod": "Tope",
-          "long": 113,
-          "cant": 4,
-          "pend": 4
-        },
-        {
           "cod": "BNR-TP-201",
           "prod": "Tope",
           "long": 150,
           "cant": 2,
           "pend": 2
-        },
-        {
-          "cod": "BNR-TP-202",
-          "prod": "Tope",
-          "long": 95,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BNR-SP-7",
-          "prod": "SOPORTE",
-          "long": 335,
-          "cant": 12,
-          "pend": 12
-        },
-        {
-          "cod": "BNR-SP-206",
-          "prod": "SOPORTE",
-          "long": 335,
-          "cant": 10,
-          "pend": 10
         }
       ]
     }
