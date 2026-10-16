@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T19:51:39.361Z",
+  "updatedAt": "2026-10-16T20:05:08.249Z",
   "updatedBy": "Sandro Monzon",
   "checks": {
     "24969_1": {
@@ -65970,44 +65970,26 @@
       "cliente": "PM Ingenieria S.R.L.",
       "fecha": "16/10/2026",
       "avances": {
-        "arm": 46,
+        "arm": 45,
         "pint": 4,
-        "env": 1,
+        "env": 0,
         "mont": 0
       },
       "totales": {
-        "cant": 2224,
-        "arm_lib": 1023.8499999999999,
+        "cant": 2202,
+        "arm_lib": 1001.8499999999999,
         "arm_pend": 1200.1499999999999,
         "pint_ok": 80,
-        "pint_pend": 2144,
-        "env_ok": 25.199999999999996,
+        "pint_pend": 2122,
+        "env_ok": 3.2,
         "env_pend": 2198.8,
-        "items": 125,
-        "peso_total": 75191.38999999998,
+        "items": 124,
+        "peso_total": 73183.45,
         "arm_pend_peso": 31853.230999999996,
-        "pint_pend_peso": 50261.915000000015,
+        "pint_pend_peso": 48253.97500000001,
         "env_pend_peso": 58910.03399999995
       },
       "items": [
-        {
-          "item": 1,
-          "cod": "BJH-IN-500",
-          "prod": "Inserto Metalico",
-          "long": 500,
-          "cant": 22,
-          "peso": 2007.94,
-          "arm_lib": 22,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 22,
-          "pint_pend_peso": 2007.94,
-          "env_ok": 22,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BJH"
-        },
         {
           "item": 2,
           "cod": "BJH-CA-1",
@@ -68671,13 +68653,6 @@
         }
       ],
       "pint_pend_items": [
-        {
-          "cod": "BJH-IN-500",
-          "prod": "Inserto Metalico",
-          "long": 500,
-          "cant": 22,
-          "pend": 22
-        },
         {
           "cod": "BJH-CA-1",
           "prod": "Cabriada Angulos",
