@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T19:03:58.544Z",
+  "updatedAt": "2026-10-16T17:09:06.996Z",
   "updatedBy": "Bernardo Vera",
   "checks": {
     "25694_1": {
@@ -31040,7 +31040,7 @@
     },
     "25560_34": {
       "arm_state": "liberado",
-      "pint_state": "pintado",
+      "pint_state": "galvamax",
       "qty_lib": 4
     },
     "25560_35": {
@@ -31353,17 +31353,17 @@
     "25560_134": {
       "qty_lib": 4,
       "arm_state": "liberado",
-      "pint_state": ""
+      "pint_state": "en_pintura"
     },
     "25560_135": {
       "qty_lib": 24,
       "arm_state": "liberado",
-      "pint_state": ""
+      "pint_state": "en_pintura"
     },
     "25560_136": {
       "qty_lib": 4,
       "arm_state": "liberado",
-      "pint_state": ""
+      "pint_state": "en_pintura"
     },
     "25560_61": {
       "qty_lib": 28,
@@ -36433,6 +36433,150 @@
     "25107_1433": {
       "arm_state": "liberado",
       "qty_lib": 1
+    },
+    "25858_86": {
+      "qty_lib": 10,
+      "arm_state": "liberado",
+      "pint_state": "en_pintura"
+    },
+    "25858_83": {
+      "qty_lib": 2,
+      "arm_state": "liberado",
+      "pint_state": "en_pintura"
+    },
+    "25858_84": {
+      "qty_lib": 2,
+      "arm_state": "liberado",
+      "pint_state": "en_pintura"
+    },
+    "25858_85": {
+      "qty_lib": 7,
+      "arm_state": "liberado",
+      "pint_state": "en_pintura"
+    },
+    "25858_87": {
+      "qty_lib": 23,
+      "arm_state": "liberado",
+      "pint_state": "en_pintura"
+    },
+    "25858_88": {
+      "qty_lib": 4,
+      "arm_state": "liberado",
+      "pint_state": "en_pintura"
+    },
+    "25858_81": {
+      "qty_lib": 17,
+      "arm_state": "liberado",
+      "pint_state": "en_pintura"
+    },
+    "25858_7": {
+      "qty_lib": 2,
+      "arm_state": "liberado",
+      "pint_state": "en_pintura"
+    },
+    "25560_117": {
+      "qty_lib": 0
+    },
+    "25858_46": {
+      "qty_lib": 1,
+      "arm_state": "liberado"
+    },
+    "25858_47": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25858_48": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25858_49": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25858_53": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25858_54": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 2
+    },
+    "25858_55": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25858_56": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25858_57": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25858_58": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25858_80": {
+      "arm_state": "armado"
+    },
+    "25858_60": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25858_61": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25858_62": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25858_63": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25858_64": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25858_65": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25858_66": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25858_67": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25858_68": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25858_69": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25858_70": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25858_71": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25858_72": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     }
   },
   "otMeta": {
