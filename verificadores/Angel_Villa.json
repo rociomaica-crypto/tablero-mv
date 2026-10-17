@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T19:21:55.617Z",
+  "updatedAt": "2026-10-17T11:37:44.394Z",
   "updatedBy": "Angel Villa",
   "checks": {
     "25257_1": {
@@ -7263,7 +7263,7 @@
       "qty_lib": 1
     },
     "25107_702": {
-      "qty_lib": 1,
+      "qty_lib": 2,
       "arm_state": "liberado"
     },
     "25107_676": {
@@ -12890,33 +12890,34 @@
     "25107_1487": {
       "qty_lib": 1,
       "arm_state": "liberado"
-    }
+    },
+    "25093_63": {}
   },
   "otMeta": {
     "25107": {
       "ot": "25107",
       "obra": "Centro Comercial Luque Opc 2",
       "cliente": "CHUTZPAH SOCIEDAD ANONIMA (CHUZA S.A.)",
-      "fecha": "16/10/2026",
+      "fecha": "17/10/2026",
       "avances": {
         "arm": 74,
         "pint": 46,
-        "env": 35,
+        "env": 37,
         "mont": 0
       },
       "totales": {
-        "cant": 7425,
-        "arm_lib": 5481.5,
-        "arm_pend": 1943.5,
+        "cant": 7424,
+        "arm_lib": 5488.5,
+        "arm_pend": 1935.5,
         "pint_ok": 3433.5,
-        "pint_pend": 3991.5,
-        "env_ok": 2606,
-        "env_pend": 4819,
-        "items": 1514,
-        "peso_total": 205239.5750000001,
-        "arm_pend_peso": 61876.90000000001,
-        "pint_pend_peso": 79334.894,
-        "env_pend_peso": 132751.15000000014
+        "pint_pend": 3990.5,
+        "env_ok": 2719,
+        "env_pend": 4705,
+        "items": 1513,
+        "peso_total": 205211.3950000001,
+        "arm_pend_peso": 58777.040000000015,
+        "pint_pend_peso": 79306.714,
+        "env_pend_peso": 95618.6100000001
       },
       "items": [
         {
@@ -15272,9 +15273,9 @@
           "pint_ok": 9,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 2,
-          "env_pend": 7,
-          "env_pend_peso": 148.82,
+          "env_ok": 9,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJF"
         },
         {
@@ -15308,9 +15309,9 @@
           "pint_ok": 1,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 21.26,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJF"
         },
         {
@@ -16010,9 +16011,9 @@
           "pint_ok": 3,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 3,
-          "env_pend_peso": 109.83,
+          "env_ok": 3,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJF"
         },
         {
@@ -16028,9 +16029,9 @@
           "pint_ok": 10,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 10,
-          "env_pend_peso": 522.3,
+          "env_ok": 10,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJF"
         },
         {
@@ -16046,9 +16047,9 @@
           "pint_ok": 6,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 6,
-          "env_pend_peso": 313.14,
+          "env_ok": 6,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJF"
         },
         {
@@ -16064,9 +16065,9 @@
           "pint_ok": 4,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 4,
-          "env_pend_peso": 208.72,
+          "env_ok": 4,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJF"
         },
         {
@@ -16082,9 +16083,9 @@
           "pint_ok": 6,
           "pint_pend": 1,
           "pint_pend_peso": 52.27,
-          "env_ok": 0,
-          "env_pend": 7,
-          "env_pend_peso": 365.89,
+          "env_ok": 7,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJF"
         },
         {
@@ -16100,9 +16101,9 @@
           "pint_ok": 3,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 3,
-          "env_pend_peso": 156.78,
+          "env_ok": 3,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJF"
         },
         {
@@ -16118,9 +16119,9 @@
           "pint_ok": 3,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 3,
-          "env_pend_peso": 114.3,
+          "env_ok": 3,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJF"
         },
         {
@@ -16136,9 +16137,9 @@
           "pint_ok": 3,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 3,
-          "env_pend_peso": 109.35,
+          "env_ok": 3,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJF"
         },
         {
@@ -16154,9 +16155,9 @@
           "pint_ok": 8,
           "pint_pend": 1,
           "pint_pend_peso": 51.92,
-          "env_ok": 0,
-          "env_pend": 9,
-          "env_pend_peso": 467.28,
+          "env_ok": 9,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJF"
         },
         {
@@ -16172,9 +16173,9 @@
           "pint_ok": 3,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 3,
-          "env_pend_peso": 155.7,
+          "env_ok": 3,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJF"
         },
         {
@@ -16190,9 +16191,9 @@
           "pint_ok": 6,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 6,
-          "env_pend_peso": 311.22,
+          "env_ok": 6,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJF"
         },
         {
@@ -16208,9 +16209,9 @@
           "pint_ok": 7,
           "pint_pend": 1,
           "pint_pend_peso": 51.99,
-          "env_ok": 0,
-          "env_pend": 8,
-          "env_pend_peso": 415.92,
+          "env_ok": 8,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJF"
         },
         {
@@ -16226,9 +16227,9 @@
           "pint_ok": 2,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 75.9,
+          "env_ok": 2,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJF"
         },
         {
@@ -16244,9 +16245,9 @@
           "pint_ok": 1,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 846.07,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJF"
         },
         {
@@ -16262,9 +16263,9 @@
           "pint_ok": 1,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 981.58,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJF"
         },
         {
@@ -16280,9 +16281,9 @@
           "pint_ok": 1,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 968.67,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJF"
         },
         {
@@ -16298,9 +16299,9 @@
           "pint_ok": 1,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 981.58,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJF"
         },
         {
@@ -16316,9 +16317,9 @@
           "pint_ok": 1,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 968.67,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJF"
         },
         {
@@ -16334,9 +16335,9 @@
           "pint_ok": 1,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 981.58,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJF"
         },
         {
@@ -16352,9 +16353,9 @@
           "pint_ok": 1,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 970.96,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJF"
         },
         {
@@ -16370,9 +16371,9 @@
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 846.07,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 846.07,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJF"
         },
         {
@@ -16388,9 +16389,9 @@
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 1132.12,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 1132.12,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJF"
         },
         {
@@ -16406,9 +16407,9 @@
           "pint_ok": 1,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 1115.6,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJF"
         },
         {
@@ -16424,9 +16425,9 @@
           "pint_ok": 1,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 1132.12,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJF"
         },
         {
@@ -16442,9 +16443,9 @@
           "pint_ok": 1,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 1115.6,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJF"
         },
         {
@@ -16460,9 +16461,9 @@
           "pint_ok": 1,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 1132.12,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJF"
         },
         {
@@ -16478,9 +16479,9 @@
           "pint_ok": 1,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 970.96,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJF"
         },
         {
@@ -16676,9 +16677,9 @@
           "pint_ok": 3,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 3,
-          "env_pend_peso": 2042.31,
+          "env_ok": 3,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJF"
         },
         {
@@ -16748,9 +16749,9 @@
           "pint_ok": 3,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 3,
-          "env_pend_peso": 2042.31,
+          "env_ok": 3,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJF"
         },
         {
@@ -16766,9 +16767,9 @@
           "pint_ok": 4,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 4,
-          "env_pend_peso": 2723.08,
+          "env_ok": 4,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJF"
         },
         {
@@ -16856,9 +16857,9 @@
           "pint_ok": 3,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 3,
-          "env_pend_peso": 3210.33,
+          "env_ok": 3,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJF"
         },
         {
@@ -16874,9 +16875,9 @@
           "pint_ok": 1,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 545.71,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJF"
         },
         {
@@ -16892,9 +16893,9 @@
           "pint_ok": 2,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 1840.16,
+          "env_ok": 2,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJF"
         },
         {
@@ -16910,9 +16911,9 @@
           "pint_ok": 1,
           "pint_pend": 1,
           "pint_pend_peso": 920.08,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 1840.16,
+          "env_ok": 1,
+          "env_pend": 1,
+          "env_pend_peso": 920.08,
           "literal": "BJF"
         },
         {
@@ -16928,9 +16929,9 @@
           "pint_ok": 1,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 1070.11,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJF"
         },
         {
@@ -16946,9 +16947,9 @@
           "pint_ok": 3,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 3,
-          "env_pend_peso": 2760.24,
+          "env_ok": 3,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJF"
         },
         {
@@ -16982,9 +16983,9 @@
           "pint_ok": 1,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 920.33,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJF"
         },
         {
@@ -17000,9 +17001,9 @@
           "pint_ok": 1,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 726.48,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJF"
         },
         {
@@ -17036,9 +17037,9 @@
           "pint_ok": 0.5,
           "pint_pend": 0.5,
           "pint_pend_peso": 331.555,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 663.11,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJF"
         },
         {
@@ -34922,9 +34923,9 @@
           "long": 7286,
           "cant": 1,
           "peso": 223.92,
-          "arm_lib": 0.5,
-          "arm_pend": 0.5,
-          "arm_pend_peso": 111.96,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 223.92,
@@ -34940,9 +34941,9 @@
           "long": 10101,
           "cant": 1,
           "peso": 308.67,
-          "arm_lib": 0.5,
-          "arm_pend": 0.5,
-          "arm_pend_peso": 154.335,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 308.67,
@@ -34976,9 +34977,9 @@
           "long": 7286,
           "cant": 1,
           "peso": 226.37,
-          "arm_lib": 0.5,
-          "arm_pend": 0.5,
-          "arm_pend_peso": 113.185,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 226.37,
@@ -34994,9 +34995,9 @@
           "long": 10105,
           "cant": 1,
           "peso": 305.34,
-          "arm_lib": 0.5,
-          "arm_pend": 0.5,
-          "arm_pend_peso": 152.67,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 305.34,
@@ -35012,9 +35013,9 @@
           "long": 10065,
           "cant": 1,
           "peso": 304.07,
-          "arm_lib": 0.5,
-          "arm_pend": 0.5,
-          "arm_pend_peso": 152.035,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 304.07,
@@ -35030,9 +35031,9 @@
           "long": 10066,
           "cant": 1,
           "peso": 304.1,
-          "arm_lib": 0.5,
-          "arm_pend": 0.5,
-          "arm_pend_peso": 152.05,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 304.1,
@@ -35048,9 +35049,9 @@
           "long": 10064,
           "cant": 2,
           "peso": 608.1,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 608.1,
+          "arm_lib": 1,
+          "arm_pend": 1,
+          "arm_pend_peso": 304.05,
           "pint_ok": 0,
           "pint_pend": 2,
           "pint_pend_peso": 608.1,
@@ -35066,9 +35067,9 @@
           "long": 10065,
           "cant": 1,
           "peso": 304.06,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 304.06,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 304.06,
@@ -35084,9 +35085,9 @@
           "long": 10070,
           "cant": 1,
           "peso": 305.22,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 305.22,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 305.22,
@@ -39692,9 +39693,9 @@
           "long": 30478,
           "cant": 1,
           "peso": 1532.59,
-          "arm_lib": 0.5,
-          "arm_pend": 0.5,
-          "arm_pend_peso": 766.295,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 1532.59,
@@ -39728,9 +39729,9 @@
           "long": 22711,
           "cant": 1,
           "peso": 1111.64,
-          "arm_lib": 0.5,
-          "arm_pend": 0.5,
-          "arm_pend_peso": 555.82,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 1111.64,
@@ -39741,26 +39742,8 @@
         },
         {
           "item": 1491,
-          "cod": "BMU-VTI-200",
-          "prod": "Viga Techo IS",
-          "long": 4916,
-          "cant": 1,
-          "peso": 28.18,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 28.18,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 28.18,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 28.18,
-          "literal": "BMU"
-        },
-        {
-          "item": 1492,
-          "cod": "BMU-VTI-204",
-          "prod": "Viga Techo IS",
+          "cod": "BMU-VAT-204",
+          "prod": "Viga  Arriostre de tubos o caños",
           "long": 4804,
           "cant": 1,
           "peso": 27.63,
@@ -39776,9 +39759,9 @@
           "literal": "BMU"
         },
         {
-          "item": 1493,
-          "cod": "BMU-VTI-201",
-          "prod": "Viga Techo IS",
+          "item": 1492,
+          "cod": "BMU-VAT-201",
+          "prod": "Viga  Arriostre de tubos o caños",
           "long": 4923,
           "cant": 2,
           "peso": 56.42,
@@ -39794,9 +39777,9 @@
           "literal": "BMU"
         },
         {
-          "item": 1494,
-          "cod": "BMU-VTI-202",
-          "prod": "Viga Techo IS",
+          "item": 1493,
+          "cod": "BMU-VAT-202",
+          "prod": "Viga  Arriostre de tubos o caños",
           "long": 6920,
           "cant": 2,
           "peso": 75.98,
@@ -39812,9 +39795,9 @@
           "literal": "BMU"
         },
         {
-          "item": 1495,
-          "cod": "BMU-VTI-205",
-          "prod": "Viga Techo IS",
+          "item": 1494,
+          "cod": "BMU-VAT-205",
+          "prod": "Viga  Arriostre de tubos o caños",
           "long": 7722,
           "cant": 1,
           "peso": 41.92,
@@ -39830,9 +39813,9 @@
           "literal": "BMU"
         },
         {
-          "item": 1496,
-          "cod": "BMU-VTI-203",
-          "prod": "Viga Techo IS",
+          "item": 1495,
+          "cod": "BMU-VAT-203",
+          "prod": "Viga  Arriostre de tubos o caños",
           "long": 4804,
           "cant": 1,
           "peso": 27.63,
@@ -39848,7 +39831,7 @@
           "literal": "BMU"
         },
         {
-          "item": 1497,
+          "item": 1496,
           "cod": "34560-TCN-2",
           "prod": "Tapa de Canaleta",
           "long": 300,
@@ -39866,7 +39849,7 @@
           "literal": "TCN"
         },
         {
-          "item": 1498,
+          "item": 1497,
           "cod": "34547-PL-01",
           "prod": "Placa",
           "long": 200,
@@ -39884,7 +39867,7 @@
           "literal": "PL"
         },
         {
-          "item": 1499,
+          "item": 1498,
           "cod": "34547-PZ-02",
           "prod": "Pieza Especial",
           "long": 4000,
@@ -39902,7 +39885,7 @@
           "literal": "PZ"
         },
         {
-          "item": 1500,
+          "item": 1499,
           "cod": "34595-CN-1",
           "prod": "Canaleta x Kg.",
           "long": 87000,
@@ -39920,7 +39903,7 @@
           "literal": "CN"
         },
         {
-          "item": 1501,
+          "item": 1500,
           "cod": "34595-TCN-2",
           "prod": "Tapa de Canaleta",
           "long": 220,
@@ -39938,7 +39921,7 @@
           "literal": "TCN"
         },
         {
-          "item": 1502,
+          "item": 1501,
           "cod": "34595-SCN-3",
           "prod": "Soporte para canaleta",
           "long": 458,
@@ -39956,7 +39939,7 @@
           "literal": "SCN"
         },
         {
-          "item": 1503,
+          "item": 1502,
           "cod": "34595-PS-4",
           "prod": "Pieza Suelta",
           "long": 400,
@@ -39974,7 +39957,7 @@
           "literal": "PS"
         },
         {
-          "item": 1504,
+          "item": 1503,
           "cod": "34595-PS-5",
           "prod": "Pieza Suelta",
           "long": 120,
@@ -39992,7 +39975,7 @@
           "literal": "PS"
         },
         {
-          "item": 1505,
+          "item": 1504,
           "cod": "34547-CR-03",
           "prod": "Correa Techo",
           "long": 0,
@@ -40010,7 +39993,7 @@
           "literal": "CR"
         },
         {
-          "item": 1506,
+          "item": 1505,
           "cod": "29701-PL-1",
           "prod": "Placa",
           "long": 0,
@@ -40028,7 +40011,7 @@
           "literal": "PL"
         },
         {
-          "item": 1507,
+          "item": 1506,
           "cod": "29701-PL-2",
           "prod": "Placa",
           "long": 0,
@@ -40046,7 +40029,7 @@
           "literal": "PL"
         },
         {
-          "item": 1508,
+          "item": 1507,
           "cod": "34706-BB-1",
           "prod": "Babeta metálica - Ml",
           "long": 97000,
@@ -40064,7 +40047,7 @@
           "literal": "BB"
         },
         {
-          "item": 1509,
+          "item": 1508,
           "cod": "34706-BB-2",
           "prod": "Babeta metálica - Ml",
           "long": 91500,
@@ -40082,7 +40065,7 @@
           "literal": "BB"
         },
         {
-          "item": 1510,
+          "item": 1509,
           "cod": "34707-CN-1",
           "prod": "Canaleta x Kg.",
           "long": 168000,
@@ -40100,7 +40083,7 @@
           "literal": "CN"
         },
         {
-          "item": 1511,
+          "item": 1510,
           "cod": "34707-TCN-2",
           "prod": "Tapa de Canaleta",
           "long": 450,
@@ -40118,7 +40101,7 @@
           "literal": "TCN"
         },
         {
-          "item": 1512,
+          "item": 1511,
           "cod": "34707-SCN-3",
           "prod": "Soporte para canaleta",
           "long": 1370,
@@ -40136,7 +40119,7 @@
           "literal": "SCN"
         },
         {
-          "item": 1513,
+          "item": 1512,
           "cod": "34707-SCN-4",
           "prod": "Soporte para canaleta",
           "long": 790,
@@ -40154,7 +40137,7 @@
           "literal": "SCN"
         },
         {
-          "item": 1514,
+          "item": 1513,
           "cod": "34707-PS-8",
           "prod": "Pieza Suelta",
           "long": 300,
