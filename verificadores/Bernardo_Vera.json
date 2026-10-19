@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T14:23:31.367Z",
+  "updatedAt": "2026-10-19T14:24:01.471Z",
   "updatedBy": "Bernardo Vera",
   "checks": {
     "25694_1": {
@@ -9667,7 +9667,7 @@
     },
     "25107_153": {
       "arm_state": "liberado",
-      "qty_lib": 26,
+      "qty_lib": 28,
       "pint_state": "en_pintura"
     },
     "25107_154": {
@@ -9676,7 +9676,7 @@
       "pint_state": "pintado"
     },
     "25107_163": {
-      "qty_lib": 23,
+      "qty_lib": 40,
       "arm_state": "liberado",
       "pint_state": "en_pintura"
     },
@@ -36729,6 +36729,88 @@
       "qty_lib": 20,
       "arm_state": "liberado",
       "pint_state": "pintado"
+    },
+    "25107_1420": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1422": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1421": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1424": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1425": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1426": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1427": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1430": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1432": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1224": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1227": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1226": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1232": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1229": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1223": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1225": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1230": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1487": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1231": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1233": {},
+    "25527_832": {
+      "qty_lib": 2,
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     }
   },
   "otMeta": {
@@ -36736,25 +36818,25 @@
       "ot": "24969",
       "obra": "Depósito Líneas Interiores_CHAPAS",
       "cliente": "T.I. SOCIEDAD ANONIMA.",
-      "fecha": "14/8/2026",
+      "fecha": "17/10/2026",
       "avances": {
-        "arm": 32,
-        "pint": 32,
-        "env": 0,
+        "arm": 79,
+        "pint": 10,
+        "env": 69,
         "mont": 0
       },
       "totales": {
-        "cant": 41,
-        "arm_lib": 13,
+        "cant": 133,
+        "arm_lib": 105,
         "arm_pend": 28,
         "pint_ok": 13,
-        "pint_pend": 28,
-        "env_ok": 0,
+        "pint_pend": 120,
+        "env_ok": 92,
         "env_pend": 41,
-        "items": 11,
-        "peso_total": 1094.9799999999998,
+        "items": 22,
+        "peso_total": 1528.9579999999999,
         "arm_pend_peso": 0,
-        "pint_pend_peso": 0,
+        "pint_pend_peso": 433.978,
         "env_pend_peso": 1094.9799999999998
       },
       "items": [
@@ -36921,6 +37003,78 @@
           "literal": "BEF"
         },
         {
+          "item": 10,
+          "cod": "32972-CN-1",
+          "prod": "Canaleta x Kg.",
+          "long": 27000,
+          "cant": 1,
+          "peso": 157,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 157,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
+          "literal": "CN"
+        },
+        {
+          "item": 11,
+          "cod": "32972-TCN-2",
+          "prod": "Tapa de Canaleta",
+          "long": 220,
+          "cant": 2,
+          "peso": 0.828,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 0.828,
+          "env_ok": 2,
+          "env_pend": 0,
+          "env_pend_peso": 0,
+          "literal": "TCN"
+        },
+        {
+          "item": 12,
+          "cod": "32972-SCN-3",
+          "prod": "Soporte para canaleta",
+          "long": 445,
+          "cant": 19,
+          "peso": 28.5,
+          "arm_lib": 19,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 19,
+          "pint_pend_peso": 28.5,
+          "env_ok": 19,
+          "env_pend": 0,
+          "env_pend_peso": 0,
+          "literal": "SCN"
+        },
+        {
+          "item": 13,
+          "cod": "32972-PS-4",
+          "prod": "Pieza Suelta",
+          "long": 350,
+          "cant": 4,
+          "peso": 4,
+          "arm_lib": 4,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 4,
+          "pint_pend_peso": 4,
+          "env_ok": 4,
+          "env_pend": 0,
+          "env_pend_peso": 0,
+          "literal": "PS"
+        },
+        {
           "item": 14,
           "cod": "33838-BB-01",
           "prod": "Babeta metálica - Ml",
@@ -36935,6 +37089,132 @@
           "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 28,
+          "env_pend_peso": 0,
+          "literal": "BB"
+        },
+        {
+          "item": 15,
+          "cod": "24969-ZC-1",
+          "prod": "Zocalo para chapa zipada",
+          "long": 300,
+          "cant": 60,
+          "peso": 27.6,
+          "arm_lib": 60,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 60,
+          "pint_pend_peso": 27.6,
+          "env_ok": 60,
+          "env_pend": 0,
+          "env_pend_peso": 0,
+          "literal": "ZC"
+        },
+        {
+          "item": 16,
+          "cod": "33846-BB-01",
+          "prod": "Babeta metálica - Ml",
+          "long": 14000,
+          "cant": 1,
+          "peso": 42.024,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 42.024,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
+          "literal": "BB"
+        },
+        {
+          "item": 17,
+          "cod": "33846-BB-02",
+          "prod": "Babeta metálica - Ml",
+          "long": 14000,
+          "cant": 1,
+          "peso": 16.921,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 16.921,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
+          "literal": "BB"
+        },
+        {
+          "item": 18,
+          "cod": "33865-BB-1",
+          "prod": "Babeta metálica - Ml",
+          "long": 76000,
+          "cant": 1,
+          "peso": 35.79,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 35.79,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
+          "literal": "BB"
+        },
+        {
+          "item": 19,
+          "cod": "33865-BB-2",
+          "prod": "Babeta metálica - Ml",
+          "long": 92000,
+          "cant": 1,
+          "peso": 34.66,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 34.66,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
+          "literal": "BB"
+        },
+        {
+          "item": 20,
+          "cod": "33865-BB-3",
+          "prod": "Babeta metálica - Ml",
+          "long": 27000,
+          "cant": 1,
+          "peso": 58.49,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 58.49,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
+          "literal": "BB"
+        },
+        {
+          "item": 21,
+          "cod": "33865-BB-4",
+          "prod": "Babeta metálica - Ml",
+          "long": 23000,
+          "cant": 1,
+          "peso": 28.165,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 28.165,
+          "env_ok": 1,
+          "env_pend": 0,
           "env_pend_peso": 0,
           "literal": "BB"
         },
@@ -36968,11 +37248,88 @@
       ],
       "pint_pend_items": [
         {
+          "cod": "32972-CN-1",
+          "prod": "Canaleta x Kg.",
+          "long": 27000,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "32972-TCN-2",
+          "prod": "Tapa de Canaleta",
+          "long": 220,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "32972-SCN-3",
+          "prod": "Soporte para canaleta",
+          "long": 445,
+          "cant": 19,
+          "pend": 19
+        },
+        {
+          "cod": "32972-PS-4",
+          "prod": "Pieza Suelta",
+          "long": 350,
+          "cant": 4,
+          "pend": 4
+        },
+        {
           "cod": "33838-BB-01",
           "prod": "Babeta metálica - Ml",
           "long": 28000,
           "cant": 28,
           "pend": 28
+        },
+        {
+          "cod": "24969-ZC-1",
+          "prod": "Zocalo para chapa zipada",
+          "long": 300,
+          "cant": 60,
+          "pend": 60
+        },
+        {
+          "cod": "33846-BB-01",
+          "prod": "Babeta metálica - Ml",
+          "long": 14000,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "33846-BB-02",
+          "prod": "Babeta metálica - Ml",
+          "long": 14000,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "33865-BB-1",
+          "prod": "Babeta metálica - Ml",
+          "long": 76000,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "33865-BB-2",
+          "prod": "Babeta metálica - Ml",
+          "long": 92000,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "33865-BB-3",
+          "prod": "Babeta metálica - Ml",
+          "long": 27000,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "33865-BB-4",
+          "prod": "Babeta metálica - Ml",
+          "long": 23000,
+          "cant": 1,
+          "pend": 1
         }
       ]
     },
@@ -44619,26 +44976,26 @@
       "ot": "25609",
       "obra": "Portón, puerta CF y escalera con baranda YUKYRY",
       "cliente": "OMBUES S.A",
-      "fecha": "20/7/2026",
+      "fecha": "16/10/2026",
       "avances": {
-        "arm": 92,
-        "pint": 0,
-        "env": 0,
+        "arm": 69,
+        "pint": 75,
+        "env": 72,
         "mont": 0
       },
       "totales": {
-        "cant": 24,
+        "cant": 32,
         "arm_lib": 22,
-        "arm_pend": 2,
-        "pint_ok": 0,
-        "pint_pend": 24,
-        "env_ok": 0,
-        "env_pend": 24,
-        "items": 19,
-        "peso_total": 873.96,
-        "arm_pend_peso": 1.1,
-        "pint_pend_peso": 873.96,
-        "env_pend_peso": 873.96
+        "arm_pend": 10,
+        "pint_ok": 24,
+        "pint_pend": 8,
+        "env_ok": 23,
+        "env_pend": 9,
+        "items": 25,
+        "peso_total": 1088.92,
+        "arm_pend_peso": 216.05999999999997,
+        "pint_pend_peso": 214.95999999999998,
+        "env_pend_peso": 230.14999999999998
       },
       "items": [
         {
@@ -44651,12 +45008,12 @@
           "arm_lib": 2,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 8.6,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 8.6,
+          "pint_ok": 2,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 2,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJO"
         },
         {
@@ -44669,12 +45026,12 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 23.97,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 23.97,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJO"
         },
         {
@@ -44687,12 +45044,12 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 10.88,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 10.88,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJO"
         },
         {
@@ -44705,12 +45062,12 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 298.22,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 298.22,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJO"
         },
         {
@@ -44723,12 +45080,12 @@
           "arm_lib": 0,
           "arm_pend": 2,
           "arm_pend_peso": 1.1,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 1.1,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 1.1,
+          "pint_ok": 2,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 2,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJO"
         },
         {
@@ -44741,12 +45098,12 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 27.94,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 27.94,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJO"
         },
         {
@@ -44759,12 +45116,12 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 247.26,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 247.26,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJO"
         },
         {
@@ -44777,12 +45134,12 @@
           "arm_lib": 2,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 3.06,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 3.06,
+          "pint_ok": 2,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 2,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJO"
         },
         {
@@ -44795,12 +45152,12 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 2.37,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 2.37,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJO"
         },
         {
@@ -44813,12 +45170,12 @@
           "arm_lib": 2,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 65.46,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 65.46,
+          "pint_ok": 2,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 2,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJO"
         },
         {
@@ -44831,12 +45188,12 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 72.53,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 72.53,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJO"
         },
         {
@@ -44849,12 +45206,12 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 19.61,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 19.61,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJO"
         },
         {
@@ -44867,12 +45224,12 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 16.34,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 16.34,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJO"
         },
         {
@@ -44885,12 +45242,12 @@
           "arm_lib": 2,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 34.36,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 34.36,
+          "pint_ok": 2,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 2,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJO"
         },
         {
@@ -44903,12 +45260,12 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 18.23,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 18.23,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJO"
         },
         {
@@ -44921,9 +45278,9 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 15.19,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 15.19,
@@ -44939,12 +45296,12 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 2.92,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 2.92,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJO"
         },
         {
@@ -44957,12 +45314,12 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 2.92,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 2.92,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
           "literal": "BJO"
         },
         {
@@ -44975,13 +45332,121 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
+          "literal": "PZ"
+        },
+        {
+          "item": 20,
+          "cod": "BJO-BR-200",
+          "prod": "Baranda - Unid.",
+          "long": 1011,
+          "cant": 1,
+          "peso": 7.64,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 7.64,
           "pint_ok": 0,
           "pint_pend": 1,
-          "pint_pend_peso": 3,
+          "pint_pend_peso": 7.64,
           "env_ok": 0,
           "env_pend": 1,
-          "env_pend_peso": 3,
-          "literal": "PZ"
+          "env_pend_peso": 7.64,
+          "literal": "BJO"
+        },
+        {
+          "item": 21,
+          "cod": "BJO-BR-201",
+          "prod": "Baranda - Unid.",
+          "long": 1987,
+          "cant": 1,
+          "peso": 22.23,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 22.23,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 22.23,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 22.23,
+          "literal": "BJO"
+        },
+        {
+          "item": 22,
+          "cod": "BJO-ES-200",
+          "prod": "Escalera Metalica",
+          "long": 2949,
+          "cant": 1,
+          "peso": 150.03,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 150.03,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 150.03,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 150.03,
+          "literal": "BJO"
+        },
+        {
+          "item": 23,
+          "cod": "BJO-LLP-200",
+          "prod": "Angulo Pintado",
+          "long": 100,
+          "cant": 2,
+          "peso": 0.92,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 0.92,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 0.92,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 0.92,
+          "literal": "BJO"
+        },
+        {
+          "item": 24,
+          "cod": "BJO-PZ-200",
+          "prod": "Pieza Especial",
+          "long": 75,
+          "cant": 2,
+          "peso": 2.54,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 2.54,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 2.54,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 2.54,
+          "literal": "BJO"
+        },
+        {
+          "item": 25,
+          "cod": "BJO-PZ-201",
+          "prod": "Pieza Especial",
+          "long": 1090,
+          "cant": 1,
+          "peso": 31.6,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 31.6,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 31.6,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 31.6,
+          "literal": "BJO"
         }
       ],
       "arm_pend_items": [
@@ -44991,139 +45456,90 @@
           "long": 100,
           "cant": 2,
           "pend": 2
-        }
-      ],
-      "pint_pend_items": [
-        {
-          "cod": "BJO-CNP-1",
-          "prod": "Caño Pintado",
-          "long": 1800,
-          "cant": 2,
-          "pend": 2
         },
         {
-          "cod": "BJO-CNP-2",
-          "prod": "Caño Pintado",
-          "long": 5229,
+          "cod": "BJO-BR-200",
+          "prod": "Baranda - Unid.",
+          "long": 1011,
           "cant": 1,
           "pend": 1
         },
         {
-          "cod": "BJO-CNP-3",
-          "prod": "Caño Pintado",
-          "long": 6000,
+          "cod": "BJO-BR-201",
+          "prod": "Baranda - Unid.",
+          "long": 1987,
           "cant": 1,
           "pend": 1
         },
         {
-          "cod": "BJO-GS-1",
-          "prod": "Guía Soporte",
-          "long": 13365,
+          "cod": "BJO-ES-200",
+          "prod": "Escalera Metalica",
+          "long": 2949,
           "cant": 1,
           "pend": 1
         },
         {
-          "cod": "BJO-LLP-1",
+          "cod": "BJO-LLP-200",
           "prod": "Angulo Pintado",
           "long": 100,
           "cant": 2,
           "pend": 2
         },
         {
-          "cod": "BJO-PCT-1",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 5815,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BJO-PO-1",
-          "prod": "Porton Corredizo",
-          "long": 6405,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BJO-PS-1",
-          "prod": "Pieza Suelta",
-          "long": 180,
+          "cod": "BJO-PZ-200",
+          "prod": "Pieza Especial",
+          "long": 75,
           "cant": 2,
           "pend": 2
         },
         {
-          "cod": "BJO-PS-2",
-          "prod": "Pieza Suelta",
-          "long": 190,
+          "cod": "BJO-PZ-201",
+          "prod": "Pieza Especial",
+          "long": 1090,
+          "cant": 1,
+          "pend": 1
+        }
+      ],
+      "pint_pend_items": [
+        {
+          "cod": "BJO-BR-200",
+          "prod": "Baranda - Unid.",
+          "long": 1011,
           "cant": 1,
           "pend": 1
         },
         {
-          "cod": "BJO-PTC-1",
-          "prod": "Pilar Tubo Caño",
-          "long": 5295,
+          "cod": "BJO-BR-201",
+          "prod": "Baranda - Unid.",
+          "long": 1987,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJO-ES-200",
+          "prod": "Escalera Metalica",
+          "long": 2949,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BJO-LLP-200",
+          "prod": "Angulo Pintado",
+          "long": 100,
           "cant": 2,
           "pend": 2
         },
         {
-          "cod": "BJO-PTC-2",
-          "prod": "Pilar Tubo Caño",
-          "long": 198,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BJO-PZ-1",
+          "cod": "BJO-PZ-200",
           "prod": "Pieza Especial",
-          "long": 26,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BJO-PZ-2",
-          "prod": "Pieza Especial",
-          "long": 26,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BJO-PZ-3",
-          "prod": "Pieza Especial",
-          "long": 76,
+          "long": 75,
           "cant": 2,
           "pend": 2
         },
         {
-          "cod": "BJO-PZ-4",
+          "cod": "BJO-PZ-201",
           "prod": "Pieza Especial",
-          "long": 26,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BJO-PZ-5",
-          "prod": "Pieza Especial",
-          "long": 26,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BJO-SP-1",
-          "prod": "SOPORTE",
-          "long": 330,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BJO-SP-2",
-          "prod": "SOPORTE",
-          "long": 330,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "33394-PZ-1",
-          "prod": "Pieza Especial",
-          "long": 330,
+          "long": 1090,
           "cant": 1,
           "pend": 1
         }
