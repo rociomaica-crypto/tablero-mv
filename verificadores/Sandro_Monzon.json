@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T11:24:34.465Z",
+  "updatedAt": "2026-10-19T10:05:55.903Z",
   "updatedBy": "Sandro Monzon",
   "checks": {
     "24969_1": {
@@ -8547,6 +8547,10 @@
       "qty_lib": 1
     },
     "25107_1487": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1231": {
       "arm_state": "liberado",
       "qty_lib": 1
     }
@@ -117537,26 +117541,26 @@
       "ot": "25659",
       "obra": "NAVE 4 CDLUQUE CHACOMER OP PILAR 16M",
       "cliente": "Kinetik SA",
-      "fecha": "16/10/2026",
+      "fecha": "19/10/2026",
       "avances": {
-        "arm": 31,
-        "pint": 17,
+        "arm": 34,
+        "pint": 18,
         "env": 1,
         "mont": 0
       },
       "totales": {
-        "cant": 18792,
-        "arm_lib": 5772,
-        "arm_pend": 13020,
-        "pint_ok": 3276.5,
-        "pint_pend": 15515.5,
-        "env_ok": 99,
-        "env_pend": 18693,
-        "items": 238,
-        "peso_total": 733341.1200000003,
-        "arm_pend_peso": 413767.61,
-        "pint_pend_peso": 416042.83500000014,
-        "env_pend_peso": 726944.2800000003
+        "cant": 18840,
+        "arm_lib": 6346.5,
+        "arm_pend": 12493.5,
+        "pint_ok": 3368,
+        "pint_pend": 15472,
+        "env_ok": 115,
+        "env_pend": 18725,
+        "items": 256,
+        "peso_total": 730993.9400000003,
+        "arm_pend_peso": 410639.89,
+        "pint_pend_peso": 412302.3300000001,
+        "env_pend_peso": 705938.6000000002
       },
       "items": [
         {
@@ -119225,9 +119229,9 @@
           "arm_lib": 0,
           "arm_pend": 480,
           "arm_pend_peso": 13089.6,
-          "pint_ok": 148,
-          "pint_pend": 332,
-          "pint_pend_peso": 9053.64,
+          "pint_ok": 180,
+          "pint_pend": 300,
+          "pint_pend_peso": 8181,
           "env_ok": 0,
           "env_pend": 480,
           "env_pend_peso": 13089.6,
@@ -119474,12 +119478,12 @@
           "long": 21942,
           "cant": 15,
           "peso": 12316.65,
-          "arm_lib": 3,
-          "arm_pend": 12,
-          "arm_pend_peso": 9853.32,
-          "pint_ok": 0.5,
-          "pint_pend": 14.5,
-          "pint_pend_peso": 11906.095,
+          "arm_lib": 4,
+          "arm_pend": 11,
+          "arm_pend_peso": 9032.21,
+          "pint_ok": 2,
+          "pint_pend": 13,
+          "pint_pend_peso": 10674.43,
           "env_ok": 0,
           "env_pend": 15,
           "env_pend_peso": 12316.65,
@@ -119492,9 +119496,9 @@
           "long": 21942,
           "cant": 8,
           "peso": 6605.6,
-          "arm_lib": 1,
-          "arm_pend": 7,
-          "arm_pend_peso": 5779.9,
+          "arm_lib": 1.5,
+          "arm_pend": 6.5,
+          "arm_pend_peso": 5367.05,
           "pint_ok": 0,
           "pint_pend": 8,
           "pint_pend_peso": 6605.6,
@@ -120176,9 +120180,9 @@
           "long": 125,
           "cant": 172,
           "peso": 72.24,
-          "arm_lib": 0,
-          "arm_pend": 172,
-          "arm_pend_peso": 72.24,
+          "arm_lib": 59,
+          "arm_pend": 113,
+          "arm_pend_peso": 47.46,
           "pint_ok": 0,
           "pint_pend": 172,
           "pint_pend_peso": 72.24,
@@ -120698,9 +120702,9 @@
           "long": 1119,
           "cant": 230,
           "peso": 931.5,
-          "arm_lib": 0,
-          "arm_pend": 230,
-          "arm_pend_peso": 931.5,
+          "arm_lib": 80,
+          "arm_pend": 150,
+          "arm_pend_peso": 607.5,
           "pint_ok": 0,
           "pint_pend": 230,
           "pint_pend_peso": 931.5,
@@ -120716,9 +120720,9 @@
           "long": 1119,
           "cant": 230,
           "peso": 931.5,
-          "arm_lib": 0,
-          "arm_pend": 230,
-          "arm_pend_peso": 931.5,
+          "arm_lib": 80,
+          "arm_pend": 150,
+          "arm_pend_peso": 607.5,
           "pint_ok": 0,
           "pint_pend": 230,
           "pint_pend_peso": 931.5,
@@ -120734,9 +120738,9 @@
           "long": 978,
           "cant": 320,
           "peso": 1132.8,
-          "arm_lib": 0,
-          "arm_pend": 320,
-          "arm_pend_peso": 1132.8,
+          "arm_lib": 168,
+          "arm_pend": 152,
+          "arm_pend_peso": 538.08,
           "pint_ok": 0,
           "pint_pend": 320,
           "pint_pend_peso": 1132.8,
@@ -120752,9 +120756,9 @@
           "long": 978,
           "cant": 320,
           "peso": 1132.8,
-          "arm_lib": 0,
-          "arm_pend": 320,
-          "arm_pend_peso": 1132.8,
+          "arm_lib": 165,
+          "arm_pend": 155,
+          "arm_pend_peso": 548.7,
           "pint_ok": 0,
           "pint_pend": 320,
           "pint_pend_peso": 1132.8,
@@ -120827,9 +120831,9 @@
           "arm_lib": 0,
           "arm_pend": 120,
           "arm_pend_peso": 3272.4,
-          "pint_ok": 60,
-          "pint_pend": 60,
-          "pint_pend_peso": 1636.2,
+          "pint_ok": 120,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 120,
           "env_pend_peso": 3272.4,
@@ -120986,9 +120990,9 @@
           "long": 290,
           "cant": 10,
           "peso": 13.2,
-          "arm_lib": 0,
-          "arm_pend": 10,
-          "arm_pend_peso": 13.2,
+          "arm_lib": 1,
+          "arm_pend": 9,
+          "arm_pend_peso": 11.88,
           "pint_ok": 0,
           "pint_pend": 10,
           "pint_pend_peso": 13.2,
@@ -121004,9 +121008,9 @@
           "long": 290,
           "cant": 10,
           "peso": 13.2,
-          "arm_lib": 0,
-          "arm_pend": 10,
-          "arm_pend_peso": 13.2,
+          "arm_lib": 1,
+          "arm_pend": 9,
+          "arm_pend_peso": 11.88,
           "pint_ok": 0,
           "pint_pend": 10,
           "pint_pend_peso": 13.2,
@@ -121022,9 +121026,9 @@
           "long": 400,
           "cant": 180,
           "peso": 327.6,
-          "arm_lib": 0,
-          "arm_pend": 180,
-          "arm_pend_peso": 327.6,
+          "arm_lib": 15,
+          "arm_pend": 165,
+          "arm_pend_peso": 300.3,
           "pint_ok": 0,
           "pint_pend": 180,
           "pint_pend_peso": 327.6,
@@ -121040,9 +121044,9 @@
           "long": 500,
           "cant": 50,
           "peso": 114,
-          "arm_lib": 0,
-          "arm_pend": 50,
-          "arm_pend_peso": 114,
+          "arm_lib": 4,
+          "arm_pend": 46,
+          "arm_pend_peso": 104.88,
           "pint_ok": 0,
           "pint_pend": 50,
           "pint_pend_peso": 114,
@@ -121058,9 +121062,9 @@
           "long": 340,
           "cant": 310,
           "peso": 480.5,
-          "arm_lib": 0,
-          "arm_pend": 310,
-          "arm_pend_peso": 480.5,
+          "arm_lib": 2,
+          "arm_pend": 308,
+          "arm_pend_peso": 477.4,
           "pint_ok": 0,
           "pint_pend": 310,
           "pint_pend_peso": 480.5,
@@ -121160,24 +121164,6 @@
           "literal": "BJK"
         },
         {
-          "item": 206,
-          "cod": "BJK-PIS-600",
-          "prod": "Pilar Alma Llena",
-          "long": 16250,
-          "cant": 1,
-          "peso": 1173.59,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 1173.59,
-          "literal": "BJK"
-        },
-        {
           "item": 207,
           "cod": "BJK-PIS-601",
           "prod": "Pilar Alma Llena",
@@ -121226,9 +121212,9 @@
           "pint_ok": 12,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 12,
-          "env_pend_peso": 15068.4,
+          "env_ok": 2,
+          "env_pend": 10,
+          "env_pend_peso": 12557,
           "literal": "BJK"
         },
         {
@@ -121298,9 +121284,9 @@
           "pint_ok": 8,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 8,
-          "env_pend_peso": 9243.2,
+          "env_ok": 5,
+          "env_pend": 3,
+          "env_pend_peso": 3466.2,
           "literal": "BJK"
         },
         {
@@ -121334,9 +121320,9 @@
           "pint_ok": 13,
           "pint_pend": 2,
           "pint_pend_peso": 2301.3,
-          "env_ok": 0,
-          "env_pend": 15,
-          "env_pend_peso": 17259.75,
+          "env_ok": 6,
+          "env_pend": 9,
+          "env_pend_peso": 10355.85,
           "literal": "BJK"
         },
         {
@@ -121370,9 +121356,9 @@
           "pint_ok": 7,
           "pint_pend": 1,
           "pint_pend_peso": 1155.4,
-          "env_ok": 0,
-          "env_pend": 8,
-          "env_pend_peso": 9243.2,
+          "env_ok": 3,
+          "env_pend": 5,
+          "env_pend_peso": 5777,
           "literal": "BJK"
         },
         {
@@ -121463,24 +121449,6 @@
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 1240.55,
-          "literal": "BJK"
-        },
-        {
-          "item": 223,
-          "cod": "BJK-PIS-617",
-          "prod": "Pilar Alma Llena",
-          "long": 16250,
-          "cant": 1,
-          "peso": 1173.59,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 1173.59,
           "literal": "BJK"
         },
         {
@@ -121842,6 +121810,366 @@
           "env_pend": 128,
           "env_pend_peso": 1283.84,
           "literal": "BJK"
+        },
+        {
+          "item": 244,
+          "cod": "34716-CN-1",
+          "prod": "Canaleta x Kg.",
+          "long": 22500,
+          "cant": 3,
+          "peso": 0,
+          "arm_lib": 0,
+          "arm_pend": 3,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 3,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 3,
+          "env_pend_peso": 0,
+          "literal": "CN"
+        },
+        {
+          "item": 245,
+          "cod": "34716-CN-2",
+          "prod": "Canaleta x Kg.",
+          "long": 23300,
+          "cant": 3,
+          "peso": 0,
+          "arm_lib": 0,
+          "arm_pend": 3,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 3,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 3,
+          "env_pend_peso": 0,
+          "literal": "CN"
+        },
+        {
+          "item": 246,
+          "cod": "34716-CN-3",
+          "prod": "Canaleta x Kg.",
+          "long": 21600,
+          "cant": 2,
+          "peso": 0,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 0,
+          "literal": "CN"
+        },
+        {
+          "item": 247,
+          "cod": "34716-TCN-4",
+          "prod": "Tapa de Canaleta",
+          "long": 410,
+          "cant": 2,
+          "peso": 0,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 0,
+          "literal": "TCN"
+        },
+        {
+          "item": 248,
+          "cod": "34717-CN-1",
+          "prod": "Canaleta x Kg.",
+          "long": 22500,
+          "cant": 3,
+          "peso": 0,
+          "arm_lib": 0,
+          "arm_pend": 3,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 3,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 3,
+          "env_pend_peso": 0,
+          "literal": "CN"
+        },
+        {
+          "item": 249,
+          "cod": "34717-CN-2",
+          "prod": "Canaleta x Kg.",
+          "long": 23300,
+          "cant": 3,
+          "peso": 0,
+          "arm_lib": 0,
+          "arm_pend": 3,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 3,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 3,
+          "env_pend_peso": 0,
+          "literal": "CN"
+        },
+        {
+          "item": 250,
+          "cod": "34717-CN-3",
+          "prod": "Canaleta x Kg.",
+          "long": 21600,
+          "cant": 2,
+          "peso": 0,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 0,
+          "literal": "CN"
+        },
+        {
+          "item": 251,
+          "cod": "34717-TCN-4",
+          "prod": "Tapa de Canaleta",
+          "long": 410,
+          "cant": 2,
+          "peso": 0,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 0,
+          "literal": "TCN"
+        },
+        {
+          "item": 252,
+          "cod": "34718-CN-1",
+          "prod": "Canaleta x Kg.",
+          "long": 22500,
+          "cant": 3,
+          "peso": 0,
+          "arm_lib": 0,
+          "arm_pend": 3,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 3,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 3,
+          "env_pend_peso": 0,
+          "literal": "CN"
+        },
+        {
+          "item": 253,
+          "cod": "34718-CN-2",
+          "prod": "Canaleta x Kg.",
+          "long": 23300,
+          "cant": 3,
+          "peso": 0,
+          "arm_lib": 0,
+          "arm_pend": 3,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 3,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 3,
+          "env_pend_peso": 0,
+          "literal": "CN"
+        },
+        {
+          "item": 254,
+          "cod": "34718-CN-3",
+          "prod": "Canaleta x Kg.",
+          "long": 21600,
+          "cant": 2,
+          "peso": 0,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 0,
+          "literal": "CN"
+        },
+        {
+          "item": 255,
+          "cod": "34718-TCN-4",
+          "prod": "Tapa de Canaleta",
+          "long": 410,
+          "cant": 2,
+          "peso": 0,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 0,
+          "literal": "TCN"
+        },
+        {
+          "item": 256,
+          "cod": "34719-CN-1",
+          "prod": "Canaleta x Kg.",
+          "long": 22500,
+          "cant": 3,
+          "peso": 0,
+          "arm_lib": 0,
+          "arm_pend": 3,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 3,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 3,
+          "env_pend_peso": 0,
+          "literal": "CN"
+        },
+        {
+          "item": 257,
+          "cod": "34719-CN-2",
+          "prod": "Canaleta x Kg.",
+          "long": 23300,
+          "cant": 3,
+          "peso": 0,
+          "arm_lib": 0,
+          "arm_pend": 3,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 3,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 3,
+          "env_pend_peso": 0,
+          "literal": "CN"
+        },
+        {
+          "item": 258,
+          "cod": "34719-CN-3",
+          "prod": "Canaleta x Kg.",
+          "long": 21600,
+          "cant": 2,
+          "peso": 0,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 0,
+          "literal": "CN"
+        },
+        {
+          "item": 259,
+          "cod": "34719-TCN-4",
+          "prod": "Tapa de Canaleta",
+          "long": 410,
+          "cant": 2,
+          "peso": 0,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 0,
+          "literal": "TCN"
+        },
+        {
+          "item": 260,
+          "cod": "34720-CN-1",
+          "prod": "Canaleta x Kg.",
+          "long": 22500,
+          "cant": 3,
+          "peso": 0,
+          "arm_lib": 0,
+          "arm_pend": 3,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 3,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 3,
+          "env_pend_peso": 0,
+          "literal": "CN"
+        },
+        {
+          "item": 261,
+          "cod": "34720-CN-2",
+          "prod": "Canaleta x Kg.",
+          "long": 23300,
+          "cant": 3,
+          "peso": 0,
+          "arm_lib": 0,
+          "arm_pend": 3,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 3,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 3,
+          "env_pend_peso": 0,
+          "literal": "CN"
+        },
+        {
+          "item": 262,
+          "cod": "34720-CN-3",
+          "prod": "Canaleta x Kg.",
+          "long": 21600,
+          "cant": 2,
+          "peso": 0,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 0,
+          "literal": "CN"
+        },
+        {
+          "item": 263,
+          "cod": "34720-TCN-4",
+          "prod": "Tapa de Canaleta",
+          "long": 410,
+          "cant": 2,
+          "peso": 0,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 0,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 0,
+          "literal": "TCN"
         }
       ],
       "arm_pend_items": [
@@ -122326,14 +122654,14 @@
           "prod": "Viga Techo Reticulada de angulos",
           "long": 21942,
           "cant": 15,
-          "pend": 12
+          "pend": 11
         },
         {
           "cod": "BJK-VTR-303",
           "prod": "Viga Techo Reticulada de angulos",
           "long": 21942,
           "cant": 8,
-          "pend": 7
+          "pend": 6.5
         },
         {
           "cod": "BJK-PCR-400",
@@ -122382,7 +122710,7 @@
           "prod": "Soporte Cruz",
           "long": 125,
           "cant": 172,
-          "pend": 172
+          "pend": 113
         },
         {
           "cod": "BJK-SC-501",
@@ -122431,28 +122759,28 @@
           "prod": "Mano Francesa",
           "long": 1119,
           "cant": 230,
-          "pend": 230
+          "pend": 150
         },
         {
           "cod": "BJK-MF-601",
           "prod": "Mano Francesa",
           "long": 1119,
           "cant": 230,
-          "pend": 230
+          "pend": 150
         },
         {
           "cod": "BJK-MF-602",
           "prod": "Mano Francesa",
           "long": 978,
           "cant": 320,
-          "pend": 320
+          "pend": 152
         },
         {
           "cod": "BJK-MF-603",
           "prod": "Mano Francesa",
           "long": 978,
           "cant": 320,
-          "pend": 320
+          "pend": 155
         },
         {
           "cod": "BJK-PCL-600",
@@ -122529,35 +122857,35 @@
           "prod": "SOPORTE",
           "long": 290,
           "cant": 10,
-          "pend": 10
+          "pend": 9
         },
         {
           "cod": "BJK-SP-601",
           "prod": "SOPORTE",
           "long": 290,
           "cant": 10,
-          "pend": 10
+          "pend": 9
         },
         {
           "cod": "BJK-SP-602",
           "prod": "SOPORTE",
           "long": 400,
           "cant": 180,
-          "pend": 180
+          "pend": 165
         },
         {
           "cod": "BJK-SP-603",
           "prod": "SOPORTE",
           "long": 500,
           "cant": 50,
-          "pend": 50
+          "pend": 46
         },
         {
           "cod": "BJK-SP-604",
           "prod": "SOPORTE",
           "long": 340,
           "cant": 310,
-          "pend": 310
+          "pend": 308
         },
         {
           "cod": "BJK-TC-600",
@@ -122698,6 +123026,146 @@
           "long": 1649,
           "cant": 112,
           "pend": 112
+        },
+        {
+          "cod": "34716-CN-1",
+          "prod": "Canaleta x Kg.",
+          "long": 22500,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "34716-CN-2",
+          "prod": "Canaleta x Kg.",
+          "long": 23300,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "34716-CN-3",
+          "prod": "Canaleta x Kg.",
+          "long": 21600,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "34716-TCN-4",
+          "prod": "Tapa de Canaleta",
+          "long": 410,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "34717-CN-1",
+          "prod": "Canaleta x Kg.",
+          "long": 22500,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "34717-CN-2",
+          "prod": "Canaleta x Kg.",
+          "long": 23300,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "34717-CN-3",
+          "prod": "Canaleta x Kg.",
+          "long": 21600,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "34717-TCN-4",
+          "prod": "Tapa de Canaleta",
+          "long": 410,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "34718-CN-1",
+          "prod": "Canaleta x Kg.",
+          "long": 22500,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "34718-CN-2",
+          "prod": "Canaleta x Kg.",
+          "long": 23300,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "34718-CN-3",
+          "prod": "Canaleta x Kg.",
+          "long": 21600,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "34718-TCN-4",
+          "prod": "Tapa de Canaleta",
+          "long": 410,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "34719-CN-1",
+          "prod": "Canaleta x Kg.",
+          "long": 22500,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "34719-CN-2",
+          "prod": "Canaleta x Kg.",
+          "long": 23300,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "34719-CN-3",
+          "prod": "Canaleta x Kg.",
+          "long": 21600,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "34719-TCN-4",
+          "prod": "Tapa de Canaleta",
+          "long": 410,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "34720-CN-1",
+          "prod": "Canaleta x Kg.",
+          "long": 22500,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "34720-CN-2",
+          "prod": "Canaleta x Kg.",
+          "long": 23300,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "34720-CN-3",
+          "prod": "Canaleta x Kg.",
+          "long": 21600,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "34720-TCN-4",
+          "prod": "Tapa de Canaleta",
+          "long": 410,
+          "cant": 2,
+          "pend": 2
         }
       ],
       "pint_pend_items": [
@@ -123287,7 +123755,7 @@
           "prod": "Correa de Techo/ Perfilado",
           "long": 5615,
           "cant": 480,
-          "pend": 332
+          "pend": 300
         },
         {
           "cod": "BJK-SC-300",
@@ -123378,7 +123846,7 @@
           "prod": "Viga Techo Reticulada de angulos",
           "long": 21942,
           "cant": 15,
-          "pend": 14.5
+          "pend": 13
         },
         {
           "cod": "BJK-VTR-303",
@@ -123675,13 +124143,6 @@
           "pend": 320
         },
         {
-          "cod": "BJK-PCL-603",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5615,
-          "cant": 120,
-          "pend": 60
-        },
-        {
           "cod": "BJK-PCT-602",
           "prod": "Correa de tímpano/ Perfilado",
           "long": 5615,
@@ -123932,6 +124393,146 @@
           "long": 2753,
           "cant": 128,
           "pend": 128
+        },
+        {
+          "cod": "34716-CN-1",
+          "prod": "Canaleta x Kg.",
+          "long": 22500,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "34716-CN-2",
+          "prod": "Canaleta x Kg.",
+          "long": 23300,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "34716-CN-3",
+          "prod": "Canaleta x Kg.",
+          "long": 21600,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "34716-TCN-4",
+          "prod": "Tapa de Canaleta",
+          "long": 410,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "34717-CN-1",
+          "prod": "Canaleta x Kg.",
+          "long": 22500,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "34717-CN-2",
+          "prod": "Canaleta x Kg.",
+          "long": 23300,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "34717-CN-3",
+          "prod": "Canaleta x Kg.",
+          "long": 21600,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "34717-TCN-4",
+          "prod": "Tapa de Canaleta",
+          "long": 410,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "34718-CN-1",
+          "prod": "Canaleta x Kg.",
+          "long": 22500,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "34718-CN-2",
+          "prod": "Canaleta x Kg.",
+          "long": 23300,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "34718-CN-3",
+          "prod": "Canaleta x Kg.",
+          "long": 21600,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "34718-TCN-4",
+          "prod": "Tapa de Canaleta",
+          "long": 410,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "34719-CN-1",
+          "prod": "Canaleta x Kg.",
+          "long": 22500,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "34719-CN-2",
+          "prod": "Canaleta x Kg.",
+          "long": 23300,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "34719-CN-3",
+          "prod": "Canaleta x Kg.",
+          "long": 21600,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "34719-TCN-4",
+          "prod": "Tapa de Canaleta",
+          "long": 410,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "34720-CN-1",
+          "prod": "Canaleta x Kg.",
+          "long": 22500,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "34720-CN-2",
+          "prod": "Canaleta x Kg.",
+          "long": 23300,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "34720-CN-3",
+          "prod": "Canaleta x Kg.",
+          "long": 21600,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "34720-TCN-4",
+          "prod": "Tapa de Canaleta",
+          "long": 410,
+          "cant": 2,
+          "pend": 2
         }
       ]
     },
