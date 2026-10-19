@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T15:37:38.043Z",
+  "updatedAt": "2026-10-19T15:37:52.606Z",
   "updatedBy": "Adriana Perez",
   "checks": {
     "24969_1": {
@@ -93397,62 +93397,26 @@
       "cliente": "COMERCIAL EL CACIQUE S.R.L.",
       "fecha": "19/10/2026",
       "avances": {
-        "arm": 5,
+        "arm": 4,
         "pint": 0,
-        "env": 1,
+        "env": 0,
         "mont": 0
       },
       "totales": {
-        "cant": 3421,
-        "arm_lib": 186,
+        "cant": 3372,
+        "arm_lib": 137,
         "arm_pend": 3235,
         "pint_ok": 0,
-        "pint_pend": 3421,
-        "env_ok": 49,
+        "pint_pend": 3372,
+        "env_ok": 0,
         "env_pend": 3372,
-        "items": 256,
-        "peso_total": 197884.79999999993,
+        "items": 254,
+        "peso_total": 197084.97999999992,
         "arm_pend_peso": 190928.38999999993,
-        "pint_pend_peso": 197884.79999999993,
+        "pint_pend_peso": 197084.97999999992,
         "env_pend_peso": 197084.97999999992
       },
       "items": [
-        {
-          "item": 1,
-          "cod": "33777-AN-1",
-          "prod": "Anclaje",
-          "long": 807,
-          "cant": 47,
-          "peso": 750.12,
-          "arm_lib": 47,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 47,
-          "pint_pend_peso": 750.12,
-          "env_ok": 47,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "AN"
-        },
-        {
-          "item": 2,
-          "cod": "33777-AN-2",
-          "prod": "Anclaje",
-          "long": 807,
-          "cant": 2,
-          "peso": 49.7,
-          "arm_lib": 2,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 49.7,
-          "env_ok": 2,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "AN"
-        },
         {
           "item": 3,
           "cod": "BNF-CV-1",
@@ -99758,20 +99722,6 @@
         }
       ],
       "pint_pend_items": [
-        {
-          "cod": "33777-AN-1",
-          "prod": "Anclaje",
-          "long": 807,
-          "cant": 47,
-          "pend": 47
-        },
-        {
-          "cod": "33777-AN-2",
-          "prod": "Anclaje",
-          "long": 807,
-          "cant": 2,
-          "pend": 2
-        },
         {
           "cod": "BNF-CV-1",
           "prod": "Cruz Vertical",
