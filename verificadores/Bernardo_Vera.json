@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T09:59:12.188Z",
+  "updatedAt": "2026-10-20T10:25:15.895Z",
   "updatedBy": "Bernardo Vera",
   "checks": {
     "25694_1": {
@@ -37148,11 +37148,13 @@
     },
     "25858_12": {
       "qty_lib": 1,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25858_28": {
       "qty_lib": 1,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25992_9": {
       "qty_lib": 2,
@@ -37385,6 +37387,85 @@
       "qty_lib": 18,
       "arm_state": "liberado",
       "pint_state": "pintado"
+    },
+    "25898_160": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 2
+    },
+    "25898_162": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 2
+    },
+    "25898_163": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 2
+    },
+    "25898_161": {
+      "qty_lib": 1
+    },
+    "25898_166": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 2
+    },
+    "25898_167": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25898_168": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 3
+    },
+    "25898_171": {
+      "qty_lib": 1,
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25898_174": {
+      "qty_lib": 2,
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25898_186": {
+      "qty_lib": 1,
+      "arm_state": "liberado"
+    },
+    "25898_191": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 2
+    },
+    "25898_192": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25898_193": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25898_213": {
+      "qty_lib": 1,
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25898_107": {
+      "qty_lib": 51,
+      "arm_state": "armado"
+    },
+    "25898_112": {
+      "qty_lib": 28,
+      "arm_state": "armado"
+    },
+    "25898_111": {
+      "qty_lib": 23,
+      "arm_state": "armado"
     }
   },
   "otMeta": {
