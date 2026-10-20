@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T10:30:44.677Z",
+  "updatedAt": "2026-10-20T12:29:53.864Z",
   "updatedBy": "Bernardo Vera",
   "checks": {
     "25694_1": {
@@ -22719,7 +22719,7 @@
       "pint_state": "pintado"
     },
     "25560_156": {
-      "qty_lib": 13,
+      "qty_lib": 15,
       "arm_state": "liberado",
       "pint_state": "en_pintura"
     },
@@ -27583,22 +27583,22 @@
     "25107_904": {
       "qty_lib": 1,
       "arm_state": "liberado",
-      "pint_state": "en_pintura"
+      "pint_state": "pintado"
     },
     "25107_905": {
       "qty_lib": 1,
       "arm_state": "liberado",
-      "pint_state": "en_pintura"
+      "pint_state": "pintado"
     },
     "25107_906": {
       "qty_lib": 1,
       "arm_state": "liberado",
-      "pint_state": "en_pintura"
+      "pint_state": "pintado"
     },
     "25107_907": {
       "qty_lib": 1,
       "arm_state": "liberado",
-      "pint_state": "en_pintura"
+      "pint_state": "pintado"
     },
     "25107_958": {
       "qty_lib": 1,
@@ -30775,11 +30775,12 @@
     "25107_951": {
       "qty_lib": 16,
       "arm_state": "liberado",
-      "pint_state": "en_pintura"
+      "pint_state": "pintado"
     },
     "25107_169": {
       "qty_lib": 176,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25107_1034": {
       "arm_state": "liberado",
@@ -33248,7 +33249,8 @@
     },
     "25107_1207": {
       "qty_lib": 16,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25107_1193": {
       "qty_lib": 3,
@@ -33446,11 +33448,13 @@
     },
     "25107_1044": {
       "qty_lib": 72,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25107_1103": {
       "qty_lib": 24,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25381_581": {
       "qty_lib": 1,
@@ -34785,12 +34789,12 @@
     "25659_116": {
       "qty_lib": 18,
       "arm_state": "liberado",
-      "pint_state": "en_pintura"
+      "pint_state": "pintado"
     },
     "25659_117": {
       "qty_lib": 18,
       "arm_state": "liberado",
-      "pint_state": "en_pintura"
+      "pint_state": "pintado"
     },
     "25107_1084": {
       "qty_lib": 1,
@@ -34874,12 +34878,12 @@
     "25659_90": {
       "arm_state": "liberado",
       "qty_lib": 18,
-      "pint_state": "en_pintura"
+      "pint_state": "pintado"
     },
     "25659_91": {
       "arm_state": "liberado",
       "qty_lib": 18,
-      "pint_state": "en_pintura"
+      "pint_state": "pintado"
     },
     "25659_93": {
       "qty_lib": 13,
@@ -34977,7 +34981,7 @@
     "25107_168": {
       "qty_lib": 58,
       "arm_state": "liberado",
-      "pint_state": "en_pintura"
+      "pint_state": "pintado"
     },
     "25107_225": {
       "qty_lib": 1,
@@ -35357,7 +35361,7 @@
     "25659_142": {
       "qty_lib": 18,
       "arm_state": "liberado",
-      "pint_state": "en_pintura"
+      "pint_state": "pintado"
     },
     "25659_143": {
       "qty_lib": 64,
@@ -35571,12 +35575,12 @@
     "24784_185": {
       "qty_lib": 5,
       "arm_state": "liberado",
-      "pint_state": "en_pintura"
+      "pint_state": "pintado"
     },
     "24784_186": {
       "qty_lib": 5,
       "arm_state": "liberado",
-      "pint_state": "en_pintura"
+      "pint_state": "pintado"
     },
     "25659_161": {
       "qty_lib": 27,
@@ -35591,12 +35595,12 @@
     "24784_180": {
       "qty_lib": 8,
       "arm_state": "liberado",
-      "pint_state": "en_pintura"
+      "pint_state": "pintado"
     },
     "24784_181": {
       "qty_lib": 12,
       "arm_state": "liberado",
-      "pint_state": "en_pintura"
+      "pint_state": "pintado"
     },
     "24784_182": {
       "arm_state": "liberado",
@@ -37466,6 +37470,11 @@
     "25898_111": {
       "qty_lib": 23,
       "arm_state": "armado"
+    },
+    "25107_167": {
+      "qty_lib": 58,
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     }
   },
   "otMeta": {
