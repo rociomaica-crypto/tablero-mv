@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T21:28:39.406Z",
+  "updatedAt": "2026-10-21T09:04:23.148Z",
   "updatedBy": "Brian Soto",
   "checks": {
     "24969_1": {
@@ -5579,7 +5579,8 @@
       "qty_lib": 1
     },
     "25107_1072": {
-      "qty_lib": 1
+      "qty_lib": 1,
+      "arm_state": "liberado"
     },
     "25107_1071": {
       "arm_state": "armado",
@@ -8204,7 +8205,23 @@
     "24930_5": {},
     "24930_6": {},
     "25527_1": {},
-    "25527_117": {}
+    "25527_117": {},
+    "25107_1228": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1488": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1489": {
+      "arm_state": "calibrado",
+      "qty_lib": 1
+    },
+    "25107_1490": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    }
   },
   "otMeta": {
     "24623": {
@@ -98949,6 +98966,561 @@
           "long": 18700,
           "cant": 1,
           "pend": 1
+        }
+      ]
+    },
+    "25995": {
+      "ot": "25995",
+      "obra": "Puente Grua 5 Tn MG",
+      "cliente": "MV ACEROS SA",
+      "fecha": "21/10/2026",
+      "avances": {
+        "arm": 8,
+        "pint": 0,
+        "env": 0,
+        "mont": 0
+      },
+      "totales": {
+        "cant": 185,
+        "arm_lib": 14.5,
+        "arm_pend": 170.5,
+        "pint_ok": 0,
+        "pint_pend": 185,
+        "env_ok": 0,
+        "env_pend": 185,
+        "items": 17,
+        "peso_total": 6042.419999999999,
+        "arm_pend_peso": 2525.1200000000003,
+        "pint_pend_peso": 6042.419999999999,
+        "env_pend_peso": 6042.419999999999
+      },
+      "items": [
+        {
+          "item": 1,
+          "cod": "BNN-CO-1",
+          "prod": "Carro (Troley )",
+          "long": 300,
+          "cant": 1,
+          "peso": 191.74,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 95.87,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 191.74,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 191.74,
+          "literal": "BNN"
+        },
+        {
+          "item": 2,
+          "cod": "BNN-CO-2",
+          "prod": "Carro (Troley )",
+          "long": 300,
+          "cant": 1,
+          "peso": 191.74,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 95.87,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 191.74,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 191.74,
+          "literal": "BNN"
+        },
+        {
+          "item": 3,
+          "cod": "BNN-GH-1",
+          "prod": "Gancho",
+          "long": 197,
+          "cant": 120,
+          "peso": 38.4,
+          "arm_lib": 0,
+          "arm_pend": 120,
+          "arm_pend_peso": 38.4,
+          "pint_ok": 0,
+          "pint_pend": 120,
+          "pint_pend_peso": 38.4,
+          "env_ok": 0,
+          "env_pend": 120,
+          "env_pend_peso": 38.4,
+          "literal": "BNN"
+        },
+        {
+          "item": 4,
+          "cod": "BNN-PE-1",
+          "prod": "Perno PCF",
+          "long": 431,
+          "cant": 2,
+          "peso": 1.18,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 1.18,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 1.18,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 1.18,
+          "literal": "BNN"
+        },
+        {
+          "item": 5,
+          "cod": "BNN-PG-1",
+          "prod": "Puente Grúa - Un",
+          "long": 965,
+          "cant": 1,
+          "peso": 4131.5,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 2065.75,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 4131.5,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 4131.5,
+          "literal": "BNN"
+        },
+        {
+          "item": 6,
+          "cod": "BNN-PL-1",
+          "prod": "Placa",
+          "long": 350,
+          "cant": 16,
+          "peso": 17.44,
+          "arm_lib": 0,
+          "arm_pend": 16,
+          "arm_pend_peso": 17.44,
+          "pint_ok": 0,
+          "pint_pend": 16,
+          "pint_pend_peso": 17.44,
+          "env_ok": 0,
+          "env_pend": 16,
+          "env_pend_peso": 17.44,
+          "literal": "BNN"
+        },
+        {
+          "item": 7,
+          "cod": "BNN-RE-1",
+          "prod": "Riel",
+          "long": 6000,
+          "cant": 10,
+          "peso": 1257.1,
+          "arm_lib": 10,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 10,
+          "pint_pend_peso": 1257.1,
+          "env_ok": 0,
+          "env_pend": 10,
+          "env_pend_peso": 1257.1,
+          "literal": "BNN"
+        },
+        {
+          "item": 8,
+          "cod": "BNN-SP-1",
+          "prod": "SOPORTE",
+          "long": 200,
+          "cant": 1,
+          "peso": 0.91,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 0.91,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 0.91,
+          "literal": "BNN"
+        },
+        {
+          "item": 9,
+          "cod": "BNN-SP-2",
+          "prod": "SOPORTE",
+          "long": 800,
+          "cant": 1,
+          "peso": 4.43,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 4.43,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 4.43,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 4.43,
+          "literal": "BNN"
+        },
+        {
+          "item": 10,
+          "cod": "BNN-SP-3",
+          "prod": "SOPORTE",
+          "long": 380,
+          "cant": 1,
+          "peso": 3.61,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 3.61,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 3.61,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 3.61,
+          "literal": "BNN"
+        },
+        {
+          "item": 11,
+          "cod": "BNN-SP-4",
+          "prod": "SOPORTE",
+          "long": 405,
+          "cant": 1,
+          "peso": 1.87,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 1.87,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 1.87,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 1.87,
+          "literal": "BNN"
+        },
+        {
+          "item": 12,
+          "cod": "BNN-SP-5",
+          "prod": "SOPORTE",
+          "long": 6000,
+          "cant": 5,
+          "peso": 131.9,
+          "arm_lib": 0,
+          "arm_pend": 5,
+          "arm_pend_peso": 131.9,
+          "pint_ok": 0,
+          "pint_pend": 5,
+          "pint_pend_peso": 131.9,
+          "env_ok": 0,
+          "env_pend": 5,
+          "env_pend_peso": 131.9,
+          "literal": "BNN"
+        },
+        {
+          "item": 13,
+          "cod": "BNN-SP-6",
+          "prod": "SOPORTE",
+          "long": 150,
+          "cant": 11,
+          "peso": 40.48,
+          "arm_lib": 0,
+          "arm_pend": 11,
+          "arm_pend_peso": 40.48,
+          "pint_ok": 0,
+          "pint_pend": 11,
+          "pint_pend_peso": 40.48,
+          "env_ok": 0,
+          "env_pend": 11,
+          "env_pend_peso": 40.48,
+          "literal": "BNN"
+        },
+        {
+          "item": 14,
+          "cod": "BNN-TP-1",
+          "prod": "Tope",
+          "long": 113,
+          "cant": 4,
+          "peso": 16.84,
+          "arm_lib": 0,
+          "arm_pend": 4,
+          "arm_pend_peso": 16.84,
+          "pint_ok": 0,
+          "pint_pend": 4,
+          "pint_pend_peso": 16.84,
+          "env_ok": 0,
+          "env_pend": 4,
+          "env_pend_peso": 16.84,
+          "literal": "BNN"
+        },
+        {
+          "item": 15,
+          "cod": "BNN-TP-2",
+          "prod": "Tope",
+          "long": 95,
+          "cant": 4,
+          "peso": 9.28,
+          "arm_lib": 0,
+          "arm_pend": 4,
+          "arm_pend_peso": 9.28,
+          "pint_ok": 0,
+          "pint_pend": 4,
+          "pint_pend_peso": 9.28,
+          "env_ok": 0,
+          "env_pend": 4,
+          "env_pend_peso": 9.28,
+          "literal": "BNN"
+        },
+        {
+          "item": 16,
+          "cod": "BNN-TP-3",
+          "prod": "Tope",
+          "long": 66,
+          "cant": 4,
+          "peso": 2.2,
+          "arm_lib": 0,
+          "arm_pend": 4,
+          "arm_pend_peso": 2.2,
+          "pint_ok": 0,
+          "pint_pend": 4,
+          "pint_pend_peso": 2.2,
+          "env_ok": 0,
+          "env_pend": 4,
+          "env_pend_peso": 2.2,
+          "literal": "BNN"
+        },
+        {
+          "item": 17,
+          "cod": "BNN-TP-4",
+          "prod": "Tope",
+          "long": 150,
+          "cant": 2,
+          "peso": 1.8,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 1.8,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 1.8,
+          "literal": "BNN"
+        }
+      ],
+      "arm_pend_items": [
+        {
+          "cod": "BNN-CO-1",
+          "prod": "Carro (Troley )",
+          "long": 300,
+          "cant": 1,
+          "pend": 0.5
+        },
+        {
+          "cod": "BNN-CO-2",
+          "prod": "Carro (Troley )",
+          "long": 300,
+          "cant": 1,
+          "pend": 0.5
+        },
+        {
+          "cod": "BNN-GH-1",
+          "prod": "Gancho",
+          "long": 197,
+          "cant": 120,
+          "pend": 120
+        },
+        {
+          "cod": "BNN-PE-1",
+          "prod": "Perno PCF",
+          "long": 431,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BNN-PG-1",
+          "prod": "Puente Grúa - Un",
+          "long": 965,
+          "cant": 1,
+          "pend": 0.5
+        },
+        {
+          "cod": "BNN-PL-1",
+          "prod": "Placa",
+          "long": 350,
+          "cant": 16,
+          "pend": 16
+        },
+        {
+          "cod": "BNN-SP-2",
+          "prod": "SOPORTE",
+          "long": 800,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BNN-SP-3",
+          "prod": "SOPORTE",
+          "long": 380,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BNN-SP-4",
+          "prod": "SOPORTE",
+          "long": 405,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BNN-SP-5",
+          "prod": "SOPORTE",
+          "long": 6000,
+          "cant": 5,
+          "pend": 5
+        },
+        {
+          "cod": "BNN-SP-6",
+          "prod": "SOPORTE",
+          "long": 150,
+          "cant": 11,
+          "pend": 11
+        },
+        {
+          "cod": "BNN-TP-1",
+          "prod": "Tope",
+          "long": 113,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BNN-TP-2",
+          "prod": "Tope",
+          "long": 95,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BNN-TP-3",
+          "prod": "Tope",
+          "long": 66,
+          "cant": 4,
+          "pend": 4
+        }
+      ],
+      "pint_pend_items": [
+        {
+          "cod": "BNN-CO-1",
+          "prod": "Carro (Troley )",
+          "long": 300,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BNN-CO-2",
+          "prod": "Carro (Troley )",
+          "long": 300,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BNN-GH-1",
+          "prod": "Gancho",
+          "long": 197,
+          "cant": 120,
+          "pend": 120
+        },
+        {
+          "cod": "BNN-PE-1",
+          "prod": "Perno PCF",
+          "long": 431,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BNN-PG-1",
+          "prod": "Puente Grúa - Un",
+          "long": 965,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BNN-PL-1",
+          "prod": "Placa",
+          "long": 350,
+          "cant": 16,
+          "pend": 16
+        },
+        {
+          "cod": "BNN-RE-1",
+          "prod": "Riel",
+          "long": 6000,
+          "cant": 10,
+          "pend": 10
+        },
+        {
+          "cod": "BNN-SP-1",
+          "prod": "SOPORTE",
+          "long": 200,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BNN-SP-2",
+          "prod": "SOPORTE",
+          "long": 800,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BNN-SP-3",
+          "prod": "SOPORTE",
+          "long": 380,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BNN-SP-4",
+          "prod": "SOPORTE",
+          "long": 405,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BNN-SP-5",
+          "prod": "SOPORTE",
+          "long": 6000,
+          "cant": 5,
+          "pend": 5
+        },
+        {
+          "cod": "BNN-SP-6",
+          "prod": "SOPORTE",
+          "long": 150,
+          "cant": 11,
+          "pend": 11
+        },
+        {
+          "cod": "BNN-TP-1",
+          "prod": "Tope",
+          "long": 113,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BNN-TP-2",
+          "prod": "Tope",
+          "long": 95,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BNN-TP-3",
+          "prod": "Tope",
+          "long": 66,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BNN-TP-4",
+          "prod": "Tope",
+          "long": 150,
+          "cant": 2,
+          "pend": 2
         }
       ]
     }
