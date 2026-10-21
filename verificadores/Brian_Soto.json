@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T09:55:46.197Z",
+  "updatedAt": "2026-10-21T09:58:57.604Z",
   "updatedBy": "Brian Soto",
   "checks": {
     "24969_1": {
@@ -111992,6 +111992,198 @@
           "long": 4075,
           "cant": 2,
           "pend": 2
+        }
+      ]
+    },
+    "25913": {
+      "ot": "25913",
+      "obra": "Portico Grua de 5Tn",
+      "cliente": "JP IND. Y COM. DE EQ. Y ACC. PARA PISCINAS S.A.",
+      "fecha": "21/10/2026",
+      "avances": {
+        "arm": 0,
+        "pint": 0,
+        "env": 0,
+        "mont": 0
+      },
+      "totales": {
+        "cant": 7,
+        "arm_lib": 0,
+        "arm_pend": 7,
+        "pint_ok": 0,
+        "pint_pend": 7,
+        "env_ok": 0,
+        "env_pend": 7,
+        "items": 5,
+        "peso_total": 701.52,
+        "arm_pend_peso": 701.52,
+        "pint_pend_peso": 701.52,
+        "env_pend_peso": 701.52
+      },
+      "items": [
+        {
+          "item": 1,
+          "cod": "BOA-MF-1",
+          "prod": "Mano Francesa",
+          "long": 1436,
+          "cant": 2,
+          "peso": 10.4,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 10.4,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 10.4,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 10.4,
+          "literal": "BOA"
+        },
+        {
+          "item": 2,
+          "cod": "BOA-MF-2",
+          "prod": "Mano Francesa",
+          "long": 1436,
+          "cant": 2,
+          "peso": 10.4,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 10.4,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 10.4,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 10.4,
+          "literal": "BOA"
+        },
+        {
+          "item": 3,
+          "cod": "BOA-PG-1",
+          "prod": "Puente Grúa - Un",
+          "long": 5719,
+          "cant": 1,
+          "peso": 278.48,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 278.48,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 278.48,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 278.48,
+          "literal": "BOA"
+        },
+        {
+          "item": 4,
+          "cod": "BOA-PM-1",
+          "prod": "Pilar Reticulado",
+          "long": 4707,
+          "cant": 1,
+          "peso": 201.12,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 201.12,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 201.12,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 201.12,
+          "literal": "BOA"
+        },
+        {
+          "item": 5,
+          "cod": "BOA-PM-2",
+          "prod": "Pilar Reticulado",
+          "long": 4707,
+          "cant": 1,
+          "peso": 201.12,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 201.12,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 201.12,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 201.12,
+          "literal": "BOA"
+        }
+      ],
+      "arm_pend_items": [
+        {
+          "cod": "BOA-MF-1",
+          "prod": "Mano Francesa",
+          "long": 1436,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOA-MF-2",
+          "prod": "Mano Francesa",
+          "long": 1436,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOA-PG-1",
+          "prod": "Puente Grúa - Un",
+          "long": 5719,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOA-PM-1",
+          "prod": "Pilar Reticulado",
+          "long": 4707,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOA-PM-2",
+          "prod": "Pilar Reticulado",
+          "long": 4707,
+          "cant": 1,
+          "pend": 1
+        }
+      ],
+      "pint_pend_items": [
+        {
+          "cod": "BOA-MF-1",
+          "prod": "Mano Francesa",
+          "long": 1436,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOA-MF-2",
+          "prod": "Mano Francesa",
+          "long": 1436,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOA-PG-1",
+          "prod": "Puente Grúa - Un",
+          "long": 5719,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOA-PM-1",
+          "prod": "Pilar Reticulado",
+          "long": 4707,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOA-PM-2",
+          "prod": "Pilar Reticulado",
+          "long": 4707,
+          "cant": 1,
+          "pend": 1
         }
       ]
     },
