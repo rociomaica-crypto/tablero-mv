@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T09:37:25.738Z",
+  "updatedAt": "2026-10-21T09:48:35.414Z",
   "updatedBy": "Brian Soto",
   "checks": {
     "24969_1": {
@@ -112561,6 +112561,166 @@
           "long": 150,
           "cant": 2,
           "pend": 2
+        }
+      ]
+    },
+    "25998": {
+      "ot": "25998",
+      "obra": "Pórtico - GEASA",
+      "cliente": "Grupo Empresarial Arias S.A",
+      "fecha": "21/10/2026",
+      "avances": {
+        "arm": 0,
+        "pint": 0,
+        "env": 0,
+        "mont": 0
+      },
+      "totales": {
+        "cant": 19,
+        "arm_lib": 0,
+        "arm_pend": 19,
+        "pint_ok": 0,
+        "pint_pend": 19,
+        "env_ok": 0,
+        "env_pend": 19,
+        "items": 4,
+        "peso_total": 507.81999999999994,
+        "arm_pend_peso": 507.81999999999994,
+        "pint_pend_peso": 507.81999999999994,
+        "env_pend_peso": 507.81999999999994
+      },
+      "items": [
+        {
+          "item": 1,
+          "cod": "BNS-PE-1",
+          "prod": "Perno PCF",
+          "long": 492,
+          "cant": 16,
+          "peso": 12.16,
+          "arm_lib": 0,
+          "arm_pend": 16,
+          "arm_pend_peso": 12.16,
+          "pint_ok": 0,
+          "pint_pend": 16,
+          "pint_pend_peso": 12.16,
+          "env_ok": 0,
+          "env_pend": 16,
+          "env_pend_peso": 12.16,
+          "literal": "BNS"
+        },
+        {
+          "item": 2,
+          "cod": "BNS-PIS-1",
+          "prod": "Pilar Alma Llena",
+          "long": 4014,
+          "cant": 1,
+          "peso": 154.14,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 154.14,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 154.14,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 154.14,
+          "literal": "BNS"
+        },
+        {
+          "item": 3,
+          "cod": "BNS-PIS-2",
+          "prod": "Pilar Alma Llena",
+          "long": 4014,
+          "cant": 1,
+          "peso": 154.14,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 154.14,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 154.14,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 154.14,
+          "literal": "BNS"
+        },
+        {
+          "item": 4,
+          "cod": "BNS-VSI-1",
+          "prod": "Viga secundaria IS",
+          "long": 5310,
+          "cant": 1,
+          "peso": 187.38,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 187.38,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 187.38,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 187.38,
+          "literal": "BNS"
+        }
+      ],
+      "arm_pend_items": [
+        {
+          "cod": "BNS-PE-1",
+          "prod": "Perno PCF",
+          "long": 492,
+          "cant": 16,
+          "pend": 16
+        },
+        {
+          "cod": "BNS-PIS-1",
+          "prod": "Pilar Alma Llena",
+          "long": 4014,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BNS-PIS-2",
+          "prod": "Pilar Alma Llena",
+          "long": 4014,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BNS-VSI-1",
+          "prod": "Viga secundaria IS",
+          "long": 5310,
+          "cant": 1,
+          "pend": 1
+        }
+      ],
+      "pint_pend_items": [
+        {
+          "cod": "BNS-PE-1",
+          "prod": "Perno PCF",
+          "long": 492,
+          "cant": 16,
+          "pend": 16
+        },
+        {
+          "cod": "BNS-PIS-1",
+          "prod": "Pilar Alma Llena",
+          "long": 4014,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BNS-PIS-2",
+          "prod": "Pilar Alma Llena",
+          "long": 4014,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BNS-VSI-1",
+          "prod": "Viga secundaria IS",
+          "long": 5310,
+          "cant": 1,
+          "pend": 1
         }
       ]
     }
