@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T09:06:54.837Z",
+  "updatedAt": "2026-10-21T09:11:23.575Z",
   "updatedBy": "Brian Soto",
   "checks": {
     "24969_1": {
@@ -90193,64 +90193,28 @@
       "ot": "25898",
       "obra": "Estacionamiento el Cacique",
       "cliente": "COMERCIAL EL CACIQUE S.R.L.",
-      "fecha": "19/10/2026",
+      "fecha": "21/10/2026",
       "avances": {
-        "arm": 5,
-        "pint": 0,
-        "env": 1,
+        "arm": 7,
+        "pint": 1,
+        "env": 0,
         "mont": 0
       },
       "totales": {
-        "cant": 3421,
-        "arm_lib": 186,
-        "arm_pend": 3235,
-        "pint_ok": 0,
-        "pint_pend": 3421,
-        "env_ok": 49,
+        "cant": 3372,
+        "arm_lib": 232.5,
+        "arm_pend": 3139.5,
+        "pint_ok": 40,
+        "pint_pend": 3332,
+        "env_ok": 0,
         "env_pend": 3372,
-        "items": 256,
-        "peso_total": 197884.79999999993,
-        "arm_pend_peso": 190928.38999999993,
-        "pint_pend_peso": 197884.79999999993,
+        "items": 254,
+        "peso_total": 197084.97999999992,
+        "arm_pend_peso": 170423.095,
+        "pint_pend_peso": 188836.42999999996,
         "env_pend_peso": 197084.97999999992
       },
       "items": [
-        {
-          "item": 1,
-          "cod": "33777-AN-1",
-          "prod": "Anclaje",
-          "long": 807,
-          "cant": 47,
-          "peso": 750.12,
-          "arm_lib": 47,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 47,
-          "pint_pend_peso": 750.12,
-          "env_ok": 47,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "AN"
-        },
-        {
-          "item": 2,
-          "cod": "33777-AN-2",
-          "prod": "Anclaje",
-          "long": 807,
-          "cant": 2,
-          "peso": 49.7,
-          "arm_lib": 2,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 49.7,
-          "env_ok": 2,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "AN"
-        },
         {
           "item": 3,
           "cod": "BNF-CV-1",
@@ -90978,9 +90942,9 @@
           "long": 103,
           "cant": 61,
           "peso": 3076.84,
-          "arm_lib": 13,
-          "arm_pend": 48,
-          "arm_pend_peso": 2421.12,
+          "arm_lib": 41,
+          "arm_pend": 20,
+          "arm_pend_peso": 1008.8,
           "pint_ok": 0,
           "pint_pend": 61,
           "pint_pend_peso": 3076.84,
@@ -91248,9 +91212,9 @@
           "long": 9335,
           "cant": 1,
           "peso": 887.21,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 887.21,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 443.605,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 887.21,
@@ -91284,9 +91248,9 @@
           "long": 9115,
           "cant": 1,
           "peso": 880.66,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 880.66,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 880.66,
@@ -93087,9 +93051,9 @@
           "arm_lib": 2,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 457.82,
+          "pint_ok": 2,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 2,
           "env_pend_peso": 457.82,
@@ -93102,12 +93066,12 @@
           "long": 6824,
           "cant": 2,
           "peso": 734.36,
-          "arm_lib": 1,
-          "arm_pend": 1,
-          "arm_pend_peso": 367.18,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 734.36,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 1,
+          "pint_pend_peso": 367.18,
           "env_ok": 0,
           "env_pend": 2,
           "env_pend_peso": 734.36,
@@ -93123,9 +93087,9 @@
           "arm_lib": 2,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 454.24,
+          "pint_ok": 2,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 2,
           "env_pend_peso": 454.24,
@@ -93141,9 +93105,9 @@
           "arm_lib": 2,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 453.48,
+          "pint_ok": 2,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 2,
           "env_pend_peso": 453.48,
@@ -93174,9 +93138,9 @@
           "long": 7074,
           "cant": 1,
           "peso": 380.63,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 380.63,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 380.63,
@@ -93192,12 +93156,12 @@
           "long": 4174,
           "cant": 2,
           "peso": 449.18,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 449.18,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 449.18,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 2,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 2,
           "env_pend_peso": 449.18,
@@ -93213,9 +93177,9 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 224.59,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 224.59,
@@ -93228,12 +93192,12 @@
           "long": 5188,
           "cant": 3,
           "peso": 837.42,
-          "arm_lib": 0,
-          "arm_pend": 3,
-          "arm_pend_peso": 837.42,
-          "pint_ok": 0,
-          "pint_pend": 3,
-          "pint_pend_peso": 837.42,
+          "arm_lib": 1.5,
+          "arm_pend": 1.5,
+          "arm_pend_peso": 418.71,
+          "pint_ok": 3,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 3,
           "env_pend_peso": 837.42,
@@ -93285,9 +93249,9 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 279.14,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 279.14,
@@ -93300,9 +93264,9 @@
           "long": 4255,
           "cant": 2,
           "peso": 640,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 640,
+          "arm_lib": 1,
+          "arm_pend": 1,
+          "arm_pend_peso": 320,
           "pint_ok": 0,
           "pint_pend": 2,
           "pint_pend_peso": 640,
@@ -93318,9 +93282,9 @@
           "long": 6576,
           "cant": 7,
           "peso": 2476.74,
-          "arm_lib": 0.5,
-          "arm_pend": 6.5,
-          "arm_pend_peso": 2299.83,
+          "arm_lib": 7,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 7,
           "pint_pend_peso": 2476.74,
@@ -93336,12 +93300,12 @@
           "long": 6593,
           "cant": 2,
           "peso": 709.48,
-          "arm_lib": 0.5,
-          "arm_pend": 1.5,
-          "arm_pend_peso": 532.11,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 709.48,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 2,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 2,
           "env_pend_peso": 709.48,
@@ -93426,9 +93390,9 @@
           "long": 6396,
           "cant": 1,
           "peso": 344.13,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 344.13,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 344.13,
@@ -93516,9 +93480,9 @@
           "long": 6576,
           "cant": 1,
           "peso": 353.83,
-          "arm_lib": 0.5,
-          "arm_pend": 0.5,
-          "arm_pend_peso": 176.915,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 353.83,
@@ -93552,12 +93516,12 @@
           "long": 6550,
           "cant": 3,
           "peso": 1057.32,
-          "arm_lib": 0,
-          "arm_pend": 3,
-          "arm_pend_peso": 1057.32,
-          "pint_ok": 0,
-          "pint_pend": 3,
-          "pint_pend_peso": 1057.32,
+          "arm_lib": 3,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 2,
+          "pint_pend_peso": 704.88,
           "env_ok": 0,
           "env_pend": 3,
           "env_pend_peso": 1057.32,
@@ -93588,9 +93552,9 @@
           "long": 6551,
           "cant": 1,
           "peso": 352.46,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 352.46,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 352.46,
@@ -93606,9 +93570,9 @@
           "long": 6550,
           "cant": 4,
           "peso": 1409.8,
-          "arm_lib": 2,
-          "arm_pend": 2,
-          "arm_pend_peso": 704.9,
+          "arm_lib": 4,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 4,
           "pint_pend_peso": 1409.8,
@@ -93645,9 +93609,9 @@
           "arm_lib": 2,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 443.6,
+          "pint_ok": 2,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 2,
           "env_pend_peso": 443.6,
@@ -93663,9 +93627,9 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 179.73,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 179.73,
@@ -93678,12 +93642,12 @@
           "long": 3342,
           "cant": 1,
           "peso": 179.84,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 179.84,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 179.84,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 89.92,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 179.84,
@@ -93732,9 +93696,9 @@
           "long": 6529,
           "cant": 1,
           "peso": 351.31,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 351.31,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 351.31,
@@ -93786,9 +93750,9 @@
           "long": 6525,
           "cant": 1,
           "peso": 351.1,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 351.1,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 351.1,
@@ -93804,9 +93768,9 @@
           "long": 6525,
           "cant": 1,
           "peso": 351.08,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 351.08,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 351.08,
@@ -93822,9 +93786,9 @@
           "long": 6525,
           "cant": 1,
           "peso": 351.07,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 351.07,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 351.07,
@@ -94038,12 +94002,12 @@
           "long": 4018,
           "cant": 1,
           "peso": 216.21,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 216.21,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 216.21,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 108.105,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 216.21,
@@ -94074,9 +94038,9 @@
           "long": 4506,
           "cant": 2,
           "peso": 475.86,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 475.86,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 2,
           "pint_pend_peso": 475.86,
@@ -94218,9 +94182,9 @@
           "long": 3041,
           "cant": 2,
           "peso": 306.16,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 306.16,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 2,
           "pint_pend_peso": 306.16,
@@ -94290,12 +94254,12 @@
           "long": 4556,
           "cant": 18,
           "peso": 2644.2,
-          "arm_lib": 0,
-          "arm_pend": 18,
-          "arm_pend_peso": 2644.2,
-          "pint_ok": 0,
-          "pint_pend": 18,
-          "pint_pend_peso": 2644.2,
+          "arm_lib": 18,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 18,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 18,
           "env_pend_peso": 2644.2,
@@ -94344,9 +94308,9 @@
           "long": 7382,
           "cant": 20,
           "peso": 6436,
-          "arm_lib": 0,
-          "arm_pend": 20,
-          "arm_pend_peso": 6436,
+          "arm_lib": 15,
+          "arm_pend": 5,
+          "arm_pend_peso": 1609,
           "pint_ok": 0,
           "pint_pend": 20,
           "pint_pend_peso": 6436,
@@ -94380,9 +94344,9 @@
           "long": 5776,
           "cant": 3,
           "peso": 764.31,
-          "arm_lib": 0,
-          "arm_pend": 3,
-          "arm_pend_peso": 764.31,
+          "arm_lib": 2,
+          "arm_pend": 1,
+          "arm_pend_peso": 254.77,
           "pint_ok": 0,
           "pint_pend": 3,
           "pint_pend_peso": 764.31,
@@ -95110,7 +95074,7 @@
           "prod": "Faldon - Ml",
           "long": 103,
           "cant": 61,
-          "pend": 48
+          "pend": 20
         },
         {
           "cod": "BNF-FL-2",
@@ -95215,19 +95179,12 @@
           "prod": "Pilar Alma Llena",
           "long": 9335,
           "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BNF-PIS-7",
           "prod": "Pilar Alma Llena",
           "long": 9335,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BNF-PIS-8",
-          "prod": "Pilar Alma Llena",
-          "long": 9115,
           "cant": 1,
           "pend": 1
         },
@@ -95925,30 +95882,9 @@
           "pend": 322
         },
         {
-          "cod": "BNF-VPI-2",
-          "prod": "Viga Principal Alma Llena",
-          "long": 6824,
-          "cant": 2,
-          "pend": 1
-        },
-        {
           "cod": "BNF-VPI-5",
           "prod": "Viga Principal Alma Llena",
           "long": 7074,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BNF-VPI-6",
-          "prod": "Viga Principal Alma Llena",
-          "long": 7074,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BNF-VPI-7",
-          "prod": "Viga Principal Alma Llena",
-          "long": 4174,
           "cant": 2,
           "pend": 2
         },
@@ -95957,7 +95893,7 @@
           "prod": "Viga Principal Alma Llena",
           "long": 5188,
           "cant": 3,
-          "pend": 3
+          "pend": 1.5
         },
         {
           "cod": "BNF-VPI-10",
@@ -95978,21 +95914,7 @@
           "prod": "Viga Principal Alma Llena",
           "long": 4255,
           "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BNF-VPI-14",
-          "prod": "Viga Principal Alma Llena",
-          "long": 6576,
-          "cant": 7,
-          "pend": 6.5
-        },
-        {
-          "cod": "BNF-VPI-15",
-          "prod": "Viga Principal Alma Llena",
-          "long": 6593,
-          "cant": 2,
-          "pend": 1.5
+          "pend": 1
         },
         {
           "cod": "BNF-VPI-16",
@@ -96019,13 +95941,6 @@
           "cod": "BNF-VPI-19",
           "prod": "Viga Principal Alma Llena",
           "long": 6437,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BNF-VPI-20",
-          "prod": "Viga Principal Alma Llena",
-          "long": 6396,
           "cant": 1,
           "pend": 1
         },
@@ -96058,13 +95973,6 @@
           "pend": 1
         },
         {
-          "cod": "BNF-VPI-25",
-          "prod": "Viga Principal Alma Llena",
-          "long": 6576,
-          "cant": 1,
-          "pend": 0.5
-        },
-        {
           "cod": "BNF-VPI-26",
           "prod": "Viga Principal Alma Llena",
           "long": 6544,
@@ -96072,32 +95980,11 @@
           "pend": 1
         },
         {
-          "cod": "BNF-VPI-27",
-          "prod": "Viga Principal Alma Llena",
-          "long": 6550,
-          "cant": 3,
-          "pend": 3
-        },
-        {
           "cod": "BNF-VPI-28",
           "prod": "Viga Principal Alma Llena",
           "long": 6545,
           "cant": 1,
           "pend": 1
-        },
-        {
-          "cod": "BNF-VPI-29",
-          "prod": "Viga Principal Alma Llena",
-          "long": 6551,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BNF-VPI-30",
-          "prod": "Viga Principal Alma Llena",
-          "long": 6550,
-          "cant": 4,
-          "pend": 2
         },
         {
           "cod": "BNF-VPI-31",
@@ -96111,7 +95998,7 @@
           "prod": "Viga Principal Alma Llena",
           "long": 3342,
           "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BNF-VPI-35",
@@ -96128,13 +96015,6 @@
           "pend": 1
         },
         {
-          "cod": "BNF-VPI-37",
-          "prod": "Viga Principal Alma Llena",
-          "long": 6529,
-          "cant": 1,
-          "pend": 1
-        },
-        {
           "cod": "BNF-VPI-38",
           "prod": "Viga Principal Alma Llena",
           "long": 6519,
@@ -96145,27 +96025,6 @@
           "cod": "BNF-VPI-39",
           "prod": "Viga Principal Alma Llena",
           "long": 6518,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BNF-VPI-40",
-          "prod": "Viga Principal Alma Llena",
-          "long": 6525,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BNF-VPI-41",
-          "prod": "Viga Principal Alma Llena",
-          "long": 6525,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BNF-VPI-42",
-          "prod": "Viga Principal Alma Llena",
-          "long": 6525,
           "cant": 1,
           "pend": 1
         },
@@ -96251,7 +96110,7 @@
           "prod": "Viga Principal Alma Llena",
           "long": 4018,
           "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BNF-VPI-55",
@@ -96259,13 +96118,6 @@
           "long": 4042,
           "cant": 1,
           "pend": 1
-        },
-        {
-          "cod": "BNF-VPI-56",
-          "prod": "Viga Principal Alma Llena",
-          "long": 4506,
-          "cant": 2,
-          "pend": 2
         },
         {
           "cod": "BNF-VPI-57",
@@ -96317,13 +96169,6 @@
           "pend": 2
         },
         {
-          "cod": "BNF-VPI-64",
-          "prod": "Viga Principal Alma Llena",
-          "long": 3041,
-          "cant": 2,
-          "pend": 2
-        },
-        {
           "cod": "BNF-VPI-65",
           "prod": "Viga Principal Alma Llena",
           "long": 4180,
@@ -96345,13 +96190,6 @@
           "pend": 2
         },
         {
-          "cod": "BNF-VSI-1",
-          "prod": "Viga secundaria IS",
-          "long": 4556,
-          "cant": 18,
-          "pend": 18
-        },
-        {
           "cod": "BNF-VSI-2",
           "prod": "Viga secundaria IS",
           "long": 7132,
@@ -96370,7 +96208,7 @@
           "prod": "Viga secundaria IS",
           "long": 7382,
           "cant": 20,
-          "pend": 20
+          "pend": 5
         },
         {
           "cod": "BNF-VSI-5",
@@ -96384,7 +96222,7 @@
           "prod": "Viga secundaria IS",
           "long": 5776,
           "cant": 3,
-          "pend": 3
+          "pend": 1
         },
         {
           "cod": "BNF-VSI-7",
@@ -96556,20 +96394,6 @@
         }
       ],
       "pint_pend_items": [
-        {
-          "cod": "33777-AN-1",
-          "prod": "Anclaje",
-          "long": 807,
-          "cant": 47,
-          "pend": 47
-        },
-        {
-          "cod": "33777-AN-2",
-          "prod": "Anclaje",
-          "long": 807,
-          "cant": 2,
-          "pend": 2
-        },
         {
           "cod": "BNF-CV-1",
           "prod": "Cruz Vertical",
@@ -97670,32 +97494,11 @@
           "pend": 322
         },
         {
-          "cod": "BNF-VPI-1",
-          "prod": "Viga Principal Alma Llena",
-          "long": 4254,
-          "cant": 2,
-          "pend": 2
-        },
-        {
           "cod": "BNF-VPI-2",
           "prod": "Viga Principal Alma Llena",
           "long": 6824,
           "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BNF-VPI-3",
-          "prod": "Viga Principal Alma Llena",
-          "long": 4250,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BNF-VPI-4",
-          "prod": "Viga Principal Alma Llena",
-          "long": 4214,
-          "cant": 2,
-          "pend": 2
+          "pend": 1
         },
         {
           "cod": "BNF-VPI-5",
@@ -97712,27 +97515,6 @@
           "pend": 1
         },
         {
-          "cod": "BNF-VPI-7",
-          "prod": "Viga Principal Alma Llena",
-          "long": 4174,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BNF-VPI-8",
-          "prod": "Viga Principal Alma Llena",
-          "long": 4174,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BNF-VPI-9",
-          "prod": "Viga Principal Alma Llena",
-          "long": 5188,
-          "cant": 3,
-          "pend": 3
-        },
-        {
           "cod": "BNF-VPI-10",
           "prod": "Viga Principal Alma Llena",
           "long": 5188,
@@ -97741,13 +97523,6 @@
         },
         {
           "cod": "BNF-VPI-11",
-          "prod": "Viga Principal Alma Llena",
-          "long": 5188,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BNF-VPI-12",
           "prod": "Viga Principal Alma Llena",
           "long": 5188,
           "cant": 1,
@@ -97766,13 +97541,6 @@
           "long": 6576,
           "cant": 7,
           "pend": 7
-        },
-        {
-          "cod": "BNF-VPI-15",
-          "prod": "Viga Principal Alma Llena",
-          "long": 6593,
-          "cant": 2,
-          "pend": 2
         },
         {
           "cod": "BNF-VPI-16",
@@ -97856,7 +97624,7 @@
           "prod": "Viga Principal Alma Llena",
           "long": 6550,
           "cant": 3,
-          "pend": 3
+          "pend": 2
         },
         {
           "cod": "BNF-VPI-28",
@@ -97885,27 +97653,6 @@
           "long": 6544,
           "cant": 4,
           "pend": 4
-        },
-        {
-          "cod": "BNF-VPI-32",
-          "prod": "Viga Principal Alma Llena",
-          "long": 4122,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BNF-VPI-33",
-          "prod": "Viga Principal Alma Llena",
-          "long": 3340,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BNF-VPI-34",
-          "prod": "Viga Principal Alma Llena",
-          "long": 3342,
-          "cant": 1,
-          "pend": 1
         },
         {
           "cod": "BNF-VPI-35",
@@ -98041,13 +97788,6 @@
           "pend": 1
         },
         {
-          "cod": "BNF-VPI-54",
-          "prod": "Viga Principal Alma Llena",
-          "long": 4018,
-          "cant": 1,
-          "pend": 1
-        },
-        {
           "cod": "BNF-VPI-55",
           "prod": "Viga Principal Alma Llena",
           "long": 4042,
@@ -98137,13 +97877,6 @@
           "long": 5398,
           "cant": 2,
           "pend": 2
-        },
-        {
-          "cod": "BNF-VSI-1",
-          "prod": "Viga secundaria IS",
-          "long": 4556,
-          "cant": 18,
-          "pend": 18
         },
         {
           "cod": "BNF-VSI-2",
