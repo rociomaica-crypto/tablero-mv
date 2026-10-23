@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T18:45:51.097Z",
+  "updatedAt": "2026-10-23T20:54:33.874Z",
   "updatedBy": "Bernardo Vera",
   "checks": {
     "25694_1": {
@@ -37441,7 +37441,7 @@
     "25870_93": {
       "qty_lib": 10,
       "arm_state": "liberado",
-      "pint_state": "en_pintura"
+      "pint_state": "pintado"
     },
     "25381_653": {
       "qty_lib": 1,
@@ -37472,7 +37472,7 @@
     "25870_94": {
       "qty_lib": 10,
       "arm_state": "liberado",
-      "pint_state": "en_pintura"
+      "pint_state": "pintado"
     },
     "25870_95": {
       "qty_lib": 8,
@@ -37482,12 +37482,12 @@
     "25870_97": {
       "qty_lib": 4,
       "arm_state": "liberado",
-      "pint_state": "en_pintura"
+      "pint_state": "pintado"
     },
     "25870_96": {
       "qty_lib": 4,
       "arm_state": "liberado",
-      "pint_state": "en_pintura"
+      "pint_state": "pintado"
     },
     "25870_89": {
       "qty_lib": 21,
@@ -37841,7 +37841,7 @@
       "pint_state": "pintado"
     },
     "25870_65": {
-      "qty_lib": 0,
+      "qty_lib": 3,
       "arm_state": "liberado",
       "pint_state": "en_pintura"
     },
@@ -39021,7 +39021,7 @@
     "25870_60": {
       "qty_lib": 4,
       "arm_state": "liberado",
-      "pint_state": "en_pintura"
+      "pint_state": "pintado"
     },
     "25870_58": {
       "qty_lib": 6,
@@ -39108,10 +39108,36 @@
     "25870_61": {
       "qty_lib": 4,
       "arm_state": "liberado",
-      "pint_state": "en_pintura"
+      "pint_state": "pintado"
     },
     "25870_40": {
       "arm_state": ""
+    },
+    "25870_210": {
+      "qty_lib": 2,
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25870_199": {
+      "qty_lib": 4,
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25870_63": {
+      "qty_lib": 1,
+      "arm_state": "liberado"
+    },
+    "25870_69": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25870_87": {
+      "qty_lib": 44,
+      "arm_state": "liberado"
+    },
+    "25870_51": {
+      "qty_lib": 24,
+      "arm_state": "armado"
     }
   },
   "otMeta": {
