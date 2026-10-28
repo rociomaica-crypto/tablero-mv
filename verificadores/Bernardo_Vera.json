@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T10:10:37.036Z",
+  "updatedAt": "2026-10-28T10:29:25.977Z",
   "updatedBy": "Bernardo Vera",
   "checks": {
     "25694_1": {
@@ -39141,19 +39141,23 @@
     },
     "25898_29": {
       "qty_lib": 1,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25898_17": {
       "qty_lib": 1,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25898_26": {
       "qty_lib": 1,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25898_39": {
       "qty_lib": 1,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25870_68": {
       "arm_state": "liberado",
@@ -39606,15 +39610,18 @@
     },
     "25898_25": {
       "qty_lib": 1,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25898_30": {
       "qty_lib": 1,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25898_21": {
       "qty_lib": 1,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25870_116": {
       "arm_state": "liberado",
@@ -39699,6 +39706,50 @@
       "qty_lib": 52,
       "arm_state": "liberado",
       "pint_state": "pintado"
+    },
+    "25898_7": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25898_9": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25898_11": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25898_13": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25898_16": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25898_19": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25898_20": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25898_31": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25898_36": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25898_38": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25898_42": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     }
   },
   "otMeta": {
@@ -39706,25 +39757,25 @@
       "ot": "24969",
       "obra": "Depósito Líneas Interiores_CHAPAS",
       "cliente": "T.I. SOCIEDAD ANONIMA.",
-      "fecha": "19/10/2026",
+      "fecha": "28/10/2026",
       "avances": {
-        "arm": 79,
-        "pint": 10,
-        "env": 69,
+        "arm": 32,
+        "pint": 32,
+        "env": 0,
         "mont": 0
       },
       "totales": {
-        "cant": 133,
-        "arm_lib": 105,
+        "cant": 41,
+        "arm_lib": 13,
         "arm_pend": 28,
         "pint_ok": 13,
-        "pint_pend": 120,
-        "env_ok": 92,
+        "pint_pend": 28,
+        "env_ok": 0,
         "env_pend": 41,
-        "items": 22,
-        "peso_total": 1528.9579999999999,
+        "items": 11,
+        "peso_total": 1094.9799999999998,
         "arm_pend_peso": 0,
-        "pint_pend_peso": 433.978,
+        "pint_pend_peso": 0,
         "env_pend_peso": 1094.9799999999998
       },
       "items": [
@@ -39891,78 +39942,6 @@
           "literal": "BEF"
         },
         {
-          "item": 10,
-          "cod": "32972-CN-1",
-          "prod": "Canaleta x Kg.",
-          "long": 27000,
-          "cant": 1,
-          "peso": 157,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 157,
-          "env_ok": 1,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "CN"
-        },
-        {
-          "item": 11,
-          "cod": "32972-TCN-2",
-          "prod": "Tapa de Canaleta",
-          "long": 220,
-          "cant": 2,
-          "peso": 0.828,
-          "arm_lib": 2,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 0.828,
-          "env_ok": 2,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "TCN"
-        },
-        {
-          "item": 12,
-          "cod": "32972-SCN-3",
-          "prod": "Soporte para canaleta",
-          "long": 445,
-          "cant": 19,
-          "peso": 28.5,
-          "arm_lib": 19,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 19,
-          "pint_pend_peso": 28.5,
-          "env_ok": 19,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "SCN"
-        },
-        {
-          "item": 13,
-          "cod": "32972-PS-4",
-          "prod": "Pieza Suelta",
-          "long": 350,
-          "cant": 4,
-          "peso": 4,
-          "arm_lib": 4,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 4,
-          "pint_pend_peso": 4,
-          "env_ok": 4,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "PS"
-        },
-        {
           "item": 14,
           "cod": "33838-BB-01",
           "prod": "Babeta metálica - Ml",
@@ -39977,132 +39956,6 @@
           "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 28,
-          "env_pend_peso": 0,
-          "literal": "BB"
-        },
-        {
-          "item": 15,
-          "cod": "24969-ZC-1",
-          "prod": "Zocalo para chapa zipada",
-          "long": 300,
-          "cant": 60,
-          "peso": 27.6,
-          "arm_lib": 60,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 60,
-          "pint_pend_peso": 27.6,
-          "env_ok": 60,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "ZC"
-        },
-        {
-          "item": 16,
-          "cod": "33846-BB-01",
-          "prod": "Babeta metálica - Ml",
-          "long": 14000,
-          "cant": 1,
-          "peso": 42.024,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 42.024,
-          "env_ok": 1,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BB"
-        },
-        {
-          "item": 17,
-          "cod": "33846-BB-02",
-          "prod": "Babeta metálica - Ml",
-          "long": 14000,
-          "cant": 1,
-          "peso": 16.921,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 16.921,
-          "env_ok": 1,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BB"
-        },
-        {
-          "item": 18,
-          "cod": "33865-BB-1",
-          "prod": "Babeta metálica - Ml",
-          "long": 76000,
-          "cant": 1,
-          "peso": 35.79,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 35.79,
-          "env_ok": 1,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BB"
-        },
-        {
-          "item": 19,
-          "cod": "33865-BB-2",
-          "prod": "Babeta metálica - Ml",
-          "long": 92000,
-          "cant": 1,
-          "peso": 34.66,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 34.66,
-          "env_ok": 1,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BB"
-        },
-        {
-          "item": 20,
-          "cod": "33865-BB-3",
-          "prod": "Babeta metálica - Ml",
-          "long": 27000,
-          "cant": 1,
-          "peso": 58.49,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 58.49,
-          "env_ok": 1,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BB"
-        },
-        {
-          "item": 21,
-          "cod": "33865-BB-4",
-          "prod": "Babeta metálica - Ml",
-          "long": 23000,
-          "cant": 1,
-          "peso": 28.165,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 28.165,
-          "env_ok": 1,
-          "env_pend": 0,
           "env_pend_peso": 0,
           "literal": "BB"
         },
@@ -40136,88 +39989,11 @@
       ],
       "pint_pend_items": [
         {
-          "cod": "32972-CN-1",
-          "prod": "Canaleta x Kg.",
-          "long": 27000,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "32972-TCN-2",
-          "prod": "Tapa de Canaleta",
-          "long": 220,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "32972-SCN-3",
-          "prod": "Soporte para canaleta",
-          "long": 445,
-          "cant": 19,
-          "pend": 19
-        },
-        {
-          "cod": "32972-PS-4",
-          "prod": "Pieza Suelta",
-          "long": 350,
-          "cant": 4,
-          "pend": 4
-        },
-        {
           "cod": "33838-BB-01",
           "prod": "Babeta metálica - Ml",
           "long": 28000,
           "cant": 28,
           "pend": 28
-        },
-        {
-          "cod": "24969-ZC-1",
-          "prod": "Zocalo para chapa zipada",
-          "long": 300,
-          "cant": 60,
-          "pend": 60
-        },
-        {
-          "cod": "33846-BB-01",
-          "prod": "Babeta metálica - Ml",
-          "long": 14000,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "33846-BB-02",
-          "prod": "Babeta metálica - Ml",
-          "long": 14000,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "33865-BB-1",
-          "prod": "Babeta metálica - Ml",
-          "long": 76000,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "33865-BB-2",
-          "prod": "Babeta metálica - Ml",
-          "long": 92000,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "33865-BB-3",
-          "prod": "Babeta metálica - Ml",
-          "long": 27000,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "33865-BB-4",
-          "prod": "Babeta metálica - Ml",
-          "long": 23000,
-          "cant": 1,
-          "pend": 1
         }
       ]
     },
@@ -40225,7 +40001,7 @@
       "ot": "25257",
       "obra": "Adicional Techo Visera - Naves Industriales MRA",
       "cliente": "KPN SAFETY PARAGUAY S.A",
-      "fecha": "30/7/2026",
+      "fecha": "28/10/2026",
       "avances": {
         "arm": 31,
         "pint": 38,
