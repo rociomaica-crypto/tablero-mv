@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T21:06:21.404Z",
+  "updatedAt": "2026-11-02T21:08:23.013Z",
   "updatedBy": "Bernardo Vera",
   "checks": {
     "25694_1": {
@@ -36679,7 +36679,8 @@
     },
     "25107_1428": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25107_1423": {
       "arm_state": "liberado",
@@ -37011,7 +37012,8 @@
     },
     "25107_1425": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25107_1426": {
       "arm_state": "liberado",
@@ -37019,7 +37021,8 @@
     },
     "25107_1427": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25107_1430": {
       "arm_state": "liberado",
@@ -37071,7 +37074,8 @@
     },
     "25107_1487": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25107_1231": {
       "arm_state": "liberado",
@@ -38116,7 +38120,8 @@
     },
     "25107_1490": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25948_16": {
       "qty_lib": 1,
@@ -40700,6 +40705,36 @@
     },
     "25898_18": {
       "qty_lib": 1,
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25853_16": {
+      "arm_state": "liberado",
+      "qty_lib": 1,
+      "pint_state": "pintado"
+    },
+    "25853_17": {
+      "arm_state": "liberado",
+      "qty_lib": 1,
+      "pint_state": "pintado"
+    },
+    "25853_18": {
+      "arm_state": "liberado",
+      "qty_lib": 1,
+      "pint_state": "pintado"
+    },
+    "25853_19": {
+      "arm_state": "liberado",
+      "qty_lib": 1,
+      "pint_state": "pintado"
+    },
+    "25853_11": {
+      "qty_lib": 8,
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25853_12": {
+      "qty_lib": 8,
       "arm_state": "liberado",
       "pint_state": "pintado"
     }
