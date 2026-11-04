@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T15:04:24.955Z",
+  "updatedAt": "2026-11-04T14:11:51.716Z",
   "updatedBy": "Brian Soto",
   "checks": {
     "24969_1": {
@@ -8251,6 +8251,10 @@
     },
     "25107_908": {
       "arm_state": "armado"
+    },
+    "25107_1434": {
+      "arm_state": "armado",
+      "qty_lib": 1
     }
   },
   "otMeta": {
@@ -145103,6 +145107,312 @@
           "long": 95,
           "cant": 8,
           "pend": 8
+        }
+      ]
+    },
+    "25990": {
+      "ot": "25990",
+      "obra": "Techo 3 Jade Park",
+      "cliente": "Jiménez Gaona y Lima SA",
+      "fecha": "4/11/2026",
+      "avances": {
+        "arm": 100,
+        "pint": 0,
+        "env": 0,
+        "mont": 0
+      },
+      "totales": {
+        "cant": 17,
+        "arm_lib": 17,
+        "arm_pend": 0,
+        "pint_ok": 0,
+        "pint_pend": 17,
+        "env_ok": 0,
+        "env_pend": 17,
+        "items": 11,
+        "peso_total": 84.82000000000001,
+        "arm_pend_peso": 0,
+        "pint_pend_peso": 84.82000000000001,
+        "env_pend_peso": 84.82000000000001
+      },
+      "items": [
+        {
+          "item": 1,
+          "cod": "BOG-SP-1",
+          "prod": "SOPORTE",
+          "long": 125,
+          "cant": 7,
+          "peso": 4.83,
+          "arm_lib": 7,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 7,
+          "pint_pend_peso": 4.83,
+          "env_ok": 0,
+          "env_pend": 7,
+          "env_pend_peso": 4.83,
+          "literal": "BOG"
+        },
+        {
+          "item": 2,
+          "cod": "BOG-SP-2",
+          "prod": "SOPORTE",
+          "long": 125,
+          "cant": 1,
+          "peso": 0.69,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 0.69,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 0.69,
+          "literal": "BOG"
+        },
+        {
+          "item": 3,
+          "cod": "BOG-VPT-1",
+          "prod": "Viga Principal tubo o caños",
+          "long": 3490,
+          "cant": 1,
+          "peso": 21.48,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 21.48,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 21.48,
+          "literal": "BOG"
+        },
+        {
+          "item": 4,
+          "cod": "BOG-VPT-2",
+          "prod": "Viga Principal tubo o caños",
+          "long": 2475,
+          "cant": 1,
+          "peso": 15.23,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 15.23,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 15.23,
+          "literal": "BOG"
+        },
+        {
+          "item": 5,
+          "cod": "BOG-VST-1",
+          "prod": "Viga Secundaria Tubo o caños",
+          "long": 678,
+          "cant": 1,
+          "peso": 4.17,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 4.17,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 4.17,
+          "literal": "BOG"
+        },
+        {
+          "item": 6,
+          "cod": "BOG-VST-2",
+          "prod": "Viga Secundaria Tubo o caños",
+          "long": 866,
+          "cant": 1,
+          "peso": 5.33,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 5.33,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 5.33,
+          "literal": "BOG"
+        },
+        {
+          "item": 7,
+          "cod": "BOG-VST-3",
+          "prod": "Viga Secundaria Tubo o caños",
+          "long": 1170,
+          "cant": 1,
+          "peso": 7.2,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 7.2,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 7.2,
+          "literal": "BOG"
+        },
+        {
+          "item": 8,
+          "cod": "BOG-VST-4",
+          "prod": "Viga Secundaria Tubo o caños",
+          "long": 891,
+          "cant": 1,
+          "peso": 5.48,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 5.48,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 5.48,
+          "literal": "BOG"
+        },
+        {
+          "item": 9,
+          "cod": "BOG-VST-5",
+          "prod": "Viga Secundaria Tubo o caños",
+          "long": 757,
+          "cant": 1,
+          "peso": 4.66,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 4.66,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 4.66,
+          "literal": "BOG"
+        },
+        {
+          "item": 10,
+          "cod": "BOG-VST-6",
+          "prod": "Viga Secundaria Tubo o caños",
+          "long": 1881,
+          "cant": 1,
+          "peso": 11.58,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 11.58,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 11.58,
+          "literal": "BOG"
+        },
+        {
+          "item": 11,
+          "cod": "BOG-VST-7",
+          "prod": "Viga Secundaria Tubo o caños",
+          "long": 677,
+          "cant": 1,
+          "peso": 4.17,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 4.17,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 4.17,
+          "literal": "BOG"
+        }
+      ],
+      "arm_pend_items": [],
+      "pint_pend_items": [
+        {
+          "cod": "BOG-SP-1",
+          "prod": "SOPORTE",
+          "long": 125,
+          "cant": 7,
+          "pend": 7
+        },
+        {
+          "cod": "BOG-SP-2",
+          "prod": "SOPORTE",
+          "long": 125,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOG-VPT-1",
+          "prod": "Viga Principal tubo o caños",
+          "long": 3490,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOG-VPT-2",
+          "prod": "Viga Principal tubo o caños",
+          "long": 2475,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOG-VST-1",
+          "prod": "Viga Secundaria Tubo o caños",
+          "long": 678,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOG-VST-2",
+          "prod": "Viga Secundaria Tubo o caños",
+          "long": 866,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOG-VST-3",
+          "prod": "Viga Secundaria Tubo o caños",
+          "long": 1170,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOG-VST-4",
+          "prod": "Viga Secundaria Tubo o caños",
+          "long": 891,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOG-VST-5",
+          "prod": "Viga Secundaria Tubo o caños",
+          "long": 757,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOG-VST-6",
+          "prod": "Viga Secundaria Tubo o caños",
+          "long": 1881,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOG-VST-7",
+          "prod": "Viga Secundaria Tubo o caños",
+          "long": 677,
+          "cant": 1,
+          "pend": 1
         }
       ]
     },
