@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T20:23:51.536Z",
+  "updatedAt": "2026-11-05T20:24:04.533Z",
   "updatedBy": "Adriana Perez",
   "checks": {
     "24969_1": {
@@ -23877,62 +23877,26 @@
       "cliente": "Jiménez Gaona y Lima SA",
       "fecha": "5/11/2026",
       "avances": {
-        "arm": 55,
+        "arm": 54,
         "pint": 0,
-        "env": 2,
+        "env": 0,
         "mont": 0
       },
       "totales": {
-        "cant": 1340,
-        "arm_lib": 743,
-        "arm_pend": 597,
+        "cant": 1313,
+        "arm_lib": 710,
+        "arm_pend": 603,
         "pint_ok": 0,
-        "pint_pend": 1340,
-        "env_ok": 27,
+        "pint_pend": 1313,
+        "env_ok": 0,
         "env_pend": 1313,
-        "items": 390,
-        "peso_total": 57965.009999999995,
-        "arm_pend_peso": 18114.345,
-        "pint_pend_peso": 57965.009999999995,
+        "items": 385,
+        "peso_total": 57532.60999999999,
+        "arm_pend_peso": 19649.72500000001,
+        "pint_pend_peso": 57532.60999999999,
         "env_pend_peso": 57532.60999999999
       },
       "items": [
-        {
-          "item": 2,
-          "cod": "34408-AN-2",
-          "prod": "Anclaje",
-          "long": 0,
-          "cant": 6,
-          "peso": 354,
-          "arm_lib": 6,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 6,
-          "pint_pend_peso": 354,
-          "env_ok": 6,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "AN"
-        },
-        {
-          "item": 3,
-          "cod": "34410-PZ-1",
-          "prod": "Pieza Especial",
-          "long": 0,
-          "cant": 1,
-          "peso": 0,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 0,
-          "env_ok": 1,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "PZ"
-        },
         {
           "item": 4,
           "cod": "BMR-CH-1",
@@ -26388,9 +26352,9 @@
           "long": 5820,
           "cant": 1,
           "peso": 270.16,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 270.16,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 270.16,
@@ -26460,9 +26424,9 @@
           "long": 5721,
           "cant": 3,
           "peso": 1245.69,
-          "arm_lib": 3,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
+          "arm_lib": 1,
+          "arm_pend": 2,
+          "arm_pend_peso": 830.46,
           "pint_ok": 0,
           "pint_pend": 3,
           "pint_pend_peso": 1245.69,
@@ -26478,9 +26442,9 @@
           "long": 2765,
           "cant": 3,
           "peso": 579.06,
-          "arm_lib": 3,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
+          "arm_lib": 1,
+          "arm_pend": 2,
+          "arm_pend_peso": 386.04,
           "pint_ok": 0,
           "pint_pend": 3,
           "pint_pend_peso": 579.06,
@@ -28044,9 +28008,9 @@
           "long": 1881,
           "cant": 4,
           "peso": 97.44,
-          "arm_lib": 4,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
+          "arm_lib": 2,
+          "arm_pend": 2,
+          "arm_pend_peso": 48.72,
           "pint_ok": 0,
           "pint_pend": 4,
           "pint_pend_peso": 97.44,
@@ -30576,60 +30540,6 @@
           "literal": "BMR"
         },
         {
-          "item": 373,
-          "cod": "BMR-PE-4",
-          "prod": "Perno PCF",
-          "long": 0,
-          "cant": 4,
-          "peso": 20.16,
-          "arm_lib": 4,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 4,
-          "pint_pend_peso": 20.16,
-          "env_ok": 4,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BMR"
-        },
-        {
-          "item": 374,
-          "cod": "BMR-PE-2",
-          "prod": "Perno PCF",
-          "long": 0,
-          "cant": 4,
-          "peso": 14.56,
-          "arm_lib": 4,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 4,
-          "pint_pend_peso": 14.56,
-          "env_ok": 4,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BMR"
-        },
-        {
-          "item": 375,
-          "cod": "BMR-PE-3",
-          "prod": "Perno PCF",
-          "long": 0,
-          "cant": 12,
-          "peso": 43.68,
-          "arm_lib": 12,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 12,
-          "pint_pend_peso": 43.68,
-          "env_ok": 12,
-          "env_pend": 0,
-          "env_pend_peso": 0,
-          "literal": "BMR"
-        },
-        {
           "item": 376,
           "cod": "BMR-PL-201",
           "prod": "Placa",
@@ -30920,13 +30830,6 @@
       ],
       "arm_pend_items": [
         {
-          "cod": "34410-PZ-1",
-          "prod": "Pieza Especial",
-          "long": 0,
-          "cant": 1,
-          "pend": 1
-        },
-        {
           "cod": "BMR-CH-16",
           "prod": "Cruz Horizontal",
           "long": 7241,
@@ -30974,6 +30877,27 @@
           "long": 2792,
           "cant": 1,
           "pend": 1
+        },
+        {
+          "cod": "BMR-PA-410",
+          "prod": "Pasarela Metalica",
+          "long": 5820,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BMR-PA-414",
+          "prod": "Pasarela Metalica",
+          "long": 5721,
+          "cant": 3,
+          "pend": 2
+        },
+        {
+          "cod": "BMR-PA-415",
+          "prod": "Pasarela Metalica",
+          "long": 2765,
+          "cant": 3,
+          "pend": 2
         },
         {
           "cod": "BMR-PA-416",
@@ -31445,6 +31369,13 @@
           "pend": 0.5
         },
         {
+          "cod": "BMR-PCT-25",
+          "prod": "Correa de tímpano/ Perfilado",
+          "long": 1881,
+          "cant": 4,
+          "pend": 2
+        },
+        {
           "cod": "BMR-PE-1",
           "prod": "Perno PCF",
           "long": 450,
@@ -31782,20 +31713,6 @@
         }
       ],
       "pint_pend_items": [
-        {
-          "cod": "34408-AN-2",
-          "prod": "Anclaje",
-          "long": 0,
-          "cant": 6,
-          "pend": 6
-        },
-        {
-          "cod": "34410-PZ-1",
-          "prod": "Pieza Especial",
-          "long": 0,
-          "cant": 1,
-          "pend": 1
-        },
         {
           "cod": "BMR-CH-1",
           "prod": "Cruz Horizontal",
@@ -33881,6 +33798,20 @@
           "long": 1439,
           "cant": 7,
           "pend": 7
+        },
+        {
+          "cod": "BMR-TC-9",
+          "prod": "Tilla de compresion",
+          "long": 2131,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BMR-TI-1",
+          "prod": "Tilla de Traccion",
+          "long": 1232,
+          "cant": 31,
+          "pend": 31
         }
       ]
     },
