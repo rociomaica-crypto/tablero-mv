@@ -736,6 +736,7 @@ function syncToGitHub(){
           setSyncPending(false);
           btn.innerHTML="&#10003; Sincronizado ("+totItemsSync+" items, "+totPiezasSync.toLocaleString("es")+" pzas)";
           setTimeout(function(){btn.innerHTML="&#8679; Sincronizar";},4000);
+          setTimeout(function(){_ultimaCarga=0;autoRecargar();},2500);
           // Verificar contra GitHub: releer el archivo recien subido y comparar
           setTimeout(function(){
             fetch(apiUrl+"?t="+Date.now(),{headers:{"Authorization":"token "+ghToken,"Accept":"application/vnd.github.v3+json"}})
@@ -878,8 +879,36 @@ function loadAllOTsInner(){
     try{localStorage.setItem("mv_checks_v7",JSON.stringify(checks));}catch(e){}
     loadPrioritiesFromGitHub();
     populateSelectors();
+    refrescarVistaActiva();
   });
 }
+
+// ============ AUTO-ACTUALIZACION ============
+// Vuelve a leer lo que sincronizaron los demas checkers cada 2 minutos,
+// al volver a la ventana y despues de sincronizar, sin perder filtros ni pagina.
+function refrescarVistaActiva(){
+  try{
+    var ae=document.activeElement;
+    if(ae&&(ae.tagName==="INPUT"||ae.tagName==="SELECT")&&ae.closest&&ae.closest("#reb-body"))return; // no interrumpir mientras escribe
+    var act=document.querySelector(".page.active");if(!act)return;
+    if(act.id==="p-rebaja"&&rebCurrentOT){
+      var pg=rebPage;applyRebFilters();updateRebKPIs();
+      var maxPg=Math.max(1,Math.ceil((rebFiltered.length||0)/PAGE));
+      rebPage=Math.min(pg,maxPg);renderReb();
+    }else if(act.id==="p-tablero"){loadTablero();}
+    else if(act.id==="p-resumen"){loadResumen();}
+  }catch(e){console.warn("refresco:",e);}
+}
+var _ultimaCarga=0;
+function autoRecargar(){
+  if(!currentChecker)return;
+  if(Date.now()-_ultimaCarga<30000)return; // como mucho cada 30 s
+  _ultimaCarga=Date.now();
+  loadAllOTs();
+}
+setInterval(autoRecargar,120000);
+document.addEventListener("visibilitychange",function(){if(!document.hidden)autoRecargar();});
+window.addEventListener("focus",autoRecargar);
 
 // Load full items for a remote OT if not already loaded
 function ensureFullOTData(otKey, callback){
