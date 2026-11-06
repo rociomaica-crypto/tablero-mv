@@ -184,6 +184,7 @@ tr.prio-baja-row td{background:linear-gradient(90deg,#FFFBEB,#FFFBEB)!important;
   <div class="nav-user">
     <span class="sync-dot" id="sync-dot"></span>
     <span class="nav-user-name" id="nav-username"></span>
+    <span id="ult-act" title="Ultima vez que se leyo lo de los demas checkers" style="font-size:10px;color:#7DD3FC;opacity:0.8;white-space:nowrap"></span>
     <button class="nav-sync-btn" id="sync-btn" onclick="syncToGitHub()">&#8679; Sincronizar</button>
     <button onclick="toggleConfig()" title="Configuracion GitHub" style="background:rgba(255,255,255,0.15);border:1.5px solid rgba(255,255,255,0.3);border-radius:8px;color:#fff;padding:6px 10px;cursor:pointer;font-size:16px;line-height:1">&#9881;</button>
   </div>
@@ -464,14 +465,39 @@ var CHECKER_FILES=["Bernardo_Vera","Angel_Villa","Cristhian_Piatti","Brian_Soto"
 var GH_REPO="rociomaica-crypto/tablero-mv";
 // Lista dinamica: lee los archivos de verificadores/ en GitHub. Si falla, usa CHECKER_FILES fijo.
 var CHECKER_FILES_FIJOS=CHECKER_FILES.slice();
+// Lectura directa de GitHub por sha (sin la cache de 5 min de raw.githubusercontent).
+// Solo descarga los archivos que cambiaron desde la ultima lectura.
+var SHA_MAP={}, BLOB_TXT={}, LISTING_OK=false;
+function getCheckerData(name){
+  function parse(t){try{return JSON.parse(t);}catch(e){return null;}}
+  function viaRaw(){
+    return fetch("https://raw.githubusercontent.com/"+GH_REPO+"/main/verificadores/"+name+".json?t="+Date.now())
+      .then(function(r){return r.ok?r.json():null;}).catch(function(){return null;});
+  }
+  var sha=SHA_MAP[name];
+  if(!sha)return LISTING_OK?Promise.resolve(null):viaRaw(); // si el listado anduvo y no esta, el archivo no existe
+  if(BLOB_TXT[sha])return Promise.resolve(parse(BLOB_TXT[sha]));
+  var h={"Accept":"application/vnd.github.raw+json"};
+  var tk=(typeof ghToken!=="undefined"&&ghToken)||localStorage.getItem("mv_gh_token")||localStorage.getItem("mv_jefes_token")||"";
+  if(tk)h["Authorization"]="token "+tk;
+  return fetch("https://api.github.com/repos/"+GH_REPO+"/git/blobs/"+sha,{headers:h})
+    .then(function(r){if(!r.ok)throw new Error(r.status);return r.text();})
+    .then(function(t){BLOB_TXT[sha]=t;return parse(t);})
+    .catch(function(){return viaRaw();});
+}
 function refreshCheckerFiles(cb){
   var h={"Accept":"application/vnd.github.v3+json"};
   var tk=localStorage.getItem("mv_gh_token")||"";
   if(tk)h["Authorization"]="token "+tk;
-  fetch("https://api.github.com/repos/"+GH_REPO+"/contents/verificadores?t="+Date.now(),{headers:h})
+  fetch("https://api.github.com/repos/"+GH_REPO+"/contents/verificadores?ref=main&t="+Date.now(),{headers:h,cache:"no-store"})
     .then(function(r){return r.ok?r.json():null;})
     .then(function(list){
+      LISTING_OK=Array.isArray(list);
+      if(!LISTING_OK)SHA_MAP={}; // sin listado: leer por la via comun
       if(Array.isArray(list)){
+        SHA_MAP={};
+        list.forEach(function(f){if(f.type==="file"&&f.sha)SHA_MAP[f.name.replace(/\.json$/i,"")]=f.sha;});
+        Object.keys(BLOB_TXT).forEach(function(sh){var vivo=false;Object.keys(SHA_MAP).forEach(function(n){if(SHA_MAP[n]===sh)vivo=true;});if(!vivo)delete BLOB_TXT[sh];});
         var names=list.filter(function(f){return f.type==="file"&&/\.json$/i.test(f.name)&&!/^prioridades\.json$/i.test(f.name);})
                       .map(function(f){return f.name.replace(/\.json$/i,"");});
         if(names.length){
@@ -480,7 +506,7 @@ function refreshCheckerFiles(cb){
         }
       }
     })
-    .catch(function(){})
+    .catch(function(){LISTING_OK=false;SHA_MAP={};})
     .then(function(){cb();});
 }
 var currentChecker="", ghRepo="", ghToken="";
@@ -801,11 +827,7 @@ function loadAllOTs(){
 }
 function loadAllOTsInner(){
   var base="https://raw.githubusercontent.com/"+GH_REPO+"/main/verificadores/";
-  var promises=CHECKER_FILES.map(function(name){
-    return fetch(base+name+".json?t="+Date.now())
-      .then(function(r){return r.ok?r.json():null;})
-      .catch(function(){return null;});
-  });
+  var promises=CHECKER_FILES.map(function(name){return getCheckerData(name);});
   Promise.all(promises).then(function(results){
     allOTs={};
     remoteCheckerData={};
@@ -880,6 +902,7 @@ function loadAllOTsInner(){
     loadPrioritiesFromGitHub();
     populateSelectors();
     refrescarVistaActiva();
+    var ua=document.getElementById("ult-act");if(ua){var n=new Date();ua.textContent="act. "+n.toLocaleTimeString("es-PY",{hour:"2-digit",minute:"2-digit"});}
   });
 }
 
@@ -902,11 +925,11 @@ function refrescarVistaActiva(){
 var _ultimaCarga=0;
 function autoRecargar(){
   if(!currentChecker)return;
-  if(Date.now()-_ultimaCarga<30000)return; // como mucho cada 30 s
+  if(Date.now()-_ultimaCarga<15000)return; // como mucho cada 15 s
   _ultimaCarga=Date.now();
   loadAllOTs();
 }
-setInterval(autoRecargar,120000);
+setInterval(autoRecargar,60000);
 document.addEventListener("visibilitychange",function(){if(!document.hidden)autoRecargar();});
 window.addEventListener("focus",autoRecargar);
 
@@ -921,11 +944,7 @@ function ensureFullOTData(otKey, callback){
   // Need to fetch full data - prioritize LPT Loaders
   var base="https://raw.githubusercontent.com/"+GH_REPO+"/main/verificadores/";
   var LPT_FILES=LPT_LOADERS.map(function(n){return n.replace(/ /g,"_");});
-  var promises=CHECKER_FILES.map(function(name){
-    return fetch(base+name+".json?t="+Date.now())
-      .then(function(r){return r.ok?r.json():null;})
-      .catch(function(){return null;});
-  });
+  var promises=CHECKER_FILES.map(function(name){return getCheckerData(name);});
   Promise.all(promises).then(function(results){
     var bestLoader=null; var bestLoaderUpdate="";
     results.forEach(function(data,idx){
@@ -961,7 +980,7 @@ function ensureFullOTData(otKey, callback){
 var remotePriorities={};
 function loadPrioritiesFromGitHub(){
   var url="https://raw.githubusercontent.com/"+GH_REPO+"/main/verificadores/prioridades.json?t="+Date.now();
-  fetch(url).then(function(r){return r.ok?r.json():null;}).then(function(d){
+  getCheckerData("prioridades").then(function(d){
     if(d)remotePriorities=d;
     if(prioCurrentOT)loadPrioridades();
   }).catch(function(){});
