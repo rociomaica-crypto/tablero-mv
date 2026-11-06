@@ -182,6 +182,47 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;backgrou
 .qr-btn{font-size:12px;padding:8px 16px;border-radius:8px;cursor:pointer;font-weight:700;border:none}
 .qr-btn-primary{background:linear-gradient(135deg,#1A5C8A,#0D3B66);color:#fff}
 .qr-btn-secondary{background:#EEF4F8;color:#1A5C8A;border:1.5px solid #C8DDF0!important;border:none}
+
+/* ===== FILTROS / GRUPOS ===== */
+.toolbar{background:#fff;border:1px solid #C8DDF0;border-radius:12px;padding:10px 12px;display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:16px;position:sticky;top:0;z-index:50;box-shadow:0 2px 8px rgba(13,59,102,0.06)}
+.tabs{display:flex;gap:4px;background:#EEF4F8;border-radius:10px;padding:4px;flex-wrap:wrap}
+.gtab{border:none;background:none;font:inherit;font-size:12px;font-weight:700;color:#4A7FA5;padding:8px 14px;border-radius:8px;cursor:pointer;display:flex;align-items:center;gap:6px}
+.gtab .n{font-size:10px;padding:2px 7px;border-radius:20px;background:#fff;color:#4A7FA5}
+.gtab.active{background:#0D3B66;color:#fff}
+.gtab.active .n{background:rgba(255,255,255,0.2);color:#fff}
+.gtab.t-desp.active{background:#0284C7}
+.gtab.t-comp.active{background:#059669}
+.gsearch{flex:1;min-width:200px;font-size:12px;padding:9px 12px;border:1.5px solid #C8DDF0;border-radius:8px}
+.gsearch:focus{outline:none;border-color:#1A5C8A}
+.gsel{font-size:12px;padding:8px 10px;border:1.5px solid #C8DDF0;border-radius:8px;background:#fff;color:#0D3B66;font-weight:600}
+.viewsw{display:flex;border:1.5px solid #C8DDF0;border-radius:8px;overflow:hidden}
+.viewsw button{border:none;background:#fff;font:inherit;font-size:12px;font-weight:700;color:#4A7FA5;padding:8px 12px;cursor:pointer}
+.viewsw button.active{background:#E8F4FD;color:#0D3B66}
+.viewsw.disabled{opacity:0.4;pointer-events:none}
+details.reb-fold{margin-top:6px}
+details.reb-fold>summary{list-style:none;cursor:pointer;font-size:11px;font-weight:700;color:#1A5C8A;background:#F8FBFE;border:1px dashed #C8DDF0;border-radius:8px;padding:7px;text-align:center}
+details.reb-fold>summary::-webkit-details-marker{display:none}
+details.reb-fold[open]>summary{margin-bottom:4px}
+.ot-tbl{width:100%;border-collapse:separate;border-spacing:0;background:#fff;border:1px solid #C8DDF0;border-radius:12px;overflow:hidden}
+.ot-tbl th{background:#0D3B66;color:#fff;font-size:11px;text-align:left;padding:10px 12px;font-weight:700}
+.ot-tbl td{padding:9px 12px;border-bottom:1px solid #E8F4FD;font-size:12px;vertical-align:middle}
+.ot-tbl tr:last-child td{border-bottom:none}
+.ot-tbl tr:hover td{background:#F8FBFE}
+.ot-tbl .oc b{color:#0D3B66}
+.ot-tbl .oc small{display:block;color:#7BA7C4;font-size:11px;max-width:320px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mini{display:flex;align-items:center;gap:6px;min-width:110px}
+.mini .bg{flex:1;height:7px;background:#E8F4FD;border-radius:4px;overflow:hidden}
+.mini .fg{height:100%;border-radius:4px}
+.mini span{font-size:11px;font-weight:800;width:34px;text-align:right}
+.gbadge{font-size:10px;font-weight:700;padding:3px 9px;border-radius:20px;white-space:nowrap;display:inline-block}
+.gb-ok{background:#ECFDF5;color:#059669;border:1px solid #A7F3D0}
+.gb-desp{background:#E0F2FE;color:#0369A1;border:1px solid #BAE6FD}
+.gb-alert{background:#FEE2E2;color:#991B1B;border:1px solid #FCA5A5}
+.gb-tal{background:#F1F5F9;color:#475569;border:1px solid #E2E8F0}
+.glnk{font-size:11px;font-weight:700;color:#1A5C8A;cursor:pointer;white-space:nowrap}
+.ghint{font-size:11px;color:#4A7FA5;margin:10px 2px 0}
+.gempty{padding:40px;text-align:center;color:#7BA7C4;background:#fff;border-radius:12px;border:1px dashed #C8DDF0}
+@media(max-width:700px){.ot-tbl .hide-m{display:none}}
 </style>
 <script>
 // ============ QR MODAL ============
@@ -327,6 +368,25 @@ function copyQRUrl(){
 
   <div class="summary-grid" id="summary-grid" style="display:none"></div>
 
+  <div class="toolbar" id="toolbar" style="display:none">
+    <div class="tabs" id="gtabs">
+      <button class="gtab active" data-g="taller">&#128295; En taller <span class="n" id="n-taller">0</span></button>
+      <button class="gtab t-desp" data-g="desp">&#128666; Listas p/ despacho <span class="n" id="n-desp">0</span></button>
+      <button class="gtab t-comp" data-g="comp">&#10003; Completas <span class="n" id="n-comp">0</span></button>
+      <button class="gtab" data-g="todas">Todas <span class="n" id="n-todas">0</span></button>
+    </div>
+    <input class="gsearch" id="gq" placeholder="Buscar OT, obra o cliente (en todas)...">
+    <select class="gsel" id="gord">
+      <option value="atraso">Orden: más pendiente (kg)</option>
+      <option value="avance">Orden: menor avance</option>
+      <option value="reciente">Orden: actualizadas recientemente</option>
+      <option value="ot">Orden: N° de OT</option>
+    </select>
+    <div class="viewsw" id="gview">
+      <button data-v="cards" class="active">&#9638; Tarjetas</button>
+      <button data-v="list">&#9776; Lista</button>
+    </div>
+  </div>
   <div id="ot-grid" class="ot-grid">
     <div class="empty-state">
       <div class="icon">📊</div>
@@ -376,6 +436,52 @@ function showStatus(msg,type){
 
 var CHECKER_FILES=["Bernardo_Vera","Angel_Villa","Cristhian_Piatti","Brian_Soto","David_Gimenez","Adriana_Perez","Rocio_Maica","Helden_Rodriguez"];
 var LPT_LOADERS=["Rocio_Maica","Adriana_Perez","Brian_Soto","Cristhian_Piatti"];
+// Lista dinamica: lee los archivos de verificadores/ en GitHub. Si falla, usa CHECKER_FILES fijo.
+var CHECKER_FILES_FIJOS=CHECKER_FILES.slice();
+// Lectura directa de GitHub por sha (sin la cache de 5 min de raw.githubusercontent).
+// Solo descarga los archivos que cambiaron desde la ultima lectura.
+var SHA_MAP={}, BLOB_TXT={}, LISTING_OK=false;
+function getCheckerData(name){
+  function parse(t){try{return JSON.parse(t);}catch(e){return null;}}
+  function viaRaw(){
+    return fetch("https://raw.githubusercontent.com/"+GH_REPO+"/main/verificadores/"+name+".json?t="+Date.now())
+      .then(function(r){return r.ok?r.json():null;}).catch(function(){return null;});
+  }
+  var sha=SHA_MAP[name];
+  if(!sha)return LISTING_OK?Promise.resolve(null):viaRaw(); // si el listado anduvo y no esta, el archivo no existe
+  if(BLOB_TXT[sha])return Promise.resolve(parse(BLOB_TXT[sha]));
+  var h={"Accept":"application/vnd.github.raw+json"};
+  var tk=(typeof ghToken!=="undefined"&&ghToken)||localStorage.getItem("mv_gh_token")||localStorage.getItem("mv_jefes_token")||"";
+  if(tk)h["Authorization"]="token "+tk;
+  return fetch("https://api.github.com/repos/"+GH_REPO+"/git/blobs/"+sha,{headers:h})
+    .then(function(r){if(!r.ok)throw new Error(r.status);return r.text();})
+    .then(function(t){BLOB_TXT[sha]=t;return parse(t);})
+    .catch(function(){return viaRaw();});
+}
+function refreshCheckerFiles(cb){
+  var h={"Accept":"application/vnd.github.v3+json"};
+  var tk=localStorage.getItem("mv_jefes_token")||"";
+  if(tk)h["Authorization"]="token "+tk;
+  fetch("https://api.github.com/repos/"+GH_REPO+"/contents/verificadores?ref=main&t="+Date.now(),{headers:h,cache:"no-store"})
+    .then(function(r){return r.ok?r.json():null;})
+    .then(function(list){
+      LISTING_OK=Array.isArray(list);
+      if(!LISTING_OK)SHA_MAP={}; // sin listado: leer por la via comun
+      if(Array.isArray(list)){
+        SHA_MAP={};
+        list.forEach(function(f){if(f.type==="file"&&f.sha)SHA_MAP[f.name.replace(/\.json$/i,"")]=f.sha;});
+        Object.keys(BLOB_TXT).forEach(function(sh){var vivo=false;Object.keys(SHA_MAP).forEach(function(n){if(SHA_MAP[n]===sh)vivo=true;});if(!vivo)delete BLOB_TXT[sh];});
+        var names=list.filter(function(f){return f.type==="file"&&/\.json$/i.test(f.name)&&!/^prioridades\.json$/i.test(f.name);})
+                      .map(function(f){return f.name.replace(/\.json$/i,"");});
+        if(names.length){
+          CHECKER_FILES_FIJOS.forEach(function(n){if(names.indexOf(n)<0)names.push(n);});
+          CHECKER_FILES=names;
+        }
+      }
+    })
+    .catch(function(){LISTING_OK=false;SHA_MAP={};})
+    .then(function(){cb();});
+}
 
 // Merge de estados por campo: gana siempre el estado mas avanzado (Armado y Pintura son independientes)
 var ARM_ORDER_J={"":0,"armado":1,"soldado":2,"calibrado":3,"liberado":4};
@@ -392,16 +498,15 @@ function mergeChecksJefes(local, incoming){
 }
 
 function loadData(){
+  refreshCheckerFiles(loadDataInner);
+}
+function loadDataInner(){
   var btn=document.getElementById("refresh-btn");
   btn.classList.add("loading");
   btn.innerHTML="<span class=\"spinner\"></span> Actualizando...";
 
   var base="https://raw.githubusercontent.com/"+GH_REPO+"/main/verificadores/";
-  var promises=CHECKER_FILES.map(function(name){
-    return fetch(base+name+".json?t="+Date.now())
-      .then(function(r){return r.ok?r.json():null;})
-      .catch(function(){return null;});
-  });
+  var promises=CHECKER_FILES.map(function(name){return getCheckerData(name);});
 
   Promise.all(promises).then(function(results){
     // Merge all checker files into one unified data object
@@ -566,35 +671,62 @@ function renderDashboard(data){
     return;
   }
 
-  // Summary totals
-  var totPiezas=0,totArmPend=0,totPintPend=0,totEnvPend=0,totPesoTotal=0,totArmPendKg=0,totPintPendKg=0;
+  // Info por OT (grupo, avances, pendientes)
+  OTINFO={};
   otKeys.forEach(function(k){
-    var t=data.otMeta[k].totales;
-    totPiezas+=t.cant;
-    totArmPend+=(t._perfExcluded?t.arm_pend_adj:t.arm_pend);
-    totPintPend+=(t._pintExcluded?t.pint_pend_adj:t.pint_pend);totEnvPend+=t.env_pend;
-    totPesoTotal+=(t.peso_total||0);
-    totArmPendKg+=(t._perfExcluded?t.arm_pend_peso_adj:t.arm_pend_peso)||0;
-    totPintPendKg+=(t._pintExcluded?t.pint_pend_peso_adj:t.pint_pend_peso)||0;
+    var o=data.otMeta[k], t=o.totales, tot=t.cant||1;
+    var armLib=t._perfExcluded?t.arm_lib_adj:t.arm_lib;
+    var armPend=t._perfExcluded?t.arm_pend_adj:t.arm_pend;
+    var armTot=t._perfExcluded?t.cant_arm:tot;
+    var pintOk=t._pintExcluded?t.pint_ok_adj:t.pint_ok;
+    var pintPend=t._pintExcluded?t.pint_pend_adj:t.pint_pend;
+    var pintTot=t._pintExcluded?t.cant_pint:tot;
+    var armPct=armTot>0?Math.round(armLib/armTot*100):100;
+    var pintPct=pintTot>0?Math.round(pintOk/pintTot*100):100;
+    var envPct=Math.round((t.env_ok||0)/tot*100);
+    var armKg=(t._perfExcluded?t.arm_pend_peso_adj:t.arm_pend_peso)||0;
+    var pintKg=(t._pintExcluded?t.pint_pend_peso_adj:t.pint_pend_peso)||0;
+    var grupo=envPct>=100?"comp":((armPct>=100&&pintPct>=100)?"desp":"taller");
+    OTINFO[k]={k:k,ot:String(o.ot),obra:o.obra||"",cliente:o.cliente||"",armPct:armPct,pintPct:pintPct,envPct:envPct,
+      armPend:armPend||0,pintPend:pintPend||0,pendKg:Math.max(0,armKg)+Math.max(0,pintKg),grupo:grupo,
+      by:o.updatedBy||data.updatedBy,at:o.updatedAt||data.updatedAt,alert:(armPend>500||pintPend>500)};
   });
+  // Fecha en que cada OT se vio completa por primera vez (para ocultarla a los 30 dias)
+  var compSeen={};try{compSeen=JSON.parse(localStorage.getItem("mv_jefes_completas")||"{}");}catch(e){}
+  var hoy=new Date().toISOString();
+  Object.keys(OTINFO).forEach(function(k){
+    if(OTINFO[k].grupo==="comp"){if(!compSeen[k])compSeen[k]=hoy;OTINFO[k].compDesde=compSeen[k];}
+    else if(compSeen[k])delete compSeen[k];
+  });
+  try{localStorage.setItem("mv_jefes_completas",JSON.stringify(compSeen));}catch(e){}
 
-  // Checker rebaja stats
+  // Summary totals (solo OTs no completas)
+  var nTaller=0,nDesp=0,nComp=0,totArmPend=0,totPintPend=0,totArmPendKg=0,totPintPendKg=0;
+  otKeys.forEach(function(k){
+    var i=OTINFO[k], t=data.otMeta[k].totales;
+    if(i.grupo==="taller")nTaller++;else if(i.grupo==="desp")nDesp++;else nComp++;
+    if(i.grupo!=="comp"){
+      totArmPend+=i.armPend;totPintPend+=i.pintPend;
+      totArmPendKg+=(t._perfExcluded?t.arm_pend_peso_adj:t.arm_pend_peso)||0;
+      totPintPendKg+=(t._pintExcluded?t.pint_pend_peso_adj:t.pint_pend_peso)||0;
+    }
+  });
   var checks=data.checks||{};
-  var totalChecks=Object.keys(checks).length;
 
   var sg=document.getElementById("summary-grid");
   sg.style.display="grid";
   sg.innerHTML=
-    "<div class=\"sum-card blue\"><div class=\"sum-lbl\">OTs activas</div><div class=\"sum-val\">"+otKeys.length+"</div><div class=\"sum-sub\">en seguimiento</div></div>"+
-    "<div class=\"sum-card\"><div class=\"sum-lbl\">Total piezas</div><div class=\"sum-val\">"+fmt(totPiezas)+"</div><div class=\"sum-sub\">todas las obras</div></div>"+
+    "<div class=\"sum-card blue\"><div class=\"sum-lbl\">OTs en taller</div><div class=\"sum-val\">"+nTaller+"</div><div class=\"sum-sub\">de "+otKeys.length+" cargadas</div></div>"+
     "<div class=\"sum-card red\"><div class=\"sum-lbl\">Pend. Armado</div><div class=\"sum-val\">"+fmt(totArmPend)+"</div><div class=\"sum-sub\">sin liberar · "+(totArmPendKg/1000).toFixed(1)+"t</div></div>"+
     "<div class=\"sum-card amber\"><div class=\"sum-lbl\">Pend. Pintura</div><div class=\"sum-val\">"+fmt(totPintPend)+"</div><div class=\"sum-sub\">sin pintar · "+(totPintPendKg/1000).toFixed(1)+"t</div></div>"+
-    "<div class=\"sum-card green\"><div class=\"sum-lbl\">Rebaja checker</div><div class=\"sum-val\">"+totalChecks+"</div><div class=\"sum-sub\">items tildados</div></div>";
+    "<div class=\"sum-card\"><div class=\"sum-lbl\">Listas p/ despacho</div><div class=\"sum-val\">"+nDesp+"</div><div class=\"sum-sub\">armado y pintura 100%</div></div>"+
+    "<div class=\"sum-card green\"><div class=\"sum-lbl\">Completas</div><div class=\"sum-val\">"+nComp+"</div><div class=\"sum-sub\">envío 100%</div></div>";
 
   // OT cards
-  var html="";
+  CARDS={};
   otKeys.forEach(function(k){
     var o=data.otMeta[k];
+    var html="";
     var t=o.totales;
     var a=o.avances;
     var tot=t.cant||1;
@@ -635,6 +767,8 @@ function renderDashboard(data){
     html+="<div class=\"ot-card-header\">";
     html+="<div><h3>OT "+o.ot+"</h3><p>"+o.obra+"</p></div>";
     html+="<div style=\"display:flex;gap:8px;align-items:center\">";
+    if(OTINFO[k].grupo==="desp")html+="<span class=\"ot-badge-header\">&#128666; Lista p/ despacho</span>";
+    if(OTINFO[k].grupo==="comp")html+="<span class=\"ot-badge-header\">&#10003; Completa</span>";
     html+="<span class=\"ot-badge-header\">"+t.items+" items</span>";
     if(o.arm_pend_items&&o.arm_pend_items.length>0){
       html+="<button onclick=\"openPrioModal('"+k+"')\" style=\"font-size:10px;padding:3px 10px;background:rgba(255,255,255,0.2);border:1px solid rgba(255,255,255,0.4);border-radius:20px;color:#fff;cursor:pointer;font-weight:700\">&#9733; Prioridades</button>";
@@ -680,7 +814,7 @@ function renderDashboard(data){
 
     // Rebaja checker progress
     if(armTotal>0){
-      html+="<div class=\"rebaja-section\">";
+      html+="<details class=\"reb-fold\"><summary>&#9662; Ver Rebaja Checker ("+armTotal+" items tildados)</summary><div class=\"rebaja-section\">";
       html+="<div class=\"rebaja-title\"><span>Rebaja Checker</span><span style=\"color:#4A7FA5;font-weight:400;text-transform:none\">"+armTotal+" items tildados</span></div>";
       var armRebPct=Math.round(armVer/armTotal*100);
       var pintRebPct=Math.round(pintVer/armTotal*100);
@@ -706,7 +840,7 @@ function renderDashboard(data){
         "<span class=\"substate-chip substate-done\">Galvamax: "+pintCounts.galvamax+"</span>"+
         "<span class=\"substate-chip substate-done\">Rackpar: "+pintCounts.rackpar+"</span>"+
         "</div>";
-      html+="</div>";
+      html+="</div></details>";
     }
 
     // Checker info - show who updated THIS specific OT
@@ -718,13 +852,94 @@ function renderDashboard(data){
     html+="</div>";
 
     html+="</div></div>"; // body + card
+    CARDS[k]=html;
   });
 
-  document.getElementById("ot-grid").innerHTML=html;
+  document.getElementById("toolbar").style.display="flex";
+  renderOTs();
   showStatus("","ok");
   showStatus("","info");
   document.getElementById("status-bar").style.display="none";
 }
+
+// ============ GRUPOS / FILTROS / VISTA ============
+var OTINFO={}, CARDS={}, GGRUPO="taller";
+var GVISTA="cards"; // siempre abre en tarjetas
+var DIAS_OCULTAR_COMPLETAS=30;
+function gmini(p){return "<div class=\"mini\"><div class=\"bg\"><div class=\"fg\" style=\"width:"+Math.min(p,100)+"%;background:"+barC(p)+"\"></div></div><span style=\"color:"+pctC(p)+"\">"+p+"%</span></div>";}
+function gEsc(x){return String(x==null?"":x).replace(/&/g,"&amp;").replace(/</g,"&lt;");}
+function renderOTs(){
+  var q=(document.getElementById("gq").value||"").toLowerCase().trim();
+  var ord=document.getElementById("gord").value;
+  var all=Object.keys(OTINFO).map(function(k){return OTINFO[k];});
+  var limite=Date.now()-DIAS_OCULTAR_COMPLETAS*86400000;
+  function visibleComp(i){return !i.compDesde||new Date(i.compDesde).getTime()>=limite;}
+  var cnt={taller:0,desp:0,comp:0};
+  all.forEach(function(i){if(i.grupo!=="comp"||visibleComp(i))cnt[i.grupo]++;});
+  document.getElementById("n-taller").textContent=cnt.taller;
+  document.getElementById("n-desp").textContent=cnt.desp;
+  document.getElementById("n-comp").textContent=cnt.comp;
+  document.getElementById("n-todas").textContent=all.length;
+  var L=all.filter(function(i){
+    if(q) return (i.ot+" "+i.obra+" "+i.cliente).toLowerCase().indexOf(q)>=0; // el buscador busca en todas
+    if(GGRUPO==="todas")return true;
+    if(i.grupo!==GGRUPO)return false;
+    return i.grupo!=="comp"||visibleComp(i);
+  });
+  L.sort(function(a,b){
+    if(ord==="atraso")return b.pendKg-a.pendKg||(b.armPend+b.pintPend)-(a.armPend+a.pintPend);
+    if(ord==="avance")return (a.armPct+a.pintPct+a.envPct)-(b.armPct+b.pintPct+b.envPct);
+    if(ord==="reciente")return new Date(b.at)-new Date(a.at);
+    return a.ot.localeCompare(b.ot,undefined,{numeric:true});
+  });
+  var grid=document.getElementById("ot-grid");
+  var vista=(GGRUPO==="comp"&&!q)?"list":GVISTA;
+  document.getElementById("gview").className="viewsw"+((GGRUPO==="comp"&&!q)?" disabled":"");
+  if(!L.length){
+    grid.className="";
+    grid.innerHTML="<div class=\"gempty\">"+(q?"No hay OTs que coincidan con la búsqueda.":"No hay OTs en este grupo.")+"</div>";
+    return;
+  }
+  if(vista==="cards"){
+    grid.className="ot-grid";
+    grid.innerHTML=L.map(function(i){return CARDS[i.k]||"";}).join("");
+  }else{
+    grid.className="";
+    var h="<table class=\"ot-tbl\"><thead><tr><th>OT / Obra</th><th class=\"hide-m\">Cliente</th><th>Armado</th><th>Pintura</th><th>Envío</th><th class=\"hide-m\">Pendiente</th><th>Estado</th><th class=\"hide-m\">Últ. sync</th><th></th></tr></thead><tbody>";
+    L.forEach(function(i){
+      var est;
+      if(i.grupo==="comp"){var d=i.compDesde?Math.floor((Date.now()-new Date(i.compDesde).getTime())/86400000):0;est="<span class=\"gbadge gb-ok\">&#10003; Completa"+(d>0?" · hace "+d+" d":"")+"</span>";}
+      else if(i.grupo==="desp")est="<span class=\"gbadge gb-desp\">&#128666; Lista p/ despacho</span>";
+      else est=i.alert?"<span class=\"gbadge gb-alert\">&#9888; Atrasada</span>":"<span class=\"gbadge gb-tal\">En taller</span>";
+      var dt=new Date(i.at);
+      h+="<tr><td class=\"oc\"><b>OT "+gEsc(i.ot)+"</b><small>"+gEsc(i.obra)+"</small></td><td class=\"hide-m\">"+gEsc(i.cliente)+"</td>"+
+        "<td>"+gmini(i.armPct)+"</td><td>"+gmini(i.pintPct)+"</td><td>"+gmini(i.envPct)+"</td>"+
+        "<td class=\"hide-m\">"+(i.pendKg>0?"<b style=\"color:#DC2626\">"+(i.pendKg/1000).toFixed(1)+" t</b>":"<span style=\"color:#7BA7C4\">—</span>")+"</td>"+
+        "<td>"+est+"</td><td class=\"hide-m\" style=\"font-size:11px;color:#4A7FA5\">"+gEsc(i.by)+"<br><span style=\"color:#7BA7C4\">"+(isNaN(dt)?"":dt.toLocaleDateString("es-PY")+" "+dt.toLocaleTimeString("es-PY",{hour:"2-digit",minute:"2-digit"}))+"</span></td>"+
+        "<td><span class=\"glnk\" onclick=\"abrirOT('"+i.k+"')\">Abrir &rsaquo;</span></td></tr>";
+    });
+    h+="</tbody></table>";
+    if(GGRUPO==="comp"&&!q)h+="<div class=\"ghint\">Las OTs completas se ocultan solas a los "+DIAS_OCULTAR_COMPLETAS+" días. Siguen apareciendo en \"Todas\" y en el buscador.</div>";
+    grid.innerHTML=h;
+  }
+}
+function abrirOT(k){
+  var i=OTINFO[k];if(!i)return;
+  var grid=document.getElementById("ot-grid");
+  grid.className="ot-grid";
+  grid.innerHTML=(CARDS[k]||"")+"<div><span class=\"glnk\" onclick=\"renderOTs()\">&lsaquo; Volver a la lista</span></div>";
+  window.scrollTo({top:document.getElementById("toolbar").offsetTop-10,behavior:"smooth"});
+}
+(function(){
+  function setView(v){GVISTA=v;
+    document.querySelectorAll("#gview button").forEach(function(b){b.classList.toggle("active",b.dataset.v===v);});}
+  setView(GVISTA);
+  document.getElementById("gtabs").addEventListener("click",function(e){var b=e.target.closest(".gtab");if(!b)return;
+    document.querySelectorAll(".gtab").forEach(function(t){t.classList.remove("active");});b.classList.add("active");GGRUPO=b.dataset.g;renderOTs();});
+  document.getElementById("gview").addEventListener("click",function(e){var b=e.target.closest("button");if(!b)return;setView(b.dataset.v);renderOTs();});
+  document.getElementById("gq").addEventListener("input",renderOTs);
+  document.getElementById("gord").addEventListener("change",renderOTs);
+})();
 
 init();
 
