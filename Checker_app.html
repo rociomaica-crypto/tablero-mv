@@ -1,0 +1,1786 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Checker de Produccion - MV</title>
+<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#EEF4F8;color:#0D1F2D;font-size:13px}
+.nav{background:linear-gradient(135deg,#0D3B66 0%,#1A5C8A 100%);padding:0 20px;display:flex;align-items:center;position:sticky;top:0;z-index:200;box-shadow:0 2px 12px rgba(13,59,102,0.4)}
+.nav-brand{font-size:13px;font-weight:700;color:#fff;padding:14px 20px 14px 0;border-right:1px solid rgba(255,255,255,0.2);margin-right:4px;white-space:nowrap}
+.nav-brand span{color:#7DD3FC;font-weight:400}
+.nav-tab{font-size:12px;padding:14px 14px;cursor:pointer;color:rgba(255,255,255,0.6);border-bottom:3px solid transparent;white-space:nowrap;transition:all 0.2s;font-weight:500}
+.nav-tab:hover{color:#fff;background:rgba(255,255,255,0.08)}
+.nav-tab.active{color:#fff;border-bottom-color:#38BDF8;background:rgba(255,255,255,0.1)}
+.nav-user{margin-left:auto;display:flex;align-items:center;gap:10px}
+.nav-user-name{font-size:12px;color:#7DD3FC;font-weight:600}
+.sync-dot{width:8px;height:8px;border-radius:50%;background:#10B981;flex-shrink:0}
+.sync-dot.pending{background:#F97316;animation:pulse 1.5s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:0.4}}
+.nav-sync-btn{font-size:11px;padding:6px 14px;background:rgba(255,255,255,0.15);border:1px solid rgba(255,255,255,0.3);border-radius:20px;color:#fff;cursor:pointer;font-weight:600;transition:all 0.2s}
+.nav-sync-btn:hover{background:rgba(255,255,255,0.25)}
+.spinner{display:inline-block;width:13px;height:13px;border:2px solid rgba(255,255,255,0.3);border-top-color:#fff;border-radius:50%;animation:spin 0.7s linear infinite;vertical-align:-2px;margin-right:5px}
+.spinner-dark{display:inline-block;width:13px;height:13px;border:2px solid #C8DDF0;border-top-color:#1A5C8A;border-radius:50%;animation:spin 0.7s linear infinite;vertical-align:-2px;margin-right:5px}
+@keyframes spin{to{transform:rotate(360deg)}}
+.page{display:none;padding:20px;max-width:1380px;margin:0 auto}
+.page.active{display:block}
+.card{background:#fff;border:1px solid #C8DDF0;border-radius:12px;padding:16px 20px;margin-bottom:14px;box-shadow:0 1px 4px rgba(13,59,102,0.06)}
+.card-title{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:#1A5C8A;margin-bottom:12px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}
+.kpi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:14px}
+.kpi{background:#fff;border:1px solid #C8DDF0;border-radius:12px;padding:12px 16px;box-shadow:0 1px 4px rgba(13,59,102,0.06);border-top:3px solid #1A5C8A}
+.kpi-lbl{font-size:11px;color:#4A7FA5;margin-bottom:4px;font-weight:500}
+.kpi-val{font-size:22px;font-weight:800;color:#0D3B66}
+.kpi-sub{font-size:11px;color:#7BA7C4;margin-top:2px}
+.kpi.red{border-top-color:#EF4444}.kpi.red .kpi-val{color:#DC2626}
+.kpi.amber{border-top-color:#F97316}.kpi.amber .kpi-val{color:#EA6C00}
+.kpi.green{border-top-color:#10B981}.kpi.green .kpi-val{color:#059669}
+.kpi.blue{border-top-color:#0EA5E9}.kpi.blue .kpi-val{color:#0284C7}
+.prog-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;margin-bottom:14px}
+.prog-card{background:#fff;border:1px solid #C8DDF0;border-radius:12px;padding:14px 16px;box-shadow:0 1px 4px rgba(13,59,102,0.06)}
+.prog-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.prog-title{font-size:12px;font-weight:700;color:#0D3B66}
+.prog-pct{font-size:14px;font-weight:800}
+.bar-bg{height:10px;background:#E8F4FD;border-radius:5px;overflow:hidden;margin-bottom:6px;border:1px solid #C8DDF0}
+.bar-fill{height:100%;border-radius:5px}
+.prog-detail{display:flex;justify-content:space-between;font-size:11px;color:#4A7FA5;font-weight:500}
+.alert-chips{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:8px}
+.chip{display:flex;justify-content:space-between;align-items:center;background:linear-gradient(135deg,#FFF1F0,#FFE4E1);border:1.5px solid #FCA5A5;border-radius:10px;padding:8px 12px;gap:8px;box-shadow:0 2px 6px rgba(220,38,38,0.12)}
+.chip-name{font-size:12px;font-weight:700;color:#991B1B;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.toolbar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:10px}
+.tabs{display:flex;gap:3px;flex-wrap:wrap}
+.tab-btn{font-size:11px;padding:5px 12px;border:1.5px solid #C8DDF0;background:#EEF4F8;border-radius:20px;cursor:pointer;color:#4A7FA5;white-space:nowrap;font-weight:500;transition:all 0.15s}
+.tab-btn:hover{background:#D0E8F7;border-color:#1A5C8A;color:#0D3B66}
+.tab-btn.active{background:#0D3B66;color:#fff;border-color:#0D3B66;box-shadow:0 2px 6px rgba(13,59,102,0.3)}
+input[type=text]{font-size:12px;padding:6px 10px;border:1.5px solid #C8DDF0;border-radius:8px;background:#fff;color:#0D1F2D}
+input[type=text]:focus{outline:none;border-color:#1A5C8A;box-shadow:0 0 0 3px rgba(26,92,138,0.12)}
+input[type=number]{font-size:12px;padding:3px 5px;border:1.5px solid #C8DDF0;border-radius:6px;background:#fff;width:52px;text-align:center;color:#0D1F2D;font-weight:600}
+input[type=number]:focus{outline:none;border-color:#1A5C8A}
+select{font-size:12px;padding:6px 10px;border:1.5px solid #C8DDF0;border-radius:8px;background:#fff;color:#0D1F2D}
+.count-lbl{font-size:11px;color:#4A7FA5;margin-left:auto;font-weight:500}
+.tbl-wrap{overflow-x:auto;border:1.5px solid #C8DDF0;border-radius:10px;box-shadow:0 1px 4px rgba(13,59,102,0.06)}
+.tbl-scroll{max-height:460px;overflow-y:auto}
+table{width:100%;border-collapse:collapse;font-size:12px;min-width:700px}
+th{position:sticky;top:0;background:linear-gradient(180deg,#1A5C8A,#154E7A);padding:8px 10px;text-align:left;font-weight:700;font-size:11px;color:#fff;border-bottom:2px solid #0D3B66;white-space:nowrap}
+td{padding:6px 10px;border-bottom:1px solid #E8F4FD;white-space:nowrap;vertical-align:middle}
+tr:last-child td{border-bottom:none}
+tr:hover td{background:#F0F8FF}
+tr.row-alert td{background:linear-gradient(90deg,#FFF8F0,#FFFAF5);border-left:3px solid #F97316}
+tr.row-ok td{background:linear-gradient(90deg,#F0FDF8,#F5FEFB);border-left:3px solid #10B981}
+tr.row-partial td{background:linear-gradient(90deg,#FFFBEB,#FEFCE8);border-left:3px solid #EAB308}
+.tag{display:inline-block;font-size:10px;font-weight:700;padding:2px 7px;border-radius:20px}
+.tag-ok{background:#DCFCE7;color:#065F46;border:1px solid #6EE7B7}
+.tag-pend{background:#FEE2E2;color:#991B1B;border:1px solid #FCA5A5}
+.tag-part{background:#FEF3C7;color:#92400E;border:1px solid #FCD34D}
+.tag-na{background:#EEF4F8;color:#7BA7C4;border:1px solid #C8DDF0}
+.pag{display:flex;align-items:center;justify-content:space-between;padding:8px 12px;font-size:11px;color:#4A7FA5;border-top:1px solid #E8F4FD;background:#F8FBFE;border-radius:0 0 10px 10px}
+.pag-btns button{font-size:11px;padding:4px 12px;border:1.5px solid #C8DDF0;background:#fff;border-radius:6px;cursor:pointer;margin-left:6px;color:#1A5C8A;font-weight:600}
+.pag-btns button:hover{background:#0D3B66;color:#fff;border-color:#0D3B66}
+.pag-btns button:disabled{opacity:0.35;cursor:default}
+.upload-area{border:2.5px dashed #7BB8D4;border-radius:14px;padding:36px 20px;text-align:center;cursor:pointer;transition:all 0.2s;background:linear-gradient(135deg,#F0F8FF,#EEF4F8)}
+.upload-area:hover,.upload-area.drag{border-color:#0D3B66;background:linear-gradient(135deg,#DBEEFF,#D6EEF8)}
+.upload-area h3{font-size:15px;font-weight:700;color:#0D3B66;margin:10px 0 6px}
+.upload-area p{font-size:12px;color:#4A7FA5}
+.ot-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:10px;margin-top:14px}
+.ot-card{background:#fff;border:1.5px solid #C8DDF0;border-radius:12px;padding:14px 16px;cursor:pointer;transition:all 0.2s;box-shadow:0 1px 4px rgba(13,59,102,0.06)}
+.ot-card:hover{border-color:#1A5C8A;box-shadow:0 4px 14px rgba(13,59,102,0.14);transform:translateY(-1px)}
+.ot-card h4{font-size:13px;font-weight:700;color:#0D3B66;margin-bottom:3px}
+.ot-card p{font-size:11px;color:#4A7FA5}
+.ot-badges{display:flex;gap:6px;margin-top:8px;flex-wrap:wrap}
+.ot-badge{font-size:10px;padding:2px 8px;border-radius:20px;font-weight:700}
+.badge-red{background:#FEE2E2;color:#991B1B;border:1px solid #FCA5A5}
+.badge-amber{background:#FEF3C7;color:#92400E;border:1px solid #FCD34D}
+.badge-blue{background:#EFF6FF;color:#1D4ED8;border:1px solid #BFDBFE}
+.btn-sm{font-size:11px;padding:5px 12px;border:1.5px solid #C8DDF0;background:#fff;border-radius:8px;cursor:pointer;color:#1A5C8A;font-weight:600;transition:all 0.15s}
+.btn-sm:hover{background:#0D3B66;color:#fff;border-color:#0D3B66}
+.btn-danger-sm{font-size:11px;padding:4px 10px;border:1.5px solid #FCA5A5;background:#FEF2F2;color:#DC2626;border-radius:8px;cursor:pointer;font-weight:600}
+.ot-selector{font-size:13px;font-weight:700;padding:7px 12px;border:2px solid #C8DDF0;border-radius:10px;background:#fff;color:#0D3B66}
+.prog-row{height:8px;border-radius:4px;background:#E8F4FD;overflow:hidden;width:70px;border:1px solid #C8DDF0}
+.prog-row-fill{height:100%;border-radius:4px}
+.nota-mont{font-size:10px;color:#7BA7C4;font-style:italic}
+.status-box{padding:10px 14px;border-radius:10px;font-size:12px;margin-top:10px;display:none;font-weight:500}
+.status-ok{background:linear-gradient(135deg,#F0FDF4,#DCFCE7);border:1.5px solid #6EE7B7;color:#065F46}
+.status-err{background:linear-gradient(135deg,#FFF1F0,#FEE2E2);border:1.5px solid #FCA5A5;color:#991B1B}
+.status-info{background:linear-gradient(135deg,#EFF6FF,#DBEFFE);border:1.5px solid #93C5FD;color:#1E40AF}
+.debug-box{background:#F0F8FF;border:1.5px solid #C8DDF0;border-radius:8px;padding:10px;font-size:11px;font-family:monospace;color:#1A5C8A;margin-top:8px;max-height:140px;overflow-y:auto;display:none}
+.config-banner{background:linear-gradient(135deg,#FFF8E1,#FFF3CD);border:1.5px solid #FCD34D;border-radius:10px;padding:10px 16px;margin-bottom:14px;display:flex;align-items:center;gap:10px;font-size:12px;color:#92400E}
+.config-form{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:10px}
+.config-form input{font-size:12px;padding:8px 12px;border:1.5px solid #C8DDF0;border-radius:8px;width:100%}
+
+/* STATE BUTTONS - Rebaja */
+.state-btn{font-size:10px;font-weight:700;padding:3px 10px;border-radius:20px;cursor:pointer;border:1.5px solid;transition:all 0.15s;white-space:nowrap}
+.state-btn:hover{opacity:0.85;transform:scale(1.03)}
+.state-empty{background:#EEF4F8;color:#78716C;border-color:#D6D3D1}
+.state-armado{background:#DBEFFE;color:#1D4ED8;border-color:#93C5FD}
+.state-soldado{background:#DCFCE7;color:#065F46;border-color:#6EE7B7}
+.state-en_pintura{background:#FEF3C7;color:#92400E;border-color:#FCD34D}
+.state-pintado{background:#DCFCE7;color:#065F46;border-color:#6EE7B7}
+.state-galvamax{background:#F3E8FF;color:#6B21A8;border-color:#D8B4FE}
+
+/* PRIORITY BADGES */
+.prio-alta{background:#FEF08A;color:#713F12;border:2px solid #EAB308;font-weight:800;padding:2px 8px;border-radius:20px;font-size:10px}
+.prio-media{background:#FED7AA;color:#9A3412;border:2px solid #F97316;font-weight:800;padding:2px 8px;border-radius:20px;font-size:10px}
+.prio-baja{background:#FDE68A;color:#78350F;border:2px solid #F59E0B;font-weight:800;padding:2px 8px;border-radius:20px;font-size:10px}
+tr.prio-alta-row td{background:linear-gradient(90deg,#FEFCE8,#FEFCE8)!important;border-left:3px solid #EAB308!important}
+tr.prio-media-row td{background:linear-gradient(90deg,#FFF7ED,#FFF7ED)!important;border-left:3px solid #F97316!important}
+tr.prio-baja-row td{background:linear-gradient(90deg,#FFFBEB,#FFFBEB)!important;border-left:3px solid #F59E0B!important}
+
+/* COD LINK */
+.cod-link{color:#1A5C8A;font-weight:700;cursor:pointer;text-decoration:underline;text-underline-offset:2px;font-family:monospace;font-size:11px}
+.cod-link:hover{color:#0D3B66}
+
+/* LITERALES TABLE */
+.lit-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px}
+.lit-card{background:#fff;border:1.5px solid #C8DDF0;border-radius:10px;padding:12px 16px;box-shadow:0 1px 4px rgba(13,59,102,0.06)}
+.lit-badge{display:inline-block;font-size:18px;font-weight:900;color:#0D3B66;background:#DBEFFE;padding:6px 14px;border-radius:8px;margin-bottom:8px;border:2px solid #93C5FD}
+.lit-ot{font-size:11px;color:#4A7FA5;margin-top:4px}
+.lit-ot span{background:#EFF6FF;padding:2px 8px;border-radius:20px;margin:2px;display:inline-block;border:1px solid #BFDBFE;color:#1D4ED8;font-weight:600}
+
+/* LOGIN */
+.login-overlay{position:fixed;inset:0;background:linear-gradient(135deg,#0D3B66 0%,#1A5C8A 60%,#0E7490 100%);display:flex;align-items:center;justify-content:center;z-index:1000}
+.login-box{background:#fff;border-radius:20px;padding:40px 44px;width:380px;box-shadow:0 20px 60px rgba(0,0,0,0.3);text-align:center}
+.login-logo{font-size:36px;margin-bottom:12px}
+.login-box h2{font-size:20px;font-weight:800;color:#0D3B66;margin-bottom:4px}
+.login-box p{font-size:12px;color:#4A7FA5;margin-bottom:28px}
+.checker-select{width:100%;font-size:14px;padding:12px 16px;border:2px solid #C8DDF0;border-radius:10px;background:#fff;color:#0D3B66;font-weight:600;margin-bottom:20px}
+.login-btn{width:100%;font-size:14px;padding:14px;background:linear-gradient(135deg,#1A5C8A,#0D3B66);border:none;border-radius:10px;color:#fff;cursor:pointer;font-weight:700;box-shadow:0 4px 14px rgba(13,59,102,0.35)}
+.login-btn:hover{opacity:0.9}
+@media(max-width:600px){.nav-brand span{display:none}.nav-tab{padding:12px 8px;font-size:10px}input[type=text]{width:120px}.config-form{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<!-- LOGIN -->
+<div class="login-overlay" id="login-overlay">
+  <div class="login-box">
+    <div class="login-logo">🏗️</div>
+    <h2>MV Checker</h2>
+    <p>Sistema de seguimiento de produccion</p>
+    <label style="display:block;font-size:11px;font-weight:700;color:#1A5C8A;text-align:left;margin-bottom:6px;text-transform:uppercase;letter-spacing:0.06em">Selecciona tu nombre</label>
+    <select class="checker-select" id="checker-name-select">
+      <option value="">-- Selecciona --</option>
+      <option>Bernardo Vera</option>
+      <option>Angel Villa</option>
+      <option>Cristhian Piatti</option>
+      <option>Brian Soto</option>
+      <option>David Gimenez</option>
+      <option>Adriana Perez</option>
+      <option>Rocio Maica</option>
+      <option>Helden Rodriguez</option>
+    </select>
+    <button class="login-btn" onclick="doLogin()">Ingresar al sistema</button>
+  </div>
+</div>
+
+<nav class="nav">
+  <div class="nav-brand">MV Checker <span>| Produccion</span></div>
+  <div class="nav-tab active" id="nav-carga" onclick="goPage('p-carga',this)">Cargar LPT</div>
+  <div class="nav-tab" id="nav-tablero" onclick="goPage('p-tablero',this)">Tablero OT</div>
+  <div class="nav-tab" id="nav-rebaja" onclick="goPage('p-rebaja',this)">Rebaja</div>
+  <div class="nav-tab" id="nav-resumen" onclick="goPage('p-resumen',this)">Resumen</div>
+  <div class="nav-tab" id="nav-literales" onclick="goPage('p-literales',this)">Literales</div>
+  <div class="nav-tab" id="nav-prioridades" onclick="goPage('p-prioridades',this)">Prioridades</div>
+  <div class="nav-user">
+    <span class="sync-dot" id="sync-dot"></span>
+    <span class="nav-user-name" id="nav-username"></span>
+    <button class="nav-sync-btn" id="sync-btn" onclick="syncToGitHub()">&#8679; Sincronizar</button>
+    <button onclick="toggleConfig()" title="Configuracion GitHub" style="background:rgba(255,255,255,0.15);border:1.5px solid rgba(255,255,255,0.3);border-radius:8px;color:#fff;padding:6px 10px;cursor:pointer;font-size:16px;line-height:1">&#9881;</button>
+  </div>
+</nav>
+<div id="config-wrap" style="max-width:1380px;margin:0 auto;padding:20px 20px 0">
+  <div class="config-banner" id="config-banner" style="display:none">
+    ⚙️ <strong>Configuracion GitHub pendiente.</strong>
+    <button class="btn-sm" style="margin-left:auto" onclick="toggleConfig()">Configurar</button>
+  </div>
+  <div class="card" id="config-card" style="display:none">
+    <div class="card-title">Configuracion GitHub (solo una vez)</div>
+    <div class="config-form">
+      <div>
+        <label style="font-size:11px;font-weight:700;color:#1A5C8A;display:block;margin-bottom:4px">Repositorio (fijo)</label>
+        <input type="text" id="cfg-repo" value="rociomaica-crypto/tablero-mv" readonly style="background:#EEF4F8;color:#4A7FA5;cursor:default">
+      </div>
+      <div>
+        <label style="font-size:11px;font-weight:700;color:#1A5C8A;display:block;margin-bottom:4px">Token de GitHub</label>
+        <input type="password" id="cfg-token" placeholder="ghp_xxxxxxxxxxxx">
+      </div>
+    </div>
+    <div style="margin-top:12px;display:flex;gap:8px">
+      <button class="btn-sm" style="background:#0D3B66;color:#fff;border-color:#0D3B66" onclick="saveConfig()">Guardar configuracion</button>
+      <button class="btn-sm" id="diag-btn" onclick="diagnoseGitHub()" style="border-color:#1A5C8A;color:#1A5C8A">&#128269; Verificar archivos GitHub</button>
+      <button class="btn-sm" onclick="toggleConfig()">Cancelar</button>
+    </div>
+    <div class="status-box" id="cfg-status"></div>
+  </div>
+</div>
+
+<!-- CARGA -->
+<div class="page active" id="p-carga">
+  <div class="card">
+    <div class="card-title">Cargar Listado de Producto Terminado (LPT)</div>
+    <div class="upload-area" id="drop-zone"
+      ondragover="event.preventDefault();this.classList.add('drag')"
+      ondragleave="this.classList.remove('drag')"
+      ondrop="handleDrop(event)">
+      <div style="font-size:36px">📄</div>
+      <h3>Arrasta tu archivo LPT aqui</h3>
+      <p>o haz clic para seleccionar &middot; .XLS &middot; .XLSX</p>
+      <input type="file" id="file-lpt" accept=".xls,.xlsx" style="display:none" onchange="handleFileInput(event)">
+    </div>
+    <div class="status-box" id="parse-status"></div>
+    <div class="debug-box" id="debug-box"></div>
+  </div>
+  <div class="card">
+    <div class="card-title">OTs cargadas <button class="btn-danger-sm" onclick="clearAllOTs()">Limpiar todo</button></div>
+    <div class="ot-list" id="ot-list"></div>
+  </div>
+</div>
+
+<!-- TABLERO -->
+<div class="page" id="p-tablero">
+  <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:14px">
+    <select id="ot-sel-tablero" class="ot-selector" onchange="loadTablero()"><option value="">Selecciona una OT</option></select>
+    <button class="btn-sm" onclick="loadAllOTs()" style="padding:6px 12px">&#8635; Actualizar obras</button>
+    <span id="ot-info-tbl" style="font-size:12px;color:#4A7FA5"></span>
+  </div>
+  <div id="tablero-content" style="display:none">
+    <div class="kpi-grid" id="kpi-grid"></div>
+    <div class="prog-grid" id="prog-grid"></div>
+    <div class="card" style="margin-bottom:14px">
+      <div class="card-title">Alertas criticas</div>
+      <div class="alert-chips" id="alert-chips"></div>
+    </div>
+    <div class="card">
+      <div class="card-title" style="margin-bottom:8px">Detalle de items</div>
+      <div class="toolbar">
+        <div class="tabs" id="tbl-tabs">
+          <button class="tab-btn active" onclick="setTblTab('todos',this)">Todos</button>
+          <button class="tab-btn" onclick="setTblTab('arm',this)">Pend. Armado</button>
+          <button class="tab-btn" onclick="setTblTab('pint',this)">Pend. Pintura</button>
+          <button class="tab-btn" onclick="setTblTab('env',this)">Pend. Envio</button>
+          <button class="tab-btn" onclick="setTblTab('ok',this)">Sin pendientes</button>
+        </div>
+        <input type="text" id="tbl-buscar" placeholder="Buscar..." oninput="applyTblFilters()" style="width:150px">
+        <select id="tbl-prod" onchange="applyTblFilters()"><option value="">Todos los productos</option></select>
+        <span class="count-lbl" id="tbl-count"></span>
+      </div>
+      <div class="tbl-wrap"><div class="tbl-scroll">
+        <table><thead><tr>
+          <th>#</th><th>Codigo Tekla</th><th>Producto</th>
+          <th style="text-align:right">Long.mm</th>
+          <th style="text-align:right">Cant.</th><th style="text-align:right">Peso kg</th>
+          <th>Armado</th><th>Pintura</th><th>Envio</th>
+        </tr></thead><tbody id="tbl-body"></tbody></table>
+      </div></div>
+      <div class="pag"><span id="tbl-pag-info"></span>
+        <div class="pag-btns">
+          <button onclick="prevTblPage()" id="btn-tbl-prev">Ant.</button>
+          <button onclick="nextTblPage()" id="btn-tbl-next">Sig.</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="tablero-empty" style="font-size:13px;color:#4A7FA5;padding:20px 0">Selecciona una OT para ver el tablero.</div>
+</div>
+
+<!-- REBAJA -->
+<div class="page" id="p-rebaja">
+  <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:14px">
+    <select id="ot-sel-rebaja" class="ot-selector" onchange="loadRebaja()"><option value="">Selecciona una OT</option></select>
+    <button class="btn-sm" onclick="exportRebaja()">Exportar CSV</button>
+    <button class="btn-sm" onclick="clearRebaja()">Limpiar tildados</button>
+    <div style="display:flex;gap:10px;font-size:11px;color:#4A7FA5;flex-wrap:wrap;align-items:center">
+      <span><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#10B981;vertical-align:-1px;margin-right:3px"></span>Completo</span>
+      <span><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#EAB308;vertical-align:-1px;margin-right:3px"></span>En proceso</span>
+      <span><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#E7E5E4;vertical-align:-1px;margin-right:3px"></span>Pendiente</span>
+    </div>
+  </div>
+  <div id="rebaja-content" style="display:none">
+    <div class="kpi-grid" id="reb-kpi-grid"></div>
+    <div class="card">
+      <div class="card-title">
+        Tildado de procesos por pieza
+        <div style="display:flex;gap:6px;align-items:center;flex-wrap:wrap">
+          <span style="font-size:11px;color:#4A7FA5;font-weight:400;text-transform:none">Seleccionados:</span>
+          <button class="btn-sm" onclick="massSetState('arm','armado')">Armado</button>
+          <button class="btn-sm" onclick="massSetState('arm','soldado')">Soldado</button>
+          <button class="btn-sm" onclick="massSetState('arm','calibrado')">Calibrado</button>
+          <button class="btn-sm" onclick="massSetState('arm','liberado')">Liberado</button>
+          <button class="btn-sm" onclick="massSetState('pint','pintado')">&#10003; Pintado</button>
+          <button class="btn-sm" onclick="massSetState('pint','galvamax')">&#10003; Galvamax</button>
+          <button class="btn-sm" onclick="massSetState('pint','rackpar')">&#10003; Rackpar</button>
+        </div>
+      </div>
+      <div class="toolbar">
+        <input type="text" id="reb-buscar" placeholder="Buscar..." oninput="applyRebFilters()" style="width:140px">
+        <select id="reb-prod" onchange="applyRebFilters()"><option value="">Todos los productos</option></select>
+        <select id="reb-estado" onchange="applyRebFilters()">
+          <option value="">Todos</option>
+          <option value="pend">Pendientes</option>
+          <option value="ok">Completos</option>
+          <option value="partial">En proceso</option>
+          <option value="noentregado">Ocultar entregados (PGS)</option>
+        </select>
+        <span class="count-lbl" id="reb-count"></span>
+      </div>
+      <div class="tbl-wrap"><div class="tbl-scroll">
+        <table><thead><tr>
+          <th style="width:32px"><input type="checkbox" id="sel-all" onchange="toggleSelAll(this)"></th>
+          <th style="width:36px">#</th>
+          <th>Codigo Tekla</th><th>Producto</th>
+          <th style="text-align:right;width:70px">Long.mm</th>
+          <th style="text-align:right;width:50px">Total</th>
+          <th style="text-align:center;width:70px">Cant.Lib.</th>
+          <th style="text-align:center;min-width:160px">Armado</th>
+          <th style="text-align:center;min-width:160px">Pintura</th>
+          <th style="min-width:90px">Avance</th>
+        </tr></thead><tbody id="reb-body"></tbody></table>
+      </div></div>
+      <div class="pag"><span id="reb-pag-info"></span>
+        <div class="pag-btns">
+          <button onclick="prevRebPage()" id="btn-reb-prev">Ant.</button>
+          <button onclick="nextRebPage()" id="btn-reb-next">Sig.</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="rebaja-empty" style="font-size:13px;color:#4A7FA5;padding:20px 0">Selecciona una OT para registrar el avance.</div>
+</div>
+
+<!-- RESUMEN: comparativo PGS vs Checker -->
+<div class="page" id="p-resumen">
+  <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:14px">
+    <select id="ot-sel-resumen" class="ot-selector" onchange="loadResumen()"><option value="">Selecciona una OT</option></select>
+    <div style="display:flex;gap:10px;font-size:11px;color:#4A7FA5;flex-wrap:wrap;align-items:center">
+      <span><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#10B981;vertical-align:-1px;margin-right:3px"></span>Coincide</span>
+      <span><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#EAB308;vertical-align:-1px;margin-right:3px"></span>Checker avanzado (falta actualizar PGS)</span>
+      <span><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#DC2626;vertical-align:-1px;margin-right:3px"></span>Falta marcar en Checker</span>
+    </div>
+  </div>
+  <div id="resumen-content" style="display:none">
+    <div class="kpi-grid" id="resumen-kpi-grid"></div>
+    <div class="card">
+      <div class="card-title">Comparativo PGS (Tablero) vs Checker (Rebaja)</div>
+      <div class="toolbar">
+        <input type="text" id="res-buscar" placeholder="Buscar..." oninput="applyResumenFilters()" style="width:140px">
+        <select id="res-filtro" onchange="applyResumenFilters()">
+          <option value="">Todos</option>
+          <option value="mismatch">Solo diferencias</option>
+          <option value="adelantado">Checker adelantado</option>
+          <option value="falta">Falta marcar</option>
+        </select>
+        <span class="count-lbl" id="res-count"></span>
+      </div>
+      <div class="tbl-wrap"><div class="tbl-scroll">
+        <table><thead><tr>
+          <th style="width:36px">#</th>
+          <th>Codigo Tekla</th><th>Producto</th>
+          <th style="text-align:right;width:60px">Cant.</th>
+          <th>Estado PGS (Armado)</th>
+          <th>Estado Checker (Armado)</th>
+          <th>Estado PGS (Pintura)</th>
+          <th>Estado Checker (Pintura)</th>
+          <th style="width:50px">&#9888;</th>
+        </tr></thead><tbody id="res-body"></tbody></table>
+      </div></div>
+      <div class="pag"><span id="res-pag-info"></span>
+        <div class="pag-btns">
+          <button onclick="prevResPage()" id="btn-res-prev">Ant.</button>
+          <button onclick="nextResPage()" id="btn-res-next">Sig.</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="resumen-empty" style="font-size:13px;color:#4A7FA5;padding:20px 0">Selecciona una OT para ver el comparativo.</div>
+</div>
+
+<!-- LITERALES -->
+<div class="page" id="p-literales">
+  <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:14px">
+    <select id="ot-sel-lit" class="ot-selector" onchange="loadLiterales()"><option value="">Selecciona una OT</option></select>
+    <input type="text" id="lit-buscar" placeholder="Buscar literal o codigo..." oninput="filterLiterales()" style="width:200px">
+  </div>
+  <div id="lit-content">
+    <div class="card">
+      <div class="card-title">Literales de la OT -- identificacion de piezas fisicas</div>
+      <div id="lit-grid" class="lit-grid"></div>
+    </div>
+    <div class="card" style="margin-top:14px">
+      <div class="card-title">Detalle por literal <span id="lit-selected" style="font-weight:400;color:#4A7FA5;text-transform:none"></span></div>
+      <div class="tbl-wrap"><div class="tbl-scroll">
+        <table><thead><tr>
+          <th>#</th><th>Codigo Tekla</th><th>Producto</th>
+          <th style="text-align:right">Long.mm</th>
+          <th style="text-align:right">Cant.</th>
+          <th>Estado Arm.</th><th>Estado Pint.</th>
+        </tr></thead><tbody id="lit-tbody"></tbody></table>
+      </div></div>
+    </div>
+  </div>
+  <div id="lit-empty" style="font-size:13px;color:#4A7FA5;padding:20px 0">Selecciona una OT para ver los literales.</div>
+</div>
+
+<!-- PRIORIDADES -->
+<div class="page" id="p-prioridades">
+  <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:14px">
+    <select id="ot-sel-prio" class="ot-selector" onchange="loadPrioridades()"><option value="">Selecciona una OT</option></select>
+    <div style="display:flex;gap:8px;flex-wrap:wrap">
+      <span class="prio-alta">ALTA</span>
+      <span class="prio-media">MEDIA</span>
+      <span class="prio-baja">BAJA</span>
+    </div>
+    <span style="font-size:11px;color:#4A7FA5">Prioridades marcadas por el Jefe</span>
+  </div>
+  <div id="prio-content" style="display:none">
+    <div class="kpi-grid" id="prio-kpi"></div>
+    <div class="card">
+      <div class="card-title">Items prioritarios</div>
+      <div class="toolbar">
+        <input type="text" id="prio-buscar" placeholder="Buscar..." oninput="applyPrioFilters()" style="width:150px">
+        <select id="prio-nivel" onchange="applyPrioFilters()">
+          <option value="">Todas las prioridades</option>
+          <option value="alta">Alta</option>
+          <option value="media">Media</option>
+          <option value="baja">Baja</option>
+        </select>
+        <span class="count-lbl" id="prio-count"></span>
+      </div>
+      <div class="tbl-wrap"><div class="tbl-scroll">
+        <table><thead><tr>
+          <th>Prioridad</th><th>#</th><th>Codigo Tekla</th><th>Producto</th>
+          <th style="text-align:right">Long.mm</th>
+          <th style="text-align:right">Cant.</th>
+          <th>Estado Arm.</th><th>Estado Pint.</th>
+        </tr></thead><tbody id="prio-tbody"></tbody></table>
+      </div></div>
+    </div>
+  </div>
+  <div id="prio-empty" style="font-size:13px;color:#4A7FA5;padding:20px 0">Selecciona una OT para ver las prioridades.</div>
+</div>
+
+<script>
+var CHECKER_NAMES=["Bernardo Vera","Angel Villa","Cristhian Piatti","Brian Soto","David Gimenez","Adriana Perez","Rocio Maica","Helden Rodriguez"];
+var CHECKER_FILES=["Bernardo_Vera","Angel_Villa","Cristhian_Piatti","Brian_Soto","David_Gimenez","Adriana_Perez","Rocio_Maica","Helden_Rodriguez"];
+var GH_REPO="rociomaica-crypto/tablero-mv";
+// Lista dinamica: lee los archivos de verificadores/ en GitHub. Si falla, usa CHECKER_FILES fijo.
+var CHECKER_FILES_FIJOS=CHECKER_FILES.slice();
+function refreshCheckerFiles(cb){
+  var h={"Accept":"application/vnd.github.v3+json"};
+  var tk=localStorage.getItem("mv_gh_token")||"";
+  if(tk)h["Authorization"]="token "+tk;
+  fetch("https://api.github.com/repos/"+GH_REPO+"/contents/verificadores?t="+Date.now(),{headers:h})
+    .then(function(r){return r.ok?r.json():null;})
+    .then(function(list){
+      if(Array.isArray(list)){
+        var names=list.filter(function(f){return f.type==="file"&&/\.json$/i.test(f.name)&&!/^prioridades\.json$/i.test(f.name);})
+                      .map(function(f){return f.name.replace(/\.json$/i,"");});
+        if(names.length){
+          CHECKER_FILES_FIJOS.forEach(function(n){if(names.indexOf(n)<0)names.push(n);});
+          CHECKER_FILES=names;
+        }
+      }
+    })
+    .catch(function(){})
+    .then(function(){cb();});
+}
+var currentChecker="", ghRepo="", ghToken="";
+var syncPending=false;
+
+// ============ UTILS ============
+function normStr(s){return String(s==null?"":s).trim().toUpperCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");}
+function toInt(v){var n=parseInt(String(v==null?"":v).trim());return isNaN(n)?0:n;}
+function toFloat(v){var n=parseFloat(String(v==null?"":v).trim());return isNaN(n)?0:n;}
+function fmt(n){return(n||0).toLocaleString("es",{maximumFractionDigits:1});}
+function pctC(p){return p>=80?"#059669":p>=60?"#D97706":"#DC2626";}
+function barC(p){return p>=80?"#10B981":p>=60?"#F97316":"#EF4444";}
+function nowStr(){var d=new Date();return d.toLocaleDateString("es-PY")+" "+d.toLocaleTimeString("es-PY",{hour:"2-digit",minute:"2-digit"});}
+
+function nextVal(r,j){
+  for(var k=j+1;k<=Math.min(j+8,r.length-1);k++){
+    var v=String(r[k]==null?"":r[k]).trim();
+    if(v&&v!=="nan"&&v!=="NaT")return v;
+  }
+  return "";
+}
+
+function getLiteral(cod){
+  var parts=cod.split("-");
+  if(!parts.length)return "";
+  var first=parts[0];
+  if(/^\d+$/.test(first)&&parts.length>1)return parts[1];
+  return first;
+}
+
+function calcAvances(items){
+  var tot=items.reduce(function(a,r){return a+r.cant;},0)||1;
+  return{
+    arm:Math.round(items.reduce(function(a,r){return a+r.arm_lib;},0)/tot*100),
+    pint:Math.round(items.reduce(function(a,r){return a+r.pint_ok;},0)/tot*100),
+    env:Math.round(items.reduce(function(a,r){return a+r.env_ok;},0)/tot*100),
+    mont:0
+  };
+}
+
+function tagHtml(ok,pend){
+  if(pend===0&&ok===0)return "<span class=\"tag tag-na\">N/A</span>";
+  if(pend===0)return "<span class=\"tag tag-ok\">&check; "+ok+"</span>";
+  if(ok===0)return "<span class=\"tag tag-pend\">&cross; "+pend+" pend.</span>";
+  return "<span class=\"tag tag-part\">"+ok+" ok &middot; "+pend+" pend.</span>";
+}
+
+function topPend(items){
+  var m={};
+  items.forEach(function(r){if(!m[r.prod])m[r.prod]={arm:0,pint:0};m[r.prod].arm+=r.arm_pend;m[r.prod].pint+=r.pint_pend;});
+  return Object.entries(m).filter(function(e){return e[1].arm>0||e[1].pint>0;})
+    .sort(function(a,b){return(b[1].arm+b[1].pint)-(a[1].arm+a[1].pint);}).slice(0,8);
+}
+
+// PLANO LINK
+function openPlano(cod, otNum, obra){
+  var obraUpper=(obra||"").toUpperCase();
+  var folder=otNum+" - "+obraUpper;
+  var file=cod+" - Rev00.pdf";
+  // UNC path for Windows Explorer
+  var uncPath="\\\\192.168.23.5\\02.-departamento de cortes\\i2026\\"+folder+"\\Ordenes de Armado PDF\\ARMADOS\\"+file;
+  // Try to copy to clipboard
+  if(navigator.clipboard && navigator.clipboard.writeText){
+    navigator.clipboard.writeText(uncPath).then(function(){
+      showPlanoToast(cod, uncPath);
+    }).catch(function(){
+      showPlanoToast(cod, uncPath);
+    });
+  } else {
+    showPlanoToast(cod, uncPath);
+  }
+}
+
+function showPlanoToast(cod, path){
+  var existing = document.getElementById("plano-toast");
+  if(existing) existing.remove();
+  var toast = document.createElement("div");
+  toast.id = "plano-toast";
+  toast.style.cssText = "position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:#0D3B66;color:#fff;padding:14px 20px;border-radius:12px;z-index:9999;max-width:500px;width:90%;box-shadow:0 8px 24px rgba(0,0,0,0.3);font-size:12px";
+  toast.innerHTML = 
+    "<div style=\"font-weight:700;margin-bottom:6px;color:#7DD3FC\">Plano: "+cod+"</div>"+
+    "<div style=\"font-family:monospace;font-size:10px;background:rgba(255,255,255,0.1);padding:6px 10px;border-radius:6px;margin-bottom:8px;word-break:break-all\">"+path+"</div>"+
+    "<div style=\"font-size:11px;color:#93C5FD\">&#10003; Ruta copiada al portapapeles &mdash; pegala en el Explorador de Windows (barra de direcciones)</div>"+
+    "<button onclick=\"document.getElementById('plano-toast').remove()\" style=\"margin-top:8px;font-size:11px;padding:4px 12px;background:rgba(255,255,255,0.2);border:1px solid rgba(255,255,255,0.3);border-radius:6px;color:#fff;cursor:pointer\">Cerrar</button>";
+  document.body.appendChild(toast);
+  setTimeout(function(){if(document.getElementById("plano-toast"))document.getElementById("plano-toast").remove();}, 8000);
+}
+
+// ============ STATE ============
+var OTs={}, checks={}, allOTs={};
+var tblTab="todos",tblPage=1,tblFiltered=[];
+var rebPage=1,rebFiltered=[],rebCurrentOT="";
+var litCurrentOT="",litCurrentLit="",litAllItems=[];
+var prioFiltered=[],prioCurrentOT="";
+var PAGE=50;
+
+function init(){
+  try{OTs=JSON.parse(localStorage.getItem("mv_ots_v7")||"{}");} catch(e){OTs={};}
+  try{checks=JSON.parse(localStorage.getItem("mv_checks_v7")||"{}");} catch(e){checks={};}
+  ghRepo=localStorage.getItem("mv_gh_repo")||"";
+  ghToken=localStorage.getItem("mv_gh_token")||"";
+  currentChecker=localStorage.getItem("mv_checker_name")||"";
+  if(currentChecker){startApp();}
+  else{document.getElementById("login-overlay").style.display="flex";}
+}
+function saveOTs(){try{localStorage.setItem("mv_ots_v7",JSON.stringify(OTs));}catch(e){}}
+function saveChecks(){try{localStorage.setItem("mv_checks_v7",JSON.stringify(checks));}catch(e){} setSyncPending(true);}
+function setSyncPending(v){syncPending=v;var d=document.getElementById("sync-dot");if(d)d.className="sync-dot"+(v?" pending":"");}
+
+// ============ LOGIN ============
+function doLogin(){
+  var sel=document.getElementById("checker-name-select");
+  if(!sel.value){alert("Selecciona tu nombre.");return;}
+  currentChecker=sel.value;
+  localStorage.setItem("mv_checker_name",currentChecker);
+  startApp();
+}
+var LPT_LOADERS=["Rocio Maica","Adriana Perez","Brian Soto","Cristhian Piatti"];
+function startApp(){
+  document.getElementById("login-overlay").style.display="none";
+  document.getElementById("nav-username").textContent=currentChecker;
+  if(!ghRepo||!ghToken)document.getElementById("config-banner").style.display="flex";
+  // Ocultar "Cargar LPT" para todos excepto los encargados designados
+  if(LPT_LOADERS.indexOf(currentChecker)<0){
+    var navCarga=document.getElementById("nav-carga");
+    if(navCarga)navCarga.style.display="none";
+    // Si el tab activo por defecto era Cargar LPT, mover a Tablero OT
+    goPage("p-tablero",document.getElementById("nav-tablero"));
+  }
+  renderOTList();populateSelectors();setSyncPending(false);
+  loadAllOTs();
+}
+
+// ============ GITHUB CONFIG ============
+function toggleConfig(){
+  var c=document.getElementById("config-card");
+  c.style.display=c.style.display==="none"?"block":"none";
+  if(c.style.display==="block"){window.scrollTo(0,0);document.getElementById("cfg-repo").value=GH_REPO;document.getElementById("cfg-token").value=ghToken;}
+}
+function saveConfig(){
+  var token=document.getElementById("cfg-token").value.trim();
+  if(!token){setCfgSt("Ingresa el token de GitHub.","err");return;}
+  setCfgSt("<span class=\"spinner-dark\"></span>Verificando token...","info");
+  fetch("https://api.github.com/repos/"+GH_REPO,{headers:{"Authorization":"token "+token,"Accept":"application/vnd.github.v3+json"}})
+    .then(function(r){return r.json();})
+    .then(function(d){
+      if(d.id){
+        ghRepo=GH_REPO;ghToken=token;
+        localStorage.setItem("mv_gh_repo",GH_REPO);
+        localStorage.setItem("mv_gh_token",token);
+        setCfgSt("Token OK - Repositorio: "+d.full_name,"ok");
+        document.getElementById("config-banner").style.display="none";
+        setTimeout(function(){document.getElementById("config-card").style.display="none";},2000);
+      }else{setCfgSt("Token incorrecto o sin permisos. Verifica y vuelve a intentar.","err");}
+    }).catch(function(){setCfgSt("Error de conexion. Verificar internet.","err");});
+}
+function setCfgSt(msg,type){var el=document.getElementById("cfg-status");el.className="status-box status-"+type;el.style.display="block";el.innerHTML=msg;}
+
+function showSyncError(msg){
+  var existing=document.getElementById("sync-error-toast");if(existing)existing.remove();
+  var t=document.createElement("div");t.id="sync-error-toast";
+  t.style.cssText="position:fixed;top:60px;left:50%;transform:translateX(-50%);background:#DC2626;color:#fff;padding:12px 20px;border-radius:10px;z-index:9999;max-width:500px;width:90%;box-shadow:0 4px 16px rgba(0,0,0,0.3);font-size:12px;font-weight:600;text-align:center";
+  t.innerHTML=msg+'<br><small style="font-weight:400;opacity:0.9">Usa el icono de config (arriba a la derecha) para reconfigurar el token.</small>';
+  document.body.appendChild(t);
+  setTimeout(function(){if(document.getElementById("sync-error-toast"))document.getElementById("sync-error-toast").remove();},8000);
+}
+
+function diagnoseGitHub(){
+  var btn=document.getElementById("diag-btn");if(btn)btn.textContent="Verificando...";
+  var base="https://raw.githubusercontent.com/"+GH_REPO+"/main/"+"verificadores/";
+  var results=[];var pending=CHECKER_FILES.length;
+  CHECKER_FILES.forEach(function(name){
+    fetch(base+name+".json?t="+Date.now())
+      .then(function(r){
+        results.push(name+": "+(r.ok?"OK ("+r.status+")":"ERROR "+r.status));
+        if(--pending===0)showDiagResult(results);
+      }).catch(function(){
+        results.push(name+": ERROR red");
+        if(--pending===0)showDiagResult(results);
+      });
+  });
+}
+
+function showDiagResult(results){
+  var btn=document.getElementById("diag-btn");if(btn)btn.textContent="Verificar archivos";
+  var msg="Estado de archivos en GitHub:\n\n";
+  msg+=results.join("\n");
+  msg+="\n\nOK=archivo existe / 404=no sincronizo / ERR=error";
+  alert(msg);
+}
+
+// ============ GITHUB SYNC ============
+function syncToGitHub(){
+  if(!ghToken){toggleConfig();return;}
+  var btn=document.getElementById("sync-btn");
+  btn.innerHTML="<span class=\"spinner\"></span>Sincronizando...";
+  var checkerFile=currentChecker.replace(/ /g,"_");
+  var filePath="verificadores/"+checkerFile+".json";
+
+  var payload={
+    updatedAt:new Date().toISOString(),
+    updatedBy:currentChecker,
+    checks:checks,
+    otMeta:{}
+  };
+  Object.keys(OTs).forEach(function(k){
+    var o=OTs[k];
+    var armPendItems=o.items.filter(function(r){return r.arm_pend>0;}).map(function(r){return{cod:r.cod,prod:r.prod,long:r.long||0,cant:r.cant,pend:r.arm_pend};}).slice(0,300);
+    var pintPendItems=o.items.filter(function(r){return r.pint_pend>0;}).map(function(r){return{cod:r.cod,prod:r.prod,long:r.long||0,cant:r.cant,pend:r.pint_pend};}).slice(0,300);
+    payload.otMeta[k]={
+      ot:o.ot,obra:o.obra,cliente:o.cliente,fecha:o.fecha,avances:o.avances,
+      totales:{
+        cant:o.items.reduce(function(a,r){return a+r.cant;},0),
+        arm_lib:o.items.reduce(function(a,r){return a+r.arm_lib;},0),
+        arm_pend:o.items.reduce(function(a,r){return a+r.arm_pend;},0),
+        pint_ok:o.items.reduce(function(a,r){return a+r.pint_ok;},0),
+        pint_pend:o.items.reduce(function(a,r){return a+r.pint_pend;},0),
+        env_ok:o.items.reduce(function(a,r){return a+r.env_ok;},0),
+        env_pend:o.items.reduce(function(a,r){return a+r.env_pend;},0),
+        items:o.items.length,
+        peso_total:o.items.reduce(function(a,r){return a+r.peso;},0),
+        arm_pend_peso:o.items.reduce(function(a,r){return a+(r.arm_pend_peso||0);},0),
+        pint_pend_peso:o.items.reduce(function(a,r){return a+(r.pint_pend_peso||0);},0),
+        env_pend_peso:o.items.reduce(function(a,r){return a+(r.env_pend_peso||0);},0)
+      },
+      items:o.items,
+      arm_pend_items:armPendItems,
+      pint_pend_items:pintPendItems
+    };
+  });
+
+  var totItemsSync=0,totPiezasSync=0;
+  Object.keys(OTs).forEach(function(k){totItemsSync+=OTs[k].items.length;totPiezasSync+=OTs[k].items.reduce(function(a,r){return a+r.cant;},0);});
+
+  var content=btoa(unescape(encodeURIComponent(JSON.stringify(payload,null,2))));
+  var apiUrl="https://api.github.com/repos/"+GH_REPO+"/contents/"+filePath;
+
+  function attemptPut(attemptNum){
+    // Siempre pedir el sha MAS RECIENTE justo antes de cada intento (evita usar uno viejo/cacheado)
+    fetch(apiUrl+"?t="+Date.now(),{headers:{"Authorization":"token "+ghToken,"Accept":"application/vnd.github.v3+json"}})
+      .then(function(r){return r.json();})
+      .then(function(existing){
+        var body={message:"Checker update - "+currentChecker+" - "+nowStr(),content:content};
+        if(existing.sha)body.sha=existing.sha;
+        return fetch(apiUrl,{method:"PUT",
+          headers:{"Authorization":"token "+ghToken,"Accept":"application/vnd.github.v3+json","Content-Type":"application/json"},
+          body:JSON.stringify(body)});
+      })
+      .then(function(r){return r.json().then(function(d){return {status:r.status,body:d};});})
+      .then(function(res){
+        var d=res.body;
+        if(d.content||d.commit){
+          setSyncPending(false);
+          btn.innerHTML="&#10003; Sincronizado ("+totItemsSync+" items, "+totPiezasSync.toLocaleString("es")+" pzas)";
+          setTimeout(function(){btn.innerHTML="&#8679; Sincronizar";},4000);
+          // Verificar contra GitHub: releer el archivo recien subido y comparar
+          setTimeout(function(){
+            fetch(apiUrl+"?t="+Date.now(),{headers:{"Authorization":"token "+ghToken,"Accept":"application/vnd.github.v3+json"}})
+              .then(function(r){return r.json();})
+              .then(function(f){
+                try{
+                  var remoteContent=JSON.parse(decodeURIComponent(escape(atob(f.content))));
+                  var remoteItems=0,remotePiezas=0;
+                  Object.keys(remoteContent.otMeta||{}).forEach(function(k){
+                    remoteItems+=(remoteContent.otMeta[k].items||[]).length;
+                    remotePiezas+=(remoteContent.otMeta[k].totales&&remoteContent.otMeta[k].totales.cant)||0;
+                  });
+                  if(remoteItems!==totItemsSync||Math.abs(remotePiezas-totPiezasSync)>0){
+                    showSyncError("Verificacion: lo subido a GitHub ("+remoteItems+" items, "+remotePiezas.toLocaleString("es")+" pzas) no coincide con tu pantalla ("+totItemsSync+" items, "+totPiezasSync.toLocaleString("es")+" pzas). Intenta sincronizar de nuevo.");
+                  }
+                }catch(e){}
+              }).catch(function(){});
+          },1500);
+        }else if(res.status===409&&attemptNum<3){
+          // Conflicto de version (sha desactualizado): reintentar automaticamente con sha fresco
+          dbg("Sync conflict (409), reintentando... intento "+(attemptNum+1));
+          setTimeout(function(){attemptPut(attemptNum+1);},400);
+        }else{
+          btn.innerHTML="&#8679; Sincronizar";
+          var motivo=d.message||"Error desconocido";
+          showSyncError("Sync fallido tras "+attemptNum+" intento(s): "+motivo+". Toca Sincronizar de nuevo.");
+          console.error("Sync error:",d);
+        }
+      }).catch(function(e){
+        if(attemptNum<3){
+          setTimeout(function(){attemptPut(attemptNum+1);},400);
+        }else{
+          btn.innerHTML="&#8679; Sincronizar";
+          showSyncError("Error al sincronizar: "+(e&&e.message?e.message:"desconocido")+". Si persiste, avisar con captura de este mensaje.");
+          console.error("Sync catch error:",e);
+        }
+      });
+  }
+  attemptPut(1);
+}
+
+// ============ LOAD ALL OTs FROM GITHUB ============
+// Store full checker data for loading OT items on demand
+var remoteCheckerData = {};
+
+// Merge de estados: gana siempre el estado mas avanzado entre checkers
+var ARM_ORDER={"":0,"armado":1,"soldado":2,"calibrado":3,"liberado":4};
+var PINT_ORDER={"":0,"en_pintura":1,"pintado":2,"galvamax":3,"rackpar":3};
+function mergeChecks(local, incoming){
+  var result=Object.assign({},local||{});
+  if(incoming.arm_state!==undefined&&(ARM_ORDER[incoming.arm_state]||0)>(ARM_ORDER[result.arm_state||""]||0))
+    result.arm_state=incoming.arm_state;
+  if(incoming.pint_state!==undefined&&(PINT_ORDER[incoming.pint_state]||0)>(PINT_ORDER[result.pint_state||""]||0))
+    result.pint_state=incoming.pint_state;
+  if(incoming.qty_lib!==undefined&&(incoming.qty_lib||0)>(result.qty_lib||0))
+    result.qty_lib=incoming.qty_lib;
+  return result;
+}
+
+function loadAllOTs(){
+  refreshCheckerFiles(loadAllOTsInner);
+}
+function loadAllOTsInner(){
+  var base="https://raw.githubusercontent.com/"+GH_REPO+"/main/verificadores/";
+  var promises=CHECKER_FILES.map(function(name){
+    return fetch(base+name+".json?t="+Date.now())
+      .then(function(r){return r.ok?r.json():null;})
+      .catch(function(){return null;});
+  });
+  Promise.all(promises).then(function(results){
+    allOTs={};
+    remoteCheckerData={};
+    var otUpdatedAt={};
+    var loaderOTs={}; // OTs de los LPT_LOADERS para priorizar
+    var loaderUpdates={}; // updatedAt por OT del loader que ganó
+    var LPT_FILES=LPT_LOADERS.map(function(n){return n.replace(/ /g,"_");});
+    results.forEach(function(data,idx){
+      if(!data)return;
+      // Merge de tildes de TODOS los checkers, aunque no hayan cargado LPT (otMeta vacio)
+      if(data.checks){
+        Object.keys(data.checks).forEach(function(ck){
+          checks[ck]=mergeChecks(checks[ck],data.checks[ck]);
+        });
+      }
+      if(!data.otMeta)return;
+      var checkerFile=CHECKER_FILES[idx];
+      var isLoader=(LPT_FILES.indexOf(checkerFile)>=0);
+      Object.keys(data.otMeta).forEach(function(k){
+        var thisUpdate=data.updatedAt||"";
+        if(isLoader){
+          // Entre loaders, gana el más reciente por OT
+          if(!loaderOTs[k]||thisUpdate>(loaderUpdates[k]||"")){
+            loaderOTs[k]=data.otMeta[k];
+            loaderOTs[k].updatedBy=data.updatedBy;
+            loaderOTs[k]._loaderUpdate=thisUpdate;
+            loaderUpdates[k]=thisUpdate;
+          }
+        }
+        if(!allOTs[k]||thisUpdate>otUpdatedAt[k]){
+          allOTs[k]=data.otMeta[k];
+          allOTs[k].updatedBy=data.updatedBy;
+          otUpdatedAt[k]=thisUpdate;
+          remoteCheckerData[k]={checks:data.checks||{}, items:data.otMeta[k].items||[]};
+        }
+      });
+    });
+    // Sobreescribir allOTs con datos del LPT Loader (su version es autoritativa)
+    Object.keys(loaderOTs).forEach(function(k){
+      allOTs[k]=loaderOTs[k];
+    });
+    // Actualizar OTs locales si el LPT Loader tiene una version mas nueva
+    Object.keys(loaderOTs).forEach(function(k){
+      if(OTs[k]){
+        var local=OTs[k];
+        var remote=loaderOTs[k];
+        var remoteItems=(remote.items||[]).length;
+        var localItems=(local.items||[]).length;
+        // Si el loader tiene items diferentes (mas, menos, o fecha distinta), actualizar
+        if(remoteItems!==localItems||remote.fecha!==local.fecha){
+          // Conservar checks/rebaja del checker, actualizar solo metadata e items
+          OTs[k].items=remote.items||[];
+          OTs[k].obra=remote.obra;
+          OTs[k].cliente=remote.cliente;
+          OTs[k].fecha=remote.fecha;
+          OTs[k].totales=remote.totales;
+          // Recalcular avances con los items nuevos
+          var its=OTs[k].items;
+          var tot=its.reduce(function(a,r){return a+r.cant;},0)||1;
+          OTs[k].avances={
+            arm:Math.round(its.reduce(function(a,r){return a+r.arm_lib;},0)/tot*100),
+            pint:Math.round(its.reduce(function(a,r){return a+r.pint_ok;},0)/tot*100),
+            env:Math.round(its.reduce(function(a,r){return a+r.env_ok;},0)/tot*100),
+            mont:OTs[k].avances?OTs[k].avances.mont||0:0
+          };
+          saveOTs();
+        }
+      }
+    });
+    // Guardar lo recibido de GitHub sin marcar "pendiente de sincronizar" (no son cambios propios)
+    try{localStorage.setItem("mv_checks_v7",JSON.stringify(checks));}catch(e){}
+    loadPrioritiesFromGitHub();
+    populateSelectors();
+  });
+}
+
+// Load full items for a remote OT if not already loaded
+function ensureFullOTData(otKey, callback){
+  // If it's our own OT, use local data
+  if(OTs[otKey]){callback(OTs[otKey]);return;}
+  // If already have items in allOTs, use it
+  if(allOTs[otKey]&&allOTs[otKey].items&&allOTs[otKey].items.length>0){
+    callback(allOTs[otKey]);return;
+  }
+  // Need to fetch full data - prioritize LPT Loaders
+  var base="https://raw.githubusercontent.com/"+GH_REPO+"/main/verificadores/";
+  var LPT_FILES=LPT_LOADERS.map(function(n){return n.replace(/ /g,"_");});
+  var promises=CHECKER_FILES.map(function(name){
+    return fetch(base+name+".json?t="+Date.now())
+      .then(function(r){return r.ok?r.json():null;})
+      .catch(function(){return null;});
+  });
+  Promise.all(promises).then(function(results){
+    var bestLoader=null; var bestLoaderUpdate="";
+    results.forEach(function(data,idx){
+      if(!data)return;
+      if(data.checks){
+        Object.keys(data.checks).forEach(function(ck){
+          if(ck.indexOf(otKey+"_")===0)
+            checks[ck]=mergeChecks(checks[ck],data.checks[ck]);
+        });
+      }
+      if(!data.otMeta||!data.otMeta[otKey])return;
+      var isLoader=(LPT_FILES.indexOf(CHECKER_FILES[idx])>=0);
+      if(isLoader){
+        var upd=data.updatedAt||"";
+        if(!bestLoader||upd>bestLoaderUpdate){bestLoader=data;bestLoaderUpdate=upd;}
+      }
+      // Store in allOTs (fallback)
+      if(data.otMeta[otKey]){
+        allOTs[otKey]=data.otMeta[otKey];
+        allOTs[otKey].updatedBy=data.updatedBy;
+      }
+    });
+    // LPT Loader más reciente gana
+    if(bestLoader&&bestLoader.otMeta[otKey]){
+      allOTs[otKey]=bestLoader.otMeta[otKey];
+      allOTs[otKey].updatedBy=bestLoader.updatedBy;
+    }
+    callback(allOTs[otKey]||null);
+  });
+}
+
+// ============ PRIORITIES FROM GITHUB ============
+var remotePriorities={};
+function loadPrioritiesFromGitHub(){
+  var url="https://raw.githubusercontent.com/"+GH_REPO+"/main/verificadores/prioridades.json?t="+Date.now();
+  fetch(url).then(function(r){return r.ok?r.json():null;}).then(function(d){
+    if(d)remotePriorities=d;
+    if(prioCurrentOT)loadPrioridades();
+  }).catch(function(){});
+}
+
+// ============ NAV ============
+function goPage(id,el){
+  document.querySelectorAll(".page").forEach(function(p){p.classList.remove("active");});
+  document.querySelectorAll(".nav-tab").forEach(function(t){t.classList.remove("active");});
+  document.getElementById(id).classList.add("active");
+  el.classList.add("active");
+  if(id==="p-tablero")loadTablero();
+  if(id==="p-rebaja"){loadRebaja();loadPrioritiesFromGitHub();}
+  if(id==="p-resumen"){loadResumen();loadPrioritiesFromGitHub();}
+  if(id==="p-literales")loadLiterales();
+  if(id==="p-prioridades"){loadPrioritiesFromGitHub();loadPrioridades();}
+}
+
+// ============ FILE UPLOAD ============
+document.getElementById("drop-zone").addEventListener("click",function(){document.getElementById("file-lpt").click();});
+function handleDrop(ev){ev.preventDefault();document.getElementById("drop-zone").classList.remove("drag");var f=ev.dataTransfer.files[0];if(f)processFile(f);}
+function handleFileInput(ev){var f=ev.target.files[0];if(f)processFile(f);ev.target.value="";}
+function setStatus(msg,type){var el=document.getElementById("parse-status");el.className="status-box status-"+type;el.style.display="block";el.innerHTML=msg;}
+function dbg(msg){var el=document.getElementById("debug-box");el.style.display="block";el.innerHTML+=msg+"<br>";}
+
+function processFile(file){
+  document.getElementById("debug-box").innerHTML="";
+  document.getElementById("debug-box").style.display="none";
+  setStatus("<span class=\"spinner-dark\"></span>Leyendo "+file.name+"...","info");
+  var reader=new FileReader();
+  reader.onload=function(e){
+    try{var wb=XLSX.read(new Uint8Array(e.target.result),{type:"array",sheetStubs:true,cellDates:false});parseLPT(wb,file.name);}
+    catch(err){setStatus("Error: "+err.message,"err");dbg(err.toString());}
+  };
+  reader.onerror=function(){setStatus("Error al leer el archivo.","err");};
+  reader.readAsArrayBuffer(file);
+}
+
+function parseLPT(wb,fname){
+  var ws=wb.Sheets[wb.SheetNames[0]];
+  var rows=XLSX.utils.sheet_to_json(ws,{header:1,defval:"",raw:true});
+  dbg("Filas: "+rows.length);
+  var otNum="";
+  var mf=fname.match(/([0-9]{5})/);
+  if(mf)otNum=mf[1];
+  if(!otNum){
+    for(var i=0;i<Math.min(15,rows.length);i++){
+      var r=rows[i];
+      for(var j=0;j<r.length;j++){
+        var vn=normStr(r[j]);
+        if(/^[0-9]{5}$/.test(vn)){otNum=vn;break;}
+        if(/^[0-9]{5}[.]0$/.test(vn)){otNum=vn.substring(0,5);break;}
+      }
+      if(otNum)break;
+    }
+  }
+  dbg("OT: "+otNum);
+  var obra="",cliente="",vendedor="";
+  var avHdr={arm:-1,pint:-1,env:-1,mont:0};
+  for(var i=0;i<Math.min(15,rows.length);i++){
+    var r=rows[i];
+    for(var j=0;j<r.length;j++){
+      var v=normStr(r[j]);
+      if((v==="OBRA"||v.indexOf("OBRA:")===0)&&!obra)obra=nextVal(r,j);
+      if((v==="CLIENTE"||v.indexOf("CLIENTE:")===0)&&!cliente)cliente=nextVal(r,j);
+      if((v==="VENDEDOR"||v.indexOf("VENDEDOR:")===0)&&!vendedor)vendedor=nextVal(r,j);
+      var pv=r[43];
+      if(v==="ARMADO"&&pv!==""&&pv!==undefined)avHdr.arm=Math.round(parseFloat(pv)*100);
+      if((v==="PINTADO"||v==="PINTURA")&&pv!==""&&pv!==undefined)avHdr.pint=Math.round(parseFloat(pv)*100);
+      if((v==="ENVIADO"||v==="ENVIO")&&pv!==""&&pv!==undefined)avHdr.env=Math.round(parseFloat(pv)*100);
+      if((v==="MONTADO"||v==="MONTAJE")&&pv!==""&&pv!==undefined)avHdr.mont=Math.round(parseFloat(pv)*100);
+    }
+  }
+  dbg("Obra: "+obra+" | Cliente: "+cliente);
+  var anchorRow=-1,armLibC=-1,armPendC=-1,pintOkC=-1,pintPendC=-1,envOkC=-1,envPendC=-1,longCol=14;
+  for(var i=0;i<Math.min(30,rows.length);i++){
+    var r=rows[i],libIdx=-1,pintIdx=-1,envIdx=-1,pendIdxs=[];
+    for(var c=0;c<r.length;c++){
+      var v=normStr(r[c]);
+      if(v==="LIBERADAS")libIdx=c;if(v==="PINTADAS")pintIdx=c;if(v==="ENVIADAS")envIdx=c;
+      if(v==="PENDIENTES")pendIdxs.push(c);
+    }
+    if(libIdx>=0&&pintIdx>=0&&envIdx>=0){
+      anchorRow=i;armLibC=libIdx;armPendC=pendIdxs[0]!==undefined?pendIdxs[0]:libIdx+5;
+      pintOkC=pintIdx;pintPendC=pendIdxs[1]!==undefined?pendIdxs[1]:pintIdx+6;
+      envOkC=envIdx;envPendC=pendIdxs[2]!==undefined?pendIdxs[2]:envIdx+6;
+      dbg("Ancla fila "+i);break;
+    }
+  }
+  var headerRow=-1,itemCol=-1,cantCol=-1,codCol=-1,prodCol=-1,pesoTotCol=-1;
+  var sStart=anchorRow>=0?anchorRow:0;
+  var armLibPesoC=-1,armPendPesoC=-1,pintOkPesoC=-1,pintPendPesoC=-1,envOkPesoC=-1,envPendPesoC=-1;
+  for(var i=sStart;i<Math.min(rows.length,sStart+8);i++){
+    var r=rows[i],iIdx=-1,cIdx=-1,tkIdx=-1,pIdx=-1,ptIdx=-1,lIdx=-1,pesoIdxs=[];
+    for(var c=0;c<r.length;c++){
+      var v=normStr(r[c]);
+      if(v==="ITEM"||v==="ITEM ")iIdx=c;if(v==="CANTIDAD")cIdx=c;
+      if(v.indexOf("CODIGO TEKLA")>=0||v.indexOf("COD TEKLA")>=0)tkIdx=c;
+      if(v==="PRODUCTO"&&pIdx<0)pIdx=c;if(v.indexOf("PESO TOTAL")>=0)ptIdx=c;
+      if(v.indexOf("LONG")>=0&&v.indexOf("MM")>=0)lIdx=c;
+      // Columnas "Peso" que aparecen despues de las de Cant./Liberadas/Pendientes
+      // (se usan solo las que caen despues de la primera columna Liberadas detectada)
+      if(v==="PESO"&&armLibC>=0&&c>armLibC)pesoIdxs.push(c);
+    }
+    if(iIdx>=0&&cIdx>=0){
+      headerRow=i;itemCol=iIdx;cantCol=cIdx;codCol=tkIdx;prodCol=pIdx;pesoTotCol=ptIdx;
+      if(lIdx>=0)longCol=lIdx;
+      // Las 6 columnas "Peso" en orden de aparicion son:
+      // [0]=Liberado(arm) [1]=Pendiente(arm) [2]=Pintado-ok [3]=Pendiente(pint) [4]=Enviado-ok [5]=Pendiente(env)
+      if(pesoIdxs.length>=6){
+        armLibPesoC=pesoIdxs[0];armPendPesoC=pesoIdxs[1];
+        pintOkPesoC=pesoIdxs[2];pintPendPesoC=pesoIdxs[3];
+        envOkPesoC=pesoIdxs[4];envPendPesoC=pesoIdxs[5];
+        dbg("Columnas Peso detectadas: "+pesoIdxs.join(","));
+      }
+      dbg("Header fila "+i+" longCol="+longCol);break;
+    }
+  }
+  if(itemCol<0)itemCol=1;if(cantCol<0)cantCol=7;if(codCol<0)codCol=9;
+  if(prodCol<0)prodCol=13;if(pesoTotCol<0)pesoTotCol=24;
+  if(armLibC<0)armLibC=25;if(armPendC<0)armPendC=30;if(pintOkC<0)pintOkC=36;
+  if(pintPendC<0)pintPendC=42;if(envOkC<0)envOkC=51;if(envPendC<0)envPendC=57;
+  // Fallback si no se detectaron las columnas de Peso: usar posiciones relativas conocidas
+  if(armPendPesoC<0)armPendPesoC=armPendC+3;
+  if(pintPendPesoC<0)pintPendPesoC=pintPendC+5;
+  if(envPendPesoC<0)envPendPesoC=envPendC+4;
+  var dataStart=headerRow>=0?headerRow+2:Math.max(15,sStart+4);
+  dbg("Datos desde fila: "+dataStart);
+  var items=[];
+  for(var i=dataStart;i<rows.length;i++){
+    var r=rows[i];
+    var itemNum=parseInt(String(r[itemCol]==null?"":r[itemCol]).trim());
+    if(isNaN(itemNum)||itemNum<=0||itemNum>9999){
+      // Detectar encabezado "Inactivos" y frenar el parseo
+      for(var ci=0;ci<Math.min(r.length,10);ci++){
+        if(normStr(r[ci]).indexOf("INACTIVO")>=0){dbg("Sec. Inactivos en fila "+i+" - ignorados");i=rows.length;break;}
+      }
+      continue;
+    }
+    var cant=toInt(r[cantCol]);if(cant<=0)continue;
+    var cod=String(r[codCol]||"").trim();
+    items.push({
+      item:itemNum,cod:cod,prod:String(r[prodCol]||"").trim(),
+      long:toInt(r[longCol]),cant:cant,peso:toFloat(r[pesoTotCol]),
+      arm_lib:toFloat(r[armLibC]),arm_pend:toFloat(r[armPendC]),arm_pend_peso:toFloat(r[armPendPesoC]),
+      pint_ok:toFloat(r[pintOkC]),pint_pend:toFloat(r[pintPendC]),pint_pend_peso:toFloat(r[pintPendPesoC]),
+      env_ok:toFloat(r[envOkC]),env_pend:toFloat(r[envPendC]),env_pend_peso:toFloat(r[envPendPesoC]),
+      literal:getLiteral(cod)
+    });
+  }
+  dbg("Items: "+items.length);
+  if(items.length===0){setStatus("No se encontraron items. Ver diagnostico abajo.","err");document.getElementById("debug-box").style.display="block";return;}
+  if(!otNum)otNum=prompt("Numero de OT:")||"NUEVA";
+  if(!obra)obra=prompt("Nombre de la obra para OT "+otNum+":")||"Sin nombre";
+  // Actualizacion inteligente si la OT ya existe
+  var itemsFinales=items,modeMsg="";
+  if(OTs[otNum]){
+    var doUpdate=confirm(
+      "OT "+otNum+" ya existe ("+OTs[otNum].items.length+" items).\n\n"+
+      "\u2714 Aceptar = ACTUALIZAR inteligente:\n  - Elimina los ya ENTREGADOS (verde en PGS)\n  - Preserva estados de Rebaja\n\n"+
+      "\u2718 Cancelar = REEMPLAZAR todo"
+    );
+    if(doUpdate){
+      var prevLen=items.length;
+      itemsFinales=items.filter(function(r){return r.env_ok<r.cant;});
+      modeMsg=" [Actualizado: "+(prevLen-itemsFinales.length)+" ya entregados eliminados]";
+      dbg("Smart update: "+prevLen+" -> "+itemsFinales.length+" items activos");
+    }
+  }
+  var avances=(avHdr.arm>=0&&avHdr.pint>=0&&avHdr.env>=0)?{arm:avHdr.arm,pint:avHdr.pint,env:avHdr.env,mont:avHdr.mont}:calcAvances(itemsFinales);
+  var tot=itemsFinales.reduce(function(a,r){return a+r.cant;},0);
+  OTs[otNum]={ot:otNum,obra:obra.trim(),cliente:cliente.trim(),vendedor:vendedor.trim(),
+    fecha:new Date().toLocaleDateString("es-PY"),avances:avances,items:itemsFinales};
+  saveOTs();renderOTList();populateSelectors();
+  setStatus("OK - OT "+otNum+" - "+obra+" - "+itemsFinales.length+" items - "+tot.toLocaleString()+" piezas"+modeMsg,"ok");
+}
+
+// ============ OT LIST ============
+function renderOTList(){
+  var el=document.getElementById("ot-list"),keys=Object.keys(OTs);
+  if(!keys.length){el.innerHTML="<div style=\"font-size:12px;color:#4A7FA5;padding:8px 0\">Sin OTs cargadas.</div>";return;}
+  el.innerHTML="";
+  keys.forEach(function(k){
+    var o=OTs[k];
+    var tot=o.items.reduce(function(a,r){return a+r.cant;},0);
+    var ap=o.items.reduce(function(a,r){return a+r.arm_pend;},0);
+    var pp=o.items.reduce(function(a,r){return a+r.pint_pend;},0);
+    var d=document.createElement("div");d.className="ot-card";
+    d.innerHTML="<div style=\"display:flex;justify-content:space-between;align-items:start\">"+
+      "<h4>OT "+o.ot+"</h4>"+
+      "<button class=\"btn-danger-sm\" style=\"font-size:10px;padding:2px 7px\" onclick=\"event.stopPropagation();deleteOT('"+k+"')\">X</button></div>"+
+      "<p>"+o.obra+"</p><p style=\"margin-top:2px\">"+(o.cliente||"")+"</p>"+
+      "<div class=\"ot-badges\">"+
+        "<span class=\"ot-badge badge-red\">"+ap.toLocaleString()+" arm.pend.</span>"+
+        "<span class=\"ot-badge badge-amber\">"+pp.toLocaleString()+" pint.pend.</span>"+
+        "<span class=\"ot-badge badge-blue\">"+tot.toLocaleString()+" piezas</span>"+
+      "</div>"+
+      "<p style=\"margin-top:8px;font-size:10px;color:#7BA7C4\">"+o.fecha+" &middot; "+o.items.length+" items</p>";
+    d.addEventListener("click",function(){goPage("p-tablero",document.getElementById("nav-tablero"));document.getElementById("ot-sel-tablero").value=k;loadTablero();});
+    el.appendChild(d);
+  });
+}
+function deleteOT(k){if(confirm("Eliminar OT "+k+"?")){delete OTs[k];saveOTs();renderOTList();populateSelectors();}}
+function clearAllOTs(){if(confirm("Limpiar todo?")){OTs={};saveOTs();init();}}
+
+function populateSelectors(){
+  var keys=Object.keys(OTs);
+  // Rebaja: all OTs (own + others)
+  var combined2={};
+  Object.keys(allOTs).forEach(function(k){combined2[k]=allOTs[k];});
+  Object.keys(OTs).forEach(function(k){combined2[k]=OTs[k];});
+  var allKeys=Object.keys(combined2).sort();
+  var selReb=document.getElementById("ot-sel-rebaja"),prevReb=selReb.value;
+  selReb.innerHTML="<option value=\"\">Selecciona una OT</option>";
+  allKeys.forEach(function(k){
+    var op=document.createElement("option");op.value=k;
+    op.textContent="OT "+k+" - "+(combined2[k].obra||"")+(OTs[k]?" (mia)":"");
+    selReb.appendChild(op);
+  });
+  if(allKeys.indexOf(prevReb)>=0)selReb.value=prevReb;else if(allKeys.length)selReb.value=allKeys[0];
+  populateTableroSelector();
+  populateLitSelector();
+  populatePrioSelector();
+  populateResumenSelector();
+}
+
+function populateResumenSelector(){
+  var combined={};
+  Object.keys(allOTs).forEach(function(k){combined[k]=allOTs[k];});
+  Object.keys(OTs).forEach(function(k){combined[k]=OTs[k];});
+  var keys=Object.keys(combined).sort();
+  var sel=document.getElementById("ot-sel-resumen");if(!sel)return;
+  var prev=sel.value;
+  sel.innerHTML="<option value=\"\">Selecciona una OT</option>";
+  keys.forEach(function(k){
+    var o=combined[k];
+    var op=document.createElement("option");op.value=k;
+    op.textContent="OT "+k+" - "+(o.obra||"")+(OTs[k]?" (mia)":"");
+    sel.appendChild(op);
+  });
+  if(keys.indexOf(prev)>=0)sel.value=prev;else if(keys.length)sel.value=keys[0];
+}
+
+function populateTableroSelector(){
+  var combined={};
+  Object.keys(allOTs).forEach(function(k){combined[k]=allOTs[k];});
+  Object.keys(OTs).forEach(function(k){combined[k]=OTs[k];});
+  var keys=Object.keys(combined).sort();
+  var sel=document.getElementById("ot-sel-tablero"),prev=sel.value;
+  sel.innerHTML="<option value=\"\">Selecciona una OT</option>";
+  keys.forEach(function(k){
+    var o=combined[k];
+    var op=document.createElement("option");op.value=k;
+    op.textContent="OT "+k+" - "+(o.obra||"")+(OTs[k]?" (mia)":"");
+    sel.appendChild(op);
+  });
+  if(keys.indexOf(prev)>=0)sel.value=prev;else if(keys.length)sel.value=keys[0];
+}
+
+function populateLitSelector(){
+  var combined={};
+  Object.keys(allOTs).forEach(function(k){combined[k]=allOTs[k];});
+  Object.keys(OTs).forEach(function(k){combined[k]=OTs[k];});
+  var keys=Object.keys(combined).sort();
+  var sel=document.getElementById("ot-sel-lit"),prev=sel.value;
+  sel.innerHTML="<option value=\"\">Selecciona una OT</option>";
+  keys.forEach(function(k){var op=document.createElement("option");op.value=k;op.textContent="OT "+k+" - "+combined[k].obra;sel.appendChild(op);});
+  if(keys.indexOf(prev)>=0)sel.value=prev;
+}
+
+function populatePrioSelector(){
+  var combined={};
+  Object.keys(allOTs).forEach(function(k){combined[k]=allOTs[k];});
+  Object.keys(OTs).forEach(function(k){combined[k]=OTs[k];});
+  var keys=Object.keys(combined).sort();
+  var sel=document.getElementById("ot-sel-prio"),prev=sel.value;
+  sel.innerHTML="<option value=\"\">Selecciona una OT</option>";
+  keys.forEach(function(k){var op=document.createElement("option");op.value=k;op.textContent="OT "+k+" - "+(combined[k].obra||"");sel.appendChild(op);});
+  if(keys.indexOf(prev)>=0)sel.value=prev;
+}
+
+// ============ TABLERO ============
+function loadTablero(){
+  var k=document.getElementById("ot-sel-tablero").value;
+  var c=document.getElementById("tablero-content"),em=document.getElementById("tablero-empty");
+  var otData=OTs[k]||(allOTs[k]?{items:[],avances:{arm:0,pint:0,env:0,mont:0},...allOTs[k]}:null);
+  if(!k||!otData){c.style.display="none";em.style.display="block";return;}
+  c.style.display="block";em.style.display="none";
+  var o=otData,items=o.items||[];
+  // Si no hay items cargados (OT remota), usar totales del sync
+  var tot,ptot,al,ap,apP,po,pp,ppP,eo,ep,epP,alertN,itemCount;
+  if(items.length>0){
+    tot=items.reduce(function(a,r){return a+r.cant;},0);
+    ptot=items.reduce(function(a,r){return a+r.peso;},0);
+    al=items.reduce(function(a,r){return a+r.arm_lib;},0);ap=items.reduce(function(a,r){return a+r.arm_pend;},0);apP=items.reduce(function(a,r){return a+r.arm_pend_peso;},0);
+    po=items.reduce(function(a,r){return a+r.pint_ok;},0);pp=items.reduce(function(a,r){return a+r.pint_pend;},0);ppP=items.reduce(function(a,r){return a+r.pint_pend_peso;},0);
+    eo=items.reduce(function(a,r){return a+r.env_ok;},0);ep=items.reduce(function(a,r){return a+r.env_pend;},0);epP=items.reduce(function(a,r){return a+r.env_pend_peso;},0);
+    alertN=items.filter(function(r){return r.arm_pend>0||r.pint_pend>0||r.env_pend>0;}).length;
+    itemCount=items.length;
+  } else {
+    var t=allOTs[k]&&allOTs[k].totales?allOTs[k].totales:{};
+    tot=t.cant||0;ptot=t.peso_total||0;
+    al=t.arm_lib||0;ap=t.arm_pend||0;apP=t.arm_pend_peso||0;
+    po=t.pint_ok||0;pp=t.pint_pend||0;ppP=t.pint_pend_peso||0;
+    eo=t.env_ok||0;ep=t.env_pend||0;epP=t.env_pend_peso||0;
+    alertN=0;itemCount=t.items||0;
+  }
+  document.getElementById("ot-info-tbl").textContent=o.obra+(o.cliente?" | "+o.cliente:"")+" | "+o.fecha;
+  document.getElementById("kpi-grid").innerHTML=
+    "<div class=\"kpi\"><div class=\"kpi-lbl\">Total piezas</div><div class=\"kpi-val\" style=\"color:#0D3B66\">"+fmt(tot)+"</div><div class=\"kpi-sub\">"+(ptot/1000).toFixed(1)+" t</div></div>"+
+    "<div class=\"kpi red\"><div class=\"kpi-lbl\">Pend. Armado</div><div class=\"kpi-val\">"+fmt(ap)+"</div><div class=\"kpi-sub\">"+(apP/1000).toFixed(1)+" t</div></div>"+
+    "<div class=\"kpi amber\"><div class=\"kpi-lbl\">Pend. Pintura</div><div class=\"kpi-val\">"+fmt(pp)+"</div><div class=\"kpi-sub\">"+(ppP/1000).toFixed(1)+" t</div></div>"+
+    "<div class=\"kpi red\"><div class=\"kpi-lbl\">Pend. Envio</div><div class=\"kpi-val\">"+fmt(ep)+"</div><div class=\"kpi-sub\">"+(epP/1000).toFixed(1)+" t</div></div>"+
+    "<div class=\"kpi\"><div class=\"kpi-lbl\">Items con alerta</div><div class=\"kpi-val\" style=\"color:#DC2626\">"+alertN+"</div><div class=\"kpi-sub\">de "+itemCount+" items</div></div>";
+  var a=o.avances;
+  var pendPesos=[apP,ppP,epP];
+  var pg=[["arm","Armado",al,ap,0],["pint","Pintura",po,pp,1],["env","Envio",eo,ep,2]].map(function(x){
+    var kgPend=pendPesos[x[4]];
+    var kgPct=ptot>0?Math.round((ptot-kgPend)/ptot*100):a[x[0]];
+    var kgStr=kgPend>0?" &nbsp;·&nbsp; <span style=\"color:#888\">"+( kgPend/1000).toFixed(1)+"t pend. ("+kgPct+"%kg)</span>":"";
+    var kgBadge=ptot>0&&kgPct!==a[x[0]]?"<span style=\"font-size:10px;color:#6B8FA8;margin-left:8px;font-weight:500\">"+kgPct+"% kg</span>":"";
+    return "<div class=\"prog-card\"><div class=\"prog-head\"><span class=\"prog-title\">"+x[1]+"</span><span class=\"prog-pct\" style=\"color:"+pctC(a[x[0]])+"\">" +a[x[0]]+ "% pzas"+kgBadge+"</span></div>"+
+      "<div class=\"bar-bg\"><div class=\"bar-fill\" style=\"width:"+a[x[0]]+"%;background:"+barC(a[x[0]])+"\" ></div></div>"+
+      "<div class=\"prog-detail\"><span>"+fmt(x[2])+" ok</span><span>"+fmt(x[3])+" pend."+kgStr+"</span></div></div>";
+  }).join("");
+  pg+="<div class=\"prog-card\"><div class=\"prog-head\"><span class=\"prog-title\">Montaje</span><span class=\"prog-pct\" style=\"color:"+pctC(a.mont)+"\">" +a.mont+ "%</span></div>"+
+    "<div class=\"bar-bg\"><div class=\"bar-fill\" style=\"width:"+a.mont+"%;background:"+barC(a.mont)+"\" ></div></div>"+
+    "<div class=\"prog-detail\"><span class=\"nota-mont\">Solo referencia</span></div></div>";
+  document.getElementById("prog-grid").innerHTML=pg;
+  document.getElementById("alert-chips").innerHTML=topPend(items).map(function(e){
+    return "<div class=\"chip\"><span class=\"chip-name\">"+e[0]+"</span><div style=\"font-size:11px;text-align:right\"><span style=\"color:#DC2626;font-weight:700\">"+fmt(e[1].arm)+" arm.</span> <span style=\"color:#EA6C00\">"+fmt(e[1].pint)+" pint.</span></div></div>";
+  }).join("");
+  var prods=Array.from(new Set(items.map(function(r){return r.prod;}))).sort();
+  var ps=document.getElementById("tbl-prod");ps.innerHTML="<option value=\"\">Todos los productos</option>";
+  prods.forEach(function(p){var op=document.createElement("option");op.value=p;op.textContent=p;ps.appendChild(op);});
+  tblTab="todos";tblPage=1;applyTblFilters();
+}
+function setTblTab(t,el){tblTab=t;document.querySelectorAll("#tbl-tabs .tab-btn").forEach(function(b){b.classList.remove("active");});el.classList.add("active");tblPage=1;applyTblFilters();}
+function applyTblFilters(){
+  var k=document.getElementById("ot-sel-tablero").value;
+  var otData=OTs[k]||(allOTs[k]&&allOTs[k].items?allOTs[k]:null);
+  if(!k||!otData||!otData.items)return;
+  var txt=document.getElementById("tbl-buscar").value.toLowerCase();
+  var prod=document.getElementById("tbl-prod").value;
+  tblFiltered=otData.items.filter(function(r){
+    if(txt&&r.cod.toLowerCase().indexOf(txt)<0&&r.prod.toLowerCase().indexOf(txt)<0)return false;
+    if(prod&&r.prod!==prod)return false;
+    if(tblTab==="arm")return r.arm_pend>0;if(tblTab==="pint")return r.pint_pend>0;
+    if(tblTab==="env")return r.env_pend>0;if(tblTab==="ok")return r.arm_pend===0&&r.pint_pend===0&&r.env_pend===0;
+    return true;
+  });
+  tblPage=1;renderTbl();
+}
+function renderTbl(){
+  var k=document.getElementById("ot-sel-tablero").value;
+  var otData=OTs[k]||(allOTs[k]&&allOTs[k].items?allOTs[k]:null);
+  var obra=(otData&&otData.obra)||"";
+  var s=(tblPage-1)*PAGE,e=Math.min(s+PAGE,tblFiltered.length);
+  var body=document.getElementById("tbl-body");body.innerHTML="";
+  for(var i=s;i<e;i++){
+    var r=tblFiltered[i],al=r.arm_pend>0||r.pint_pend>0||r.env_pend>0;
+    var tr=document.createElement("tr");if(al)tr.className="row-alert";
+    var codHtml="<span class=\"cod-link\" onclick=\"openPlano('"+r.cod+"','"+k+"','"+obra+"')\">"+r.cod+"</span>";
+    tr.innerHTML="<td style=\"color:#4A7FA5\">"+r.item+"</td><td>"+codHtml+"</td><td>"+r.prod+"</td>"+
+      "<td style=\"text-align:right;color:#78716C\">"+r.long+"</td>"+
+      "<td style=\"text-align:right;font-weight:600\">"+r.cant+"</td><td style=\"text-align:right;color:#78716C\">"+fmt(r.peso)+"</td>"+
+      "<td>"+tagHtml(r.arm_lib,r.arm_pend)+"</td><td>"+tagHtml(r.pint_ok,r.pint_pend)+"</td><td>"+tagHtml(r.env_ok,r.env_pend)+"</td>";
+    body.appendChild(tr);
+  }
+  document.getElementById("tbl-count").textContent=tblFiltered.length.toLocaleString()+" items";
+  document.getElementById("tbl-pag-info").textContent=(s+1)+"-"+e+" de "+tblFiltered.length;
+  document.getElementById("btn-tbl-prev").disabled=tblPage===1;
+  document.getElementById("btn-tbl-next").disabled=e>=tblFiltered.length;
+}
+function prevTblPage(){if(tblPage>1){tblPage--;renderTbl();}}
+function nextTblPage(){tblPage++;renderTbl();}
+
+// ============ REBAJA - NEW STATES ============
+// checks[ot_item] = {arm_state:""|"armado"|"soldado", pint_state:""|"en_pintura"|"pintado"|"galvamax", arm_qty:N, pint_qty:N}
+function getChk(ot,item){var k=ot+"_"+item;return checks[k]||{};}
+function setChk(ot,item,obj){var k=ot+"_"+item;checks[k]=Object.assign(checks[k]||{},obj);saveChecks();}
+
+// Is item complete for armado? = soldado
+function isArmDone(ot,item){var c=getChk(ot,item);return c.arm_state==="liberado";}
+// Is item complete for pintura? = pintado OR galvamax
+function isPintDone(ot,item){var c=getChk(ot,item);return c.pint_state==="pintado"||c.pint_state==="galvamax"||c.pint_state==="rackpar";}
+// Is complete overall?
+function isComplete(ot,item){return isArmDone(ot,item)&&isPintDone(ot,item);}
+
+function armProgress(ot,item){
+  var c=getChk(ot,item);
+  if(c.arm_state==="liberado")return 100;
+  if(c.arm_state==="calibrado")return 75;
+  if(c.arm_state==="soldado")return 50;
+  if(c.arm_state==="armado")return 25;
+  return 0;
+}
+function pintProgress(ot,item){
+  var c=getChk(ot,item);
+  if(c.pint_state==="pintado"||c.pint_state==="galvamax"||c.pint_state==="rackpar")return 100;
+  if(c.pint_state==="en_pintura")return 50;
+  return 0;
+}
+function totalProgress(ot,item){return Math.round((armProgress(ot,item)+pintProgress(ot,item))/2);}
+
+function stateBtn(state, options, ot, itemId, proc){
+  var labels={
+    "":"Pendiente","armado":"Armado","soldado":"Soldado","calibrado":"Calibrado","liberado":"Liberado",
+    "en_pintura":"En Pintura","pintado":"Pintado","galvamax":"Galvamax","rackpar":"Rackpar"
+  };
+  var cls="state-btn state-"+(state||"empty");
+  // Cycle through options on click
+  var nextStates={};
+  for(var i=0;i<options.length;i++){nextStates[options[i]]=options[(i+1)%options.length];}
+  var next=nextStates[state||""]||options[0];
+  return "<button class=\""+cls+"\" data-item=\""+itemId+"\" data-proc=\""+proc+"\" data-next=\""+next+"\" onclick=\"cycleState(this,'"+ot+"')\">"+(labels[state||""]||"Pendiente")+"</button>";
+}
+
+function cycleState(btn, ot){
+  var itemId=parseInt(btn.dataset.item);
+  var proc=btn.dataset.proc;
+  var next=btn.dataset.next;
+  var obj={};
+  obj[proc]=next;
+  setChk(ot,itemId,obj);
+  // Update UI
+  var labels={"":"Pendiente","armado":"Armado","soldado":"Soldado","calibrado":"Calibrado","liberado":"Liberado","en_pintura":"En Pintura","pintado":"Pintado","galvamax":"Galvamax","rackpar":"Rackpar"};
+  var armOpts=["","armado","soldado","calibrado","liberado"];
+  var pintOpts=["","en_pintura","pintado","galvamax","rackpar"];
+  var opts=proc==="arm_state"?armOpts:pintOpts;
+  var nextNext=opts[(opts.indexOf(next)+1)%opts.length];
+  btn.className="state-btn state-"+(next||"empty");
+  btn.textContent=labels[next]||"Pendiente";
+  btn.dataset.next=nextNext;
+  var tr=btn.closest("tr");
+  if(tr)updateRebRow(tr,itemId,ot);
+  saveChecks();
+  applyRebFilters();
+}
+
+function updateRebRow(tr,itemId,ot){
+  var pct=totalProgress(ot,itemId);
+  var bc=pct===100?"#10B981":pct>0?"#EAB308":"#E7E5E4";
+  var fill=tr.querySelector(".prog-row-fill");if(fill){fill.style.width=pct+"%";fill.style.background=bc;}
+  var lbl=tr.querySelector(".pct-lbl");if(lbl)lbl.textContent=pct+"%";
+  tr.className=pct===100?"row-ok":pct>0?"row-partial":"";
+}
+
+function getRebOT(k){return OTs[k]||(allOTs[k]&&allOTs[k].items?allOTs[k]:null);}
+
+// ============ RESUMEN: comparativo PGS (Tablero) vs Checker (Rebaja) ============
+var resCurrentOT="", resFiltered=[], resPage=1, resPerPage=50;
+
+function loadResumen(){
+  var k=document.getElementById("ot-sel-resumen").value;resCurrentOT=k;
+  var c=document.getElementById("resumen-content"),em=document.getElementById("resumen-empty");
+  if(!k){c.style.display="none";em.style.display="block";return;}
+  c.style.display="block";em.style.display="none";
+  document.getElementById("res-body").innerHTML="<tr><td colspan=\"9\" style=\"text-align:center;padding:20px;color:#4A7FA5\"><span class=\"spinner-dark\"></span> Cargando comparativo...</td></tr>";
+  ensureFullOTData(k, function(otData){
+    if(!otData||!otData.items||otData.items.length===0){
+      c.style.display="none";em.style.display="block";
+      em.textContent="No se pudieron cargar los items de esta OT.";return;
+    }
+    resPage=1;applyResumenFilters();
+  });
+}
+
+// Devuelve {estado, tier} donde tier: 0=coincide,1=checker adelantado,2=falta marcar en checker
+function compareArm(r){
+  var chk=getChk(resCurrentOT,r.item);
+  var pgsOk=r.arm_pend<=0; // PGS: ya liberado segun LPT
+  var checkerOk=chk.arm_state==="liberado";
+  var checkerEnProceso=chk.arm_state&&chk.arm_state!=="liberado";
+  var pgsLabel=pgsOk?"Liberado":"Pendiente";
+  var checkerLabel={"":"Pendiente","armado":"Armado","soldado":"Soldado","calibrado":"Calibrado","liberado":"Liberado"}[chk.arm_state||""]||"Pendiente";
+  var tier=0;
+  if(checkerOk&&!pgsOk)tier=1; // checker ya libero, PGS no actualizado aun
+  else if(!checkerOk&&!checkerEnProceso&&pgsOk)tier=2; // PGS ya libero, checker ni empezo
+  return {pgsLabel:pgsLabel,checkerLabel:checkerLabel,tier:tier};
+}
+function comparePint(r){
+  var chk=getChk(resCurrentOT,r.item);
+  var pgsOk=r.pint_pend<=0;
+  var checkerOk=chk.pint_state==="pintado"||chk.pint_state==="galvamax"||chk.pint_state==="rackpar";
+  var checkerEnProceso=chk.pint_state&&!checkerOk;
+  var pgsLabel=pgsOk?"Pintado":"Pendiente";
+  var checkerLabel={"":"Pendiente","en_pintura":"En Pintura","pintado":"Pintado","galvamax":"Galvamax","rackpar":"Rackpar"}[chk.pint_state||""]||"Pendiente";
+  var tier=0;
+  if(checkerOk&&!pgsOk)tier=1;
+  else if(!checkerOk&&!checkerEnProceso&&pgsOk)tier=2;
+  return {pgsLabel:pgsLabel,checkerLabel:checkerLabel,tier:tier};
+}
+
+function applyResumenFilters(){
+  var k=resCurrentOT;var otData=getRebOT(k);if(!k||!otData||!otData.items)return;
+  var txt=document.getElementById("res-buscar").value.toLowerCase();
+  var filtro=document.getElementById("res-filtro").value;
+  resFiltered=otData.items.filter(function(r){
+    if(txt&&r.cod.toLowerCase().indexOf(txt)<0&&r.prod.toLowerCase().indexOf(txt)<0)return false;
+    var ca=compareArm(r),cp=comparePint(r);
+    var maxTier=Math.max(ca.tier,cp.tier);
+    if(filtro==="mismatch")return maxTier>0;
+    if(filtro==="adelantado")return ca.tier===1||cp.tier===1;
+    if(filtro==="falta")return ca.tier===2||cp.tier===2;
+    return true;
+  });
+  resPage=1;renderResumen();updateResumenKPIs();
+}
+
+function updateResumenKPIs(){
+  var k=resCurrentOT;var otData=getRebOT(k);if(!k||!otData||!otData.items)return;
+  var items=otData.items,tot=items.length;
+  var coincide=0,adelantado=0,falta=0;
+  items.forEach(function(r){
+    var ca=compareArm(r),cp=comparePint(r);
+    var maxTier=Math.max(ca.tier,cp.tier);
+    if(maxTier===0)coincide++;else if(maxTier===2)falta++;else adelantado++;
+  });
+  document.getElementById("resumen-kpi-grid").innerHTML=
+    "<div class=\"kpi green\"><div class=\"kpi-lbl\">Coincide con PGS</div><div class=\"kpi-val\">"+coincide+"</div><div class=\"kpi-sub\">de "+tot+" items</div></div>"+
+    "<div class=\"kpi amber\"><div class=\"kpi-lbl\">Checker adelantado</div><div class=\"kpi-val\">"+adelantado+"</div><div class=\"kpi-sub\">falta actualizar PGS</div></div>"+
+    "<div class=\"kpi red\"><div class=\"kpi-lbl\">Falta marcar en Checker</div><div class=\"kpi-val\">"+falta+"</div><div class=\"kpi-sub\">PGS ya lo dio por hecho</div></div>";
+}
+
+function renderResumen(){
+  var totalPages=Math.max(1,Math.ceil(resFiltered.length/resPerPage));
+  if(resPage>totalPages)resPage=totalPages;
+  var start=(resPage-1)*resPerPage;
+  var pageItems=resFiltered.slice(start,start+resPerPage);
+  var tierColor=["#10B981","#EAB308","#DC2626"];
+  var tierIcon=["","&#9888;","&#10071;"];
+  document.getElementById("res-body").innerHTML=pageItems.map(function(r){
+    var ca=compareArm(r),cp=comparePint(r);
+    var maxTier=Math.max(ca.tier,cp.tier);
+    var rowBg=maxTier===0?"":(maxTier===1?"background:#FFFBEB":"background:#FEF2F2");
+    return "<tr style=\""+rowBg+"\">"+
+      "<td>"+r.item+"</td>"+
+      "<td><a href=\"#\" onclick=\"return false\">"+r.cod+"</a></td>"+
+      "<td>"+r.prod+"</td>"+
+      "<td style=\"text-align:right\">"+r.cant+"</td>"+
+      "<td><span class=\"tag "+(ca.tier===0&&ca.pgsLabel==="Liberado"?"tag-ok":ca.tier===0?"tag-na":"tag-pend")+"\">"+ca.pgsLabel+"</span></td>"+
+      "<td><span class=\"tag "+(ca.checkerLabel==="Liberado"?"tag-ok":"tag-na")+"\">"+ca.checkerLabel+"</span></td>"+
+      "<td><span class=\"tag "+(cp.tier===0&&cp.pgsLabel==="Pintado"?"tag-ok":cp.tier===0?"tag-na":"tag-pend")+"\">"+cp.pgsLabel+"</span></td>"+
+      "<td><span class=\"tag "+((cp.checkerLabel==="Pintado"||cp.checkerLabel==="Galvamax"||cp.checkerLabel==="Rackpar")?"tag-ok":"tag-na")+"\">"+cp.checkerLabel+"</span></td>"+
+      "<td style=\"text-align:center;color:"+tierColor[maxTier]+";font-size:15px\">"+tierIcon[maxTier]+"</td>"+
+    "</tr>";
+  }).join("")||"<tr><td colspan=\"9\" style=\"text-align:center;padding:20px;color:#4A7FA5\">Sin resultados</td></tr>";
+  document.getElementById("res-pag-info").textContent=(resFiltered.length===0?"0":(start+1)+"-"+Math.min(start+resPerPage,resFiltered.length))+" de "+resFiltered.length;
+  document.getElementById("res-count").textContent=resFiltered.length+" items";
+  document.getElementById("btn-res-prev").disabled=resPage<=1;
+  document.getElementById("btn-res-next").disabled=resPage>=totalPages;
+}
+function prevResPage(){if(resPage>1){resPage--;renderResumen();}}
+function nextResPage(){resPage++;renderResumen();}
+
+function loadRebaja(){
+  var k=document.getElementById("ot-sel-rebaja").value;rebCurrentOT=k;
+  var c=document.getElementById("rebaja-content"),em=document.getElementById("rebaja-empty");
+  if(!k){c.style.display="none";em.style.display="block";return;}
+  // Show loading state
+  c.style.display="block";em.style.display="none";
+  document.getElementById("reb-body").innerHTML="<tr><td colspan=\"9\" style=\"text-align:center;padding:20px;color:#4A7FA5\"><span class=\"spinner-dark\"></span> Cargando items...</td></tr>";
+  ensureFullOTData(k, function(otData){
+    if(!otData||!otData.items||otData.items.length===0){
+      c.style.display="none";em.style.display="block";
+      em.textContent="No se pudieron cargar los items de esta OT.";return;
+    }
+    var prods=Array.from(new Set(otData.items.map(function(r){return r.prod;}))).sort();
+    var ps=document.getElementById("reb-prod");ps.innerHTML="<option value=\"\">Todos los productos</option>";
+    prods.forEach(function(p){var op=document.createElement("option");op.value=p;op.textContent=p;ps.appendChild(op);});
+    // Default: ocultar items ya entregados (env_pend=0 = verde en PGS)
+  var estSel=document.getElementById("reb-estado");
+  if(estSel&&estSel.value==="")estSel.value="noentregado";
+  rebPage=1;applyRebFilters();updateRebKPIs();
+  });
+}
+
+function updateRebKPIs(){
+  var k=rebCurrentOT;var otData=getRebOT(k);if(!k||!otData||!otData.items)return;
+  var items=otData.items,tot=items.length;
+  var soldado=items.filter(function(r){return isArmDone(k,r.item);}).length;
+  var pintDone=items.filter(function(r){return isPintDone(k,r.item);}).length;
+  var armado=items.filter(function(r){var c=getChk(k,r.item);return c.arm_state==="armado";}).length;
+  var armSoldado=items.filter(function(r){var c=getChk(k,r.item);return c.arm_state==="soldado";}).length;
+  var armCalibrado=items.filter(function(r){var c=getChk(k,r.item);return c.arm_state==="calibrado";}).length;
+  var armInProgress=armado+armSoldado+armCalibrado;
+  var allDone=items.filter(function(r){return isComplete(k,r.item);}).length;
+  var totQtyLib=items.reduce(function(s,r){var c=getChk(k,r.item);return s+(c.qty_lib||0);},0);
+  document.getElementById("reb-kpi-grid").innerHTML=
+    "<div class=\"kpi blue\"><div class=\"kpi-lbl\">Liberado (listo para pintura)</div><div class=\"kpi-val\">"+soldado+"</div><div class=\"kpi-sub\">"+(tot-soldado)+" pendientes</div></div>"+
+    "<div class=\"kpi amber\"><div class=\"kpi-lbl\">En proceso (arm+sold+calib)</div><div class=\"kpi-val\">"+armInProgress+"</div><div class=\"kpi-sub\">arm:"+armado+" sold:"+armSoldado+" calib:"+armCalibrado+"</div></div>"+
+    "<div class=\"kpi green\"><div class=\"kpi-lbl\">Pintado / Galvamax</div><div class=\"kpi-val\">"+pintDone+"</div><div class=\"kpi-sub\">"+(tot-pintDone)+" pendientes</div></div>"+
+    "<div class=\"kpi green\"><div class=\"kpi-lbl\">Proceso completo</div><div class=\"kpi-val\">"+allDone+"</div><div class=\"kpi-sub\">de "+tot+" items</div></div>"+
+    (totQtyLib>0?"<div class=\"kpi blue\"><div class=\"kpi-lbl\">Cant. Liberadas (tipeo)</div><div class=\"kpi-val\">"+totQtyLib+"</div><div class=\"kpi-sub\">piezas reportadas</div></div>":"");
+}
+
+function applyRebFilters(){
+  var k=rebCurrentOT;var otData=getRebOT(k);if(!k||!otData||!otData.items)return;
+  var txt=document.getElementById("reb-buscar").value.toLowerCase();
+  var prod=document.getElementById("reb-prod").value;
+  var est=document.getElementById("reb-estado").value;
+  rebFiltered=otData.items.filter(function(r){
+    if(txt&&r.cod.toLowerCase().indexOf(txt)<0&&r.prod.toLowerCase().indexOf(txt)<0)return false;
+    if(prod&&r.prod!==prod)return false;
+    var pct=totalProgress(k,r.item);
+    if(est==="ok")return pct===100;
+    if(est==="pend")return pct===0;
+    if(est==="partial")return pct>0&&pct<100;
+    if(est==="noentregado")return r.env_pend>0;
+    return true;
+  });
+  rebPage=1;renderReb();updateRebKPIs();
+}
+
+function renderReb(){
+  var k=rebCurrentOT;
+  var s=(rebPage-1)*PAGE,e=Math.min(s+PAGE,rebFiltered.length);
+  var body=document.getElementById("reb-body");body.innerHTML="";
+  var o=getRebOT(k)||{obra:""};
+  for(var i=s;i<e;i++){
+    var r=rebFiltered[i];
+    var chk=getChk(k,r.item);
+    var armState=chk.arm_state||"";
+    var pintState=chk.pint_state||"";
+    var pct=totalProgress(k,r.item);
+    var bc=pct===100?"#10B981":pct>0?"#EAB308":"#E7E5E4";
+    var tr=document.createElement("tr");
+    tr.className=pct===100?"row-ok":pct>0?"row-partial":"";
+    tr.dataset.item=r.item;
+    var prio=remotePriorities[k+"_"+r.cod]||"";
+    var prioHtml=prio?"<span class=\"prio-"+prio+"\">"+prio.toUpperCase()+"</span> ":"";
+    var codHtml="<span class=\"cod-link\" onclick=\"openPlano('"+r.cod+"','"+k+"','"+o.obra+"')\">"+r.cod+"</span>";
+    tr.innerHTML=
+      "<td><input type=\"checkbox\" class=\"row-sel\" data-item=\""+r.item+"\" style=\"accent-color:#1A5C8A;cursor:pointer;width:14px;height:14px\"></td>"+
+      "<td style=\"color:#4A7FA5;font-size:11px\">"+r.item+"</td>"+
+      "<td>"+prioHtml+codHtml+"</td>"+
+      "<td>"+r.prod+"</td>"+
+      "<td style=\"text-align:right;color:#78716C\">"+r.long+"</td>"+
+      "<td style=\"text-align:right;font-weight:700\">"+r.cant+"</td>"+
+      "<td style=\"text-align:center\"><input type=\"number\" min=\"0\" max=\""+r.cant+"\" value=\""+((chk.qty_lib||chk.qty_lib===0)?chk.qty_lib:"")+"\" placeholder=\"-\" "+
+        "oninput=\"setQtyLib(this,'"+k+"')\" data-item=\""+r.item+"\" "+
+        "style=\"width:52px;font-size:11px;text-align:center;padding:2px 4px;border:1.5px solid #C8DDF0;border-radius:6px;background:#fff\"></td>"+
+      "<td style=\"text-align:center\">"+stateBtn(armState,["","armado","soldado","calibrado","liberado"],k,r.item,"arm_state")+"</td>"+
+      "<td style=\"text-align:center\">"+stateBtn(pintState,["","en_pintura","pintado","galvamax","rackpar"],k,r.item,"pint_state")+"</td>"+
+      "<td><div style=\"display:flex;align-items:center;gap:5px\">"+
+        "<div class=\"prog-row\"><div class=\"prog-row-fill\" style=\"width:"+pct+"%;background:"+bc+"\"></div></div>"+
+        "<span class=\"pct-lbl\" style=\"font-size:10px;color:#4A7FA5;min-width:28px\">"+pct+"%</span>"+
+      "</div></td>";
+    body.appendChild(tr);
+  }
+  document.getElementById("reb-count").textContent=rebFiltered.length.toLocaleString()+" items";
+  document.getElementById("reb-pag-info").textContent=(s+1)+"-"+e+" de "+rebFiltered.length;
+  document.getElementById("btn-reb-prev").disabled=rebPage===1;
+  document.getElementById("btn-reb-next").disabled=e>=rebFiltered.length;
+}
+function toggleSelAll(cb){document.querySelectorAll(".row-sel").forEach(function(c){c.checked=cb.checked;});}
+function massSetState(proc,state){
+  var k=rebCurrentOT;if(!k)return;
+  var sel=document.querySelectorAll(".row-sel:checked");
+  if(!sel.length){alert("Selecciona al menos una fila.");return;}
+  sel.forEach(function(c){
+    var itemId=parseInt(c.dataset.item);
+    var obj={};obj[proc+"_state"]=state;setChk(k,itemId,obj);
+  });
+  updateRebKPIs();renderReb();
+}
+function prevRebPage(){if(rebPage>1){rebPage--;renderReb();}}
+function nextRebPage(){rebPage++;renderReb();}
+function clearRebaja(){
+  var k=rebCurrentOT;if(!k||!getRebOT(k))return;
+  if(!confirm("Limpiar todos los estados de OT "+k+"?"))return;
+  Object.keys(checks).filter(function(key){return key.indexOf(k+"_")===0;}).forEach(function(key){delete checks[key];});
+  saveChecks();updateRebKPIs();renderReb();
+}
+function exportRebaja(){
+  var k=rebCurrentOT;var otData=getRebOT(k);if(!k||!otData){alert("Selecciona una OT.");return;}
+  var csv="\ufeffItem;Codigo Tekla;Producto;Long.mm;Cantidad;Cant.Liberada;Estado Armado;Estado Pintura;Completo\n";
+  otData.items.forEach(function(r){
+    var chk=getChk(k,r.item);
+    csv+=r.item+";"+r.cod+";"+r.prod+";"+r.long+";"+r.cant+
+      ";"+(chk.qty_lib!==undefined?chk.qty_lib:"")+
+      ";"+(chk.arm_state||"pendiente")+";"+(chk.pint_state||"pendiente")+
+      ";"+(isComplete(k,r.item)?"Si":"No")+"\n";
+  });
+  var blob=new Blob([csv],{type:"text/csv;charset=utf-8"});
+  var a=document.createElement("a");a.href=URL.createObjectURL(blob);
+  a.download="Rebaja_OT"+k+"_"+new Date().toLocaleDateString("es").replace(/\//g,"-")+".csv";
+  a.click();
+}
+
+// ============ LITERALES ============
+function loadLiterales(){
+  var k=document.getElementById("ot-sel-lit").value;
+  litCurrentOT=k;litCurrentLit="";
+  var c=document.getElementById("lit-content"),em=document.getElementById("lit-empty");
+  if(!k){c.style.display="none";em.style.display="block";return;}
+  ensureFullOTData(k,function(litOT){
+    if(!litOT||!litOT.items){c.style.display="none";em.style.display="block";return;}
+    em.style.display="none";c.style.display="block";
+    litAllItems=litOT.items;
+    renderLiteralesGrid(litAllItems);
+    document.getElementById("lit-selected").textContent="";
+    document.getElementById("lit-tbody").innerHTML="";
+  });
+  return; // rest handled in callback
+}
+
+function renderLiteralesGrid(items){
+  // Group by literal
+  var litMap={};
+  items.forEach(function(r){
+    var lit=r.literal||getLiteral(r.cod);
+    if(!litMap[lit])litMap[lit]={codes:[],ots:new Set()};
+    litMap[lit].codes.push(r);
+    // Extract OT from cod if it starts with digits
+    var parts=r.cod.split("-");
+    if(/^\d+$/.test(parts[0]))litMap[lit].ots.add(parts[0]);
+  });
+  var lits=Object.keys(litMap).sort();
+  var grid=document.getElementById("lit-grid");grid.innerHTML="";
+  lits.forEach(function(lit){
+    var data=litMap[lit];
+    var d=document.createElement("div");d.className="lit-card";
+    var otsHtml=Array.from(data.ots).map(function(ot){return "<span>OT "+ot+"</span>";}).join("");
+    d.innerHTML="<div class=\"lit-badge\">"+lit+"</div>"+
+      "<div style=\"font-size:12px;color:#0D3B66;font-weight:600\">"+data.codes.length+" piezas</div>"+
+      (otsHtml?"<div class=\"lit-ot\">"+otsHtml+"</div>":"");
+    d.style.cursor="pointer";
+    d.addEventListener("click",function(){selectLiteral(lit);});
+    grid.appendChild(d);
+  });
+}
+
+function selectLiteral(lit){
+  litCurrentLit=lit;
+  var items=litAllItems.filter(function(r){return (r.literal||getLiteral(r.cod))===lit;});
+  document.getElementById("lit-selected").textContent="-- "+lit+" ("+items.length+" items)";
+  var k=litCurrentOT;
+  var litOT2=OTs[k]||(allOTs[k]&&allOTs[k].items?allOTs[k]:{obra:""});
+  var tbody=document.getElementById("lit-tbody");tbody.innerHTML="";
+  items.forEach(function(r){
+    var chk=getChk(k,r.item);
+    var tr=document.createElement("tr");
+    var codHtml="<span class=\"cod-link\" onclick=\"openPlano('"+r.cod+"','"+k+"','"+litOT2.obra+"')\">"+r.cod+"</span>";
+    tr.innerHTML="<td style=\"color:#4A7FA5\">"+r.item+"</td><td>"+codHtml+"</td><td>"+r.prod+"</td>"+
+      "<td style=\"text-align:right;color:#78716C\">"+r.long+"</td>"+
+      "<td style=\"text-align:right;font-weight:600\">"+r.cant+"</td>"+
+      "<td><span class=\"state-btn state-"+(chk.arm_state||"empty")+"\" style=\"cursor:default\">"+({"":"Pendiente","armado":"Armado","soldado":"Soldado","calibrado":"Calibrado","liberado":"Liberado"}[chk.arm_state||""]||"Pendiente")+"</span></td>"+
+      "<td><span class=\"state-btn state-"+(chk.pint_state||"empty")+"\" style=\"cursor:default\">"+({"":"Pendiente","en_pintura":"En Pintura","pintado":"Pintado","galvamax":"Galvamax","rackpar":"Rackpar"}[chk.pint_state||""]||"Pendiente")+"</span></td>";
+    tbody.appendChild(tr);
+  });
+}
+
+function filterLiterales(){
+  var txt=document.getElementById("lit-buscar").value.toLowerCase();
+  if(!litAllItems.length)return;
+  var filtered=txt?litAllItems.filter(function(r){return r.cod.toLowerCase().indexOf(txt)>=0||r.prod.toLowerCase().indexOf(txt)>=0||(r.literal||"").toLowerCase().indexOf(txt)>=0;}):litAllItems;
+  renderLiteralesGrid(filtered);
+}
+
+// ============ PRIORIDADES ============
+function loadPrioridades(){
+  var k=document.getElementById("ot-sel-prio").value;prioCurrentOT=k;
+  var c=document.getElementById("prio-content"),em=document.getElementById("prio-empty");
+  if(!k){c.style.display="none";em.style.display="block";return;}
+  var combined=OTs[k]||(allOTs[k]&&allOTs[k].items?allOTs[k]:null);
+  if(!combined||!combined.items){c.style.display="none";em.style.display="block";return;}
+  c.style.display="block";em.style.display="none";
+  applyPrioFilters();
+}
+
+function applyPrioFilters(){
+  var k=prioCurrentOT;if(!k)return;
+  var combined=OTs[k]||(allOTs[k]&&allOTs[k].items?allOTs[k]:null);
+  if(!combined||!combined.items)return;
+  var txt=document.getElementById("prio-buscar").value.toLowerCase();
+  var nivel=document.getElementById("prio-nivel").value;
+  // Get all items with priority
+  prioFiltered=combined.items.filter(function(r){
+    var prio=remotePriorities[k+"_"+r.cod]||"";
+    if(!prio)return false;
+    if(nivel&&prio!==nivel)return false;
+    if(txt&&r.cod.toLowerCase().indexOf(txt)<0&&r.prod.toLowerCase().indexOf(txt)<0)return false;
+    return true;
+  });
+  // Sort by priority: alta > media > baja
+  var order={alta:0,media:1,baja:2};
+  prioFiltered.sort(function(a,b){
+    var pa=remotePriorities[k+"_"+a.cod]||"";
+    var pb=remotePriorities[k+"_"+b.cod]||"";
+    return (order[pa]||9)-(order[pb]||9);
+  });
+  renderPrio();
+  renderPrioKPIs();
+}
+
+function renderPrioKPIs(){
+  var k=prioCurrentOT;if(!k)return;
+  var combined=OTs[k]||(allOTs[k]&&allOTs[k].items?allOTs[k]:null);
+  if(!combined||!combined.items)return;
+  var alta=0,media=0,baja=0;
+  combined.items.forEach(function(r){
+    var p=remotePriorities[k+"_"+r.cod]||"";
+    if(p==="alta")alta++;if(p==="media")media++;if(p==="baja")baja++;
+  });
+  document.getElementById("prio-kpi").innerHTML=
+    "<div class=\"kpi\" style=\"border-top-color:#EAB308\"><div class=\"kpi-lbl\">Prioridad ALTA</div><div class=\"kpi-val\" style=\"color:#713F12\">"+alta+"</div><div class=\"kpi-sub\">items criticos</div></div>"+
+    "<div class=\"kpi\" style=\"border-top-color:#F97316\"><div class=\"kpi-lbl\">Prioridad MEDIA</div><div class=\"kpi-val\" style=\"color:#9A3412\">"+media+"</div><div class=\"kpi-sub\">items importantes</div></div>"+
+    "<div class=\"kpi\" style=\"border-top-color:#F59E0B\"><div class=\"kpi-lbl\">Prioridad BAJA</div><div class=\"kpi-val\" style=\"color:#78350F\">"+baja+"</div><div class=\"kpi-sub\">items a considerar</div></div>"+
+    "<div class=\"kpi\"><div class=\"kpi-lbl\">Total priorizados</div><div class=\"kpi-val\" style=\"color:#0D3B66\">"+(alta+media+baja)+"</div><div class=\"kpi-sub\">por los Jefes</div></div>";
+}
+
+function renderPrio(){
+  var k=prioCurrentOT;
+  var combined=OTs[k]||(allOTs[k]&&allOTs[k].items?allOTs[k]:null);
+  var obra=(combined&&combined.obra)||"";
+  var tbody=document.getElementById("prio-tbody");tbody.innerHTML="";
+  document.getElementById("prio-count").textContent=prioFiltered.length+" items priorizados";
+  if(!prioFiltered.length){
+    tbody.innerHTML="<tr><td colspan=\"8\" style=\"text-align:center;padding:30px;color:#7BA7C4\">Sin items priorizados para esta OT</td></tr>";return;
+  }
+  prioFiltered.forEach(function(r){
+    var prio=remotePriorities[k+"_"+r.cod]||"";
+    var chk=getChk(k,r.item);
+    var tr=document.createElement("tr");
+    tr.className="prio-"+prio+"-row";
+    var codHtml="<span class=\"cod-link\" onclick=\"openPlano('"+r.cod+"','"+k+"','"+obra+"')\">"+r.cod+"</span>";
+    tr.innerHTML="<td><span class=\"prio-"+prio+"\">"+prio.toUpperCase()+"</span></td>"+
+      "<td style=\"color:#4A7FA5\">"+r.item+"</td><td>"+codHtml+"</td><td>"+r.prod+"</td>"+
+      "<td style=\"text-align:right;color:#78716C\">"+r.long+"</td>"+
+      "<td style=\"text-align:right;font-weight:700\">"+r.cant+"</td>"+
+      "<td><span class=\"state-btn state-"+(chk.arm_state||"empty")+"\" style=\"cursor:default\">"+({"":"Pendiente","armado":"Armado","soldado":"Soldado","calibrado":"Calibrado","liberado":"Liberado"}[chk.arm_state||""]||"Pendiente")+"</span></td>"+
+      "<td><span class=\"state-btn state-"+(chk.pint_state||"empty")+"\" style=\"cursor:default\">"+({"":"Pendiente","en_pintura":"En Pintura","pintado":"Pintado","galvamax":"Galvamax","rackpar":"Rackpar"}[chk.pint_state||""]||"Pendiente")+"</span></td>";
+    tbody.appendChild(tr);
+  });
+}
+
+function setQtyLib(input,ot){
+  var itemId=parseInt(input.dataset.item);
+  var val=parseInt(input.value);
+  if(isNaN(val)||val<0)val=0;
+  setChk(ot,itemId,{qty_lib:val});
+  saveChecks();
+  updateRebKPIs();
+}
+
+init();
+</script>
+</body>
+</html>
