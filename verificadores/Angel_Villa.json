@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T17:51:17.608Z",
+  "updatedAt": "2026-11-06T18:11:06.282Z",
   "updatedBy": "Angel Villa",
   "checks": {
     "25257_1": {
@@ -45000,6 +45000,18 @@
     },
     "24377_141": {
       "qty_lib": 2,
+      "arm_state": "armado"
+    },
+    "24377_116": {
+      "pint_state": "en_pintura",
+      "qty_lib": 60
+    },
+    "24377_444": {
+      "arm_state": "armado",
+      "qty_lib": 4
+    },
+    "24377_345": {
+      "qty_lib": 1,
       "arm_state": "armado"
     }
   },
