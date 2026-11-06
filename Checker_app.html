@@ -185,6 +185,7 @@ tr.prio-baja-row td{background:linear-gradient(90deg,#FFFBEB,#FFFBEB)!important;
     <span class="sync-dot" id="sync-dot"></span>
     <span class="nav-user-name" id="nav-username"></span>
     <span id="ult-act" title="Ultima vez que se leyo lo de los demas checkers" style="font-size:10px;color:#7DD3FC;opacity:0.8;white-space:nowrap"></span>
+    <button class="nav-sync-btn" id="refresh-now-btn" onclick="refrescarAhora()" title="Traer ahora lo que sincronizaron los demas">&#8635; Actualizar</button>
     <button class="nav-sync-btn" id="sync-btn" onclick="syncToGitHub()">&#8679; Sincronizar</button>
     <button onclick="toggleConfig()" title="Configuracion GitHub" style="background:rgba(255,255,255,0.15);border:1.5px solid rgba(255,255,255,0.3);border-radius:8px;color:#fff;padding:6px 10px;cursor:pointer;font-size:16px;line-height:1">&#9881;</button>
   </div>
@@ -902,6 +903,7 @@ function loadAllOTsInner(){
     loadPrioritiesFromGitHub();
     populateSelectors();
     refrescarVistaActiva();
+    if(_onLoadDone){var f=_onLoadDone;_onLoadDone=null;f();}
     var ua=document.getElementById("ult-act");if(ua){var n=new Date();ua.textContent="act. "+n.toLocaleTimeString("es-PY",{hour:"2-digit",minute:"2-digit"});}
   });
 }
@@ -925,13 +927,21 @@ function refrescarVistaActiva(){
 var _ultimaCarga=0;
 function autoRecargar(){
   if(!currentChecker)return;
-  if(Date.now()-_ultimaCarga<15000)return; // como mucho cada 15 s
+  if(Date.now()-_ultimaCarga<10000)return; // como mucho cada 10 s
   _ultimaCarga=Date.now();
   loadAllOTs();
 }
-setInterval(autoRecargar,60000);
+setInterval(autoRecargar,30000);
 document.addEventListener("visibilitychange",function(){if(!document.hidden)autoRecargar();});
 window.addEventListener("focus",autoRecargar);
+function refrescarAhora(){
+  var b=document.getElementById("refresh-now-btn");
+  if(b){b.innerHTML="<span class=\"spinner\"></span>Actualizando...";b.disabled=true;}
+  _ultimaCarga=Date.now();
+  _onLoadDone=function(){if(b){b.innerHTML="&#10003; Al dia";b.disabled=false;setTimeout(function(){b.innerHTML="&#8635; Actualizar";},2000);}};
+  loadAllOTs();
+}
+var _onLoadDone=null;
 
 // Load full items for a remote OT if not already loaded
 function ensureFullOTData(otKey, callback){
