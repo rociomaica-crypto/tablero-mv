@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T20:30:29.475Z",
+  "updatedAt": "2026-11-09T20:32:39.204Z",
   "updatedBy": "Brian Soto",
   "checks": {
     "24969_1": {
@@ -45704,7 +45704,7 @@
       "qty_lib": 3
     },
     "25898_183": {
-      "arm_state": "armado",
+      "arm_state": "liberado",
       "qty_lib": 1
     },
     "25833_271": {
@@ -45856,6 +45856,10 @@
     "25856_376": {
       "arm_state": "liberado",
       "qty_lib": 24
+    },
+    "25999_55": {
+      "arm_state": "calibrado",
+      "qty_lib": 1
     }
   },
   "otMeta": {
