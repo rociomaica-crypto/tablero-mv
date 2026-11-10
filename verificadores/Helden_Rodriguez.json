@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T14:20:23.420Z",
+  "updatedAt": "2026-11-10T17:09:12.983Z",
   "updatedBy": "Helden Rodriguez",
   "checks": {
     "24969_1": {
@@ -10639,39 +10639,48 @@
     },
     "25888_65": {
       "qty_lib": 2,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25888_66": {
       "qty_lib": 4,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25888_67": {
       "qty_lib": 2,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25888_68": {
       "qty_lib": 2,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25888_69": {
       "qty_lib": 4,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25888_70": {
       "qty_lib": 4,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25888_71": {
       "qty_lib": 1,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25888_62": {
       "qty_lib": 12,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25888_61": {
       "qty_lib": 6,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25888_74": {
       "qty_lib": 5,
@@ -46066,13 +46075,15 @@
       "qty_lib": 1
     },
     "25856_357": {
-      "arm_state": "soldado"
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25856_359": {
       "arm_state": "armado"
     },
     "25856_354": {
-      "arm_state": "armado"
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25856_361": {
       "arm_state": "soldado"
@@ -46087,7 +46098,8 @@
       "arm_state": "soldado"
     },
     "25856_362": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25876_82": {
       "arm_state": "liberado",
