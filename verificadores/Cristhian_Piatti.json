@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T09:59:02.727Z",
+  "updatedAt": "2026-11-10T09:59:23.280Z",
   "updatedBy": "Cristhian Piatti",
   "checks": {
     "24969_1": {
@@ -72836,6 +72836,70 @@
           "cod": "BOH-PZ-2",
           "prod": "Pieza Especial",
           "long": 5690,
+          "cant": 1,
+          "pend": 1
+        }
+      ]
+    },
+    "26041": {
+      "ot": "26041",
+      "obra": "Carrito p/ Traspaso",
+      "cliente": "MV ACEROS SA",
+      "fecha": "10/11/2026",
+      "avances": {
+        "arm": 0,
+        "pint": 0,
+        "env": 0,
+        "mont": 0
+      },
+      "totales": {
+        "cant": 1,
+        "arm_lib": 0,
+        "arm_pend": 1,
+        "pint_ok": 0,
+        "pint_pend": 1,
+        "env_ok": 0,
+        "env_pend": 1,
+        "items": 1,
+        "peso_total": 196.92,
+        "arm_pend_peso": 196.92,
+        "pint_pend_peso": 196.92,
+        "env_pend_peso": 196.92
+      },
+      "items": [
+        {
+          "item": 1,
+          "cod": "BPE-CO-1",
+          "prod": "Carro (Troley )",
+          "long": 3055,
+          "cant": 1,
+          "peso": 196.92,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 196.92,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 196.92,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 196.92,
+          "literal": "BPE"
+        }
+      ],
+      "arm_pend_items": [
+        {
+          "cod": "BPE-CO-1",
+          "prod": "Carro (Troley )",
+          "long": 3055,
+          "cant": 1,
+          "pend": 1
+        }
+      ],
+      "pint_pend_items": [
+        {
+          "cod": "BPE-CO-1",
+          "prod": "Carro (Troley )",
+          "long": 3055,
           "cant": 1,
           "pend": 1
         }
