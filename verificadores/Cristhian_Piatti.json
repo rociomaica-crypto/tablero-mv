@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T09:56:51.167Z",
+  "updatedAt": "2026-11-10T09:59:02.727Z",
   "updatedBy": "Cristhian Piatti",
   "checks": {
     "24969_1": {
@@ -72564,6 +72564,280 @@
           "long": 90,
           "cant": 26,
           "pend": 26
+        }
+      ]
+    },
+    "26006": {
+      "ot": "26006",
+      "obra": "ADICIONAL POLLERON, CAMPANA Y DUCTO TECHO NURIA TE",
+      "cliente": "FORES DE CANDIA, NURIA CONCEPCION",
+      "fecha": "10/11/2026",
+      "avances": {
+        "arm": 19,
+        "pint": 0,
+        "env": 0,
+        "mont": 0
+      },
+      "totales": {
+        "cant": 16,
+        "arm_lib": 3,
+        "arm_pend": 13,
+        "pint_ok": 0,
+        "pint_pend": 16,
+        "env_ok": 0,
+        "env_pend": 16,
+        "items": 8,
+        "peso_total": 182.95999999999998,
+        "arm_pend_peso": 148.45,
+        "pint_pend_peso": 182.95999999999998,
+        "env_pend_peso": 182.95999999999998
+      },
+      "items": [
+        {
+          "item": 1,
+          "cod": "BOH-CNP-1",
+          "prod": "Caño Pintado",
+          "long": 650,
+          "cant": 2,
+          "peso": 8,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 8,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 8,
+          "literal": "BOH"
+        },
+        {
+          "item": 2,
+          "cod": "BOH-CNP-2",
+          "prod": "Caño Pintado",
+          "long": 4307,
+          "cant": 1,
+          "peso": 26.51,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 26.51,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 26.51,
+          "literal": "BOH"
+        },
+        {
+          "item": 3,
+          "cod": "BOH-CP-1",
+          "prod": "Campana",
+          "long": 1090,
+          "cant": 1,
+          "peso": 61.3,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 61.3,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 61.3,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 61.3,
+          "literal": "BOH"
+        },
+        {
+          "item": 4,
+          "cod": "BOH-LLP-1",
+          "prod": "Angulo Pintado",
+          "long": 110,
+          "cant": 4,
+          "peso": 1.2,
+          "arm_lib": 0,
+          "arm_pend": 4,
+          "arm_pend_peso": 1.2,
+          "pint_ok": 0,
+          "pint_pend": 4,
+          "pint_pend_peso": 1.2,
+          "env_ok": 0,
+          "env_pend": 4,
+          "env_pend_peso": 1.2,
+          "literal": "BOH"
+        },
+        {
+          "item": 5,
+          "cod": "BOH-LLP-2",
+          "prod": "Angulo Pintado",
+          "long": 110,
+          "cant": 4,
+          "peso": 0.8,
+          "arm_lib": 0,
+          "arm_pend": 4,
+          "arm_pend_peso": 0.8,
+          "pint_ok": 0,
+          "pint_pend": 4,
+          "pint_pend_peso": 0.8,
+          "env_ok": 0,
+          "env_pend": 4,
+          "env_pend_peso": 0.8,
+          "literal": "BOH"
+        },
+        {
+          "item": 6,
+          "cod": "BOH-LLP-3",
+          "prod": "Angulo Pintado",
+          "long": 650,
+          "cant": 2,
+          "peso": 2.38,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 2.38,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 2.38,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 2.38,
+          "literal": "BOH"
+        },
+        {
+          "item": 7,
+          "cod": "BOH-PZ-1",
+          "prod": "Pieza Especial",
+          "long": 650,
+          "cant": 1,
+          "peso": 5.7,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 5.7,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 5.7,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 5.7,
+          "literal": "BOH"
+        },
+        {
+          "item": 8,
+          "cod": "BOH-PZ-2",
+          "prod": "Pieza Especial",
+          "long": 5690,
+          "cant": 1,
+          "peso": 77.07,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 77.07,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 77.07,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 77.07,
+          "literal": "BOH"
+        }
+      ],
+      "arm_pend_items": [
+        {
+          "cod": "BOH-CP-1",
+          "prod": "Campana",
+          "long": 1090,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOH-LLP-1",
+          "prod": "Angulo Pintado",
+          "long": 110,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BOH-LLP-2",
+          "prod": "Angulo Pintado",
+          "long": 110,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BOH-LLP-3",
+          "prod": "Angulo Pintado",
+          "long": 650,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOH-PZ-1",
+          "prod": "Pieza Especial",
+          "long": 650,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOH-PZ-2",
+          "prod": "Pieza Especial",
+          "long": 5690,
+          "cant": 1,
+          "pend": 1
+        }
+      ],
+      "pint_pend_items": [
+        {
+          "cod": "BOH-CNP-1",
+          "prod": "Caño Pintado",
+          "long": 650,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOH-CNP-2",
+          "prod": "Caño Pintado",
+          "long": 4307,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOH-CP-1",
+          "prod": "Campana",
+          "long": 1090,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOH-LLP-1",
+          "prod": "Angulo Pintado",
+          "long": 110,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BOH-LLP-2",
+          "prod": "Angulo Pintado",
+          "long": 110,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BOH-LLP-3",
+          "prod": "Angulo Pintado",
+          "long": 650,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOH-PZ-1",
+          "prod": "Pieza Especial",
+          "long": 650,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOH-PZ-2",
+          "prod": "Pieza Especial",
+          "long": 5690,
+          "cant": 1,
+          "pend": 1
         }
       ]
     }
