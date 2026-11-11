@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T18:27:05.864Z",
+  "updatedAt": "2026-11-11T19:23:13.142Z",
   "updatedBy": "Helden Rodriguez",
   "checks": {
     "24969_1": {
@@ -10627,7 +10627,7 @@
       "pint_state": "pintado"
     },
     "25888_60": {
-      "qty_lib": 22,
+      "qty_lib": 24,
       "arm_state": "liberado"
     },
     "25888_59": {
@@ -46696,6 +46696,52 @@
       "qty_lib": 156,
       "arm_state": "liberado",
       "pint_state": "pintado"
+    },
+    "25833_275": {
+      "arm_state": "soldado"
+    },
+    "25833_281": {
+      "arm_state": "liberado"
+    },
+    "25938_131": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25938_132": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25938_133": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25938_134": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25938_135": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25938_136": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25938_137": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25938_138": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25938_139": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25938_140": {
+      "arm_state": "liberado",
+      "qty_lib": 1
     }
   },
   "otMeta": {}
