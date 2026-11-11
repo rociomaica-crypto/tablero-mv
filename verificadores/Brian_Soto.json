@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T12:49:24.969Z",
+  "updatedAt": "2026-11-11T12:50:55.334Z",
   "updatedBy": "Brian Soto",
   "checks": {
     "24969_1": {
@@ -122173,26 +122173,26 @@
       "ot": "25659",
       "obra": "NAVE 4 CDLUQUE CHACOMER OP PILAR 16M",
       "cliente": "Kinetik SA",
-      "fecha": "9/11/2026",
+      "fecha": "11/11/2026",
       "avances": {
-        "arm": 41,
-        "pint": 42,
-        "env": 9,
+        "arm": 42,
+        "pint": 41,
+        "env": 15,
         "mont": 0
       },
       "totales": {
-        "cant": 16697,
-        "arm_lib": 6886,
-        "arm_pend": 9811,
-        "pint_ok": 6983,
-        "pint_pend": 9714,
-        "env_ok": 1491,
-        "env_pend": 15206,
-        "items": 207,
-        "peso_total": 633594.3600000002,
-        "arm_pend_peso": 340402.9350000001,
-        "pint_pend_peso": 333140.515,
-        "env_pend_peso": 541024.2399999999
+        "cant": 16377,
+        "arm_lib": 6900.5,
+        "arm_pend": 9476.5,
+        "pint_ok": 6783,
+        "pint_pend": 9594,
+        "env_ok": 2536,
+        "env_pend": 13841,
+        "items": 201,
+        "peso_total": 632077.1200000001,
+        "arm_pend_peso": 336543.4600000001,
+        "pint_pend_peso": 331652.68500000006,
+        "env_pend_peso": 490351.53
       },
       "items": [
         {
@@ -122616,9 +122616,9 @@
           "long": 1486,
           "cant": 416,
           "peso": 332.8,
-          "arm_lib": 180,
-          "arm_pend": 236,
-          "arm_pend_peso": 188.8,
+          "arm_lib": 416,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 416,
           "pint_pend_peso": 332.8,
@@ -123606,9 +123606,9 @@
           "long": 21942,
           "cant": 8,
           "peso": 6605.6,
-          "arm_lib": 1.5,
-          "arm_pend": 6.5,
-          "arm_pend_peso": 5367.05,
+          "arm_lib": 2,
+          "arm_pend": 6,
+          "arm_pend_peso": 4954.2,
           "pint_ok": 0,
           "pint_pend": 8,
           "pint_pend_peso": 6605.6,
@@ -123624,9 +123624,9 @@
           "long": 21942,
           "cant": 15,
           "peso": 12316.65,
-          "arm_lib": 3,
-          "arm_pend": 12,
-          "arm_pend_peso": 9853.32,
+          "arm_lib": 3.5,
+          "arm_pend": 11.5,
+          "arm_pend_peso": 9442.765,
           "pint_ok": 0.5,
           "pint_pend": 14.5,
           "pint_pend_peso": 11906.095,
@@ -124728,9 +124728,9 @@
           "pint_ok": 80,
           "pint_pend": 150,
           "pint_pend_peso": 607.5,
-          "env_ok": 0,
-          "env_pend": 230,
-          "env_pend_peso": 931.5,
+          "env_ok": 80,
+          "env_pend": 150,
+          "env_pend_peso": 607.5,
           "literal": "BJK"
         },
         {
@@ -124746,9 +124746,9 @@
           "pint_ok": 80,
           "pint_pend": 150,
           "pint_pend_peso": 607.5,
-          "env_ok": 0,
-          "env_pend": 230,
-          "env_pend_peso": 931.5,
+          "env_ok": 80,
+          "env_pend": 150,
+          "env_pend_peso": 607.5,
           "literal": "BJK"
         },
         {
@@ -124764,9 +124764,9 @@
           "pint_ok": 168,
           "pint_pend": 152,
           "pint_pend_peso": 538.08,
-          "env_ok": 0,
-          "env_pend": 320,
-          "env_pend_peso": 1132.8,
+          "env_ok": 168,
+          "env_pend": 152,
+          "env_pend_peso": 538.08,
           "literal": "BJK"
         },
         {
@@ -124782,27 +124782,9 @@
           "pint_ok": 165,
           "pint_pend": 155,
           "pint_pend_peso": 548.7,
-          "env_ok": 0,
-          "env_pend": 320,
-          "env_pend_peso": 1132.8,
-          "literal": "BJK"
-        },
-        {
-          "item": 185,
-          "cod": "BJK-PCL-601",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5875,
-          "cant": 20,
-          "peso": 570.8,
-          "arm_lib": 0,
-          "arm_pend": 20,
-          "arm_pend_peso": 570.8,
-          "pint_ok": 20,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 8,
-          "env_pend": 12,
-          "env_pend_peso": 342.48,
+          "env_ok": 165,
+          "env_pend": 155,
+          "env_pend_peso": 548.7,
           "literal": "BJK"
         },
         {
@@ -125016,9 +124998,9 @@
           "pint_ok": 224,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 224,
-          "env_pend_peso": 1196.16,
+          "env_ok": 112,
+          "env_pend": 112,
+          "env_pend_peso": 598.08,
           "literal": "BJK"
         },
         {
@@ -125031,12 +125013,12 @@
           "arm_lib": 672,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 280,
-          "pint_pend": 392,
-          "pint_pend_peso": 344.96,
-          "env_ok": 0,
-          "env_pend": 672,
-          "env_pend_peso": 591.36,
+          "pint_ok": 339,
+          "pint_pend": 333,
+          "pint_pend_peso": 293.04,
+          "env_ok": 330,
+          "env_pend": 342,
+          "env_pend_peso": 300.96,
           "literal": "BJK"
         },
         {
@@ -125106,9 +125088,9 @@
           "pint_ok": 5,
           "pint_pend": 1,
           "pint_pend_peso": 1280.41,
-          "env_ok": 1,
-          "env_pend": 5,
-          "env_pend_peso": 6402.05,
+          "env_ok": 2,
+          "env_pend": 4,
+          "env_pend_peso": 5121.64,
           "literal": "BJK"
         },
         {
@@ -125124,9 +125106,9 @@
           "pint_ok": 12,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 2,
-          "env_pend": 10,
-          "env_pend_peso": 12557,
+          "env_ok": 7,
+          "env_pend": 5,
+          "env_pend_peso": 6278.5,
           "literal": "BJK"
         },
         {
@@ -125142,9 +125124,9 @@
           "pint_ok": 10,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 2,
-          "env_pend": 8,
-          "env_pend_peso": 9886.32,
+          "env_ok": 6,
+          "env_pend": 4,
+          "env_pend_peso": 4943.16,
           "literal": "BJK"
         },
         {
@@ -125178,9 +125160,9 @@
           "pint_ok": 4,
           "pint_pend": 1,
           "pint_pend_peso": 2424.11,
-          "env_ok": 1,
-          "env_pend": 4,
-          "env_pend_peso": 9696.44,
+          "env_ok": 3,
+          "env_pend": 2,
+          "env_pend_peso": 4848.22,
           "literal": "BJK"
         },
         {
@@ -125250,9 +125232,9 @@
           "pint_ok": 22,
           "pint_pend": 13,
           "pint_pend_peso": 31012.93,
-          "env_ok": 7,
-          "env_pend": 28,
-          "env_pend_peso": 66797.08,
+          "env_ok": 14,
+          "env_pend": 21,
+          "env_pend_peso": 50097.81,
           "literal": "BJK"
         },
         {
@@ -125268,9 +125250,9 @@
           "pint_ok": 5,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 1,
-          "env_pend": 4,
-          "env_pend_peso": 9696.44,
+          "env_ok": 4,
+          "env_pend": 1,
+          "env_pend_peso": 2424.11,
           "literal": "BJK"
         },
         {
@@ -125286,9 +125268,9 @@
           "pint_ok": 4,
           "pint_pend": 2,
           "pint_pend_peso": 2560.82,
-          "env_ok": 1,
-          "env_pend": 5,
-          "env_pend_peso": 6402.05,
+          "env_ok": 3,
+          "env_pend": 3,
+          "env_pend_peso": 3841.23,
           "literal": "BJK"
         },
         {
@@ -125373,9 +125355,9 @@
           "arm_lib": 23.5,
           "arm_pend": 11.5,
           "arm_pend_peso": 13042.265,
-          "pint_ok": 17,
-          "pint_pend": 18,
-          "pint_pend_peso": 20413.98,
+          "pint_ok": 18,
+          "pint_pend": 17,
+          "pint_pend_peso": 19279.87,
           "env_ok": 13,
           "env_pend": 22,
           "env_pend_peso": 24950.42,
@@ -125406,9 +125388,9 @@
           "long": 11250,
           "cant": 35,
           "peso": 35398.3,
-          "arm_lib": 21.5,
-          "arm_pend": 13.5,
-          "arm_pend_peso": 13653.63,
+          "arm_lib": 23,
+          "arm_pend": 12,
+          "arm_pend_peso": 12136.56,
           "pint_ok": 19,
           "pint_pend": 16,
           "pint_pend_peso": 16182.08,
@@ -125454,24 +125436,6 @@
           "literal": "BJK"
         },
         {
-          "item": 236,
-          "cod": "BJK-PCL-700",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5875,
-          "cant": 8,
-          "peso": 228.32,
-          "arm_lib": 0,
-          "arm_pend": 8,
-          "arm_pend_peso": 228.32,
-          "pint_ok": 8,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 8,
-          "env_pend_peso": 228.32,
-          "literal": "BJK"
-        },
-        {
           "item": 237,
           "cod": "BJK-PCL-701",
           "prod": "Correa Lateral/ Perfilado",
@@ -125484,27 +125448,9 @@
           "pint_ok": 88,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 88,
-          "env_pend_peso": 2399.76,
-          "literal": "BJK"
-        },
-        {
-          "item": 238,
-          "cod": "BJK-PCT-700",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 5900,
-          "cant": 8,
-          "peso": 229.28,
-          "arm_lib": 0,
-          "arm_pend": 8,
-          "arm_pend_peso": 229.28,
-          "pint_ok": 8,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 8,
-          "env_pend_peso": 229.28,
+          "env_ok": 44,
+          "env_pend": 44,
+          "env_pend_peso": 1199.88,
           "literal": "BJK"
         },
         {
@@ -125520,45 +125466,9 @@
           "pint_ok": 120,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 120,
-          "env_pend_peso": 3272.4,
-          "literal": "BJK"
-        },
-        {
-          "item": 240,
-          "cod": "BJK-TI-700",
-          "prod": "Tilla de Traccion",
-          "long": 1469,
-          "cant": 112,
-          "peso": 88.48,
-          "arm_lib": 112,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 112,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 112,
-          "env_pend_peso": 88.48,
-          "literal": "BJK"
-        },
-        {
-          "item": 241,
-          "cod": "BJK-TI-701",
-          "prod": "Tilla de Traccion",
-          "long": 1649,
-          "cant": 112,
-          "peso": 98.56,
-          "arm_lib": 112,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 112,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 112,
-          "env_pend_peso": 98.56,
+          "env_ok": 60,
+          "env_pend": 60,
+          "env_pend_peso": 1636.2,
           "literal": "BJK"
         },
         {
@@ -125886,24 +125796,6 @@
           "literal": "TCN"
         },
         {
-          "item": 267,
-          "cod": "33786-PL-600",
-          "prod": "Placa",
-          "long": 250,
-          "cant": 60,
-          "peso": 301.8,
-          "arm_lib": 0,
-          "arm_pend": 60,
-          "arm_pend_peso": 301.8,
-          "pint_ok": 0,
-          "pint_pend": 60,
-          "pint_pend_peso": 301.8,
-          "env_ok": 10,
-          "env_pend": 50,
-          "env_pend_peso": 251.5,
-          "literal": "PL"
-        },
-        {
           "item": 268,
           "cod": "33786-PL-601",
           "prod": "Placa",
@@ -126020,13 +125912,6 @@
           "long": 1400,
           "cant": 32,
           "pend": 32
-        },
-        {
-          "cod": "BJK-TI-2",
-          "prod": "Tilla de Traccion",
-          "long": 1486,
-          "cant": 416,
-          "pend": 236
         },
         {
           "cod": "BJK-VAT-4",
@@ -126264,14 +126149,14 @@
           "prod": "Viga Techo Reticulada de angulos",
           "long": 21942,
           "cant": 8,
-          "pend": 6.5
+          "pend": 6
         },
         {
           "cod": "BJK-VTR-202",
           "prod": "Viga Techo Reticulada de angulos",
           "long": 21942,
           "cant": 15,
-          "pend": 12
+          "pend": 11.5
         },
         {
           "cod": "BJK-VTR-203",
@@ -126377,13 +126262,6 @@
           "long": 978,
           "cant": 320,
           "pend": 155
-        },
-        {
-          "cod": "BJK-PCL-601",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5875,
-          "cant": 20,
-          "pend": 20
         },
         {
           "cod": "BJK-PCL-602",
@@ -126537,7 +126415,7 @@
           "prod": "Contraviga angulo",
           "long": 11250,
           "cant": 35,
-          "pend": 13.5
+          "pend": 12
         },
         {
           "cod": "BJK-VOR-609",
@@ -126554,13 +126432,6 @@
           "pend": 2
         },
         {
-          "cod": "BJK-PCL-700",
-          "prod": "Correa Lateral/ Perfilado",
-          "long": 5875,
-          "cant": 8,
-          "pend": 8
-        },
-        {
           "cod": "BJK-PCL-701",
           "prod": "Correa Lateral/ Perfilado",
           "long": 5615,
@@ -126568,25 +126439,11 @@
           "pend": 88
         },
         {
-          "cod": "BJK-PCT-700",
-          "prod": "Correa de tímpano/ Perfilado",
-          "long": 5900,
-          "cant": 8,
-          "pend": 8
-        },
-        {
           "cod": "BJK-PCT-701",
           "prod": "Correa de tímpano/ Perfilado",
           "long": 5615,
           "cant": 120,
           "pend": 120
-        },
-        {
-          "cod": "33786-PL-600",
-          "prod": "Placa",
-          "long": 250,
-          "cant": 60,
-          "pend": 60
         },
         {
           "cod": "33786-PL-601",
@@ -127204,7 +127061,7 @@
           "prod": "Tilla de Traccion",
           "long": 1649,
           "cant": 672,
-          "pend": 392
+          "pend": 333
         },
         {
           "cod": "BJK-VAT-601",
@@ -127288,7 +127145,7 @@
           "prod": "Contraviga angulo",
           "long": 11250,
           "cant": 35,
-          "pend": 18
+          "pend": 17
         },
         {
           "cod": "BJK-VOR-605",
@@ -127436,13 +127293,6 @@
           "long": 410,
           "cant": 2,
           "pend": 2
-        },
-        {
-          "cod": "33786-PL-600",
-          "prod": "Placa",
-          "long": 250,
-          "cant": 60,
-          "pend": 60
         },
         {
           "cod": "33786-PL-601",
