@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T19:18:31.067Z",
+  "updatedAt": "2026-11-11T19:19:15.345Z",
   "updatedBy": "Angel Villa",
   "checks": {
     "25257_1": {
@@ -47024,6 +47024,14 @@
       "arm_state": "liberado"
     },
     "25938_138": {
+      "qty_lib": 1,
+      "arm_state": "liberado"
+    },
+    "25938_139": {
+      "qty_lib": 1,
+      "arm_state": "liberado"
+    },
+    "25938_140": {
       "qty_lib": 1,
       "arm_state": "liberado"
     }
