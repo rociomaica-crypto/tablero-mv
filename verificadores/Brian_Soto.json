@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T12:55:57.781Z",
+  "updatedAt": "2026-11-11T12:57:29.522Z",
   "updatedBy": "Brian Soto",
   "checks": {
     "24969_1": {
@@ -46702,7 +46702,7 @@
       "ot": "24623",
       "obra": "Naves Industriales MRA",
       "cliente": "KPN SAFETY PARAGUAY S.A",
-      "fecha": "28/10/2026",
+      "fecha": "11/11/2026",
       "avances": {
         "arm": 35,
         "pint": 37,
@@ -46711,15 +46711,15 @@
       },
       "totales": {
         "cant": 6480,
-        "arm_lib": 2245.5,
-        "arm_pend": 4234.5,
+        "arm_lib": 2283.5,
+        "arm_pend": 4196.5,
         "pint_ok": 2418,
         "pint_pend": 4062,
         "env_ok": 0,
         "env_pend": 6480,
         "items": 592,
         "peso_total": 103223.06000000004,
-        "arm_pend_peso": 72109.11500000009,
+        "arm_pend_peso": 71831.1350000001,
         "pint_pend_peso": 51055.51999999997,
         "env_pend_peso": 103223.06000000004
       },
@@ -48261,9 +48261,9 @@
           "long": 8129,
           "cant": 4,
           "peso": 29.04,
-          "arm_lib": 2,
-          "arm_pend": 2,
-          "arm_pend_peso": 14.52,
+          "arm_lib": 4,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 4,
           "pint_pend_peso": 29.04,
@@ -48567,9 +48567,9 @@
           "long": 8143,
           "cant": 4,
           "peso": 29.08,
-          "arm_lib": 2,
-          "arm_pend": 2,
-          "arm_pend_peso": 14.54,
+          "arm_lib": 4,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 4,
           "pint_pend_peso": 29.08,
@@ -48927,9 +48927,9 @@
           "long": 8208,
           "cant": 24,
           "peso": 175.92,
-          "arm_lib": 12,
-          "arm_pend": 12,
-          "arm_pend_peso": 87.96,
+          "arm_lib": 24,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 24,
           "pint_pend_peso": 175.92,
@@ -49089,9 +49089,9 @@
           "long": 8251,
           "cant": 3,
           "peso": 22.11,
-          "arm_lib": 1.5,
-          "arm_pend": 1.5,
-          "arm_pend_peso": 11.055,
+          "arm_lib": 3,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 3,
           "pint_pend_peso": 22.11,
@@ -49215,9 +49215,9 @@
           "long": 8208,
           "cant": 28,
           "peso": 205.24,
-          "arm_lib": 20,
-          "arm_pend": 8,
-          "arm_pend_peso": 58.64,
+          "arm_lib": 28,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 28,
           "pint_pend_peso": 205.24,
@@ -49341,9 +49341,9 @@
           "long": 8252,
           "cant": 9,
           "peso": 66.33,
-          "arm_lib": 4.5,
-          "arm_pend": 4.5,
-          "arm_pend_peso": 33.165,
+          "arm_lib": 9,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 9,
           "pint_pend_peso": 66.33,
@@ -49485,9 +49485,9 @@
           "long": 8233,
           "cant": 2,
           "peso": 14.7,
-          "arm_lib": 1,
-          "arm_pend": 1,
-          "arm_pend_peso": 7.35,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 2,
           "pint_pend_peso": 14.7,
@@ -49755,9 +49755,9 @@
           "long": 8122,
           "cant": 14,
           "peso": 101.5,
-          "arm_lib": 7,
-          "arm_pend": 7,
-          "arm_pend_peso": 50.75,
+          "arm_lib": 14,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 14,
           "pint_pend_peso": 101.5,
@@ -57726,13 +57726,6 @@
           "pend": 0.5
         },
         {
-          "cod": "BET-CH-102",
-          "prod": "Cruz Horizontal",
-          "long": 8129,
-          "cant": 4,
-          "pend": 2
-        },
-        {
           "cod": "BET-CH-103",
           "prod": "Cruz Horizontal",
           "long": 7865,
@@ -57815,13 +57808,6 @@
           "long": 5861,
           "cant": 1,
           "pend": 0.5
-        },
-        {
-          "cod": "BET-CH-200",
-          "prod": "Cruz Horizontal",
-          "long": 8143,
-          "cant": 4,
-          "pend": 2
         },
         {
           "cod": "BET-CH-201",
@@ -57936,13 +57922,6 @@
           "pend": 2
         },
         {
-          "cod": "BET-CH-301",
-          "prod": "Cruz Horizontal",
-          "long": 8208,
-          "cant": 24,
-          "pend": 12
-        },
-        {
           "cod": "BET-CH-302",
           "prod": "Cruz Horizontal",
           "long": 5830,
@@ -57985,13 +57964,6 @@
           "pend": 2
         },
         {
-          "cod": "BET-CH-310",
-          "prod": "Cruz Horizontal",
-          "long": 8251,
-          "cant": 3,
-          "pend": 1.5
-        },
-        {
           "cod": "BET-CH-313",
           "prod": "Cruz Horizontal",
           "long": 9108,
@@ -58020,13 +57992,6 @@
           "pend": 0.5
         },
         {
-          "cod": "BET-CH-400",
-          "prod": "Cruz Horizontal",
-          "long": 8208,
-          "cant": 28,
-          "pend": 8
-        },
-        {
           "cod": "BET-CH-401",
           "prod": "Cruz Horizontal",
           "long": 8126,
@@ -58053,13 +58018,6 @@
           "long": 9331,
           "cant": 1,
           "pend": 0.5
-        },
-        {
-          "cod": "BET-CH-407",
-          "prod": "Cruz Horizontal",
-          "long": 8252,
-          "cant": 9,
-          "pend": 4.5
         },
         {
           "cod": "BET-CH-409",
@@ -58095,13 +58053,6 @@
           "long": 8331,
           "cant": 1,
           "pend": 0.5
-        },
-        {
-          "cod": "BET-CH-501",
-          "prod": "Cruz Horizontal",
-          "long": 8233,
-          "cant": 2,
-          "pend": 1
         },
         {
           "cod": "BET-CH-502",
@@ -58179,13 +58130,6 @@
           "long": 8876,
           "cant": 1,
           "pend": 0.5
-        },
-        {
-          "cod": "BET-CH-516",
-          "prod": "Cruz Horizontal",
-          "long": 8122,
-          "cant": 14,
-          "pend": 7
         },
         {
           "cod": "BET-CH-517",
@@ -59481,6 +59425,62 @@
           "long": 130,
           "cant": 8,
           "pend": 8
+        },
+        {
+          "cod": "BET-SC-100",
+          "prod": "Soporte Cruz",
+          "long": 125,
+          "cant": 64,
+          "pend": 64
+        },
+        {
+          "cod": "BET-SC-101",
+          "prod": "Soporte Cruz",
+          "long": 125,
+          "cant": 64,
+          "pend": 64
+        },
+        {
+          "cod": "BET-SC-102",
+          "prod": "Soporte Cruz",
+          "long": 130,
+          "cant": 8,
+          "pend": 8
+        },
+        {
+          "cod": "BET-SC-103",
+          "prod": "Soporte Cruz",
+          "long": 130,
+          "cant": 8,
+          "pend": 8
+        },
+        {
+          "cod": "BET-SC-200",
+          "prod": "Soporte Cruz",
+          "long": 130,
+          "cant": 8,
+          "pend": 8
+        },
+        {
+          "cod": "BET-SC-201",
+          "prod": "Soporte Cruz",
+          "long": 125,
+          "cant": 64,
+          "pend": 64
+        },
+        {
+          "cod": "BET-SC-202",
+          "prod": "Soporte Cruz",
+          "long": 130,
+          "cant": 8,
+          "pend": 8
+        },
+        {
+          "cod": "BET-SC-203",
+          "prod": "Soporte Cruz",
+          "long": 125,
+          "cant": 64,
+          "pend": 64
         }
       ],
       "pint_pend_items": [
