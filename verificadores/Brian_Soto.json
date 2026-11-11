@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T13:27:32.847Z",
+  "updatedAt": "2026-11-11T20:11:43.317Z",
   "updatedBy": "Brian Soto",
   "checks": {
     "24969_1": {
@@ -19831,15 +19831,18 @@
     },
     "25856_334": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "en_pintura"
     },
     "25856_333": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "en_pintura"
     },
     "25856_332": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "en_pintura"
     },
     "25979_2": {
       "arm_state": "liberado",
@@ -42239,7 +42242,8 @@
     },
     "25999_37": {
       "arm_state": "liberado",
-      "qty_lib": 10
+      "qty_lib": 10,
+      "pint_state": "pintado"
     },
     "25898_106": {
       "arm_state": "liberado",
@@ -42792,19 +42796,23 @@
     },
     "25999_30": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25999_31": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25999_32": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25999_33": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25856_180": {
       "arm_state": "liberado",
@@ -43874,11 +43882,13 @@
     },
     "25999_53": {
       "arm_state": "liberado",
-      "qty_lib": 6
+      "qty_lib": 6,
+      "pint_state": "pintado"
     },
     "25999_38": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25870_128": {
       "arm_state": "liberado",
@@ -44583,7 +44593,7 @@
       "qty_lib": 16
     },
     "25876_18": {
-      "arm_state": "soldado",
+      "arm_state": "liberado",
       "qty_lib": 2
     },
     "25876_69": {
@@ -44727,7 +44737,8 @@
     },
     "25888_63": {
       "arm_state": "liberado",
-      "qty_lib": 2
+      "qty_lib": 2,
+      "pint_state": "pintado"
     },
     "25888_60": {
       "arm_state": "liberado",
@@ -44921,31 +44932,38 @@
     },
     "25999_39": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25999_40": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25999_43": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25999_42": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25999_41": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25999_44": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25999_45": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25856_350": {
       "arm_state": "liberado",
@@ -44969,7 +44987,8 @@
     },
     "25999_35": {
       "arm_state": "liberado",
-      "qty_lib": 6
+      "qty_lib": 6,
+      "pint_state": "pintado"
     },
     "25833_35": {
       "arm_state": "liberado",
@@ -44993,159 +45012,198 @@
     },
     "25999_36": {
       "arm_state": "liberado",
-      "qty_lib": 14
+      "qty_lib": 14,
+      "pint_state": "pintado"
     },
     "25999_1": {
-      "arm_state": "armado",
-      "qty_lib": 2
+      "arm_state": "liberado",
+      "qty_lib": 2,
+      "pint_state": "pintado"
     },
     "25999_2": {
-      "arm_state": "armado",
-      "qty_lib": 1
+      "arm_state": "liberado",
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25999_3": {
-      "arm_state": "armado",
-      "qty_lib": 1
+      "arm_state": "liberado",
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25999_4": {
-      "arm_state": "armado",
-      "qty_lib": 1
+      "arm_state": "liberado",
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25999_5": {
-      "arm_state": "armado",
-      "qty_lib": 1
+      "arm_state": "liberado",
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25999_6": {
-      "arm_state": "armado",
-      "qty_lib": 2
+      "arm_state": "liberado",
+      "qty_lib": 2,
+      "pint_state": "pintado"
     },
     "25999_7": {
-      "arm_state": "armado",
-      "qty_lib": 2
+      "arm_state": "liberado",
+      "qty_lib": 2,
+      "pint_state": "pintado"
     },
     "25999_8": {
-      "arm_state": "armado",
-      "qty_lib": 2
+      "arm_state": "liberado",
+      "qty_lib": 2,
+      "pint_state": "pintado"
     },
     "25999_9": {
-      "arm_state": "armado",
-      "qty_lib": 2
+      "arm_state": "liberado",
+      "qty_lib": 2,
+      "pint_state": "pintado"
     },
     "25999_10": {
-      "arm_state": "armado",
-      "qty_lib": 1
+      "arm_state": "liberado",
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25999_11": {
-      "arm_state": "armado",
-      "qty_lib": 2
+      "arm_state": "liberado",
+      "qty_lib": 2,
+      "pint_state": "pintado"
     },
     "25999_12": {
-      "arm_state": "armado",
-      "qty_lib": 1
+      "arm_state": "liberado",
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25999_13": {
-      "arm_state": "armado",
-      "qty_lib": 1
+      "arm_state": "liberado",
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25999_14": {
-      "arm_state": "armado",
-      "qty_lib": 1
+      "arm_state": "liberado",
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25999_15": {
-      "arm_state": "armado",
-      "qty_lib": 1
+      "arm_state": "liberado",
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25999_16": {
-      "arm_state": "armado",
-      "qty_lib": 1
+      "arm_state": "liberado",
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25999_17": {
-      "arm_state": "armado",
-      "qty_lib": 1
+      "arm_state": "liberado",
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25999_18": {
-      "arm_state": "armado",
-      "qty_lib": 1
+      "arm_state": "liberado",
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25999_19": {
-      "arm_state": "armado",
-      "qty_lib": 2
+      "arm_state": "liberado",
+      "qty_lib": 2,
+      "pint_state": "pintado"
     },
     "25999_20": {
-      "arm_state": "armado",
-      "qty_lib": 1
+      "arm_state": "liberado",
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25999_21": {
-      "arm_state": "armado",
-      "qty_lib": 1
+      "arm_state": "liberado",
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25999_22": {
-      "arm_state": "armado",
-      "qty_lib": 1
+      "arm_state": "liberado",
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25999_23": {
-      "arm_state": "armado",
-      "qty_lib": 1
+      "arm_state": "liberado",
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25999_24": {
-      "arm_state": "armado",
-      "qty_lib": 1
+      "arm_state": "liberado",
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25999_25": {
-      "arm_state": "armado",
-      "qty_lib": 1
+      "arm_state": "liberado",
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25999_26": {
-      "arm_state": "armado",
-      "qty_lib": 1
+      "arm_state": "liberado",
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25999_27": {
-      "arm_state": "armado",
-      "qty_lib": 1
+      "arm_state": "liberado",
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25999_28": {
-      "arm_state": "armado",
-      "qty_lib": 1
+      "arm_state": "liberado",
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25999_29": {
-      "arm_state": "armado",
-      "qty_lib": 1
+      "arm_state": "liberado",
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25999_70": {
-      "arm_state": "armado",
-      "qty_lib": 1
+      "arm_state": "liberado",
+      "qty_lib": 1,
+      "pint_state": "en_pintura"
     },
     "25999_69": {
-      "arm_state": "armado",
-      "qty_lib": 26
+      "arm_state": "liberado",
+      "qty_lib": 26,
+      "pint_state": "en_pintura"
     },
     "25999_68": {
-      "arm_state": "armado",
-      "qty_lib": 26
+      "arm_state": "liberado",
+      "qty_lib": 26,
+      "pint_state": "en_pintura"
     },
     "25999_67": {
-      "arm_state": "armado",
-      "qty_lib": 12
+      "arm_state": "liberado",
+      "qty_lib": 12,
+      "pint_state": "en_pintura"
     },
     "25999_66": {
-      "arm_state": "armado",
-      "qty_lib": 2
+      "arm_state": "liberado",
+      "qty_lib": 2,
+      "pint_state": "en_pintura"
     },
     "25999_65": {
-      "arm_state": "armado",
-      "qty_lib": 2
+      "arm_state": "liberado",
+      "qty_lib": 2,
+      "pint_state": "en_pintura"
     },
     "25999_64": {
-      "arm_state": "armado",
-      "qty_lib": 3
+      "arm_state": "liberado",
+      "qty_lib": 3,
+      "pint_state": "en_pintura"
     },
     "25999_63": {
-      "arm_state": "armado",
-      "qty_lib": 4
+      "arm_state": "liberado",
+      "qty_lib": 4,
+      "pint_state": "en_pintura"
     },
     "25999_62": {
-      "arm_state": "armado",
-      "qty_lib": 2
+      "arm_state": "liberado",
+      "qty_lib": 2,
+      "pint_state": "en_pintura"
     },
     "25833_13": {
       "arm_state": "liberado",
@@ -45273,15 +45331,18 @@
     },
     "25999_72": {
       "arm_state": "liberado",
-      "qty_lib": 22
+      "qty_lib": 22,
+      "pint_state": "pintado"
     },
     "25999_74": {
       "arm_state": "liberado",
-      "qty_lib": 14
+      "qty_lib": 14,
+      "pint_state": "pintado"
     },
     "25999_75": {
       "arm_state": "liberado",
-      "qty_lib": 14
+      "qty_lib": 14,
+      "pint_state": "pintado"
     },
     "25381_501": {
       "arm_state": "liberado",
@@ -45758,7 +45819,8 @@
     },
     "25999_49": {
       "arm_state": "liberado",
-      "qty_lib": 13
+      "qty_lib": 13,
+      "pint_state": "pintado"
     },
     "25107_1491": {
       "arm_state": "liberado",
@@ -45782,7 +45844,8 @@
     },
     "25999_48": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25856_176": {
       "arm_state": "liberado",
@@ -45801,7 +45864,8 @@
     },
     "25999_73": {
       "arm_state": "liberado",
-      "qty_lib": 56
+      "qty_lib": 56,
+      "pint_state": "pintado"
     },
     "25856_209": {
       "arm_state": "liberado",
@@ -45813,11 +45877,13 @@
     },
     "25856_215": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "en_pintura"
     },
     "25856_220": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "en_pintura"
     },
     "25381_530": {
       "arm_state": "liberado",
@@ -45861,15 +45927,18 @@
     },
     "25999_51": {
       "arm_state": "liberado",
-      "qty_lib": 6
+      "qty_lib": 6,
+      "pint_state": "pintado"
     },
     "25999_52": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25999_50": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25833_292": {
       "arm_state": "liberado",
@@ -45973,7 +46042,7 @@
     },
     "25870_230": {
       "arm_state": "liberado",
-      "qty_lib": 12
+      "qty_lib": 72
     },
     "25870_231": {
       "arm_state": "liberado",
@@ -45989,7 +46058,8 @@
     },
     "25999_59": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25856_376": {
       "arm_state": "liberado",
@@ -45997,7 +46067,8 @@
     },
     "25999_55": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25833_96": {
       "arm_state": "liberado",
@@ -46148,7 +46219,8 @@
     },
     "25999_58": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25856_357": {
       "arm_state": "liberado",
@@ -46157,7 +46229,8 @@
     },
     "25856_359": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "en_pintura"
     },
     "25856_354": {
       "arm_state": "liberado",
@@ -46181,7 +46254,8 @@
     },
     "25856_364": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "en_pintura"
     },
     "25856_362": {
       "arm_state": "liberado",
@@ -46193,7 +46267,8 @@
       "qty_lib": 4
     },
     "25876_83": {
-      "arm_state": "armado"
+      "arm_state": "liberado",
+      "qty_lib": 4
     },
     "25876_84": {
       "arm_state": "liberado",
@@ -46205,11 +46280,13 @@
     },
     "25999_54": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25999_56": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25856_251": {
       "arm_state": "liberado",
@@ -46246,11 +46323,13 @@
     },
     "25999_46": {
       "arm_state": "liberado",
-      "qty_lib": 36
+      "qty_lib": 36,
+      "pint_state": "pintado"
     },
     "25999_47": {
       "arm_state": "liberado",
-      "qty_lib": 36
+      "qty_lib": 36,
+      "pint_state": "pintado"
     },
     "25870_237": {
       "arm_state": "liberado",
@@ -46533,7 +46612,164 @@
     },
     "25999_57": {
       "arm_state": "liberado",
+      "qty_lib": 1,
+      "pint_state": "pintado"
+    },
+    "25999_34": {
+      "arm_state": "liberado",
+      "qty_lib": 8,
+      "pint_state": "pintado"
+    },
+    "25999_60": {
+      "arm_state": "liberado",
+      "pint_state": "en_pintura",
       "qty_lib": 1
+    },
+    "25856_50": {
+      "arm_state": "liberado",
+      "qty_lib": 6
+    },
+    "25856_247": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25856_390": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25856_389": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25870_110": {
+      "arm_state": "liberado",
+      "qty_lib": 12
+    },
+    "25870_111": {
+      "arm_state": "liberado",
+      "qty_lib": 10
+    },
+    "25833_275": {
+      "arm_state": "soldado"
+    },
+    "25999_76": {
+      "arm_state": "liberado",
+      "qty_lib": 126
+    },
+    "25833_281": {
+      "arm_state": "liberado"
+    },
+    "25999_71": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 156
+    },
+    "25938_131": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25938_132": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25938_133": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25938_134": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25938_135": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25938_136": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25938_137": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25938_138": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25938_139": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25938_140": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25870_102": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25870_250": {
+      "arm_state": "liberado",
+      "qty_lib": 8
+    },
+    "25870_251": {
+      "arm_state": "liberado",
+      "qty_lib": 16
+    },
+    "25870_252": {
+      "arm_state": "liberado",
+      "qty_lib": 48
+    },
+    "25870_106": {
+      "arm_state": "liberado",
+      "qty_lib": 24
+    },
+    "25870_107": {
+      "arm_state": "liberado",
+      "qty_lib": 24
+    },
+    "25870_234": {
+      "arm_state": "liberado",
+      "qty_lib": 8
+    },
+    "25870_235": {
+      "arm_state": "liberado",
+      "qty_lib": 4
+    },
+    "25870_236": {
+      "arm_state": "liberado",
+      "qty_lib": 4
+    },
+    "25856_271": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25856_272": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25856_178": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25856_188": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25856_181": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25856_185": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25856_172": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25856_171": {
+      "arm_state": "armado"
     }
   },
   "otMeta": {
@@ -196497,6 +196733,716 @@
           "long": 1672,
           "cant": 126,
           "pend": 126
+        }
+      ]
+    },
+    "26037": {
+      "ot": "26037",
+      "obra": "Minerva Foods Ampliación_ADIC. 01 Soporte de vigas",
+      "cliente": "Jiménez Gaona y Lima SA",
+      "fecha": "11/11/2026",
+      "avances": {
+        "arm": 89,
+        "pint": 0,
+        "env": 0,
+        "mont": 0
+      },
+      "totales": {
+        "cant": 56,
+        "arm_lib": 50,
+        "arm_pend": 6,
+        "pint_ok": 0,
+        "pint_pend": 56,
+        "env_ok": 0,
+        "env_pend": 56,
+        "items": 26,
+        "peso_total": 450.2199999999999,
+        "arm_pend_peso": 56.989999999999995,
+        "pint_pend_peso": 450.2199999999999,
+        "env_pend_peso": 450.2199999999999
+      },
+      "items": [
+        {
+          "item": 1,
+          "cod": "BOX-PL-1",
+          "prod": "Placa",
+          "long": 693,
+          "cant": 6,
+          "peso": 21.06,
+          "arm_lib": 6,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 6,
+          "pint_pend_peso": 21.06,
+          "env_ok": 0,
+          "env_pend": 6,
+          "env_pend_peso": 21.06,
+          "literal": "BOX"
+        },
+        {
+          "item": 2,
+          "cod": "BOX-PL-2",
+          "prod": "Placa",
+          "long": 693,
+          "cant": 2,
+          "peso": 7.02,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 7.02,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 7.02,
+          "literal": "BOX"
+        },
+        {
+          "item": 3,
+          "cod": "BOX-PL-3",
+          "prod": "Placa",
+          "long": 693,
+          "cant": 1,
+          "peso": 3.51,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 3.51,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 3.51,
+          "literal": "BOX"
+        },
+        {
+          "item": 4,
+          "cod": "BOX-PL-4",
+          "prod": "Placa",
+          "long": 693,
+          "cant": 3,
+          "peso": 10.53,
+          "arm_lib": 3,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 3,
+          "pint_pend_peso": 10.53,
+          "env_ok": 0,
+          "env_pend": 3,
+          "env_pend_peso": 10.53,
+          "literal": "BOX"
+        },
+        {
+          "item": 5,
+          "cod": "BOX-PL-5",
+          "prod": "Placa",
+          "long": 693,
+          "cant": 1,
+          "peso": 3.51,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 3.51,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 3.51,
+          "literal": "BOX"
+        },
+        {
+          "item": 6,
+          "cod": "BOX-PL-6",
+          "prod": "Placa",
+          "long": 693,
+          "cant": 1,
+          "peso": 3.51,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 3.51,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 3.51,
+          "literal": "BOX"
+        },
+        {
+          "item": 7,
+          "cod": "BOX-SP-1",
+          "prod": "SOPORTE",
+          "long": 1783,
+          "cant": 2,
+          "peso": 26.68,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 26.68,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 26.68,
+          "literal": "BOX"
+        },
+        {
+          "item": 8,
+          "cod": "BOX-SP-2",
+          "prod": "SOPORTE",
+          "long": 1701,
+          "cant": 2,
+          "peso": 25.48,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 25.48,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 25.48,
+          "literal": "BOX"
+        },
+        {
+          "item": 9,
+          "cod": "BOX-SP-3",
+          "prod": "SOPORTE",
+          "long": 1189,
+          "cant": 2,
+          "peso": 18.08,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 18.08,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 18.08,
+          "literal": "BOX"
+        },
+        {
+          "item": 10,
+          "cod": "BOX-SP-4",
+          "prod": "SOPORTE",
+          "long": 1219,
+          "cant": 2,
+          "peso": 18.5,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 18.5,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 18.5,
+          "literal": "BOX"
+        },
+        {
+          "item": 11,
+          "cod": "BOX-SP-5",
+          "prod": "SOPORTE",
+          "long": 1632,
+          "cant": 5,
+          "peso": 61.75,
+          "arm_lib": 5,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 5,
+          "pint_pend_peso": 61.75,
+          "env_ok": 0,
+          "env_pend": 5,
+          "env_pend_peso": 61.75,
+          "literal": "BOX"
+        },
+        {
+          "item": 12,
+          "cod": "BOX-SP-6",
+          "prod": "SOPORTE",
+          "long": 1632,
+          "cant": 1,
+          "peso": 12.35,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 12.35,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 12.35,
+          "literal": "BOX"
+        },
+        {
+          "item": 13,
+          "cod": "BOX-SP-7",
+          "prod": "SOPORTE",
+          "long": 1120,
+          "cant": 2,
+          "peso": 9.28,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 9.28,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 9.28,
+          "literal": "BOX"
+        },
+        {
+          "item": 14,
+          "cod": "BOX-SP-8",
+          "prod": "SOPORTE",
+          "long": 1105,
+          "cant": 1,
+          "peso": 4.59,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 4.59,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 4.59,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 4.59,
+          "literal": "BOX"
+        },
+        {
+          "item": 15,
+          "cod": "BOX-SP-9",
+          "prod": "SOPORTE",
+          "long": 1597,
+          "cant": 3,
+          "peso": 19.2,
+          "arm_lib": 3,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 3,
+          "pint_pend_peso": 19.2,
+          "env_ok": 0,
+          "env_pend": 3,
+          "env_pend_peso": 19.2,
+          "literal": "BOX"
+        },
+        {
+          "item": 16,
+          "cod": "BOX-SP-10",
+          "prod": "SOPORTE",
+          "long": 2148,
+          "cant": 1,
+          "peso": 8.42,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 8.42,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 8.42,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 8.42,
+          "literal": "BOX"
+        },
+        {
+          "item": 17,
+          "cod": "BOX-SP-11",
+          "prod": "SOPORTE",
+          "long": 2083,
+          "cant": 2,
+          "peso": 16.36,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 16.36,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 16.36,
+          "literal": "BOX"
+        },
+        {
+          "item": 18,
+          "cod": "BOX-SP-12",
+          "prod": "SOPORTE",
+          "long": 1515,
+          "cant": 3,
+          "peso": 18.3,
+          "arm_lib": 3,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 3,
+          "pint_pend_peso": 18.3,
+          "env_ok": 0,
+          "env_pend": 3,
+          "env_pend_peso": 18.3,
+          "literal": "BOX"
+        },
+        {
+          "item": 19,
+          "cod": "BOX-SP-13",
+          "prod": "SOPORTE",
+          "long": 1346,
+          "cant": 3,
+          "peso": 30.84,
+          "arm_lib": 3,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 3,
+          "pint_pend_peso": 30.84,
+          "env_ok": 0,
+          "env_pend": 3,
+          "env_pend_peso": 30.84,
+          "literal": "BOX"
+        },
+        {
+          "item": 20,
+          "cod": "BOX-SP-14",
+          "prod": "SOPORTE",
+          "long": 1298,
+          "cant": 3,
+          "peso": 29.79,
+          "arm_lib": 3,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 3,
+          "pint_pend_peso": 29.79,
+          "env_ok": 0,
+          "env_pend": 3,
+          "env_pend_peso": 29.79,
+          "literal": "BOX"
+        },
+        {
+          "item": 21,
+          "cod": "BOX-SP-15",
+          "prod": "SOPORTE",
+          "long": 1113,
+          "cant": 1,
+          "peso": 4.62,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 4.62,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 4.62,
+          "literal": "BOX"
+        },
+        {
+          "item": 22,
+          "cod": "BOX-SP-16",
+          "prod": "SOPORTE",
+          "long": 1189,
+          "cant": 2,
+          "peso": 18.28,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 18.28,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 18.28,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 18.28,
+          "literal": "BOX"
+        },
+        {
+          "item": 23,
+          "cod": "BOX-SP-17",
+          "prod": "SOPORTE",
+          "long": 1832,
+          "cant": 1,
+          "peso": 7.26,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 7.26,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 7.26,
+          "literal": "BOX"
+        },
+        {
+          "item": 24,
+          "cod": "BOX-SP-18",
+          "prod": "SOPORTE",
+          "long": 1701,
+          "cant": 2,
+          "peso": 25.7,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 25.7,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 25.7,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 25.7,
+          "literal": "BOX"
+        },
+        {
+          "item": 25,
+          "cod": "BOX-SP-19",
+          "prod": "SOPORTE",
+          "long": 1783,
+          "cant": 2,
+          "peso": 26.88,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 26.88,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 26.88,
+          "literal": "BOX"
+        },
+        {
+          "item": 26,
+          "cod": "BOX-SP-20",
+          "prod": "SOPORTE",
+          "long": 1219,
+          "cant": 2,
+          "peso": 18.72,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 18.72,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 18.72,
+          "literal": "BOX"
+        }
+      ],
+      "arm_pend_items": [
+        {
+          "cod": "BOX-SP-8",
+          "prod": "SOPORTE",
+          "long": 1105,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOX-SP-10",
+          "prod": "SOPORTE",
+          "long": 2148,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOX-SP-16",
+          "prod": "SOPORTE",
+          "long": 1189,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOX-SP-18",
+          "prod": "SOPORTE",
+          "long": 1701,
+          "cant": 2,
+          "pend": 2
+        }
+      ],
+      "pint_pend_items": [
+        {
+          "cod": "BOX-PL-1",
+          "prod": "Placa",
+          "long": 693,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "BOX-PL-2",
+          "prod": "Placa",
+          "long": 693,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOX-PL-3",
+          "prod": "Placa",
+          "long": 693,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOX-PL-4",
+          "prod": "Placa",
+          "long": 693,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BOX-PL-5",
+          "prod": "Placa",
+          "long": 693,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOX-PL-6",
+          "prod": "Placa",
+          "long": 693,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOX-SP-1",
+          "prod": "SOPORTE",
+          "long": 1783,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOX-SP-2",
+          "prod": "SOPORTE",
+          "long": 1701,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOX-SP-3",
+          "prod": "SOPORTE",
+          "long": 1189,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOX-SP-4",
+          "prod": "SOPORTE",
+          "long": 1219,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOX-SP-5",
+          "prod": "SOPORTE",
+          "long": 1632,
+          "cant": 5,
+          "pend": 5
+        },
+        {
+          "cod": "BOX-SP-6",
+          "prod": "SOPORTE",
+          "long": 1632,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOX-SP-7",
+          "prod": "SOPORTE",
+          "long": 1120,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOX-SP-8",
+          "prod": "SOPORTE",
+          "long": 1105,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOX-SP-9",
+          "prod": "SOPORTE",
+          "long": 1597,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BOX-SP-10",
+          "prod": "SOPORTE",
+          "long": 2148,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOX-SP-11",
+          "prod": "SOPORTE",
+          "long": 2083,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOX-SP-12",
+          "prod": "SOPORTE",
+          "long": 1515,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BOX-SP-13",
+          "prod": "SOPORTE",
+          "long": 1346,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BOX-SP-14",
+          "prod": "SOPORTE",
+          "long": 1298,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BOX-SP-15",
+          "prod": "SOPORTE",
+          "long": 1113,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOX-SP-16",
+          "prod": "SOPORTE",
+          "long": 1189,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOX-SP-17",
+          "prod": "SOPORTE",
+          "long": 1832,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOX-SP-18",
+          "prod": "SOPORTE",
+          "long": 1701,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOX-SP-19",
+          "prod": "SOPORTE",
+          "long": 1783,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOX-SP-20",
+          "prod": "SOPORTE",
+          "long": 1219,
+          "cant": 2,
+          "pend": 2
         }
       ]
     }
