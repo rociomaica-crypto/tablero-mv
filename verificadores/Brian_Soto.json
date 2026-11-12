@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T09:08:20.469Z",
+  "updatedAt": "2026-11-12T09:23:17.890Z",
   "updatedBy": "Brian Soto",
   "checks": {
     "24969_1": {
@@ -45719,8 +45719,9 @@
       "qty_lib": 1
     },
     "25888_77": {
-      "arm_state": "armado",
-      "qty_lib": 2
+      "arm_state": "liberado",
+      "qty_lib": 2,
+      "pint_state": "pintado"
     },
     "25888_78": {
       "arm_state": "armado",
@@ -150078,7 +150079,7 @@
       "ot": "25837",
       "obra": "Solar Banco",
       "cliente": "Dumot Construcciones Civiles E Industriales SA",
-      "fecha": "11/11/2026",
+      "fecha": "12/11/2026",
       "avances": {
         "arm": 5,
         "pint": 0,
