@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T10:28:14.512Z",
+  "updatedAt": "2026-11-12T12:21:24.070Z",
   "updatedBy": "Brian Soto",
   "checks": {
     "24969_1": {
@@ -148858,15 +148858,15 @@
       },
       "totales": {
         "cant": 16316,
-        "arm_lib": 6899.5,
-        "arm_pend": 9416.5,
+        "arm_lib": 6901,
+        "arm_pend": 9415,
         "pint_ok": 6782,
         "pint_pend": 9534,
         "env_ok": 2534,
         "env_pend": 13782,
         "items": 199,
         "peso_total": 631063.7700000001,
-        "arm_pend_peso": 336364.6600000001,
+        "arm_pend_peso": 334786.2250000001,
         "pint_pend_peso": 331473.88500000007,
         "env_pend_peso": 482751.44000000006
       },
@@ -152010,9 +152010,9 @@
           "long": 11250,
           "cant": 35,
           "peso": 39693.85,
-          "arm_lib": 23.5,
-          "arm_pend": 11.5,
-          "arm_pend_peso": 13042.265,
+          "arm_lib": 24,
+          "arm_pend": 11,
+          "arm_pend_peso": 12475.21,
           "pint_ok": 18,
           "pint_pend": 17,
           "pint_pend_peso": 19279.87,
@@ -152046,9 +152046,9 @@
           "long": 11250,
           "cant": 35,
           "peso": 35398.3,
-          "arm_lib": 23,
-          "arm_pend": 12,
-          "arm_pend_peso": 12136.56,
+          "arm_lib": 24,
+          "arm_pend": 11,
+          "arm_pend_peso": 11125.18,
           "pint_ok": 19,
           "pint_pend": 16,
           "pint_pend_peso": 16182.08,
@@ -153041,7 +153041,7 @@
           "prod": "Contraviga angulo",
           "long": 11250,
           "cant": 35,
-          "pend": 11.5
+          "pend": 11
         },
         {
           "cod": "BJK-VOR-605",
@@ -153055,7 +153055,7 @@
           "prod": "Contraviga angulo",
           "long": 11250,
           "cant": 35,
-          "pend": 12
+          "pend": 11
         },
         {
           "cod": "BJK-VOR-609",
