@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T09:24:44.775Z",
+  "updatedAt": "2026-11-12T09:26:17.000Z",
   "updatedBy": "Brian Soto",
   "checks": {
     "24969_1": {
@@ -165076,24 +165076,24 @@
       "ot": "25870",
       "obra": "Hospital Nacional de Curuguaty_Estructura",
       "cliente": "Consorcio Norte Salud CNS",
-      "fecha": "11/11/2026",
+      "fecha": "12/11/2026",
       "avances": {
-        "arm": 9,
+        "arm": 12,
         "pint": 10,
         "env": 0,
         "mont": 0
       },
       "totales": {
         "cant": 4756,
-        "arm_lib": 451.5,
-        "arm_pend": 4304.5,
+        "arm_lib": 560,
+        "arm_pend": 4196,
         "pint_ok": 487,
         "pint_pend": 4269,
         "env_ok": 0,
         "env_pend": 4756,
         "items": 453,
         "peso_total": 73316.80999999998,
-        "arm_pend_peso": 67218.66500000004,
+        "arm_pend_peso": 66762.62000000004,
         "pint_pend_peso": 58403.99000000005,
         "env_pend_peso": 73316.80999999998
       },
@@ -166797,9 +166797,9 @@
           "long": 1441,
           "cant": 72,
           "peso": 183.6,
-          "arm_lib": 36,
-          "arm_pend": 36,
-          "arm_pend_peso": 91.8,
+          "arm_lib": 72,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 72,
           "pint_pend_peso": 183.6,
@@ -167157,9 +167157,9 @@
           "long": 577,
           "cant": 8,
           "peso": 9.68,
-          "arm_lib": 0,
-          "arm_pend": 8,
-          "arm_pend_peso": 9.68,
+          "arm_lib": 8,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 8,
           "pint_pend_peso": 9.68,
@@ -167175,9 +167175,9 @@
           "long": 1376,
           "cant": 16,
           "peso": 39.2,
-          "arm_lib": 0,
-          "arm_pend": 16,
-          "arm_pend_peso": 39.2,
+          "arm_lib": 16,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 16,
           "pint_pend_peso": 39.2,
@@ -167193,9 +167193,9 @@
           "long": 1441,
           "cant": 48,
           "peso": 122.4,
-          "arm_lib": 0,
-          "arm_pend": 48,
-          "arm_pend_peso": 122.4,
+          "arm_lib": 48,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 48,
           "pint_pend_peso": 122.4,
@@ -167769,9 +167769,9 @@
           "long": 12733,
           "cant": 1,
           "peso": 385.93,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 385.93,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 192.965,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 385.93,
@@ -173675,13 +173675,6 @@
           "pend": 96
         },
         {
-          "cod": "BNI-TC-3",
-          "prod": "Tilla de compresion",
-          "long": 1441,
-          "cant": 72,
-          "pend": 36
-        },
-        {
           "cod": "BNI-TE-1",
           "prod": "Tensor",
           "long": 5730,
@@ -173792,27 +173785,6 @@
           "long": 50,
           "cant": 64,
           "pend": 64
-        },
-        {
-          "cod": "BNI-TC-300",
-          "prod": "Tilla de compresion",
-          "long": 577,
-          "cant": 8,
-          "pend": 8
-        },
-        {
-          "cod": "BNI-TC-301",
-          "prod": "Tilla de compresion",
-          "long": 1376,
-          "cant": 16,
-          "pend": 16
-        },
-        {
-          "cod": "BNI-TC-302",
-          "prod": "Tilla de compresion",
-          "long": 1441,
-          "cant": 48,
-          "pend": 48
         },
         {
           "cod": "BNI-TE-300",
@@ -174036,7 +174008,7 @@
           "prod": "Cabriada Angulos",
           "long": 12733,
           "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BNX-CA-2",
@@ -175353,6 +175325,34 @@
           "long": 50,
           "cant": 44,
           "pend": 44
+        },
+        {
+          "cod": "BNE-TC-1",
+          "prod": "Tilla de compresion",
+          "long": 1414,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BNE-TC-2",
+          "prod": "Tilla de compresion",
+          "long": 1235,
+          "cant": 5,
+          "pend": 5
+        },
+        {
+          "cod": "BNE-TC-3",
+          "prod": "Tilla de compresion",
+          "long": 1235,
+          "cant": 5,
+          "pend": 5
+        },
+        {
+          "cod": "BNE-TC-4",
+          "prod": "Tilla de compresion",
+          "long": 357,
+          "cant": 5,
+          "pend": 5
         }
       ],
       "pint_pend_items": [
