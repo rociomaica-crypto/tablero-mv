@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T09:56:49.316Z",
+  "updatedAt": "2026-11-12T09:59:37.504Z",
   "updatedBy": "Brian Soto",
   "checks": {
     "24969_1": {
@@ -86888,7 +86888,7 @@
       "ot": "25258",
       "obra": "Adicional  Pilares - Naves Industriales MRA",
       "cliente": "KPN SAFETY PARAGUAY S.A",
-      "fecha": "28/10/2026",
+      "fecha": "12/11/2026",
       "avances": {
         "arm": 23,
         "pint": 15,
@@ -86899,14 +86899,14 @@
         "cant": 1138,
         "arm_lib": 264.5,
         "arm_pend": 873.5,
-        "pint_ok": 168,
-        "pint_pend": 970,
+        "pint_ok": 170,
+        "pint_pend": 968,
         "env_ok": 0,
         "env_pend": 1138,
         "items": 246,
         "peso_total": 22452.320000000007,
         "arm_pend_peso": 12529.740000000003,
-        "pint_pend_peso": 12880.43000000001,
+        "pint_pend_peso": 12867.51000000001,
         "env_pend_peso": 22452.320000000007
       },
       "items": [
@@ -87298,9 +87298,9 @@
           "arm_lib": 0,
           "arm_pend": 2,
           "arm_pend_peso": 12.92,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 12.92,
+          "pint_ok": 2,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 2,
           "env_pend_peso": 12.92,
@@ -92592,13 +92592,6 @@
           "cod": "BFP-CV-201",
           "prod": "Cruz Vertical",
           "long": 7229,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BFP-CV-202",
-          "prod": "Cruz Vertical",
-          "long": 7237,
           "cant": 2,
           "pend": 2
         },
