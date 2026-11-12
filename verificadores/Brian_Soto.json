@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T12:34:56.272Z",
+  "updatedAt": "2026-11-12T12:38:55.222Z",
   "updatedBy": "Brian Soto",
   "checks": {
     "24969_1": {
@@ -254637,6 +254637,614 @@
           "long": 5579,
           "cant": 1,
           "pend": 1
+        }
+      ]
+    },
+    "26032": {
+      "ot": "26032",
+      "obra": "PG 3TN de  22.80 luz y 42.2 de recorrido en planta",
+      "cliente": "MV ACEROS SA",
+      "fecha": "12/11/2026",
+      "avances": {
+        "arm": 10,
+        "pint": 0,
+        "env": 0,
+        "mont": 0
+      },
+      "totales": {
+        "cant": 210,
+        "arm_lib": 21.5,
+        "arm_pend": 188.5,
+        "pint_ok": 0,
+        "pint_pend": 210,
+        "env_ok": 0,
+        "env_pend": 210,
+        "items": 18,
+        "peso_total": 5798.27,
+        "arm_pend_peso": 3714.6249999999995,
+        "pint_pend_peso": 5798.27,
+        "env_pend_peso": 5798.27
+      },
+      "items": [
+        {
+          "item": 1,
+          "cod": "BOY-CO-1",
+          "prod": "Carro (Troley )",
+          "long": 300,
+          "cant": 1,
+          "peso": 145.09,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 72.545,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 145.09,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 145.09,
+          "literal": "BOY"
+        },
+        {
+          "item": 2,
+          "cod": "BOY-CO-2",
+          "prod": "Carro (Troley )",
+          "long": 300,
+          "cant": 1,
+          "peso": 145.09,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 72.545,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 145.09,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 145.09,
+          "literal": "BOY"
+        },
+        {
+          "item": 3,
+          "cod": "BOY-GH-1",
+          "prod": "Gancho",
+          "long": 172,
+          "cant": 126,
+          "peso": 37.8,
+          "arm_lib": 0,
+          "arm_pend": 126,
+          "arm_pend_peso": 37.8,
+          "pint_ok": 0,
+          "pint_pend": 126,
+          "pint_pend_peso": 37.8,
+          "env_ok": 0,
+          "env_pend": 126,
+          "env_pend_peso": 37.8,
+          "literal": "BOY"
+        },
+        {
+          "item": 4,
+          "cod": "BOY-PE-1",
+          "prod": "Perno PCF",
+          "long": 438,
+          "cant": 2,
+          "peso": 1.04,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 1.04,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 1.04,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 1.04,
+          "literal": "BOY"
+        },
+        {
+          "item": 5,
+          "cod": "BOY-PG-1",
+          "prod": "Puente Grúa - Un",
+          "long": 860,
+          "cant": 1,
+          "peso": 3833.51,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 1916.755,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 3833.51,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 3833.51,
+          "literal": "BOY"
+        },
+        {
+          "item": 6,
+          "cod": "BOY-PS-1",
+          "prod": "Pieza Suelta",
+          "long": 350,
+          "cant": 24,
+          "peso": 26.16,
+          "arm_lib": 20,
+          "arm_pend": 4,
+          "arm_pend_peso": 4.36,
+          "pint_ok": 0,
+          "pint_pend": 24,
+          "pint_pend_peso": 26.16,
+          "env_ok": 0,
+          "env_pend": 24,
+          "env_pend_peso": 26.16,
+          "literal": "BOY"
+        },
+        {
+          "item": 7,
+          "cod": "BOY-PZ-1",
+          "prod": "Pieza Especial",
+          "long": 66,
+          "cant": 4,
+          "peso": 2.2,
+          "arm_lib": 0,
+          "arm_pend": 4,
+          "arm_pend_peso": 2.2,
+          "pint_ok": 0,
+          "pint_pend": 4,
+          "pint_pend_peso": 2.2,
+          "env_ok": 0,
+          "env_pend": 4,
+          "env_pend_peso": 2.2,
+          "literal": "BOY"
+        },
+        {
+          "item": 8,
+          "cod": "BOY-RE-1",
+          "prod": "Riel",
+          "long": 6000,
+          "cant": 14,
+          "peso": 1314.6,
+          "arm_lib": 0,
+          "arm_pend": 14,
+          "arm_pend_peso": 1314.6,
+          "pint_ok": 0,
+          "pint_pend": 14,
+          "pint_pend_peso": 1314.6,
+          "env_ok": 0,
+          "env_pend": 14,
+          "env_pend_peso": 1314.6,
+          "literal": "BOY"
+        },
+        {
+          "item": 9,
+          "cod": "BOY-SP-1",
+          "prod": "SOPORTE",
+          "long": 200,
+          "cant": 15,
+          "peso": 62.7,
+          "arm_lib": 0,
+          "arm_pend": 15,
+          "arm_pend_peso": 62.7,
+          "pint_ok": 0,
+          "pint_pend": 15,
+          "pint_pend_peso": 62.7,
+          "env_ok": 0,
+          "env_pend": 15,
+          "env_pend_peso": 62.7,
+          "literal": "BOY"
+        },
+        {
+          "item": 10,
+          "cod": "BOY-SP-2",
+          "prod": "SOPORTE",
+          "long": 6000,
+          "cant": 7,
+          "peso": 184.66,
+          "arm_lib": 0,
+          "arm_pend": 7,
+          "arm_pend_peso": 184.66,
+          "pint_ok": 0,
+          "pint_pend": 7,
+          "pint_pend_peso": 184.66,
+          "env_ok": 0,
+          "env_pend": 7,
+          "env_pend_peso": 184.66,
+          "literal": "BOY"
+        },
+        {
+          "item": 11,
+          "cod": "BOY-SP-3",
+          "prod": "SOPORTE",
+          "long": 340,
+          "cant": 1,
+          "peso": 5.18,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 5.18,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 5.18,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 5.18,
+          "literal": "BOY"
+        },
+        {
+          "item": 12,
+          "cod": "BOY-SP-4",
+          "prod": "SOPORTE",
+          "long": 405,
+          "cant": 1,
+          "peso": 2.31,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 2.31,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 2.31,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 2.31,
+          "literal": "BOY"
+        },
+        {
+          "item": 13,
+          "cod": "BOY-SP-5",
+          "prod": "SOPORTE",
+          "long": 200,
+          "cant": 1,
+          "peso": 0.91,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 0.91,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 0.91,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 0.91,
+          "literal": "BOY"
+        },
+        {
+          "item": 14,
+          "cod": "BOY-SP-6",
+          "prod": "SOPORTE",
+          "long": 800,
+          "cant": 1,
+          "peso": 6.51,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 6.51,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 6.51,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 6.51,
+          "literal": "BOY"
+        },
+        {
+          "item": 15,
+          "cod": "BOY-SP-7",
+          "prod": "SOPORTE",
+          "long": 300,
+          "cant": 1,
+          "peso": 2.19,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 2.19,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 2.19,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 2.19,
+          "literal": "BOY"
+        },
+        {
+          "item": 16,
+          "cod": "BOY-TP-1",
+          "prod": "Tope",
+          "long": 113,
+          "cant": 4,
+          "peso": 16.84,
+          "arm_lib": 0,
+          "arm_pend": 4,
+          "arm_pend_peso": 16.84,
+          "pint_ok": 0,
+          "pint_pend": 4,
+          "pint_pend_peso": 16.84,
+          "env_ok": 0,
+          "env_pend": 4,
+          "env_pend_peso": 16.84,
+          "literal": "BOY"
+        },
+        {
+          "item": 17,
+          "cod": "BOY-TP-2",
+          "prod": "Tope",
+          "long": 150,
+          "cant": 2,
+          "peso": 1.8,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 1.8,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 1.8,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 1.8,
+          "literal": "BOY"
+        },
+        {
+          "item": 18,
+          "cod": "BOY-TP-3",
+          "prod": "Tope",
+          "long": 95,
+          "cant": 4,
+          "peso": 9.68,
+          "arm_lib": 0,
+          "arm_pend": 4,
+          "arm_pend_peso": 9.68,
+          "pint_ok": 0,
+          "pint_pend": 4,
+          "pint_pend_peso": 9.68,
+          "env_ok": 0,
+          "env_pend": 4,
+          "env_pend_peso": 9.68,
+          "literal": "BOY"
+        }
+      ],
+      "arm_pend_items": [
+        {
+          "cod": "BOY-CO-1",
+          "prod": "Carro (Troley )",
+          "long": 300,
+          "cant": 1,
+          "pend": 0.5
+        },
+        {
+          "cod": "BOY-CO-2",
+          "prod": "Carro (Troley )",
+          "long": 300,
+          "cant": 1,
+          "pend": 0.5
+        },
+        {
+          "cod": "BOY-GH-1",
+          "prod": "Gancho",
+          "long": 172,
+          "cant": 126,
+          "pend": 126
+        },
+        {
+          "cod": "BOY-PE-1",
+          "prod": "Perno PCF",
+          "long": 438,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOY-PG-1",
+          "prod": "Puente Grúa - Un",
+          "long": 860,
+          "cant": 1,
+          "pend": 0.5
+        },
+        {
+          "cod": "BOY-PS-1",
+          "prod": "Pieza Suelta",
+          "long": 350,
+          "cant": 24,
+          "pend": 4
+        },
+        {
+          "cod": "BOY-PZ-1",
+          "prod": "Pieza Especial",
+          "long": 66,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BOY-RE-1",
+          "prod": "Riel",
+          "long": 6000,
+          "cant": 14,
+          "pend": 14
+        },
+        {
+          "cod": "BOY-SP-1",
+          "prod": "SOPORTE",
+          "long": 200,
+          "cant": 15,
+          "pend": 15
+        },
+        {
+          "cod": "BOY-SP-2",
+          "prod": "SOPORTE",
+          "long": 6000,
+          "cant": 7,
+          "pend": 7
+        },
+        {
+          "cod": "BOY-SP-3",
+          "prod": "SOPORTE",
+          "long": 340,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOY-SP-4",
+          "prod": "SOPORTE",
+          "long": 405,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOY-SP-5",
+          "prod": "SOPORTE",
+          "long": 200,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOY-SP-6",
+          "prod": "SOPORTE",
+          "long": 800,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOY-SP-7",
+          "prod": "SOPORTE",
+          "long": 300,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOY-TP-1",
+          "prod": "Tope",
+          "long": 113,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BOY-TP-2",
+          "prod": "Tope",
+          "long": 150,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOY-TP-3",
+          "prod": "Tope",
+          "long": 95,
+          "cant": 4,
+          "pend": 4
+        }
+      ],
+      "pint_pend_items": [
+        {
+          "cod": "BOY-CO-1",
+          "prod": "Carro (Troley )",
+          "long": 300,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOY-CO-2",
+          "prod": "Carro (Troley )",
+          "long": 300,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOY-GH-1",
+          "prod": "Gancho",
+          "long": 172,
+          "cant": 126,
+          "pend": 126
+        },
+        {
+          "cod": "BOY-PE-1",
+          "prod": "Perno PCF",
+          "long": 438,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOY-PG-1",
+          "prod": "Puente Grúa - Un",
+          "long": 860,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOY-PS-1",
+          "prod": "Pieza Suelta",
+          "long": 350,
+          "cant": 24,
+          "pend": 24
+        },
+        {
+          "cod": "BOY-PZ-1",
+          "prod": "Pieza Especial",
+          "long": 66,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BOY-RE-1",
+          "prod": "Riel",
+          "long": 6000,
+          "cant": 14,
+          "pend": 14
+        },
+        {
+          "cod": "BOY-SP-1",
+          "prod": "SOPORTE",
+          "long": 200,
+          "cant": 15,
+          "pend": 15
+        },
+        {
+          "cod": "BOY-SP-2",
+          "prod": "SOPORTE",
+          "long": 6000,
+          "cant": 7,
+          "pend": 7
+        },
+        {
+          "cod": "BOY-SP-3",
+          "prod": "SOPORTE",
+          "long": 340,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOY-SP-4",
+          "prod": "SOPORTE",
+          "long": 405,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOY-SP-5",
+          "prod": "SOPORTE",
+          "long": 200,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOY-SP-6",
+          "prod": "SOPORTE",
+          "long": 800,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOY-SP-7",
+          "prod": "SOPORTE",
+          "long": 300,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOY-TP-1",
+          "prod": "Tope",
+          "long": 113,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BOY-TP-2",
+          "prod": "Tope",
+          "long": 150,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOY-TP-3",
+          "prod": "Tope",
+          "long": 95,
+          "cant": 4,
+          "pend": 4
         }
       ]
     },
