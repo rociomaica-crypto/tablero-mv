@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T10:21:45.947Z",
+  "updatedAt": "2026-11-12T10:23:26.461Z",
   "updatedBy": "Brian Soto",
   "checks": {
     "24969_1": {
@@ -46789,6 +46789,118 @@
       "qty_lib": 1
     },
     "25833_286": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "26037_26": {
+      "arm_state": "liberado",
+      "pint_state": "en_pintura",
+      "qty_lib": 2
+    },
+    "26037_20": {
+      "arm_state": "liberado",
+      "pint_state": "en_pintura",
+      "qty_lib": 3
+    },
+    "26037_4": {
+      "arm_state": "liberado",
+      "qty_lib": 3
+    },
+    "26037_21": {
+      "arm_state": "liberado",
+      "pint_state": "en_pintura",
+      "qty_lib": 1
+    },
+    "26037_13": {
+      "arm_state": "liberado",
+      "pint_state": "en_pintura",
+      "qty_lib": 2
+    },
+    "26037_19": {
+      "arm_state": "liberado",
+      "pint_state": "en_pintura",
+      "qty_lib": 3
+    },
+    "26037_15": {
+      "arm_state": "liberado",
+      "pint_state": "en_pintura",
+      "qty_lib": 3
+    },
+    "26037_11": {
+      "arm_state": "liberado",
+      "pint_state": "en_pintura",
+      "qty_lib": 5
+    },
+    "26037_18": {
+      "arm_state": "liberado",
+      "pint_state": "en_pintura",
+      "qty_lib": 3
+    },
+    "26037_3": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "26037_23": {
+      "arm_state": "liberado",
+      "pint_state": "en_pintura",
+      "qty_lib": 1
+    },
+    "26037_8": {
+      "arm_state": "liberado",
+      "pint_state": "en_pintura",
+      "qty_lib": 2
+    },
+    "26037_7": {
+      "arm_state": "liberado",
+      "pint_state": "en_pintura",
+      "qty_lib": 2
+    },
+    "26037_17": {
+      "arm_state": "liberado",
+      "pint_state": "en_pintura",
+      "qty_lib": 2
+    },
+    "26037_25": {
+      "arm_state": "liberado",
+      "pint_state": "en_pintura",
+      "qty_lib": 2
+    },
+    "26037_12": {
+      "arm_state": "liberado",
+      "pint_state": "en_pintura"
+    },
+    "26037_1": {
+      "arm_state": "liberado",
+      "qty_lib": 6
+    },
+    "26037_2": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "26037_5": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "26037_6": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "26037_9": {
+      "arm_state": "liberado",
+      "pint_state": "en_pintura",
+      "qty_lib": 2
+    },
+    "26037_10": {
+      "arm_state": "liberado",
+      "pint_state": "en_pintura",
+      "qty_lib": 2
+    },
+    "25856_256": {
+      "arm_state": "liberado",
+      "pint_state": "en_pintura",
+      "qty_lib": 196
+    },
+    "26041_1": {
       "arm_state": "liberado",
       "qty_lib": 1
     }
@@ -230177,26 +230289,26 @@
       "ot": "25889",
       "obra": "PUENTE GRUA COLONIAS UNIDAS 3 TN",
       "cliente": "Cooperativa Colonias Unidas Agro, Ind, Limitada",
-      "fecha": "21/10/2026",
+      "fecha": "12/11/2026",
       "avances": {
-        "arm": 38,
-        "pint": 6,
+        "arm": 60,
+        "pint": 16,
         "env": 0,
         "mont": 0
       },
       "totales": {
-        "cant": 202,
-        "arm_lib": 77,
-        "arm_pend": 125,
-        "pint_ok": 13,
-        "pint_pend": 189,
+        "cant": 206,
+        "arm_lib": 124,
+        "arm_pend": 82,
+        "pint_ok": 32,
+        "pint_pend": 174,
         "env_ok": 0,
-        "env_pend": 202,
-        "items": 51,
-        "peso_total": 5535.250000000001,
-        "arm_pend_peso": 1359.085,
-        "pint_pend_peso": 5489.43,
-        "env_pend_peso": 5535.250000000001
+        "env_pend": 206,
+        "items": 52,
+        "peso_total": 5759.250000000001,
+        "arm_pend_peso": 81.58,
+        "pint_pend_peso": 967.05,
+        "env_pend_peso": 5759.250000000001
       },
       "items": [
         {
@@ -230206,9 +230318,9 @@
           "long": 383,
           "cant": 3,
           "peso": 230.16,
-          "arm_lib": 0,
-          "arm_pend": 3,
-          "arm_pend_peso": 230.16,
+          "arm_lib": 3,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 3,
           "pint_pend_peso": 230.16,
@@ -230224,9 +230336,9 @@
           "long": 389,
           "cant": 1,
           "peso": 77.2,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 77.2,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 77.2,
@@ -230242,9 +230354,9 @@
           "long": 380,
           "cant": 32,
           "peso": 28.16,
-          "arm_lib": 0,
-          "arm_pend": 32,
-          "arm_pend_peso": 28.16,
+          "arm_lib": 32,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 32,
           "pint_pend_peso": 28.16,
@@ -230296,12 +230408,12 @@
           "long": 6828,
           "cant": 1,
           "peso": 388.61,
-          "arm_lib": 0.5,
-          "arm_pend": 0.5,
-          "arm_pend_peso": 194.305,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 388.61,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 388.61,
@@ -230314,12 +230426,12 @@
           "long": 6828,
           "cant": 1,
           "peso": 388.65,
-          "arm_lib": 0.5,
-          "arm_pend": 0.5,
-          "arm_pend_peso": 194.325,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 388.65,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 388.65,
@@ -230368,12 +230480,12 @@
           "long": 6828,
           "cant": 1,
           "peso": 388.69,
-          "arm_lib": 0.5,
-          "arm_pend": 0.5,
-          "arm_pend_peso": 194.345,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 388.69,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 388.69,
@@ -230422,9 +230534,9 @@
           "long": 8113,
           "cant": 1,
           "peso": 37,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 37,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 37,
@@ -230440,9 +230552,9 @@
           "long": 8098,
           "cant": 1,
           "peso": 36.93,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 36.93,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 36.93,
@@ -230476,12 +230588,12 @@
           "long": 6828,
           "cant": 1,
           "peso": 388.6,
-          "arm_lib": 0.5,
-          "arm_pend": 0.5,
-          "arm_pend_peso": 194.3,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 388.6,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 388.6,
@@ -230494,9 +230606,9 @@
           "long": 8111,
           "cant": 1,
           "peso": 36.99,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 36.99,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 36.99,
@@ -230512,9 +230624,9 @@
           "long": 8121,
           "cant": 1,
           "peso": 37.04,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 37.04,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 37.04,
@@ -230533,9 +230645,9 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 106.84,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 106.84,
@@ -230551,9 +230663,9 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 106.84,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 106.84,
@@ -230623,9 +230735,9 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 690.91,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 690.91,
@@ -230677,9 +230789,9 @@
           "arm_lib": 2,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 162.26,
+          "pint_ok": 2,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 2,
           "env_pend_peso": 162.26,
@@ -230695,9 +230807,9 @@
           "arm_lib": 2,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 251.42,
+          "pint_ok": 2,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 2,
           "env_pend_peso": 251.42,
@@ -230713,9 +230825,9 @@
           "arm_lib": 2,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 251.42,
+          "pint_ok": 2,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 2,
           "env_pend_peso": 251.42,
@@ -230782,9 +230894,9 @@
           "long": 6064,
           "cant": 1,
           "peso": 16.75,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 16.75,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 16.75,
@@ -231019,9 +231131,9 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 280.05,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 280.05,
@@ -231037,9 +231149,9 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 252.22,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 252.22,
@@ -231055,9 +231167,9 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 276.61,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 276.61,
@@ -231073,9 +231185,9 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 280.74,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 280.74,
@@ -231091,9 +231203,9 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 252.22,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 252.22,
@@ -231109,64 +231221,40 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 280.3,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 280.3,
           "literal": ".R.BNC"
+        },
+        {
+          "item": 52,
+          "cod": "33299-IN-1",
+          "prod": "Inserto Metalico",
+          "long": 0,
+          "cant": 4,
+          "peso": 224,
+          "arm_lib": 4,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 4,
+          "pint_pend_peso": 224,
+          "env_ok": 0,
+          "env_pend": 4,
+          "env_pend_peso": 224,
+          "literal": "IN"
         }
       ],
       "arm_pend_items": [
-        {
-          "cod": "BNC-ME-1",
-          "prod": "Mensula",
-          "long": 383,
-          "cant": 3,
-          "pend": 3
-        },
-        {
-          "cod": "BNC-ME-2",
-          "prod": "Mensula",
-          "long": 389,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BNC-PE-1",
-          "prod": "Perno PCF",
-          "long": 380,
-          "cant": 32,
-          "pend": 32
-        },
-        {
-          "cod": "BNC-PIS-101",
-          "prod": "Pilar Alma Llena",
-          "long": 6828,
-          "cant": 1,
-          "pend": 0.5
-        },
-        {
-          "cod": "BNC-PIS-100",
-          "prod": "Pilar Alma Llena",
-          "long": 6828,
-          "cant": 1,
-          "pend": 0.5
-        },
         {
           "cod": "BNC-MF-100",
           "prod": "Mano Francesa",
           "long": 664,
           "cant": 8,
           "pend": 8
-        },
-        {
-          "cod": "BNC-PIS-102",
-          "prod": "Pilar Alma Llena",
-          "long": 6828,
-          "cant": 1,
-          "pend": 0.5
         },
         {
           "cod": "BNC-SP-113",
@@ -231176,46 +231264,11 @@
           "pend": 4
         },
         {
-          "cod": "BNC-CV-102",
-          "prod": "Cruz Vertical",
-          "long": 8113,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BNC-CV-103",
-          "prod": "Cruz Vertical",
-          "long": 8098,
-          "cant": 1,
-          "pend": 1
-        },
-        {
           "cod": "BNC-SP-112",
           "prod": "SOPORTE",
           "long": 589,
           "cant": 4,
           "pend": 4
-        },
-        {
-          "cod": "BNC-PIS-103",
-          "prod": "Pilar Alma Llena",
-          "long": 6828,
-          "cant": 1,
-          "pend": 0.5
-        },
-        {
-          "cod": "BNC-CV-101",
-          "prod": "Cruz Vertical",
-          "long": 8111,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BNC-CV-100",
-          "prod": "Cruz Vertical",
-          "long": 8121,
-          "cant": 1,
-          "pend": 1
         },
         {
           "cod": "BNC-GH-100",
@@ -231237,13 +231290,6 @@
           "long": 266,
           "cant": 2,
           "pend": 2
-        },
-        {
-          "cod": "BNC-SP-103",
-          "prod": "SOPORTE",
-          "long": 6064,
-          "cant": 1,
-          "pend": 1
         },
         {
           "cod": "BNC-SP-104",
@@ -231297,20 +231343,6 @@
           "pend": 1
         },
         {
-          "cod": "BNC-PIS-101",
-          "prod": "Pilar Alma Llena",
-          "long": 6828,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BNC-PIS-100",
-          "prod": "Pilar Alma Llena",
-          "long": 6828,
-          "cant": 1,
-          "pend": 1
-        },
-        {
           "cod": "BNC-MF-100",
           "prod": "Mano Francesa",
           "long": 664,
@@ -231323,13 +231355,6 @@
           "long": 660,
           "cant": 8,
           "pend": 8
-        },
-        {
-          "cod": "BNC-PIS-102",
-          "prod": "Pilar Alma Llena",
-          "long": 6828,
-          "cant": 1,
-          "pend": 1
         },
         {
           "cod": "BNC-PL-101",
@@ -231367,13 +231392,6 @@
           "pend": 4
         },
         {
-          "cod": "BNC-PIS-103",
-          "prod": "Pilar Alma Llena",
-          "long": 6828,
-          "cant": 1,
-          "pend": 1
-        },
-        {
           "cod": "BNC-CV-101",
           "prod": "Cruz Vertical",
           "long": 8111,
@@ -231384,20 +231402,6 @@
           "cod": "BNC-CV-100",
           "prod": "Cruz Vertical",
           "long": 8121,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BNC-CO-100",
-          "prod": "Carro (Troley )",
-          "long": 263,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BNC-CO-101",
-          "prod": "Carro (Troley )",
-          "long": 263,
           "cant": 1,
           "pend": 1
         },
@@ -231423,13 +231427,6 @@
           "pend": 2
         },
         {
-          "cod": "BNC-PG-100",
-          "prod": "Puente Grúa - Un",
-          "long": 8292,
-          "cant": 1,
-          "pend": 1
-        },
-        {
           "cod": "BNC-PL-100",
           "prod": "Placa",
           "long": 350,
@@ -231442,27 +231439,6 @@
           "long": 66,
           "cant": 4,
           "pend": 4
-        },
-        {
-          "cod": "BNC-RE-100",
-          "prod": "Riel",
-          "long": 3872,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BNC-RE-101",
-          "prod": "Riel",
-          "long": 6000,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BNC-RE-102",
-          "prod": "Riel",
-          "long": 6000,
-          "cant": 2,
-          "pend": 2
         },
         {
           "cod": "BNC-SP-101",
@@ -231535,46 +231511,11 @@
           "pend": 1
         },
         {
-          "cod": ".R.BNC-VCI-1",
-          "prod": "Viga Carrilera IS",
-          "long": 5446,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": ".R.BNC-VCI-2",
-          "prod": "Viga Carrilera IS",
-          "long": 4976,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": ".R.BNC-VCI-3",
-          "prod": "Viga Carrilera IS",
-          "long": 5436,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": ".R.BNC-VCI-4",
-          "prod": "Viga Carrilera IS",
-          "long": 5446,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": ".R.BNC-VCI-5",
-          "prod": "Viga Carrilera IS",
-          "long": 4975,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": ".R.BNC-VCI-6",
-          "prod": "Viga Carrilera IS",
-          "long": 5436,
-          "cant": 1,
-          "pend": 1
+          "cod": "33299-IN-1",
+          "prod": "Inserto Metalico",
+          "long": 0,
+          "cant": 4,
+          "pend": 4
         }
       ]
     },
