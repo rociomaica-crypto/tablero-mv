@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T12:45:01.829Z",
+  "updatedAt": "2026-11-12T12:48:49.697Z",
   "updatedBy": "Brian Soto",
   "checks": {
     "24969_1": {
@@ -47148,6 +47148,46 @@
     "25986_66": {
       "arm_state": "liberado",
       "qty_lib": 1
+    },
+    "25986_17": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25986_30": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25986_32": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25986_69": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25986_35": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25986_24": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25986_22": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25986_62": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25986_23": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25986_33": {
+      "arm_state": "liberado",
+      "qty_lib": 2
     }
   },
   "otMeta": {
@@ -184964,22 +185004,22 @@
       "cliente": "Tecnoedil S.A",
       "fecha": "12/11/2026",
       "avances": {
-        "arm": 22,
+        "arm": 29,
         "pint": 2,
         "env": 0,
         "mont": 0
       },
       "totales": {
         "cant": 2303,
-        "arm_lib": 503.002,
-        "arm_pend": 1799.998,
+        "arm_lib": 662.002,
+        "arm_pend": 1640.998,
         "pint_ok": 37.5,
         "pint_pend": 2265.5,
         "env_ok": 0,
         "env_pend": 2303,
         "items": 289,
         "peso_total": 101159.76999999992,
-        "arm_pend_peso": 55482.14655999997,
+        "arm_pend_peso": 52967.89155999997,
         "pint_pend_peso": 80499.03499999995,
         "env_pend_peso": 101159.76999999992
       },
@@ -187277,9 +187317,9 @@
           "long": 1492,
           "cant": 16,
           "peso": 62.08,
-          "arm_lib": 8,
-          "arm_pend": 8,
-          "arm_pend_peso": 31.04,
+          "arm_lib": 16,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 16,
           "pint_pend_peso": 62.08,
@@ -187421,9 +187461,9 @@
           "long": 1552,
           "cant": 286,
           "peso": 720.72,
-          "arm_lib": 0,
-          "arm_pend": 286,
-          "arm_pend_peso": 720.72,
+          "arm_lib": 145,
+          "arm_pend": 141,
+          "arm_pend_peso": 355.32,
           "pint_ok": 0,
           "pint_pend": 286,
           "pint_pend_peso": 720.72,
@@ -187853,9 +187893,9 @@
           "long": 4829,
           "cant": 2,
           "peso": 60.06,
-          "arm_lib": 1,
-          "arm_pend": 1,
-          "arm_pend_peso": 30.03,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 2,
           "pint_pend_peso": 60.06,
@@ -187871,9 +187911,9 @@
           "long": 4033,
           "cant": 4,
           "peso": 100.52,
-          "arm_lib": 2,
-          "arm_pend": 2,
-          "arm_pend_peso": 50.26,
+          "arm_lib": 4,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 4,
           "pint_pend_peso": 100.52,
@@ -187997,9 +188037,9 @@
           "long": 4335,
           "cant": 2,
           "peso": 53.96,
-          "arm_lib": 1,
-          "arm_pend": 1,
-          "arm_pend_peso": 26.98,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 2,
           "pint_pend_peso": 53.96,
@@ -188141,9 +188181,9 @@
           "long": 4354,
           "cant": 2,
           "peso": 54.2,
-          "arm_lib": 1,
-          "arm_pend": 1,
-          "arm_pend_peso": 27.1,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 2,
           "pint_pend_peso": 54.2,
@@ -188879,9 +188919,9 @@
           "long": 19340,
           "cant": 1,
           "peso": 2161.86,
-          "arm_lib": 0.5,
-          "arm_pend": 0.5,
-          "arm_pend_peso": 1080.93,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 2161.86,
@@ -189167,9 +189207,9 @@
           "long": 24777,
           "cant": 1,
           "peso": 1805.03,
-          "arm_lib": 0.5,
-          "arm_pend": 0.5,
-          "arm_pend_peso": 902.515,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 1805.03,
@@ -190567,13 +190607,6 @@
           "pend": 4
         },
         {
-          "cod": "BLV-TC-1",
-          "prod": "Tilla de compresion",
-          "long": 1492,
-          "cant": 16,
-          "pend": 8
-        },
-        {
           "cod": "BLV-TC-3",
           "prod": "Tilla de compresion",
           "long": 1552,
@@ -190613,7 +190646,7 @@
           "prod": "Tilla de Traccion",
           "long": 1552,
           "cant": 286,
-          "pend": 286
+          "pend": 141
         },
         {
           "cod": "BLV-TI-3",
@@ -190756,20 +190789,6 @@
           "pend": 0.5
         },
         {
-          "cod": "BLV-VAT-5",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 4829,
-          "cant": 2,
-          "pend": 1
-        },
-        {
-          "cod": "BLV-VAT-6",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 4033,
-          "cant": 4,
-          "pend": 2
-        },
-        {
           "cod": "BLV-VAT-7",
           "prod": "Viga  Arriostre de tubos o caños",
           "long": 7588,
@@ -190796,13 +190815,6 @@
           "long": 5558,
           "cant": 1,
           "pend": 0.5
-        },
-        {
-          "cod": "BLV-VAT-13",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 4335,
-          "cant": 2,
-          "pend": 1
         },
         {
           "cod": "BLV-VAT-14",
@@ -190838,13 +190850,6 @@
           "long": 7652,
           "cant": 1,
           "pend": 0.5
-        },
-        {
-          "cod": "BLV-VAT-21",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 4354,
-          "cant": 2,
-          "pend": 1
         },
         {
           "cod": "BLV-VAT-22",
@@ -190980,13 +190985,6 @@
           "pend": 0.5
         },
         {
-          "cod": "BLV-VPR-4",
-          "prod": "Viga Principal Reticulado",
-          "long": 19340,
-          "cant": 1,
-          "pend": 0.5
-        },
-        {
           "cod": "BLV-VTI-1",
           "prod": "Viga Techo IS",
           "long": 24983,
@@ -191055,13 +191053,6 @@
           "long": 24776,
           "cant": 1,
           "pend": 1
-        },
-        {
-          "cod": "BLV-VTR-9",
-          "prod": "Viga Techo Reticulada de angulos",
-          "long": 24777,
-          "cant": 1,
-          "pend": 0.5
         },
         {
           "cod": "34736-CN-1",
