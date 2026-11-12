@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T20:11:43.317Z",
+  "updatedAt": "2026-11-12T09:08:20.469Z",
   "updatedBy": "Brian Soto",
   "checks": {
     "24969_1": {
@@ -46300,7 +46300,8 @@
     },
     "25856_375": {
       "arm_state": "liberado",
-      "qty_lib": 12
+      "qty_lib": 24,
+      "pint_state": "en_pintura"
     },
     "25856_140": {
       "arm_state": "liberado",
@@ -46631,11 +46632,13 @@
     },
     "25856_247": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "en_pintura"
     },
     "25856_390": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "en_pintura"
     },
     "25856_389": {
       "arm_state": "liberado",
@@ -46650,14 +46653,15 @@
       "qty_lib": 10
     },
     "25833_275": {
-      "arm_state": "soldado"
+      "arm_state": "liberado"
     },
     "25999_76": {
       "arm_state": "liberado",
       "qty_lib": 126
     },
     "25833_281": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25999_71": {
       "arm_state": "liberado",
@@ -46770,6 +46774,22 @@
     },
     "25856_171": {
       "arm_state": "armado"
+    },
+    "25833_283": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25833_287": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25833_288": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25833_286": {
+      "arm_state": "liberado",
+      "qty_lib": 1
     }
   },
   "otMeta": {
@@ -128162,26 +128182,26 @@
       "ot": "25659",
       "obra": "NAVE 4 CDLUQUE CHACOMER OP PILAR 16M",
       "cliente": "Kinetik SA",
-      "fecha": "11/11/2026",
+      "fecha": "12/11/2026",
       "avances": {
         "arm": 42,
-        "pint": 41,
-        "env": 15,
+        "pint": 42,
+        "env": 16,
         "mont": 0
       },
       "totales": {
-        "cant": 16377,
-        "arm_lib": 6900.5,
-        "arm_pend": 9476.5,
-        "pint_ok": 6783,
-        "pint_pend": 9594,
-        "env_ok": 2536,
-        "env_pend": 13841,
-        "items": 201,
-        "peso_total": 632077.1200000001,
-        "arm_pend_peso": 336543.4600000001,
-        "pint_pend_peso": 331652.68500000006,
-        "env_pend_peso": 490351.53
+        "cant": 16316,
+        "arm_lib": 6899.5,
+        "arm_pend": 9416.5,
+        "pint_ok": 6782,
+        "pint_pend": 9534,
+        "env_ok": 2534,
+        "env_pend": 13782,
+        "items": 199,
+        "peso_total": 631063.7700000001,
+        "arm_pend_peso": 336364.6600000001,
+        "pint_pend_peso": 331473.88500000007,
+        "env_pend_peso": 482751.44000000006
       },
       "items": [
         {
@@ -130507,24 +130527,6 @@
           "literal": "BJK"
         },
         {
-          "item": 136,
-          "cod": "BJK-VTR-400",
-          "prod": "Viga Techo Reticulada de angulos",
-          "long": 21942,
-          "cant": 1,
-          "peso": 834.55,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 834.55,
-          "literal": "BJK"
-        },
-        {
           "item": 137,
           "cod": "BJK-VTR-401",
           "prod": "Viga Techo Reticulada de angulos",
@@ -130537,9 +130539,9 @@
           "pint_ok": 8,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 8,
-          "env_pend_peso": 6605.6,
+          "env_ok": 3,
+          "env_pend": 5,
+          "env_pend_peso": 4128.5,
           "literal": "BJK"
         },
         {
@@ -130555,9 +130557,9 @@
           "pint_ok": 15,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 15,
-          "env_pend_peso": 12316.65,
+          "env_ok": 3,
+          "env_pend": 12,
+          "env_pend_peso": 9853.32,
           "literal": "BJK"
         },
         {
@@ -130573,9 +130575,9 @@
           "pint_ok": 15,
           "pint_pend": -7,
           "pint_pend_peso": -5779.9,
-          "env_ok": 0,
-          "env_pend": 8,
-          "env_pend_peso": 6605.6,
+          "env_ok": 2,
+          "env_pend": 6,
+          "env_pend_peso": 4954.2,
           "literal": "BJK"
         },
         {
@@ -131077,9 +131079,9 @@
           "pint_ok": 5,
           "pint_pend": 1,
           "pint_pend_peso": 1280.41,
-          "env_ok": 2,
-          "env_pend": 4,
-          "env_pend_peso": 5121.64,
+          "env_ok": 3,
+          "env_pend": 3,
+          "env_pend_peso": 3841.23,
           "literal": "BJK"
         },
         {
@@ -131095,9 +131097,9 @@
           "pint_ok": 12,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 7,
-          "env_pend": 5,
-          "env_pend_peso": 6278.5,
+          "env_ok": 6,
+          "env_pend": 6,
+          "env_pend_peso": 7534.2,
           "literal": "BJK"
         },
         {
@@ -131783,24 +131785,6 @@
           "env_pend": 2,
           "env_pend_peso": 1,
           "literal": "TCN"
-        },
-        {
-          "item": 268,
-          "cod": "33786-PL-601",
-          "prod": "Placa",
-          "long": 190,
-          "cant": 60,
-          "peso": 178.8,
-          "arm_lib": 0,
-          "arm_pend": 60,
-          "arm_pend_peso": 178.8,
-          "pint_ok": 0,
-          "pint_pend": 60,
-          "pint_pend_peso": 178.8,
-          "env_ok": 10,
-          "env_pend": 50,
-          "env_pend_peso": 149,
-          "literal": "PL"
         }
       ],
       "arm_pend_items": [
@@ -132433,13 +132417,6 @@
           "long": 5615,
           "cant": 120,
           "pend": 120
-        },
-        {
-          "cod": "33786-PL-601",
-          "prod": "Placa",
-          "long": 190,
-          "cant": 60,
-          "pend": 60
         }
       ],
       "pint_pend_items": [
@@ -133282,13 +133259,6 @@
           "long": 410,
           "cant": 2,
           "pend": 2
-        },
-        {
-          "cod": "33786-PL-601",
-          "prod": "Placa",
-          "long": 190,
-          "cant": 60,
-          "pend": 60
         }
       ]
     },
