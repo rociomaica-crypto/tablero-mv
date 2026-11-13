@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T19:11:27.621Z",
+  "updatedAt": "2026-11-13T21:17:04.212Z",
   "updatedBy": "Brian Soto",
   "checks": {
     "24969_1": {
@@ -42234,7 +42234,8 @@
     },
     "25876_32": {
       "arm_state": "liberado",
-      "qty_lib": 4
+      "qty_lib": 4,
+      "pint_state": "pintado"
     },
     "25876_33": {
       "arm_state": "liberado",
@@ -42881,7 +42882,11 @@
       "pint_state": "pintado",
       "qty_lib": 2
     },
-    "25856_365": {},
+    "25856_365": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 19
+    },
     "25856_175": {
       "arm_state": "liberado",
       "pint_state": "pintado",
@@ -42990,47 +42995,58 @@
     },
     "25856_142": {
       "arm_state": "liberado",
-      "qty_lib": 2
+      "qty_lib": 2,
+      "pint_state": "en_pintura"
     },
     "25856_132": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "en_pintura"
     },
     "25856_145": {
       "arm_state": "liberado",
-      "qty_lib": 3
+      "qty_lib": 3,
+      "pint_state": "en_pintura"
     },
     "25856_139": {
       "arm_state": "liberado",
-      "qty_lib": 3
+      "qty_lib": 3,
+      "pint_state": "en_pintura"
     },
     "25856_138": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "en_pintura"
     },
     "25856_133": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "en_pintura"
     },
     "25856_141": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "en_pintura"
     },
     "25856_143": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "en_pintura"
     },
     "25856_130": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "en_pintura"
     },
     "25856_131": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "en_pintura"
     },
     "25856_148": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "en_pintura"
     },
     "25856_134": {
       "arm_state": "liberado",
@@ -43049,11 +43065,13 @@
     },
     "25856_135": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25856_137": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25898_113": {
       "arm_state": "liberado",
@@ -43973,11 +43991,13 @@
     },
     "25870_104": {
       "arm_state": "liberado",
-      "qty_lib": 8
+      "qty_lib": 8,
+      "pint_state": "en_pintura"
     },
     "25870_105": {
       "arm_state": "liberado",
-      "qty_lib": 4
+      "qty_lib": 4,
+      "pint_state": "en_pintura"
     },
     "25659_21": {},
     "25659_22": {
@@ -44465,51 +44485,63 @@
     },
     "25876_15": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 2,
+      "pint_state": "pintado"
     },
     "25876_16": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25876_17": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25876_24": {
       "arm_state": "liberado",
-      "qty_lib": 2
+      "qty_lib": 2,
+      "pint_state": "pintado"
     },
     "25876_23": {
       "arm_state": "liberado",
-      "qty_lib": 2
+      "qty_lib": 2,
+      "pint_state": "pintado"
     },
     "25876_22": {
       "arm_state": "liberado",
-      "qty_lib": 4
+      "qty_lib": 4,
+      "pint_state": "pintado"
     },
     "25876_21": {
       "arm_state": "liberado",
-      "qty_lib": 14
+      "qty_lib": 14,
+      "pint_state": "pintado"
     },
     "25876_20": {
       "arm_state": "liberado",
-      "qty_lib": 2
+      "qty_lib": 2,
+      "pint_state": "pintado"
     },
     "25876_19": {
       "arm_state": "liberado",
-      "qty_lib": 14
+      "qty_lib": 14,
+      "pint_state": "pintado"
     },
     "25876_35": {
       "arm_state": "liberado",
-      "qty_lib": 7
+      "qty_lib": 7,
+      "pint_state": "pintado"
     },
     "25876_36": {
       "arm_state": "liberado",
-      "qty_lib": 2
+      "qty_lib": 2,
+      "pint_state": "pintado"
     },
     "25876_37": {
       "arm_state": "liberado",
-      "qty_lib": 3
+      "qty_lib": 3,
+      "pint_state": "pintado"
     },
     "25876_124": {
       "arm_state": "liberado",
@@ -44618,7 +44650,8 @@
     },
     "25876_8": {
       "arm_state": "liberado",
-      "qty_lib": 4
+      "qty_lib": 4,
+      "pint_state": "pintado"
     },
     "25876_126": {
       "arm_state": "liberado",
@@ -44634,7 +44667,8 @@
     },
     "25876_18": {
       "arm_state": "liberado",
-      "qty_lib": 2
+      "qty_lib": 2,
+      "pint_state": "pintado"
     },
     "25876_69": {
       "arm_state": "armado",
@@ -46353,7 +46387,8 @@
     },
     "25856_140": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "en_pintura"
     },
     "25856_255": {
       "arm_state": "liberado",
@@ -46522,7 +46557,8 @@
     },
     "25870_112": {
       "arm_state": "liberado",
-      "qty_lib": 12
+      "qty_lib": 12,
+      "pint_state": "en_pintura"
     },
     "25870_113": {
       "arm_state": "liberado",
@@ -46640,7 +46676,8 @@
     },
     "25870_101": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25870_211": {
       "arm_state": "liberado",
@@ -46697,11 +46734,13 @@
     },
     "25870_110": {
       "arm_state": "liberado",
-      "qty_lib": 12
+      "qty_lib": 12,
+      "pint_state": "en_pintura"
     },
     "25870_111": {
       "arm_state": "liberado",
-      "qty_lib": 10
+      "qty_lib": 10,
+      "pint_state": "en_pintura"
     },
     "25833_275": {
       "arm_state": "liberado"
@@ -46777,11 +46816,13 @@
     },
     "25870_106": {
       "arm_state": "liberado",
-      "qty_lib": 24
+      "qty_lib": 24,
+      "pint_state": "en_pintura"
     },
     "25870_107": {
       "arm_state": "liberado",
-      "qty_lib": 24
+      "qty_lib": 24,
+      "pint_state": "en_pintura"
     },
     "25870_234": {
       "arm_state": "liberado",
@@ -46831,7 +46872,9 @@
       "pint_state": "pintado"
     },
     "25856_171": {
-      "arm_state": "armado"
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 19
     },
     "25833_283": {
       "arm_state": "liberado",
@@ -46851,106 +46894,112 @@
     },
     "26037_26": {
       "arm_state": "liberado",
-      "pint_state": "en_pintura",
+      "pint_state": "pintado",
       "qty_lib": 2
     },
     "26037_20": {
       "arm_state": "liberado",
-      "pint_state": "en_pintura",
+      "pint_state": "pintado",
       "qty_lib": 3
     },
     "26037_4": {
       "arm_state": "liberado",
-      "qty_lib": 3
+      "qty_lib": 3,
+      "pint_state": "pintado"
     },
     "26037_21": {
       "arm_state": "liberado",
-      "pint_state": "en_pintura",
+      "pint_state": "pintado",
       "qty_lib": 1
     },
     "26037_13": {
       "arm_state": "liberado",
-      "pint_state": "en_pintura",
+      "pint_state": "pintado",
       "qty_lib": 2
     },
     "26037_19": {
       "arm_state": "liberado",
-      "pint_state": "en_pintura",
+      "pint_state": "pintado",
       "qty_lib": 3
     },
     "26037_15": {
       "arm_state": "liberado",
-      "pint_state": "en_pintura",
+      "pint_state": "pintado",
       "qty_lib": 3
     },
     "26037_11": {
       "arm_state": "liberado",
-      "pint_state": "en_pintura",
+      "pint_state": "pintado",
       "qty_lib": 5
     },
     "26037_18": {
       "arm_state": "liberado",
-      "pint_state": "en_pintura",
+      "pint_state": "pintado",
       "qty_lib": 3
     },
     "26037_3": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "26037_23": {
       "arm_state": "liberado",
-      "pint_state": "en_pintura",
+      "pint_state": "pintado",
       "qty_lib": 1
     },
     "26037_8": {
       "arm_state": "liberado",
-      "pint_state": "en_pintura",
+      "pint_state": "pintado",
       "qty_lib": 2
     },
     "26037_7": {
       "arm_state": "liberado",
-      "pint_state": "en_pintura",
+      "pint_state": "pintado",
       "qty_lib": 2
     },
     "26037_17": {
       "arm_state": "liberado",
-      "pint_state": "en_pintura",
+      "pint_state": "pintado",
       "qty_lib": 2
     },
     "26037_25": {
       "arm_state": "liberado",
-      "pint_state": "en_pintura",
+      "pint_state": "pintado",
       "qty_lib": 2
     },
     "26037_12": {
       "arm_state": "liberado",
-      "pint_state": "en_pintura",
+      "pint_state": "pintado",
       "qty_lib": 1
     },
     "26037_1": {
       "arm_state": "liberado",
-      "qty_lib": 6
+      "qty_lib": 6,
+      "pint_state": "pintado"
     },
     "26037_2": {
       "arm_state": "liberado",
-      "qty_lib": 2
+      "qty_lib": 2,
+      "pint_state": "pintado"
     },
     "26037_5": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "26037_6": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "26037_9": {
       "arm_state": "liberado",
-      "pint_state": "en_pintura",
+      "pint_state": "pintado",
       "qty_lib": 2
     },
     "26037_10": {
       "arm_state": "liberado",
-      "pint_state": "en_pintura",
+      "pint_state": "pintado",
       "qty_lib": 2
     },
     "25856_256": {
@@ -46960,7 +47009,8 @@
     },
     "26041_1": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "26006_7": {
       "arm_state": "liberado",
@@ -47516,6 +47566,280 @@
       "qty_lib": 1
     },
     "25833_169": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25849_1": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25849_2": {
+      "arm_state": "liberado",
+      "qty_lib": 4
+    },
+    "25849_3": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25856_149": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 8
+    },
+    "25856_150": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 4
+    },
+    "25856_151": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 4
+    },
+    "25856_152": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 4
+    },
+    "25856_153": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 4
+    },
+    "25856_154": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 4
+    },
+    "25856_155": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 8
+    },
+    "25856_156": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 4
+    },
+    "25856_157": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 4
+    },
+    "25856_158": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 8
+    },
+    "25856_159": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 8
+    },
+    "25856_160": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 4
+    },
+    "25856_162": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 4
+    },
+    "25856_163": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 4
+    },
+    "25856_164": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25856_165": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 3
+    },
+    "25856_166": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 4
+    },
+    "25856_167": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 4
+    },
+    "25856_168": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 4
+    },
+    "25856_169": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 4
+    },
+    "25856_189": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25856_190": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25856_191": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25856_192": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25856_193": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25856_194": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25856_195": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25856_196": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25856_197": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25856_198": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25856_199": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25856_200": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25856_201": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25856_202": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25856_203": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25856_204": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25856_205": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25856_206": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25856_207": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25856_186": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25856_182": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25856_183": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 9
+    },
+    "25856_184": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 10
+    },
+    "25856_179": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25856_170": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25856_422": {
+      "arm_state": "armado"
+    },
+    "25856_234": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25870_99": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25870_100": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25870_254": {
+      "arm_state": "liberado",
+      "qty_lib": 8
+    },
+    "25870_255": {
+      "arm_state": "liberado",
+      "qty_lib": 4
+    },
+    "25870_256": {
+      "arm_state": "liberado",
+      "qty_lib": 4
+    },
+    "26037_22": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "26037_24": {
       "arm_state": "liberado",
       "qty_lib": 2
     }
@@ -215177,26 +215501,26 @@
       "ot": "25870",
       "obra": "Hospital Nacional de Curuguaty_Estructura",
       "cliente": "Consorcio Norte Salud CNS",
-      "fecha": "12/11/2026",
+      "fecha": "13/11/2026",
       "avances": {
-        "arm": 12,
+        "arm": 22,
         "pint": 10,
         "env": 0,
         "mont": 0
       },
       "totales": {
-        "cant": 4756,
-        "arm_lib": 560,
-        "arm_pend": 4196,
-        "pint_ok": 487,
-        "pint_pend": 4269,
+        "cant": 5020,
+        "arm_lib": 1085,
+        "arm_pend": 3935,
+        "pint_ok": 495,
+        "pint_pend": 4525,
         "env_ok": 0,
-        "env_pend": 4756,
-        "items": 453,
-        "peso_total": 73316.80999999998,
-        "arm_pend_peso": 66762.62000000004,
-        "pint_pend_peso": 58403.99000000005,
-        "env_pend_peso": 73316.80999999998
+        "env_pend": 5020,
+        "items": 495,
+        "peso_total": 77581.66000000005,
+        "arm_pend_peso": 68229.63000000008,
+        "pint_pend_peso": 59994.200000000026,
+        "env_pend_peso": 77581.66000000005
       },
       "items": [
         {
@@ -215209,9 +215533,9 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 293.7,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 293.7,
@@ -215227,9 +215551,9 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 295.81,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 295.81,
@@ -215245,9 +215569,9 @@
           "arm_lib": 2.5,
           "arm_pend": 0.5,
           "arm_pend_peso": 145.74,
-          "pint_ok": 1,
-          "pint_pend": 2,
-          "pint_pend_peso": 582.96,
+          "pint_ok": 3,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 3,
           "env_pend_peso": 874.44,
@@ -215638,9 +215962,9 @@
           "long": 16016,
           "cant": 1,
           "peso": 545.31,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 545.31,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 272.655,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 545.31,
@@ -216538,12 +216862,12 @@
           "long": 12305,
           "cant": 2,
           "peso": 754.2,
-          "arm_lib": 1.5,
-          "arm_pend": 0.5,
-          "arm_pend_peso": 188.55,
-          "pint_ok": 1,
-          "pint_pend": 1,
-          "pint_pend_peso": 377.1,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 2,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 2,
           "env_pend_peso": 754.2,
@@ -216574,12 +216898,12 @@
           "long": 12305,
           "cant": 2,
           "peso": 754.2,
-          "arm_lib": 1,
-          "arm_pend": 1,
-          "arm_pend_peso": 377.1,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 754.2,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 2,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 2,
           "env_pend_peso": 754.2,
@@ -216844,9 +217168,9 @@
           "long": 50,
           "cant": 96,
           "peso": 8.64,
-          "arm_lib": 0,
-          "arm_pend": 96,
-          "arm_pend_peso": 8.64,
+          "arm_lib": 96,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 96,
           "pint_pend_peso": 8.64,
@@ -217024,9 +217348,9 @@
           "long": 12305,
           "cant": 1,
           "peso": 377.1,
-          "arm_lib": 0.5,
-          "arm_pend": 0.5,
-          "arm_pend_peso": 188.55,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 377.1,
@@ -217042,12 +217366,12 @@
           "long": 12305,
           "cant": 1,
           "peso": 370.87,
-          "arm_lib": 0.5,
-          "arm_pend": 0.5,
-          "arm_pend_peso": 185.435,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 370.87,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 370.87,
@@ -217240,9 +217564,9 @@
           "long": 50,
           "cant": 64,
           "peso": 5.76,
-          "arm_lib": 0,
-          "arm_pend": 64,
-          "arm_pend_peso": 5.76,
+          "arm_lib": 64,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 64,
           "pint_pend_peso": 5.76,
@@ -217690,9 +218014,9 @@
           "long": 50,
           "cant": 64,
           "peso": 5.76,
-          "arm_lib": 0,
-          "arm_pend": 64,
-          "arm_pend_peso": 5.76,
+          "arm_lib": 64,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 64,
           "pint_pend_peso": 5.76,
@@ -217888,9 +218212,9 @@
           "long": 12733,
           "cant": 2,
           "peso": 773.64,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 773.64,
+          "arm_lib": 1,
+          "arm_pend": 1,
+          "arm_pend_peso": 386.82,
           "pint_ok": 0,
           "pint_pend": 2,
           "pint_pend_peso": 773.64,
@@ -217906,9 +218230,9 @@
           "long": 12733,
           "cant": 3,
           "peso": 1144.65,
-          "arm_lib": 0,
-          "arm_pend": 3,
-          "arm_pend_peso": 1144.65,
+          "arm_lib": 1.5,
+          "arm_pend": 1.5,
+          "arm_pend_peso": 572.325,
           "pint_ok": 0,
           "pint_pend": 3,
           "pint_pend_peso": 1144.65,
@@ -217924,9 +218248,9 @@
           "long": 12733,
           "cant": 2,
           "peso": 773.64,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 773.64,
+          "arm_lib": 1,
+          "arm_pend": 1,
+          "arm_pend_peso": 386.82,
           "pint_ok": 0,
           "pint_pend": 2,
           "pint_pend_peso": 773.64,
@@ -217942,9 +218266,9 @@
           "long": 12733,
           "cant": 1,
           "peso": 385.93,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 385.93,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 192.965,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 385.93,
@@ -218212,9 +218536,9 @@
           "long": 50,
           "cant": 128,
           "peso": 11.52,
-          "arm_lib": 0,
-          "arm_pend": 128,
-          "arm_pend_peso": 11.52,
+          "arm_lib": 128,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 128,
           "pint_pend_peso": 11.52,
@@ -219274,9 +219598,9 @@
           "long": 50,
           "cant": 35,
           "peso": 3.15,
-          "arm_lib": 0,
-          "arm_pend": 35,
-          "arm_pend_peso": 3.15,
+          "arm_lib": 35,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 35,
           "pint_pend_peso": 3.15,
@@ -219292,9 +219616,9 @@
           "long": 50,
           "cant": 35,
           "peso": 3.15,
-          "arm_lib": 0,
-          "arm_pend": 35,
-          "arm_pend_peso": 3.15,
+          "arm_lib": 35,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 35,
           "pint_pend_peso": 3.15,
@@ -220174,9 +220498,9 @@
           "long": 50,
           "cant": 96,
           "peso": 8.64,
-          "arm_lib": 0,
-          "arm_pend": 96,
-          "arm_pend_peso": 8.64,
+          "arm_lib": 96,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 96,
           "pint_pend_peso": 8.64,
@@ -223352,6 +223676,762 @@
           "env_pend": 2,
           "env_pend_peso": 57.08,
           "literal": "BOK"
+        },
+        {
+          "item": 592,
+          "cod": "33322-PL-1",
+          "prod": "Placa",
+          "long": 171,
+          "cant": 7,
+          "peso": 25.13,
+          "arm_lib": 0,
+          "arm_pend": 7,
+          "arm_pend_peso": 25.13,
+          "pint_ok": 0,
+          "pint_pend": 7,
+          "pint_pend_peso": 25.13,
+          "env_ok": 0,
+          "env_pend": 7,
+          "env_pend_peso": 25.13,
+          "literal": "PL"
+        },
+        {
+          "item": 593,
+          "cod": "BMO-CA-1",
+          "prod": "Cabriada Angulos",
+          "long": 12306,
+          "cant": 1,
+          "peso": 383.33,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 383.33,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 383.33,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 383.33,
+          "literal": "BMO"
+        },
+        {
+          "item": 594,
+          "cod": "BMO-CA-2",
+          "prod": "Cabriada Angulos",
+          "long": 12306,
+          "cant": 1,
+          "peso": 384.1,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 384.1,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 384.1,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 384.1,
+          "literal": "BMO"
+        },
+        {
+          "item": 595,
+          "cod": "BMO-CA-3",
+          "prod": "Cabriada Angulos",
+          "long": 12306,
+          "cant": 1,
+          "peso": 378.04,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 378.04,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 378.04,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 378.04,
+          "literal": "BMO"
+        },
+        {
+          "item": 596,
+          "cod": "BMO-CA-4",
+          "prod": "Cabriada Angulos",
+          "long": 12306,
+          "cant": 1,
+          "peso": 384.1,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 384.1,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 384.1,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 384.1,
+          "literal": "BMO"
+        },
+        {
+          "item": 597,
+          "cod": "BMO-CA-5",
+          "prod": "Cabriada Angulos",
+          "long": 12306,
+          "cant": 1,
+          "peso": 383.21,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 383.21,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 383.21,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 383.21,
+          "literal": "BMO"
+        },
+        {
+          "item": 598,
+          "cod": "BMO-CH-1",
+          "prod": "Cruz Horizontal",
+          "long": 6041,
+          "cant": 1,
+          "peso": 5.39,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 5.39,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 5.39,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 5.39,
+          "literal": "BMO"
+        },
+        {
+          "item": 599,
+          "cod": "BMO-CH-2",
+          "prod": "Cruz Horizontal",
+          "long": 6046,
+          "cant": 1,
+          "peso": 5.39,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 5.39,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 5.39,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 5.39,
+          "literal": "BMO"
+        },
+        {
+          "item": 600,
+          "cod": "BMO-CH-3",
+          "prod": "Cruz Horizontal",
+          "long": 6068,
+          "cant": 5,
+          "peso": 27.05,
+          "arm_lib": 0,
+          "arm_pend": 5,
+          "arm_pend_peso": 27.05,
+          "pint_ok": 0,
+          "pint_pend": 5,
+          "pint_pend_peso": 27.05,
+          "env_ok": 0,
+          "env_pend": 5,
+          "env_pend_peso": 27.05,
+          "literal": "BMO"
+        },
+        {
+          "item": 601,
+          "cod": "BMO-CH-4",
+          "prod": "Cruz Horizontal",
+          "long": 6049,
+          "cant": 1,
+          "peso": 5.39,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 5.39,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 5.39,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 5.39,
+          "literal": "BMO"
+        },
+        {
+          "item": 602,
+          "cod": "BMO-CH-5",
+          "prod": "Cruz Horizontal",
+          "long": 6037,
+          "cant": 7,
+          "peso": 37.66,
+          "arm_lib": 0,
+          "arm_pend": 7,
+          "arm_pend_peso": 37.66,
+          "pint_ok": 0,
+          "pint_pend": 7,
+          "pint_pend_peso": 37.66,
+          "env_ok": 0,
+          "env_pend": 7,
+          "env_pend_peso": 37.66,
+          "literal": "BMO"
+        },
+        {
+          "item": 603,
+          "cod": "BMO-CH-6",
+          "prod": "Cruz Horizontal",
+          "long": 6026,
+          "cant": 1,
+          "peso": 5.37,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 5.37,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 5.37,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 5.37,
+          "literal": "BMO"
+        },
+        {
+          "item": 604,
+          "cod": "BMO-DI-1",
+          "prod": "Diagonal",
+          "long": 2439,
+          "cant": 18,
+          "peso": 22.32,
+          "arm_lib": 0,
+          "arm_pend": 18,
+          "arm_pend_peso": 22.32,
+          "pint_ok": 0,
+          "pint_pend": 18,
+          "pint_pend_peso": 22.32,
+          "env_ok": 0,
+          "env_pend": 18,
+          "env_pend_peso": 22.32,
+          "literal": "BMO"
+        },
+        {
+          "item": 605,
+          "cod": "BMO-DI-2",
+          "prod": "Diagonal",
+          "long": 2449,
+          "cant": 1,
+          "peso": 1.25,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 1.25,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 1.25,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 1.25,
+          "literal": "BMO"
+        },
+        {
+          "item": 606,
+          "cod": "BMO-DI-3",
+          "prod": "Diagonal",
+          "long": 2441,
+          "cant": 1,
+          "peso": 1.24,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 1.24,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 1.24,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 1.24,
+          "literal": "BMO"
+        },
+        {
+          "item": 607,
+          "cod": "BMO-DI-4",
+          "prod": "Diagonal",
+          "long": 2433,
+          "cant": 1,
+          "peso": 1.24,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 1.24,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 1.24,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 1.24,
+          "literal": "BMO"
+        },
+        {
+          "item": 608,
+          "cod": "BMO-DI-5",
+          "prod": "Diagonal",
+          "long": 2447,
+          "cant": 1,
+          "peso": 1.24,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 1.24,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 1.24,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 1.24,
+          "literal": "BMO"
+        },
+        {
+          "item": 609,
+          "cod": "BMO-DI-6",
+          "prod": "Diagonal",
+          "long": 2436,
+          "cant": 1,
+          "peso": 1.24,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 1.24,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 1.24,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 1.24,
+          "literal": "BMO"
+        },
+        {
+          "item": 610,
+          "cod": "BMO-DI-7",
+          "prod": "Diagonal",
+          "long": 2434,
+          "cant": 1,
+          "peso": 1.24,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 1.24,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 1.24,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 1.24,
+          "literal": "BMO"
+        },
+        {
+          "item": 611,
+          "cod": "BMO-PCR-1",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 6037,
+          "cant": 20,
+          "peso": 858.8,
+          "arm_lib": 0,
+          "arm_pend": 20,
+          "arm_pend_peso": 858.8,
+          "pint_ok": 0,
+          "pint_pend": 20,
+          "pint_pend_peso": 858.8,
+          "env_ok": 0,
+          "env_pend": 20,
+          "env_pend_peso": 858.8,
+          "literal": "BMO"
+        },
+        {
+          "item": 612,
+          "cod": "BMO-PCR-2",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 5785,
+          "cant": 20,
+          "peso": 822.8,
+          "arm_lib": 0,
+          "arm_pend": 20,
+          "arm_pend_peso": 822.8,
+          "pint_ok": 0,
+          "pint_pend": 20,
+          "pint_pend_peso": 822.8,
+          "env_ok": 0,
+          "env_pend": 20,
+          "env_pend_peso": 822.8,
+          "literal": "BMO"
+        },
+        {
+          "item": 613,
+          "cod": "BMO-SC-1",
+          "prod": "Soporte Cruz",
+          "long": 125,
+          "cant": 12,
+          "peso": 5.04,
+          "arm_lib": 0,
+          "arm_pend": 12,
+          "arm_pend_peso": 5.04,
+          "pint_ok": 0,
+          "pint_pend": 12,
+          "pint_pend_peso": 5.04,
+          "env_ok": 0,
+          "env_pend": 12,
+          "env_pend_peso": 5.04,
+          "literal": "BMO"
+        },
+        {
+          "item": 614,
+          "cod": "BMO-SC-2",
+          "prod": "Soporte Cruz",
+          "long": 125,
+          "cant": 14,
+          "peso": 5.88,
+          "arm_lib": 0,
+          "arm_pend": 14,
+          "arm_pend_peso": 5.88,
+          "pint_ok": 0,
+          "pint_pend": 14,
+          "pint_pend_peso": 5.88,
+          "env_ok": 0,
+          "env_pend": 14,
+          "env_pend_peso": 5.88,
+          "literal": "BMO"
+        },
+        {
+          "item": 615,
+          "cod": "BMO-SC-3",
+          "prod": "Soporte Cruz",
+          "long": 125,
+          "cant": 1,
+          "peso": 0.42,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 0.42,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 0.42,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 0.42,
+          "literal": "BMO"
+        },
+        {
+          "item": 616,
+          "cod": "BMO-SC-4",
+          "prod": "Soporte Cruz",
+          "long": 125,
+          "cant": 3,
+          "peso": 1.26,
+          "arm_lib": 0,
+          "arm_pend": 3,
+          "arm_pend_peso": 1.26,
+          "pint_ok": 0,
+          "pint_pend": 3,
+          "pint_pend_peso": 1.26,
+          "env_ok": 0,
+          "env_pend": 3,
+          "env_pend_peso": 1.26,
+          "literal": "BMO"
+        },
+        {
+          "item": 617,
+          "cod": "BMO-SC-5",
+          "prod": "Soporte Cruz",
+          "long": 125,
+          "cant": 1,
+          "peso": 0.42,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 0.42,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 0.42,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 0.42,
+          "literal": "BMO"
+        },
+        {
+          "item": 618,
+          "cod": "BMO-SC-6",
+          "prod": "Soporte Cruz",
+          "long": 125,
+          "cant": 1,
+          "peso": 0.42,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 0.42,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 0.42,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 0.42,
+          "literal": "BMO"
+        },
+        {
+          "item": 619,
+          "cod": "BMO-SD-1",
+          "prod": "Soporte Diagonal",
+          "long": 50,
+          "cant": 5,
+          "peso": 0.45,
+          "arm_lib": 0,
+          "arm_pend": 5,
+          "arm_pend_peso": 0.45,
+          "pint_ok": 0,
+          "pint_pend": 5,
+          "pint_pend_peso": 0.45,
+          "env_ok": 0,
+          "env_pend": 5,
+          "env_pend_peso": 0.45,
+          "literal": "BMO"
+        },
+        {
+          "item": 620,
+          "cod": "BMO-SD-2",
+          "prod": "Soporte Diagonal",
+          "long": 50,
+          "cant": 43,
+          "peso": 3.87,
+          "arm_lib": 0,
+          "arm_pend": 43,
+          "arm_pend_peso": 3.87,
+          "pint_ok": 0,
+          "pint_pend": 43,
+          "pint_pend_peso": 3.87,
+          "env_ok": 0,
+          "env_pend": 43,
+          "env_pend_peso": 3.87,
+          "literal": "BMO"
+        },
+        {
+          "item": 621,
+          "cod": "BMO-TC-1",
+          "prod": "Tilla de compresion",
+          "long": 372,
+          "cant": 8,
+          "peso": 7.04,
+          "arm_lib": 0,
+          "arm_pend": 8,
+          "arm_pend_peso": 7.04,
+          "pint_ok": 0,
+          "pint_pend": 8,
+          "pint_pend_peso": 7.04,
+          "env_ok": 0,
+          "env_pend": 8,
+          "env_pend_peso": 7.04,
+          "literal": "BMO"
+        },
+        {
+          "item": 622,
+          "cod": "BMO-TC-2",
+          "prod": "Tilla de compresion",
+          "long": 1445,
+          "cant": 8,
+          "peso": 20.32,
+          "arm_lib": 0,
+          "arm_pend": 8,
+          "arm_pend_peso": 20.32,
+          "pint_ok": 0,
+          "pint_pend": 8,
+          "pint_pend_peso": 20.32,
+          "env_ok": 0,
+          "env_pend": 8,
+          "env_pend_peso": 20.32,
+          "literal": "BMO"
+        },
+        {
+          "item": 623,
+          "cod": "BMO-TC-3",
+          "prod": "Tilla de compresion",
+          "long": 1445,
+          "cant": 8,
+          "peso": 20.32,
+          "arm_lib": 0,
+          "arm_pend": 8,
+          "arm_pend_peso": 20.32,
+          "pint_ok": 0,
+          "pint_pend": 8,
+          "pint_pend_peso": 20.32,
+          "env_ok": 0,
+          "env_pend": 8,
+          "env_pend_peso": 20.32,
+          "literal": "BMO"
+        },
+        {
+          "item": 624,
+          "cod": "BMO-TC-4",
+          "prod": "Tilla de compresion",
+          "long": 1499,
+          "cant": 8,
+          "peso": 21.04,
+          "arm_lib": 0,
+          "arm_pend": 8,
+          "arm_pend_peso": 21.04,
+          "pint_ok": 0,
+          "pint_pend": 8,
+          "pint_pend_peso": 21.04,
+          "env_ok": 0,
+          "env_pend": 8,
+          "env_pend_peso": 21.04,
+          "literal": "BMO"
+        },
+        {
+          "item": 625,
+          "cod": "BMO-TC-5",
+          "prod": "Tilla de compresion",
+          "long": 1497,
+          "cant": 8,
+          "peso": 20.96,
+          "arm_lib": 0,
+          "arm_pend": 8,
+          "arm_pend_peso": 20.96,
+          "pint_ok": 0,
+          "pint_pend": 8,
+          "pint_pend_peso": 20.96,
+          "env_ok": 0,
+          "env_pend": 8,
+          "env_pend_peso": 20.96,
+          "literal": "BMO"
+        },
+        {
+          "item": 626,
+          "cod": "BMO-TC-6",
+          "prod": "Tilla de compresion",
+          "long": 1499,
+          "cant": 16,
+          "peso": 42.08,
+          "arm_lib": 0,
+          "arm_pend": 16,
+          "arm_pend_peso": 42.08,
+          "pint_ok": 0,
+          "pint_pend": 16,
+          "pint_pend_peso": 42.08,
+          "env_ok": 0,
+          "env_pend": 16,
+          "env_pend_peso": 42.08,
+          "literal": "BMO"
+        },
+        {
+          "item": 627,
+          "cod": "BMO-TC-7",
+          "prod": "Tilla de compresion",
+          "long": 1437,
+          "cant": 8,
+          "peso": 20.24,
+          "arm_lib": 0,
+          "arm_pend": 8,
+          "arm_pend_peso": 20.24,
+          "pint_ok": 0,
+          "pint_pend": 8,
+          "pint_pend_peso": 20.24,
+          "env_ok": 0,
+          "env_pend": 8,
+          "env_pend_peso": 20.24,
+          "literal": "BMO"
+        },
+        {
+          "item": 628,
+          "cod": "BMO-TC-8",
+          "prod": "Tilla de compresion",
+          "long": 1437,
+          "cant": 8,
+          "peso": 20.32,
+          "arm_lib": 0,
+          "arm_pend": 8,
+          "arm_pend_peso": 20.32,
+          "pint_ok": 0,
+          "pint_pend": 8,
+          "pint_pend_peso": 20.32,
+          "env_ok": 0,
+          "env_pend": 8,
+          "env_pend_peso": 20.32,
+          "literal": "BMO"
+        },
+        {
+          "item": 629,
+          "cod": "BMO-TI-1",
+          "prod": "Tilla de Traccion",
+          "long": 5844,
+          "cant": 4,
+          "peso": 32.52,
+          "arm_lib": 0,
+          "arm_pend": 4,
+          "arm_pend_peso": 32.52,
+          "pint_ok": 0,
+          "pint_pend": 4,
+          "pint_pend_peso": 32.52,
+          "env_ok": 0,
+          "env_pend": 4,
+          "env_pend_peso": 32.52,
+          "literal": "BMO"
+        },
+        {
+          "item": 630,
+          "cod": "BMO-VAT-1",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 2283,
+          "cant": 4,
+          "peso": 35.6,
+          "arm_lib": 0,
+          "arm_pend": 4,
+          "arm_pend_peso": 35.6,
+          "pint_ok": 0,
+          "pint_pend": 4,
+          "pint_pend_peso": 35.6,
+          "env_ok": 0,
+          "env_pend": 4,
+          "env_pend_peso": 35.6,
+          "literal": "BMO"
+        },
+        {
+          "item": 631,
+          "cod": "BMO-VAT-2",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 5625,
+          "cant": 4,
+          "peso": 117.8,
+          "arm_lib": 0,
+          "arm_pend": 4,
+          "arm_pend_peso": 117.8,
+          "pint_ok": 0,
+          "pint_pend": 4,
+          "pint_pend_peso": 117.8,
+          "env_ok": 0,
+          "env_pend": 4,
+          "env_pend_peso": 117.8,
+          "literal": "BMO"
+        },
+        {
+          "item": 632,
+          "cod": "BMO-VAT-3",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 5625,
+          "cant": 4,
+          "peso": 117.76,
+          "arm_lib": 0,
+          "arm_pend": 4,
+          "arm_pend_peso": 117.76,
+          "pint_ok": 0,
+          "pint_pend": 4,
+          "pint_pend_peso": 117.76,
+          "env_ok": 0,
+          "env_pend": 4,
+          "env_pend_peso": 117.76,
+          "literal": "BMO"
+        },
+        {
+          "item": 633,
+          "cod": "BMO-VAT-4",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 2282,
+          "cant": 4,
+          "peso": 35.56,
+          "arm_lib": 0,
+          "arm_pend": 4,
+          "arm_pend_peso": 35.56,
+          "pint_ok": 0,
+          "pint_pend": 4,
+          "pint_pend_peso": 35.56,
+          "env_ok": 0,
+          "env_pend": 4,
+          "env_pend_peso": 35.56,
+          "literal": "BMO"
         }
       ],
       "arm_pend_items": [
@@ -223416,7 +224496,7 @@
           "prod": "Cabriada Angulos",
           "long": 16016,
           "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BNH-CH-1",
@@ -223657,20 +224737,6 @@
           "pend": 6
         },
         {
-          "cod": "BNI-CA-2",
-          "prod": "Cabriada Angulos",
-          "long": 12305,
-          "cant": 2,
-          "pend": 0.5
-        },
-        {
-          "cod": "BNI-CA-4",
-          "prod": "Cabriada Angulos",
-          "long": 12305,
-          "cant": 2,
-          "pend": 1
-        },
-        {
           "cod": "BNI-CH-1",
           "prod": "Cruz Horizontal",
           "long": 5994,
@@ -223769,13 +224835,6 @@
           "pend": 16
         },
         {
-          "cod": "BNI-SD-1",
-          "prod": "Soporte Diagonal",
-          "long": 50,
-          "cant": 96,
-          "pend": 96
-        },
-        {
           "cod": "BNI-TE-1",
           "prod": "Tensor",
           "long": 5730,
@@ -223795,20 +224854,6 @@
           "long": 5780,
           "cant": 2,
           "pend": 2
-        },
-        {
-          "cod": "BNI-CA-300",
-          "prod": "Cabriada Angulos",
-          "long": 12305,
-          "cant": 1,
-          "pend": 0.5
-        },
-        {
-          "cod": "BNI-CA-301",
-          "prod": "Cabriada Angulos",
-          "long": 12305,
-          "cant": 1,
-          "pend": 0.5
         },
         {
           "cod": "BNI-CA-302",
@@ -223879,13 +224924,6 @@
           "long": 125,
           "cant": 16,
           "pend": 16
-        },
-        {
-          "cod": "BNI-SD-300",
-          "prod": "Soporte Diagonal",
-          "long": 50,
-          "cant": 64,
-          "pend": 64
         },
         {
           "cod": "BNI-TE-300",
@@ -224035,13 +225073,6 @@
           "pend": 8
         },
         {
-          "cod": "BOD-SD-1",
-          "prod": "Soporte Diagonal",
-          "long": 50,
-          "cant": 64,
-          "pend": 64
-        },
-        {
           "cod": "BOD-TC-1",
           "prod": "Tilla de compresion",
           "long": 1444,
@@ -224116,28 +225147,28 @@
           "prod": "Cabriada Angulos",
           "long": 12733,
           "cant": 2,
-          "pend": 2
+          "pend": 1
         },
         {
           "cod": "BNX-CA-3",
           "prod": "Cabriada Angulos",
           "long": 12733,
           "cant": 3,
-          "pend": 3
+          "pend": 1.5
         },
         {
           "cod": "BNX-CA-4",
           "prod": "Cabriada Angulos",
           "long": 12733,
           "cant": 2,
-          "pend": 2
+          "pend": 1
         },
         {
           "cod": "BNX-CA-5",
           "prod": "Cabriada Angulos",
           "long": 12733,
           "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BNX-CH-1",
@@ -224236,13 +225267,6 @@
           "long": 125,
           "cant": 6,
           "pend": 6
-        },
-        {
-          "cod": "BNX-SD-1",
-          "prod": "Soporte Diagonal",
-          "long": 50,
-          "cant": 128,
-          "pend": 128
         },
         {
           "cod": "BNX-TC-1",
@@ -224651,20 +225675,6 @@
           "pend": 17
         },
         {
-          "cod": "BOO-SD-1",
-          "prod": "Soporte Diagonal",
-          "long": 50,
-          "cant": 35,
-          "pend": 35
-        },
-        {
-          "cod": "BOO-SD-2",
-          "prod": "Soporte Diagonal",
-          "long": 50,
-          "cant": 35,
-          "pend": 35
-        },
-        {
           "cod": "BOO-TC-1",
           "prod": "Tilla de compresion",
           "long": 1444,
@@ -224985,13 +225995,6 @@
           "long": 125,
           "cant": 24,
           "pend": 24
-        },
-        {
-          "cod": "COA-SD-1",
-          "prod": "Soporte Diagonal",
-          "long": 50,
-          "cant": 96,
-          "pend": 96
         },
         {
           "cod": "COA-TC-1",
@@ -225454,30 +226457,86 @@
           "long": 357,
           "cant": 5,
           "pend": 5
+        },
+        {
+          "cod": "BNE-TC-5",
+          "prod": "Tilla de compresion",
+          "long": 192,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BNE-TC-6",
+          "prod": "Tilla de compresion",
+          "long": 1452,
+          "cant": 28,
+          "pend": 28
+        },
+        {
+          "cod": "BNE-TC-7",
+          "prod": "Tilla de compresion",
+          "long": 1412,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BNE-TC-8",
+          "prod": "Tilla de compresion",
+          "long": 1411,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BNE-TC-9",
+          "prod": "Tilla de compresion",
+          "long": 1412,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BNE-TC-10",
+          "prod": "Tilla de compresion",
+          "long": 1411,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BNE-VAT-1",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 1593,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BNE-VAT-2",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 1437,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BNE-VAT-3",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 3065,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BNE-VAT-4",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 3065,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BNE-VAT-5",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 3065,
+          "cant": 1,
+          "pend": 1
         }
       ],
       "pint_pend_items": [
-        {
-          "cod": "BNB-CA-1",
-          "prod": "Cabriada Angulos",
-          "long": 10255,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BNB-CA-2",
-          "prod": "Cabriada Angulos",
-          "long": 10255,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BNB-CA-3",
-          "prod": "Cabriada Angulos",
-          "long": 10255,
-          "cant": 3,
-          "pend": 2
-        },
         {
           "cod": "BNB-CA-4",
           "prod": "Cabriada Angulos",
@@ -225773,20 +226832,6 @@
           "pend": 6
         },
         {
-          "cod": "BNI-CA-2",
-          "prod": "Cabriada Angulos",
-          "long": 12305,
-          "cant": 2,
-          "pend": 1
-        },
-        {
-          "cod": "BNI-CA-4",
-          "prod": "Cabriada Angulos",
-          "long": 12305,
-          "cant": 2,
-          "pend": 2
-        },
-        {
           "cod": "BNI-CH-1",
           "prod": "Cruz Horizontal",
           "long": 5994,
@@ -225928,13 +226973,6 @@
         },
         {
           "cod": "BNI-CA-300",
-          "prod": "Cabriada Angulos",
-          "long": 12305,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BNI-CA-301",
           "prod": "Cabriada Angulos",
           "long": 12305,
           "cant": 1,
@@ -227554,6 +228592,48 @@
           "cod": "BNE-TC-5",
           "prod": "Tilla de compresion",
           "long": 192,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BNE-TC-6",
+          "prod": "Tilla de compresion",
+          "long": 1452,
+          "cant": 28,
+          "pend": 28
+        },
+        {
+          "cod": "BNE-TC-7",
+          "prod": "Tilla de compresion",
+          "long": 1412,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BNE-TC-8",
+          "prod": "Tilla de compresion",
+          "long": 1411,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BNE-TC-9",
+          "prod": "Tilla de compresion",
+          "long": 1412,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BNE-TC-10",
+          "prod": "Tilla de compresion",
+          "long": 1411,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BNE-VAT-1",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 1593,
           "cant": 1,
           "pend": 1
         }
