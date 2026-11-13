@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T11:53:05.334Z",
+  "updatedAt": "2026-11-13T16:58:47.064Z",
   "updatedBy": "Helden Rodriguez",
   "checks": {
     "24969_1": {
@@ -13355,7 +13355,7 @@
     },
     "25659_228": {
       "arm_state": "liberado",
-      "qty_lib": 18,
+      "qty_lib": 22,
       "pint_state": "en_pintura"
     },
     "25720_209": {
@@ -13405,7 +13405,7 @@
     },
     "25659_219": {
       "arm_state": "liberado",
-      "qty_lib": 18
+      "qty_lib": 22
     },
     "25720_197": {
       "arm_state": "liberado",
@@ -13414,7 +13414,7 @@
     },
     "25659_232": {
       "arm_state": "liberado",
-      "qty_lib": 12,
+      "qty_lib": 15,
       "pint_state": "en_pintura"
     },
     "25720_131": {
@@ -47275,8 +47275,8 @@
       "qty_lib": 2
     },
     "26032_6": {
-      "qty_lib": 20,
-      "arm_state": "armado"
+      "qty_lib": 24,
+      "arm_state": "liberado"
     },
     "25938_157": {
       "qty_lib": 8,
@@ -47473,6 +47473,15 @@
     "25946_31": {
       "qty_lib": 5,
       "arm_state": "liberado"
+    },
+    "26032_3": {},
+    "26032_5": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25833_278": {
+      "arm_state": "liberado",
+      "qty_lib": 1
     }
   },
   "otMeta": {}
