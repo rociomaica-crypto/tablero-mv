@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T21:17:04.212Z",
+  "updatedAt": "2026-11-14T11:48:22.882Z",
   "updatedBy": "Brian Soto",
   "checks": {
     "24969_1": {
@@ -42210,27 +42210,33 @@
     },
     "25876_26": {
       "arm_state": "liberado",
-      "qty_lib": 36
+      "qty_lib": 36,
+      "pint_state": "pintado"
     },
     "25876_27": {
       "arm_state": "liberado",
-      "qty_lib": 8
+      "qty_lib": 8,
+      "pint_state": "pintado"
     },
     "25876_28": {
       "arm_state": "liberado",
-      "qty_lib": 4
+      "qty_lib": 4,
+      "pint_state": "pintado"
     },
     "25876_29": {
       "arm_state": "liberado",
-      "qty_lib": 2
+      "qty_lib": 2,
+      "pint_state": "pintado"
     },
     "25876_30": {
       "arm_state": "liberado",
-      "qty_lib": 2
+      "qty_lib": 2,
+      "pint_state": "pintado"
     },
     "25876_31": {
       "arm_state": "liberado",
-      "qty_lib": 4
+      "qty_lib": 4,
+      "pint_state": "pintado"
     },
     "25876_32": {
       "arm_state": "liberado",
@@ -42239,11 +42245,13 @@
     },
     "25876_33": {
       "arm_state": "liberado",
-      "qty_lib": 4
+      "qty_lib": 4,
+      "pint_state": "pintado"
     },
     "25876_81": {
       "arm_state": "liberado",
-      "qty_lib": 114
+      "qty_lib": 114,
+      "pint_state": "pintado"
     },
     "25876_117": {
       "arm_state": "liberado",
@@ -42271,7 +42279,8 @@
     },
     "25876_25": {
       "arm_state": "liberado",
-      "qty_lib": 72
+      "qty_lib": 72,
+      "pint_state": "pintado"
     },
     "25870_131": {
       "arm_state": "liberado",
@@ -43992,12 +44001,12 @@
     "25870_104": {
       "arm_state": "liberado",
       "qty_lib": 8,
-      "pint_state": "en_pintura"
+      "pint_state": "pintado"
     },
     "25870_105": {
       "arm_state": "liberado",
       "qty_lib": 4,
-      "pint_state": "en_pintura"
+      "pint_state": "pintado"
     },
     "25659_21": {},
     "25659_22": {
@@ -44659,11 +44668,13 @@
     },
     "25876_6": {
       "arm_state": "liberado",
-      "qty_lib": 36
+      "qty_lib": 36,
+      "pint_state": "pintado"
     },
     "25876_7": {
       "arm_state": "liberado",
-      "qty_lib": 16
+      "qty_lib": 16,
+      "pint_state": "pintado"
     },
     "25876_18": {
       "arm_state": "liberado",
@@ -44671,7 +44682,7 @@
       "pint_state": "pintado"
     },
     "25876_69": {
-      "arm_state": "armado",
+      "arm_state": "liberado",
       "qty_lib": 100
     },
     "25876_70": {
@@ -46558,7 +46569,7 @@
     "25870_112": {
       "arm_state": "liberado",
       "qty_lib": 12,
-      "pint_state": "en_pintura"
+      "pint_state": "pintado"
     },
     "25870_113": {
       "arm_state": "liberado",
@@ -46566,7 +46577,7 @@
     },
     "25870_114": {
       "arm_state": "liberado",
-      "qty_lib": 2,
+      "qty_lib": 12,
       "pint_state": "pintado"
     },
     "25986_115": {
@@ -46735,12 +46746,12 @@
     "25870_110": {
       "arm_state": "liberado",
       "qty_lib": 12,
-      "pint_state": "en_pintura"
+      "pint_state": "pintado"
     },
     "25870_111": {
       "arm_state": "liberado",
       "qty_lib": 10,
-      "pint_state": "en_pintura"
+      "pint_state": "pintado"
     },
     "25833_275": {
       "arm_state": "liberado"
@@ -46800,7 +46811,8 @@
     },
     "25870_102": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25870_250": {
       "arm_state": "liberado",
@@ -46817,12 +46829,12 @@
     "25870_106": {
       "arm_state": "liberado",
       "qty_lib": 24,
-      "pint_state": "en_pintura"
+      "pint_state": "pintado"
     },
     "25870_107": {
       "arm_state": "liberado",
       "qty_lib": 24,
-      "pint_state": "en_pintura"
+      "pint_state": "pintado"
     },
     "25870_234": {
       "arm_state": "liberado",
@@ -149788,26 +149800,26 @@
       "ot": "25659",
       "obra": "NAVE 4 CDLUQUE CHACOMER OP PILAR 16M",
       "cliente": "Kinetik SA",
-      "fecha": "12/11/2026",
+      "fecha": "14/11/2026",
       "avances": {
-        "arm": 42,
-        "pint": 42,
-        "env": 16,
+        "arm": 43,
+        "pint": 39,
+        "env": 17,
         "mont": 0
       },
       "totales": {
-        "cant": 16316,
-        "arm_lib": 6901,
-        "arm_pend": 9415,
-        "pint_ok": 6782,
-        "pint_pend": 9534,
-        "env_ok": 2534,
-        "env_pend": 13782,
-        "items": 199,
-        "peso_total": 631063.7700000001,
-        "arm_pend_peso": 334786.2250000001,
-        "pint_pend_peso": 331473.88500000007,
-        "env_pend_peso": 482751.44000000006
+        "cant": 15484,
+        "arm_lib": 6584,
+        "arm_pend": 8900,
+        "pint_ok": 6023,
+        "pint_pend": 9461,
+        "env_ok": 2639,
+        "env_pend": 12845,
+        "items": 185,
+        "peso_total": 626428.1100000001,
+        "arm_pend_peso": 332269.9300000001,
+        "pint_pend_peso": 330778.3950000001,
+        "env_pend_peso": 469378.31
       },
       "items": [
         {
@@ -150573,9 +150585,9 @@
           "long": 50,
           "cant": 256,
           "peso": 23.04,
-          "arm_lib": 0,
-          "arm_pend": 256,
-          "arm_pend_peso": 23.04,
+          "arm_lib": 256,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 256,
           "pint_pend_peso": 23.04,
@@ -151221,9 +151233,9 @@
           "long": 21942,
           "cant": 8,
           "peso": 6605.6,
-          "arm_lib": 2,
-          "arm_pend": 6,
-          "arm_pend_peso": 4954.2,
+          "arm_lib": 2.5,
+          "arm_pend": 5.5,
+          "arm_pend_peso": 4541.35,
           "pint_ok": 0,
           "pint_pend": 8,
           "pint_pend_peso": 6605.6,
@@ -151239,9 +151251,9 @@
           "long": 21942,
           "cant": 15,
           "peso": 12316.65,
-          "arm_lib": 3.5,
-          "arm_pend": 11.5,
-          "arm_pend_peso": 9442.765,
+          "arm_lib": 5,
+          "arm_pend": 10,
+          "arm_pend_peso": 8211.1,
           "pint_ok": 0.5,
           "pint_pend": 14.5,
           "pint_pend_peso": 11906.095,
@@ -151257,9 +151269,9 @@
           "long": 21942,
           "cant": 8,
           "peso": 6605.6,
-          "arm_lib": 2,
-          "arm_pend": 6,
-          "arm_pend_peso": 4954.2,
+          "arm_lib": 3,
+          "arm_pend": 5,
+          "arm_pend_peso": 4128.5,
           "pint_ok": 0,
           "pint_pend": 8,
           "pint_pend_peso": 6605.6,
@@ -151509,9 +151521,9 @@
           "long": 50,
           "cant": 256,
           "peso": 23.04,
-          "arm_lib": 0,
-          "arm_pend": 256,
-          "arm_pend_peso": 23.04,
+          "arm_lib": 256,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 256,
           "pint_pend_peso": 23.04,
@@ -151773,96 +151785,6 @@
           "literal": "BJK"
         },
         {
-          "item": 116,
-          "cod": "BJK-CH-401",
-          "prod": "Cruz Horizontal",
-          "long": 7153,
-          "cant": 18,
-          "peso": 114.84,
-          "arm_lib": 18,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 18,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 18,
-          "env_pend_peso": 114.84,
-          "literal": "BJK"
-        },
-        {
-          "item": 117,
-          "cod": "BJK-CH-402",
-          "prod": "Cruz Horizontal",
-          "long": 7255,
-          "cant": 18,
-          "peso": 116.46,
-          "arm_lib": 18,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 18,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 18,
-          "env_pend_peso": 116.46,
-          "literal": "BJK"
-        },
-        {
-          "item": 118,
-          "cod": "BJK-CT-400",
-          "prod": "Correa Timpano",
-          "long": 5875,
-          "cant": 2,
-          "peso": 103.3,
-          "arm_lib": 2,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 1,
-          "pint_pend": 1,
-          "pint_pend_peso": 51.65,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 103.3,
-          "literal": "BJK"
-        },
-        {
-          "item": 119,
-          "cod": "BJK-CT-401",
-          "prod": "Correa Timpano",
-          "long": 5615,
-          "cant": 30,
-          "peso": 1481.1,
-          "arm_lib": 30,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 30,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 30,
-          "env_pend_peso": 1481.1,
-          "literal": "BJK"
-        },
-        {
-          "item": 120,
-          "cod": "BJK-CV-400",
-          "prod": "Cruz Vertical",
-          "long": 5144,
-          "cant": 54,
-          "peso": 247.32,
-          "arm_lib": 54,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 54,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 54,
-          "env_pend_peso": 247.32,
-          "literal": "BJK"
-        },
-        {
           "item": 121,
           "cod": "BJK-DI-400",
           "prod": "Diagonal",
@@ -151929,27 +151851,9 @@
           "pint_ok": 480,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 180,
-          "env_pend": 300,
-          "env_pend_peso": 8181,
-          "literal": "BJK"
-        },
-        {
-          "item": 125,
-          "cod": "BJK-SC-400",
-          "prod": "Soporte Cruz",
-          "long": 125,
-          "cant": 126,
-          "peso": 52.92,
-          "arm_lib": 126,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 126,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 126,
-          "env_pend_peso": 52.92,
+          "env_ok": 228,
+          "env_pend": 252,
+          "env_pend_peso": 6872.04,
           "literal": "BJK"
         },
         {
@@ -151965,9 +151869,9 @@
           "pint_ok": 126,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 126,
-          "env_pend_peso": 52.92,
+          "env_ok": 48,
+          "env_pend": 78,
+          "env_pend_peso": 32.76,
           "literal": "BJK"
         },
         {
@@ -151989,150 +151893,6 @@
           "literal": "BJK"
         },
         {
-          "item": 128,
-          "cod": "BJK-SP-400",
-          "prod": "SOPORTE",
-          "long": 2800,
-          "cant": 2,
-          "peso": 18.74,
-          "arm_lib": 2,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 2,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 18.74,
-          "literal": "BJK"
-        },
-        {
-          "item": 129,
-          "cod": "BJK-SP-401",
-          "prod": "SOPORTE",
-          "long": 6000,
-          "cant": 4,
-          "peso": 80.28,
-          "arm_lib": 4,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 4,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 4,
-          "env_pend_peso": 80.28,
-          "literal": "BJK"
-        },
-        {
-          "item": 130,
-          "cod": "BJK-SP-402",
-          "prod": "SOPORTE",
-          "long": 6000,
-          "cant": 2,
-          "peso": 39.94,
-          "arm_lib": 2,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 2,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 39.94,
-          "literal": "BJK"
-        },
-        {
-          "item": 131,
-          "cod": "BJK-TC-400",
-          "prod": "Tilla de compresion",
-          "long": 1098,
-          "cant": 32,
-          "peso": 123.84,
-          "arm_lib": 32,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 32,
-          "pint_pend_peso": 123.84,
-          "env_ok": 0,
-          "env_pend": 32,
-          "env_pend_peso": 123.84,
-          "literal": "BJK"
-        },
-        {
-          "item": 132,
-          "cod": "BJK-TC-401",
-          "prod": "Tilla de compresion",
-          "long": 1400,
-          "cant": 32,
-          "peso": 154.24,
-          "arm_lib": 32,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 32,
-          "pint_pend_peso": 154.24,
-          "env_ok": 0,
-          "env_pend": 32,
-          "env_pend_peso": 154.24,
-          "literal": "BJK"
-        },
-        {
-          "item": 133,
-          "cod": "BJK-TE-400",
-          "prod": "Tensor",
-          "long": 5575,
-          "cant": 69,
-          "peso": 535.44,
-          "arm_lib": 69,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 69,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 69,
-          "env_pend_peso": 535.44,
-          "literal": "BJK"
-        },
-        {
-          "item": 134,
-          "cod": "BJK-TI-400",
-          "prod": "Tilla de Traccion",
-          "long": 1486,
-          "cant": 416,
-          "peso": 332.8,
-          "arm_lib": 416,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 416,
-          "pint_pend": 0,
-          "pint_pend_peso": 0,
-          "env_ok": 0,
-          "env_pend": 416,
-          "env_pend_peso": 332.8,
-          "literal": "BJK"
-        },
-        {
-          "item": 135,
-          "cod": "BJK-VAT-400",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5425,
-          "cant": 27,
-          "peso": 1234.44,
-          "arm_lib": 27,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 19,
-          "pint_pend": 8,
-          "pint_pend_peso": 365.76,
-          "env_ok": 0,
-          "env_pend": 27,
-          "env_pend_peso": 1234.44,
-          "literal": "BJK"
-        },
-        {
           "item": 137,
           "cod": "BJK-VTR-401",
           "prod": "Viga Techo Reticulada de angulos",
@@ -152145,9 +151905,9 @@
           "pint_ok": 8,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 3,
-          "env_pend": 5,
-          "env_pend_peso": 4128.5,
+          "env_ok": 5,
+          "env_pend": 3,
+          "env_pend_peso": 2477.1,
           "literal": "BJK"
         },
         {
@@ -152163,9 +151923,9 @@
           "pint_ok": 15,
           "pint_pend": 0,
           "pint_pend_peso": 0,
-          "env_ok": 3,
-          "env_pend": 12,
-          "env_pend_peso": 9853.32,
+          "env_ok": 8,
+          "env_pend": 7,
+          "env_pend_peso": 5747.77,
           "literal": "BJK"
         },
         {
@@ -152181,9 +151941,9 @@
           "pint_ok": 15,
           "pint_pend": -7,
           "pint_pend_peso": -5779.9,
-          "env_ok": 2,
-          "env_pend": 6,
-          "env_pend_peso": 4954.2,
+          "env_ok": 4,
+          "env_pend": 4,
+          "env_pend_peso": 3302.8,
           "literal": "BJK"
         },
         {
@@ -153563,13 +153323,6 @@
           "pend": 126
         },
         {
-          "cod": "BJK-SD-100",
-          "prod": "Soporte Diagonal",
-          "long": 50,
-          "cant": 256,
-          "pend": 256
-        },
-        {
           "cod": "BJK-SP-100",
           "prod": "SOPORTE",
           "long": 2800,
@@ -153728,21 +153481,21 @@
           "prod": "Viga Techo Reticulada de angulos",
           "long": 21942,
           "cant": 8,
-          "pend": 6
+          "pend": 5.5
         },
         {
           "cod": "BJK-VTR-202",
           "prod": "Viga Techo Reticulada de angulos",
           "long": 21942,
           "cant": 15,
-          "pend": 11.5
+          "pend": 10
         },
         {
           "cod": "BJK-VTR-203",
           "prod": "Viga Techo Reticulada de angulos",
           "long": 21942,
           "cant": 8,
-          "pend": 6
+          "pend": 5
         },
         {
           "cod": "BJK-VTR-204",
@@ -153764,13 +153517,6 @@
           "long": 5615,
           "cant": 480,
           "pend": 480
-        },
-        {
-          "cod": "BJK-SD-300",
-          "prod": "Soporte Diagonal",
-          "long": 50,
-          "cant": 256,
-          "pend": 256
         },
         {
           "cod": "BJK-PCR-400",
@@ -154489,39 +154235,11 @@
           "pend": 3.5
         },
         {
-          "cod": "BJK-CT-400",
-          "prod": "Correa Timpano",
-          "long": 5875,
-          "cant": 2,
-          "pend": 1
-        },
-        {
           "cod": "BJK-SD-400",
           "prod": "Soporte Diagonal",
           "long": 50,
           "cant": 256,
           "pend": 256
-        },
-        {
-          "cod": "BJK-TC-400",
-          "prod": "Tilla de compresion",
-          "long": 1098,
-          "cant": 32,
-          "pend": 32
-        },
-        {
-          "cod": "BJK-TC-401",
-          "prod": "Tilla de compresion",
-          "long": 1400,
-          "cant": 32,
-          "pend": 32
-        },
-        {
-          "cod": "BJK-VAT-400",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5425,
-          "cant": 27,
-          "pend": 8
         },
         {
           "cod": "BJK-CV-603",
