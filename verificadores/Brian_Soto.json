@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T11:48:22.882Z",
+  "updatedAt": "2026-11-14T11:50:17.879Z",
   "updatedBy": "Brian Soto",
   "checks": {
     "24969_1": {
@@ -193660,24 +193660,24 @@
       "ot": "25837",
       "obra": "Solar Banco",
       "cliente": "Dumot Construcciones Civiles E Industriales SA",
-      "fecha": "12/11/2026",
+      "fecha": "14/11/2026",
       "avances": {
-        "arm": 5,
+        "arm": 7,
         "pint": 0,
         "env": 0,
         "mont": 0
       },
       "totales": {
         "cant": 1150,
-        "arm_lib": 59,
-        "arm_pend": 1091,
+        "arm_lib": 77,
+        "arm_pend": 1073,
         "pint_ok": 0,
         "pint_pend": 1150,
         "env_ok": 0,
         "env_pend": 1150,
         "items": 152,
         "peso_total": 229573.27999999994,
-        "arm_pend_peso": 225327.99999999994,
+        "arm_pend_peso": 225256.35999999996,
         "pint_pend_peso": 229573.27999999994,
         "env_pend_peso": 229573.27999999994
       },
@@ -194175,9 +194175,9 @@
           "long": 275,
           "cant": 10,
           "peso": 39.8,
-          "arm_lib": 0,
-          "arm_pend": 10,
-          "arm_pend_peso": 39.8,
+          "arm_lib": 10,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 10,
           "pint_pend_peso": 39.8,
@@ -195471,9 +195471,9 @@
           "long": 275,
           "cant": 8,
           "peso": 31.84,
-          "arm_lib": 0,
-          "arm_pend": 8,
-          "arm_pend_peso": 31.84,
+          "arm_lib": 8,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 8,
           "pint_pend_peso": 31.84,
@@ -196526,13 +196526,6 @@
           "pend": 36
         },
         {
-          "cod": "BMT-LLP-1",
-          "prod": "Angulo Pintado",
-          "long": 275,
-          "cant": 10,
-          "pend": 10
-        },
-        {
           "cod": "BMT-PIS-1",
           "prod": "Pilar Alma Llena",
           "long": 3357,
@@ -196937,13 +196930,6 @@
           "long": 14187,
           "cant": 1,
           "pend": 1
-        },
-        {
-          "cod": "BMT-LLP-200",
-          "prod": "Angulo Pintado",
-          "long": 275,
-          "cant": 8,
-          "pend": 8
         },
         {
           "cod": "BMT-PIS-200",
