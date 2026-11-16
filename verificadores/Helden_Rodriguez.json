@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T09:26:51.616Z",
+  "updatedAt": "2026-11-16T09:28:13.315Z",
   "updatedBy": "Helden Rodriguez",
   "checks": {
     "24969_1": {
@@ -10135,15 +10135,18 @@
     },
     "25876_12": {
       "qty_lib": 4,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25876_13": {
       "qty_lib": 2,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25876_14": {
       "qty_lib": 2,
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25876_15": {
       "qty_lib": 2,
@@ -48192,6 +48195,66 @@
       "arm_state": "liberado",
       "pint_state": "en_pintura",
       "qty_lib": 1
+    },
+    "25876_38": {
+      "qty_lib": 6,
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25876_39": {
+      "qty_lib": 48,
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25876_40": {
+      "qty_lib": 6,
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25876_41": {
+      "qty_lib": 12,
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25876_42": {
+      "qty_lib": 96,
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25876_43": {
+      "qty_lib": 12,
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25876_44": {
+      "qty_lib": 3,
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25876_45": {
+      "qty_lib": 3,
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25876_46": {
+      "qty_lib": 2,
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25876_47": {
+      "qty_lib": 2,
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25876_48": {
+      "qty_lib": 6,
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25876_49": {
+      "qty_lib": 6,
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     }
   },
   "otMeta": {}
