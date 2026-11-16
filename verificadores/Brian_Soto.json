@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T11:46:42.188Z",
+  "updatedAt": "2026-11-16T11:48:03.013Z",
   "updatedBy": "Brian Soto",
   "checks": {
     "24969_1": {
@@ -43161,24 +43161,24 @@
       "qty_lib": 165
     },
     "25659_197": {
-      "arm_state": "armado",
-      "qty_lib": 1
+      "arm_state": "liberado",
+      "qty_lib": 10
     },
     "25659_198": {
-      "arm_state": "armado",
-      "qty_lib": 15
+      "arm_state": "liberado",
+      "qty_lib": 180
     },
     "25659_199": {
-      "arm_state": "armado",
-      "qty_lib": 4
+      "arm_state": "liberado",
+      "qty_lib": 50
     },
     "25659_200": {
-      "arm_state": "armado",
-      "qty_lib": 2
+      "arm_state": "liberado",
+      "qty_lib": 310
     },
     "25659_196": {
-      "arm_state": "armado",
-      "qty_lib": 1
+      "arm_state": "liberado",
+      "qty_lib": 10
     },
     "25856_274": {
       "arm_state": "liberado",
@@ -48626,6 +48626,130 @@
       "qty_lib": 1
     },
     "26032_17": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25658_111": {
+      "arm_state": "liberado",
+      "qty_lib": 68
+    },
+    "25837_28": {
+      "arm_state": "liberado",
+      "qty_lib": 10
+    },
+    "25837_100": {
+      "arm_state": "liberado",
+      "qty_lib": 8
+    },
+    "25659_49": {
+      "arm_state": "liberado",
+      "qty_lib": 256
+    },
+    "25659_101": {
+      "arm_state": "liberado",
+      "qty_lib": 256
+    },
+    "25837_32": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25837_34": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25837_104": {
+      "arm_state": "liberado",
+      "qty_lib": 4
+    },
+    "25837_89": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25837_90": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25837_91": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25837_92": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25837_93": {
+      "arm_state": "liberado",
+      "qty_lib": 4
+    },
+    "25837_94": {
+      "arm_state": "liberado",
+      "qty_lib": 6
+    },
+    "25837_95": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25837_96": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25837_97": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25837_98": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25837_99": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25837_16": {
+      "arm_state": "liberado",
+      "qty_lib": 4
+    },
+    "25837_17": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25837_18": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25837_19": {
+      "arm_state": "liberado",
+      "qty_lib": 4
+    },
+    "25837_20": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25837_21": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25837_22": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25837_23": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25837_24": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25837_25": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25837_26": {
+      "arm_state": "liberado",
+      "qty_lib": 4
+    },
+    "25837_27": {
       "arm_state": "liberado",
       "qty_lib": 2
     }
@@ -215720,25 +215844,25 @@
       "ot": "25870",
       "obra": "Hospital Nacional de Curuguaty_Estructura",
       "cliente": "Consorcio Norte Salud CNS",
-      "fecha": "13/11/2026",
+      "fecha": "16/11/2026",
       "avances": {
-        "arm": 22,
-        "pint": 10,
+        "arm": 28,
+        "pint": 27,
         "env": 0,
         "mont": 0
       },
       "totales": {
         "cant": 5020,
-        "arm_lib": 1085,
-        "arm_pend": 3935,
-        "pint_ok": 495,
-        "pint_pend": 4525,
+        "arm_lib": 1407,
+        "arm_pend": 3613,
+        "pint_ok": 1364,
+        "pint_pend": 3656,
         "env_ok": 0,
         "env_pend": 5020,
         "items": 495,
         "peso_total": 77581.66000000005,
-        "arm_pend_peso": 68229.63000000008,
-        "pint_pend_peso": 59994.200000000026,
+        "arm_pend_peso": 65237.59500000003,
+        "pint_pend_peso": 52824.780000000035,
         "env_pend_peso": 77581.66000000005
       },
       "items": [
@@ -215806,9 +215930,9 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 295.39,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 295.39,
@@ -215842,9 +215966,9 @@
           "arm_lib": 8,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 8,
-          "pint_pend_peso": 43.28,
+          "pint_ok": 8,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 8,
           "env_pend_peso": 43.28,
@@ -215860,9 +215984,9 @@
           "arm_lib": 0,
           "arm_pend": 4,
           "arm_pend_peso": 22.6,
-          "pint_ok": 0,
-          "pint_pend": 4,
-          "pint_pend_peso": 22.6,
+          "pint_ok": 4,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 4,
           "env_pend_peso": 22.6,
@@ -215878,9 +216002,9 @@
           "arm_lib": 24,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 24,
-          "pint_pend_peso": 29.76,
+          "pint_ok": 24,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 24,
           "env_pend_peso": 29.76,
@@ -215896,9 +216020,9 @@
           "arm_lib": 24,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 24,
-          "pint_pend_peso": 29.28,
+          "pint_ok": 24,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 24,
           "env_pend_peso": 29.28,
@@ -215914,9 +216038,9 @@
           "arm_lib": 12,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 12,
-          "pint_pend_peso": 5.04,
+          "pint_ok": 12,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 12,
           "env_pend_peso": 5.04,
@@ -215932,9 +216056,9 @@
           "arm_lib": 10,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 10,
-          "pint_pend_peso": 4.2,
+          "pint_ok": 10,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 10,
           "env_pend_peso": 4.2,
@@ -215950,9 +216074,9 @@
           "arm_lib": 2,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 0.84,
+          "pint_ok": 2,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 2,
           "env_pend_peso": 0.84,
@@ -215968,9 +216092,9 @@
           "arm_lib": 96,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 96,
-          "pint_pend_peso": 8.64,
+          "pint_ok": 96,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 96,
           "env_pend_peso": 8.64,
@@ -216058,9 +216182,9 @@
           "arm_lib": 8,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 8,
-          "pint_pend_peso": 40.4,
+          "pint_ok": 8,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 8,
           "env_pend_peso": 40.4,
@@ -217135,12 +217259,12 @@
           "long": 5994,
           "cant": 8,
           "peso": 42.8,
-          "arm_lib": 0,
-          "arm_pend": 8,
-          "arm_pend_peso": 42.8,
-          "pint_ok": 0,
-          "pint_pend": 8,
-          "pint_pend_peso": 42.8,
+          "arm_lib": 8,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 8,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 8,
           "env_pend_peso": 42.8,
@@ -217153,12 +217277,12 @@
           "long": 5967,
           "cant": 8,
           "peso": 42.56,
-          "arm_lib": 0,
-          "arm_pend": 8,
-          "arm_pend_peso": 42.56,
-          "pint_ok": 0,
-          "pint_pend": 8,
-          "pint_pend_peso": 42.56,
+          "arm_lib": 8,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 8,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 8,
           "env_pend_peso": 42.56,
@@ -217171,12 +217295,12 @@
           "long": 2381,
           "cant": 16,
           "peso": 19.36,
-          "arm_lib": 0,
-          "arm_pend": 16,
-          "arm_pend_peso": 19.36,
-          "pint_ok": 0,
-          "pint_pend": 16,
-          "pint_pend_peso": 19.36,
+          "arm_lib": 16,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 16,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 16,
           "env_pend_peso": 19.36,
@@ -217189,12 +217313,12 @@
           "long": 2328,
           "cant": 16,
           "peso": 19.04,
-          "arm_lib": 0,
-          "arm_pend": 16,
-          "arm_pend_peso": 19.04,
-          "pint_ok": 0,
-          "pint_pend": 16,
-          "pint_pend_peso": 19.04,
+          "arm_lib": 16,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 16,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 16,
           "env_pend_peso": 19.04,
@@ -217207,12 +217331,12 @@
           "long": 2368,
           "cant": 4,
           "peso": 4.8,
-          "arm_lib": 0,
-          "arm_pend": 4,
-          "arm_pend_peso": 4.8,
-          "pint_ok": 0,
-          "pint_pend": 4,
-          "pint_pend_peso": 4.8,
+          "arm_lib": 4,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 4,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 4,
           "env_pend_peso": 4.8,
@@ -217225,12 +217349,12 @@
           "long": 2315,
           "cant": 4,
           "peso": 4.72,
-          "arm_lib": 0,
-          "arm_pend": 4,
-          "arm_pend_peso": 4.72,
-          "pint_ok": 0,
-          "pint_pend": 4,
-          "pint_pend_peso": 4.72,
+          "arm_lib": 4,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 4,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 4,
           "env_pend_peso": 4.72,
@@ -217243,12 +217367,12 @@
           "long": 2389,
           "cant": 4,
           "peso": 4.88,
-          "arm_lib": 0,
-          "arm_pend": 4,
-          "arm_pend_peso": 4.88,
-          "pint_ok": 0,
-          "pint_pend": 4,
-          "pint_pend_peso": 4.88,
+          "arm_lib": 4,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 4,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 4,
           "env_pend_peso": 4.88,
@@ -217261,12 +217385,12 @@
           "long": 2344,
           "cant": 4,
           "peso": 4.76,
-          "arm_lib": 0,
-          "arm_pend": 4,
-          "arm_pend_peso": 4.76,
-          "pint_ok": 0,
-          "pint_pend": 4,
-          "pint_pend_peso": 4.76,
+          "arm_lib": 4,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 4,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 4,
           "env_pend_peso": 4.76,
@@ -217351,12 +217475,12 @@
           "long": 125,
           "cant": 16,
           "peso": 6.72,
-          "arm_lib": 0,
-          "arm_pend": 16,
-          "arm_pend_peso": 6.72,
-          "pint_ok": 0,
-          "pint_pend": 16,
-          "pint_pend_peso": 6.72,
+          "arm_lib": 16,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 16,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 16,
           "env_pend_peso": 6.72,
@@ -217369,12 +217493,12 @@
           "long": 125,
           "cant": 16,
           "peso": 6.72,
-          "arm_lib": 0,
-          "arm_pend": 16,
-          "arm_pend_peso": 6.72,
-          "pint_ok": 0,
-          "pint_pend": 16,
-          "pint_pend_peso": 6.72,
+          "arm_lib": 16,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 16,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 16,
           "env_pend_peso": 6.72,
@@ -217390,9 +217514,9 @@
           "arm_lib": 96,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 96,
-          "pint_pend_peso": 8.64,
+          "pint_ok": 96,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 96,
           "env_pend_peso": 8.64,
@@ -217408,9 +217532,9 @@
           "arm_lib": 12,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 12,
-          "pint_pend_peso": 14.52,
+          "pint_ok": 12,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 12,
           "env_pend_peso": 14.52,
@@ -217426,9 +217550,9 @@
           "arm_lib": 24,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 24,
-          "pint_pend_peso": 58.8,
+          "pint_ok": 24,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 24,
           "env_pend_peso": 58.8,
@@ -217444,9 +217568,9 @@
           "arm_lib": 72,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 72,
-          "pint_pend_peso": 183.6,
+          "pint_ok": 72,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 72,
           "env_pend_peso": 183.6,
@@ -217459,12 +217583,12 @@
           "long": 5730,
           "cant": 4,
           "peso": 20.36,
-          "arm_lib": 0,
-          "arm_pend": 4,
-          "arm_pend_peso": 20.36,
-          "pint_ok": 0,
-          "pint_pend": 4,
-          "pint_pend_peso": 20.36,
+          "arm_lib": 4,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 4,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 4,
           "env_pend_peso": 20.36,
@@ -217477,12 +217601,12 @@
           "long": 5680,
           "cant": 2,
           "peso": 10.08,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 10.08,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 10.08,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 2,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 2,
           "env_pend_peso": 10.08,
@@ -217495,12 +217619,12 @@
           "long": 5780,
           "cant": 2,
           "peso": 10.26,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 10.26,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 10.26,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 2,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 2,
           "env_pend_peso": 10.26,
@@ -217516,9 +217640,9 @@
           "arm_lib": 8,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 8,
-          "pint_pend_peso": 80,
+          "pint_ok": 8,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 8,
           "env_pend_peso": 80,
@@ -217534,9 +217658,9 @@
           "arm_lib": 4,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 4,
-          "pint_pend_peso": 114.76,
+          "pint_ok": 4,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 4,
           "env_pend_peso": 114.76,
@@ -217552,9 +217676,9 @@
           "arm_lib": 4,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 4,
-          "pint_pend_peso": 113.84,
+          "pint_ok": 4,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 4,
           "env_pend_peso": 113.84,
@@ -217570,9 +217694,9 @@
           "arm_lib": 1,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 377.1,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 377.1,
@@ -217621,12 +217745,12 @@
           "long": 12305,
           "cant": 1,
           "peso": 376.21,
-          "arm_lib": 0.5,
-          "arm_pend": 0.5,
-          "arm_pend_peso": 188.105,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 376.21,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 1,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 1,
           "env_pend_peso": 376.21,
@@ -217639,12 +217763,12 @@
           "long": 5994,
           "cant": 8,
           "peso": 42.8,
-          "arm_lib": 0,
-          "arm_pend": 8,
-          "arm_pend_peso": 42.8,
-          "pint_ok": 0,
-          "pint_pend": 8,
-          "pint_pend_peso": 42.8,
+          "arm_lib": 8,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 8,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 8,
           "env_pend_peso": 42.8,
@@ -217657,12 +217781,12 @@
           "long": 5967,
           "cant": 8,
           "peso": 42.56,
-          "arm_lib": 0,
-          "arm_pend": 8,
-          "arm_pend_peso": 42.56,
-          "pint_ok": 0,
-          "pint_pend": 8,
-          "pint_pend_peso": 42.56,
+          "arm_lib": 8,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 8,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 8,
           "env_pend_peso": 42.56,
@@ -217675,12 +217799,12 @@
           "long": 2381,
           "cant": 16,
           "peso": 19.36,
-          "arm_lib": 0,
-          "arm_pend": 16,
-          "arm_pend_peso": 19.36,
-          "pint_ok": 0,
-          "pint_pend": 16,
-          "pint_pend_peso": 19.36,
+          "arm_lib": 16,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 16,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 16,
           "env_pend_peso": 19.36,
@@ -217693,12 +217817,12 @@
           "long": 2328,
           "cant": 16,
           "peso": 19.04,
-          "arm_lib": 0,
-          "arm_pend": 16,
-          "arm_pend_peso": 19.04,
-          "pint_ok": 0,
-          "pint_pend": 16,
-          "pint_pend_peso": 19.04,
+          "arm_lib": 16,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 16,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 16,
           "env_pend_peso": 19.04,
@@ -217750,9 +217874,9 @@
           "arm_lib": 0,
           "arm_pend": 16,
           "arm_pend_peso": 6.72,
-          "pint_ok": 0,
-          "pint_pend": 16,
-          "pint_pend_peso": 6.72,
+          "pint_ok": 16,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 16,
           "env_pend_peso": 6.72,
@@ -217768,9 +217892,9 @@
           "arm_lib": 0,
           "arm_pend": 16,
           "arm_pend_peso": 6.72,
-          "pint_ok": 0,
-          "pint_pend": 16,
-          "pint_pend_peso": 6.72,
+          "pint_ok": 16,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 16,
           "env_pend_peso": 6.72,
@@ -217786,9 +217910,9 @@
           "arm_lib": 64,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 64,
-          "pint_pend_peso": 5.76,
+          "pint_ok": 64,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 64,
           "env_pend_peso": 5.76,
@@ -217804,9 +217928,9 @@
           "arm_lib": 8,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 8,
-          "pint_pend_peso": 9.68,
+          "pint_ok": 8,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 8,
           "env_pend_peso": 9.68,
@@ -217822,9 +217946,9 @@
           "arm_lib": 16,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 16,
-          "pint_pend_peso": 39.2,
+          "pint_ok": 16,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 16,
           "env_pend_peso": 39.2,
@@ -217840,9 +217964,9 @@
           "arm_lib": 48,
           "arm_pend": 0,
           "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 48,
-          "pint_pend_peso": 122.4,
+          "pint_ok": 48,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 48,
           "env_pend_peso": 122.4,
@@ -217855,12 +217979,12 @@
           "long": 5730,
           "cant": 4,
           "peso": 20.36,
-          "arm_lib": 0,
-          "arm_pend": 4,
-          "arm_pend_peso": 20.36,
-          "pint_ok": 0,
-          "pint_pend": 4,
-          "pint_pend_peso": 20.36,
+          "arm_lib": 4,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 4,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 4,
           "env_pend_peso": 20.36,
@@ -217873,12 +217997,12 @@
           "long": 2610,
           "cant": 8,
           "peso": 80,
-          "arm_lib": 0,
-          "arm_pend": 8,
-          "arm_pend_peso": 80,
-          "pint_ok": 0,
-          "pint_pend": 8,
-          "pint_pend_peso": 80,
+          "arm_lib": 8,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 8,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 8,
           "env_pend_peso": 80,
@@ -217891,12 +218015,12 @@
           "long": 5588,
           "cant": 4,
           "peso": 114.76,
-          "arm_lib": 0,
-          "arm_pend": 4,
-          "arm_pend_peso": 114.76,
-          "pint_ok": 0,
-          "pint_pend": 4,
-          "pint_pend_peso": 114.76,
+          "arm_lib": 4,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 4,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 4,
           "env_pend_peso": 114.76,
@@ -217909,12 +218033,12 @@
           "long": 5588,
           "cant": 4,
           "peso": 113.84,
-          "arm_lib": 0,
-          "arm_pend": 4,
-          "arm_pend_peso": 113.84,
-          "pint_ok": 0,
-          "pint_pend": 4,
-          "pint_pend_peso": 113.84,
+          "arm_lib": 4,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 4,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 4,
           "env_pend_peso": 113.84,
@@ -217927,9 +218051,9 @@
           "long": 12240,
           "cant": 1,
           "peso": 374.45,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 374.45,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 374.45,
@@ -217945,9 +218069,9 @@
           "long": 12240,
           "cant": 1,
           "peso": 375.34,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 375.34,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 187.67,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 375.34,
@@ -217963,9 +218087,9 @@
           "long": 12240,
           "cant": 1,
           "peso": 370.08,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 370.08,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 185.04,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 370.08,
@@ -218773,9 +218897,9 @@
           "long": 370,
           "cant": 16,
           "peso": 14.4,
-          "arm_lib": 0,
-          "arm_pend": 16,
-          "arm_pend_peso": 14.4,
+          "arm_lib": 16,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 16,
           "pint_pend_peso": 14.4,
@@ -218791,9 +218915,9 @@
           "long": 1479,
           "cant": 96,
           "peso": 250.56,
-          "arm_lib": 0,
-          "arm_pend": 96,
-          "arm_pend_peso": 250.56,
+          "arm_lib": 96,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 96,
           "pint_pend_peso": 250.56,
@@ -218809,9 +218933,9 @@
           "long": 1584,
           "cant": 32,
           "peso": 88.64,
-          "arm_lib": 0,
-          "arm_pend": 32,
-          "arm_pend_peso": 88.64,
+          "arm_lib": 32,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
           "pint_ok": 0,
           "pint_pend": 32,
           "pint_pend_peso": 88.64,
@@ -219226,9 +219350,9 @@
           "arm_lib": 0,
           "arm_pend": 56,
           "arm_pend_peso": 2274.16,
-          "pint_ok": 0,
-          "pint_pend": 56,
-          "pint_pend_peso": 2274.16,
+          "pint_ok": 30,
+          "pint_pend": 26,
+          "pint_pend_peso": 1055.86,
           "env_ok": 0,
           "env_pend": 56,
           "env_pend_peso": 2274.16,
@@ -219748,9 +219872,9 @@
           "arm_lib": 0,
           "arm_pend": 20,
           "arm_pend_peso": 653.8,
-          "pint_ok": 0,
-          "pint_pend": 20,
-          "pint_pend_peso": 653.8,
+          "pint_ok": 20,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 20,
           "env_pend_peso": 653.8,
@@ -219766,9 +219890,9 @@
           "arm_lib": 0,
           "arm_pend": 20,
           "arm_pend_peso": 684.4,
-          "pint_ok": 0,
-          "pint_pend": 20,
-          "pint_pend_peso": 684.4,
+          "pint_ok": 20,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 20,
           "env_pend_peso": 684.4,
@@ -219997,9 +220121,9 @@
           "long": 10255,
           "cant": 1,
           "peso": 302.07,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 302.07,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 151.035,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 302.07,
@@ -220015,9 +220139,9 @@
           "long": 10255,
           "cant": 1,
           "peso": 303.39,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 303.39,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 151.695,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 303.39,
@@ -220033,9 +220157,9 @@
           "long": 10255,
           "cant": 3,
           "peso": 895.86,
-          "arm_lib": 0,
-          "arm_pend": 3,
-          "arm_pend_peso": 895.86,
+          "arm_lib": 1.5,
+          "arm_pend": 1.5,
+          "arm_pend_peso": 447.93,
           "pint_ok": 0,
           "pint_pend": 3,
           "pint_pend_peso": 895.86,
@@ -220051,9 +220175,9 @@
           "long": 10255,
           "cant": 1,
           "peso": 302.96,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 302.96,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 151.48,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 302.96,
@@ -220069,9 +220193,9 @@
           "long": 10255,
           "cant": 1,
           "peso": 302.5,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 302.5,
+          "arm_lib": 0.5,
+          "arm_pend": 0.5,
+          "arm_pend_peso": 151.25,
           "pint_ok": 0,
           "pint_pend": 1,
           "pint_pend_peso": 302.5,
@@ -220162,9 +220286,9 @@
           "arm_lib": 0,
           "arm_pend": 16,
           "arm_pend_peso": 666.24,
-          "pint_ok": 0,
-          "pint_pend": 16,
-          "pint_pend_peso": 666.24,
+          "pint_ok": 16,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 16,
           "env_pend_peso": 666.24,
@@ -220180,9 +220304,9 @@
           "arm_lib": 0,
           "arm_pend": 32,
           "arm_pend_peso": 1299.52,
-          "pint_ok": 0,
-          "pint_pend": 32,
-          "pint_pend_peso": 1299.52,
+          "pint_ok": 32,
+          "pint_pend": 0,
+          "pint_pend_peso": 0,
           "env_ok": 0,
           "env_pend": 32,
           "env_pend_peso": 1299.52,
@@ -224956,62 +225080,6 @@
           "pend": 6
         },
         {
-          "cod": "BNI-CH-1",
-          "prod": "Cruz Horizontal",
-          "long": 5994,
-          "cant": 8,
-          "pend": 8
-        },
-        {
-          "cod": "BNI-CH-2",
-          "prod": "Cruz Horizontal",
-          "long": 5967,
-          "cant": 8,
-          "pend": 8
-        },
-        {
-          "cod": "BNI-DI-1",
-          "prod": "Diagonal",
-          "long": 2381,
-          "cant": 16,
-          "pend": 16
-        },
-        {
-          "cod": "BNI-DI-2",
-          "prod": "Diagonal",
-          "long": 2328,
-          "cant": 16,
-          "pend": 16
-        },
-        {
-          "cod": "BNI-DI-3",
-          "prod": "Diagonal",
-          "long": 2368,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BNI-DI-4",
-          "prod": "Diagonal",
-          "long": 2315,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BNI-DI-5",
-          "prod": "Diagonal",
-          "long": 2389,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BNI-DI-6",
-          "prod": "Diagonal",
-          "long": 2344,
-          "cant": 4,
-          "pend": 4
-        },
-        {
           "cod": "BNI-PCR-1",
           "prod": "Correa de Techo/ Perfilado",
           "long": 6005,
@@ -225040,81 +225108,11 @@
           "pend": 10
         },
         {
-          "cod": "BNI-SC-1",
-          "prod": "Soporte Cruz",
-          "long": 125,
-          "cant": 16,
-          "pend": 16
-        },
-        {
-          "cod": "BNI-SC-2",
-          "prod": "Soporte Cruz",
-          "long": 125,
-          "cant": 16,
-          "pend": 16
-        },
-        {
-          "cod": "BNI-TE-1",
-          "prod": "Tensor",
-          "long": 5730,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BNI-TE-2",
-          "prod": "Tensor",
-          "long": 5680,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BNI-TE-3",
-          "prod": "Tensor",
-          "long": 5780,
-          "cant": 2,
-          "pend": 2
-        },
-        {
           "cod": "BNI-CA-302",
           "prod": "Cabriada Angulos",
           "long": 12305,
           "cant": 1,
           "pend": 0.5
-        },
-        {
-          "cod": "BNI-CA-303",
-          "prod": "Cabriada Angulos",
-          "long": 12305,
-          "cant": 1,
-          "pend": 0.5
-        },
-        {
-          "cod": "BNI-CH-300",
-          "prod": "Cruz Horizontal",
-          "long": 5994,
-          "cant": 8,
-          "pend": 8
-        },
-        {
-          "cod": "BNI-CH-301",
-          "prod": "Cruz Horizontal",
-          "long": 5967,
-          "cant": 8,
-          "pend": 8
-        },
-        {
-          "cod": "BNI-DI-300",
-          "prod": "Diagonal",
-          "long": 2381,
-          "cant": 16,
-          "pend": 16
-        },
-        {
-          "cod": "BNI-DI-301",
-          "prod": "Diagonal",
-          "long": 2328,
-          "cant": 16,
-          "pend": 16
         },
         {
           "cod": "BNI-PCR-300",
@@ -225145,53 +225143,18 @@
           "pend": 16
         },
         {
-          "cod": "BNI-TE-300",
-          "prod": "Tensor",
-          "long": 5730,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BNI-VAT-300",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 2610,
-          "cant": 8,
-          "pend": 8
-        },
-        {
-          "cod": "BNI-VAT-301",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5588,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BNI-VAT-302",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5588,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BOD-CA-1",
-          "prod": "Cabriada Angulos",
-          "long": 12240,
-          "cant": 1,
-          "pend": 1
-        },
-        {
           "cod": "BOD-CA-2",
           "prod": "Cabriada Angulos",
           "long": 12240,
           "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BOD-CA-3",
           "prod": "Cabriada Angulos",
           "long": 12240,
           "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BOD-CA-4",
@@ -225486,27 +225449,6 @@
           "long": 125,
           "cant": 6,
           "pend": 6
-        },
-        {
-          "cod": "BNX-TC-1",
-          "prod": "Tilla de compresion",
-          "long": 370,
-          "cant": 16,
-          "pend": 16
-        },
-        {
-          "cod": "BNX-TC-2",
-          "prod": "Tilla de compresion",
-          "long": 1479,
-          "cant": 96,
-          "pend": 96
-        },
-        {
-          "cod": "BNX-TC-3",
-          "prod": "Tilla de compresion",
-          "long": 1584,
-          "cant": 32,
-          "pend": 32
         },
         {
           "cod": "BNX-TE-1",
@@ -225940,35 +225882,35 @@
           "prod": "Cabriada Angulos",
           "long": 10255,
           "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BOB-CA-2",
           "prod": "Cabriada Angulos",
           "long": 10255,
           "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BOB-CA-3",
           "prod": "Cabriada Angulos",
           "long": 10255,
           "cant": 3,
-          "pend": 3
+          "pend": 1.5
         },
         {
           "cod": "BOB-CA-4",
           "prod": "Cabriada Angulos",
           "long": 10255,
           "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BOB-CA-5",
           "prod": "Cabriada Angulos",
           "long": 10255,
           "cant": 1,
-          "pend": 1
+          "pend": 0.5
         },
         {
           "cod": "BOB-CH-1",
@@ -226753,79 +226695,191 @@
           "long": 3065,
           "cant": 1,
           "pend": 1
-        }
-      ],
-      "pint_pend_items": [
+        },
         {
-          "cod": "BNB-CA-4",
-          "prod": "Cabriada Angulos",
-          "long": 10255,
+          "cod": "BNE-VAT-6",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 3065,
           "cant": 1,
           "pend": 1
         },
         {
-          "cod": "BNB-CH-1",
-          "prod": "Cruz Horizontal",
-          "long": 6063,
-          "cant": 8,
-          "pend": 8
+          "cod": "BNE-VAT-7",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 1593,
+          "cant": 1,
+          "pend": 1
         },
         {
-          "cod": "BNB-CH-2",
-          "prod": "Cruz Horizontal",
-          "long": 6332,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BNB-DI-1",
-          "prod": "Diagonal",
-          "long": 2443,
-          "cant": 24,
-          "pend": 24
-        },
-        {
-          "cod": "BNB-DI-2",
-          "prod": "Diagonal",
-          "long": 2406,
-          "cant": 24,
-          "pend": 24
-        },
-        {
-          "cod": "BNB-SC-1",
-          "prod": "Soporte Cruz",
-          "long": 125,
-          "cant": 12,
-          "pend": 12
-        },
-        {
-          "cod": "BNB-SC-2",
-          "prod": "Soporte Cruz",
-          "long": 125,
-          "cant": 10,
-          "pend": 10
-        },
-        {
-          "cod": "BNB-SC-3",
-          "prod": "Soporte Cruz",
-          "long": 125,
+          "cod": "BNE-VAT-8",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 2307,
           "cant": 2,
           "pend": 2
         },
         {
-          "cod": "BNB-SD-1",
-          "prod": "Soporte Diagonal",
-          "long": 50,
-          "cant": 96,
-          "pend": 96
+          "cod": "BNE-VAT-9",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 2155,
+          "cant": 4,
+          "pend": 4
         },
         {
-          "cod": "BNB-TE-1",
-          "prod": "Tensor",
-          "long": 5690,
+          "cod": "BNE-VAT-11",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 2276,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BNE-VAT-12",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 2165,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BNE-VAT-13",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 5130,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BNE-VAT-14",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 5129,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BNE-VAT-15",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 5129,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BNE-VAT-16",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 5130,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BNE-VAT-18",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 5130,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BNE-VAT-19",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 5129,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BNE-VAT-20",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 1437,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BND-CA-1",
+          "prod": "Cabriada Angulos",
+          "long": 13506,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BND-CA-2",
+          "prod": "Cabriada Angulos",
+          "long": 13506,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BND-CA-3",
+          "prod": "Cabriada Angulos",
+          "long": 13480,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BND-CH-1",
+          "prod": "Cruz Horizontal",
+          "long": 5580,
           "cant": 8,
           "pend": 8
         },
+        {
+          "cod": "BND-CH-2",
+          "prod": "Cruz Horizontal",
+          "long": 4723,
+          "cant": 8,
+          "pend": 8
+        },
+        {
+          "cod": "BND-DI-1",
+          "prod": "Diagonal",
+          "long": 2538,
+          "cant": 8,
+          "pend": 8
+        },
+        {
+          "cod": "BND-DI-2",
+          "prod": "Diagonal",
+          "long": 2625,
+          "cant": 8,
+          "pend": 8
+        },
+        {
+          "cod": "BND-PCR-1",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 4783,
+          "cant": 24,
+          "pend": 24
+        },
+        {
+          "cod": "BND-SC-1",
+          "prod": "Soporte Cruz",
+          "long": 125,
+          "cant": 16,
+          "pend": 16
+        },
+        {
+          "cod": "BND-SC-2",
+          "prod": "Soporte Cruz",
+          "long": 125,
+          "cant": 16,
+          "pend": 16
+        },
+        {
+          "cod": "BND-SD-1",
+          "prod": "Soporte Diagonal",
+          "long": 50,
+          "cant": 32,
+          "pend": 32
+        },
+        {
+          "cod": "BND-TC-1",
+          "prod": "Tilla de compresion",
+          "long": 1337,
+          "cant": 16,
+          "pend": 16
+        },
+        {
+          "cod": "BND-TC-2",
+          "prod": "Tilla de compresion",
+          "long": 1150,
+          "cant": 2,
+          "pend": 2
+        }
+      ],
+      "pint_pend_items": [
         {
           "cod": "BNH-CA-1",
           "prod": "Cabriada Angulos",
@@ -227051,263 +227105,11 @@
           "pend": 6
         },
         {
-          "cod": "BNI-CH-1",
-          "prod": "Cruz Horizontal",
-          "long": 5994,
-          "cant": 8,
-          "pend": 8
-        },
-        {
-          "cod": "BNI-CH-2",
-          "prod": "Cruz Horizontal",
-          "long": 5967,
-          "cant": 8,
-          "pend": 8
-        },
-        {
-          "cod": "BNI-DI-1",
-          "prod": "Diagonal",
-          "long": 2381,
-          "cant": 16,
-          "pend": 16
-        },
-        {
-          "cod": "BNI-DI-2",
-          "prod": "Diagonal",
-          "long": 2328,
-          "cant": 16,
-          "pend": 16
-        },
-        {
-          "cod": "BNI-DI-3",
-          "prod": "Diagonal",
-          "long": 2368,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BNI-DI-4",
-          "prod": "Diagonal",
-          "long": 2315,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BNI-DI-5",
-          "prod": "Diagonal",
-          "long": 2389,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BNI-DI-6",
-          "prod": "Diagonal",
-          "long": 2344,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BNI-SC-1",
-          "prod": "Soporte Cruz",
-          "long": 125,
-          "cant": 16,
-          "pend": 16
-        },
-        {
-          "cod": "BNI-SC-2",
-          "prod": "Soporte Cruz",
-          "long": 125,
-          "cant": 16,
-          "pend": 16
-        },
-        {
-          "cod": "BNI-SD-1",
-          "prod": "Soporte Diagonal",
-          "long": 50,
-          "cant": 96,
-          "pend": 96
-        },
-        {
-          "cod": "BNI-TC-1",
-          "prod": "Tilla de compresion",
-          "long": 577,
-          "cant": 12,
-          "pend": 12
-        },
-        {
-          "cod": "BNI-TC-2",
-          "prod": "Tilla de compresion",
-          "long": 1376,
-          "cant": 24,
-          "pend": 24
-        },
-        {
-          "cod": "BNI-TC-3",
-          "prod": "Tilla de compresion",
-          "long": 1441,
-          "cant": 72,
-          "pend": 72
-        },
-        {
-          "cod": "BNI-TE-1",
-          "prod": "Tensor",
-          "long": 5730,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BNI-TE-2",
-          "prod": "Tensor",
-          "long": 5680,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BNI-TE-3",
-          "prod": "Tensor",
-          "long": 5780,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BNI-VAT-1",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 2610,
-          "cant": 8,
-          "pend": 8
-        },
-        {
-          "cod": "BNI-VAT-2",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5588,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BNI-VAT-3",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5588,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BNI-CA-300",
-          "prod": "Cabriada Angulos",
-          "long": 12305,
-          "cant": 1,
-          "pend": 1
-        },
-        {
           "cod": "BNI-CA-302",
           "prod": "Cabriada Angulos",
           "long": 12305,
           "cant": 1,
           "pend": 1
-        },
-        {
-          "cod": "BNI-CA-303",
-          "prod": "Cabriada Angulos",
-          "long": 12305,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BNI-CH-300",
-          "prod": "Cruz Horizontal",
-          "long": 5994,
-          "cant": 8,
-          "pend": 8
-        },
-        {
-          "cod": "BNI-CH-301",
-          "prod": "Cruz Horizontal",
-          "long": 5967,
-          "cant": 8,
-          "pend": 8
-        },
-        {
-          "cod": "BNI-DI-300",
-          "prod": "Diagonal",
-          "long": 2381,
-          "cant": 16,
-          "pend": 16
-        },
-        {
-          "cod": "BNI-DI-301",
-          "prod": "Diagonal",
-          "long": 2328,
-          "cant": 16,
-          "pend": 16
-        },
-        {
-          "cod": "BNI-SC-300",
-          "prod": "Soporte Cruz",
-          "long": 125,
-          "cant": 16,
-          "pend": 16
-        },
-        {
-          "cod": "BNI-SC-301",
-          "prod": "Soporte Cruz",
-          "long": 125,
-          "cant": 16,
-          "pend": 16
-        },
-        {
-          "cod": "BNI-SD-300",
-          "prod": "Soporte Diagonal",
-          "long": 50,
-          "cant": 64,
-          "pend": 64
-        },
-        {
-          "cod": "BNI-TC-300",
-          "prod": "Tilla de compresion",
-          "long": 577,
-          "cant": 8,
-          "pend": 8
-        },
-        {
-          "cod": "BNI-TC-301",
-          "prod": "Tilla de compresion",
-          "long": 1376,
-          "cant": 16,
-          "pend": 16
-        },
-        {
-          "cod": "BNI-TC-302",
-          "prod": "Tilla de compresion",
-          "long": 1441,
-          "cant": 48,
-          "pend": 48
-        },
-        {
-          "cod": "BNI-TE-300",
-          "prod": "Tensor",
-          "long": 5730,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BNI-VAT-300",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 2610,
-          "cant": 8,
-          "pend": 8
-        },
-        {
-          "cod": "BNI-VAT-301",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5588,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BNI-VAT-302",
-          "prod": "Viga  Arriostre de tubos o caños",
-          "long": 5588,
-          "cant": 4,
-          "pend": 4
         },
         {
           "cod": "BOD-CA-1",
@@ -227762,7 +227564,7 @@
           "prod": "Correa de Techo/ Perfilado",
           "long": 5710,
           "cant": 56,
-          "pend": 56
+          "pend": 26
         },
         {
           "cod": "BOM-PCR-3",
@@ -227961,20 +227763,6 @@
           "pend": 35
         },
         {
-          "cod": "BOO-PCR-1",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 5480,
-          "cant": 20,
-          "pend": 20
-        },
-        {
-          "cod": "BOO-PCR-2",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 5736,
-          "cant": 20,
-          "pend": 20
-        },
-        {
           "cod": "BOO-SC-1",
           "prod": "Soporte Cruz",
           "long": 125,
@@ -228120,20 +227908,6 @@
           "long": 2406,
           "cant": 24,
           "pend": 24
-        },
-        {
-          "cod": "BOB-PCR-1",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 5855,
-          "cant": 16,
-          "pend": 16
-        },
-        {
-          "cod": "BOB-PCR-2",
-          "prod": "Correa de Techo/ Perfilado",
-          "long": 5710,
-          "cant": 32,
-          "pend": 32
         },
         {
           "cod": "BOB-SC-1",
@@ -228853,6 +228627,356 @@
           "cod": "BNE-VAT-1",
           "prod": "Viga  Arriostre de tubos o caños",
           "long": 1593,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BNE-VAT-2",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 1437,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BNE-VAT-3",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 3065,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BNE-VAT-4",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 3065,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BNE-VAT-5",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 3065,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BNE-VAT-6",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 3065,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BNE-VAT-7",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 1593,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BNE-VAT-8",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 2307,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BNE-VAT-9",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 2155,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BNE-VAT-11",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 2276,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BNE-VAT-12",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 2165,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BNE-VAT-13",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 5130,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BNE-VAT-14",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 5129,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BNE-VAT-15",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 5129,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BNE-VAT-16",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 5130,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BNE-VAT-18",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 5130,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BNE-VAT-19",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 5129,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BNE-VAT-20",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 1437,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BND-CA-1",
+          "prod": "Cabriada Angulos",
+          "long": 13506,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BND-CA-2",
+          "prod": "Cabriada Angulos",
+          "long": 13506,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BND-CA-3",
+          "prod": "Cabriada Angulos",
+          "long": 13480,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BND-CH-1",
+          "prod": "Cruz Horizontal",
+          "long": 5580,
+          "cant": 8,
+          "pend": 8
+        },
+        {
+          "cod": "BND-CH-2",
+          "prod": "Cruz Horizontal",
+          "long": 4723,
+          "cant": 8,
+          "pend": 8
+        },
+        {
+          "cod": "BND-DI-1",
+          "prod": "Diagonal",
+          "long": 2538,
+          "cant": 8,
+          "pend": 8
+        },
+        {
+          "cod": "BND-DI-2",
+          "prod": "Diagonal",
+          "long": 2625,
+          "cant": 8,
+          "pend": 8
+        },
+        {
+          "cod": "BND-PCR-1",
+          "prod": "Correa de Techo/ Perfilado",
+          "long": 4783,
+          "cant": 24,
+          "pend": 24
+        },
+        {
+          "cod": "BND-SC-1",
+          "prod": "Soporte Cruz",
+          "long": 125,
+          "cant": 16,
+          "pend": 16
+        },
+        {
+          "cod": "BND-SC-2",
+          "prod": "Soporte Cruz",
+          "long": 125,
+          "cant": 16,
+          "pend": 16
+        },
+        {
+          "cod": "BND-SD-1",
+          "prod": "Soporte Diagonal",
+          "long": 50,
+          "cant": 32,
+          "pend": 32
+        },
+        {
+          "cod": "BND-TC-1",
+          "prod": "Tilla de compresion",
+          "long": 1337,
+          "cant": 16,
+          "pend": 16
+        },
+        {
+          "cod": "BND-TC-2",
+          "prod": "Tilla de compresion",
+          "long": 1150,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BND-TC-3",
+          "prod": "Tilla de compresion",
+          "long": 329,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BND-TC-4",
+          "prod": "Tilla de compresion",
+          "long": 1150,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BND-VAT-1",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 2062,
+          "cant": 8,
+          "pend": 8
+        },
+        {
+          "cod": "BND-VAT-2",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 4365,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BND-VAT-3",
+          "prod": "Viga  Arriostre de tubos o caños",
+          "long": 4365,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "B0K-CA-1",
+          "prod": "Cabriada Angulos",
+          "long": 10121,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "B0K-CA-2",
+          "prod": "Cabriada Angulos",
+          "long": 10121,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "B0K-CA-3",
+          "prod": "Cabriada Angulos",
+          "long": 10121,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "B0K-CA-4",
+          "prod": "Cabriada Angulos",
+          "long": 10121,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "B0K-CA-5",
+          "prod": "Cabriada Angulos",
+          "long": 10121,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOK-CH-1",
+          "prod": "Cruz Horizontal",
+          "long": 6249,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BOK-CH-2",
+          "prod": "Cruz Horizontal",
+          "long": 6323,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOK-CH-3",
+          "prod": "Cruz Horizontal",
+          "long": 6259,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOK-CH-4",
+          "prod": "Cruz Horizontal",
+          "long": 6116,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BOK-CH-5",
+          "prod": "Cruz Horizontal",
+          "long": 6192,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOK-DI-1",
+          "prod": "Diagonal",
+          "long": 2359,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOK-DI-2",
+          "prod": "Diagonal",
+          "long": 2406,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOK-DI-3",
+          "prod": "Diagonal",
+          "long": 2459,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BOK-DI-4",
+          "prod": "Diagonal",
+          "long": 2299,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOK-DI-5",
+          "prod": "Diagonal",
+          "long": 2366,
           "cant": 1,
           "pend": 1
         }
