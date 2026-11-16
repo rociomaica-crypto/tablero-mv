@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T19:44:08.372Z",
+  "updatedAt": "2026-11-16T19:44:39.519Z",
   "updatedBy": "Angel Villa",
   "checks": {
     "25257_1": {
@@ -51054,6 +51054,24 @@
       "arm_state": "armado"
     },
     "25258_161": {
+      "arm_state": "armado"
+    },
+    "25258_158": {
+      "arm_state": "armado"
+    },
+    "25258_157": {
+      "arm_state": "armado"
+    },
+    "25258_156": {
+      "arm_state": "armado"
+    },
+    "25258_155": {
+      "arm_state": "armado"
+    },
+    "25258_153": {
+      "arm_state": "armado"
+    },
+    "25258_150": {
       "arm_state": "armado"
     }
   },
