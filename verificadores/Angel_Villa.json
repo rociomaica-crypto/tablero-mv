@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T21:33:40.393Z",
+  "updatedAt": "2026-11-17T13:09:35.779Z",
   "updatedBy": "Angel Villa",
   "checks": {
     "25257_1": {
@@ -14394,7 +14394,7 @@
     },
     "25107_1489": {
       "qty_lib": 1,
-      "arm_state": "calibrado"
+      "arm_state": "liberado"
     },
     "25870_29": {
       "qty_lib": 1,
@@ -39717,7 +39717,8 @@
     },
     "25841_5": {
       "arm_state": "liberado",
-      "qty_lib": 6
+      "qty_lib": 6,
+      "pint_state": "pintado"
     },
     "24623_99": {
       "arm_state": "liberado",
@@ -40397,7 +40398,8 @@
     },
     "25841_4": {
       "arm_state": "liberado",
-      "qty_lib": 6
+      "qty_lib": 6,
+      "pint_state": "pintado"
     },
     "25841_23": {
       "arm_state": "liberado",
@@ -40548,7 +40550,8 @@
     },
     "25841_3": {
       "arm_state": "liberado",
-      "qty_lib": 4
+      "qty_lib": 4,
+      "pint_state": "pintado"
     },
     "25898_43": {
       "arm_state": "liberado",
@@ -40863,7 +40866,8 @@
     },
     "25841_2": {
       "arm_state": "liberado",
-      "qty_lib": 4
+      "qty_lib": 4,
+      "pint_state": "pintado"
     },
     "25381_35": {
       "arm_state": "liberado",
@@ -45259,15 +45263,18 @@
     },
     "25888_55": {
       "arm_state": "liberado",
-      "qty_lib": 2
+      "qty_lib": 2,
+      "pint_state": "pintado"
     },
     "25888_56": {
       "arm_state": "liberado",
-      "qty_lib": 40
+      "qty_lib": 40,
+      "pint_state": "pintado"
     },
     "25888_57": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25888_49": {
       "arm_state": "liberado",
@@ -46174,7 +46181,8 @@
     "25965_1": {},
     "25841_11": {
       "arm_state": "liberado",
-      "qty_lib": 4
+      "qty_lib": 4,
+      "pint_state": "pintado"
     },
     "25841_33": {
       "arm_state": "liberado",
@@ -51198,6 +51206,10 @@
     },
     "25870_158": {
       "arm_state": "armado"
+    },
+    "25107_1486": {
+      "qty_lib": 1,
+      "arm_state": "liberado"
     }
   },
   "otMeta": {
