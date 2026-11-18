@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T11:47:42.868Z",
+  "updatedAt": "2026-11-18T11:48:45.206Z",
   "updatedBy": "Brian Soto",
   "checks": {
     "24969_1": {
@@ -257462,6 +257462,62 @@
           "long": 1219,
           "cant": 2,
           "pend": 2
+        }
+      ]
+    },
+    "26042": {
+      "ot": "26042",
+      "obra": "Percha Simple 3m",
+      "cliente": "MV ACEROS SA",
+      "fecha": "18/11/2026",
+      "avances": {
+        "arm": 100,
+        "pint": 0,
+        "env": 100,
+        "mont": 0
+      },
+      "totales": {
+        "cant": 1,
+        "arm_lib": 1,
+        "arm_pend": 0,
+        "pint_ok": 0,
+        "pint_pend": 1,
+        "env_ok": 1,
+        "env_pend": 0,
+        "items": 1,
+        "peso_total": 162.57,
+        "arm_pend_peso": 0,
+        "pint_pend_peso": 162.57,
+        "env_pend_peso": 0
+      },
+      "items": [
+        {
+          "item": 1,
+          "cod": "BPF-PH-1",
+          "prod": "Percha",
+          "long": 3000,
+          "cant": 1,
+          "peso": 162.57,
+          "arm_lib": 1,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 162.57,
+          "env_ok": 1,
+          "env_pend": 0,
+          "env_pend_peso": 0,
+          "literal": "BPF"
+        }
+      ],
+      "arm_pend_items": [],
+      "pint_pend_items": [
+        {
+          "cod": "BPF-PH-1",
+          "prod": "Percha",
+          "long": 3000,
+          "cant": 1,
+          "pend": 1
         }
       ]
     },
