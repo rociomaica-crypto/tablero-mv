@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T18:58:39.356Z",
+  "updatedAt": "2026-11-18T19:07:55.410Z",
   "updatedBy": "Helden Rodriguez",
   "checks": {
     "24969_1": {
@@ -10129,9 +10129,9 @@
       "arm_state": "liberado"
     },
     "25841_1": {
-      "qty_lib": 3,
+      "qty_lib": 1,
       "arm_state": "liberado",
-      "pint_state": ""
+      "pint_state": "pintado"
     },
     "25841_21": {
       "qty_lib": 4,
