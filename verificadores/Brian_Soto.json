@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T11:46:48.918Z",
+  "updatedAt": "2026-11-18T11:47:42.868Z",
   "updatedBy": "Brian Soto",
   "checks": {
     "24969_1": {
@@ -257462,6 +257462,70 @@
           "long": 1219,
           "cant": 2,
           "pend": 2
+        }
+      ]
+    },
+    "26043": {
+      "ot": "26043",
+      "obra": "Percha de 10m",
+      "cliente": "MV ACEROS SA",
+      "fecha": "18/11/2026",
+      "avances": {
+        "arm": 0,
+        "pint": 0,
+        "env": 0,
+        "mont": 0
+      },
+      "totales": {
+        "cant": 1,
+        "arm_lib": 0,
+        "arm_pend": 1,
+        "pint_ok": 0,
+        "pint_pend": 1,
+        "env_ok": 0,
+        "env_pend": 1,
+        "items": 1,
+        "peso_total": 853.94,
+        "arm_pend_peso": 853.94,
+        "pint_pend_peso": 853.94,
+        "env_pend_peso": 853.94
+      },
+      "items": [
+        {
+          "item": 1,
+          "cod": "BPG-PH-1",
+          "prod": "Percha",
+          "long": 10000,
+          "cant": 1,
+          "peso": 853.94,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 853.94,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 853.94,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 853.94,
+          "literal": "BPG"
+        }
+      ],
+      "arm_pend_items": [
+        {
+          "cod": "BPG-PH-1",
+          "prod": "Percha",
+          "long": 10000,
+          "cant": 1,
+          "pend": 1
+        }
+      ],
+      "pint_pend_items": [
+        {
+          "cod": "BPG-PH-1",
+          "prod": "Percha",
+          "long": 10000,
+          "cant": 1,
+          "pend": 1
         }
       ]
     },
