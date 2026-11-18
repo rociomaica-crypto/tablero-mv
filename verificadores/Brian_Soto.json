@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T11:44:34.076Z",
+  "updatedAt": "2026-11-18T11:45:55.996Z",
   "updatedBy": "Brian Soto",
   "checks": {
     "24969_1": {
@@ -257460,6 +257460,70 @@
           "cod": "BOX-SP-20",
           "prod": "SOPORTE",
           "long": 1219,
+          "cant": 2,
+          "pend": 2
+        }
+      ]
+    },
+    "26045": {
+      "ot": "26045",
+      "obra": "Escalera Movil",
+      "cliente": "MV ACEROS SA",
+      "fecha": "18/11/2026",
+      "avances": {
+        "arm": 0,
+        "pint": 0,
+        "env": 0,
+        "mont": 0
+      },
+      "totales": {
+        "cant": 2,
+        "arm_lib": 0,
+        "arm_pend": 2,
+        "pint_ok": 0,
+        "pint_pend": 2,
+        "env_ok": 0,
+        "env_pend": 2,
+        "items": 1,
+        "peso_total": 160.58,
+        "arm_pend_peso": 160.58,
+        "pint_pend_peso": 160.58,
+        "env_pend_peso": 160.58
+      },
+      "items": [
+        {
+          "item": 1,
+          "cod": "BPI-ES-1",
+          "prod": "Escalera Metalica",
+          "long": 2005,
+          "cant": 2,
+          "peso": 160.58,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 160.58,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 160.58,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 160.58,
+          "literal": "BPI"
+        }
+      ],
+      "arm_pend_items": [
+        {
+          "cod": "BPI-ES-1",
+          "prod": "Escalera Metalica",
+          "long": 2005,
+          "cant": 2,
+          "pend": 2
+        }
+      ],
+      "pint_pend_items": [
+        {
+          "cod": "BPI-ES-1",
+          "prod": "Escalera Metalica",
+          "long": 2005,
           "cant": 2,
           "pend": 2
         }
