@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T14:09:59.539Z",
+  "updatedAt": "2026-11-18T22:06:27.548Z",
   "updatedBy": "Cristhian Piatti",
   "checks": {
     "24969_1": {
@@ -17952,7 +17952,8 @@
       "qty_lib": 1
     },
     "25258_12": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "qty_lib": 2
     },
     "25799_2": {
       "arm_state": "liberado",
@@ -18635,15 +18636,18 @@
     },
     "25949_1": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25949_2": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25949_3": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25797_22": {
       "arm_state": "liberado",
@@ -19018,7 +19022,8 @@
     },
     "25948_9": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25858_78": {
       "arm_state": "liberado",
@@ -19102,12 +19107,12 @@
     },
     "25889_49": {
       "arm_state": "liberado",
-      "pint_state": "en_pintura",
+      "pint_state": "pintado",
       "qty_lib": 1
     },
     "25889_51": {
       "arm_state": "liberado",
-      "pint_state": "en_pintura",
+      "pint_state": "pintado",
       "qty_lib": 1
     },
     "25876_104": {
@@ -19431,22 +19436,22 @@
     },
     "25889_46": {
       "arm_state": "liberado",
-      "pint_state": "en_pintura",
+      "pint_state": "pintado",
       "qty_lib": 1
     },
     "25889_48": {
       "arm_state": "liberado",
-      "pint_state": "en_pintura",
+      "pint_state": "pintado",
       "qty_lib": 1
     },
     "25889_50": {
       "arm_state": "liberado",
-      "pint_state": "en_pintura",
+      "pint_state": "pintado",
       "qty_lib": 1
     },
     "25889_47": {
       "arm_state": "liberado",
-      "pint_state": "en_pintura",
+      "pint_state": "pintado",
       "qty_lib": 1
     },
     "25898_234": {
@@ -39184,7 +39189,8 @@
     },
     "25949_4": {
       "arm_state": "liberado",
-      "qty_lib": 80
+      "qty_lib": 80,
+      "pint_state": "pintado"
     },
     "25659_160": {
       "arm_state": "liberado",
@@ -39920,11 +39926,13 @@
     },
     "25841_26": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25841_22": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25841_5": {
       "arm_state": "liberado",
@@ -40594,7 +40602,8 @@
     },
     "25841_23": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25870_94": {
       "arm_state": "liberado",
@@ -40652,7 +40661,8 @@
     },
     "25841_27": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25898_107": {
       "arm_state": "liberado",
@@ -40924,11 +40934,13 @@
     },
     "25948_2": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25948_3": {
       "arm_state": "liberado",
-      "qty_lib": 4
+      "qty_lib": 4,
+      "pint_state": "pintado"
     },
     "25841_2": {
       "arm_state": "liberado",
@@ -41857,11 +41869,13 @@
     },
     "25889_4": {
       "arm_state": "liberado",
-      "qty_lib": 3
+      "qty_lib": 3,
+      "pint_state": "pintado"
     },
     "25889_5": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25889_30": {
       "arm_state": "liberado",
@@ -42177,15 +42191,18 @@
     },
     "25841_24": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25841_25": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25841_21": {
       "arm_state": "liberado",
-      "qty_lib": 4
+      "qty_lib": 4,
+      "pint_state": "pintado"
     },
     "25658_50": {
       "arm_state": "liberado",
@@ -44163,26 +44180,68 @@
     "25659_73": {},
     "25659_48": {},
     "25948_4": {
-      "qty_lib": 3
+      "qty_lib": 3,
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25948_5": {
-      "qty_lib": 1
+      "qty_lib": 1,
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25948_6": {
-      "qty_lib": 4
+      "qty_lib": 4,
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25948_7": {
+      "qty_lib": 1,
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25948_8": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25948_15": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 2
+    },
+    "25948_18": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
       "qty_lib": 1
     },
-    "25948_8": {},
-    "25948_15": {},
-    "25948_18": {},
-    "25948_11": {},
-    "25948_12": {},
-    "25948_13": {},
-    "25948_17": {},
-    "25948_14": {},
-    "25948_10": {},
+    "25948_11": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25948_12": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 6
+    },
+    "25948_13": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25948_17": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25948_14": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25948_10": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 2
+    },
     "25852_38": {
       "arm_state": "liberado",
       "pint_state": "pintado",
@@ -44412,21 +44471,23 @@
       "qty_lib": 8
     },
     "25853_34": {
-      "arm_state": "armado",
-      "qty_lib": 8
+      "arm_state": "liberado",
+      "qty_lib": 8,
+      "pint_state": "pintado"
     },
     "25853_35": {
-      "arm_state": "armado",
-      "qty_lib": 8
+      "arm_state": "liberado",
+      "qty_lib": 8,
+      "pint_state": "pintado"
     },
     "25853_26": {
       "arm_state": "liberado",
-      "pint_state": "en_pintura",
+      "pint_state": "pintado",
       "qty_lib": 4
     },
     "25853_27": {
       "arm_state": "liberado",
-      "pint_state": "en_pintura",
+      "pint_state": "pintado",
       "qty_lib": 4
     },
     "25853_28": {
@@ -44469,7 +44530,8 @@
     },
     "25853_20": {
       "arm_state": "liberado",
-      "qty_lib": 2
+      "qty_lib": 2,
+      "pint_state": "pintado"
     },
     "25853_21": {
       "arm_state": "liberado",
@@ -44713,23 +44775,28 @@
     },
     "25876_133": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25876_127": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25876_128": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25876_137": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25876_138": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25876_134": {
       "arm_state": "liberado",
@@ -46263,8 +46330,8 @@
       "qty_lib": 1
     },
     "25833_209": {
-      "arm_state": "armado",
-      "qty_lib": 1
+      "arm_state": "liberado",
+      "qty_lib": 2
     },
     "25833_218": {
       "arm_state": "liberado",
@@ -46902,7 +46969,7 @@
     "25870_211": {
       "arm_state": "liberado",
       "pint_state": "pintado",
-      "qty_lib": 1
+      "qty_lib": 2
     },
     "25870_212": {
       "arm_state": "liberado",
@@ -46983,43 +47050,53 @@
     },
     "25938_131": {
       "arm_state": "liberado",
-      "qty_lib": 2
+      "qty_lib": 2,
+      "pint_state": "pintado"
     },
     "25938_132": {
       "arm_state": "liberado",
-      "qty_lib": 2
+      "qty_lib": 2,
+      "pint_state": "pintado"
     },
     "25938_133": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25938_134": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25938_135": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25938_136": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25938_137": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25938_138": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25938_139": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25938_140": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25870_102": {
       "arm_state": "liberado",
@@ -47735,7 +47812,8 @@
     },
     "26032_3": {
       "arm_state": "liberado",
-      "qty_lib": 126
+      "qty_lib": 126,
+      "pint_state": "pintado"
     },
     "26032_5": {
       "arm_state": "liberado",
@@ -47768,19 +47846,23 @@
     },
     "26032_4": {
       "arm_state": "liberado",
-      "qty_lib": 2
+      "qty_lib": 2,
+      "pint_state": "pintado"
     },
     "26032_8": {
-      "arm_state": "armado",
-      "qty_lib": 14
+      "arm_state": "liberado",
+      "qty_lib": 14,
+      "pint_state": "pintado"
     },
     "26032_1": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "26032_2": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25833_117": {
       "arm_state": "liberado",
@@ -47814,15 +47896,18 @@
     },
     "25849_1": {
       "arm_state": "liberado",
-      "qty_lib": 2
+      "qty_lib": 2,
+      "pint_state": "pintado"
     },
     "25849_2": {
       "arm_state": "liberado",
-      "qty_lib": 4
+      "qty_lib": 4,
+      "pint_state": "pintado"
     },
     "25849_3": {
       "arm_state": "liberado",
-      "qty_lib": 2
+      "qty_lib": 2,
+      "pint_state": "pintado"
     },
     "25856_149": {
       "arm_state": "liberado",
@@ -48718,11 +48803,13 @@
     },
     "26032_13": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "26032_17": {
       "arm_state": "liberado",
-      "qty_lib": 2
+      "qty_lib": 2,
+      "pint_state": "pintado"
     },
     "25658_111": {
       "arm_state": "liberado",
@@ -48986,7 +49073,8 @@
     },
     "26032_15": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25658_79": {
       "arm_state": "liberado",
@@ -50708,19 +50796,23 @@
     },
     "25658_9": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25658_8": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25658_7": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25658_5": {
       "arm_state": "liberado",
-      "qty_lib": 2
+      "qty_lib": 2,
+      "pint_state": "pintado"
     },
     "25258_143": {
       "arm_state": "liberado"
@@ -50760,11 +50852,13 @@
     },
     "25938_3": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25938_4": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25381_763": {
       "arm_state": "liberado",
@@ -50879,7 +50973,8 @@
       "arm_state": "armado"
     },
     "25870_158": {
-      "arm_state": "armado"
+      "arm_state": "liberado",
+      "qty_lib": 2
     },
     "25107_1486": {
       "arm_state": "liberado",
@@ -50958,6 +51053,643 @@
     "25965_16": {
       "arm_state": "liberado",
       "qty_lib": 5
+    },
+    "25815_90": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "24623_194": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "24623_195": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "24623_190": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25107_1297": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1310": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1305": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1306": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1288": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1273": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1302": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25107_1278": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25107_1287": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25938_76": {
+      "arm_state": "liberado",
+      "qty_lib": 4
+    },
+    "25938_77": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25938_78": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25833_217": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25833_229": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25833_255": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1304": {},
+    "24623_520": {
+      "arm_state": "liberado",
+      "qty_lib": 11
+    },
+    "24623_516": {
+      "arm_state": "liberado",
+      "qty_lib": 3
+    },
+    "24623_515": {
+      "arm_state": "liberado",
+      "qty_lib": 9
+    },
+    "24623_517": {
+      "arm_state": "liberado",
+      "qty_lib": 9
+    },
+    "24623_518": {
+      "arm_state": "liberado",
+      "qty_lib": 3
+    },
+    "24623_522": {
+      "arm_state": "liberado",
+      "qty_lib": 12
+    },
+    "24623_519": {
+      "arm_state": "liberado",
+      "qty_lib": 12
+    },
+    "24623_523": {
+      "arm_state": "liberado",
+      "qty_lib": 12
+    },
+    "24623_97": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "24623_234": {
+      "arm_state": "liberado",
+      "qty_lib": 8
+    },
+    "24623_221": {
+      "arm_state": "liberado",
+      "qty_lib": 4
+    },
+    "25833_227": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25833_250": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25258_20": {
+      "arm_state": "liberado",
+      "qty_lib": 4
+    },
+    "25258_17": {
+      "arm_state": "liberado",
+      "qty_lib": 6
+    },
+    "25258_21": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25258_27": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25258_19": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25258_24": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25658_6": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25833_115": {
+      "arm_state": "liberado",
+      "qty_lib": 9
+    },
+    "25833_116": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25948_19": {
+      "arm_state": "liberado",
+      "pint_state": "pintado"
+    },
+    "25889_25": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 8
+    },
+    "25107_1414": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1416": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25381_770": {
+      "arm_state": "armado",
+      "qty_lib": 1
+    },
+    "25381_771": {
+      "arm_state": "armado",
+      "qty_lib": 1
+    },
+    "25381_761": {
+      "arm_state": "armado",
+      "qty_lib": 1
+    },
+    "25381_765": {
+      "arm_state": "armado",
+      "qty_lib": 1
+    },
+    "25381_764": {
+      "arm_state": "armado",
+      "qty_lib": 2
+    },
+    "25659_86": {
+      "arm_state": "liberado",
+      "qty_lib": 3
+    },
+    "25659_85": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25870_159": {
+      "arm_state": "armado",
+      "qty_lib": 1
+    },
+    "25870_160": {
+      "arm_state": "armado",
+      "qty_lib": 1
+    },
+    "24623_86": {
+      "arm_state": "liberado"
+    },
+    "24623_80": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "24623_163": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "24623_171": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "24623_111": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "24623_100": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "24623_236": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "24623_137": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "24623_113": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "24623_117": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "24623_82": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "24623_91": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "24623_124": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "24623_148": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "24623_131": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "24623_161": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "24623_166": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "24623_155": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "24623_126": {
+      "arm_state": "liberado",
+      "qty_lib": 4
+    },
+    "24623_88": {
+      "arm_state": "liberado",
+      "qty_lib": 22
+    },
+    "24623_122": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "24623_93": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "24623_84": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "24623_165": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "24623_232": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25833_213": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25870_314": {
+      "arm_state": "liberado",
+      "pint_state": "en_pintura",
+      "qty_lib": 4
+    },
+    "25870_313": {
+      "arm_state": "liberado",
+      "pint_state": "en_pintura",
+      "qty_lib": 4
+    },
+    "25870_311": {
+      "arm_state": "liberado",
+      "pint_state": "en_pintura",
+      "qty_lib": 2
+    },
+    "25870_312": {
+      "arm_state": "liberado",
+      "pint_state": "en_pintura",
+      "qty_lib": 2
+    },
+    "25107_1314": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25974_3": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 38
+    },
+    "25974_4": {
+      "arm_state": "liberado",
+      "qty_lib": 6
+    },
+    "25974_6": {
+      "arm_state": "liberado",
+      "qty_lib": 16
+    },
+    "25974_13": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25974_12": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25974_11": {
+      "arm_state": "liberado",
+      "qty_lib": 24
+    },
+    "25974_14": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25852_63": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 9
+    },
+    "25849_5": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 4
+    },
+    "25849_6": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 4
+    },
+    "25849_7": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 4
+    },
+    "25849_4": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 2
+    },
+    "25938_64": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25938_13": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25938_32": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25938_31": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25938_68": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25938_69": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25938_63": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25938_66": {
+      "arm_state": "armado",
+      "qty_lib": 12
+    },
+    "25938_71": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25938_72": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25938_73": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25938_70": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25870_306": {
+      "arm_state": "liberado",
+      "pint_state": "en_pintura",
+      "qty_lib": 16
+    },
+    "25870_307": {
+      "arm_state": "liberado",
+      "pint_state": "en_pintura",
+      "qty_lib": 96
+    },
+    "25870_308": {
+      "arm_state": "liberado",
+      "pint_state": "en_pintura",
+      "qty_lib": 32
+    },
+    "25381_299": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25381_298": {
+      "arm_state": "liberado",
+      "qty_lib": 4
+    },
+    "25381_300": {
+      "arm_state": "liberado",
+      "qty_lib": 4
+    },
+    "25938_103": {
+      "arm_state": "liberado",
+      "qty_lib": 36
+    },
+    "25659_75": {
+      "arm_state": "liberado",
+      "qty_lib": 256
+    },
+    "25938_142": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25938_62": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25938_65": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25938_67": {
+      "arm_state": "liberado",
+      "qty_lib": 8
+    },
+    "25938_143": {
+      "arm_state": "liberado",
+      "qty_lib": 4
+    },
+    "25938_2": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 2
+    },
+    "25938_5": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25107_1481": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1607": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1606": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25107_1605": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1609": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1603": {
+      "arm_state": "liberado",
+      "qty_lib": 3
+    },
+    "25107_1611": {
+      "arm_state": "liberado",
+      "qty_lib": 9
+    },
+    "25107_1604": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1608": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25107_1610": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25974_58": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25974_59": {
+      "arm_state": "liberado",
+      "qty_lib": 4
+    },
+    "25974_60": {
+      "arm_state": "liberado",
+      "qty_lib": 4
+    },
+    "25974_61": {
+      "arm_state": "liberado",
+      "qty_lib": 6
+    },
+    "25974_62": {
+      "arm_state": "liberado",
+      "qty_lib": 9
+    },
+    "25974_63": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25974_64": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25974_65": {
+      "arm_state": "liberado",
+      "qty_lib": 3
+    },
+    "25974_66": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25974_67": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25974_68": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25974_69": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25974_70": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25974_71": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25974_72": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25974_73": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25974_74": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25974_75": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25974_76": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25938_6": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25965_33": {
+      "arm_state": "liberado",
+      "qty_lib": 16
     }
   },
   "otMeta": {
@@ -79086,6 +79818,1158 @@
           "cod": "BOH-PZ-2",
           "prod": "Pieza Especial",
           "long": 5690,
+          "cant": 1,
+          "pend": 1
+        }
+      ]
+    },
+    "26020": {
+      "ot": "26020",
+      "obra": "Vigas Ascensor_Pollpar",
+      "cliente": "DISTRITO TRANSCHACO SA",
+      "fecha": "18/11/2026",
+      "avances": {
+        "arm": 0,
+        "pint": 0,
+        "env": 0,
+        "mont": 0
+      },
+      "totales": {
+        "cant": 68,
+        "arm_lib": 0,
+        "arm_pend": 68,
+        "pint_ok": 0,
+        "pint_pend": 68,
+        "env_ok": 0,
+        "env_pend": 68,
+        "items": 35,
+        "peso_total": 2209.3299999999995,
+        "arm_pend_peso": 2209.3299999999995,
+        "pint_pend_peso": 2209.3299999999995,
+        "env_pend_peso": 2209.3299999999995
+      },
+      "items": [
+        {
+          "item": 1,
+          "cod": "BOP-ES-300",
+          "prod": "Escalera Metalica",
+          "long": 2250,
+          "cant": 2,
+          "peso": 52.36,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 52.36,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 52.36,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 52.36,
+          "literal": "BOP"
+        },
+        {
+          "item": 2,
+          "cod": "BOP-LLP-300",
+          "prod": "Angulo Pintado",
+          "long": 400,
+          "cant": 2,
+          "peso": 4.42,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 4.42,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 4.42,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 4.42,
+          "literal": "BOP"
+        },
+        {
+          "item": 3,
+          "cod": "BOP-PL-300",
+          "prod": "Placa",
+          "long": 120,
+          "cant": 1,
+          "peso": 2.3,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 2.3,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 2.3,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 2.3,
+          "literal": "BOP"
+        },
+        {
+          "item": 4,
+          "cod": "BOP-PL-301",
+          "prod": "Placa",
+          "long": 477,
+          "cant": 1,
+          "peso": 15.26,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 15.26,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 15.26,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 15.26,
+          "literal": "BOP"
+        },
+        {
+          "item": 5,
+          "cod": "BOP-PL-302",
+          "prod": "Placa",
+          "long": 133,
+          "cant": 1,
+          "peso": 2.41,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 2.41,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 2.41,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 2.41,
+          "literal": "BOP"
+        },
+        {
+          "item": 6,
+          "cod": "BOP-PL-303",
+          "prod": "Placa",
+          "long": 340,
+          "cant": 4,
+          "peso": 37.36,
+          "arm_lib": 0,
+          "arm_pend": 4,
+          "arm_pend_peso": 37.36,
+          "pint_ok": 0,
+          "pint_pend": 4,
+          "pint_pend_peso": 37.36,
+          "env_ok": 0,
+          "env_pend": 4,
+          "env_pend_peso": 37.36,
+          "literal": "BOP"
+        },
+        {
+          "item": 7,
+          "cod": "BOP-PL-304",
+          "prod": "Placa",
+          "long": 500,
+          "cant": 1,
+          "peso": 18.2,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 18.2,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 18.2,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 18.2,
+          "literal": "BOP"
+        },
+        {
+          "item": 8,
+          "cod": "BOP-PL-305",
+          "prod": "Placa",
+          "long": 340,
+          "cant": 12,
+          "peso": 101.88,
+          "arm_lib": 0,
+          "arm_pend": 12,
+          "arm_pend_peso": 101.88,
+          "pint_ok": 0,
+          "pint_pend": 12,
+          "pint_pend_peso": 101.88,
+          "env_ok": 0,
+          "env_pend": 12,
+          "env_pend_peso": 101.88,
+          "literal": "BOP"
+        },
+        {
+          "item": 9,
+          "cod": "BOP-PL-306",
+          "prod": "Placa",
+          "long": 500,
+          "cant": 1,
+          "peso": 13.73,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 13.73,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 13.73,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 13.73,
+          "literal": "BOP"
+        },
+        {
+          "item": 10,
+          "cod": "BOP-PL-307",
+          "prod": "Placa",
+          "long": 226,
+          "cant": 1,
+          "peso": 12,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 12,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 12,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 12,
+          "literal": "BOP"
+        },
+        {
+          "item": 11,
+          "cod": "BOP-PL-308",
+          "prod": "Placa",
+          "long": 405,
+          "cant": 1,
+          "peso": 8.83,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 8.83,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 8.83,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 8.83,
+          "literal": "BOP"
+        },
+        {
+          "item": 12,
+          "cod": "BOP-PL-309",
+          "prod": "Placa",
+          "long": 500,
+          "cant": 1,
+          "peso": 8.36,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 8.36,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 8.36,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 8.36,
+          "literal": "BOP"
+        },
+        {
+          "item": 13,
+          "cod": "BOP-PL-310",
+          "prod": "Placa",
+          "long": 500,
+          "cant": 1,
+          "peso": 7.89,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 7.89,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 7.89,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 7.89,
+          "literal": "BOP"
+        },
+        {
+          "item": 14,
+          "cod": "BOP-PL-311",
+          "prod": "Placa",
+          "long": 226,
+          "cant": 1,
+          "peso": 12,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 12,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 12,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 12,
+          "literal": "BOP"
+        },
+        {
+          "item": 15,
+          "cod": "BOP-PL-312",
+          "prod": "Placa",
+          "long": 410,
+          "cant": 1,
+          "peso": 22.52,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 22.52,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 22.52,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 22.52,
+          "literal": "BOP"
+        },
+        {
+          "item": 16,
+          "cod": "BOP-PL-313",
+          "prod": "Placa",
+          "long": 321,
+          "cant": 1,
+          "peso": 24.43,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 24.43,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 24.43,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 24.43,
+          "literal": "BOP"
+        },
+        {
+          "item": 17,
+          "cod": "BOP-PL-314",
+          "prod": "Placa",
+          "long": 112,
+          "cant": 4,
+          "peso": 10.32,
+          "arm_lib": 0,
+          "arm_pend": 4,
+          "arm_pend_peso": 10.32,
+          "pint_ok": 0,
+          "pint_pend": 4,
+          "pint_pend_peso": 10.32,
+          "env_ok": 0,
+          "env_pend": 4,
+          "env_pend_peso": 10.32,
+          "literal": "BOP"
+        },
+        {
+          "item": 18,
+          "cod": "BOP-PL-315",
+          "prod": "Placa",
+          "long": 170,
+          "cant": 2,
+          "peso": 4.42,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 4.42,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 4.42,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 4.42,
+          "literal": "BOP"
+        },
+        {
+          "item": 19,
+          "cod": "BOP-PL-316",
+          "prod": "Placa",
+          "long": 800,
+          "cant": 2,
+          "peso": 11.94,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 11.94,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 11.94,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 11.94,
+          "literal": "BOP"
+        },
+        {
+          "item": 20,
+          "cod": "BOP-PL-318",
+          "prod": "Placa",
+          "long": 134,
+          "cant": 1,
+          "peso": 3.04,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 3.04,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 3.04,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 3.04,
+          "literal": "BOP"
+        },
+        {
+          "item": 21,
+          "cod": "BOP-PL-319",
+          "prod": "Placa",
+          "long": 120,
+          "cant": 1,
+          "peso": 3.63,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 3.63,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 3.63,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 3.63,
+          "literal": "BOP"
+        },
+        {
+          "item": 22,
+          "cod": "BOP-PL-320",
+          "prod": "Placa",
+          "long": 120,
+          "cant": 1,
+          "peso": 3.63,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 3.63,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 3.63,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 3.63,
+          "literal": "BOP"
+        },
+        {
+          "item": 23,
+          "cod": "BOP-PL-321",
+          "prod": "Placa",
+          "long": 500,
+          "cant": 2,
+          "peso": 25.96,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 25.96,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 25.96,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 25.96,
+          "literal": "BOP"
+        },
+        {
+          "item": 24,
+          "cod": "BOP-SP-300",
+          "prod": "SOPORTE",
+          "long": 57,
+          "cant": 1,
+          "peso": 0.75,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 0.75,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 0.75,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 0.75,
+          "literal": "BOP"
+        },
+        {
+          "item": 25,
+          "cod": "BOP-SP-304",
+          "prod": "SOPORTE",
+          "long": 423,
+          "cant": 1,
+          "peso": 16.68,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 16.68,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 16.68,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 16.68,
+          "literal": "BOP"
+        },
+        {
+          "item": 26,
+          "cod": "BOP-VC-300",
+          "prod": "Viga Cajon",
+          "long": 3235,
+          "cant": 1,
+          "peso": 318.41,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 318.41,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 318.41,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 318.41,
+          "literal": "BOP"
+        },
+        {
+          "item": 27,
+          "cod": "BOP-VPI-300",
+          "prod": "Viga Principal Alma Llena",
+          "long": 1333,
+          "cant": 1,
+          "peso": 78.65,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 78.65,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 78.65,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 78.65,
+          "literal": "BOP"
+        },
+        {
+          "item": 28,
+          "cod": "BOP-VPI-301",
+          "prod": "Viga Principal Alma Llena",
+          "long": 3578,
+          "cant": 1,
+          "peso": 203.26,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 203.26,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 203.26,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 203.26,
+          "literal": "BOP"
+        },
+        {
+          "item": 29,
+          "cod": "BOP-VPI-302",
+          "prod": "Viga Principal Alma Llena",
+          "long": 3429,
+          "cant": 1,
+          "peso": 197.65,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 197.65,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 197.65,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 197.65,
+          "literal": "BOP"
+        },
+        {
+          "item": 30,
+          "cod": "BOP-VPI-303",
+          "prod": "Viga Principal Alma Llena",
+          "long": 2208,
+          "cant": 1,
+          "peso": 132.33,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 132.33,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 132.33,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 132.33,
+          "literal": "BOP"
+        },
+        {
+          "item": 31,
+          "cod": "BOP-VPT-300",
+          "prod": "Viga Principal tubo o caños",
+          "long": 1563,
+          "cant": 2,
+          "peso": 88.82,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 88.82,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 88.82,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 88.82,
+          "literal": "BOP"
+        },
+        {
+          "item": 32,
+          "cod": "BOP-VPT-301",
+          "prod": "Viga Principal tubo o caños",
+          "long": 2849,
+          "cant": 6,
+          "peso": 532.38,
+          "arm_lib": 0,
+          "arm_pend": 6,
+          "arm_pend_peso": 532.38,
+          "pint_ok": 0,
+          "pint_pend": 6,
+          "pint_pend_peso": 532.38,
+          "env_ok": 0,
+          "env_pend": 6,
+          "env_pend_peso": 532.38,
+          "literal": "BOP"
+        },
+        {
+          "item": 33,
+          "cod": "BOP-VPT-302",
+          "prod": "Viga Principal tubo o caños",
+          "long": 444,
+          "cant": 6,
+          "peso": 75.72,
+          "arm_lib": 0,
+          "arm_pend": 6,
+          "arm_pend_peso": 75.72,
+          "pint_ok": 0,
+          "pint_pend": 6,
+          "pint_pend_peso": 75.72,
+          "env_ok": 0,
+          "env_pend": 6,
+          "env_pend_peso": 75.72,
+          "literal": "BOP"
+        },
+        {
+          "item": 34,
+          "cod": "BOP-VSI-300",
+          "prod": "Viga secundaria IS",
+          "long": 2963,
+          "cant": 1,
+          "peso": 136.87,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 136.87,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 136.87,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 136.87,
+          "literal": "BOP"
+        },
+        {
+          "item": 35,
+          "cod": "BOP-VSI-301",
+          "prod": "Viga secundaria IS",
+          "long": 612,
+          "cant": 1,
+          "peso": 20.92,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 20.92,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 20.92,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 20.92,
+          "literal": "BOP"
+        }
+      ],
+      "arm_pend_items": [
+        {
+          "cod": "BOP-ES-300",
+          "prod": "Escalera Metalica",
+          "long": 2250,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOP-LLP-300",
+          "prod": "Angulo Pintado",
+          "long": 400,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOP-PL-300",
+          "prod": "Placa",
+          "long": 120,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOP-PL-301",
+          "prod": "Placa",
+          "long": 477,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOP-PL-302",
+          "prod": "Placa",
+          "long": 133,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOP-PL-303",
+          "prod": "Placa",
+          "long": 340,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BOP-PL-304",
+          "prod": "Placa",
+          "long": 500,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOP-PL-305",
+          "prod": "Placa",
+          "long": 340,
+          "cant": 12,
+          "pend": 12
+        },
+        {
+          "cod": "BOP-PL-306",
+          "prod": "Placa",
+          "long": 500,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOP-PL-307",
+          "prod": "Placa",
+          "long": 226,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOP-PL-308",
+          "prod": "Placa",
+          "long": 405,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOP-PL-309",
+          "prod": "Placa",
+          "long": 500,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOP-PL-310",
+          "prod": "Placa",
+          "long": 500,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOP-PL-311",
+          "prod": "Placa",
+          "long": 226,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOP-PL-312",
+          "prod": "Placa",
+          "long": 410,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOP-PL-313",
+          "prod": "Placa",
+          "long": 321,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOP-PL-314",
+          "prod": "Placa",
+          "long": 112,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BOP-PL-315",
+          "prod": "Placa",
+          "long": 170,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOP-PL-316",
+          "prod": "Placa",
+          "long": 800,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOP-PL-318",
+          "prod": "Placa",
+          "long": 134,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOP-PL-319",
+          "prod": "Placa",
+          "long": 120,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOP-PL-320",
+          "prod": "Placa",
+          "long": 120,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOP-PL-321",
+          "prod": "Placa",
+          "long": 500,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOP-SP-300",
+          "prod": "SOPORTE",
+          "long": 57,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOP-SP-304",
+          "prod": "SOPORTE",
+          "long": 423,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOP-VC-300",
+          "prod": "Viga Cajon",
+          "long": 3235,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOP-VPI-300",
+          "prod": "Viga Principal Alma Llena",
+          "long": 1333,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOP-VPI-301",
+          "prod": "Viga Principal Alma Llena",
+          "long": 3578,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOP-VPI-302",
+          "prod": "Viga Principal Alma Llena",
+          "long": 3429,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOP-VPI-303",
+          "prod": "Viga Principal Alma Llena",
+          "long": 2208,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOP-VPT-300",
+          "prod": "Viga Principal tubo o caños",
+          "long": 1563,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOP-VPT-301",
+          "prod": "Viga Principal tubo o caños",
+          "long": 2849,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "BOP-VPT-302",
+          "prod": "Viga Principal tubo o caños",
+          "long": 444,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "BOP-VSI-300",
+          "prod": "Viga secundaria IS",
+          "long": 2963,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOP-VSI-301",
+          "prod": "Viga secundaria IS",
+          "long": 612,
+          "cant": 1,
+          "pend": 1
+        }
+      ],
+      "pint_pend_items": [
+        {
+          "cod": "BOP-ES-300",
+          "prod": "Escalera Metalica",
+          "long": 2250,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOP-LLP-300",
+          "prod": "Angulo Pintado",
+          "long": 400,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOP-PL-300",
+          "prod": "Placa",
+          "long": 120,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOP-PL-301",
+          "prod": "Placa",
+          "long": 477,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOP-PL-302",
+          "prod": "Placa",
+          "long": 133,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOP-PL-303",
+          "prod": "Placa",
+          "long": 340,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BOP-PL-304",
+          "prod": "Placa",
+          "long": 500,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOP-PL-305",
+          "prod": "Placa",
+          "long": 340,
+          "cant": 12,
+          "pend": 12
+        },
+        {
+          "cod": "BOP-PL-306",
+          "prod": "Placa",
+          "long": 500,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOP-PL-307",
+          "prod": "Placa",
+          "long": 226,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOP-PL-308",
+          "prod": "Placa",
+          "long": 405,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOP-PL-309",
+          "prod": "Placa",
+          "long": 500,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOP-PL-310",
+          "prod": "Placa",
+          "long": 500,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOP-PL-311",
+          "prod": "Placa",
+          "long": 226,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOP-PL-312",
+          "prod": "Placa",
+          "long": 410,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOP-PL-313",
+          "prod": "Placa",
+          "long": 321,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOP-PL-314",
+          "prod": "Placa",
+          "long": 112,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BOP-PL-315",
+          "prod": "Placa",
+          "long": 170,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOP-PL-316",
+          "prod": "Placa",
+          "long": 800,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOP-PL-318",
+          "prod": "Placa",
+          "long": 134,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOP-PL-319",
+          "prod": "Placa",
+          "long": 120,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOP-PL-320",
+          "prod": "Placa",
+          "long": 120,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOP-PL-321",
+          "prod": "Placa",
+          "long": 500,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOP-SP-300",
+          "prod": "SOPORTE",
+          "long": 57,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOP-SP-304",
+          "prod": "SOPORTE",
+          "long": 423,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOP-VC-300",
+          "prod": "Viga Cajon",
+          "long": 3235,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOP-VPI-300",
+          "prod": "Viga Principal Alma Llena",
+          "long": 1333,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOP-VPI-301",
+          "prod": "Viga Principal Alma Llena",
+          "long": 3578,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOP-VPI-302",
+          "prod": "Viga Principal Alma Llena",
+          "long": 3429,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOP-VPI-303",
+          "prod": "Viga Principal Alma Llena",
+          "long": 2208,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOP-VPT-300",
+          "prod": "Viga Principal tubo o caños",
+          "long": 1563,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOP-VPT-301",
+          "prod": "Viga Principal tubo o caños",
+          "long": 2849,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "BOP-VPT-302",
+          "prod": "Viga Principal tubo o caños",
+          "long": 444,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": "BOP-VSI-300",
+          "prod": "Viga secundaria IS",
+          "long": 2963,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOP-VSI-301",
+          "prod": "Viga secundaria IS",
+          "long": 612,
           "cant": 1,
           "pend": 1
         }
