@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T09:11:42.596Z",
+  "updatedAt": "2026-11-23T09:13:15.126Z",
   "updatedBy": "Brian Soto",
   "checks": {
     "24969_1": {
@@ -52390,6 +52390,26 @@
     "25107_1418": {
       "arm_state": "liberado",
       "qty_lib": 1
+    },
+    "25870_342": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 4
+    },
+    "25870_343": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 2
+    },
+    "25870_344": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 4
+    },
+    "25870_345": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 2
     }
   },
   "otMeta": {
