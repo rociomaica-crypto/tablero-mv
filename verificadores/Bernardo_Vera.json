@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T13:04:57.366Z",
+  "updatedAt": "2026-11-23T13:44:39.360Z",
   "updatedBy": "Bernardo Vera",
   "checks": {
     "25694_1": {
@@ -44151,11 +44151,13 @@
     },
     "25913_5": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25913_4": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25979_4": {
       "arm_state": "liberado",
@@ -44359,7 +44361,8 @@
     },
     "25913_3": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25833_46": {
       "arm_state": "liberado",
@@ -51852,12 +51855,12 @@
       "arm_state": "liberado"
     },
     "25381_441": {
-      "qty_lib": 2,
-      "arm_state": "armado"
+      "qty_lib": 8,
+      "arm_state": "liberado"
     },
     "25381_434": {
-      "qty_lib": 1,
-      "arm_state": "armado"
+      "qty_lib": 4,
+      "arm_state": "liberado"
     },
     "25833_219": {
       "qty_lib": 2,
@@ -53071,6 +53074,50 @@
     "25856_399": {
       "arm_state": "liberado",
       "qty_lib": 1
+    },
+    "25913_2": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25913_1": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25381_437": {
+      "qty_lib": 1,
+      "arm_state": "liberado"
+    },
+    "25381_435": {
+      "qty_lib": 1,
+      "arm_state": "liberado"
+    },
+    "25381_432": {
+      "qty_lib": 1,
+      "arm_state": "liberado"
+    },
+    "25381_433": {
+      "qty_lib": 1,
+      "arm_state": "liberado"
+    },
+    "25381_439": {
+      "qty_lib": 1,
+      "arm_state": "liberado"
+    },
+    "25381_440": {
+      "qty_lib": 1,
+      "arm_state": "liberado"
+    },
+    "25381_436": {
+      "qty_lib": 1,
+      "arm_state": "liberado"
+    },
+    "25938_30": {
+      "qty_lib": 1,
+      "arm_state": "liberado"
+    },
+    "25938_33": {
+      "qty_lib": 1,
+      "arm_state": "liberado"
     }
   },
   "otMeta": {
