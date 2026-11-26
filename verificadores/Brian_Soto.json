@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T16:16:34.140Z",
+  "updatedAt": "2026-11-26T11:35:50.845Z",
   "updatedBy": "Brian Soto",
   "checks": {
     "24969_1": {
@@ -8845,7 +8845,7 @@
       "pint_state": "pintado"
     },
     "25107_1431": {
-      "arm_state": "armado",
+      "arm_state": "liberado",
       "qty_lib": 1,
       "pint_state": "pintado"
     },
@@ -8879,7 +8879,8 @@
     },
     "25107_1434": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25565_45": {
       "arm_state": "armado",
@@ -16697,7 +16698,7 @@
     },
     "25659_219": {
       "arm_state": "liberado",
-      "qty_lib": 23
+      "qty_lib": 26
     },
     "25720_197": {
       "arm_state": "liberado",
@@ -45979,31 +45980,38 @@
     },
     "25965_3": {
       "arm_state": "liberado",
-      "qty_lib": 3
+      "qty_lib": 3,
+      "pint_state": "pintado"
     },
     "25965_4": {
       "arm_state": "liberado",
-      "qty_lib": 2
+      "qty_lib": 2,
+      "pint_state": "pintado"
     },
     "25965_5": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25965_6": {
       "arm_state": "liberado",
-      "qty_lib": 5
+      "qty_lib": 5,
+      "pint_state": "pintado"
     },
     "25965_7": {
       "arm_state": "liberado",
-      "qty_lib": 5
+      "qty_lib": 5,
+      "pint_state": "pintado"
     },
     "25965_8": {
       "arm_state": "liberado",
-      "qty_lib": 5
+      "qty_lib": 5,
+      "pint_state": "pintado"
     },
     "25965_1": {
       "arm_state": "liberado",
-      "qty_lib": 16
+      "qty_lib": 16,
+      "pint_state": "pintado"
     },
     "25841_11": {
       "arm_state": "liberado",
@@ -46473,11 +46481,13 @@
     },
     "25965_9": {
       "arm_state": "liberado",
-      "qty_lib": 12
+      "qty_lib": 12,
+      "pint_state": "pintado"
     },
     "25965_10": {
       "arm_state": "liberado",
-      "qty_lib": 20
+      "qty_lib": 20,
+      "pint_state": "pintado"
     },
     "25999_59": {
       "arm_state": "liberado",
@@ -51030,7 +51040,8 @@
     },
     "25107_1411": {
       "arm_state": "liberado",
-      "qty_lib": 3
+      "qty_lib": 3,
+      "pint_state": "pintado"
     },
     "25107_1412": {
       "arm_state": "liberado",
@@ -51044,7 +51055,8 @@
     },
     "25965_21": {
       "arm_state": "liberado",
-      "qty_lib": 2
+      "qty_lib": 5,
+      "pint_state": "pintado"
     },
     "25870_239": {
       "arm_state": "liberado",
@@ -51188,39 +51200,48 @@
     },
     "25965_11": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25965_12": {
       "arm_state": "liberado",
-      "qty_lib": 2
+      "qty_lib": 2,
+      "pint_state": "pintado"
     },
     "25965_13": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25965_14": {
       "arm_state": "liberado",
-      "qty_lib": 2
+      "qty_lib": 2,
+      "pint_state": "pintado"
     },
     "25965_15": {
       "arm_state": "liberado",
-      "qty_lib": 5
+      "qty_lib": 5,
+      "pint_state": "pintado"
     },
     "25965_16": {
       "arm_state": "liberado",
-      "qty_lib": 5
+      "qty_lib": 5,
+      "pint_state": "pintado"
     },
     "24623_194": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "24623_195": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "24623_190": {
       "arm_state": "liberado",
-      "qty_lib": 2
+      "qty_lib": 2,
+      "pint_state": "pintado"
     },
     "25107_1297": {
       "arm_state": "liberado",
@@ -51868,7 +51889,8 @@
     },
     "25965_33": {
       "arm_state": "liberado",
-      "qty_lib": 16
+      "qty_lib": 20,
+      "pint_state": "pintado"
     },
     "25381_438": {
       "arm_state": "liberado",
@@ -53003,7 +53025,8 @@
     },
     "25925_17": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 4,
+      "pint_state": "pintado"
     },
     "25925_18": {
       "arm_state": "liberado",
@@ -53044,19 +53067,23 @@
     },
     "25833_277": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25925_10": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25965_22": {
       "arm_state": "liberado",
-      "qty_lib": 4
+      "qty_lib": 5,
+      "pint_state": "pintado"
     },
     "25925_68": {
       "arm_state": "liberado",
-      "qty_lib": 4
+      "qty_lib": 4,
+      "pint_state": "pintado"
     },
     "25925_69": {
       "arm_state": "liberado",
@@ -53182,23 +53209,28 @@
     },
     "25965_34": {
       "arm_state": "liberado",
-      "qty_lib": 5
+      "qty_lib": 5,
+      "pint_state": "pintado"
     },
     "25965_35": {
       "arm_state": "liberado",
-      "qty_lib": 5
+      "qty_lib": 5,
+      "pint_state": "pintado"
     },
     "25965_37": {
       "arm_state": "liberado",
-      "qty_lib": 5
+      "qty_lib": 5,
+      "pint_state": "pintado"
     },
     "25965_36": {
       "arm_state": "liberado",
-      "qty_lib": 5
+      "qty_lib": 5,
+      "pint_state": "pintado"
     },
     "25965_38": {
       "arm_state": "liberado",
-      "qty_lib": 5
+      "qty_lib": 5,
+      "pint_state": "pintado"
     },
     "25974_216": {
       "arm_state": "liberado",
@@ -53210,7 +53242,8 @@
       "pint_state": "pintado"
     },
     "25925_8": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25925_9": {
       "arm_state": "liberado",
@@ -53219,7 +53252,8 @@
     },
     "25925_86": {
       "arm_state": "liberado",
-      "qty_lib": 2
+      "qty_lib": 2,
+      "pint_state": "en_pintura"
     },
     "25925_84": {
       "arm_state": "liberado",
@@ -53227,13 +53261,17 @@
     },
     "25925_85": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25925_71": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
     },
     "25925_70": {
-      "arm_state": "liberado"
+      "arm_state": "liberado",
+      "qty_lib": 1
     },
     "25925_83": {
       "arm_state": "armado"
@@ -53345,7 +53383,7 @@
     },
     "25938_94": {
       "arm_state": "liberado",
-      "qty_lib": 2
+      "qty_lib": 4
     },
     "25938_95": {
       "arm_state": "liberado",
@@ -53475,6 +53513,441 @@
     "25925_13": {
       "arm_state": "liberado",
       "qty_lib": 16
+    },
+    "25925_111": {
+      "arm_state": "liberado",
+      "qty_lib": 22
+    },
+    "25925_66": {
+      "arm_state": "armado"
+    },
+    "25925_112": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 2
+    },
+    "25925_113": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 9
+    },
+    "25658_102": {
+      "arm_state": "liberado",
+      "qty_lib": 144
+    },
+    "25870_183": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 16
+    },
+    "25870_184": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 16
+    },
+    "25870_273": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 8
+    },
+    "25870_274": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 16
+    },
+    "25870_275": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 8
+    },
+    "25870_386": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 12
+    },
+    "25870_387": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 12
+    },
+    "25870_413": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 24
+    },
+    "25870_414": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 24
+    },
+    "25870_334": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 24
+    },
+    "25870_335": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 24
+    },
+    "25870_363": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 17
+    },
+    "25870_364": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 17
+    },
+    "25870_473": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 14
+    },
+    "25870_474": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 22
+    },
+    "25870_475": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25870_476": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 7
+    },
+    "25870_514": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 16
+    },
+    "25870_515": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 16
+    },
+    "25870_569": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 11
+    },
+    "25870_570": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 9
+    },
+    "25870_571": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 3
+    },
+    "25870_572": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25870_348": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 4
+    },
+    "25870_347": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 4
+    },
+    "25870_346": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 8
+    },
+    "25870_349": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 2
+    },
+    "25870_353": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25870_351": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 2
+    },
+    "25870_350": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 2
+    },
+    "25870_352": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25974_203": {
+      "arm_state": "armado",
+      "qty_lib": 8
+    },
+    "25925_96": {
+      "arm_state": "armado",
+      "qty_lib": 104
+    },
+    "25870_341": {
+      "arm_state": "liberado",
+      "qty_lib": 9
+    },
+    "25870_418": {
+      "arm_state": "liberado",
+      "qty_lib": 9
+    },
+    "25870_393": {
+      "arm_state": "liberado",
+      "qty_lib": 8
+    },
+    "25870_324": {
+      "arm_state": "liberado",
+      "qty_lib": 4
+    },
+    "25870_326": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25870_325": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25870_322": {
+      "arm_state": "liberado",
+      "qty_lib": 4
+    },
+    "25870_323": {
+      "arm_state": "liberado",
+      "qty_lib": 4
+    },
+    "25870_321": {
+      "arm_state": "liberado",
+      "qty_lib": 8
+    },
+    "25870_403": {
+      "arm_state": "liberado",
+      "qty_lib": 4
+    },
+    "25870_407": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25870_404": {
+      "arm_state": "liberado",
+      "qty_lib": 4
+    },
+    "25870_405": {
+      "arm_state": "liberado",
+      "qty_lib": 4
+    },
+    "25870_406": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25870_402": {
+      "arm_state": "liberado",
+      "qty_lib": 8
+    },
+    "25870_381": {
+      "arm_state": "liberado",
+      "qty_lib": 4
+    },
+    "25870_380": {
+      "arm_state": "liberado",
+      "qty_lib": 8
+    },
+    "25870_265": {
+      "arm_state": "liberado",
+      "qty_lib": 8
+    },
+    "25870_264": {
+      "arm_state": "liberado",
+      "qty_lib": 8
+    },
+    "25870_279": {
+      "arm_state": "liberado",
+      "qty_lib": 4
+    },
+    "25870_369": {
+      "arm_state": "liberado",
+      "qty_lib": 4
+    },
+    "25870_359": {
+      "arm_state": "liberado",
+      "qty_lib": 17
+    },
+    "25938_61": {
+      "arm_state": "liberado",
+      "qty_lib": 108
+    },
+    "25938_163": {
+      "arm_state": "liberado",
+      "qty_lib": 16
+    },
+    "25965_23": {
+      "arm_state": "armado"
+    },
+    "25965_24": {
+      "arm_state": "armado"
+    },
+    "25965_25": {
+      "arm_state": "armado"
+    },
+    "25965_26": {
+      "arm_state": "armado"
+    },
+    "25833_181": {
+      "arm_state": "liberado",
+      "qty_lib": 286
+    },
+    "25658_104": {
+      "arm_state": "liberado",
+      "qty_lib": 176
+    },
+    "25658_93": {
+      "arm_state": "liberado",
+      "qty_lib": 22
+    },
+    "25938_169": {
+      "arm_state": "liberado",
+      "qty_lib": 3
+    },
+    "25974_24": {
+      "arm_state": "liberado",
+      "qty_lib": 10
+    },
+    "25974_25": {
+      "arm_state": "liberado",
+      "qty_lib": 10
+    },
+    "25986_31": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25925_27": {
+      "arm_state": "liberado",
+      "qty_lib": 44
+    },
+    "25925_114": {
+      "arm_state": "liberado",
+      "qty_lib": 44
+    },
+    "25925_31": {
+      "arm_state": "liberado",
+      "qty_lib": 8
+    },
+    "25925_32": {
+      "arm_state": "liberado",
+      "qty_lib": 8
+    },
+    "25925_30": {
+      "arm_state": "liberado",
+      "qty_lib": 93
+    },
+    "25986_113": {
+      "arm_state": "liberado",
+      "qty_lib": 3
+    },
+    "25986_111": {
+      "arm_state": "liberado",
+      "qty_lib": 3
+    },
+    "25986_109": {
+      "arm_state": "liberado",
+      "qty_lib": 3
+    },
+    "25986_107": {
+      "arm_state": "liberado",
+      "qty_lib": 12
+    },
+    "25986_106": {
+      "arm_state": "liberado",
+      "qty_lib": 15
+    },
+    "25986_2": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25986_1": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25986_6": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25986_7": {
+      "arm_state": "liberado",
+      "qty_lib": 68
+    },
+    "25986_27": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25986_34": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25986_56": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25986_90": {
+      "arm_state": "liberado",
+      "qty_lib": 3
+    },
+    "25986_103": {
+      "arm_state": "armado",
+      "qty_lib": 3
+    },
+    "25986_84": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25986_83": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25986_82": {
+      "arm_state": "liberado"
+    },
+    "25986_85": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25986_86": {
+      "arm_state": "liberado",
+      "qty_lib": 10
+    },
+    "25938_165": {
+      "arm_state": "liberado",
+      "qty_lib": 2
+    },
+    "25938_167": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25938_173": {
+      "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25938_171": {
+      "arm_state": "liberado",
+      "qty_lib": 8
+    },
+    "25938_174": {
+      "arm_state": "liberado",
+      "qty_lib": 1
     }
   },
   "otMeta": {
@@ -248304,48 +248777,30 @@
       "ot": "25986",
       "obra": "Cerramiento Centro Comercial Luque Opc 2",
       "cliente": "CHUTZPAH SOCIEDAD ANONIMA (CHUZA S.A.)",
-      "fecha": "12/11/2026",
+      "fecha": "26/11/2026",
       "avances": {
-        "arm": 79,
+        "arm": 26,
         "pint": 0,
         "env": 0,
         "mont": 0
       },
       "totales": {
-        "cant": 1085,
-        "arm_lib": 861,
-        "arm_pend": 224,
+        "cant": 987,
+        "arm_lib": 252,
+        "arm_pend": 735,
         "pint_ok": 0,
-        "pint_pend": 1085,
+        "pint_pend": 987,
         "env_ok": 0,
-        "env_pend": 1085,
-        "items": 147,
-        "peso_total": 13348.46,
-        "arm_pend_peso": 7830.18,
-        "pint_pend_peso": 13348.46,
-        "env_pend_peso": 13348.46
+        "env_pend": 987,
+        "items": 177,
+        "peso_total": 12177.749999999996,
+        "arm_pend_peso": 9305.88,
+        "pint_pend_peso": 12177.749999999996,
+        "env_pend_peso": 12177.749999999996
       },
       "items": [
         {
           "item": 1,
-          "cod": "BOI-CNP-1",
-          "prod": "Caño Pintado",
-          "long": 166,
-          "cant": 2,
-          "peso": 0.92,
-          "arm_lib": 2,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 0.92,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 0.92,
-          "literal": "BOI"
-        },
-        {
-          "item": 2,
           "cod": "BOI-CNP-2",
           "prod": "Caño Pintado",
           "long": 5125,
@@ -248363,7 +248818,7 @@
           "literal": "BOI"
         },
         {
-          "item": 3,
+          "item": 2,
           "cod": "BOI-CNP-4",
           "prod": "Caño Pintado",
           "long": 1372,
@@ -248381,7 +248836,7 @@
           "literal": "BOI"
         },
         {
-          "item": 4,
+          "item": 3,
           "cod": "BOI-CNP-5",
           "prod": "Caño Pintado",
           "long": 1371,
@@ -248399,7 +248854,7 @@
           "literal": "BOI"
         },
         {
-          "item": 5,
+          "item": 4,
           "cod": "BOI-CNP-6",
           "prod": "Caño Pintado",
           "long": 1383,
@@ -248417,61 +248872,7 @@
           "literal": "BOI"
         },
         {
-          "item": 6,
-          "cod": "BOI-CNP-7",
-          "prod": "Caño Pintado",
-          "long": 1226,
-          "cant": 2,
-          "peso": 6.76,
-          "arm_lib": 2,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 6.76,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 6.76,
-          "literal": "BOI"
-        },
-        {
-          "item": 7,
-          "cod": "BOI-CNP-8",
-          "prod": "Caño Pintado",
-          "long": 2900,
-          "cant": 68,
-          "peso": 543.32,
-          "arm_lib": 68,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 68,
-          "pint_pend_peso": 543.32,
-          "env_ok": 0,
-          "env_pend": 68,
-          "env_pend_peso": 543.32,
-          "literal": "BOI"
-        },
-        {
-          "item": 8,
-          "cod": "BOI-CNP-9",
-          "prod": "Caño Pintado",
-          "long": 3000,
-          "cant": 65,
-          "peso": 675.35,
-          "arm_lib": 65,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 65,
-          "pint_pend_peso": 675.35,
-          "env_ok": 0,
-          "env_pend": 65,
-          "env_pend_peso": 675.35,
-          "literal": "BOI"
-        },
-        {
-          "item": 9,
+          "item": 5,
           "cod": "BOI-CNP-10",
           "prod": "Caño Pintado",
           "long": 3469,
@@ -248489,7 +248890,7 @@
           "literal": "BOI"
         },
         {
-          "item": 10,
+          "item": 6,
           "cod": "BOI-CNP-11",
           "prod": "Caño Pintado",
           "long": 3610,
@@ -248507,7 +248908,7 @@
           "literal": "BOI"
         },
         {
-          "item": 11,
+          "item": 7,
           "cod": "BOI-CNP-12",
           "prod": "Caño Pintado",
           "long": 3520,
@@ -248525,7 +248926,7 @@
           "literal": "BOI"
         },
         {
-          "item": 12,
+          "item": 8,
           "cod": "BOI-CNP-13",
           "prod": "Caño Pintado",
           "long": 6000,
@@ -248543,7 +248944,7 @@
           "literal": "BOI"
         },
         {
-          "item": 13,
+          "item": 9,
           "cod": "BOI-CNP-14",
           "prod": "Caño Pintado",
           "long": 3056,
@@ -248561,7 +248962,7 @@
           "literal": "BOI"
         },
         {
-          "item": 14,
+          "item": 10,
           "cod": "BOI-CNP-15",
           "prod": "Caño Pintado",
           "long": 2987,
@@ -248579,7 +248980,7 @@
           "literal": "BOI"
         },
         {
-          "item": 15,
+          "item": 11,
           "cod": "BOI-CNP-16",
           "prod": "Caño Pintado",
           "long": 3022,
@@ -248597,7 +248998,7 @@
           "literal": "BOI"
         },
         {
-          "item": 16,
+          "item": 12,
           "cod": "BOI-CNP-17",
           "prod": "Caño Pintado",
           "long": 2954,
@@ -248615,7 +249016,7 @@
           "literal": "BOI"
         },
         {
-          "item": 17,
+          "item": 13,
           "cod": "BOI-CNP-18",
           "prod": "Caño Pintado",
           "long": 2533,
@@ -248633,7 +249034,7 @@
           "literal": "BOI"
         },
         {
-          "item": 18,
+          "item": 14,
           "cod": "BOI-CNP-19",
           "prod": "Caño Pintado",
           "long": 2331,
@@ -248651,7 +249052,7 @@
           "literal": "BOI"
         },
         {
-          "item": 19,
+          "item": 15,
           "cod": "BOI-CNP-20",
           "prod": "Caño Pintado",
           "long": 2380,
@@ -248669,25 +249070,7 @@
           "literal": "BOI"
         },
         {
-          "item": 20,
-          "cod": "BOI-CNP-21",
-          "prod": "Caño Pintado",
-          "long": 3008,
-          "cant": 12,
-          "peso": 124.92,
-          "arm_lib": 12,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 12,
-          "pint_pend_peso": 124.92,
-          "env_ok": 0,
-          "env_pend": 12,
-          "env_pend_peso": 124.92,
-          "literal": "BOI"
-        },
-        {
-          "item": 21,
+          "item": 16,
           "cod": "BOI-CNP-22",
           "prod": "Caño Pintado",
           "long": 1797,
@@ -248705,7 +249088,7 @@
           "literal": "BOI"
         },
         {
-          "item": 22,
+          "item": 17,
           "cod": "BOI-CNP-23",
           "prod": "Caño Pintado",
           "long": 1859,
@@ -248723,7 +249106,7 @@
           "literal": "BOI"
         },
         {
-          "item": 23,
+          "item": 18,
           "cod": "BOI-CNP-24",
           "prod": "Caño Pintado",
           "long": 1907,
@@ -248741,7 +249124,7 @@
           "literal": "BOI"
         },
         {
-          "item": 24,
+          "item": 19,
           "cod": "BOI-CNP-25",
           "prod": "Caño Pintado",
           "long": 1896,
@@ -248759,7 +249142,7 @@
           "literal": "BOI"
         },
         {
-          "item": 25,
+          "item": 20,
           "cod": "BOI-CNP-26",
           "prod": "Caño Pintado",
           "long": 1901,
@@ -248777,97 +249160,7 @@
           "literal": "BOI"
         },
         {
-          "item": 26,
-          "cod": "BOI-CNP-27",
-          "prod": "Caño Pintado",
-          "long": 560,
-          "cant": 1,
-          "peso": 1.94,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 1.94,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 1.94,
-          "literal": "BOI"
-        },
-        {
-          "item": 27,
-          "cod": "BOI-CNP-28",
-          "prod": "Caño Pintado",
-          "long": 462,
-          "cant": 2,
-          "peso": 2.54,
-          "arm_lib": 2,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 2.54,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 2.54,
-          "literal": "BOI"
-        },
-        {
-          "item": 28,
-          "cod": "BOI-CNP-29",
-          "prod": "Caño Pintado",
-          "long": 570,
-          "cant": 2,
-          "peso": 3.94,
-          "arm_lib": 2,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 3.94,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 3.94,
-          "literal": "BOI"
-        },
-        {
-          "item": 29,
-          "cod": "BOI-CNP-30",
-          "prod": "Caño Pintado",
-          "long": 3144,
-          "cant": 9,
-          "peso": 104.67,
-          "arm_lib": 0,
-          "arm_pend": 9,
-          "arm_pend_peso": 104.67,
-          "pint_ok": 0,
-          "pint_pend": 9,
-          "pint_pend_peso": 104.67,
-          "env_ok": 0,
-          "env_pend": 9,
-          "env_pend_peso": 104.67,
-          "literal": "BOI"
-        },
-        {
-          "item": 30,
-          "cod": "BOI-CNP-31",
-          "prod": "Caño Pintado",
-          "long": 4767,
-          "cant": 1,
-          "peso": 16.5,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 16.5,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 16.5,
-          "literal": "BOI"
-        },
-        {
-          "item": 31,
+          "item": 21,
           "cod": "BOI-CNP-32",
           "prod": "Caño Pintado",
           "long": 4650,
@@ -248885,7 +249178,7 @@
           "literal": "BOI"
         },
         {
-          "item": 32,
+          "item": 22,
           "cod": "BOI-CNP-33",
           "prod": "Caño Pintado",
           "long": 4754,
@@ -248903,7 +249196,7 @@
           "literal": "BOI"
         },
         {
-          "item": 33,
+          "item": 23,
           "cod": "BOI-CNP-34",
           "prod": "Caño Pintado",
           "long": 697,
@@ -248921,25 +249214,7 @@
           "literal": "BOI"
         },
         {
-          "item": 34,
-          "cod": "BOI-CNP-35",
-          "prod": "Caño Pintado",
-          "long": 590,
-          "cant": 2,
-          "peso": 3.26,
-          "arm_lib": 2,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 3.26,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 3.26,
-          "literal": "BOI"
-        },
-        {
-          "item": 35,
+          "item": 24,
           "cod": "BOI-CNP-36",
           "prod": "Caño Pintado",
           "long": 680,
@@ -248957,7 +249232,7 @@
           "literal": "BOI"
         },
         {
-          "item": 36,
+          "item": 25,
           "cod": "BOI-CNP-37",
           "prod": "Caño Pintado",
           "long": 3018,
@@ -248975,7 +249250,7 @@
           "literal": "BOI"
         },
         {
-          "item": 37,
+          "item": 26,
           "cod": "BOI-CNP-38",
           "prod": "Caño Pintado",
           "long": 2307,
@@ -248993,7 +249268,7 @@
           "literal": "BOI"
         },
         {
-          "item": 38,
+          "item": 27,
           "cod": "BOI-CNP-39",
           "prod": "Caño Pintado",
           "long": 2260,
@@ -249011,7 +249286,7 @@
           "literal": "BOI"
         },
         {
-          "item": 39,
+          "item": 28,
           "cod": "BOI-CNP-40",
           "prod": "Caño Pintado",
           "long": 2312,
@@ -249029,7 +249304,7 @@
           "literal": "BOI"
         },
         {
-          "item": 40,
+          "item": 29,
           "cod": "BOI-CNP-41",
           "prod": "Caño Pintado",
           "long": 2210,
@@ -249047,7 +249322,7 @@
           "literal": "BOI"
         },
         {
-          "item": 41,
+          "item": 30,
           "cod": "BOI-CNP-42",
           "prod": "Caño Pintado",
           "long": 3040,
@@ -249065,7 +249340,7 @@
           "literal": "BOI"
         },
         {
-          "item": 42,
+          "item": 31,
           "cod": "BOI-CNP-43",
           "prod": "Caño Pintado",
           "long": 3035,
@@ -249083,7 +249358,7 @@
           "literal": "BOI"
         },
         {
-          "item": 43,
+          "item": 32,
           "cod": "BOI-CNP-44",
           "prod": "Caño Pintado",
           "long": 3027,
@@ -249101,7 +249376,7 @@
           "literal": "BOI"
         },
         {
-          "item": 44,
+          "item": 33,
           "cod": "BOI-CNP-45",
           "prod": "Caño Pintado",
           "long": 2995,
@@ -249119,7 +249394,7 @@
           "literal": "BOI"
         },
         {
-          "item": 45,
+          "item": 34,
           "cod": "BOI-CNP-46",
           "prod": "Caño Pintado",
           "long": 3010,
@@ -249137,25 +249412,7 @@
           "literal": "BOI"
         },
         {
-          "item": 46,
-          "cod": "BOI-CNP-47",
-          "prod": "Caño Pintado",
-          "long": 3010,
-          "cant": 10,
-          "peso": 104.2,
-          "arm_lib": 10,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 10,
-          "pint_pend_peso": 104.2,
-          "env_ok": 0,
-          "env_pend": 10,
-          "env_pend_peso": 104.2,
-          "literal": "BOI"
-        },
-        {
-          "item": 47,
+          "item": 35,
           "cod": "BOI-CNP-48",
           "prod": "Caño Pintado",
           "long": 3041,
@@ -249173,43 +249430,7 @@
           "literal": "BOI"
         },
         {
-          "item": 48,
-          "cod": "BOI-CNP-49",
-          "prod": "Caño Pintado",
-          "long": 3044,
-          "cant": 1,
-          "peso": 11.26,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 11.26,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 11.26,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 11.26,
-          "literal": "BOI"
-        },
-        {
-          "item": 49,
-          "cod": "BOI-CNP-50",
-          "prod": "Caño Pintado",
-          "long": 2409,
-          "cant": 1,
-          "peso": 8.91,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 8.91,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 8.91,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 8.91,
-          "literal": "BOI"
-        },
-        {
-          "item": 50,
+          "item": 36,
           "cod": "BOI-CNP-51",
           "prod": "Caño Pintado",
           "long": 3067,
@@ -249227,7 +249448,7 @@
           "literal": "BOI"
         },
         {
-          "item": 51,
+          "item": 37,
           "cod": "BOI-CNP-52",
           "prod": "Caño Pintado",
           "long": 3548,
@@ -249245,7 +249466,7 @@
           "literal": "BOI"
         },
         {
-          "item": 52,
+          "item": 38,
           "cod": "BOI-CNP-53",
           "prod": "Caño Pintado",
           "long": 3586,
@@ -249263,7 +249484,7 @@
           "literal": "BOI"
         },
         {
-          "item": 53,
+          "item": 39,
           "cod": "BOI-CNP-54",
           "prod": "Caño Pintado",
           "long": 3595,
@@ -249281,7 +249502,7 @@
           "literal": "BOI"
         },
         {
-          "item": 54,
+          "item": 40,
           "cod": "BOI-CNP-55",
           "prod": "Caño Pintado",
           "long": 3635,
@@ -249299,25 +249520,7 @@
           "literal": "BOI"
         },
         {
-          "item": 55,
-          "cod": "BOI-CNP-56",
-          "prod": "Caño Pintado",
-          "long": 3818,
-          "cant": 4,
-          "peso": 42.08,
-          "arm_lib": 0,
-          "arm_pend": 4,
-          "arm_pend_peso": 42.08,
-          "pint_ok": 0,
-          "pint_pend": 4,
-          "pint_pend_peso": 42.08,
-          "env_ok": 0,
-          "env_pend": 4,
-          "env_pend_peso": 42.08,
-          "literal": "BOI"
-        },
-        {
-          "item": 56,
+          "item": 41,
           "cod": "BOI-CNP-57",
           "prod": "Caño Pintado",
           "long": 4989,
@@ -249335,61 +249538,7 @@
           "literal": "BOI"
         },
         {
-          "item": 57,
-          "cod": "BOI-CNP-58",
-          "prod": "Caño Pintado",
-          "long": 3765,
-          "cant": 4,
-          "peso": 41.48,
-          "arm_lib": 0,
-          "arm_pend": 4,
-          "arm_pend_peso": 41.48,
-          "pint_ok": 0,
-          "pint_pend": 4,
-          "pint_pend_peso": 41.48,
-          "env_ok": 0,
-          "env_pend": 4,
-          "env_pend_peso": 41.48,
-          "literal": "BOI"
-        },
-        {
-          "item": 58,
-          "cod": "BOI-CNP-59",
-          "prod": "Caño Pintado",
-          "long": 2659,
-          "cant": 2,
-          "peso": 14.66,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 14.66,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 14.66,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 14.66,
-          "literal": "BOI"
-        },
-        {
-          "item": 59,
-          "cod": "BOI-CNP-60",
-          "prod": "Caño Pintado",
-          "long": 2709,
-          "cant": 2,
-          "peso": 14.92,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 14.92,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 14.92,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 14.92,
-          "literal": "BOI"
-        },
-        {
-          "item": 60,
+          "item": 42,
           "cod": "BOI-CNP-61",
           "prod": "Caño Pintado",
           "long": 5891,
@@ -249407,7 +249556,7 @@
           "literal": "BOI"
         },
         {
-          "item": 61,
+          "item": 43,
           "cod": "BOI-CNP-62",
           "prod": "Caño Pintado",
           "long": 3918,
@@ -249425,7 +249574,7 @@
           "literal": "BOI"
         },
         {
-          "item": 62,
+          "item": 44,
           "cod": "BOI-CNP-63",
           "prod": "Caño Pintado",
           "long": 3964,
@@ -249443,7 +249592,7 @@
           "literal": "BOI"
         },
         {
-          "item": 63,
+          "item": 45,
           "cod": "BOI-CNP-64",
           "prod": "Caño Pintado",
           "long": 3049,
@@ -249461,7 +249610,7 @@
           "literal": "BOI"
         },
         {
-          "item": 64,
+          "item": 46,
           "cod": "BOI-CNP-65",
           "prod": "Caño Pintado",
           "long": 3053,
@@ -249479,7 +249628,7 @@
           "literal": "BOI"
         },
         {
-          "item": 65,
+          "item": 47,
           "cod": "BOI-CNP-66",
           "prod": "Caño Pintado",
           "long": 3088,
@@ -249497,7 +249646,7 @@
           "literal": "BOI"
         },
         {
-          "item": 66,
+          "item": 48,
           "cod": "BOI-CNP-67",
           "prod": "Caño Pintado",
           "long": 2983,
@@ -249515,7 +249664,7 @@
           "literal": "BOI"
         },
         {
-          "item": 67,
+          "item": 49,
           "cod": "BOI-CNP-68",
           "prod": "Caño Pintado",
           "long": 2082,
@@ -249533,7 +249682,7 @@
           "literal": "BOI"
         },
         {
-          "item": 68,
+          "item": 50,
           "cod": "BOI-CNP-69",
           "prod": "Caño Pintado",
           "long": 2399,
@@ -249551,7 +249700,7 @@
           "literal": "BOI"
         },
         {
-          "item": 69,
+          "item": 51,
           "cod": "BOI-CNP-70",
           "prod": "Caño Pintado",
           "long": 2192,
@@ -249569,7 +249718,7 @@
           "literal": "BOI"
         },
         {
-          "item": 70,
+          "item": 52,
           "cod": "BOI-CNP-71",
           "prod": "Caño Pintado",
           "long": 2217,
@@ -249587,43 +249736,7 @@
           "literal": "BOI"
         },
         {
-          "item": 71,
-          "cod": "BOI-CNP-72",
-          "prod": "Caño Pintado",
-          "long": 2335,
-          "cant": 10,
-          "peso": 64.3,
-          "arm_lib": 0,
-          "arm_pend": 10,
-          "arm_pend_peso": 64.3,
-          "pint_ok": 0,
-          "pint_pend": 10,
-          "pint_pend_peso": 64.3,
-          "env_ok": 0,
-          "env_pend": 10,
-          "env_pend_peso": 64.3,
-          "literal": "BOI"
-        },
-        {
-          "item": 72,
-          "cod": "BOI-CNP-73",
-          "prod": "Caño Pintado",
-          "long": 2346,
-          "cant": 1,
-          "peso": 8.12,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 8.12,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 8.12,
-          "literal": "BOI"
-        },
-        {
-          "item": 73,
+          "item": 53,
           "cod": "BOI-CNP-74",
           "prod": "Caño Pintado",
           "long": 2463,
@@ -249641,7 +249754,7 @@
           "literal": "BOI"
         },
         {
-          "item": 74,
+          "item": 54,
           "cod": "BOI-CNP-75",
           "prod": "Caño Pintado",
           "long": 2581,
@@ -249659,25 +249772,7 @@
           "literal": "BOI"
         },
         {
-          "item": 75,
-          "cod": "BOI-CNP-76",
-          "prod": "Caño Pintado",
-          "long": 3744,
-          "cant": 1,
-          "peso": 13.84,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 13.84,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 13.84,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 13.84,
-          "literal": "BOI"
-        },
-        {
-          "item": 76,
+          "item": 55,
           "cod": "BOI-CNP-77",
           "prod": "Caño Pintado",
           "long": 2436,
@@ -249695,7 +249790,7 @@
           "literal": "BOI"
         },
         {
-          "item": 77,
+          "item": 56,
           "cod": "BOI-CNP-78",
           "prod": "Caño Pintado",
           "long": 2404,
@@ -249713,151 +249808,7 @@
           "literal": "BOI"
         },
         {
-          "item": 78,
-          "cod": "BOI-CNP-79",
-          "prod": "Caño Pintado",
-          "long": 2304,
-          "cant": 5,
-          "peso": 31.75,
-          "arm_lib": 0,
-          "arm_pend": 5,
-          "arm_pend_peso": 31.75,
-          "pint_ok": 0,
-          "pint_pend": 5,
-          "pint_pend_peso": 31.75,
-          "env_ok": 0,
-          "env_pend": 5,
-          "env_pend_peso": 31.75,
-          "literal": "BOI"
-        },
-        {
-          "item": 79,
-          "cod": "BOI-CNP-80",
-          "prod": "Caño Pintado",
-          "long": 4518,
-          "cant": 1,
-          "peso": 16.7,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 16.7,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 16.7,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 16.7,
-          "literal": "BOI"
-        },
-        {
-          "item": 80,
-          "cod": "BOI-CNP-81",
-          "prod": "Caño Pintado",
-          "long": 1998,
-          "cant": 1,
-          "peso": 5.5,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 5.5,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 5.5,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 5.5,
-          "literal": "BOI"
-        },
-        {
-          "item": 81,
-          "cod": "BOI-CNP-82",
-          "prod": "Caño Pintado",
-          "long": 300,
-          "cant": 4,
-          "peso": 9.2,
-          "arm_lib": 4,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 4,
-          "pint_pend_peso": 9.2,
-          "env_ok": 0,
-          "env_pend": 4,
-          "env_pend_peso": 9.2,
-          "literal": "BOI"
-        },
-        {
-          "item": 82,
-          "cod": "BOI-CNP-83",
-          "prod": "Caño Pintado",
-          "long": 1559,
-          "cant": 1,
-          "peso": 11.93,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 11.93,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 11.93,
-          "literal": "BOI"
-        },
-        {
-          "item": 83,
-          "cod": "BOI-CNP-84",
-          "prod": "Caño Pintado",
-          "long": 1349,
-          "cant": 1,
-          "peso": 10.32,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 10.32,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 10.32,
-          "literal": "BOI"
-        },
-        {
-          "item": 84,
-          "cod": "BOI-CNP-85",
-          "prod": "Caño Pintado",
-          "long": 1149,
-          "cant": 1,
-          "peso": 8.79,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 8.79,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 8.79,
-          "literal": "BOI"
-        },
-        {
-          "item": 85,
-          "cod": "BOI-CNP-86",
-          "prod": "Caño Pintado",
-          "long": 909,
-          "cant": 1,
-          "peso": 6.96,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 6.96,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 6.96,
-          "literal": "BOI"
-        },
-        {
-          "item": 86,
+          "item": 57,
           "cod": "BOI-CNP-87",
           "prod": "Caño Pintado",
           "long": 2700,
@@ -249875,7 +249826,7 @@
           "literal": "BOI"
         },
         {
-          "item": 87,
+          "item": 58,
           "cod": "BOI-CNP-88",
           "prod": "Caño Pintado",
           "long": 2700,
@@ -249893,7 +249844,7 @@
           "literal": "BOI"
         },
         {
-          "item": 88,
+          "item": 59,
           "cod": "BOI-CNP-89",
           "prod": "Caño Pintado",
           "long": 4083,
@@ -249911,25 +249862,7 @@
           "literal": "BOI"
         },
         {
-          "item": 89,
-          "cod": "BOI-CNP-90",
-          "prod": "Caño Pintado",
-          "long": 5999,
-          "cant": 4,
-          "peso": 57.28,
-          "arm_lib": 4,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 4,
-          "pint_pend_peso": 57.28,
-          "env_ok": 0,
-          "env_pend": 4,
-          "env_pend_peso": 57.28,
-          "literal": "BOI"
-        },
-        {
-          "item": 90,
+          "item": 60,
           "cod": "BOI-CNP-91",
           "prod": "Caño Pintado",
           "long": 5900,
@@ -249947,25 +249880,7 @@
           "literal": "BOI"
         },
         {
-          "item": 91,
-          "cod": "BOI-CNP-92",
-          "prod": "Caño Pintado",
-          "long": 7315,
-          "cant": 1,
-          "peso": 55.99,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 55.99,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 55.99,
-          "literal": "BOI"
-        },
-        {
-          "item": 92,
+          "item": 61,
           "cod": "BOI-CNP-93",
           "prod": "Caño Pintado",
           "long": 4236,
@@ -249983,7 +249898,7 @@
           "literal": "BOI"
         },
         {
-          "item": 93,
+          "item": 62,
           "cod": "BOI-CNP-94",
           "prod": "Caño Pintado",
           "long": 652,
@@ -250001,79 +249916,7 @@
           "literal": "BOI"
         },
         {
-          "item": 94,
-          "cod": "BOI-CNP-95",
-          "prod": "Caño Pintado",
-          "long": 3290,
-          "cant": 1,
-          "peso": 12.16,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 12.16,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 12.16,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 12.16,
-          "literal": "BOI"
-        },
-        {
-          "item": 95,
-          "cod": "BOI-CNP-96",
-          "prod": "Caño Pintado",
-          "long": 3444,
-          "cant": 2,
-          "peso": 25.46,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 25.46,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 25.46,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 25.46,
-          "literal": "BOI"
-        },
-        {
-          "item": 96,
-          "cod": "BOI-CNP-97",
-          "prod": "Caño Pintado",
-          "long": 3294,
-          "cant": 13,
-          "peso": 158.34,
-          "arm_lib": 0,
-          "arm_pend": 13,
-          "arm_pend_peso": 158.34,
-          "pint_ok": 0,
-          "pint_pend": 13,
-          "pint_pend_peso": 158.34,
-          "env_ok": 0,
-          "env_pend": 13,
-          "env_pend_peso": 158.34,
-          "literal": "BOI"
-        },
-        {
-          "item": 97,
-          "cod": "BOI-CNP-98",
-          "prod": "Caño Pintado",
-          "long": 1901,
-          "cant": 2,
-          "peso": 23.4,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 23.4,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 23.4,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 23.4,
-          "literal": "BOI"
-        },
-        {
-          "item": 98,
+          "item": 63,
           "cod": "BOI-CNP-99",
           "prod": "Caño Pintado",
           "long": 496,
@@ -250091,421 +249934,7 @@
           "literal": "BOI"
         },
         {
-          "item": 99,
-          "cod": "BOI-CNP-100",
-          "prod": "Caño Pintado",
-          "long": 7432,
-          "cant": 1,
-          "peso": 45.74,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 45.74,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 45.74,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 45.74,
-          "literal": "BOI"
-        },
-        {
-          "item": 100,
-          "cod": "BOI-CNP-101",
-          "prod": "Caño Pintado",
-          "long": 1640,
-          "cant": 2,
-          "peso": 7.82,
-          "arm_lib": 2,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 7.82,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 7.82,
-          "literal": "BOI"
-        },
-        {
-          "item": 101,
-          "cod": "BOI-CNP-200",
-          "prod": "Caño Pintado",
-          "long": 2186,
-          "cant": 6,
-          "peso": 36.12,
-          "arm_lib": 0,
-          "arm_pend": 6,
-          "arm_pend_peso": 36.12,
-          "pint_ok": 0,
-          "pint_pend": 6,
-          "pint_pend_peso": 36.12,
-          "env_ok": 0,
-          "env_pend": 6,
-          "env_pend_peso": 36.12,
-          "literal": "BOI"
-        },
-        {
-          "item": 102,
-          "cod": "BOI-CNP-201",
-          "prod": "Caño Pintado",
-          "long": 2308,
-          "cant": 6,
-          "peso": 38.16,
-          "arm_lib": 0,
-          "arm_pend": 6,
-          "arm_pend_peso": 38.16,
-          "pint_ok": 0,
-          "pint_pend": 6,
-          "pint_pend_peso": 38.16,
-          "env_ok": 0,
-          "env_pend": 6,
-          "env_pend_peso": 38.16,
-          "literal": "BOI"
-        },
-        {
-          "item": 103,
-          "cod": "BOI-CNP-202",
-          "prod": "Caño Pintado",
-          "long": 2900,
-          "cant": 24,
-          "peso": 191.76,
-          "arm_lib": 3,
-          "arm_pend": 21,
-          "arm_pend_peso": 167.79,
-          "pint_ok": 0,
-          "pint_pend": 24,
-          "pint_pend_peso": 191.76,
-          "env_ok": 0,
-          "env_pend": 24,
-          "env_pend_peso": 191.76,
-          "literal": "BOI"
-        },
-        {
-          "item": 104,
-          "cod": "BOI-CNP-203",
-          "prod": "Caño Pintado",
-          "long": 2765,
-          "cant": 3,
-          "peso": 22.86,
-          "arm_lib": 0,
-          "arm_pend": 3,
-          "arm_pend_peso": 22.86,
-          "pint_ok": 0,
-          "pint_pend": 3,
-          "pint_pend_peso": 22.86,
-          "env_ok": 0,
-          "env_pend": 3,
-          "env_pend_peso": 22.86,
-          "literal": "BOI"
-        },
-        {
-          "item": 105,
-          "cod": "BOI-CNP-204",
-          "prod": "Caño Pintado",
-          "long": 1948,
-          "cant": 3,
-          "peso": 16.11,
-          "arm_lib": 0,
-          "arm_pend": 3,
-          "arm_pend_peso": 16.11,
-          "pint_ok": 0,
-          "pint_pend": 3,
-          "pint_pend_peso": 16.11,
-          "env_ok": 0,
-          "env_pend": 3,
-          "env_pend_peso": 16.11,
-          "literal": "BOI"
-        },
-        {
-          "item": 106,
-          "cod": "BOI-CNP-205",
-          "prod": "Caño Pintado",
-          "long": 2852,
-          "cant": 15,
-          "peso": 117.9,
-          "arm_lib": 15,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 15,
-          "pint_pend_peso": 117.9,
-          "env_ok": 0,
-          "env_pend": 15,
-          "env_pend_peso": 117.9,
-          "literal": "BOI"
-        },
-        {
-          "item": 107,
-          "cod": "BOI-CNP-206",
-          "prod": "Caño Pintado",
-          "long": 2996,
-          "cant": 12,
-          "peso": 99,
-          "arm_lib": 12,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 12,
-          "pint_pend_peso": 99,
-          "env_ok": 0,
-          "env_pend": 12,
-          "env_pend_peso": 99,
-          "literal": "BOI"
-        },
-        {
-          "item": 108,
-          "cod": "BOI-CNP-207",
-          "prod": "Caño Pintado",
-          "long": 1922,
-          "cant": 3,
-          "peso": 15.9,
-          "arm_lib": 0,
-          "arm_pend": 3,
-          "arm_pend_peso": 15.9,
-          "pint_ok": 0,
-          "pint_pend": 3,
-          "pint_pend_peso": 15.9,
-          "env_ok": 0,
-          "env_pend": 3,
-          "env_pend_peso": 15.9,
-          "literal": "BOI"
-        },
-        {
-          "item": 109,
-          "cod": "BOI-CNP-208",
-          "prod": "Caño Pintado",
-          "long": 2748,
-          "cant": 3,
-          "peso": 22.71,
-          "arm_lib": 3,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 3,
-          "pint_pend_peso": 22.71,
-          "env_ok": 0,
-          "env_pend": 3,
-          "env_pend_peso": 22.71,
-          "literal": "BOI"
-        },
-        {
-          "item": 110,
-          "cod": "BOI-CNP-209",
-          "prod": "Caño Pintado",
-          "long": 1855,
-          "cant": 3,
-          "peso": 15.33,
-          "arm_lib": 0,
-          "arm_pend": 3,
-          "arm_pend_peso": 15.33,
-          "pint_ok": 0,
-          "pint_pend": 3,
-          "pint_pend_peso": 15.33,
-          "env_ok": 0,
-          "env_pend": 3,
-          "env_pend_peso": 15.33,
-          "literal": "BOI"
-        },
-        {
-          "item": 111,
-          "cod": "BOI-CNP-210",
-          "prod": "Caño Pintado",
-          "long": 2285,
-          "cant": 3,
-          "peso": 18.9,
-          "arm_lib": 3,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 3,
-          "pint_pend_peso": 18.9,
-          "env_ok": 0,
-          "env_pend": 3,
-          "env_pend_peso": 18.9,
-          "literal": "BOI"
-        },
-        {
-          "item": 112,
-          "cod": "BOI-CNP-211",
-          "prod": "Caño Pintado",
-          "long": 2027,
-          "cant": 3,
-          "peso": 16.77,
-          "arm_lib": 0,
-          "arm_pend": 3,
-          "arm_pend_peso": 16.77,
-          "pint_ok": 0,
-          "pint_pend": 3,
-          "pint_pend_peso": 16.77,
-          "env_ok": 0,
-          "env_pend": 3,
-          "env_pend_peso": 16.77,
-          "literal": "BOI"
-        },
-        {
-          "item": 113,
-          "cod": "BOI-CNP-212",
-          "prod": "Caño Pintado",
-          "long": 4246,
-          "cant": 3,
-          "peso": 35.1,
-          "arm_lib": 3,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 3,
-          "pint_pend_peso": 35.1,
-          "env_ok": 0,
-          "env_pend": 3,
-          "env_pend_peso": 35.1,
-          "literal": "BOI"
-        },
-        {
-          "item": 114,
-          "cod": "BOI-CNP-216",
-          "prod": "Caño Pintado",
-          "long": 238,
-          "cant": 1,
-          "peso": 1.09,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 1.09,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 1.09,
-          "literal": "BOI"
-        },
-        {
-          "item": 115,
-          "cod": "BOI-LLP-1",
-          "prod": "Angulo Pintado",
-          "long": 200,
-          "cant": 110,
-          "peso": 121,
-          "arm_lib": 110,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 110,
-          "pint_pend_peso": 121,
-          "env_ok": 0,
-          "env_pend": 110,
-          "env_pend_peso": 121,
-          "literal": "BOI"
-        },
-        {
-          "item": 116,
-          "cod": "BOI-LLP-2",
-          "prod": "Angulo Pintado",
-          "long": 200,
-          "cant": 109,
-          "peso": 119.9,
-          "arm_lib": 109,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 109,
-          "pint_pend_peso": 119.9,
-          "env_ok": 0,
-          "env_pend": 109,
-          "env_pend_peso": 119.9,
-          "literal": "BOI"
-        },
-        {
-          "item": 117,
-          "cod": "BOI-LLP-200",
-          "prod": "Angulo Pintado",
-          "long": 200,
-          "cant": 2,
-          "peso": 2.2,
-          "arm_lib": 2,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 2.2,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 2.2,
-          "literal": "BOI"
-        },
-        {
-          "item": 118,
-          "cod": "BOI-LLP-201",
-          "prod": "Angulo Pintado",
-          "long": 200,
-          "cant": 66,
-          "peso": 72.6,
-          "arm_lib": 66,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 66,
-          "pint_pend_peso": 72.6,
-          "env_ok": 0,
-          "env_pend": 66,
-          "env_pend_peso": 72.6,
-          "literal": "BOI"
-        },
-        {
-          "item": 119,
-          "cod": "BOI-LLP-202",
-          "prod": "Angulo Pintado",
-          "long": 200,
-          "cant": 64,
-          "peso": 70.4,
-          "arm_lib": 64,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 64,
-          "pint_pend_peso": 70.4,
-          "env_ok": 0,
-          "env_pend": 64,
-          "env_pend_peso": 70.4,
-          "literal": "BOI"
-        },
-        {
-          "item": 120,
-          "cod": "BOI-PTC-1",
-          "prod": "Pilar Tubo Caño",
-          "long": 9684,
-          "cant": 2,
-          "peso": 148.8,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 148.8,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 148.8,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 148.8,
-          "literal": "BOI"
-        },
-        {
-          "item": 121,
-          "cod": "BOI-PTC-2",
-          "prod": "Pilar Tubo Caño",
-          "long": 9684,
-          "cant": 1,
-          "peso": 74.4,
-          "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 74.4,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 74.4,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 74.4,
-          "literal": "BOI"
-        },
-        {
-          "item": 122,
+          "item": 64,
           "cod": "BOI-PTC-3",
           "prod": "Pilar Tubo Caño",
           "long": 5132,
@@ -250523,43 +249952,7 @@
           "literal": "BOI"
         },
         {
-          "item": 123,
-          "cod": "BOI-PTC-4",
-          "prod": "Pilar Tubo Caño",
-          "long": 9683,
-          "cant": 2,
-          "peso": 148.5,
-          "arm_lib": 0,
-          "arm_pend": 2,
-          "arm_pend_peso": 148.5,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 148.5,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 148.5,
-          "literal": "BOI"
-        },
-        {
-          "item": 124,
-          "cod": "BOI-PTC-5",
-          "prod": "Pilar Tubo Caño",
-          "long": 4283,
-          "cant": 2,
-          "peso": 65.84,
-          "arm_lib": 2,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 65.84,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 65.84,
-          "literal": "BOI"
-        },
-        {
-          "item": 125,
+          "item": 65,
           "cod": "BOI-PTC-6",
           "prod": "Pilar Tubo Caño",
           "long": 4283,
@@ -250577,61 +249970,7 @@
           "literal": "BOI"
         },
         {
-          "item": 126,
-          "cod": "BOI-PTC-7",
-          "prod": "Pilar Tubo Caño",
-          "long": 2282,
-          "cant": 11,
-          "peso": 193.71,
-          "arm_lib": 5.5,
-          "arm_pend": 5.5,
-          "arm_pend_peso": 96.855,
-          "pint_ok": 0,
-          "pint_pend": 11,
-          "pint_pend_peso": 193.71,
-          "env_ok": 0,
-          "env_pend": 11,
-          "env_pend_peso": 193.71,
-          "literal": "BOI"
-        },
-        {
-          "item": 127,
-          "cod": "BOI-PTC-8",
-          "prod": "Pilar Tubo Caño",
-          "long": 1768,
-          "cant": 1,
-          "peso": 13.67,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 13.67,
-          "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 13.67,
-          "literal": "BOI"
-        },
-        {
-          "item": 128,
-          "cod": "BOI-PTC-9",
-          "prod": "Pilar Tubo Caño",
-          "long": 2133,
-          "cant": 5,
-          "peso": 49.25,
-          "arm_lib": 2.5,
-          "arm_pend": 2.5,
-          "arm_pend_peso": 24.625,
-          "pint_ok": 0,
-          "pint_pend": 5,
-          "pint_pend_peso": 49.25,
-          "env_ok": 0,
-          "env_pend": 5,
-          "env_pend_peso": 49.25,
-          "literal": "BOI"
-        },
-        {
-          "item": 129,
+          "item": 66,
           "cod": "BOI-PTC-10",
           "prod": "Pilar Tubo Caño",
           "long": 654,
@@ -250649,25 +249988,7 @@
           "literal": "BOI"
         },
         {
-          "item": 130,
-          "cod": "BOI-PTC-12",
-          "prod": "Pilar Tubo Caño",
-          "long": 4195,
-          "cant": 2,
-          "peso": 64.5,
-          "arm_lib": 2,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
-          "pint_ok": 0,
-          "pint_pend": 2,
-          "pint_pend_peso": 64.5,
-          "env_ok": 0,
-          "env_pend": 2,
-          "env_pend_peso": 64.5,
-          "literal": "BOI"
-        },
-        {
-          "item": 131,
+          "item": 67,
           "cod": "BOI-PTC-13",
           "prod": "Pilar Tubo Caño",
           "long": 1038,
@@ -250685,7 +250006,7 @@
           "literal": "BOI"
         },
         {
-          "item": 132,
+          "item": 68,
           "cod": "BOI-PTC-14",
           "prod": "Pilar Tubo Caño",
           "long": 1277,
@@ -250703,7 +250024,7 @@
           "literal": "BOI"
         },
         {
-          "item": 133,
+          "item": 69,
           "cod": "BOI-PTC-15",
           "prod": "Pilar Tubo Caño",
           "long": 1579,
@@ -250721,7 +250042,7 @@
           "literal": "BOI"
         },
         {
-          "item": 134,
+          "item": 70,
           "cod": "BOI-PTC-16",
           "prod": "Pilar Tubo Caño",
           "long": 1836,
@@ -250739,7 +250060,7 @@
           "literal": "BOI"
         },
         {
-          "item": 135,
+          "item": 71,
           "cod": "BOI-PTC-17",
           "prod": "Pilar Tubo Caño",
           "long": 2068,
@@ -250757,7 +250078,7 @@
           "literal": "BOI"
         },
         {
-          "item": 136,
+          "item": 72,
           "cod": "BOI-PTC-18",
           "prod": "Pilar Tubo Caño",
           "long": 1842,
@@ -250775,7 +250096,7 @@
           "literal": "BOI"
         },
         {
-          "item": 137,
+          "item": 73,
           "cod": "BOI-PTC-19",
           "prod": "Pilar Tubo Caño",
           "long": 1533,
@@ -250793,7 +250114,7 @@
           "literal": "BOI"
         },
         {
-          "item": 138,
+          "item": 74,
           "cod": "BOI-PTC-20",
           "prod": "Pilar Tubo Caño",
           "long": 1238,
@@ -250811,7 +250132,7 @@
           "literal": "BOI"
         },
         {
-          "item": 139,
+          "item": 75,
           "cod": "BOI-PTC-21",
           "prod": "Pilar Tubo Caño",
           "long": 888,
@@ -250829,7 +250150,7 @@
           "literal": "BOI"
         },
         {
-          "item": 140,
+          "item": 76,
           "cod": "BOI-PTC-22",
           "prod": "Pilar Tubo Caño",
           "long": 5083,
@@ -250847,130 +250168,1822 @@
           "literal": "BOI"
         },
         {
-          "item": 141,
-          "cod": "BOI-PTC-23",
-          "prod": "Pilar Tubo Caño",
-          "long": 9684,
-          "cant": 48,
-          "peso": 3571.68,
+          "item": 77,
+          "cod": "BOI-CNP-102",
+          "prod": "Caño Pintado",
+          "long": 1515,
+          "cant": 1,
+          "peso": 4.17,
           "arm_lib": 0,
-          "arm_pend": 48,
-          "arm_pend_peso": 3571.68,
+          "arm_pend": 1,
+          "arm_pend_peso": 4.17,
           "pint_ok": 0,
-          "pint_pend": 48,
-          "pint_pend_peso": 3571.68,
+          "pint_pend": 1,
+          "pint_pend_peso": 4.17,
           "env_ok": 0,
-          "env_pend": 48,
-          "env_pend_peso": 3571.68,
+          "env_pend": 1,
+          "env_pend_peso": 4.17,
           "literal": "BOI"
+        },
+        {
+          "item": 78,
+          "cod": "BOI-CNP-103",
+          "prod": "Caño Pintado",
+          "long": 3538,
+          "cant": 3,
+          "peso": 36.75,
+          "arm_lib": 0,
+          "arm_pend": 3,
+          "arm_pend_peso": 36.75,
+          "pint_ok": 0,
+          "pint_pend": 3,
+          "pint_pend_peso": 36.75,
+          "env_ok": 0,
+          "env_pend": 3,
+          "env_pend_peso": 36.75,
+          "literal": "BOI"
+        },
+        {
+          "item": 79,
+          "cod": "BOI-CNP-104",
+          "prod": "Caño Pintado",
+          "long": 3584,
+          "cant": 1,
+          "peso": 12.41,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 12.41,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 12.41,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 12.41,
+          "literal": "BOI"
+        },
+        {
+          "item": 80,
+          "cod": "BOI-CNP-105",
+          "prod": "Caño Pintado",
+          "long": 3765,
+          "cant": 1,
+          "peso": 10.37,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 10.37,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 10.37,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 10.37,
+          "literal": "BOI"
+        },
+        {
+          "item": 81,
+          "cod": "BOI-CNP-106",
+          "prod": "Caño Pintado",
+          "long": 4254,
+          "cant": 1,
+          "peso": 11.72,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 11.72,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 11.72,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 11.72,
+          "literal": "BOI"
+        },
+        {
+          "item": 82,
+          "cod": "BOI-CNP-107",
+          "prod": "Caño Pintado",
+          "long": 2960,
+          "cant": 1,
+          "peso": 10.25,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 10.25,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 10.25,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 10.25,
+          "literal": "BOI"
+        },
+        {
+          "item": 83,
+          "cod": "BOI-CNP-108",
+          "prod": "Caño Pintado",
+          "long": 997,
+          "cant": 1,
+          "peso": 6.14,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 6.14,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 6.14,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 6.14,
+          "literal": "BOI"
+        },
+        {
+          "item": 84,
+          "cod": "BOI-CNP-109",
+          "prod": "Caño Pintado",
+          "long": 2415,
+          "cant": 2,
+          "peso": 13.3,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 13.3,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 13.3,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 13.3,
+          "literal": "BOI"
+        },
+        {
+          "item": 85,
+          "cod": "BOI-CNP-110",
+          "prod": "Caño Pintado",
+          "long": 2357,
+          "cant": 1,
+          "peso": 6.49,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 6.49,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 6.49,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 6.49,
+          "literal": "BOI"
+        },
+        {
+          "item": 86,
+          "cod": "BOI-CNP-111",
+          "prod": "Caño Pintado",
+          "long": 2554,
+          "cant": 1,
+          "peso": 7.04,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 7.04,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 7.04,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 7.04,
+          "literal": "BOI"
+        },
+        {
+          "item": 87,
+          "cod": "BOI-CNP-112",
+          "prod": "Caño Pintado",
+          "long": 2486,
+          "cant": 2,
+          "peso": 13.7,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 13.7,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 13.7,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 13.7,
+          "literal": "BOI"
+        },
+        {
+          "item": 88,
+          "cod": "BOI-CNP-113",
+          "prod": "Caño Pintado",
+          "long": 2440,
+          "cant": 1,
+          "peso": 6.72,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 6.72,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 6.72,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 6.72,
+          "literal": "BOI"
+        },
+        {
+          "item": 89,
+          "cod": "BOI-CNP-114",
+          "prod": "Caño Pintado",
+          "long": 2362,
+          "cant": 1,
+          "peso": 6.51,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 6.51,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 6.51,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 6.51,
+          "literal": "BOI"
+        },
+        {
+          "item": 90,
+          "cod": "BOI-CNP-115",
+          "prod": "Caño Pintado",
+          "long": 2304,
+          "cant": 1,
+          "peso": 6.35,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 6.35,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 6.35,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 6.35,
+          "literal": "BOI"
+        },
+        {
+          "item": 91,
+          "cod": "BOI-CNP-116",
+          "prod": "Caño Pintado",
+          "long": 2700,
+          "cant": 4,
+          "peso": 82.68,
+          "arm_lib": 0,
+          "arm_pend": 4,
+          "arm_pend_peso": 82.68,
+          "pint_ok": 0,
+          "pint_pend": 4,
+          "pint_pend_peso": 82.68,
+          "env_ok": 0,
+          "env_pend": 4,
+          "env_pend_peso": 82.68,
+          "literal": "BOI"
+        },
+        {
+          "item": 92,
+          "cod": "BOI-CNP-117",
+          "prod": "Caño Pintado",
+          "long": 3300,
+          "cant": 3,
+          "peso": 75.78,
+          "arm_lib": 0,
+          "arm_pend": 3,
+          "arm_pend_peso": 75.78,
+          "pint_ok": 0,
+          "pint_pend": 3,
+          "pint_pend_peso": 75.78,
+          "env_ok": 0,
+          "env_pend": 3,
+          "env_pend_peso": 75.78,
+          "literal": "BOI"
+        },
+        {
+          "item": 93,
+          "cod": "BOI-CNP-118",
+          "prod": "Caño Pintado",
+          "long": 2700,
+          "cant": 4,
+          "peso": 82.68,
+          "arm_lib": 0,
+          "arm_pend": 4,
+          "arm_pend_peso": 82.68,
+          "pint_ok": 0,
+          "pint_pend": 4,
+          "pint_pend_peso": 82.68,
+          "env_ok": 0,
+          "env_pend": 4,
+          "env_pend_peso": 82.68,
+          "literal": "BOI"
+        },
+        {
+          "item": 94,
+          "cod": "BOI-CNP-119",
+          "prod": "Caño Pintado",
+          "long": 1182,
+          "cant": 1,
+          "peso": 9.04,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 9.04,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 9.04,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 9.04,
+          "literal": "BOI"
+        },
+        {
+          "item": 95,
+          "cod": "BOI-CNP-120",
+          "prod": "Caño Pintado",
+          "long": 1042,
+          "cant": 1,
+          "peso": 7.97,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 7.97,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 7.97,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 7.97,
+          "literal": "BOI"
+        },
+        {
+          "item": 96,
+          "cod": "BOI-CNP-121",
+          "prod": "Caño Pintado",
+          "long": 842,
+          "cant": 1,
+          "peso": 6.44,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 6.44,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 6.44,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 6.44,
+          "literal": "BOI"
+        },
+        {
+          "item": 97,
+          "cod": "BOI-CNP-122",
+          "prod": "Caño Pintado",
+          "long": 632,
+          "cant": 1,
+          "peso": 4.83,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 4.83,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 4.83,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 4.83,
+          "literal": "BOI"
+        },
+        {
+          "item": 98,
+          "cod": "BOI-CNP-123",
+          "prod": "Caño Pintado",
+          "long": 421,
+          "cant": 1,
+          "peso": 3.22,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 3.22,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 3.22,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 3.22,
+          "literal": "BOI"
+        },
+        {
+          "item": 99,
+          "cod": "BOI-CNP-124",
+          "prod": "Caño Pintado",
+          "long": 6756,
+          "cant": 1,
+          "peso": 51.71,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 51.71,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 51.71,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 51.71,
+          "literal": "BOI"
+        },
+        {
+          "item": 100,
+          "cod": "BOI-CNP-125",
+          "prod": "Caño Pintado",
+          "long": 3590,
+          "cant": 1,
+          "peso": 27.48,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 27.48,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 27.48,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 27.48,
+          "literal": "BOI"
+        },
+        {
+          "item": 101,
+          "cod": "BOI-CNP-126",
+          "prod": "Caño Pintado",
+          "long": 5286,
+          "cant": 1,
+          "peso": 40.46,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 40.46,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 40.46,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 40.46,
+          "literal": "BOI"
+        },
+        {
+          "item": 102,
+          "cod": "BOI-CNP-127",
+          "prod": "Caño Pintado",
+          "long": 4902,
+          "cant": 1,
+          "peso": 44.79,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 44.79,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 44.79,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 44.79,
+          "literal": "BOI"
+        },
+        {
+          "item": 103,
+          "cod": "BOI-LLP-4",
+          "prod": "Angulo Pintado",
+          "long": 264,
+          "cant": 3,
+          "peso": 3.6,
+          "arm_lib": 3,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 3,
+          "pint_pend_peso": 3.6,
+          "env_ok": 0,
+          "env_pend": 3,
+          "env_pend_peso": 3.6,
+          "literal": "BOI"
+        },
+        {
+          "item": 104,
+          "cod": "BOI-LLP-5",
+          "prod": "Angulo Pintado",
+          "long": 284,
+          "cant": 15,
+          "peso": 19.5,
+          "arm_lib": 15,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 15,
+          "pint_pend_peso": 19.5,
+          "env_ok": 0,
+          "env_pend": 15,
+          "env_pend_peso": 19.5,
+          "literal": "BOI"
+        },
+        {
+          "item": 105,
+          "cod": "BOI-LLP-6",
+          "prod": "Angulo Pintado",
+          "long": 284,
+          "cant": 15,
+          "peso": 19.5,
+          "arm_lib": 15,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 15,
+          "pint_pend_peso": 19.5,
+          "env_ok": 0,
+          "env_pend": 15,
+          "env_pend_peso": 19.5,
+          "literal": "BOI"
+        },
+        {
+          "item": 106,
+          "cod": "BOI-LLP-7",
+          "prod": "Angulo Pintado",
+          "long": 264,
+          "cant": 2,
+          "peso": 2.4,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 2.4,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 2.4,
+          "literal": "BOI"
+        },
+        {
+          "item": 107,
+          "cod": "BOI-LLP-8",
+          "prod": "Angulo Pintado",
+          "long": 260,
+          "cant": 5,
+          "peso": 5.95,
+          "arm_lib": 5,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 5,
+          "pint_pend_peso": 5.95,
+          "env_ok": 0,
+          "env_pend": 5,
+          "env_pend_peso": 5.95,
+          "literal": "BOI"
+        },
+        {
+          "item": 108,
+          "cod": "BOI-LLP-9",
+          "prod": "Angulo Pintado",
+          "long": 260,
+          "cant": 5,
+          "peso": 5.95,
+          "arm_lib": 5,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 5,
+          "pint_pend_peso": 5.95,
+          "env_ok": 0,
+          "env_pend": 5,
+          "env_pend_peso": 5.95,
+          "literal": "BOI"
+        },
+        {
+          "item": 109,
+          "cod": "BOI-LLP-10",
+          "prod": "Angulo Pintado",
+          "long": 256,
+          "cant": 2,
+          "peso": 2.34,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 2.34,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 2.34,
+          "literal": "BOI"
+        },
+        {
+          "item": 110,
+          "cod": "BOI-LLP-11",
+          "prod": "Angulo Pintado",
+          "long": 256,
+          "cant": 2,
+          "peso": 2.34,
+          "arm_lib": 2,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 2.34,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 2.34,
+          "literal": "BOI"
+        },
+        {
+          "item": 111,
+          "cod": "BOI-LLP-12",
+          "prod": "Angulo Pintado",
+          "long": 251,
+          "cant": 14,
+          "peso": 16.1,
+          "arm_lib": 14,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 14,
+          "pint_pend_peso": 16.1,
+          "env_ok": 0,
+          "env_pend": 14,
+          "env_pend_peso": 16.1,
+          "literal": "BOI"
+        },
+        {
+          "item": 112,
+          "cod": "BOI-LLP-13",
+          "prod": "Angulo Pintado",
+          "long": 249,
+          "cant": 12,
+          "peso": 13.68,
+          "arm_lib": 12,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 12,
+          "pint_pend_peso": 13.68,
+          "env_ok": 0,
+          "env_pend": 12,
+          "env_pend_peso": 13.68,
+          "literal": "BOI"
+        },
+        {
+          "item": 113,
+          "cod": "BOI-LLP-14",
+          "prod": "Angulo Pintado",
+          "long": 100,
+          "cant": 3,
+          "peso": 1.65,
+          "arm_lib": 3,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 3,
+          "pint_pend_peso": 1.65,
+          "env_ok": 0,
+          "env_pend": 3,
+          "env_pend_peso": 1.65,
+          "literal": "BOI"
+        },
+        {
+          "item": 114,
+          "cod": "BOI-LLP-15",
+          "prod": "Angulo Pintado",
+          "long": 100,
+          "cant": 3,
+          "peso": 1.65,
+          "arm_lib": 3,
+          "arm_pend": 0,
+          "arm_pend_peso": 0,
+          "pint_ok": 0,
+          "pint_pend": 3,
+          "pint_pend_peso": 1.65,
+          "env_ok": 0,
+          "env_pend": 3,
+          "env_pend_peso": 1.65,
+          "literal": "BOI"
+        },
+        {
+          "item": 115,
+          "cod": "BOI-PTC-11",
+          "prod": "Pilar Tubo Caño",
+          "long": 9737,
+          "cant": 4,
+          "peso": 428.92,
+          "arm_lib": 0,
+          "arm_pend": 4,
+          "arm_pend_peso": 428.92,
+          "pint_ok": 0,
+          "pint_pend": 4,
+          "pint_pend_peso": 428.92,
+          "env_ok": 0,
+          "env_pend": 4,
+          "env_pend_peso": 428.92,
+          "literal": "BOI"
+        },
+        {
+          "item": 116,
+          "cod": "BOI-PTC-27",
+          "prod": "Pilar Tubo Caño",
+          "long": 6589,
+          "cant": 1,
+          "peso": 60.34,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 60.34,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 60.34,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 60.34,
+          "literal": "BOI"
+        },
+        {
+          "item": 117,
+          "cod": "BOI-PTC-28",
+          "prod": "Pilar Tubo Caño",
+          "long": 9716,
+          "cant": 2,
+          "peso": 149.02,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 149.02,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 149.02,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 149.02,
+          "literal": "BOI"
+        },
+        {
+          "item": 118,
+          "cod": "BOI-PTC-30",
+          "prod": "Pilar Tubo Caño",
+          "long": 9732,
+          "cant": 51,
+          "peso": 4548.69,
+          "arm_lib": 0,
+          "arm_pend": 51,
+          "arm_pend_peso": 4548.69,
+          "pint_ok": 0,
+          "pint_pend": 51,
+          "pint_pend_peso": 4548.69,
+          "env_ok": 0,
+          "env_pend": 51,
+          "env_pend_peso": 4548.69,
+          "literal": "BOI"
+        },
+        {
+          "item": 119,
+          "cod": "BOI-PTC-37",
+          "prod": "Pilar Tubo Caño",
+          "long": 852,
+          "cant": 2,
+          "peso": 13.32,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 13.32,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 13.32,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 13.32,
+          "literal": "BOI"
+        },
+        {
+          "item": 120,
+          "cod": "BOI-PTC-38",
+          "prod": "Pilar Tubo Caño",
+          "long": 1032,
+          "cant": 2,
+          "peso": 16.08,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 16.08,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 16.08,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 16.08,
+          "literal": "BOI"
+        },
+        {
+          "item": 121,
+          "cod": "BOI-PTC-39",
+          "prod": "Pilar Tubo Caño",
+          "long": 1252,
+          "cant": 2,
+          "peso": 19.44,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 19.44,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 19.44,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 19.44,
+          "literal": "BOI"
+        },
+        {
+          "item": 122,
+          "cod": "BOI-PTC-40",
+          "prod": "Pilar Tubo Caño",
+          "long": 1552,
+          "cant": 2,
+          "peso": 24.04,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 24.04,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 24.04,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 24.04,
+          "literal": "BOI"
+        },
+        {
+          "item": 123,
+          "cod": "BOI-PTC-41",
+          "prod": "Pilar Tubo Caño",
+          "long": 9732,
+          "cant": 1,
+          "peso": 89.19,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 89.19,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 89.19,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 89.19,
+          "literal": "BOI"
+        },
+        {
+          "item": 124,
+          "cod": "BOI-PTC-42",
+          "prod": "Pilar Tubo Caño",
+          "long": 2282,
+          "cant": 1,
+          "peso": 17.61,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 17.61,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 17.61,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 17.61,
+          "literal": "BOI"
+        },
+        {
+          "item": 125,
+          "cod": "BOI-PTC-44",
+          "prod": "Pilar Tubo Caño",
+          "long": 2835,
+          "cant": 1,
+          "peso": 10.57,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 10.57,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 10.57,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 10.57,
+          "literal": "BOI"
+        },
+        {
+          "item": 126,
+          "cod": "BOI-PTC-45",
+          "prod": "Pilar Tubo Caño",
+          "long": 3413,
+          "cant": 1,
+          "peso": 12.73,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 12.73,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 12.73,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 12.73,
+          "literal": "BOI"
+        },
+        {
+          "item": 127,
+          "cod": "BOI-PTC-46",
+          "prod": "Pilar Tubo Caño",
+          "long": 2835,
+          "cant": 3,
+          "peso": 31.71,
+          "arm_lib": 0,
+          "arm_pend": 3,
+          "arm_pend_peso": 31.71,
+          "pint_ok": 0,
+          "pint_pend": 3,
+          "pint_pend_peso": 31.71,
+          "env_ok": 0,
+          "env_pend": 3,
+          "env_pend_peso": 31.71,
+          "literal": "BOI"
+        },
+        {
+          "item": 128,
+          "cod": "BOI-PTC-47",
+          "prod": "Pilar Tubo Caño",
+          "long": 3413,
+          "cant": 3,
+          "peso": 38.19,
+          "arm_lib": 0,
+          "arm_pend": 3,
+          "arm_pend_peso": 38.19,
+          "pint_ok": 0,
+          "pint_pend": 3,
+          "pint_pend_peso": 38.19,
+          "env_ok": 0,
+          "env_pend": 3,
+          "env_pend_peso": 38.19,
+          "literal": "BOI"
+        },
+        {
+          "item": 129,
+          "cod": "BOI-SP-3",
+          "prod": "SOPORTE",
+          "long": 90,
+          "cant": 8,
+          "peso": 2.8,
+          "arm_lib": 0,
+          "arm_pend": 8,
+          "arm_pend_peso": 2.8,
+          "pint_ok": 0,
+          "pint_pend": 8,
+          "pint_pend_peso": 2.8,
+          "env_ok": 0,
+          "env_pend": 8,
+          "env_pend_peso": 2.8,
+          "literal": "BOI"
+        },
+        {
+          "item": 130,
+          "cod": ".R.BOI-CNP-1",
+          "prod": "Caño Pintado",
+          "long": 2189,
+          "cant": 1,
+          "peso": 6.03,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 6.03,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 6.03,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 6.03,
+          "literal": ".R.BOI"
+        },
+        {
+          "item": 131,
+          "cod": ".R.BOI-CNP-7",
+          "prod": "Caño Pintado",
+          "long": 1226,
+          "cant": 1,
+          "peso": 3.38,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 3.38,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 3.38,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 3.38,
+          "literal": ".R.BOI"
+        },
+        {
+          "item": 132,
+          "cod": ".R.BOI-CNP-8",
+          "prod": "Caño Pintado",
+          "long": 2900,
+          "cant": 66,
+          "peso": 527.34,
+          "arm_lib": 0,
+          "arm_pend": 66,
+          "arm_pend_peso": 527.34,
+          "pint_ok": 0,
+          "pint_pend": 66,
+          "pint_pend_peso": 527.34,
+          "env_ok": 0,
+          "env_pend": 66,
+          "env_pend_peso": 527.34,
+          "literal": ".R.BOI"
+        },
+        {
+          "item": 133,
+          "cod": ".R.BOI-CNP-9",
+          "prod": "Caño Pintado",
+          "long": 3000,
+          "cant": 60,
+          "peso": 623.4,
+          "arm_lib": 0,
+          "arm_pend": 60,
+          "arm_pend_peso": 623.4,
+          "pint_ok": 0,
+          "pint_pend": 60,
+          "pint_pend_peso": 623.4,
+          "env_ok": 0,
+          "env_pend": 60,
+          "env_pend_peso": 623.4,
+          "literal": ".R.BOI"
+        },
+        {
+          "item": 134,
+          "cod": ".R.BOI-CNP-21",
+          "prod": "Caño Pintado",
+          "long": 3008,
+          "cant": 11,
+          "peso": 114.51,
+          "arm_lib": 0,
+          "arm_pend": 11,
+          "arm_pend_peso": 114.51,
+          "pint_ok": 0,
+          "pint_pend": 11,
+          "pint_pend_peso": 114.51,
+          "env_ok": 0,
+          "env_pend": 11,
+          "env_pend_peso": 114.51,
+          "literal": ".R.BOI"
+        },
+        {
+          "item": 135,
+          "cod": ".R.BOI-CNP-27",
+          "prod": "Caño Pintado",
+          "long": 3731,
+          "cant": 1,
+          "peso": 10.28,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 10.28,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 10.28,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 10.28,
+          "literal": ".R.BOI"
+        },
+        {
+          "item": 136,
+          "cod": ".R.BOI-CNP-28",
+          "prod": "Caño Pintado",
+          "long": 3491,
+          "cant": 1,
+          "peso": 12.08,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 12.08,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 12.08,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 12.08,
+          "literal": ".R.BOI"
+        },
+        {
+          "item": 137,
+          "cod": ".R.BOI-CNP-29",
+          "prod": "Caño Pintado",
+          "long": 3484,
+          "cant": 1,
+          "peso": 12.06,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 12.06,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 12.06,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 12.06,
+          "literal": ".R.BOI"
+        },
+        {
+          "item": 138,
+          "cod": ".R.BOI-CNP-30",
+          "prod": "Caño Pintado",
+          "long": 3000,
+          "cant": 1,
+          "peso": 8.27,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 8.27,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 8.27,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 8.27,
+          "literal": ".R.BOI"
+        },
+        {
+          "item": 139,
+          "cod": ".R.BOI-CNP-31",
+          "prod": "Caño Pintado",
+          "long": 4887,
+          "cant": 1,
+          "peso": 16.92,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 16.92,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 16.92,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 16.92,
+          "literal": ".R.BOI"
+        },
+        {
+          "item": 140,
+          "cod": ".R.BOI-CNP-35",
+          "prod": "Caño Pintado",
+          "long": 1690,
+          "cant": 1,
+          "peso": 4.66,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 4.66,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 4.66,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 4.66,
+          "literal": ".R.BOI"
+        },
+        {
+          "item": 141,
+          "cod": ".R.BOI-CNP-47",
+          "prod": "Caño Pintado",
+          "long": 3010,
+          "cant": 9,
+          "peso": 93.78,
+          "arm_lib": 0,
+          "arm_pend": 9,
+          "arm_pend_peso": 93.78,
+          "pint_ok": 0,
+          "pint_pend": 9,
+          "pint_pend_peso": 93.78,
+          "env_ok": 0,
+          "env_pend": 9,
+          "env_pend_peso": 93.78,
+          "literal": ".R.BOI"
         },
         {
           "item": 142,
-          "cod": "BOI-PTC-24",
-          "prod": "Pilar Tubo Caño",
-          "long": 5082,
+          "cod": ".R.BOI-CNP-49",
+          "prod": "Caño Pintado",
+          "long": 2908,
           "cant": 1,
-          "peso": 39.04,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
+          "peso": 8.01,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 8.01,
           "pint_ok": 0,
           "pint_pend": 1,
-          "pint_pend_peso": 39.04,
+          "pint_pend_peso": 8.01,
           "env_ok": 0,
           "env_pend": 1,
-          "env_pend_peso": 39.04,
-          "literal": "BOI"
+          "env_pend_peso": 8.01,
+          "literal": ".R.BOI"
         },
         {
           "item": 143,
-          "cod": "BOI-PTC-25",
-          "prod": "Pilar Tubo Caño",
-          "long": 4732,
-          "cant": 1,
-          "peso": 36.36,
-          "arm_lib": 1,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
+          "cod": ".R.BOI-CNP-50",
+          "prod": "Caño Pintado",
+          "long": 4514,
+          "cant": 4,
+          "peso": 62.52,
+          "arm_lib": 0,
+          "arm_pend": 4,
+          "arm_pend_peso": 62.52,
           "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 36.36,
+          "pint_pend": 4,
+          "pint_pend_peso": 62.52,
           "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 36.36,
-          "literal": "BOI"
+          "env_pend": 4,
+          "env_pend_peso": 62.52,
+          "literal": ".R.BOI"
         },
         {
           "item": 144,
-          "cod": "BOI-PTC-26",
-          "prod": "Pilar Tubo Caño",
-          "long": 9814,
-          "cant": 1,
-          "peso": 75.4,
+          "cod": ".R.BOI-CNP-56",
+          "prod": "Caño Pintado",
+          "long": 3818,
+          "cant": 2,
+          "peso": 21.04,
           "arm_lib": 0,
-          "arm_pend": 1,
-          "arm_pend_peso": 75.4,
+          "arm_pend": 2,
+          "arm_pend_peso": 21.04,
           "pint_ok": 0,
-          "pint_pend": 1,
-          "pint_pend_peso": 75.4,
+          "pint_pend": 2,
+          "pint_pend_peso": 21.04,
           "env_ok": 0,
-          "env_pend": 1,
-          "env_pend_peso": 75.4,
-          "literal": "BOI"
+          "env_pend": 2,
+          "env_pend_peso": 21.04,
+          "literal": ".R.BOI"
         },
         {
           "item": 145,
-          "cod": "BOI-PTC-200",
-          "prod": "Pilar Tubo Caño",
-          "long": 9883,
-          "cant": 33,
-          "peso": 2505.69,
+          "cod": ".R.BOI-CNP-58",
+          "prod": "Caño Pintado",
+          "long": 3811,
+          "cant": 1,
+          "peso": 10.5,
           "arm_lib": 0,
-          "arm_pend": 33,
-          "arm_pend_peso": 2505.69,
+          "arm_pend": 1,
+          "arm_pend_peso": 10.5,
           "pint_ok": 0,
-          "pint_pend": 33,
-          "pint_pend_peso": 2505.69,
+          "pint_pend": 1,
+          "pint_pend_peso": 10.5,
           "env_ok": 0,
-          "env_pend": 33,
-          "env_pend_peso": 2505.69,
-          "literal": "BOI"
+          "env_pend": 1,
+          "env_pend_peso": 10.5,
+          "literal": ".R.BOI"
         },
         {
           "item": 146,
-          "cod": "BOI-SP-1",
-          "prod": "SOPORTE",
-          "long": 90,
-          "cant": 75,
-          "peso": 26.25,
-          "arm_lib": 75,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
+          "cod": ".R.BOI-CNP-59",
+          "prod": "Caño Pintado",
+          "long": 4465,
+          "cant": 1,
+          "peso": 12.3,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 12.3,
           "pint_ok": 0,
-          "pint_pend": 75,
-          "pint_pend_peso": 26.25,
+          "pint_pend": 1,
+          "pint_pend_peso": 12.3,
           "env_ok": 0,
-          "env_pend": 75,
-          "env_pend_peso": 26.25,
-          "literal": "BOI"
+          "env_pend": 1,
+          "env_pend_peso": 12.3,
+          "literal": ".R.BOI"
         },
         {
           "item": 147,
-          "cod": "BOI-SP-2",
+          "cod": ".R.BOI-CNP-60",
+          "prod": "Caño Pintado",
+          "long": 3919,
+          "cant": 2,
+          "peso": 21.6,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 21.6,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 21.6,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 21.6,
+          "literal": ".R.BOI"
+        },
+        {
+          "item": 148,
+          "cod": ".R.BOI-CNP-72",
+          "prod": "Caño Pintado",
+          "long": 2335,
+          "cant": 4,
+          "peso": 25.72,
+          "arm_lib": 0,
+          "arm_pend": 4,
+          "arm_pend_peso": 25.72,
+          "pint_ok": 0,
+          "pint_pend": 4,
+          "pint_pend_peso": 25.72,
+          "env_ok": 0,
+          "env_pend": 4,
+          "env_pend_peso": 25.72,
+          "literal": ".R.BOI"
+        },
+        {
+          "item": 149,
+          "cod": ".R.BOI-CNP-73",
+          "prod": "Caño Pintado",
+          "long": 2426,
+          "cant": 1,
+          "peso": 8.4,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 8.4,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 8.4,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 8.4,
+          "literal": ".R.BOI"
+        },
+        {
+          "item": 150,
+          "cod": ".R.BOI-CNP-76",
+          "prod": "Caño Pintado",
+          "long": 3959,
+          "cant": 1,
+          "peso": 10.91,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 10.91,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 10.91,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 10.91,
+          "literal": ".R.BOI"
+        },
+        {
+          "item": 151,
+          "cod": ".R.BOI-CNP-79",
+          "prod": "Caño Pintado",
+          "long": 2359,
+          "cant": 2,
+          "peso": 13,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 13,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 13,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 13,
+          "literal": ".R.BOI"
+        },
+        {
+          "item": 152,
+          "cod": ".R.BOI-CNP-80",
+          "prod": "Caño Pintado",
+          "long": 1944,
+          "cant": 1,
+          "peso": 5.36,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 5.36,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 5.36,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 5.36,
+          "literal": ".R.BOI"
+        },
+        {
+          "item": 153,
+          "cod": ".R.BOI-CNP-81",
+          "prod": "Caño Pintado",
+          "long": 2105,
+          "cant": 1,
+          "peso": 5.8,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 5.8,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 5.8,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 5.8,
+          "literal": ".R.BOI"
+        },
+        {
+          "item": 154,
+          "cod": ".R.BOI-CNP-82",
+          "prod": "Caño Pintado",
+          "long": 3889,
+          "cant": 1,
+          "peso": 10.71,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 10.71,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 10.71,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 10.71,
+          "literal": ".R.BOI"
+        },
+        {
+          "item": 155,
+          "cod": ".R.BOI-CNP-83",
+          "prod": "Caño Pintado",
+          "long": 2750,
+          "cant": 2,
+          "peso": 42.1,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 42.1,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 42.1,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 42.1,
+          "literal": ".R.BOI"
+        },
+        {
+          "item": 156,
+          "cod": ".R.BOI-CNP-84",
+          "prod": "Caño Pintado",
+          "long": 2750,
+          "cant": 7,
+          "peso": 147.35,
+          "arm_lib": 0,
+          "arm_pend": 7,
+          "arm_pend_peso": 147.35,
+          "pint_ok": 0,
+          "pint_pend": 7,
+          "pint_pend_peso": 147.35,
+          "env_ok": 0,
+          "env_pend": 7,
+          "env_pend_peso": 147.35,
+          "literal": ".R.BOI"
+        },
+        {
+          "item": 157,
+          "cod": ".R.BOI-CNP-85",
+          "prod": "Caño Pintado",
+          "long": 2750,
+          "cant": 1,
+          "peso": 21.05,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 21.05,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 21.05,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 21.05,
+          "literal": ".R.BOI"
+        },
+        {
+          "item": 158,
+          "cod": ".R.BOI-CNP-86",
+          "prod": "Caño Pintado",
+          "long": 2750,
+          "cant": 2,
+          "peso": 42.1,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 42.1,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 42.1,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 42.1,
+          "literal": ".R.BOI"
+        },
+        {
+          "item": 159,
+          "cod": ".R.BOI-CNP-90",
+          "prod": "Caño Pintado",
+          "long": 5999,
+          "cant": 8,
+          "peso": 114.56,
+          "arm_lib": 0,
+          "arm_pend": 8,
+          "arm_pend_peso": 114.56,
+          "pint_ok": 0,
+          "pint_pend": 8,
+          "pint_pend_peso": 114.56,
+          "env_ok": 0,
+          "env_pend": 8,
+          "env_pend_peso": 114.56,
+          "literal": ".R.BOI"
+        },
+        {
+          "item": 160,
+          "cod": ".R.BOI-CNP-92",
+          "prod": "Caño Pintado",
+          "long": 7315,
+          "cant": 2,
+          "peso": 111.98,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 111.98,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 111.98,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 111.98,
+          "literal": ".R.BOI"
+        },
+        {
+          "item": 161,
+          "cod": ".R.BOI-CNP-95",
+          "prod": "Caño Pintado",
+          "long": 1563,
+          "cant": 4,
+          "peso": 38.48,
+          "arm_lib": 0,
+          "arm_pend": 4,
+          "arm_pend_peso": 38.48,
+          "pint_ok": 0,
+          "pint_pend": 4,
+          "pint_pend_peso": 38.48,
+          "env_ok": 0,
+          "env_pend": 4,
+          "env_pend_peso": 38.48,
+          "literal": ".R.BOI"
+        },
+        {
+          "item": 162,
+          "cod": ".R.BOI-CNP-96",
+          "prod": "Caño Pintado",
+          "long": 4060,
+          "cant": 1,
+          "peso": 11.19,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 11.19,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 11.19,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 11.19,
+          "literal": ".R.BOI"
+        },
+        {
+          "item": 163,
+          "cod": ".R.BOI-CNP-97",
+          "prod": "Caño Pintado",
+          "long": 2809,
+          "cant": 1,
+          "peso": 7.74,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 7.74,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 7.74,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 7.74,
+          "literal": ".R.BOI"
+        },
+        {
+          "item": 164,
+          "cod": ".R.BOI-CNP-99",
+          "prod": "Caño Pintado",
+          "long": 5028,
+          "cant": 1,
+          "peso": 13.85,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 13.85,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 13.85,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 13.85,
+          "literal": ".R.BOI"
+        },
+        {
+          "item": 165,
+          "cod": ".R.BOI-CNP-101",
+          "prod": "Caño Pintado",
+          "long": 1640,
+          "cant": 4,
+          "peso": 15.64,
+          "arm_lib": 0,
+          "arm_pend": 4,
+          "arm_pend_peso": 15.64,
+          "pint_ok": 0,
+          "pint_pend": 4,
+          "pint_pend_peso": 15.64,
+          "env_ok": 0,
+          "env_pend": 4,
+          "env_pend_peso": 15.64,
+          "literal": ".R.BOI"
+        },
+        {
+          "item": 166,
+          "cod": ".R.BOI-LLP-1",
+          "prod": "Angulo Pintado",
+          "long": 200,
+          "cant": 150,
+          "peso": 165,
+          "arm_lib": 0,
+          "arm_pend": 150,
+          "arm_pend_peso": 165,
+          "pint_ok": 0,
+          "pint_pend": 150,
+          "pint_pend_peso": 165,
+          "env_ok": 0,
+          "env_pend": 150,
+          "env_pend_peso": 165,
+          "literal": ".R.BOI"
+        },
+        {
+          "item": 167,
+          "cod": ".R.BOI-LLP-2",
+          "prod": "Angulo Pintado",
+          "long": 200,
+          "cant": 116,
+          "peso": 127.6,
+          "arm_lib": 0,
+          "arm_pend": 116,
+          "arm_pend_peso": 127.6,
+          "pint_ok": 0,
+          "pint_pend": 116,
+          "pint_pend_peso": 127.6,
+          "env_ok": 0,
+          "env_pend": 116,
+          "env_pend_peso": 127.6,
+          "literal": ".R.BOI"
+        },
+        {
+          "item": 168,
+          "cod": ".R.BOI-PTC-1",
+          "prod": "Pilar Tubo Caño",
+          "long": 9716,
+          "cant": 1,
+          "peso": 74.51,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 74.51,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 74.51,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 74.51,
+          "literal": ".R.BOI"
+        },
+        {
+          "item": 169,
+          "cod": ".R.BOI-PTC-4",
+          "prod": "Pilar Tubo Caño",
+          "long": 1550,
+          "cant": 2,
+          "peso": 23.72,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 23.72,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 23.72,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 23.72,
+          "literal": ".R.BOI"
+        },
+        {
+          "item": 170,
+          "cod": ".R.BOI-PTC-5",
+          "prod": "Pilar Tubo Caño",
+          "long": 1550,
+          "cant": 6,
+          "peso": 71.16,
+          "arm_lib": 0,
+          "arm_pend": 6,
+          "arm_pend_peso": 71.16,
+          "pint_ok": 0,
+          "pint_pend": 6,
+          "pint_pend_peso": 71.16,
+          "env_ok": 0,
+          "env_pend": 6,
+          "env_pend_peso": 71.16,
+          "literal": ".R.BOI"
+        },
+        {
+          "item": 171,
+          "cod": ".R.BOI-PTC-22",
+          "prod": "Pilar Tubo Caño",
+          "long": 5083,
+          "cant": 4,
+          "peso": 156.16,
+          "arm_lib": 0,
+          "arm_pend": 4,
+          "arm_pend_peso": 156.16,
+          "pint_ok": 0,
+          "pint_pend": 4,
+          "pint_pend_peso": 156.16,
+          "env_ok": 0,
+          "env_pend": 4,
+          "env_pend_peso": 156.16,
+          "literal": ".R.BOI"
+        },
+        {
+          "item": 172,
+          "cod": ".R.BOI-PTC-23",
+          "prod": "Pilar Tubo Caño",
+          "long": 7432,
+          "cant": 1,
+          "peso": 45.74,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 45.74,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 45.74,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 45.74,
+          "literal": ".R.BOI"
+        },
+        {
+          "item": 173,
+          "cod": ".R.BOI-PTC-24",
+          "prod": "Pilar Tubo Caño",
+          "long": 2290,
+          "cant": 1,
+          "peso": 14.1,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 14.1,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 14.1,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 14.1,
+          "literal": ".R.BOI"
+        },
+        {
+          "item": 174,
+          "cod": ".R.BOI-PTC-25",
+          "prod": "Pilar Tubo Caño",
+          "long": 4193,
+          "cant": 1,
+          "peso": 32.09,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 32.09,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 32.09,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 32.09,
+          "literal": ".R.BOI"
+        },
+        {
+          "item": 175,
+          "cod": ".R.BOI-PTC-26",
+          "prod": "Pilar Tubo Caño",
+          "long": 9716,
+          "cant": 1,
+          "peso": 74.51,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 74.51,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 74.51,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 74.51,
+          "literal": ".R.BOI"
+        },
+        {
+          "item": 176,
+          "cod": ".R.BOI-SP-1",
           "prod": "SOPORTE",
           "long": 90,
-          "cant": 26,
-          "peso": 9.1,
-          "arm_lib": 26,
-          "arm_pend": 0,
-          "arm_pend_peso": 0,
+          "cant": 70,
+          "peso": 24.5,
+          "arm_lib": 0,
+          "arm_pend": 70,
+          "arm_pend_peso": 24.5,
           "pint_ok": 0,
-          "pint_pend": 26,
-          "pint_pend_peso": 9.1,
+          "pint_pend": 70,
+          "pint_pend_peso": 24.5,
           "env_ok": 0,
-          "env_pend": 26,
-          "env_pend_peso": 9.1,
-          "literal": "BOI"
+          "env_pend": 70,
+          "env_pend_peso": 24.5,
+          "literal": ".R.BOI"
+        },
+        {
+          "item": 177,
+          "cod": ".R.BOI-SP-2",
+          "prod": "SOPORTE",
+          "long": 90,
+          "cant": 30,
+          "peso": 10.5,
+          "arm_lib": 0,
+          "arm_pend": 30,
+          "arm_pend_peso": 10.5,
+          "pint_ok": 0,
+          "pint_pend": 30,
+          "pint_pend_peso": 10.5,
+          "env_ok": 0,
+          "env_pend": 30,
+          "env_pend_peso": 10.5,
+          "literal": ".R.BOI"
         }
       ],
       "arm_pend_items": [
@@ -250989,13 +252002,6 @@
           "pend": 2
         },
         {
-          "cod": "BOI-CNP-30",
-          "prod": "Caño Pintado",
-          "long": 3144,
-          "cant": 9,
-          "pend": 9
-        },
-        {
           "cod": "BOI-CNP-41",
           "prod": "Caño Pintado",
           "long": 2210,
@@ -251003,51 +252009,9 @@
           "pend": 2
         },
         {
-          "cod": "BOI-CNP-49",
-          "prod": "Caño Pintado",
-          "long": 3044,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BOI-CNP-50",
-          "prod": "Caño Pintado",
-          "long": 2409,
-          "cant": 1,
-          "pend": 1
-        },
-        {
           "cod": "BOI-CNP-54",
           "prod": "Caño Pintado",
           "long": 3595,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BOI-CNP-56",
-          "prod": "Caño Pintado",
-          "long": 3818,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BOI-CNP-58",
-          "prod": "Caño Pintado",
-          "long": 3765,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BOI-CNP-59",
-          "prod": "Caño Pintado",
-          "long": 2659,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BOI-CNP-60",
-          "prod": "Caño Pintado",
-          "long": 2709,
           "cant": 2,
           "pend": 2
         },
@@ -251059,46 +252023,11 @@
           "pend": 2
         },
         {
-          "cod": "BOI-CNP-72",
-          "prod": "Caño Pintado",
-          "long": 2335,
-          "cant": 10,
-          "pend": 10
-        },
-        {
           "cod": "BOI-CNP-74",
           "prod": "Caño Pintado",
           "long": 2463,
           "cant": 5,
           "pend": 5
-        },
-        {
-          "cod": "BOI-CNP-76",
-          "prod": "Caño Pintado",
-          "long": 3744,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BOI-CNP-79",
-          "prod": "Caño Pintado",
-          "long": 2304,
-          "cant": 5,
-          "pend": 5
-        },
-        {
-          "cod": "BOI-CNP-80",
-          "prod": "Caño Pintado",
-          "long": 4518,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BOI-CNP-81",
-          "prod": "Caño Pintado",
-          "long": 1998,
-          "cant": 1,
-          "pend": 1
         },
         {
           "cod": "BOI-CNP-88",
@@ -251122,161 +252051,630 @@
           "pend": 1
         },
         {
-          "cod": "BOI-CNP-95",
+          "cod": "BOI-CNP-102",
           "prod": "Caño Pintado",
-          "long": 3290,
+          "long": 1515,
           "cant": 1,
           "pend": 1
         },
         {
-          "cod": "BOI-CNP-96",
+          "cod": "BOI-CNP-103",
           "prod": "Caño Pintado",
-          "long": 3444,
+          "long": 3538,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BOI-CNP-104",
+          "prod": "Caño Pintado",
+          "long": 3584,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOI-CNP-105",
+          "prod": "Caño Pintado",
+          "long": 3765,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOI-CNP-106",
+          "prod": "Caño Pintado",
+          "long": 4254,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOI-CNP-107",
+          "prod": "Caño Pintado",
+          "long": 2960,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOI-CNP-108",
+          "prod": "Caño Pintado",
+          "long": 997,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOI-CNP-109",
+          "prod": "Caño Pintado",
+          "long": 2415,
           "cant": 2,
           "pend": 2
         },
         {
-          "cod": "BOI-CNP-97",
+          "cod": "BOI-CNP-110",
           "prod": "Caño Pintado",
-          "long": 3294,
-          "cant": 13,
-          "pend": 13
+          "long": 2357,
+          "cant": 1,
+          "pend": 1
         },
         {
-          "cod": "BOI-CNP-98",
+          "cod": "BOI-CNP-111",
           "prod": "Caño Pintado",
-          "long": 1901,
+          "long": 2554,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOI-CNP-112",
+          "prod": "Caño Pintado",
+          "long": 2486,
           "cant": 2,
           "pend": 2
         },
         {
-          "cod": "BOI-CNP-100",
+          "cod": "BOI-CNP-113",
           "prod": "Caño Pintado",
+          "long": 2440,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOI-CNP-114",
+          "prod": "Caño Pintado",
+          "long": 2362,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOI-CNP-115",
+          "prod": "Caño Pintado",
+          "long": 2304,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOI-CNP-116",
+          "prod": "Caño Pintado",
+          "long": 2700,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BOI-CNP-117",
+          "prod": "Caño Pintado",
+          "long": 3300,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BOI-CNP-118",
+          "prod": "Caño Pintado",
+          "long": 2700,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BOI-CNP-119",
+          "prod": "Caño Pintado",
+          "long": 1182,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOI-CNP-120",
+          "prod": "Caño Pintado",
+          "long": 1042,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOI-CNP-121",
+          "prod": "Caño Pintado",
+          "long": 842,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOI-CNP-122",
+          "prod": "Caño Pintado",
+          "long": 632,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOI-CNP-123",
+          "prod": "Caño Pintado",
+          "long": 421,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOI-CNP-124",
+          "prod": "Caño Pintado",
+          "long": 6756,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOI-CNP-125",
+          "prod": "Caño Pintado",
+          "long": 3590,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOI-CNP-126",
+          "prod": "Caño Pintado",
+          "long": 5286,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOI-CNP-127",
+          "prod": "Caño Pintado",
+          "long": 4902,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOI-PTC-11",
+          "prod": "Pilar Tubo Caño",
+          "long": 9737,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BOI-PTC-27",
+          "prod": "Pilar Tubo Caño",
+          "long": 6589,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOI-PTC-28",
+          "prod": "Pilar Tubo Caño",
+          "long": 9716,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOI-PTC-30",
+          "prod": "Pilar Tubo Caño",
+          "long": 9732,
+          "cant": 51,
+          "pend": 51
+        },
+        {
+          "cod": "BOI-PTC-37",
+          "prod": "Pilar Tubo Caño",
+          "long": 852,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOI-PTC-38",
+          "prod": "Pilar Tubo Caño",
+          "long": 1032,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOI-PTC-39",
+          "prod": "Pilar Tubo Caño",
+          "long": 1252,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOI-PTC-40",
+          "prod": "Pilar Tubo Caño",
+          "long": 1552,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOI-PTC-41",
+          "prod": "Pilar Tubo Caño",
+          "long": 9732,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOI-PTC-42",
+          "prod": "Pilar Tubo Caño",
+          "long": 2282,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOI-PTC-44",
+          "prod": "Pilar Tubo Caño",
+          "long": 2835,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOI-PTC-45",
+          "prod": "Pilar Tubo Caño",
+          "long": 3413,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOI-PTC-46",
+          "prod": "Pilar Tubo Caño",
+          "long": 2835,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BOI-PTC-47",
+          "prod": "Pilar Tubo Caño",
+          "long": 3413,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BOI-SP-3",
+          "prod": "SOPORTE",
+          "long": 90,
+          "cant": 8,
+          "pend": 8
+        },
+        {
+          "cod": ".R.BOI-CNP-1",
+          "prod": "Caño Pintado",
+          "long": 2189,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BOI-CNP-7",
+          "prod": "Caño Pintado",
+          "long": 1226,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BOI-CNP-8",
+          "prod": "Caño Pintado",
+          "long": 2900,
+          "cant": 66,
+          "pend": 66
+        },
+        {
+          "cod": ".R.BOI-CNP-9",
+          "prod": "Caño Pintado",
+          "long": 3000,
+          "cant": 60,
+          "pend": 60
+        },
+        {
+          "cod": ".R.BOI-CNP-21",
+          "prod": "Caño Pintado",
+          "long": 3008,
+          "cant": 11,
+          "pend": 11
+        },
+        {
+          "cod": ".R.BOI-CNP-27",
+          "prod": "Caño Pintado",
+          "long": 3731,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BOI-CNP-28",
+          "prod": "Caño Pintado",
+          "long": 3491,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BOI-CNP-29",
+          "prod": "Caño Pintado",
+          "long": 3484,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BOI-CNP-30",
+          "prod": "Caño Pintado",
+          "long": 3000,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BOI-CNP-31",
+          "prod": "Caño Pintado",
+          "long": 4887,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BOI-CNP-35",
+          "prod": "Caño Pintado",
+          "long": 1690,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BOI-CNP-47",
+          "prod": "Caño Pintado",
+          "long": 3010,
+          "cant": 9,
+          "pend": 9
+        },
+        {
+          "cod": ".R.BOI-CNP-49",
+          "prod": "Caño Pintado",
+          "long": 2908,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BOI-CNP-50",
+          "prod": "Caño Pintado",
+          "long": 4514,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": ".R.BOI-CNP-56",
+          "prod": "Caño Pintado",
+          "long": 3818,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": ".R.BOI-CNP-58",
+          "prod": "Caño Pintado",
+          "long": 3811,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BOI-CNP-59",
+          "prod": "Caño Pintado",
+          "long": 4465,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BOI-CNP-60",
+          "prod": "Caño Pintado",
+          "long": 3919,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": ".R.BOI-CNP-72",
+          "prod": "Caño Pintado",
+          "long": 2335,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": ".R.BOI-CNP-73",
+          "prod": "Caño Pintado",
+          "long": 2426,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BOI-CNP-76",
+          "prod": "Caño Pintado",
+          "long": 3959,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BOI-CNP-79",
+          "prod": "Caño Pintado",
+          "long": 2359,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": ".R.BOI-CNP-80",
+          "prod": "Caño Pintado",
+          "long": 1944,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BOI-CNP-81",
+          "prod": "Caño Pintado",
+          "long": 2105,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BOI-CNP-82",
+          "prod": "Caño Pintado",
+          "long": 3889,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BOI-CNP-83",
+          "prod": "Caño Pintado",
+          "long": 2750,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": ".R.BOI-CNP-84",
+          "prod": "Caño Pintado",
+          "long": 2750,
+          "cant": 7,
+          "pend": 7
+        },
+        {
+          "cod": ".R.BOI-CNP-85",
+          "prod": "Caño Pintado",
+          "long": 2750,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BOI-CNP-86",
+          "prod": "Caño Pintado",
+          "long": 2750,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": ".R.BOI-CNP-90",
+          "prod": "Caño Pintado",
+          "long": 5999,
+          "cant": 8,
+          "pend": 8
+        },
+        {
+          "cod": ".R.BOI-CNP-92",
+          "prod": "Caño Pintado",
+          "long": 7315,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": ".R.BOI-CNP-95",
+          "prod": "Caño Pintado",
+          "long": 1563,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": ".R.BOI-CNP-96",
+          "prod": "Caño Pintado",
+          "long": 4060,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BOI-CNP-97",
+          "prod": "Caño Pintado",
+          "long": 2809,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BOI-CNP-99",
+          "prod": "Caño Pintado",
+          "long": 5028,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BOI-CNP-101",
+          "prod": "Caño Pintado",
+          "long": 1640,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": ".R.BOI-LLP-1",
+          "prod": "Angulo Pintado",
+          "long": 200,
+          "cant": 150,
+          "pend": 150
+        },
+        {
+          "cod": ".R.BOI-LLP-2",
+          "prod": "Angulo Pintado",
+          "long": 200,
+          "cant": 116,
+          "pend": 116
+        },
+        {
+          "cod": ".R.BOI-PTC-1",
+          "prod": "Pilar Tubo Caño",
+          "long": 9716,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BOI-PTC-4",
+          "prod": "Pilar Tubo Caño",
+          "long": 1550,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": ".R.BOI-PTC-5",
+          "prod": "Pilar Tubo Caño",
+          "long": 1550,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": ".R.BOI-PTC-22",
+          "prod": "Pilar Tubo Caño",
+          "long": 5083,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": ".R.BOI-PTC-23",
+          "prod": "Pilar Tubo Caño",
           "long": 7432,
           "cant": 1,
           "pend": 1
         },
         {
-          "cod": "BOI-CNP-200",
-          "prod": "Caño Pintado",
-          "long": 2186,
-          "cant": 6,
-          "pend": 6
-        },
-        {
-          "cod": "BOI-CNP-201",
-          "prod": "Caño Pintado",
-          "long": 2308,
-          "cant": 6,
-          "pend": 6
-        },
-        {
-          "cod": "BOI-CNP-202",
-          "prod": "Caño Pintado",
-          "long": 2900,
-          "cant": 24,
-          "pend": 21
-        },
-        {
-          "cod": "BOI-CNP-203",
-          "prod": "Caño Pintado",
-          "long": 2765,
-          "cant": 3,
-          "pend": 3
-        },
-        {
-          "cod": "BOI-CNP-204",
-          "prod": "Caño Pintado",
-          "long": 1948,
-          "cant": 3,
-          "pend": 3
-        },
-        {
-          "cod": "BOI-CNP-207",
-          "prod": "Caño Pintado",
-          "long": 1922,
-          "cant": 3,
-          "pend": 3
-        },
-        {
-          "cod": "BOI-CNP-209",
-          "prod": "Caño Pintado",
-          "long": 1855,
-          "cant": 3,
-          "pend": 3
-        },
-        {
-          "cod": "BOI-CNP-211",
-          "prod": "Caño Pintado",
-          "long": 2027,
-          "cant": 3,
-          "pend": 3
-        },
-        {
-          "cod": "BOI-PTC-1",
+          "cod": ".R.BOI-PTC-24",
           "prod": "Pilar Tubo Caño",
-          "long": 9684,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BOI-PTC-2",
-          "prod": "Pilar Tubo Caño",
-          "long": 9684,
+          "long": 2290,
           "cant": 1,
           "pend": 1
         },
         {
-          "cod": "BOI-PTC-4",
+          "cod": ".R.BOI-PTC-25",
           "prod": "Pilar Tubo Caño",
-          "long": 9683,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BOI-PTC-7",
-          "prod": "Pilar Tubo Caño",
-          "long": 2282,
-          "cant": 11,
-          "pend": 5.5
-        },
-        {
-          "cod": "BOI-PTC-9",
-          "prod": "Pilar Tubo Caño",
-          "long": 2133,
-          "cant": 5,
-          "pend": 2.5
-        },
-        {
-          "cod": "BOI-PTC-23",
-          "prod": "Pilar Tubo Caño",
-          "long": 9684,
-          "cant": 48,
-          "pend": 48
-        },
-        {
-          "cod": "BOI-PTC-26",
-          "prod": "Pilar Tubo Caño",
-          "long": 9814,
+          "long": 4193,
           "cant": 1,
           "pend": 1
         },
         {
-          "cod": "BOI-PTC-200",
+          "cod": ".R.BOI-PTC-26",
           "prod": "Pilar Tubo Caño",
-          "long": 9883,
-          "cant": 33,
-          "pend": 33
+          "long": 9716,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BOI-SP-1",
+          "prod": "SOPORTE",
+          "long": 90,
+          "cant": 70,
+          "pend": 70
+        },
+        {
+          "cod": ".R.BOI-SP-2",
+          "prod": "SOPORTE",
+          "long": 90,
+          "cant": 30,
+          "pend": 30
         }
       ],
       "pint_pend_items": [
-        {
-          "cod": "BOI-CNP-1",
-          "prod": "Caño Pintado",
-          "long": 166,
-          "cant": 2,
-          "pend": 2
-        },
         {
           "cod": "BOI-CNP-2",
           "prod": "Caño Pintado",
@@ -251304,27 +252702,6 @@
           "long": 1383,
           "cant": 1,
           "pend": 1
-        },
-        {
-          "cod": "BOI-CNP-7",
-          "prod": "Caño Pintado",
-          "long": 1226,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BOI-CNP-8",
-          "prod": "Caño Pintado",
-          "long": 2900,
-          "cant": 68,
-          "pend": 68
-        },
-        {
-          "cod": "BOI-CNP-9",
-          "prod": "Caño Pintado",
-          "long": 3000,
-          "cant": 65,
-          "pend": 65
         },
         {
           "cod": "BOI-CNP-10",
@@ -251404,13 +252781,6 @@
           "pend": 1
         },
         {
-          "cod": "BOI-CNP-21",
-          "prod": "Caño Pintado",
-          "long": 3008,
-          "cant": 12,
-          "pend": 12
-        },
-        {
           "cod": "BOI-CNP-22",
           "prod": "Caño Pintado",
           "long": 1797,
@@ -251446,41 +252816,6 @@
           "pend": 1
         },
         {
-          "cod": "BOI-CNP-27",
-          "prod": "Caño Pintado",
-          "long": 560,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BOI-CNP-28",
-          "prod": "Caño Pintado",
-          "long": 462,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BOI-CNP-29",
-          "prod": "Caño Pintado",
-          "long": 570,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BOI-CNP-30",
-          "prod": "Caño Pintado",
-          "long": 3144,
-          "cant": 9,
-          "pend": 9
-        },
-        {
-          "cod": "BOI-CNP-31",
-          "prod": "Caño Pintado",
-          "long": 4767,
-          "cant": 1,
-          "pend": 1
-        },
-        {
           "cod": "BOI-CNP-32",
           "prod": "Caño Pintado",
           "long": 4650,
@@ -251498,13 +252833,6 @@
           "cod": "BOI-CNP-34",
           "prod": "Caño Pintado",
           "long": 697,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BOI-CNP-35",
-          "prod": "Caño Pintado",
-          "long": 590,
           "cant": 2,
           "pend": 2
         },
@@ -251586,32 +252914,11 @@
           "pend": 2
         },
         {
-          "cod": "BOI-CNP-47",
-          "prod": "Caño Pintado",
-          "long": 3010,
-          "cant": 10,
-          "pend": 10
-        },
-        {
           "cod": "BOI-CNP-48",
           "prod": "Caño Pintado",
           "long": 3041,
           "cant": 2,
           "pend": 2
-        },
-        {
-          "cod": "BOI-CNP-49",
-          "prod": "Caño Pintado",
-          "long": 3044,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BOI-CNP-50",
-          "prod": "Caño Pintado",
-          "long": 2409,
-          "cant": 1,
-          "pend": 1
         },
         {
           "cod": "BOI-CNP-51",
@@ -251649,37 +252956,9 @@
           "pend": 2
         },
         {
-          "cod": "BOI-CNP-56",
-          "prod": "Caño Pintado",
-          "long": 3818,
-          "cant": 4,
-          "pend": 4
-        },
-        {
           "cod": "BOI-CNP-57",
           "prod": "Caño Pintado",
           "long": 4989,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BOI-CNP-58",
-          "prod": "Caño Pintado",
-          "long": 3765,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BOI-CNP-59",
-          "prod": "Caño Pintado",
-          "long": 2659,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BOI-CNP-60",
-          "prod": "Caño Pintado",
-          "long": 2709,
           "cant": 2,
           "pend": 2
         },
@@ -251761,20 +253040,6 @@
           "pend": 1
         },
         {
-          "cod": "BOI-CNP-72",
-          "prod": "Caño Pintado",
-          "long": 2335,
-          "cant": 10,
-          "pend": 10
-        },
-        {
-          "cod": "BOI-CNP-73",
-          "prod": "Caño Pintado",
-          "long": 2346,
-          "cant": 1,
-          "pend": 1
-        },
-        {
           "cod": "BOI-CNP-74",
           "prod": "Caño Pintado",
           "long": 2463,
@@ -251789,13 +253054,6 @@
           "pend": 1
         },
         {
-          "cod": "BOI-CNP-76",
-          "prod": "Caño Pintado",
-          "long": 3744,
-          "cant": 1,
-          "pend": 1
-        },
-        {
           "cod": "BOI-CNP-77",
           "prod": "Caño Pintado",
           "long": 2436,
@@ -251806,62 +253064,6 @@
           "cod": "BOI-CNP-78",
           "prod": "Caño Pintado",
           "long": 2404,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BOI-CNP-79",
-          "prod": "Caño Pintado",
-          "long": 2304,
-          "cant": 5,
-          "pend": 5
-        },
-        {
-          "cod": "BOI-CNP-80",
-          "prod": "Caño Pintado",
-          "long": 4518,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BOI-CNP-81",
-          "prod": "Caño Pintado",
-          "long": 1998,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BOI-CNP-82",
-          "prod": "Caño Pintado",
-          "long": 300,
-          "cant": 4,
-          "pend": 4
-        },
-        {
-          "cod": "BOI-CNP-83",
-          "prod": "Caño Pintado",
-          "long": 1559,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BOI-CNP-84",
-          "prod": "Caño Pintado",
-          "long": 1349,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BOI-CNP-85",
-          "prod": "Caño Pintado",
-          "long": 1149,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BOI-CNP-86",
-          "prod": "Caño Pintado",
-          "long": 909,
           "cant": 1,
           "pend": 1
         },
@@ -251887,25 +253089,11 @@
           "pend": 1
         },
         {
-          "cod": "BOI-CNP-90",
-          "prod": "Caño Pintado",
-          "long": 5999,
-          "cant": 4,
-          "pend": 4
-        },
-        {
           "cod": "BOI-CNP-91",
           "prod": "Caño Pintado",
           "long": 5900,
           "cant": 3,
           "pend": 3
-        },
-        {
-          "cod": "BOI-CNP-92",
-          "prod": "Caño Pintado",
-          "long": 7315,
-          "cant": 1,
-          "pend": 1
         },
         {
           "cod": "BOI-CNP-93",
@@ -251922,198 +253110,9 @@
           "pend": 9
         },
         {
-          "cod": "BOI-CNP-95",
-          "prod": "Caño Pintado",
-          "long": 3290,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BOI-CNP-96",
-          "prod": "Caño Pintado",
-          "long": 3444,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BOI-CNP-97",
-          "prod": "Caño Pintado",
-          "long": 3294,
-          "cant": 13,
-          "pend": 13
-        },
-        {
-          "cod": "BOI-CNP-98",
-          "prod": "Caño Pintado",
-          "long": 1901,
-          "cant": 2,
-          "pend": 2
-        },
-        {
           "cod": "BOI-CNP-99",
           "prod": "Caño Pintado",
           "long": 496,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BOI-CNP-100",
-          "prod": "Caño Pintado",
-          "long": 7432,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BOI-CNP-101",
-          "prod": "Caño Pintado",
-          "long": 1640,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BOI-CNP-200",
-          "prod": "Caño Pintado",
-          "long": 2186,
-          "cant": 6,
-          "pend": 6
-        },
-        {
-          "cod": "BOI-CNP-201",
-          "prod": "Caño Pintado",
-          "long": 2308,
-          "cant": 6,
-          "pend": 6
-        },
-        {
-          "cod": "BOI-CNP-202",
-          "prod": "Caño Pintado",
-          "long": 2900,
-          "cant": 24,
-          "pend": 24
-        },
-        {
-          "cod": "BOI-CNP-203",
-          "prod": "Caño Pintado",
-          "long": 2765,
-          "cant": 3,
-          "pend": 3
-        },
-        {
-          "cod": "BOI-CNP-204",
-          "prod": "Caño Pintado",
-          "long": 1948,
-          "cant": 3,
-          "pend": 3
-        },
-        {
-          "cod": "BOI-CNP-205",
-          "prod": "Caño Pintado",
-          "long": 2852,
-          "cant": 15,
-          "pend": 15
-        },
-        {
-          "cod": "BOI-CNP-206",
-          "prod": "Caño Pintado",
-          "long": 2996,
-          "cant": 12,
-          "pend": 12
-        },
-        {
-          "cod": "BOI-CNP-207",
-          "prod": "Caño Pintado",
-          "long": 1922,
-          "cant": 3,
-          "pend": 3
-        },
-        {
-          "cod": "BOI-CNP-208",
-          "prod": "Caño Pintado",
-          "long": 2748,
-          "cant": 3,
-          "pend": 3
-        },
-        {
-          "cod": "BOI-CNP-209",
-          "prod": "Caño Pintado",
-          "long": 1855,
-          "cant": 3,
-          "pend": 3
-        },
-        {
-          "cod": "BOI-CNP-210",
-          "prod": "Caño Pintado",
-          "long": 2285,
-          "cant": 3,
-          "pend": 3
-        },
-        {
-          "cod": "BOI-CNP-211",
-          "prod": "Caño Pintado",
-          "long": 2027,
-          "cant": 3,
-          "pend": 3
-        },
-        {
-          "cod": "BOI-CNP-212",
-          "prod": "Caño Pintado",
-          "long": 4246,
-          "cant": 3,
-          "pend": 3
-        },
-        {
-          "cod": "BOI-CNP-216",
-          "prod": "Caño Pintado",
-          "long": 238,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BOI-LLP-1",
-          "prod": "Angulo Pintado",
-          "long": 200,
-          "cant": 110,
-          "pend": 110
-        },
-        {
-          "cod": "BOI-LLP-2",
-          "prod": "Angulo Pintado",
-          "long": 200,
-          "cant": 109,
-          "pend": 109
-        },
-        {
-          "cod": "BOI-LLP-200",
-          "prod": "Angulo Pintado",
-          "long": 200,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BOI-LLP-201",
-          "prod": "Angulo Pintado",
-          "long": 200,
-          "cant": 66,
-          "pend": 66
-        },
-        {
-          "cod": "BOI-LLP-202",
-          "prod": "Angulo Pintado",
-          "long": 200,
-          "cant": 64,
-          "pend": 64
-        },
-        {
-          "cod": "BOI-PTC-1",
-          "prod": "Pilar Tubo Caño",
-          "long": 9684,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BOI-PTC-2",
-          "prod": "Pilar Tubo Caño",
-          "long": 9684,
           "cant": 1,
           "pend": 1
         },
@@ -252125,20 +253124,6 @@
           "pend": 23
         },
         {
-          "cod": "BOI-PTC-4",
-          "prod": "Pilar Tubo Caño",
-          "long": 9683,
-          "cant": 2,
-          "pend": 2
-        },
-        {
-          "cod": "BOI-PTC-5",
-          "prod": "Pilar Tubo Caño",
-          "long": 4283,
-          "cant": 2,
-          "pend": 2
-        },
-        {
           "cod": "BOI-PTC-6",
           "prod": "Pilar Tubo Caño",
           "long": 4283,
@@ -252146,39 +253131,11 @@
           "pend": 1
         },
         {
-          "cod": "BOI-PTC-7",
-          "prod": "Pilar Tubo Caño",
-          "long": 2282,
-          "cant": 11,
-          "pend": 11
-        },
-        {
-          "cod": "BOI-PTC-8",
-          "prod": "Pilar Tubo Caño",
-          "long": 1768,
-          "cant": 1,
-          "pend": 1
-        },
-        {
-          "cod": "BOI-PTC-9",
-          "prod": "Pilar Tubo Caño",
-          "long": 2133,
-          "cant": 5,
-          "pend": 5
-        },
-        {
           "cod": "BOI-PTC-10",
           "prod": "Pilar Tubo Caño",
           "long": 654,
           "cant": 4,
           "pend": 4
-        },
-        {
-          "cod": "BOI-PTC-12",
-          "prod": "Pilar Tubo Caño",
-          "long": 4195,
-          "cant": 2,
-          "pend": 2
         },
         {
           "cod": "BOI-PTC-13",
@@ -252251,53 +253208,711 @@
           "pend": 2
         },
         {
-          "cod": "BOI-PTC-23",
-          "prod": "Pilar Tubo Caño",
-          "long": 9684,
-          "cant": 48,
-          "pend": 48
-        },
-        {
-          "cod": "BOI-PTC-24",
-          "prod": "Pilar Tubo Caño",
-          "long": 5082,
+          "cod": "BOI-CNP-102",
+          "prod": "Caño Pintado",
+          "long": 1515,
           "cant": 1,
           "pend": 1
         },
         {
-          "cod": "BOI-PTC-25",
-          "prod": "Pilar Tubo Caño",
-          "long": 4732,
+          "cod": "BOI-CNP-103",
+          "prod": "Caño Pintado",
+          "long": 3538,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BOI-CNP-104",
+          "prod": "Caño Pintado",
+          "long": 3584,
           "cant": 1,
           "pend": 1
         },
         {
-          "cod": "BOI-PTC-26",
-          "prod": "Pilar Tubo Caño",
-          "long": 9814,
+          "cod": "BOI-CNP-105",
+          "prod": "Caño Pintado",
+          "long": 3765,
           "cant": 1,
           "pend": 1
         },
         {
-          "cod": "BOI-PTC-200",
-          "prod": "Pilar Tubo Caño",
-          "long": 9883,
-          "cant": 33,
-          "pend": 33
+          "cod": "BOI-CNP-106",
+          "prod": "Caño Pintado",
+          "long": 4254,
+          "cant": 1,
+          "pend": 1
         },
         {
-          "cod": "BOI-SP-1",
+          "cod": "BOI-CNP-107",
+          "prod": "Caño Pintado",
+          "long": 2960,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOI-CNP-108",
+          "prod": "Caño Pintado",
+          "long": 997,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOI-CNP-109",
+          "prod": "Caño Pintado",
+          "long": 2415,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOI-CNP-110",
+          "prod": "Caño Pintado",
+          "long": 2357,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOI-CNP-111",
+          "prod": "Caño Pintado",
+          "long": 2554,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOI-CNP-112",
+          "prod": "Caño Pintado",
+          "long": 2486,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOI-CNP-113",
+          "prod": "Caño Pintado",
+          "long": 2440,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOI-CNP-114",
+          "prod": "Caño Pintado",
+          "long": 2362,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOI-CNP-115",
+          "prod": "Caño Pintado",
+          "long": 2304,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOI-CNP-116",
+          "prod": "Caño Pintado",
+          "long": 2700,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BOI-CNP-117",
+          "prod": "Caño Pintado",
+          "long": 3300,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BOI-CNP-118",
+          "prod": "Caño Pintado",
+          "long": 2700,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BOI-CNP-119",
+          "prod": "Caño Pintado",
+          "long": 1182,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOI-CNP-120",
+          "prod": "Caño Pintado",
+          "long": 1042,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOI-CNP-121",
+          "prod": "Caño Pintado",
+          "long": 842,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOI-CNP-122",
+          "prod": "Caño Pintado",
+          "long": 632,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOI-CNP-123",
+          "prod": "Caño Pintado",
+          "long": 421,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOI-CNP-124",
+          "prod": "Caño Pintado",
+          "long": 6756,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOI-CNP-125",
+          "prod": "Caño Pintado",
+          "long": 3590,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOI-CNP-126",
+          "prod": "Caño Pintado",
+          "long": 5286,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOI-CNP-127",
+          "prod": "Caño Pintado",
+          "long": 4902,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOI-LLP-4",
+          "prod": "Angulo Pintado",
+          "long": 264,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BOI-LLP-5",
+          "prod": "Angulo Pintado",
+          "long": 284,
+          "cant": 15,
+          "pend": 15
+        },
+        {
+          "cod": "BOI-LLP-6",
+          "prod": "Angulo Pintado",
+          "long": 284,
+          "cant": 15,
+          "pend": 15
+        },
+        {
+          "cod": "BOI-LLP-7",
+          "prod": "Angulo Pintado",
+          "long": 264,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOI-LLP-8",
+          "prod": "Angulo Pintado",
+          "long": 260,
+          "cant": 5,
+          "pend": 5
+        },
+        {
+          "cod": "BOI-LLP-9",
+          "prod": "Angulo Pintado",
+          "long": 260,
+          "cant": 5,
+          "pend": 5
+        },
+        {
+          "cod": "BOI-LLP-10",
+          "prod": "Angulo Pintado",
+          "long": 256,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOI-LLP-11",
+          "prod": "Angulo Pintado",
+          "long": 256,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOI-LLP-12",
+          "prod": "Angulo Pintado",
+          "long": 251,
+          "cant": 14,
+          "pend": 14
+        },
+        {
+          "cod": "BOI-LLP-13",
+          "prod": "Angulo Pintado",
+          "long": 249,
+          "cant": 12,
+          "pend": 12
+        },
+        {
+          "cod": "BOI-LLP-14",
+          "prod": "Angulo Pintado",
+          "long": 100,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BOI-LLP-15",
+          "prod": "Angulo Pintado",
+          "long": 100,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BOI-PTC-11",
+          "prod": "Pilar Tubo Caño",
+          "long": 9737,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": "BOI-PTC-27",
+          "prod": "Pilar Tubo Caño",
+          "long": 6589,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOI-PTC-28",
+          "prod": "Pilar Tubo Caño",
+          "long": 9716,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOI-PTC-30",
+          "prod": "Pilar Tubo Caño",
+          "long": 9732,
+          "cant": 51,
+          "pend": 51
+        },
+        {
+          "cod": "BOI-PTC-37",
+          "prod": "Pilar Tubo Caño",
+          "long": 852,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOI-PTC-38",
+          "prod": "Pilar Tubo Caño",
+          "long": 1032,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOI-PTC-39",
+          "prod": "Pilar Tubo Caño",
+          "long": 1252,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOI-PTC-40",
+          "prod": "Pilar Tubo Caño",
+          "long": 1552,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BOI-PTC-41",
+          "prod": "Pilar Tubo Caño",
+          "long": 9732,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOI-PTC-42",
+          "prod": "Pilar Tubo Caño",
+          "long": 2282,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOI-PTC-44",
+          "prod": "Pilar Tubo Caño",
+          "long": 2835,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOI-PTC-45",
+          "prod": "Pilar Tubo Caño",
+          "long": 3413,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BOI-PTC-46",
+          "prod": "Pilar Tubo Caño",
+          "long": 2835,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BOI-PTC-47",
+          "prod": "Pilar Tubo Caño",
+          "long": 3413,
+          "cant": 3,
+          "pend": 3
+        },
+        {
+          "cod": "BOI-SP-3",
           "prod": "SOPORTE",
           "long": 90,
-          "cant": 75,
-          "pend": 75
+          "cant": 8,
+          "pend": 8
         },
         {
-          "cod": "BOI-SP-2",
+          "cod": ".R.BOI-CNP-1",
+          "prod": "Caño Pintado",
+          "long": 2189,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BOI-CNP-7",
+          "prod": "Caño Pintado",
+          "long": 1226,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BOI-CNP-8",
+          "prod": "Caño Pintado",
+          "long": 2900,
+          "cant": 66,
+          "pend": 66
+        },
+        {
+          "cod": ".R.BOI-CNP-9",
+          "prod": "Caño Pintado",
+          "long": 3000,
+          "cant": 60,
+          "pend": 60
+        },
+        {
+          "cod": ".R.BOI-CNP-21",
+          "prod": "Caño Pintado",
+          "long": 3008,
+          "cant": 11,
+          "pend": 11
+        },
+        {
+          "cod": ".R.BOI-CNP-27",
+          "prod": "Caño Pintado",
+          "long": 3731,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BOI-CNP-28",
+          "prod": "Caño Pintado",
+          "long": 3491,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BOI-CNP-29",
+          "prod": "Caño Pintado",
+          "long": 3484,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BOI-CNP-30",
+          "prod": "Caño Pintado",
+          "long": 3000,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BOI-CNP-31",
+          "prod": "Caño Pintado",
+          "long": 4887,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BOI-CNP-35",
+          "prod": "Caño Pintado",
+          "long": 1690,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BOI-CNP-47",
+          "prod": "Caño Pintado",
+          "long": 3010,
+          "cant": 9,
+          "pend": 9
+        },
+        {
+          "cod": ".R.BOI-CNP-49",
+          "prod": "Caño Pintado",
+          "long": 2908,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BOI-CNP-50",
+          "prod": "Caño Pintado",
+          "long": 4514,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": ".R.BOI-CNP-56",
+          "prod": "Caño Pintado",
+          "long": 3818,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": ".R.BOI-CNP-58",
+          "prod": "Caño Pintado",
+          "long": 3811,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BOI-CNP-59",
+          "prod": "Caño Pintado",
+          "long": 4465,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BOI-CNP-60",
+          "prod": "Caño Pintado",
+          "long": 3919,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": ".R.BOI-CNP-72",
+          "prod": "Caño Pintado",
+          "long": 2335,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": ".R.BOI-CNP-73",
+          "prod": "Caño Pintado",
+          "long": 2426,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BOI-CNP-76",
+          "prod": "Caño Pintado",
+          "long": 3959,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BOI-CNP-79",
+          "prod": "Caño Pintado",
+          "long": 2359,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": ".R.BOI-CNP-80",
+          "prod": "Caño Pintado",
+          "long": 1944,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BOI-CNP-81",
+          "prod": "Caño Pintado",
+          "long": 2105,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BOI-CNP-82",
+          "prod": "Caño Pintado",
+          "long": 3889,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BOI-CNP-83",
+          "prod": "Caño Pintado",
+          "long": 2750,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": ".R.BOI-CNP-84",
+          "prod": "Caño Pintado",
+          "long": 2750,
+          "cant": 7,
+          "pend": 7
+        },
+        {
+          "cod": ".R.BOI-CNP-85",
+          "prod": "Caño Pintado",
+          "long": 2750,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BOI-CNP-86",
+          "prod": "Caño Pintado",
+          "long": 2750,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": ".R.BOI-CNP-90",
+          "prod": "Caño Pintado",
+          "long": 5999,
+          "cant": 8,
+          "pend": 8
+        },
+        {
+          "cod": ".R.BOI-CNP-92",
+          "prod": "Caño Pintado",
+          "long": 7315,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": ".R.BOI-CNP-95",
+          "prod": "Caño Pintado",
+          "long": 1563,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": ".R.BOI-CNP-96",
+          "prod": "Caño Pintado",
+          "long": 4060,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BOI-CNP-97",
+          "prod": "Caño Pintado",
+          "long": 2809,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BOI-CNP-99",
+          "prod": "Caño Pintado",
+          "long": 5028,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BOI-CNP-101",
+          "prod": "Caño Pintado",
+          "long": 1640,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": ".R.BOI-LLP-1",
+          "prod": "Angulo Pintado",
+          "long": 200,
+          "cant": 150,
+          "pend": 150
+        },
+        {
+          "cod": ".R.BOI-LLP-2",
+          "prod": "Angulo Pintado",
+          "long": 200,
+          "cant": 116,
+          "pend": 116
+        },
+        {
+          "cod": ".R.BOI-PTC-1",
+          "prod": "Pilar Tubo Caño",
+          "long": 9716,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BOI-PTC-4",
+          "prod": "Pilar Tubo Caño",
+          "long": 1550,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": ".R.BOI-PTC-5",
+          "prod": "Pilar Tubo Caño",
+          "long": 1550,
+          "cant": 6,
+          "pend": 6
+        },
+        {
+          "cod": ".R.BOI-PTC-22",
+          "prod": "Pilar Tubo Caño",
+          "long": 5083,
+          "cant": 4,
+          "pend": 4
+        },
+        {
+          "cod": ".R.BOI-PTC-23",
+          "prod": "Pilar Tubo Caño",
+          "long": 7432,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BOI-PTC-24",
+          "prod": "Pilar Tubo Caño",
+          "long": 2290,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BOI-PTC-25",
+          "prod": "Pilar Tubo Caño",
+          "long": 4193,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BOI-PTC-26",
+          "prod": "Pilar Tubo Caño",
+          "long": 9716,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": ".R.BOI-SP-1",
           "prod": "SOPORTE",
           "long": 90,
-          "cant": 26,
-          "pend": 26
+          "cant": 70,
+          "pend": 70
+        },
+        {
+          "cod": ".R.BOI-SP-2",
+          "prod": "SOPORTE",
+          "long": 90,
+          "cant": 30,
+          "pend": 30
         }
       ]
     },
