@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T18:35:18.036Z",
+  "updatedAt": "2026-11-26T18:39:11.362Z",
   "updatedBy": "Helden Rodriguez",
   "checks": {
     "24969_1": {
@@ -54000,6 +54000,26 @@
     "25938_49": {
       "qty_lib": 1,
       "arm_state": "armado"
+    },
+    "26034_1": {
+      "qty_lib": 49,
+      "arm_state": "armado"
+    },
+    "25969_131": {
+      "qty_lib": 160,
+      "arm_state": "liberado"
+    },
+    "25969_128": {
+      "qty_lib": 8,
+      "arm_state": "liberado"
+    },
+    "25969_129": {
+      "qty_lib": 8,
+      "arm_state": "liberado"
+    },
+    "25969_127": {
+      "qty_lib": 8,
+      "arm_state": "liberado"
     }
   },
   "otMeta": {}
