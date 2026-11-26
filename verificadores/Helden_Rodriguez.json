@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T20:07:36.308Z",
+  "updatedAt": "2026-11-26T09:32:14.767Z",
   "updatedBy": "Helden Rodriguez",
   "checks": {
     "24969_1": {
@@ -13509,7 +13509,7 @@
     },
     "25659_219": {
       "arm_state": "liberado",
-      "qty_lib": 23
+      "qty_lib": 26
     },
     "25720_197": {
       "arm_state": "liberado",
@@ -51062,7 +51062,7 @@
     "25965_21": {
       "arm_state": "liberado",
       "qty_lib": 5,
-      "pint_state": "en_pintura"
+      "pint_state": "pintado"
     },
     "25870_239": {
       "arm_state": "liberado",
@@ -51895,7 +51895,8 @@
     },
     "25965_33": {
       "arm_state": "liberado",
-      "qty_lib": 16
+      "qty_lib": 20,
+      "pint_state": "pintado"
     },
     "25381_438": {
       "arm_state": "liberado",
@@ -53213,23 +53214,28 @@
     },
     "25965_34": {
       "arm_state": "liberado",
-      "qty_lib": 5
+      "qty_lib": 5,
+      "pint_state": "pintado"
     },
     "25965_35": {
       "arm_state": "liberado",
-      "qty_lib": 5
+      "qty_lib": 5,
+      "pint_state": "pintado"
     },
     "25965_37": {
       "arm_state": "liberado",
-      "qty_lib": 5
+      "qty_lib": 5,
+      "pint_state": "pintado"
     },
     "25965_36": {
       "arm_state": "liberado",
-      "qty_lib": 5
+      "qty_lib": 5,
+      "pint_state": "pintado"
     },
     "25965_38": {
       "arm_state": "liberado",
-      "qty_lib": 5
+      "qty_lib": 5,
+      "pint_state": "pintado"
     },
     "25974_216": {
       "arm_state": "liberado",
@@ -53265,7 +53271,8 @@
     },
     "25925_71": {
       "arm_state": "liberado",
-      "pint_state": "pintado"
+      "pint_state": "pintado",
+      "qty_lib": 1
     },
     "25925_70": {
       "arm_state": "liberado",
@@ -53791,6 +53798,18 @@
     "25938_163": {
       "arm_state": "liberado",
       "qty_lib": 16
+    },
+    "25965_23": {
+      "arm_state": "armado"
+    },
+    "25965_24": {
+      "arm_state": "armado"
+    },
+    "25965_25": {
+      "arm_state": "armado"
+    },
+    "25965_26": {
+      "arm_state": "armado"
     }
   },
   "otMeta": {}
