@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T14:13:50.761Z",
+  "updatedAt": "2026-11-26T18:30:34.997Z",
   "updatedBy": "Brian Soto",
   "checks": {
     "24969_1": {
@@ -51064,12 +51064,14 @@
       "pint_state": "pintado"
     },
     "25870_259": {
-      "arm_state": "soldado",
-      "qty_lib": 1
+      "arm_state": "liberado",
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25870_260": {
-      "arm_state": "armado",
-      "qty_lib": 1
+      "arm_state": "liberado",
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25870_261": {
       "arm_state": "armado",
@@ -51746,11 +51748,13 @@
     },
     "25870_159": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25870_160": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25938_143": {
       "arm_state": "liberado",
@@ -53243,7 +53247,8 @@
     },
     "25925_8": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 1,
+      "pint_state": "pintado"
     },
     "25925_9": {
       "arm_state": "liberado",
@@ -53257,7 +53262,8 @@
     },
     "25925_84": {
       "arm_state": "liberado",
-      "qty_lib": 2
+      "qty_lib": 2,
+      "pint_state": "pintado"
     },
     "25925_85": {
       "arm_state": "liberado",
@@ -53271,10 +53277,12 @@
     },
     "25925_70": {
       "arm_state": "liberado",
-      "qty_lib": 1
+      "qty_lib": 2,
+      "pint_state": "pintado"
     },
     "25925_83": {
-      "arm_state": "armado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "26044_1": {
       "arm_state": "liberado",
@@ -53519,7 +53527,8 @@
       "qty_lib": 22
     },
     "25925_66": {
-      "arm_state": "armado"
+      "arm_state": "liberado",
+      "pint_state": "pintado"
     },
     "25925_112": {
       "arm_state": "liberado",
@@ -53947,6 +53956,37 @@
     },
     "25938_174": {
       "arm_state": "liberado",
+      "qty_lib": 1
+    },
+    "25925_21": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 18
+    },
+    "25658_100": {
+      "arm_state": "liberado",
+      "qty_lib": 4
+    },
+    "25870_378": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25870_379": {
+      "arm_state": "liberado",
+      "pint_state": "pintado",
+      "qty_lib": 1
+    },
+    "25870_377": {
+      "arm_state": "armado",
+      "qty_lib": 1
+    },
+    "25938_50": {
+      "arm_state": "armado",
+      "qty_lib": 1
+    },
+    "25938_49": {
+      "arm_state": "armado",
       "qty_lib": 1
     }
   },
@@ -272350,6 +272390,1062 @@
           "cod": "BOY-TP-3",
           "prod": "Tope",
           "long": 95,
+          "cant": 4,
+          "pend": 4
+        }
+      ]
+    },
+    "26034": {
+      "ot": "26034",
+      "obra": "Escalera y Pipe rack_Pollpar",
+      "cliente": "DISTRITO TRANSCHACO SA",
+      "fecha": "26/11/2026",
+      "avances": {
+        "arm": 33,
+        "pint": 0,
+        "env": 0,
+        "mont": 0
+      },
+      "totales": {
+        "cant": 147,
+        "arm_lib": 49,
+        "arm_pend": 98,
+        "pint_ok": 0,
+        "pint_pend": 147,
+        "env_ok": 0,
+        "env_pend": 147,
+        "items": 32,
+        "peso_total": 5139.069999999998,
+        "arm_pend_peso": 3713.6599999999994,
+        "pint_pend_peso": 5139.069999999998,
+        "env_pend_peso": 5139.069999999998
+      },
+      "items": [
+        {
+          "item": 1,
+          "cod": "BPM-BT-1",
+          "prod": "Bastidores",
+          "long": 1950,
+          "cant": 102,
+          "peso": 2967.18,
+          "arm_lib": 49,
+          "arm_pend": 53,
+          "arm_pend_peso": 1541.77,
+          "pint_ok": 0,
+          "pint_pend": 102,
+          "pint_pend_peso": 2967.18,
+          "env_ok": 0,
+          "env_pend": 102,
+          "env_pend_peso": 2967.18,
+          "literal": "BPM"
+        },
+        {
+          "item": 2,
+          "cod": "BPM-ES-1",
+          "prod": "Escalera Metalica",
+          "long": 6966,
+          "cant": 1,
+          "peso": 617.19,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 617.19,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 617.19,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 617.19,
+          "literal": "BPM"
+        },
+        {
+          "item": 3,
+          "cod": "BPM-PL-2",
+          "prod": "Placa",
+          "long": 400,
+          "cant": 1,
+          "peso": 8.98,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 8.98,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 8.98,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 8.98,
+          "literal": "BPM"
+        },
+        {
+          "item": 4,
+          "cod": "BPM-SP-1",
+          "prod": "SOPORTE",
+          "long": 1200,
+          "cant": 1,
+          "peso": 131.97,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 131.97,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 131.97,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 131.97,
+          "literal": "BPM"
+        },
+        {
+          "item": 5,
+          "cod": "BPM-VPI-1",
+          "prod": "Viga Principal Alma Llena",
+          "long": 1800,
+          "cant": 1,
+          "peso": 40.68,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 40.68,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 40.68,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 40.68,
+          "literal": "BPM"
+        },
+        {
+          "item": 6,
+          "cod": "BPM-CL-200",
+          "prod": "Correas Laterales",
+          "long": 1510,
+          "cant": 2,
+          "peso": 13.84,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 13.84,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 13.84,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 13.84,
+          "literal": "BPM"
+        },
+        {
+          "item": 7,
+          "cod": "BPM-CL-201",
+          "prod": "Correas Laterales",
+          "long": 2610,
+          "cant": 1,
+          "peso": 11.97,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 11.97,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 11.97,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 11.97,
+          "literal": "BPM"
+        },
+        {
+          "item": 8,
+          "cod": "BPM-CNP-200",
+          "prod": "Caño Pintado",
+          "long": 2400,
+          "cant": 2,
+          "peso": 29.54,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 29.54,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 29.54,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 29.54,
+          "literal": "BPM"
+        },
+        {
+          "item": 9,
+          "cod": "BPM-CNP-201",
+          "prod": "Caño Pintado",
+          "long": 2200,
+          "cant": 2,
+          "peso": 21.56,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 21.56,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 21.56,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 21.56,
+          "literal": "BPM"
+        },
+        {
+          "item": 10,
+          "cod": "BPM-CNP-202",
+          "prod": "Caño Pintado",
+          "long": 2400,
+          "cant": 1,
+          "peso": 11.76,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 11.76,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 11.76,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 11.76,
+          "literal": "BPM"
+        },
+        {
+          "item": 11,
+          "cod": "BPM-PL-200",
+          "prod": "Placa",
+          "long": 250,
+          "cant": 1,
+          "peso": 5.61,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 5.61,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 5.61,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 5.61,
+          "literal": "BPM"
+        },
+        {
+          "item": 12,
+          "cod": "BPM-PL-201",
+          "prod": "Placa",
+          "long": 120,
+          "cant": 1,
+          "peso": 1.2,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 1.2,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 1.2,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 1.2,
+          "literal": "BPM"
+        },
+        {
+          "item": 13,
+          "cod": "BPM-PTC-200",
+          "prod": "Pilar Tubo Caño",
+          "long": 2390,
+          "cant": 1,
+          "peso": 14.71,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 14.71,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 14.71,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 14.71,
+          "literal": "BPM"
+        },
+        {
+          "item": 14,
+          "cod": "BPM-PTC-201",
+          "prod": "Pilar Tubo Caño",
+          "long": 2600,
+          "cant": 1,
+          "peso": 15.66,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 15.66,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 15.66,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 15.66,
+          "literal": "BPM"
+        },
+        {
+          "item": 15,
+          "cod": "BPM-PTC-202",
+          "prod": "Pilar Tubo Caño",
+          "long": 1700,
+          "cant": 1,
+          "peso": 10.12,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 10.12,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 10.12,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 10.12,
+          "literal": "BPM"
+        },
+        {
+          "item": 16,
+          "cod": "BPM-PTC-203",
+          "prod": "Pilar Tubo Caño",
+          "long": 1324,
+          "cant": 2,
+          "peso": 15.74,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 15.74,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 15.74,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 15.74,
+          "literal": "BPM"
+        },
+        {
+          "item": 17,
+          "cod": "BPM-SP-200",
+          "prod": "SOPORTE",
+          "long": 2360,
+          "cant": 1,
+          "peso": 17.21,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 17.21,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 17.21,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 17.21,
+          "literal": "BPM"
+        },
+        {
+          "item": 18,
+          "cod": "BPM-VTT-200",
+          "prod": "Viga de techo de tubos",
+          "long": 2336,
+          "cant": 2,
+          "peso": 27.52,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 27.52,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 27.52,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 27.52,
+          "literal": "BPM"
+        },
+        {
+          "item": 19,
+          "cod": "BPM-BR-100",
+          "prod": "Baranda - Unid.",
+          "long": 4023,
+          "cant": 1,
+          "peso": 21.8,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 21.8,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 21.8,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 21.8,
+          "literal": "BPM"
+        },
+        {
+          "item": 20,
+          "cod": "BPM-BR-101",
+          "prod": "Baranda - Unid.",
+          "long": 5376,
+          "cant": 1,
+          "peso": 30.95,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 30.95,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 30.95,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 30.95,
+          "literal": "BPM"
+        },
+        {
+          "item": 21,
+          "cod": "BPM-BR-102",
+          "prod": "Baranda - Unid.",
+          "long": 8871,
+          "cant": 1,
+          "peso": 48.94,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 48.94,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 48.94,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 48.94,
+          "literal": "BPM"
+        },
+        {
+          "item": 22,
+          "cod": "BPM-BR-103",
+          "prod": "Baranda - Unid.",
+          "long": 7783,
+          "cant": 1,
+          "peso": 41.2,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 41.2,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 41.2,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 41.2,
+          "literal": "BPM"
+        },
+        {
+          "item": 23,
+          "cod": "BPM-CNP-100",
+          "prod": "Caño Pintado",
+          "long": 900,
+          "cant": 2,
+          "peso": 1.98,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 1.98,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 1.98,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 1.98,
+          "literal": "BPM"
+        },
+        {
+          "item": 24,
+          "cod": "BPM-CNP-101",
+          "prod": "Caño Pintado",
+          "long": 900,
+          "cant": 1,
+          "peso": 2.11,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 2.11,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 2.11,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 2.11,
+          "literal": "BPM"
+        },
+        {
+          "item": 25,
+          "cod": "BPM-CNP-102",
+          "prod": "Caño Pintado",
+          "long": 2350,
+          "cant": 2,
+          "peso": 28.92,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 28.92,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 28.92,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 28.92,
+          "literal": "BPM"
+        },
+        {
+          "item": 26,
+          "cod": "BPM-CNP-103",
+          "prod": "Caño Pintado",
+          "long": 2900,
+          "cant": 2,
+          "peso": 35.7,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 35.7,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 35.7,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 35.7,
+          "literal": "BPM"
+        },
+        {
+          "item": 27,
+          "cod": "BPM-ES-100",
+          "prod": "Escalera Metalica",
+          "long": 5058,
+          "cant": 1,
+          "peso": 330.07,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 330.07,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 330.07,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 330.07,
+          "literal": "BPM"
+        },
+        {
+          "item": 28,
+          "cod": "BPM-ES-101",
+          "prod": "Escalera Metalica",
+          "long": 8784,
+          "cant": 1,
+          "peso": 572.22,
+          "arm_lib": 0,
+          "arm_pend": 1,
+          "arm_pend_peso": 572.22,
+          "pint_ok": 0,
+          "pint_pend": 1,
+          "pint_pend_peso": 572.22,
+          "env_ok": 0,
+          "env_pend": 1,
+          "env_pend_peso": 572.22,
+          "literal": "BPM"
+        },
+        {
+          "item": 29,
+          "cod": "BPM-PL-100",
+          "prod": "Placa",
+          "long": 200,
+          "cant": 2,
+          "peso": 5.8,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 5.8,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 5.8,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 5.8,
+          "literal": "BPM"
+        },
+        {
+          "item": 30,
+          "cod": "BPM-PL-101",
+          "prod": "Placa",
+          "long": 200,
+          "cant": 2,
+          "peso": 2.4,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 2.4,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 2.4,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 2.4,
+          "literal": "BPM"
+        },
+        {
+          "item": 31,
+          "cod": "BPM-SP-100",
+          "prod": "SOPORTE",
+          "long": 190,
+          "cant": 2,
+          "peso": 16.46,
+          "arm_lib": 0,
+          "arm_pend": 2,
+          "arm_pend_peso": 16.46,
+          "pint_ok": 0,
+          "pint_pend": 2,
+          "pint_pend_peso": 16.46,
+          "env_ok": 0,
+          "env_pend": 2,
+          "env_pend_peso": 16.46,
+          "literal": "BPM"
+        },
+        {
+          "item": 32,
+          "cod": "BPM-SP-101",
+          "prod": "SOPORTE",
+          "long": 543,
+          "cant": 4,
+          "peso": 38.08,
+          "arm_lib": 0,
+          "arm_pend": 4,
+          "arm_pend_peso": 38.08,
+          "pint_ok": 0,
+          "pint_pend": 4,
+          "pint_pend_peso": 38.08,
+          "env_ok": 0,
+          "env_pend": 4,
+          "env_pend_peso": 38.08,
+          "literal": "BPM"
+        }
+      ],
+      "arm_pend_items": [
+        {
+          "cod": "BPM-BT-1",
+          "prod": "Bastidores",
+          "long": 1950,
+          "cant": 102,
+          "pend": 53
+        },
+        {
+          "cod": "BPM-ES-1",
+          "prod": "Escalera Metalica",
+          "long": 6966,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BPM-PL-2",
+          "prod": "Placa",
+          "long": 400,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BPM-SP-1",
+          "prod": "SOPORTE",
+          "long": 1200,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BPM-VPI-1",
+          "prod": "Viga Principal Alma Llena",
+          "long": 1800,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BPM-CL-200",
+          "prod": "Correas Laterales",
+          "long": 1510,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BPM-CL-201",
+          "prod": "Correas Laterales",
+          "long": 2610,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BPM-CNP-200",
+          "prod": "Caño Pintado",
+          "long": 2400,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BPM-CNP-201",
+          "prod": "Caño Pintado",
+          "long": 2200,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BPM-CNP-202",
+          "prod": "Caño Pintado",
+          "long": 2400,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BPM-PL-200",
+          "prod": "Placa",
+          "long": 250,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BPM-PL-201",
+          "prod": "Placa",
+          "long": 120,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BPM-PTC-200",
+          "prod": "Pilar Tubo Caño",
+          "long": 2390,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BPM-PTC-201",
+          "prod": "Pilar Tubo Caño",
+          "long": 2600,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BPM-PTC-202",
+          "prod": "Pilar Tubo Caño",
+          "long": 1700,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BPM-PTC-203",
+          "prod": "Pilar Tubo Caño",
+          "long": 1324,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BPM-SP-200",
+          "prod": "SOPORTE",
+          "long": 2360,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BPM-VTT-200",
+          "prod": "Viga de techo de tubos",
+          "long": 2336,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BPM-BR-100",
+          "prod": "Baranda - Unid.",
+          "long": 4023,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BPM-BR-101",
+          "prod": "Baranda - Unid.",
+          "long": 5376,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BPM-BR-102",
+          "prod": "Baranda - Unid.",
+          "long": 8871,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BPM-BR-103",
+          "prod": "Baranda - Unid.",
+          "long": 7783,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BPM-CNP-100",
+          "prod": "Caño Pintado",
+          "long": 900,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BPM-CNP-101",
+          "prod": "Caño Pintado",
+          "long": 900,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BPM-CNP-102",
+          "prod": "Caño Pintado",
+          "long": 2350,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BPM-CNP-103",
+          "prod": "Caño Pintado",
+          "long": 2900,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BPM-ES-100",
+          "prod": "Escalera Metalica",
+          "long": 5058,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BPM-ES-101",
+          "prod": "Escalera Metalica",
+          "long": 8784,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BPM-PL-100",
+          "prod": "Placa",
+          "long": 200,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BPM-PL-101",
+          "prod": "Placa",
+          "long": 200,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BPM-SP-100",
+          "prod": "SOPORTE",
+          "long": 190,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BPM-SP-101",
+          "prod": "SOPORTE",
+          "long": 543,
+          "cant": 4,
+          "pend": 4
+        }
+      ],
+      "pint_pend_items": [
+        {
+          "cod": "BPM-BT-1",
+          "prod": "Bastidores",
+          "long": 1950,
+          "cant": 102,
+          "pend": 102
+        },
+        {
+          "cod": "BPM-ES-1",
+          "prod": "Escalera Metalica",
+          "long": 6966,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BPM-PL-2",
+          "prod": "Placa",
+          "long": 400,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BPM-SP-1",
+          "prod": "SOPORTE",
+          "long": 1200,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BPM-VPI-1",
+          "prod": "Viga Principal Alma Llena",
+          "long": 1800,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BPM-CL-200",
+          "prod": "Correas Laterales",
+          "long": 1510,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BPM-CL-201",
+          "prod": "Correas Laterales",
+          "long": 2610,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BPM-CNP-200",
+          "prod": "Caño Pintado",
+          "long": 2400,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BPM-CNP-201",
+          "prod": "Caño Pintado",
+          "long": 2200,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BPM-CNP-202",
+          "prod": "Caño Pintado",
+          "long": 2400,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BPM-PL-200",
+          "prod": "Placa",
+          "long": 250,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BPM-PL-201",
+          "prod": "Placa",
+          "long": 120,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BPM-PTC-200",
+          "prod": "Pilar Tubo Caño",
+          "long": 2390,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BPM-PTC-201",
+          "prod": "Pilar Tubo Caño",
+          "long": 2600,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BPM-PTC-202",
+          "prod": "Pilar Tubo Caño",
+          "long": 1700,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BPM-PTC-203",
+          "prod": "Pilar Tubo Caño",
+          "long": 1324,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BPM-SP-200",
+          "prod": "SOPORTE",
+          "long": 2360,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BPM-VTT-200",
+          "prod": "Viga de techo de tubos",
+          "long": 2336,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BPM-BR-100",
+          "prod": "Baranda - Unid.",
+          "long": 4023,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BPM-BR-101",
+          "prod": "Baranda - Unid.",
+          "long": 5376,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BPM-BR-102",
+          "prod": "Baranda - Unid.",
+          "long": 8871,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BPM-BR-103",
+          "prod": "Baranda - Unid.",
+          "long": 7783,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BPM-CNP-100",
+          "prod": "Caño Pintado",
+          "long": 900,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BPM-CNP-101",
+          "prod": "Caño Pintado",
+          "long": 900,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BPM-CNP-102",
+          "prod": "Caño Pintado",
+          "long": 2350,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BPM-CNP-103",
+          "prod": "Caño Pintado",
+          "long": 2900,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BPM-ES-100",
+          "prod": "Escalera Metalica",
+          "long": 5058,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BPM-ES-101",
+          "prod": "Escalera Metalica",
+          "long": 8784,
+          "cant": 1,
+          "pend": 1
+        },
+        {
+          "cod": "BPM-PL-100",
+          "prod": "Placa",
+          "long": 200,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BPM-PL-101",
+          "prod": "Placa",
+          "long": 200,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BPM-SP-100",
+          "prod": "SOPORTE",
+          "long": 190,
+          "cant": 2,
+          "pend": 2
+        },
+        {
+          "cod": "BPM-SP-101",
+          "prod": "SOPORTE",
+          "long": 543,
           "cant": 4,
           "pend": 4
         }
